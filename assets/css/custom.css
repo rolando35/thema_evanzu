@@ -188,3 +188,19 @@
  
   font-weight: 700;
 }
+
+.texto{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  z-index: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: "Hurne Geometric Sans 4";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+
+}
