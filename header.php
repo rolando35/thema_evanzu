@@ -21,7 +21,7 @@
       </button>
       <?php 
           $menuraiola = array(
-            'menu'            => 'menu-principal',
+            'menu'            => ' ',
             'container'       => 'div',
             'container_class' => 'collapse navbar-collapse',
             'container_id'    => 'navbarResponsive',
@@ -37,7 +37,7 @@
             'item_spacing'    => 'preserve',
             'depth'           => 0,
             'walker'          => '',
-            'theme_location'  => '',
+            'theme_location'  => 'menu-principal',
         );
         wp_nav_menu($menuraiola);
 
