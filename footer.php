@@ -108,16 +108,21 @@
 
         </div>
         <div class="col-sm-3">
-
-             <?php wp_nav_menu( array( 'theme_location' => 'topbar') ); ?>
+             <?php wp_nav_menu(array( 'theme_location' => 'footer', 'menu_class' => 'navigation-main') ); ?>
+             <?php wp_nav_menu(array( 'theme_location' => 'redes-sociales' , 'menu_class' => 'navigation-social') ); ?>
         </div>
-        <div class="col-sm-3"></div>
-        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+            <?php wp_nav_menu( array( 'theme_location' => 'servicios', 'menu_class' => 'navigation-main ') ); ?>        
+        </div>
+        <div class="col-sm-3">
+
+        </div>
       </div>
     </div>
   </div>
-  <div class="bg-garnet py-3">
-    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+  <div class="bg-garnet text-center py-3 text-white">
+    <div class="footer-text">Evanzu - Agencia de Marketing y Publicidad - Lima/Perú</div>
+    <div >Copyright &copy; <?php bloginfo('name'); echo ' '.date('Y'); ?> </div>
   </div>
   <!-- /.container -->
 </footer>
