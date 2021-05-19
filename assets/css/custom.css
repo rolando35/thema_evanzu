@@ -16,6 +16,10 @@
   background: rgba(186, 0, 138, 0.4);
   background-blend-mode: multiply;
 }
+
+.bg-gray{
+  background-color: #595958;
+}
 /**Color de texto**/
 .text-red{
   color: #ed1164;
@@ -202,5 +206,40 @@
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0em;
+}
+
+#lef-ultimate-box{
+  background-image: url(../images/Mask-Group.png);
+ background-repeat: no-repeat;
 
 }
+
+/****RESPONSIVE****/
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+  #lef-ultimate-box {
+    height: 330px;
+  }
+
+  #icon-pink-background {
+    width: auto;
+    height: auto;
+  }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -109,7 +109,7 @@
         </div>
         <div class="col-sm-3">
 
-        <?php wp_nav_menu( array( ‘theme_location’ => ‘topbar’ ) ); ?>
+             <?php wp_nav_menu( array( 'theme_location' => 'topbar') ); ?>
         </div>
         <div class="col-sm-3"></div>
         <div class="col-sm-3"></div>
