@@ -93,7 +93,7 @@ Template Name: Home
             PORTAFOLIO
         </div>
         <div class="ladrillo mx-auto w-75">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-fifteen"]; ?>">
+           
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-one"]; ?>">
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-two"]; ?>">
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-three"]; ?>">
@@ -108,6 +108,7 @@ Template Name: Home
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-twelve"]; ?>">
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-thirteen"]; ?>">
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-fourteen"]; ?>">
+            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-fifteen"]; ?>">
         </div>
     </div>
 
