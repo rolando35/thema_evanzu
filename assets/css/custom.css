@@ -1,0 +1,161 @@
+
+/** Color de fondos**/
+.bg-gray {
+  background-color: #434041;
+}
+
+.bg-red {
+  background-color: #ed1164;
+}
+
+.bg-pink {
+  background-color: #F681AD;
+}
+
+.bg-garnet{
+  background: rgba(186, 0, 138, 0.4);
+  background-blend-mode: multiply;
+}
+/**Color de texto**/
+.text-red{
+  color: #ed1164;
+}
+
+.text-yellow {
+  color: #fbc000;
+}
+
+.text-test{
+  color: blue;
+}
+
+/** tipo de fuente ***/
+
+@font-face{
+  font-family: running-text;
+  src: url(../fonts/aaleyah-PERSONAL-USE-ONLY.otf);
+}
+
+@font-face{
+  font-family: hurme-simple;
+  src: url(../fonts/HurmeGeometricSans4.otf);
+}
+
+@font-face{
+  font-family: hurme-simple-black;
+  src: url(../fonts/HurmeGeometricSans4Black.otf);
+}
+
+.running-text{
+  font-family: running-text;
+  font-size: 56.6006px;
+}
+
+.hurme-simple{
+ 
+    font-family: hurme-simple-black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58.2644px;
+    line-height: 61px;
+    text-transform: uppercase;
+}
+
+
+.medium-subtitle-first{
+  font-family: hurme-simple;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 50%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.medium-subtitle-first-upper{
+  font-family:  hurme-simple;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.big-title{
+  font-family: hurme-simple-black;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 62.3886px;
+  line-height: 87px;
+}
+
+/**Titles**/
+.subtitle{
+  font-size: 62.3886px;
+}
+
+.navbar-dark .navbar-nav .nav-link a {
+  color: white;
+  text-decoration: none;
+}
+
+#first-block{
+  margin-bottom: -6px;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+#rectangle, #rectangle-inverse  { 
+  width: 90%;
+  background: #fff;
+ 
+}
+
+#rectangle-inverse {
+  border-radius: 0px 0px 30px 30px;
+}
+
+#rectangle{
+  height: 81px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+
+#box-masonry{
+  
+}
+
+.banner{
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+#image-line{
+  position: absolute;
+    width: 376px;
+    height: 109.47px;
+    right: 400px;
+    top: 8px;
+    transform: rotate(12.66deg);
+    z-index: 1;
+}
+
+#circle-background{
+  background-image: url(../images/yellow-circle.svg);
+  background-repeat: no-repeat;
+  background-position-x: 52%;
+  background-size: 49%;
+}
+
+
+#icon-pink-background{
+  width: 701px;
+  height: 254px;
+}
