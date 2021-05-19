@@ -2279,6 +2279,46 @@ Template Name: Home
         </div>
     </div>
 </section>
+<section>
+         
+<div class="mt-5 text-center">
+ 
+  <span  class="big-title text-red">¿Cómo lo hacemos?</span>
+      <p>Estamos comprometidos a ofrecer resultados 
+    <br>excepcionales y medibles</p> 
+</div>
+
+<div class="container-fluid">
+  <div class="row my-5 mx-5">
+    <div class="col-sm-3">
+      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-07-1.png" alt="2" width="266px" height="186px">
+      <div class="texto"><strong id="witheng" class="text-white">Cuéntanos tus necesidades y lo que</strong> <strong class="text-red" id="heading">quieres lograr.</strong></div>
+    </div>
+    <div class="col-sm-3">
+      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-08.png" alt="2" width="266px" height="186px">
+      <div class="texto"><strong id="heading2" class="text-gray">Analizaremos tu caso</strong> y la información del mercado.</div>
+    </div>
+    <div class="col-sm-3">
+    <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-09.png" alt="3" width="266px" height="186px"> 
+    <div class="texto"><strong id="witheng" class="text-white" >presentamos una propuesta con las</strong> <strong id="heading" class="text-red">soluciones más creativas</strong> <strong id="witheng" class="text-white">para conseguir tu objetivo.</strong></div>     
+    </div>
+    <div class="col-sm-3">
+      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-10.png" alt="4" width="266px" height="186px"> 
+      <div class="texto"><strong id="heading2" class="text-gray">Ejecutamos el plan</strong> con responsabilidad y profesionalismo.</div>     
+    </div>
+  </div>
+</div>
+<div class="container-fluid">  
+   <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="row mx-4 my-4">
+      <div class="col-sm-6" style="background-color:#434041;">Estamos<br>
+      comprometidos<br>A ofrecer<br>RESULTADOS EXCEPCIONALES<br> y medibles<br>Es momento de empezar,<br> Escribenos</div>
+      <div class="col-sm-6" style="background-color:white;"><img src="imagenes/Evanzu-16.jpg" alt="todos" width="500px" height="333px"></div>
+    </div>
+  </div>
+
+</div>
+</section>
 <script>
     jQuery(window).load(function() {
         jQuery('.ladrillo').masonry({
