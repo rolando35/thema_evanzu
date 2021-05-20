@@ -1,9 +1,9 @@
 <!-- Footer -->
 <footer class="bg-red">
   <div class="py-5">
-    <div class="container">
+    <div class="mx-5">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-2">
           <svg width="180" height="105" viewBox="0 0 180 105" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
               <path d="M88.2585 1.93716L88.2707 2.023L88.3566 2.01074L88.5282 1.96169L88.8226 1.90037L89.1169 1.85132L89.4112 1.79001L89.6932 1.71643L89.7791 1.70416H89.8526L89.8404 1.63059L89.6932 0.919337L89.681 0.833496L89.6196 0.858022L89.5338 0.870285L89.2395 0.919337L88.9452 0.980651L88.6386 1.04197L88.332 1.10328L88.1604 1.14007L88.0868 1.1646L88.099 1.22591L88.2585 1.93716Z" fill="white" />
@@ -108,29 +108,108 @@
 
         </div>
         <div class="col-sm-3">
-              <div class="text-yellow footer-title mx-auto mb-2">Menú</div>
-             <?php wp_nav_menu(array( 'theme_location' => 'footer', 'menu_class' => 'navigation-main') ); ?>
-             <div class="text-yellow footer-title mx-auto mb-2">Redes sociales</div>
-             <?php wp_nav_menu(array( 'theme_location' => 'redes-sociales' , 'menu_class' => 'navigation-social') ); ?>
+          <div class="text-yellow footer-title mx-auto mb-2">Menú</div>
+          <?php wp_nav_menu(array('theme_location' => 'footer', 'menu_class' => 'navigation-main')); ?>
+          <div class="text-yellow footer-title mx-auto mb-2">Redes sociales</div>
+          <?php wp_nav_menu(array('theme_location' => 'redes-sociales', 'menu_class' => 'navigation-social')); ?>
         </div>
         <div class="col-sm-3">
-           <div class="text-yellow footer-title mx-auto mb-2">Servicios</div>
-            <?php wp_nav_menu( array( 'theme_location' => 'servicios', 'menu_class' => 'navigation-main ') ); ?>     
-            <div class="text-yellow footer-title mx-auto mb-2">Blog</div>  
-              <div class="text-white">
-              Obtén información sobre la industria, las últimas tendencias, conoce nuestro proceso creativo y más.
+          <div class="text-yellow footer-title mx-auto mb-2">Servicios</div>
+          <?php wp_nav_menu(array('theme_location' => 'servicios', 'menu_class' => 'navigation-main ')); ?>
+          <div class="text-yellow footer-title mx-auto mb-2">Blog</div>
+          <div class="text-white footer-text">
+            Obtén información sobre la industria, las últimas tendencias, conoce nuestro proceso creativo y más.
+          </div>
+
+        </div>
+        <div class="col-sm-4">
+          <div class="text-yellow footer-title mx-auto mb-2">Nuestras sedes</div>
+          <div class="text-white footer-text">
+            <div>
+              Nuestra mente anda en el espacio, nuestros cuerpos aquí:
+            </div>
+            <div class="mt-3">
+              <div class="my-2">
+                Sede Lima
               </div>
-            
-        </div>
-        <div class="col-sm-3">
-        <div class="text-yellow footer-title mx-auto mb-2">Nuestras sedes</div>  
+              <div>
+                <div>
+                  <svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.67911 20.5502C8.52529 20.5502 8.36047 20.4843 8.23962 20.3635L2.83423 14.9581C-0.384846 11.739 -0.384846 6.48738 2.83423 3.26831C6.0533 0.0492353 11.3049 0.0492353 14.524 3.26831C17.7431 6.48738 17.7431 11.739 14.524 14.9581L9.1186 20.3635C8.99775 20.4953 8.83292 20.5502 8.67911 20.5502ZM8.67911 2.10372C6.8773 2.10372 5.08647 2.7849 3.71314 4.15822C0.977479 6.89389 0.977479 11.3544 3.71314 14.0901L8.67911 19.056L13.6451 14.0901C16.3807 11.3544 16.3807 6.89389 13.6451 4.15822C12.2717 2.7849 10.4699 2.10372 8.67911 2.10372Z" fill="#FBC000" />
+
+                  </svg>
+                  Ca. Enrique Barrón 310 Of. 1505 - Barranco
+                </div>
+
+                <div>
+                  <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.6233 19.8528H2.73488C1.25169 19.8528 0.0432129 18.6442 0.0432129 17.161V3.46076C0.0432129 1.97757 1.25169 0.769043 2.73488 0.769043H10.6233C12.1065 0.769043 13.315 1.97757 13.315 3.46076V17.161C13.315 18.6442 12.1065 19.8528 10.6233 19.8528ZM2.73488 2.01052C1.93285 2.01052 1.2847 2.65873 1.2847 3.46076V17.161C1.2847 17.9631 1.93285 18.6113 2.73488 18.6113H10.6233C11.4253 18.6113 12.0735 17.9631 12.0735 17.161V3.46076C12.0735 2.65873 11.4253 2.01052 10.6233 2.01052H2.73488Z" fill="#FBC000" />
+                  </svg>
+                  +51 991188119
+                </div>
+
+                <div>
+                  <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5566 14.9022H2.79033C1.31813 14.9022 0.131592 13.7047 0.131592 12.2434V3.45417C0.131592 1.98196 1.32911 0.79541 2.79033 0.79541H16.5566C18.0288 0.79541 19.2153 1.99295 19.2153 3.45417V12.2434C19.2153 13.7047 18.0288 14.9022 16.5566 14.9022ZM2.79033 2.0369C2.01028 2.0369 1.37308 2.67412 1.37308 3.45417V12.2434C1.37308 13.0235 2.01028 13.6607 2.79033 13.6607H16.5566C17.3366 13.6607 17.9738 13.0235 17.9738 12.2434V3.45417C17.9738 2.67412 17.3366 2.0369 16.5566 2.0369H2.79033Z" fill="#FBC000" />
+                    <path d="M9.87669 10.7502C9.74486 10.7502 9.61305 10.7063 9.50319 10.6184L2.44974 5.22396C2.17508 5.01522 2.12016 4.61971 2.32891 4.35603C2.53765 4.08137 2.93314 4.02643 3.19682 4.23518L9.8547 9.33296L16.1171 4.24616C16.3808 4.02643 16.7763 4.07037 16.996 4.33405C17.2157 4.59773 17.1718 4.99325 16.9081 5.21298L10.2722 10.6074C10.1623 10.7063 10.0195 10.7502 9.87669 10.7502Z" fill="#FBC000" />
+                    <path d="M3.44969 12.8259C3.29588 12.8259 3.13105 12.76 3.0102 12.6391C2.76849 12.3974 2.76849 12.0019 3.0102 11.7602L5.08668 9.68372C5.32839 9.44202 5.72389 9.44202 5.9656 9.68372C6.2073 9.92543 6.2073 10.3209 5.9656 10.5627L3.88911 12.6391C3.76826 12.771 3.61449 12.8259 3.44969 12.8259Z" fill="#FBC000" />
+                    <path d="M15.8974 12.8259C15.7436 12.8259 15.5788 12.76 15.458 12.6391L13.3815 10.5627C13.1398 10.3209 13.1398 9.92543 13.3815 9.68372C13.6232 9.44202 14.0187 9.44202 14.2604 9.68372L16.3369 11.7602C16.5786 12.0019 16.5786 12.3974 16.3369 12.6391C16.216 12.771 16.0622 12.8259 15.8974 12.8259Z" fill="#FBC000" />
+                  </svg>
+                  info@evanzu.com
+                </div>
+
+              </div>
+              <div>
+
+                <? echo get_option("evanzu")["generales-image"] ?>
+              </div>
+            </div>
+
+            <div>
+              <div class="my-3">
+                Sede Huancayo
+              </div>
+              <div>
+                <div>
+                  <svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.67911 20.5502C8.52529 20.5502 8.36047 20.4843 8.23962 20.3635L2.83423 14.9581C-0.384846 11.739 -0.384846 6.48738 2.83423 3.26831C6.0533 0.0492353 11.3049 0.0492353 14.524 3.26831C17.7431 6.48738 17.7431 11.739 14.524 14.9581L9.1186 20.3635C8.99775 20.4953 8.83292 20.5502 8.67911 20.5502ZM8.67911 2.10372C6.8773 2.10372 5.08647 2.7849 3.71314 4.15822C0.977479 6.89389 0.977479 11.3544 3.71314 14.0901L8.67911 19.056L13.6451 14.0901C16.3807 11.3544 16.3807 6.89389 13.6451 4.15822C12.2717 2.7849 10.4699 2.10372 8.67911 2.10372Z" fill="#FBC000" />
+
+                  </svg>
+                  Jr. Ancash 793 - Huancayo
+                </div>
+
+                <div>
+                  <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.6233 19.8528H2.73488C1.25169 19.8528 0.0432129 18.6442 0.0432129 17.161V3.46076C0.0432129 1.97757 1.25169 0.769043 2.73488 0.769043H10.6233C12.1065 0.769043 13.315 1.97757 13.315 3.46076V17.161C13.315 18.6442 12.1065 19.8528 10.6233 19.8528ZM2.73488 2.01052C1.93285 2.01052 1.2847 2.65873 1.2847 3.46076V17.161C1.2847 17.9631 1.93285 18.6113 2.73488 18.6113H10.6233C11.4253 18.6113 12.0735 17.9631 12.0735 17.161V3.46076C12.0735 2.65873 11.4253 2.01052 10.6233 2.01052H2.73488Z" fill="#FBC000" />
+                  </svg>
+                  +51 64-588860
+                </div>
+
+                <div>
+                  <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5566 14.9022H2.79033C1.31813 14.9022 0.131592 13.7047 0.131592 12.2434V3.45417C0.131592 1.98196 1.32911 0.79541 2.79033 0.79541H16.5566C18.0288 0.79541 19.2153 1.99295 19.2153 3.45417V12.2434C19.2153 13.7047 18.0288 14.9022 16.5566 14.9022ZM2.79033 2.0369C2.01028 2.0369 1.37308 2.67412 1.37308 3.45417V12.2434C1.37308 13.0235 2.01028 13.6607 2.79033 13.6607H16.5566C17.3366 13.6607 17.9738 13.0235 17.9738 12.2434V3.45417C17.9738 2.67412 17.3366 2.0369 16.5566 2.0369H2.79033Z" fill="#FBC000" />
+                    <path d="M9.87669 10.7502C9.74486 10.7502 9.61305 10.7063 9.50319 10.6184L2.44974 5.22396C2.17508 5.01522 2.12016 4.61971 2.32891 4.35603C2.53765 4.08137 2.93314 4.02643 3.19682 4.23518L9.8547 9.33296L16.1171 4.24616C16.3808 4.02643 16.7763 4.07037 16.996 4.33405C17.2157 4.59773 17.1718 4.99325 16.9081 5.21298L10.2722 10.6074C10.1623 10.7063 10.0195 10.7502 9.87669 10.7502Z" fill="#FBC000" />
+                    <path d="M3.44969 12.8259C3.29588 12.8259 3.13105 12.76 3.0102 12.6391C2.76849 12.3974 2.76849 12.0019 3.0102 11.7602L5.08668 9.68372C5.32839 9.44202 5.72389 9.44202 5.9656 9.68372C6.2073 9.92543 6.2073 10.3209 5.9656 10.5627L3.88911 12.6391C3.76826 12.771 3.61449 12.8259 3.44969 12.8259Z" fill="#FBC000" />
+                    <path d="M15.8974 12.8259C15.7436 12.8259 15.5788 12.76 15.458 12.6391L13.3815 10.5627C13.1398 10.3209 13.1398 9.92543 13.3815 9.68372C13.6232 9.44202 14.0187 9.44202 14.2604 9.68372L16.3369 11.7602C16.5786 12.0019 16.5786 12.3974 16.3369 12.6391C16.216 12.771 16.0622 12.8259 15.8974 12.8259Z" fill="#FBC000" />
+                  </svg>
+                  contacto@evanzu.com
+                </div>
+
+              </div>
+              <div>
+                <? echo get_option("evanzu")["generales-image"] ?>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="bg-garnet text-center py-3 text-white">
     <div class="footer-text">Evanzu - Agencia de Marketing y Publicidad - Lima/Perú</div>
-    <div >Copyright &copy; <?php bloginfo('name'); echo ' '.date('Y'); ?> </div>
+    <div>Copyright &copy; <?php bloginfo('name');
+                          echo ' ' . date('Y'); ?> </div>
   </div>
   <!-- /.container -->
 </footer>
@@ -139,4 +218,5 @@
 
 
 </body>
+
 </html>

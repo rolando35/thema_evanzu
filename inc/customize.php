@@ -302,6 +302,33 @@ function evanzu_customize_register($wp_customize)
     )));
 
 
+      /*********foooter********************** */
+
+      $wp_customize->add_section('generales', array(
+        'panel' =>'home_site',
+        'priority'             => 11,
+        'capability'         => 'edit_theme_options',
+        'title'                => "Generales",
+        'description'          => ''
+    ));
+
+    $wp_customize->add_setting('evanzu[generales-image]', array(
+       // 'default'           => get_template_directory_uri() . '/assets/images/slides/1_slider.png',
+        'capability'        => 'edit_theme_options',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control('general_control', array(
+        'label'      => "Dirección",
+        'section'    => 'generales',
+        'settings'   => 'evanzu[generales-image]',
+        'type'=> 'textarea'
+    ));
+
+   
+ 
+    
  
 }
 add_action('customize_register', 'evanzu_customize_register');

@@ -46,7 +46,7 @@
 
 @font-face {
   font-family: hurme-oblique;
-  src: url(../fonts/HurmeGeometricSans4Oblique);
+  src: url(../fonts/HurmeGeometricSans4Oblique.otf);
 }
 
 @font-face {
@@ -185,6 +185,16 @@
   letter-spacing: 0em;
 }
 
+#section-ous {
+  margin-top: 7%;
+}
+
+.caption {
+  height: 290px;
+  width: 290px;
+  border-radius: 50%;
+  background: white;
+}
 .container-fluid {
   position: relative;
   display: inline-block;
@@ -227,7 +237,7 @@
 .navigation-social li a {
   color: white;
   font-family: hurme-oblique;
-  
+
   font-size: 17.5786px;
 }
 
