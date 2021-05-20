@@ -108,14 +108,22 @@
 
         </div>
         <div class="col-sm-3">
+              <div class="text-yellow footer-title mx-auto mb-2">Menú</div>
              <?php wp_nav_menu(array( 'theme_location' => 'footer', 'menu_class' => 'navigation-main') ); ?>
+             <div class="text-yellow footer-title mx-auto mb-2">Redes sociales</div>
              <?php wp_nav_menu(array( 'theme_location' => 'redes-sociales' , 'menu_class' => 'navigation-social') ); ?>
         </div>
         <div class="col-sm-3">
-            <?php wp_nav_menu( array( 'theme_location' => 'servicios', 'menu_class' => 'navigation-main ') ); ?>        
+           <div class="text-yellow footer-title mx-auto mb-2">Servicios</div>
+            <?php wp_nav_menu( array( 'theme_location' => 'servicios', 'menu_class' => 'navigation-main ') ); ?>     
+            <div class="text-yellow footer-title mx-auto mb-2">Blog</div>  
+              <div class="text-white">
+              Obtén información sobre la industria, las últimas tendencias, conoce nuestro proceso creativo y más.
+              </div>
+            
         </div>
         <div class="col-sm-3">
-
+        <div class="text-yellow footer-title mx-auto mb-2">Nuestras sedes</div>  
         </div>
       </div>
     </div>
@@ -131,5 +139,4 @@
 
 
 </body>
-
 </html>
