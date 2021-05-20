@@ -45,6 +45,11 @@
 }
 
 @font-face {
+  font-family: hurme-oblique;
+  src: url(../fonts/HurmeGeometricSans4Oblique);
+}
+
+@font-face {
   font-family: hurme-simple-black;
   src: url(../fonts/HurmeGeometricSans4Black.otf);
 }
@@ -216,35 +221,46 @@
   background-image: url(../images/Mask-Group.png);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
+.navigation-main li a,
+.navigation-social li a {
+  color: white;
+  font-family: hurme-oblique;
+  
+  font-size: 17.5786px;
+}
 
+.navigation-main li {
+  padding: 0rem;
+}
 
-  .navigation-main li a ,.navigation-social li a {
-    color:white;
-    font-family: hurme-simple;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 17.5786px;
-  }
+.navigation-social li {
+  padding: 0rem 0.3rem;
+}
 
-  .navigation-main li{
-    padding: 0rem;
-  }
+.navigation-main li a:hover {
+  text-decoration: none;
+}
 
-  .navigation-social li{
-    padding: 0rem 0.3rem;
-  }
+.navigation-social li {
+  display: inline;
+}
 
-  .navigation-main li a:hover{
-    text-decoration: none;
-  }
+.footer-title {
+  font-family: hurme-bold;
+  font-size: 24.1705px;
+  font-style: normal;
+  font-weight: bold;
+  width: 75%;
+}
 
-  .navigation-social li{
-    display: inline;
-  }
-
+.footer-text {
+  font-family: hurme-oblique;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17.5786px;
+}
 /****RESPONSIVE****/
 
 /* Extra small devices (phones, 600px and down) */
