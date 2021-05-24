@@ -1,0 +1,1625 @@
+auction
+{
+	"ns" : "covende.auction",
+	"size" : 483,
+	"count" : 1,
+	"avgObjSize" : 483,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493121, 3),
+		"signature" : {
+			"hash" : BinData(0,"VRWYKVxpgXhlCSnfaN4zyLgqK1k="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493121, 3)
+}
+---
+auction_time
+{
+	"ns" : "covende.auction_time",
+	"size" : 79,
+	"count" : 1,
+	"avgObjSize" : 79,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493121, 6),
+		"signature" : {
+			"hash" : BinData(0,"VRWYKVxpgXhlCSnfaN4zyLgqK1k="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493121, 6)
+}
+---
+bank
+{
+	"ns" : "covende.bank",
+	"size" : 1190,
+	"count" : 12,
+	"avgObjSize" : 99,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493121, 7),
+		"signature" : {
+			"hash" : BinData(0,"VRWYKVxpgXhlCSnfaN4zyLgqK1k="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493121, 7)
+}
+---
+banner_categoryproduct
+{
+	"ns" : "covende.banner_categoryproduct",
+	"size" : 2591,
+	"count" : 9,
+	"avgObjSize" : 287,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493121, 7),
+		"signature" : {
+			"hash" : BinData(0,"VRWYKVxpgXhlCSnfaN4zyLgqK1k="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493121, 7)
+}
+---
+banner_createstore
+{
+	"ns" : "covende.banner_createstore",
+	"size" : 1013,
+	"count" : 4,
+	"avgObjSize" : 253,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493121, 7),
+		"signature" : {
+			"hash" : BinData(0,"VRWYKVxpgXhlCSnfaN4zyLgqK1k="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493121, 7)
+}
+---
+banner_home
+{
+	"ns" : "covende.banner_home",
+	"size" : 1234,
+	"count" : 5,
+	"avgObjSize" : 246,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493121, 8),
+		"signature" : {
+			"hash" : BinData(0,"VRWYKVxpgXhlCSnfaN4zyLgqK1k="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493121, 8)
+}
+---
+banner_login
+{
+	"ns" : "covende.banner_login",
+	"size" : 717,
+	"count" : 3,
+	"avgObjSize" : 239,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493121, 8),
+		"signature" : {
+			"hash" : BinData(0,"VRWYKVxpgXhlCSnfaN4zyLgqK1k="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493121, 8)
+}
+---
+banner_offer
+{
+	"ns" : "covende.banner_offer",
+	"size" : 0,
+	"count" : 0,
+	"storageSize" : 12288,
+	"freeStorageSize" : 4096,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 12288,
+	"totalSize" : 24576,
+	"indexSizes" : {
+		"_id_" : 12288
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 2),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 2)
+}
+---
+banner_webpublic
+{
+	"ns" : "covende.banner_webpublic",
+	"size" : 1406,
+	"count" : 5,
+	"avgObjSize" : 281,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 69632,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 3),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 3)
+}
+---
+brand
+{
+	"ns" : "covende.brand",
+	"size" : 839,
+	"count" : 7,
+	"avgObjSize" : 119,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 3),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 3)
+}
+---
+categoryRateCommission
+{
+	"ns" : "covende.categoryRateCommission",
+	"size" : 427,
+	"count" : 2,
+	"avgObjSize" : 213,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 5),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 5)
+}
+---
+category_product
+{
+	"ns" : "covende.category_product",
+	"size" : 5878,
+	"count" : 21,
+	"avgObjSize" : 279,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 5),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 5)
+}
+---
+cats
+{
+	"ns" : "covende.cats",
+	"size" : 45,
+	"count" : 1,
+	"avgObjSize" : 45,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 7),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 7)
+}
+---
+coin_type
+{
+	"ns" : "covende.coin_type",
+	"size" : 328,
+	"count" : 3,
+	"avgObjSize" : 109,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 7),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 7)
+}
+---
+comment
+{
+	"ns" : "covende.comment",
+	"size" : 73,
+	"count" : 1,
+	"avgObjSize" : 73,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 7),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 7)
+}
+---
+company_type
+{
+	"ns" : "covende.company_type",
+	"size" : 528,
+	"count" : 6,
+	"avgObjSize" : 88,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 7),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 7)
+}
+---
+complaintsBook
+{
+	"ns" : "covende.complaintsBook",
+	"size" : 629,
+	"count" : 1,
+	"avgObjSize" : 629,
+	"storageSize" : 20480,
+	"freeStorageSize" : 0,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 20480,
+	"totalSize" : 40960,
+	"indexSizes" : {
+		"_id_" : 20480
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 7),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 7)
+}
+---
+corporation
+{
+	"ns" : "covende.corporation",
+	"size" : 2917,
+	"count" : 20,
+	"avgObjSize" : 145,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493122, 7),
+		"signature" : {
+			"hash" : BinData(0,"5V+7VnGRW+kF9v3YHHMdqSWN7P8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493122, 7)
+}
+---
+coupon
+{
+	"ns" : "covende.coupon",
+	"size" : 368,
+	"count" : 2,
+	"avgObjSize" : 184,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493123, 2),
+		"signature" : {
+			"hash" : BinData(0,"YPdPtLZKzRE2++L7OK+bRstuB1U="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493123, 2)
+}
+---
+coupon_type
+{
+	"ns" : "covende.coupon_type",
+	"size" : 567,
+	"count" : 6,
+	"avgObjSize" : 94,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493123, 4),
+		"signature" : {
+			"hash" : BinData(0,"YPdPtLZKzRE2++L7OK+bRstuB1U="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493123, 4)
+}
+---
+customer
+{
+	"ns" : "covende.customer",
+	"size" : 2376,
+	"count" : 6,
+	"avgObjSize" : 396,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 36864,
+	"totalSize" : 73728,
+	"indexSizes" : {
+		"_id_" : 36864
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493123, 5),
+		"signature" : {
+			"hash" : BinData(0,"YPdPtLZKzRE2++L7OK+bRstuB1U="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493123, 5)
+}
+---
+customer_payment_method
+{
+	"ns" : "covende.customer_payment_method",
+	"size" : 189,
+	"count" : 1,
+	"avgObjSize" : 189,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493123, 5),
+		"signature" : {
+			"hash" : BinData(0,"YPdPtLZKzRE2++L7OK+bRstuB1U="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493123, 5)
+}
+---
+delivery_term
+{
+	"ns" : "covende.delivery_term",
+	"size" : 83,
+	"count" : 1,
+	"avgObjSize" : 83,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493123, 5),
+		"signature" : {
+			"hash" : BinData(0,"YPdPtLZKzRE2++L7OK+bRstuB1U="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493123, 5)
+}
+---
+methodPayment
+{
+	"ns" : "covende.methodPayment",
+	"size" : 128,
+	"count" : 1,
+	"avgObjSize" : 128,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493123, 5),
+		"signature" : {
+			"hash" : BinData(0,"YPdPtLZKzRE2++L7OK+bRstuB1U="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493123, 5)
+}
+---
+oauth_access_tokens
+{
+	"ns" : "covende.oauth_access_tokens",
+	"size" : 132,
+	"count" : 1,
+	"avgObjSize" : 132,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493124, 1),
+		"signature" : {
+			"hash" : BinData(0,"sLYtohJaqcK0uced59MGmHq31Lg="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493124, 1)
+}
+---
+order
+{
+	"ns" : "covende.order",
+	"size" : 8562,
+	"count" : 12,
+	"avgObjSize" : 713,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493124, 1),
+		"signature" : {
+			"hash" : BinData(0,"sLYtohJaqcK0uced59MGmHq31Lg="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493124, 1)
+}
+---
+order_state
+{
+	"ns" : "covende.order_state",
+	"size" : 355,
+	"count" : 3,
+	"avgObjSize" : 118,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493124, 3),
+		"signature" : {
+			"hash" : BinData(0,"sLYtohJaqcK0uced59MGmHq31Lg="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493124, 3)
+}
+---
+order_type
+{
+	"ns" : "covende.order_type",
+	"size" : 849,
+	"count" : 7,
+	"avgObjSize" : 121,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493124, 5),
+		"signature" : {
+			"hash" : BinData(0,"sLYtohJaqcK0uced59MGmHq31Lg="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493124, 5)
+}
+---
+password_resets
+{
+	"ns" : "covende.password_resets",
+	"size" : 76,
+	"count" : 1,
+	"avgObjSize" : 76,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493124, 7),
+		"signature" : {
+			"hash" : BinData(0,"sLYtohJaqcK0uced59MGmHq31Lg="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493124, 7)
+}
+---
+payment_method
+{
+	"ns" : "covende.payment_method",
+	"size" : 84,
+	"count" : 1,
+	"avgObjSize" : 84,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493124, 7),
+		"signature" : {
+			"hash" : BinData(0,"sLYtohJaqcK0uced59MGmHq31Lg="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493124, 7)
+}
+---
+payment_status
+{
+	"ns" : "covende.payment_status",
+	"size" : 78,
+	"count" : 1,
+	"avgObjSize" : 78,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493125, 1),
+		"signature" : {
+			"hash" : BinData(0,"Zp1sDhU9/W577yjIBOsVnQ+pqj0="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493125, 1)
+}
+---
+permission
+{
+	"ns" : "covende.permission",
+	"size" : 1522,
+	"count" : 9,
+	"avgObjSize" : 169,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493125, 1),
+		"signature" : {
+			"hash" : BinData(0,"Zp1sDhU9/W577yjIBOsVnQ+pqj0="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493125, 1)
+}
+---
+plan
+{
+	"ns" : "covende.plan",
+	"size" : 1816,
+	"count" : 11,
+	"avgObjSize" : 165,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493125, 1),
+		"signature" : {
+			"hash" : BinData(0,"Zp1sDhU9/W577yjIBOsVnQ+pqj0="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493125, 1)
+}
+---
+platform
+{
+	"ns" : "covende.platform",
+	"size" : 248,
+	"count" : 2,
+	"avgObjSize" : 124,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 69632,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493125, 2),
+		"signature" : {
+			"hash" : BinData(0,"Zp1sDhU9/W577yjIBOsVnQ+pqj0="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493125, 2)
+}
+---
+product
+{
+	"ns" : "covende.product",
+	"size" : 154419,
+	"count" : 111,
+	"avgObjSize" : 1391,
+	"storageSize" : 118784,
+	"freeStorageSize" : 53248,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 36864,
+	"totalSize" : 155648,
+	"indexSizes" : {
+		"_id_" : 36864
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493125, 4),
+		"signature" : {
+			"hash" : BinData(0,"Zp1sDhU9/W577yjIBOsVnQ+pqj0="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493125, 4)
+}
+---
+product_attribute
+{
+	"ns" : "covende.product_attribute",
+	"size" : 400,
+	"count" : 3,
+	"avgObjSize" : 133,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493125, 5),
+		"signature" : {
+			"hash" : BinData(0,"Zp1sDhU9/W577yjIBOsVnQ+pqj0="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493125, 5)
+}
+---
+product_color
+{
+	"ns" : "covende.product_color",
+	"size" : 75,
+	"count" : 1,
+	"avgObjSize" : 75,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493125, 5),
+		"signature" : {
+			"hash" : BinData(0,"Zp1sDhU9/W577yjIBOsVnQ+pqj0="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493125, 5)
+}
+---
+product_model
+{
+	"ns" : "covende.product_model",
+	"size" : 473,
+	"count" : 4,
+	"avgObjSize" : 118,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493125, 6),
+		"signature" : {
+			"hash" : BinData(0,"Zp1sDhU9/W577yjIBOsVnQ+pqj0="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493125, 6)
+}
+---
+product_origin
+{
+	"ns" : "covende.product_origin",
+	"size" : 525,
+	"count" : 5,
+	"avgObjSize" : 105,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 69632,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 1),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 1)
+}
+---
+product_state
+{
+	"ns" : "covende.product_state",
+	"size" : 274,
+	"count" : 3,
+	"avgObjSize" : 91,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 2),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 2)
+}
+---
+rating
+{
+	"ns" : "covende.rating",
+	"size" : 369,
+	"count" : 3,
+	"avgObjSize" : 123,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 36864,
+	"totalSize" : 73728,
+	"indexSizes" : {
+		"_id_" : 36864
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 2),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 2)
+}
+---
+rating_state
+{
+	"ns" : "covende.rating_state",
+	"size" : 261,
+	"count" : 3,
+	"avgObjSize" : 87,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 2),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 2)
+}
+---
+role
+{
+	"ns" : "covende.role",
+	"size" : 578,
+	"count" : 2,
+	"avgObjSize" : 289,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 36864,
+	"totalSize" : 73728,
+	"indexSizes" : {
+		"_id_" : 36864
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 2),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 2)
+}
+---
+shipping_type
+{
+	"ns" : "covende.shipping_type",
+	"size" : 980,
+	"count" : 7,
+	"avgObjSize" : 140,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 4),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 4)
+}
+---
+shopping_cart
+{
+	"ns" : "covende.shopping_cart",
+	"size" : 1346,
+	"count" : 3,
+	"avgObjSize" : 448,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 69632,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 4),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 4)
+}
+---
+shopping_cart_status
+{
+	"ns" : "covende.shopping_cart_status",
+	"size" : 729,
+	"count" : 7,
+	"avgObjSize" : 104,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 5),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 5)
+}
+---
+society_type
+{
+	"ns" : "covende.society_type",
+	"size" : 631,
+	"count" : 5,
+	"avgObjSize" : 126,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493126, 6),
+		"signature" : {
+			"hash" : BinData(0,"j6yTOe9zPvgDtb6yEtDqhOmqY1I="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493126, 6)
+}
+---
+store
+{
+	"ns" : "covende.store",
+	"size" : 38221,
+	"count" : 47,
+	"avgObjSize" : 813,
+	"storageSize" : 36864,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 69632,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 2),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 2)
+}
+---
+subcategory_product
+{
+	"ns" : "covende.subcategory_product",
+	"size" : 8734,
+	"count" : 51,
+	"avgObjSize" : 171,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 2),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 2)
+}
+---
+tax
+{
+	"ns" : "covende.tax",
+	"size" : 152,
+	"count" : 1,
+	"avgObjSize" : 152,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 69632,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 2),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 2)
+}
+---
+ubigeo
+{
+	"ns" : "covende.ubigeo",
+	"size" : 51593,
+	"count" : 567,
+	"avgObjSize" : 90,
+	"storageSize" : 45056,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 36864,
+	"totalSize" : 81920,
+	"indexSizes" : {
+		"_id_" : 36864
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 3),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 3)
+}
+---
+ubigeoDepartamento
+{
+	"ns" : "covende.ubigeoDepartamento",
+	"size" : 1334,
+	"count" : 25,
+	"avgObjSize" : 53,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 5),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 5)
+}
+---
+ubigeoDistrito
+{
+	"ns" : "covende.ubigeoDistrito",
+	"size" : 197437,
+	"count" : 1874,
+	"avgObjSize" : 105,
+	"storageSize" : 94208,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 45056,
+	"totalSize" : 139264,
+	"indexSizes" : {
+		"_id_" : 45056
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 5),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 5)
+}
+---
+ubigeoProvincia
+{
+	"ns" : "covende.ubigeoProvincia",
+	"size" : 15739,
+	"count" : 196,
+	"avgObjSize" : 80,
+	"storageSize" : 36864,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 69632,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 5),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 5)
+}
+---
+user
+{
+	"ns" : "covende.user",
+	"size" : 1202,
+	"count" : 3,
+	"avgObjSize" : 400,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 36864,
+	"totalSize" : 73728,
+	"indexSizes" : {
+		"_id_" : 36864
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 5),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 5)
+}
+---
+user_session
+{
+	"ns" : "covende.user_session",
+	"size" : 140,
+	"count" : 1,
+	"avgObjSize" : 140,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493127, 5),
+		"signature" : {
+			"hash" : BinData(0,"CyypEA8F9Ih2n7Zt8tgwVnteuB8="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493127, 5)
+}
+---
+voucher_type
+{
+	"ns" : "covende.voucher_type",
+	"size" : 59,
+	"count" : 1,
+	"avgObjSize" : 59,
+	"storageSize" : 32768,
+	"freeStorageSize" : 12288,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 32768,
+	"totalSize" : 65536,
+	"indexSizes" : {
+		"_id_" : 32768
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493128, 4),
+		"signature" : {
+			"hash" : BinData(0,"p8qdYRupWQfX7o0mcsUZEyte6GU="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493128, 4)
+}
+---
+wish_list
+{
+	"ns" : "covende.wish_list",
+	"size" : 504,
+	"count" : 6,
+	"avgObjSize" : 84,
+	"storageSize" : 36864,
+	"freeStorageSize" : 16384,
+	"capped" : false,
+	"nindexes" : 1,
+	"indexBuilds" : [ ],
+	"totalIndexSize" : 36864,
+	"totalSize" : 73728,
+	"indexSizes" : {
+		"_id_" : 36864
+	},
+	"scaleFactor" : 1,
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1617493128, 4),
+		"signature" : {
+			"hash" : BinData(0,"p8qdYRupWQfX7o0mcsUZEyte6GU="),
+			"keyId" : NumberLong("6905108085300264962")
+		}
+	},
+	"operationTime" : Timestamp(1617493128, 4)
+}
+---
+
+
