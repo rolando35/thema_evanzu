@@ -19,6 +19,10 @@
 .bg-gray {
   background-color: #595958;
 }
+
+.bg-yellow{
+  background-color: #FBC000
+}
 /**Color de texto**/
 .text-red {
   color: #ed1164;
@@ -103,6 +107,10 @@
 /**Titles**/
 .subtitle {
   font-size: 62.3886px;
+}
+
+.w-90{
+  width: 90%;
 }
 
 .footer-text {
@@ -271,6 +279,28 @@
   font-weight: normal;
   font-size: 17.5786px;
 }
+
+/**** Marketing Digital ****/
+
+.float-rectangle-banner{
+   position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 16;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+
+
+
+
+
+
 /****RESPONSIVE****/
 
 /* Extra small devices (phones, 600px and down) */

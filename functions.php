@@ -15,24 +15,18 @@ add_action('wp_enqueue_scripts', 'bootstrap_css');
 
 
 // Incluir Bootstrap JS y dependencia popper
-function bootstrap_js()
-{
-	wp_enqueue_script(
-		'popper_js',
-		'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js',
-		array(),
-		'1.16.0',
-		true
-	);
-	wp_enqueue_script(
-		'bootstrap_js',
-		'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js',
-		array('jquery', 'popper_js'),
-		'4.5.2',
-		true
-	);
+function enqueue_load_bootstrap() {
+
+    // Add popper js
+    wp_register_script( 'popper-js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', ['jquery'], NULL, true );
+    wp_enqueue_script( 'popper-js' );
+
+    // Add bootstrap js
+    wp_register_script( 'bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', ['jquery'], NULL, true );
+    wp_enqueue_script( 'bootstrap-js' );
 }
-add_action('wp_enqueue_scripts', 'bootstrap_js');
+
+add_action( 'wp_enqueue_scripts', 'enqueue_load_bootstrap' );
 
 
 add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );

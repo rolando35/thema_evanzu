@@ -3,7 +3,7 @@
   <div class="py-5">
     <div class="mx-5">
       <div class="row">
-        <div class="col-sm-2">
+        <div class="col-sm-2 col-12">
           <svg width="180" height="105" viewBox="0 0 180 105" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
               <path d="M88.2585 1.93716L88.2707 2.023L88.3566 2.01074L88.5282 1.96169L88.8226 1.90037L89.1169 1.85132L89.4112 1.79001L89.6932 1.71643L89.7791 1.70416H89.8526L89.8404 1.63059L89.6932 0.919337L89.681 0.833496L89.6196 0.858022L89.5338 0.870285L89.2395 0.919337L88.9452 0.980651L88.6386 1.04197L88.332 1.10328L88.1604 1.14007L88.0868 1.1646L88.099 1.22591L88.2585 1.93716Z" fill="white" />
@@ -107,7 +107,7 @@
           </svg>
 
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-12">
           <div class="text-yellow footer-title mx-auto mb-2">Menú</div>
           <?php wp_nav_menu(array('theme_location' => 'footer', 'menu_class' => 'navigation-main')); ?>
           <div class="text-yellow footer-title mx-auto mb-2">Redes sociales</div>
@@ -122,7 +122,7 @@
           </div>
 
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-12">
           <div class="text-yellow footer-title mx-auto mb-2">Nuestras sedes</div>
           <div class="text-white footer-text">
             <div>
@@ -215,8 +215,9 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -2363,6 +2363,8 @@ Template Name: Home
 
 
 </section>
+
+
 <script>
     jQuery(window).load(function() {
         jQuery('.ladrillo').masonry({
