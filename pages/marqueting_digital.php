@@ -70,7 +70,8 @@ get_header();
         <!-- Tab panes -->
         <div class="tab-content">
             <div id="home" class="container tab-pane active"><br>
-                <div class="big-title text-red my-4 ">
+               <div class="bg-faint-gray">
+                <div class="big-title text-red my-4 text-center">
                     Publicidad Digital
                 </div>
                 <div class="container">
@@ -111,6 +112,61 @@ get_header();
 
                           </div>
                     </div>
+                </div>
+                </div>
+                <div>
+                     <div class="big-title text-red my-4 text-center">
+                       El servicio incluye:
+                     </div>
+                     <div>
+                         <div class="d-flex justify-content-center">
+                             <div>  
+                                 <div class="mb-1">
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/first-icon-service.svg"></div>
+                                          <div class="d-inline-block ml-1">
+                                              Plan de medios digitales <br>
+                                               (definir los canales con los  <br> que tu público interactúa)
+                                        </div>   
+                                   </div> 
+                                    <div class="ml-5">
+                                        <img  class="pl-2" src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg">
+                                    </div>
+                                   
+                             </div>
+                             <div> 
+                                <div> 
+                                    <svg width="10" height="119" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
+                                    </svg>
+                                 </div> 
+                                 <div>
+                                     <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
+                                      </svg>
+                                 </div>
+                                 <div>
+                                      <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
+                                      </svg>
+                                 </div>
+                              </div>
+                             <div>
+                                   <div class="mb-1">         
+                                          <div class="d-inline-block ml-1">
+                                              Plan de medios digitales <br>
+                                               (definir los canales con los  <br> que tu público interactúa)
+                                        </div> 
+                                          <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/secon-icon-righ.svg"></div>  
+                                   </div> 
+
+                                 <div>
+                                     <svg width="290" height="26" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1" stroke="#FBC000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+                                        </svg>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
                 </div>
             </div>
             <div id="menu1" class="container tab-pane fade"><br>
