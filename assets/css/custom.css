@@ -1,4 +1,5 @@
 /** Color de fondos**/
+
 .bg-gray {
   background-color: #434041;
 }
@@ -20,6 +21,9 @@
   background-color: #595958;
 }
 
+.bg-pink-form {
+  background-color: #fd73a7;
+}
 .bg-faint-gray {
   background-color: #e5e5e5;
 }
