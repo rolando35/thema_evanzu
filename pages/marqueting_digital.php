@@ -50,8 +50,8 @@ get_header();
     </div>
 
 </section>
-<section class="bg-yellow  d-flex justify-content-center">
-    <div class="bg-white w-90">
+<section>
+    <div class="bg-white">
         <div class="mx-auto w-50">
             <ul class="nav nav-pills" role="tablist">
                 <li class="nav-item">
@@ -69,7 +69,7 @@ get_header();
 
         <!-- Tab panes -->
         <div class="tab-content">
-            <div id="home" class="container tab-pane active"><br>
+            <div id="home" class="tab-pane active"><br>
                <div class="bg-faint-gray">
                 <div class="big-title text-red my-4 text-center">
                     Publicidad Digital
@@ -135,7 +135,7 @@ get_header();
                              </div>
                              <div> 
                                 <div> 
-                                    <svg width="10" height="119" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                                       <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
                                     </svg>
                                  </div> 
@@ -151,22 +151,140 @@ get_header();
                                  </div>
                               </div>
                              <div>
-                                   <div class="mb-1">         
+                                   <div class="mb-1 mt-5">         
                                           <div class="d-inline-block ml-1">
-                                              Plan de medios digitales <br>
-                                               (definir los canales con los  <br> que tu público interactúa)
+                                            Definir el <strong>formato </strong> <br> de <strong>publicidad</strong> adecuado.
                                         </div> 
-                                          <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/secon-icon-righ.svg"></div>  
+                                          <div class="d-inline-block ml-4"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/secon-icon-righ.svg"></div>  
                                    </div> 
 
-                                 <div>
-                                     <svg width="290" height="26" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <div >
+                                     <svg width="290" height="23" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1" stroke="#FBC000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
                                         </svg>
                                  </div>
                              </div>
                          </div>
+
+                        <div class="d-flex justify-content-center">
+                            <div>  
+                                <div class="mb-1">
+                                    <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/contain-define.svg"></div>
+                                        <div class="d-inline-block ml-1">
+                                        <strong> Definición de contenidos <br> publicitarios</strong>  (Mensaje y <br> gráfica o audiovisual).
+                                    </div>   
+                                </div> 
+                                <div class="ml-5">
+                                    <img  class="pl-2" src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg">
+                                </div>
+                                
+                            </div>
+                            <div> 
+                            <div> 
+                                <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
+                                </svg>
+                                </div> 
+                                <div>
+                                    <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mb-1 mt-3">         
+                                        <div class="d-inline-block ml-1">
+                                        <strong>Despliegue y configuración <br> de la campaña en la </strong>  <br>plataforma seleccionada.
+                                    </div> 
+                                        <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/deploy-configuration.svg"></div>  
+                                </div> 
+
+                                <div >
+                                    <svg width="290" height="24" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1" stroke="#FBC000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            
+
+
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <div>  
+                                <div class="mb-1">
+                                    <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/rocket-optimisation.svg"></div>
+                                        <div class="d-inline-block ml-2">
+                                                <strong>Optimización</strong>  de la <br>campaña. 
+                                        </div>   
+                                </div> 
+                                    <div class="ml-5">
+                                        <img  class="pl-2" src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg">
+                                    </div>
+                                
+                            </div>
+                            <div> 
+                                <div> 
+                                    <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
+                                    </svg>
+                                </div> 
+                                <div>
+                                    <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="ml-5 mt-5">         
+                                        <div class="d-inline-block ml-1 mr-5">
+                                        <strong>Reportes <br> periódicos.</strong> 
+                                        </div> 
+                                        <div class="d-inline-block ml-5"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/periodic-reports.svg"></div>  
+                                </div> 
+
+                                <div >
+                                    <svg width="290" height="24" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1" stroke="#FBC000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+                                        </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                         
+                         <div class="d-flex justify-content-center">
+                               
+                              <div class="d-inline-block ml-5"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/root-tree.svg"></div>  
+                        </div>
                      </div>
+                </div>
+                <div class="bg-red">
+                           <div class="bg-pink-form rounded">
+                               <div class="big-title text-white text-center"> Define tu presupuesto</div>
+
+                                 <div class="bg-white mx-5 px-5 rounded-pill">
+                                      <div class="d-inline-block w-75"> 
+                                            <div class="input-group">
+                                           
+                                            <input type="text" placeholder="Sitio Web" class="form-control">
+                                            <input type="text" placeholder="E-mail" class="form-control">
+                                            </div>
+                                      </div>
+                                      <div class="d-inline-block"><button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm">Solicita tu cotización</button> </div>
+                                 </div>
+           
+                            </div>   
                 </div>
             </div>
             <div id="menu1" class="container tab-pane fade"><br>
