@@ -73,6 +73,7 @@ function bps_masonry()
 
 add_action('wp_enqueue_scripts', 'bps_masonry');
 
+
 add_theme_support('post-thumbnails');
 function setup_types()
 {
