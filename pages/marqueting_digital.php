@@ -109,7 +109,7 @@ get_header();
                           <div class="col-sm-6">
 
                             <div class="my-3">
-                            Atrae_update a tu próximo comprador con publicidad en canales digitales.
+                            Atrae a tu próximo comprador con publicidad en canales digitales.
                             </div>
                               <p class="text-justify">
                                    Atrae a tu próximo comprador con publicidad en canales digitales.
@@ -318,6 +318,7 @@ get_header();
 <section>
       <div class="big-title text-red my-4 text-center">
          PORTAFOLIO
+         PORTAFOLIO avanzado
       </div> 
         <div>
                  <div class="container" style="margin-top:5rem">
