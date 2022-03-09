@@ -2,8 +2,408 @@
 /* 
     Template Name: AudioVisual
 */
-
+$transparentNone = true;
 get_header();
 
 ?>
-<h1>Hello world</h1>
+<style>
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+/* h1 {
+  letter-spacing: 8px;
+} */
+
+.two-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.two-elements > svg {
+    margin-bottom: 1.2rem;
+    margin-left: 0.6rem;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.text-paragraph {
+    font-family: Hurme Geometric Sans 4;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 115px;
+    margin: 0;
+    margin-bottom: -20px;
+}
+
+.text-paragraph-small {
+    font-size: 84.6404px;
+    font-family: Hurme Geometric Sans 4;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    padding-top: 11.5rem;
+    padding-bottom: 13.8rem;
+}
+.line-h{
+    width: 4.9rem;
+    height: 0.2rem;
+    background: #ED1164;
+    border-radius: 10px;
+}
+
+.points-line-position {
+    position: absolute;
+    margin-left: -10px;
+    z-index: 1;
+}
+</style>
+<section>
+
+
+<div class="view" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/portada 2.png'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 100vh;">
+
+<div class="mask rgba-black-light align-items-center">
+  
+  <div class="container">
+    <div class="row">
+      
+      <div class="contain mb-4 text-center">
+        <h1 style="font-family: running-text;
+            font-size: 60px; line-height: 119px; color: #FFFFFF;
+            margin-bottom: -70px;
+        " data-wow-delay="0.3s">Genera impacto</h1>
+        <p class="text-paragraph text-uppercase" data-wow-delay="0.3s">Audio</p>
+        <div class='two-elements'>
+            <p class="text-paragraph-small text-uppercase">visual</p>
+            <svg width="58" height="64" viewBox="0 0 58 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M57.9974 20.5832C57.9974 19.7822 57.3321 19.132 56.5191 19.132H48.0457L53.7474 26.0184H46.6229L40.9212 19.132H35.3409L41.0426 26.0184H33.9234L28.2163 19.132H22.636L28.3404 26.0184H21.2159L15.5115 19.1347H9.93121L15.6356 26.0184H8.51105L3.34783 19.7848L7.99897 11L1.14634 12.5421C0.351793 12.7216 -0.144488 13.4992 0.0376505 14.2793L1.1648 19.1398C1.20968 19.3349 1.29416 19.5117 1.40502 19.6652C1.19649 19.9148 1.06449 20.2321 1.06449 20.5832V25.5685C1.06449 26.1198 1.37863 26.5931 1.83794 26.8376C1.82738 26.8974 1.81944 26.9572 1.81944 27.0196V60.0237C1.81944 62.216 3.63028 64 5.85554 64H52.1452C54.3704 64 56.1812 62.216 56.1812 60.0237V27.0248V27.0222H56.5217C57.3348 27.0222 58 26.3721 58 25.5711L57.9974 20.5832ZM52.1425 61.9924H5.8529C4.75215 61.9924 3.85728 61.1108 3.85728 60.0263V58.9601H43.4738C44.0387 58.9601 44.4953 58.5102 44.4953 57.9536C44.4953 57.3971 44.0387 56.9472 43.4738 56.9472H3.85728V33.1856H10.4565C11.0214 33.1856 11.4781 32.7357 11.4781 32.1792C11.4781 31.6227 11.0214 31.1728 10.4565 31.1728H3.85728V28.0261H54.1355V31.0609H14.519C13.9541 31.0609 13.4974 31.5108 13.4974 32.0674C13.4974 32.6239 13.9541 33.0738 14.519 33.0738H54.1355V56.8354H47.5363C46.9714 56.8354 46.5147 57.2853 46.5147 57.8418C46.5147 58.3983 46.9714 58.8482 47.5363 58.8482H54.1355V60.0315C54.1381 61.1108 53.2433 61.9924 52.1425 61.9924Z" fill="#019B69"/>
+                <path d="M45 2L39.7281 3.29153L35 13L40.2719 11.7085L45 2Z" fill="#019B69"/>
+                <path d="M33 5L27.2009 6.28911L22 16L27.802 14.7109L33 5Z" fill="#019B69"/>
+                <path d="M21 8L15.7281 9.17411L11 18L16.2719 16.8259L21 8Z" fill="#019B69"/>
+                <path d="M55.9654 6.22087L54.9086 1.17211C54.7374 0.361721 53.9982 -0.146129 53.254 0.0375607L51.572 0.456269L47 10L54.926 8.02805C55.6702 7.84165 56.1341 7.03396 55.9654 6.22087Z" fill="#019B69"/>
+                <path d="M28.2463 39.2014L36.1449 43.7772C37.3205 44.4585 37.2748 46.2146 36.0642 46.8295L28.1737 50.8374C27.1729 51.3471 26 50.5965 26 49.447V40.5531C26.0027 39.3676 27.2429 38.6197 28.2463 39.2014Z" fill="white"/>
+                <path d="M22 50C21.447 50 21 49.5962 21 49.0966V40.9034C21 40.4038 21.447 40 22 40C22.553 40 23 40.4038 23 40.9034V49.0966C22.9974 49.5962 22.5504 50 22 50Z" fill="white"/>
+                </svg>
+
+        </div>
+        <p style='font-weight: 300;' class="text-white">con videos ideados para comunicar y emocionar.</p>
+        <div class="d-inline-block w-100"><button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90"><strong>Desafíanos</strong> con tu proyecto</button>
+        </div>
+        
+        <div class="float-rectangle-banner">
+            <div id="rectangle" class="text-center">
+            </div>
+        </div>
+
+       
+
+    </div>
+
+</section>
+<section>
+    <div class="bg-white">
+        <div class="mx-auto w-50">
+            <ul class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- Tab panes -->
+        <div style='margin-top: 3.4rem' class="tab-content">
+            <div id="home" class="tab-pane active"><br>
+               <div class="bg-faint-gray py-5">
+                <div class="big-title text-red my-4 text-center">
+                Spots & Videos
+                </div>
+                <div class="container">
+                    <div class="row">
+                    <div class="col-sm-6">
+
+<div class="my-3">
+    <div class="text-green  my-3 text-left" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
+    Creatividad y emociones en cada cuadro
+    </div>
+</div>
+  <p class='font-weight-normal w-90' style='line-height: 22px; font-size: 1rem'>
+    Ponemos tu marca en escena y <strong>seducimos desde los primeros segundos.</strong> Nos aseguramos de que tu mensaje se comprenda y se recuerde. <br> <br>
+
+    Muestra tus proyectos en múltiples plataformas (TV, redes sociales, sitios web) con <strong>piezas audiovisuales que despierten el interés y generen conexión </strong> con tu público objetivo.
+  </p>
+    <div class='text-center w-100'>
+        <img src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/Group 275.png" alt="Cámara fotográfica">
+    </div>
+
+</div>
+                          <div class="col-sm-6">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/Group 585.png" alt="Cámara fotográfica">
+                            <p class="text-justify py-4">
+                                Es una solución ideal para promocionar lanzamientos, marcas, productos, servicios, instalaciones, herramientas, procesos, tutoriales y más.
+
+                                Contamos con equipo para todo tipo de tomas: luces, cámaras de video 4K Full y ultra HD, drones y GoPro.
+
+                            </p>
+                          </div>
+                          
+                    </div>
+                </div>
+                </div>
+                <svg style='margin-top: -7rem' width="108" height="217" viewBox="0 0 108 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z" fill="#ED1164"/>
+                </svg>
+                <div >
+                     <div class="big-title text-red text-center py-5" style='display: flex; flex-direction: column; align-items: center;'>
+                       El servicio incluye:
+                       <div class="line-h"></div>
+                     </div>
+                     <div>
+                         <div class="d-flex justify-content-center">
+                             <div>  
+                                 <div class="mb-1">
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/icono (1).svg"></div>
+                                          <div class="d-inline-block ml-1">
+                                                <strong>Pre Produción</strong>
+                                                <ul>
+                                                    <li>Brief de Requerimiento.</li>
+                                                    <li>Desarrollo de concepto.</li>
+                                                    <li>Creación del Guión y Storyboard.</li>
+                                                    <li>Planificación y Scouting (locaciones).</li>
+                                                    <li>Casting, arte y vestuario.</li>
+                                                </ul>
+                                            </div>   
+                                   </div> 
+                                    <div class="ml-5">
+                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/Group 303.svg">
+                                    </div>
+                                   
+                             </div>
+                             <div> 
+                                <div> 
+                                    <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
+                                    </svg>
+                                 </div> 
+                                 <div class="position-relative">
+                                    <img  class="" src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/verticalLine.svg">
+                                </div>
+                                 <div>
+                                     <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
+                                      </svg>
+                                 </div>
+                                 <div>
+                                      <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
+                                      </svg>
+                                 </div>
+                              </div>
+                             <div style='margin-top: 14rem'>
+                                   <div class="mb-1 mt-5">
+                                   <div class="d-inline-block ml-1" style='width: 302px;'>
+                                        <strong>Produción</strong>
+                                        <ul>
+                                            <li>Producción y gestión de rodaje.</li>
+                                            <li>Maquillaje y Make up.</li>
+                                            <li>Capatura de tomas en audio directo.</li>
+                                            <li>Profesionales en la dirección fotográfica e iluminación.</li>
+                                            <li>Grabaciones cuadro por cuadro.</li>
+                                        </ul>
+                                    </div>   
+                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/imageMicripho.svg"></div> 
+                                   </div> 
+
+                                 <div class='points-line-position' style='margin-left: -1.5rem;'>
+                                 <svg width="391" height="34" viewBox="0 0 391 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25 25L389 25C389.552 25 390 24.5523 390 24L390 1" stroke="#019B69" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+                                    <circle r="9" transform="matrix(-1 0 0 1 9 25)" fill="#019B69"/>
+                                    </svg>
+                                 </div>
+                             </div>
+                         </div>
+
+                        <div class="d-flex justify-content-center">
+                            <div>  
+                                <div class="mb-1">
+                                    <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/contain-define.svg"></div>
+                                        <div class="d-inline-block ml-1">
+                                        <strong> Definición de contenidos <br> publicitarios</strong>  (Mensaje y <br> gráfica o audiovisual).
+                                    </div>   
+                                </div> 
+                                <div class="ml-5">
+                                    <img  class="pl-2" src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg">
+                                </div>
+                                
+                            </div>
+                            <div> 
+                            <div> 
+                                <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
+                                </svg>
+                                </div> 
+                                <div>
+                                    <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mb-1 mt-3">         
+                                        <div class="d-inline-block ml-1">
+                                        <strong>Despliegue y configuración <br> de la campaña en la </strong>  <br>plataforma seleccionada.
+                                    </div> 
+                                        <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/deploy-configuration.svg"></div>  
+                                </div> 
+
+                                <div >
+                                    <svg width="290" height="24" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1" stroke="#FBC000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            
+
+
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <div>  
+                                <div class="mb-1">
+                                    <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/rocket-optimisation.svg"></div>
+                                        <div class="d-inline-block ml-2">
+                                                <strong>Optimización</strong>  de la <br>campaña. 
+                                        </div>   
+                                </div> 
+                                    <div class="ml-5">
+                                        <img  class="pl-2" src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg">
+                                    </div>
+                                
+                            </div>
+                            <div> 
+                                <div> 
+                                    <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
+                                    </svg>
+                                </div> 
+                                <div>
+                                    <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="ml-5 mt-5">         
+                                        <div class="d-inline-block ml-1 mr-5">
+                                        <strong>Reportes <br> periódicos.</strong> 
+                                        </div> 
+                                        <div class="d-inline-block ml-5"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/periodic-reports.svg"></div>  
+                                </div> 
+
+                                <div >
+                                    <svg width="290" height="24" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1" stroke="#FBC000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+                                        </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                         
+                         <div class="d-flex justify-content-center">
+                               
+                              <div class="d-inline-block ml-5"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/root-tree.svg"></div>  
+                        </div>
+                     </div>
+                </div>
+                <div class="bg-red">
+                           <div class="bg-pink-form rounded">
+                               <div class="big-title text-white text-center"> Define tu presupuesto</div>
+
+                                 <div class="bg-white mx-5 px-5 rounded-pill">
+                                      <div class="d-inline-block w-75"> 
+                                            <div class="input-group">
+                                           
+                                            <input type="text" placeholder="Sitio Web" class="form-control">
+                                            <input type="text" placeholder="E-mail" class="form-control">
+                                            </div>
+                                      </div>
+                                      <div class="d-inline-block"><button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm">Solicita tu cotización</button> </div>
+                                 </div>
+           
+                            </div>   
+                </div>
+            </div>
+            <div id="menu1" class="container tab-pane fade"><br>
+                <h3>Menu 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="menu2" class="container tab-pane fade"><br>
+                <h3>Menu 2</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<?php 
+    get_footer();
+?>
