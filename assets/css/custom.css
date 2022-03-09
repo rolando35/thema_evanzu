@@ -44,6 +44,14 @@
   color: #595958;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
+.text-green {
+  color: #00A185;
+}
+
 /** tipo de fuente ***/
 
 @font-face {

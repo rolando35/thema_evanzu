@@ -11,9 +11,12 @@
  
 <body class="w-100">
  
-<?php wp_head()?> 
+<?php 
+wp_head();
+$result = $transparentNone ? 'hola' : 'navbar';
+?> 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg  bg-gray  fixed-top navbar-dark">
+  <nav class="<?php echo $result ?> navbar-expand-lg  bg-gray  fixed-top navbar-dark">
     <div class="container">
      <?php the_custom_logo() ?> 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
