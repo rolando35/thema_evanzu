@@ -3,13 +3,18 @@
       $directory_points = get_template_directory_uri() . '/assets/images/form-quote-request/point-group.svg';
 ?>
 <div class="bg-pink-form w-60 rounded-pill mx-auto py-5">
-  <div class="text-center">
-    <div><img src="<?php echo $directory_points; ?>" /></div>
-    
-     <div class="position-relative w-50 text-left" style="margin-top: -8rem;  margin-left: 5rem;">
-    <img  class="position-absolute" src="<?php echo $parameters['svg']; ?>" /></div>
-    <span class="text-white"> <?php echo $parameters['title']?> </span>
-    <img src="<?php echo $directory_points; ?>" />
+  <div class="text-center mt-5">
+
+   
+     <div class="position-relative  text-left" style="margin-top: -8rem;  margin-left: 5.8rem;">
+      <img  src="<?php echo $directory_points;?>" style="position: absolute; margin-top: 4.8rem;  margin-left: -3.9rem;" />
+     <img  class="position-absolute" src="<?php echo $parameters['svg']; ?>"/>
+    </div>
+     <div class="pt-5 " style=" margin: 0 6rem ">
+        <span class="text-white hurme-simple font-weight-bold" style="font-size:42.0301px;"> <?php echo $parameters['title']?> </span>
+         <img src="<?php echo $directory_points; ?>" />
+     </div>
+   
   </div>
   <div class="bg-white w-80 mx-auto  rounded-pill row">
     <div class="col-12 col-sm-12 col-md-8">
