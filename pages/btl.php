@@ -29,6 +29,10 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 		height: 900px;
 	}
 
+	/* .active {
+
+	} */
+
 	/* .corner_footer {
         transform: matrix(0.98, 0.17, 0.2, -0.98, 0, 0);
         -ms-transform: matrix(0.98, 0.17, 0.2, -0.98, 0, 0);
