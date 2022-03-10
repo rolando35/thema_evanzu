@@ -1,24 +1,24 @@
 /** Color de fondos**/
 
 .bg-gray {
-	background-color: #434041;
+  background-color: #434041;
 }
 
 .bg-red {
-	background-color: #ed1164;
+  background-color: #ed1164;
 }
 
 .bg-pink {
-	background-color: #f681ad;
+  background-color: #f681ad;
 }
 
 .bg-garnet {
-	background: rgba(186, 0, 138, 0.4);
-	background-blend-mode: multiply;
+  background: rgba(186, 0, 138, 0.4);
+  background-blend-mode: multiply;
 }
 
 .bg-gray {
-	background-color: #595958;
+  background-color: #595958;
 }
 
 .bg-fa {
@@ -26,14 +26,14 @@
 }
 
 .bg-pink-form {
-	background-color: #fd73a7;
+  background-color: #fd73a7;
 }
 .bg-faint-gray {
-	background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .bg-light-gray {
-	background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 
 .bg-white {
@@ -41,43 +41,58 @@
 }
 
 .bg-yellow {
-	background-color: #fbc000;
+  background-color: #fbc000;
 }
 /**Color de texto**/
 .text-red {
-	color: #ed1164;
+  color: #ed1164;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
 }
 
 .text-yellow {
-	color: #fbc000;
+  color: #fbc000;
 }
 
 .text-gray {
-	color: #595958;
+  color: #595958;
 }
 
 .text-light-gray {
-	color: #808080;
+  color: #808080;
 }
 
 /*Button BTL*/
 .btn-btl {
-	font-size: 20px;
-	line-height: 20px;
-	font-weight: 700;
-	color: #fff;
-	cursor: pointer;
-	margin-bottom: 10px;
-	padding-right: 10px;
-	/* background-color: transparent; */
-	/* font-weight: 500; */
-	/* letter-spacing: 2px; */
-	/* border: 2px solid #fff; */
-	border: none;
-	border-radius: 500px;
-	padding: 10px;
-	min-width: 130px;
-	background-color: #ed1164;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  /* background-color: transparent; */
+  /* font-weight: 500; */
+  /* letter-spacing: 2px; */
+  /* border: 2px solid #fff; */
+  border: none;
+  border-radius: 500px;
+  padding: 10px;
+  min-width: 130px;
+  background-color: #ed1164;
 }
 
 .text-white {
@@ -85,276 +100,276 @@
 }
 
 .text-green {
-  color: #00A185;
+  color: #00a185;
 }
 
 /** tipo de fuente ***/
 
 @font-face {
-	font-family: running-text;
-	src: url(../fonts/aaleyah-PERSONAL-USE-ONLY.otf);
+  font-family: running-text;
+  src: url(../fonts/aaleyah-PERSONAL-USE-ONLY.otf);
 }
 
 @font-face {
-	font-family: hurme-simple;
-	src: url(../fonts/HurmeGeometricSans4.otf);
+  font-family: hurme-simple;
+  src: url(../fonts/HurmeGeometricSans4.otf);
 }
 
 @font-face {
-	font-family: hurme-oblique;
-	src: url(../fonts/HurmeGeometricSans4Oblique.otf);
+  font-family: hurme-oblique;
+  src: url(../fonts/HurmeGeometricSans4Oblique.otf);
 }
 
 @font-face {
-	font-family: hurme-simple-black;
-	src: url(../fonts/HurmeGeometricSans4Black.otf);
+  font-family: hurme-simple-black;
+  src: url(../fonts/HurmeGeometricSans4Black.otf);
 }
 
 @font-face {
-	font-family: hurme-bold;
-	src: url(../fonts/HurmeGeometricSans4Bold.otf);
+  font-family: hurme-bold;
+  src: url(../fonts/HurmeGeometricSans4Bold.otf);
 }
 
 .running-text {
-	font-family: running-text;
-	font-size: 56.6006px;
+  font-family: running-text;
+  font-size: 56.6006px;
 }
 
 .hurme-simple {
-	font-family: hurme-simple-black;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 58.2644px;
-	line-height: 61px;
-	text-transform: uppercase;
+  font-family: hurme-simple-black;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 58.2644px;
+  line-height: 61px;
+  text-transform: uppercase;
 }
 
 .subtitle-btl {
-	font-family: Hurme Geometric Sans 4;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 1.6rem;
-	line-height: 1.8rem;
-	text-align: justify;
-	color: #01a5ec;
+  font-family: Hurme Geometric Sans 4;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-align: justify;
+  color: #01a5ec;
 }
 
 .medium-subtitle-first {
-	font-family: hurme-simple;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 50%;
-	display: flex;
-	align-items: center;
-	text-transform: uppercase;
+  font-family: hurme-simple;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 50%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 .medium-subtitle-first-upper {
-	font-family: hurme-simple;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 18px;
+  font-family: hurme-simple;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .big-title {
-	font-family: hurme-simple-black;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 62.3886px;
-	line-height: 87px;
+  font-family: hurme-simple-black;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 62.3886px;
+  line-height: 87px;
 }
 
 /**Titles**/
 .subtitle {
-	font-size: 62.3886px;
+  font-size: 62.3886px;
 }
 
 .w-90 {
-	width: 90%;
+  width: 90%;
 }
 
 .footer-text {
-	font-family: hurme-bold;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
+  font-family: hurme-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .navbar-dark .navbar-nav .nav-link a {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #first-block {
-	margin-bottom: -6px;
+  margin-bottom: -6px;
 }
 
 #myVideo {
-	position: relative;
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-	width: 100%;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
 }
 
 #rectangle,
 #rectangle-inverse {
-	width: 90%;
-	background: #fff;
+  width: 90%;
+  background: #fff;
 }
 
 #rectangle-inverse {
-	border-radius: 0px 0px 30px 30px;
+  border-radius: 0px 0px 30px 30px;
 }
 
 #rectangle {
-	height: 81px;
-	border-radius: 30px 30px 0px 0px;
+  height: 81px;
+  border-radius: 30px 30px 0px 0px;
 }
 
 /* #box-masonry {
 } */
 
 .banner {
-	width: 30%;
-	margin-bottom: 15px;
+  width: 30%;
+  margin-bottom: 15px;
 }
 
 #image-line {
-	position: absolute;
-	width: 376px;
-	height: 109.47px;
-	right: 400px;
-	top: 8px;
-	transform: rotate(12.66deg);
-	z-index: 1;
+  position: absolute;
+  width: 376px;
+  height: 109.47px;
+  right: 400px;
+  top: 8px;
+  transform: rotate(12.66deg);
+  z-index: 1;
 }
 
 #circle-background {
-	background-image: url(../images/yellow-circle.svg);
-	background-repeat: no-repeat;
-	background-position-x: 52%;
-	background-size: 49%;
+  background-image: url(../images/yellow-circle.svg);
+  background-repeat: no-repeat;
+  background-position-x: 52%;
+  background-size: 49%;
 }
 
 #icon-pink-background {
-	width: 701px;
-	height: 254px;
+  width: 701px;
+  height: 254px;
 }
 
 #how-to {
-	font-size: 65px;
-	font-family: 'Hurme Geometric Sans 4';
-	font-style: normal;
-	font-weight: 900;
-	line-height: 55px;
-	letter-spacing: 0em;
+  font-size: 65px;
+  font-family: "Hurme Geometric Sans 4";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 55px;
+  letter-spacing: 0em;
 }
 
 #section-ous {
-	margin-top: 7%;
+  margin-top: 7%;
 }
 
 .caption {
-	height: 290px;
-	width: 290px;
-	border-radius: 50%;
-	background: white;
+  height: 290px;
+  width: 290px;
+  border-radius: 50%;
+  background: white;
 }
 .container-fluid {
-	position: relative;
-	display: inline-block;
-	text-align: center;
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
 
 #witheng {
-	font-weight: 400;
+  font-weight: 400;
 }
 
 #heading {
-	font-weight: 700;
+  font-weight: 700;
 }
 #heading2 {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .texto {
-	position: absolute;
-	top: 65%;
-	left: 50%;
-	z-index: 100%;
-	text-align: center;
-	transform: translate(-50%, -50%);
-	font-family: hurme-simple;
-	font-style: normal;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 16px;
-	letter-spacing: 0em;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  z-index: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: hurme-simple;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
 }
 
 #lef-ultimate-box {
-	background-image: url(../images/Mask-Group.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(../images/Mask-Group.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navigation-main li a,
 .navigation-social li a {
-	color: white;
-	font-family: hurme-oblique;
+  color: white;
+  font-family: hurme-oblique;
 
-	font-size: 17.5786px;
+  font-size: 17.5786px;
 }
 
 .navigation-main li {
-	padding: 0rem;
+  padding: 0rem;
 }
 
 .navigation-social li {
-	padding: 0rem 0.3rem;
+  padding: 0rem 0.3rem;
 }
 
 .navigation-main li a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .navigation-social li {
-	display: inline;
+  display: inline;
 }
 
 .footer-title {
-	font-family: hurme-bold;
-	font-size: 24.1705px;
-	font-style: normal;
-	font-weight: bold;
-	width: 75%;
+  font-family: hurme-bold;
+  font-size: 24.1705px;
+  font-style: normal;
+  font-weight: bold;
+  width: 75%;
 }
 
 .footer-text {
-	font-family: hurme-oblique;
-	font-style: italic;
-	font-weight: normal;
-	font-size: 17.5786px;
+  font-family: hurme-oblique;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17.5786px;
 }
 
 /**** Marketing Digital ****/
 
 .float-rectangle-banner {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 16;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-pack: center;
-	justify-content: center;
-	padding-left: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 16;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
 }
 
 /*****Componentes*****/
@@ -363,7 +378,7 @@
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background-color: #595958;
+  background-color: #cbcbcd;
   display: inline-block;
   margin: 5%;
   padding-left: 13%;
@@ -392,18 +407,28 @@
   text-align: center;
   text-decoration: none;
 }
+
+.li-circle {
+  width: 130px;
+}
+
+.input-non-border {
+  background-color: transparent;
+  border: 0px solid;
+}
+
 /****RESPONSIVE****/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	#lef-ultimate-box {
-		height: 330px;
-	}
+  #lef-ultimate-box {
+    height: 330px;
+  }
 
-	#icon-pink-background {
-		width: auto;
-		height: auto;
-	}
+  #icon-pink-background {
+    width: auto;
+    height: auto;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
