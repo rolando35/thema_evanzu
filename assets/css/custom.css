@@ -303,6 +303,41 @@
   padding-left: 0;
 }
 
+/*****Componentes*****/
+
+.circle-nav {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #595958;
+  display: inline-block;
+  margin: 5%;
+  padding-left: 13%;
+  padding-top: 13%;
+}
+
+.circle-nav:link {
+  background-color: #595958;
+}
+
+.circle-nav:hover {
+  background-color: #ed1164;
+}
+
+.circle-nav:active {
+  background-color: #ed1164;
+}
+
+.circle-nav:visited {
+  background-color: #ed1164;
+}
+
+.title-circle-nav {
+  font-family: hurme-simple;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
 /****RESPONSIVE****/
 
 /* Extra small devices (phones, 600px and down) */
