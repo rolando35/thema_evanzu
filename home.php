@@ -18,8 +18,8 @@ Template Name: Home
                 <div class="col-sm-6">
                     <div class="my-5">
                         <div class="text-white running-text">Agencia de</div>
-                        <div class="text-yellow hurme-simple">MARKETING</div>
-                        <div class="text-white hurme-simple">Y PUBLICIDAD</div>
+                        <div class="text-yellow text-left-contain-first hurme-simple">MARKETING</div>
+                        <div class="text-white  text-left-contain-first hurme-simple">Y PUBLICIDAD</div>
                         <div class="medium-subtitle-first"> <span class="text-white ">GRANDES IDEAS</span>
                             <span class="text-yellow">PARA GRANDES RESULTADOS</span> </div>
                         <div class="text-white">

@@ -22,7 +22,7 @@
 }
 
 .bg-fa {
-	background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .bg-pink-form {
@@ -37,7 +37,7 @@
 }
 
 .bg-white {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .bg-yellow {
@@ -138,10 +138,6 @@
 .hurme-simple {
   font-family: hurme-simple-black;
   font-style: normal;
-  font-weight: 900;
-  font-size: 58.2644px;
-  line-height: 61px;
-  text-transform: uppercase;
 }
 
 .subtitle-btl {
@@ -214,6 +210,12 @@
   min-width: 100%;
   min-height: 100%;
   width: 100%;
+}
+
+.text-left-contain-first {
+  font-weight: 900;
+  font-size: 58.2644px;
+  line-height: 61px;
 }
 
 #rectangle,
@@ -381,8 +383,7 @@
   background-color: #cbcbcd;
   display: inline-block;
   margin: 5%;
-  padding-left: 13%;
-  padding-top: 13%;
+  padding: 1rem;
 }
 
 .circle-nav:link {
