@@ -4,7 +4,6 @@
 */
 $transparentNone = true;
 get_header();
-
 ?>
 <style>
 html,
@@ -100,13 +99,11 @@ h5 {
 <section>
 
 
-<div class="view" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/portada 2.png'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 100vh;">
+<div class="view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/portada 2.png'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 100vh;">
 
 <div class="mask rgba-black-light align-items-center">
-  
   <div class="container">
     <div class="row">
-      
       <div class="contain mb-4 text-center">
         <h1 style="font-family: running-text;
             font-size: 60px; line-height: 119px; color: #FFFFFF;
@@ -124,7 +121,6 @@ h5 {
                 <path d="M28.2463 39.2014L36.1449 43.7772C37.3205 44.4585 37.2748 46.2146 36.0642 46.8295L28.1737 50.8374C27.1729 51.3471 26 50.5965 26 49.447V40.5531C26.0027 39.3676 27.2429 38.6197 28.2463 39.2014Z" fill="white"/>
                 <path d="M22 50C21.447 50 21 49.5962 21 49.0966V40.9034C21 40.4038 21.447 40 22 40C22.553 40 23 40.4038 23 40.9034V49.0966C22.9974 49.5962 22.5504 50 22 50Z" fill="white"/>
                 </svg>
-
         </div>
         <p style='font-weight: 300;' class="text-white">con videos ideados para comunicar y emocionar.</p>
         <div class="d-inline-block w-100"><button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90"><strong>Desafíanos</strong> con tu proyecto</button>
@@ -179,26 +175,25 @@ h5 {
     Muestra tus proyectos en múltiples plataformas (TV, redes sociales, sitios web) con <strong>piezas audiovisuales que despierten el interés y generen conexión </strong> con tu público objetivo.
   </p>
     <div class='text-center w-100'>
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/Group 275.png" alt="Cámara fotográfica">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 275.png" alt="Cámara fotográfica">
     </div>
 
 </div>
                           <div class="col-sm-6">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/Group 585.png" alt="Cámara fotográfica">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 585.png" alt="Cámara fotográfica">
                             <p class="text-justify py-4">
                                 Es una solución ideal para promocionar lanzamientos, marcas, productos, servicios, instalaciones, herramientas, procesos, tutoriales y más.
-
                                 Contamos con equipo para todo tipo de tomas: luces, cámaras de video 4K Full y ultra HD, drones y GoPro.
-
                             </p>
                           </div>
                           
                     </div>
                 </div>
                 </div>
-                <svg style='margin-top: -7rem' width="108" height="217" viewBox="0 0 108 217" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z" fill="#ED1164"/>
-                </svg>
+                <?php
+                 $parameters = array('color' => '#ED1164', 'position' => '') ;
+                 get_template_part('components/border-circle','full', $parameters ); 
+                ?>
                 <div >
                      <div class="big-title text-red text-center py-5" style='display: flex; flex-direction: column; align-items: center;'>
                        El servicio incluye:
@@ -208,7 +203,7 @@ h5 {
                          <div class="d-flex justify-content-center">
                              <div>  
                                  <div class="mb-1">
-                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/icono (1).svg"></div>
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/icono (1).svg"></div>
                                           <div class="d-inline-block ml-1">
                                                 <strong>Pre Produción</strong>
                                                 <ul>
@@ -221,7 +216,7 @@ h5 {
                                             </div>   
                                    </div> 
                                     <div class="ml-5">
-                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/Group 303.svg">
+                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 303.svg">
                                     </div>
                                    
                              </div>
@@ -232,20 +227,11 @@ h5 {
                                     </svg>
                                  </div> 
                                  <div class="position-relative">
-                                    <img  class="" src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/verticalLine.svg">
+                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
                                 </div>
-                                 <div>
-                                     <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
-                                      </svg>
-                                 </div>
-                                 <div>
-                                      <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
-                                      </svg>
-                                 </div>
+                                
                               </div>
-                             <div style='margin-top: 14rem'>
+                             <div style='margin-top: 3.5rem'>
                                    <div class="mb-1 mt-5">
                                    <div class="d-inline-block ml-1" style='width: 302px;'>
                                         <strong>Produción</strong>
@@ -257,10 +243,10 @@ h5 {
                                             <li>Grabaciones cuadro por cuadro.</li>
                                         </ul>
                                     </div>   
-                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/audioVisual/imageMicripho.svg"></div> 
+                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/imageMicripho.svg"></div> 
                                    </div> 
 
-                                 <div class='points-line-position' style='margin-left: -1.5rem;'>
+                                 <div class='points-line-position' style='margin-left: -1rem;'>
                                  <svg width="391" height="34" viewBox="0 0 391 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M25 25L389 25C389.552 25 390 24.5523 390 24L390 1" stroke="#019B69" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
                                     <circle r="9" transform="matrix(-1 0 0 1 9 25)" fill="#019B69"/>
@@ -269,127 +255,114 @@ h5 {
                              </div>
                          </div>
 
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center " style='margin-top:-18rem'>
                             <div>  
-                                <div class="mb-1">
-                                    <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/contain-define.svg"></div>
-                                        <div class="d-inline-block ml-1">
-                                        <strong> Definición de contenidos <br> publicitarios</strong>  (Mensaje y <br> gráfica o audiovisual).
-                                    </div>   
-                                </div> 
-                                <div class="ml-5">
-                                    <img  class="pl-2" src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg">
-                                </div>
-                                
-                            </div>
-                            <div> 
-                            <div> 
-                                <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
-                                </svg>
-                                </div> 
-                                <div>
-                                    <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="mb-1 mt-3">         
-                                        <div class="d-inline-block ml-1">
-                                        <strong>Despliegue y configuración <br> de la campaña en la </strong>  <br>plataforma seleccionada.
-                                    </div> 
-                                        <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/deploy-configuration.svg"></div>  
-                                </div> 
-
-                                <div >
-                                    <svg width="290" height="24" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1" stroke="#FBC000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
-                                    </svg>
-                                </div>
-                            </div>
-
-                            
-
-
-                        </div>
-
-                        <div class="d-flex justify-content-center">
-                            <div>  
-                                <div class="mb-1">
-                                    <div class="d-inline-block"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/rocket-optimisation.svg"></div>
-                                        <div class="d-inline-block ml-2">
-                                                <strong>Optimización</strong>  de la <br>campaña. 
-                                        </div>   
-                                </div> 
+                                 <div class="mb-1">
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/icono (1).svg"></div>
+                                          <div class="d-inline-block ml-1">
+                                               <strong>Post Producción</strong>
+                                                <ul>
+                                                    <li>Edición de Video Digital.</li>
+                                                    <li>Realización de efectos visuales.</li>
+                                                    <li>Locución y edición de audio digital.</li>
+                                                    <li>Masterización de audio y video.</li>
+                                                    <li>Presentación y empaquetado.</li>
+                                                </ul>
+                                            </div>   
+                                   </div> 
                                     <div class="ml-5">
-                                        <img  class="pl-2" src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg">
+                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 303.svg">
                                     </div>
-                                
-                            </div>
-                            <div> 
-                                <div> 
-                                    <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
-                                    </svg>
-                                </div> 
-                                <div>
-                                    <svg width="19" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="9" cy="9.5" r="9" fill="#ED1164"/>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle r="9" transform="matrix(-1 0 0 1 9 9.5)" fill="#FBC000"/>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="ml-5 mt-5">         
-                                        <div class="d-inline-block ml-1 mr-5">
-                                        <strong>Reportes <br> periódicos.</strong> 
-                                        </div> 
-                                        <div class="d-inline-block ml-5"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/periodic-reports.svg"></div>  
-                                </div> 
-
-                                <div >
-                                    <svg width="290" height="24" viewBox="0 0 290 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1" stroke="#FBC000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
-                                        </svg>
-                                </div>
-                            </div>
-
+                                   
+                             </div>
+                             <div style='width: 27rem;'></div>
                         </div>
-                         
-                         <div class="d-flex justify-content-center">
-                               
-                              <div class="d-inline-block ml-5"><img src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/root-tree.svg"></div>  
+                        <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
+                            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como lo hacemos.png">
                         </div>
                      </div>
                 </div>
                 <div class="bg-red">
-                           <div class="bg-pink-form rounded">
-                               <div class="big-title text-white text-center"> Define tu presupuesto</div>
-
-                                 <div class="bg-white mx-5 px-5 rounded-pill">
-                                      <div class="d-inline-block w-75"> 
-                                            <div class="input-group">
-                                           
-                                            <input type="text" placeholder="Sitio Web" class="form-control">
-                                            <input type="text" placeholder="E-mail" class="form-control">
-                                            </div>
-                                      </div>
-                                      <div class="d-inline-block"><button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm">Solicita tu cotización</button> </div>
-                                 </div>
-           
-                            </div>   
+                   <div class="bg-pink-form rounded" style='height: 27.6rem;'>
+                       <div class='w-100 text-right'>
+                           <?php
+                             $parameters = array('color' => '#019B69', 'position' => 'transform: rotate(-180deg);') ;
+                             get_template_part('components/border-circle','full', $parameters ); 
+                            ?>
+                       </div>
+                       <div class="big-title text-white text-center">Define tu presupuesto</div>
+                         <div class="bg-white mx-5 px-5 rounded-pill">
+                              <div class="d-inline-block w-75"> 
+                                <div class="input-group">
+                                    <input type="text" placeholder="Sitio Web" class="form-control">
+                                    <input type="text" placeholder="E-mail" class="form-control">
+                                </div>
+                              </div>
+                              <div class="d-inline-block">
+                                  <button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm">Solicita tu cotización</button>
+                                </div>
+                         </div>
+                    </div>   
                 </div>
-            </div>
+
+               <div class="bg-white big-title text-center text-red">Ofrecemos</div>
+               <div class='py-5 my-5 pl-5'>
+                   <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
+                        <div class='w-90 bg-fa' style='height: 12.1rem'></div>
+                    </div>
+                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 01.png" alt="Ofrecemos imagen 1">
+                          <div>
+                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Proyectos audiovisuales</p>
+                              <ul class='font-weight-normal'>
+                                  <li>Spots publicitarios para Radio, TV, Cine, Web.</li>
+                                  <li>Publireportajes.</li>
+                                  <li>Video de producto o testimonial.</li>
+                                  <li>Video institucional y promocional de empresa.</li>
+                              </ul>
+                          </div>
+                      </div>
+               </div>
+               <div class='py-5 my-5 pl-5'>
+                   <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
+                        <div class='w-90 bg-fa' style='height: 12.1rem'></div>
+                    </div>
+                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
+                          <div>
+                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Filmación aérea</p>
+                              <p class='font-weight-normal' style='width: 27.8rem;'>
+                                Comunica desde un ángulo diferente <br> <br>
+ 
+                                Trabajamos contenido a la altura de tu proyecto. Más que una grabación, <strong>ofrecemos estrategia audiovisual que emocione.</strong> Muéstrate sumamente profesional y atrayente con tomas aéreas. <br> <br>
+
+                                Cubrimos producciones corporativas, eventos sociales, edificios, paisajes, escenarios, y más.
+                            </p>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 02 1.png" alt="Ofrecemos imagen 1">
+                      </div>
+               </div>
+               <div class='py-5 my-5 pl-5'>
+                   <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
+                        <div class='w-90 bg-fa' style='height: 12.1rem'></div>
+                    </div>
+                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 03 1.png" alt="Ofrecemos imagen 1">
+                          <div>
+                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Desarrollo de guiones</p>
+                              <p class='font-weight-normal' style='width: 27.8rem;'>
+                                Historias contadas de forma inolvidable. <br> <br>
+
+                                Construimos narrativas según tu objetivo de comunicación. Planteamos <strong> guiones originales, entretenidos y que generen una reacción positiva para la marca. </strong> <br> <br>
+
+                                Ofrecemos nuestra redacción estratégica para spots publicitarios, animaciones, contenido en redes sociales u otros proyectos empresariales.
+                              </p>
+                          </div>
+                      </div>
+               </div>
+               
+               <!-- PORTAFOLIO -->
+               
+                </div>
             <div id="menu1" class="container tab-pane fade"><br>
                 <h3>Menu 1</h3>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -404,6 +377,5 @@ h5 {
 </section>
 
 
-<?php 
-    get_footer();
+<?php get_footer();
 ?>

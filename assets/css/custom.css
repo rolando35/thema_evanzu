@@ -21,6 +21,10 @@
 	background-color: #595958;
 }
 
+.bg-fa {
+	background-color: #FAFAFA;
+}
+
 .bg-pink-form {
 	background-color: #fd73a7;
 }
@@ -30,6 +34,10 @@
 
 .bg-light-gray {
 	background-color: #f8f8f8;
+}
+
+.bg-white {
+	background-color: #ffffff;
 }
 
 .bg-yellow {
