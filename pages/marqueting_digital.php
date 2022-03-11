@@ -316,47 +316,58 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/marketing-digit
     
     <div class="col-lg-8">
       <div class="gallery-wrapper clearfix">
-        <div class="col-lg-6 grid-sizer">  </div>
-        <div class="col-lg-6 grid-item">
+        <div class="col-lg-4 grid-sizer">  </div>
+        <div class="col-lg-4 grid-item">
             primer parte
           <img class="img-fluid" src="http://via.placeholder.com/1024x900">
         </div>
 
-        <div class="col-lg-6 grid-item">
+        <div class="col-lg-4 grid-item">
             segunda parte
           <img class="img-fluid" src="http://via.placeholder.com/800x370">
         </div>
 
-        <div class="col-lg-6 grid-item">
+        <div class="col-lg-4 grid-item">
+            tercera
           <img class="img-fluid" src="http://via.placeholder.com/500x370">
         </div>
 
         <div class="col-lg-6 grid-item">
+            cuarta
           <img class="img-fluid" src="http://via.placeholder.com/1024x600">
         </div>
 
         <div class="col-lg-6 grid-item">
+            quinta
           <img class="img-fluid" src="http://via.placeholder.com/1024x300">
         </div>
 
         <div class="col-lg-6 grid-item">
+            sexta
           <img class="img-fluid" src="http://via.placeholder.com/1024x600">
         </div>
 
         <div class="col-lg-6 grid-item">
+            septima
           <img class="img-fluid" src="http://via.placeholder.com/800x900">
         </div>
 
         <div class="col-lg-6 grid-item">
+            octava
+          <img class="img-fluid" src="http://via.placeholder.com/1024x600">
+        </div>
+
+         <div class="col-lg-12 col-12 grid-item">
+            octava
           <img class="img-fluid" src="http://via.placeholder.com/1024x600">
         </div>
 
       </div>
     </div>
 
-    <div class="col-lg-4 sidebar">
+    <!-- <div class="col-lg-4 sidebar">
       <h3>Sidebar</h3>
-    </div>
+    </div> -->
     
     
   </div>
@@ -368,8 +379,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/marketing-digit
 
 
  <script>
-     jQuery(function ($) {
-	
+     jQuery(function ($) {	
     var $grid = $('.gallery-wrapper').masonry({
     itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
