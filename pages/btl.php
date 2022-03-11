@@ -215,19 +215,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					<!---------- Container ---------->
 				</div>
 
-				<svg
-					style="margin-top: -7rem"
-					width="108"
-					height="217"
-					viewBox="0 0 108 217"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
-						fill="#ED1164"
-					/>
-				</svg>
+				<?php
+                 get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
+                ?>
 
 				<div style="margin-top: -3.2rem">
 					<div class="big-title text-red text-center">El servicio incluye:</div>
@@ -432,7 +422,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					</div>
 				</div>
 
-				<div class="bg-red">
+				<?php
+                 get_template_part('components/border-circle','full', array('color' => '#01A5EC', 'position' => 'right')); 
+                ?>
+
+				<!-- <div class="bg-red">
 					<div class="bg-pink-form rounded">
 						<div class="big-title text-white text-center">
 							Define tu presupuesto
@@ -463,7 +457,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<!------------------Game-------------------->
 				<div style="margin-top: 2rem" class="text-center">
@@ -654,19 +648,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					<!---------- Container ---------->
 				</div>
 
-				<svg
-					style="margin-top: -7rem"
-					width="108"
-					height="217"
-					viewBox="0 0 108 217"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
-						fill="#ED1164"
-					/>
-				</svg>
+				<?php
+                 get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
+                ?>
 
 				<div class="row justify-content-center" style="padding-bottom: 5rem;">
 					<div style="background: #FAFAFA;" class="col-sm-12 col-md-10 d-flex flex-md-row align-items-center justify-content-center flex-column mx-3">
@@ -753,19 +737,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					<!---------- Container ---------->
 				</div>
 
-				<svg
-					style="margin-top: -7rem"
-					width="108"
-					height="217"
-					viewBox="0 0 108 217"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
-						fill="#ED1164"
-					/>
-				</svg>
+				<?php
+                 get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
+                ?>
 			</div>
 			<!---------relations------------>
 
@@ -833,19 +807,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					<!---------- Container ---------->
 				</div>
 
-				<svg
-					style="margin-top: -7rem"
-					width="108"
-					height="217"
-					viewBox="0 0 108 217"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
-						fill="#ED1164"
-					/>
-				</svg>
+				<?php
+                 get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
+                ?>
 			</div>
 			<!----------Sales---------->
 
@@ -887,19 +851,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					<!---------- Container ---------->
 				</div>
 
-				<svg
-					style="margin-top: -7rem"
-					width="108"
-					height="217"
-					viewBox="0 0 108 217"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
-						fill="#ED1164"
-					/>
-				</svg>
+				<?php
+                 get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
+                ?>
 			</div>
 			<!----------Hostess---------->
 
