@@ -4,7 +4,7 @@
 */
 get_header();
 
-$directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
+$path_img = get_template_directory_uri() . '/assets/images/btl/';
 ?>
 
 <style>
@@ -29,23 +29,35 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 		height: 900px;
 	}
 
-	/* .active {
+	.subtitle-event {
+		font-family: Hurme Geometric Sans 4;
+		font-size: 1.6rem;
+		font-style: normal;
+		font-weight: 700;
+		letter-spacing: 0em;
+		color: #ED1164;
+	}
 
-	} */
+	.text-event-italic {
+		font-family: Hurme Geometric Sans 4;
+		font-size: 1rem;
+		font-style: italic;
+		font-weight: 700;
+		line-height: 19px;
+		letter-spacing: 0em;
+		text-align: justified;
+		color:#808080;
+	}
 
-	/* .corner_footer {
-        transform: matrix(0.98, 0.17, 0.2, -0.98, 0, 0);
-        -ms-transform: matrix(0.98, 0.17, 0.2, -0.98, 0, 0);
-        -webkit-transform: matrix(0.98, 0.17, 0.2, -0.98, 0, 0);
-        border-radius: 20px;
-        position: absolute;
-        width: 191.39px;
-        height: 149.09px;
-        left:87%;
-        top:1%;
-        border-color:red;
-        border-style:solid;
-    } */
+	.text-event {
+		font-family: Hurme Geometric Sans 4;
+		font-size: 1rem;
+		font-style: normal;
+		font-weight: 400;
+		letter-spacing: 0em;
+		text-align: justified;
+		color: #808080;
+	}
 </style>
 
 <section id="slider">
@@ -167,13 +179,13 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 							</div>
 
 							<div class="col-sm-6 text-center" style="height: 26.4rem">
-								<img src="<?php echo $directory_imgs; ?>girls.svg" alt="" />
+								<img src="<?php echo $path_img; ?>girls.svg" alt="" />
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="col-sm-6 text-justify" style="margin-top: -130px">
-								<img src="<?php echo $directory_imgs; ?>bottle.svg" />
+								<img src="<?php echo $path_img; ?>bottle.svg" />
 							</div>
 							<div class="col-sm-6 text-light-gray">
 								<p class="text-justify">
@@ -203,17 +215,29 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 					<!---------- Container ---------->
 				</div>
 
-				<div>
-					<div class="big-title text-red my-4 text-center">
-						El servicio incluye:
-					</div>
+				<svg
+					style="margin-top: -7rem"
+					width="108"
+					height="217"
+					viewBox="0 0 108 217"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
+						fill="#ED1164"
+					/>
+				</svg>
+
+				<div style="margin-top: -3.2rem">
+					<div class="big-title text-red text-center">El servicio incluye:</div>
 					<div>
 						<div class="d-flex justify-content-center">
 							<div>
 								<div class="mb-1">
 									<div class="d-inline-block">
 										<img
-											src="<?php echo $directory_imgs; ?>first-icon-service.svg"
+											src="<?php echo $path_img; ?>first-icon-service.svg"
 										/>
 									</div>
 									<div class="d-inline-block ml-1">
@@ -278,7 +302,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 									</div>
 									<div class="d-inline-block ml-4">
 										<img
-											src="<?php echo $directory_imgs; ?>second-icon-service.svg"
+											src="<?php echo $path_img; ?>second-icon-service.svg"
 										/>
 									</div>
 								</div>
@@ -308,7 +332,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 								<div class="mb-1">
 									<div class="d-inline-block">
 										<img
-											src="<?php echo $directory_imgs; ?>third-icon-service.svg"
+											src="<?php echo $path_img; ?>third-icon-service.svg"
 										/>
 									</div>
 									<div class="d-inline-block ml-1">
@@ -373,7 +397,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 									</div>
 									<div class="d-inline-block">
 										<img
-											src="<?php echo $directory_imgs; ?>fourth-icon-service.svg"
+											src="<?php echo $path_img; ?>fourth-icon-service.svg"
 										/>
 									</div>
 								</div>
@@ -440,6 +464,130 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 						</div>
 					</div>
 				</div>
+
+				<!------------------Game-------------------->
+				<div style="margin-top: 2rem" class="text-center">
+					<!------------title-------------->
+					<div class="big-title text-red text-center">Juegos BTL:</div>
+					<!------------title-------------->
+
+					<!-------------line--------------->
+					<div>
+						<img src="<?php echo $path_img; ?>game-line.svg" alt="" />
+					</div>
+					<!-------------line--------------->
+
+					<!-------------Note------------>
+					<div class="d-flex justify-content-center flex-wrap">
+						<div class="m-sm-1 m-md-2">
+							<img src="<?php echo $path_img; ?>first-game.svg" alt="" />
+						</div>
+						<div class="m-sm-1 m-md-2">
+							<img src="<?php echo $path_img; ?>second-game.svg" alt="" />
+						</div>
+						<div class="m-sm-1 m-md-2">
+							<img src="<?php echo $path_img; ?>third-game.svg" alt="" />
+						</div>
+					</div>
+					<!-------------Note------------>
+
+					<!-------------Options---------------->
+					<div class="my-5">
+						<div class="row justify-content-center">
+							<?php 
+							foreach (array(
+								array
+								(
+								"image" => "tablero-memoria.png", 
+								"icon" => "cerebro.svg",
+								"title" => "Tablero de <strong>Memoria</strong>",
+								"path" => $path_img
+								), 
+								array ( 
+								"image" => "cabina-aire.png",
+								"icon" => "cabina-aire.svg", 
+								"title" => "Cabina de <strong>Aire</strong>", 
+								"path" => $path_img
+								),
+								array (
+								"image" => "ruta.png",
+								"icon" => "ruleta.svg",
+								"title" => "La <strong>Ruleta</strong>",
+								"path" => $path_img
+								), 
+								array (
+								"image" => "jenga-gigante.png", 
+								"icon" => "jenga-gigante.svg",
+								"title" => "Jenga <strong>Gigante</strong>",
+								"path" => $path_img
+								)) as $game) {
+							get_template_part('components/option-game','full', $game ); } ?>
+						</div>
+						<div class="row justify-content-center">
+							<?php 
+							foreach (array(
+								array
+								(
+								"image" => "carrera-enchufes.png", 
+								"icon" => "carrera-enchufes.svg",
+								"title" => "Carrera de <strong>Enchufes</strong>",
+								"path" => $path_img
+								), 
+								array ( 
+								"image" => "palestra-inflable.png",
+								"icon" => "palestra-inflable.svg", 
+								"title" => "Palestra <strong>Inflable</strong>", 
+								"path" => $path_img
+								),
+								array (
+								"image" => "palestra.png",
+								"icon" => "palestra.svg",
+								"title" => "La <strong>Palesta</strong>",
+								"path" => $path_img
+								), 
+								array (
+								"image" => "tablero-dardos.png", 
+								"icon" => "tablero-dardos.svg",
+								"title" => "Tablero de <strong>Dardos</strong>",
+								"path" => $path_img
+								)) as $game) {
+							get_template_part('components/option-game','full', $game ); } ?>
+						</div>
+						<div class="row justify-content-center">
+							<?php 
+							foreach (array(
+								array
+								(
+								"image" => "hombro-globo.png", 
+								"icon" => "hombro-globo.svg",
+								"title" => "Hombre <strong>Glogo</strong>",
+								"path" => $path_img
+								), 
+								array ( 
+								"image" => "futbol-billar-gigante.png",
+								"icon" => "futbol-billar-gigante.svg", 
+								"title" => "Futbol Billar <strong>Gigante</strong>", 
+								"path" => $path_img
+								),
+								array (
+								"image" => "tira-gol.png",
+								"icon" => "tira-gol.svg",
+								"title" => "El <strong>TiraGol</strong>",
+								"path" => $path_img
+								), 
+								array (
+								"image" => "obstaculos.png", 
+								"icon" => "obstaculos.svg",
+								"title" => "Los <strong>Obstáculos</strong>",
+								"path" => $path_img
+								)) as $game) {
+							get_template_part('components/option-game','full', $game ); } ?>
+						</div>
+					</div>
+					<!-------------Options---------------->
+				</div>
+				<!------------------Game-------------------->
+
 			</div>
 			<!------------BTL------------>
 
@@ -473,7 +621,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 
 							<div class="col-sm-6 text-right">
 								<img
-									src="<?php echo $directory_imgs; ?>first-event.svg"
+									src="<?php echo $path_img; ?>first-event.svg"
 									alt=""
 								/>
 							</div>
@@ -483,7 +631,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="col-sm-6 col-md-3 text-center">
 								<img
 									style="height: 13rem"
-									src="<?php echo $directory_imgs; ?>second-event.svg"
+									src="<?php echo $path_img; ?>second-event.svg"
 								/>
 							</div>
 							<div class="col-sm-6 col-md-6 text-light-gray">
@@ -495,7 +643,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 									</div>
 									<div>
 										<img
-											src="<?php echo $directory_imgs; ?>third-event.svg"
+											src="<?php echo $path_img; ?>third-event.svg"
 											alt=""
 										/>
 									</div>
@@ -504,6 +652,41 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 						</div>
 					</div>
 					<!---------- Container ---------->
+				</div>
+
+				<svg
+					style="margin-top: -7rem"
+					width="108"
+					height="217"
+					viewBox="0 0 108 217"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
+						fill="#ED1164"
+					/>
+				</svg>
+
+				<div class="row justify-content-center" style="padding-bottom: 5rem;">
+					<div style="background: #FAFAFA;" class="col-sm-12 col-md-10 d-flex flex-md-row align-items-center justify-content-center flex-column mx-3">
+						<div class="pr-md-2 pr-lg-5">
+							<div class="subtitle-event pb-3">Eventos Presenciales</div>
+							<ul>
+								<li class="text-event">Lanzamientos y otros corporativos.</li>
+								<li class="text-event">Eventos de integración para empleados.</li>
+								<li class="text-event">Conferencias, foros, seminarios y convenciones.</li>
+							</ul>
+							<div class="text-event-italic">*Cubrimos el protocolo de bioseguridad en todos los eventos</div>
+						</div>
+						<div class="pl-md-2 pl-lg-5">
+							<!-- style="height: 23.4rem; margin-top: -4.4rem; margin-bottom: -3.2rem;" -->
+							<img
+								class="img-float-event"
+								src="<?php echo $path_img; ?>eventos-presenciales.png"
+							/>						
+						</div>
+					</div>
 				</div>
 			</div>
 			<!----------Events---------->
@@ -520,7 +703,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 						<div class="row justify-content-center">
 							<div class="col-sm-6 text-center" style="height: 26.4rem">
 								<img
-									src="<?php echo $directory_imgs; ?>first-relation.svg"
+									src="<?php echo $path_img; ?>first-relation.svg"
 									alt=""
 								/>
 							</div>
@@ -554,7 +737,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 									mediático positivo
 								</div>
 								<img
-									src="<?php echo $directory_imgs; ?>third-relation.svg"
+									src="<?php echo $path_img; ?>third-relation.svg"
 									alt=""
 								/>
 							</div>
@@ -562,13 +745,27 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="col-sm-6 text-center" style="margin-top: -5rem">
 								<img
 									style="height: 13rem"
-									src="<?php echo $directory_imgs; ?>second-relation.svg"
+									src="<?php echo $path_img; ?>second-relation.svg"
 								/>
 							</div>
 						</div>
 					</div>
 					<!---------- Container ---------->
 				</div>
+
+				<svg
+					style="margin-top: -7rem"
+					width="108"
+					height="217"
+					viewBox="0 0 108 217"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
+						fill="#ED1164"
+					/>
+				</svg>
 			</div>
 			<!---------relations------------>
 
@@ -604,7 +801,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 
 							<div class="col-sm-6 text-right">
 								<img
-									src="<?php echo $directory_imgs; ?>first-sales.svg"
+									src="<?php echo $path_img; ?>first-sales.svg"
 									alt=""
 								/>
 							</div>
@@ -617,7 +814,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 							>
 								<img
 									style="height: 15rem"
-									src="<?php echo $directory_imgs; ?>second-sales.svg"
+									src="<?php echo $path_img; ?>second-sales.svg"
 								/>
 							</div>
 							<div class="col-sm-6 col-md-6" style="padding-left: 2rem">
@@ -627,7 +824,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 									Asesores Comerciales y más.
 								</div>
 								<img
-									src="<?php echo $directory_imgs; ?>third-sales.svg"
+									src="<?php echo $path_img; ?>third-sales.svg"
 									alt=""
 								/>
 							</div>
@@ -635,6 +832,20 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 					</div>
 					<!---------- Container ---------->
 				</div>
+
+				<svg
+					style="margin-top: -7rem"
+					width="108"
+					height="217"
+					viewBox="0 0 108 217"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
+						fill="#ED1164"
+					/>
+				</svg>
 			</div>
 			<!----------Sales---------->
 
@@ -667,7 +878,7 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 
 							<div class="col-sm-6 text-right">
 								<img
-									src="<?php echo $directory_imgs; ?>first-hostess.svg"
+									src="<?php echo $path_img; ?>first-hostess.svg"
 									alt=""
 								/>
 							</div>
@@ -675,6 +886,20 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/btl/';
 					</div>
 					<!---------- Container ---------->
 				</div>
+
+				<svg
+					style="margin-top: -7rem"
+					width="108"
+					height="217"
+					viewBox="0 0 108 217"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z"
+						fill="#ED1164"
+					/>
+				</svg>
 			</div>
 			<!----------Hostess---------->
 
