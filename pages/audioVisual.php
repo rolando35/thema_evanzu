@@ -4,6 +4,7 @@
 */
 $transparentNone = true;
 get_header();
+$directory_imgs = get_template_directory_uri() . '/assets/images/audioVisual/';
 ?>
 <style>
 html,
@@ -139,16 +140,31 @@ h5 {
 <section>
     <div class="bg-white">
         <div class="mx-auto w-50">
-            <ul class="nav nav-pills" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
-                </li>
+            <ul class="nav nav-pills d-flex justify-content-around" role="tablist">
+            <?php
+             $lista = array (array  (
+             'svg' => $directory_imgs.'first-tab.svg',
+             'title'=> 'Sopts & <br> Videos',
+             'href'=> '#home',
+             'active'=> 'active', 
+             'center' => 'two-elements'),
+             array (
+             'svg' => $directory_imgs.'second-tab.svg',
+             'title'=> 'Animación <br> 2D',
+             'href'=> '#menu1','active'=> '',
+             'center' => 'two-elements'
+            ),
+            array (
+            'svg' => $directory_imgs.'third-tab.svg',
+            'title'=> 'Fotografía Profesional',
+            'href'=> '#menu2',
+            'active'=> '',
+            'center' => 'two-elements'
+            ));
+             foreach ($lista as $data) {
+                 get_template_part('components/circle-nav','full', $data );
+             }
+             ?>
             </ul>
 
         </div>
@@ -179,14 +195,13 @@ h5 {
     </div>
 
 </div>
-                          <div class="col-sm-6">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 585.png" alt="Cámara fotográfica">
-                            <p class="text-justify py-4">
-                                Es una solución ideal para promocionar lanzamientos, marcas, productos, servicios, instalaciones, herramientas, procesos, tutoriales y más.
-                                Contamos con equipo para todo tipo de tomas: luces, cámaras de video 4K Full y ultra HD, drones y GoPro.
-                            </p>
-                          </div>
-                          
+      <div class="col-sm-6">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 585.png" alt="Cámara fotográfica">
+        <p class="text-justify py-4">
+            Es una solución ideal para promocionar lanzamientos, marcas, productos, servicios, instalaciones, herramientas, procesos, tutoriales y más.
+            Contamos con equipo para todo tipo de tomas: luces, cámaras de video 4K Full y ultra HD, drones y GoPro.
+        </p>
+      </div>
                     </div>
                 </div>
                 </div>
@@ -290,18 +305,12 @@ h5 {
                              get_template_part('components/border-circle','full', $parameters ); 
                             ?>
                        </div>
-                       <div class="big-title text-white text-center">Define tu presupuesto</div>
-                         <div class="bg-white mx-5 px-5 rounded-pill">
-                              <div class="d-inline-block w-75"> 
-                                <div class="input-group">
-                                    <input type="text" placeholder="Sitio Web" class="form-control">
-                                    <input type="text" placeholder="E-mail" class="form-control">
-                                </div>
-                              </div>
-                              <div class="d-inline-block">
-                                  <button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm">Solicita tu cotización</button>
-                                </div>
-                         </div>
+                      <div class='mt-5'>
+                        <?php
+                          $parameters = array ('svg' => $directory_imgs.'form-quote-request.svg','title'=> '¡Empecemos ahora!');
+                          get_template_part('components/form-quote-request','full', $parameters );  
+                        ?> 
+                      </div>
                     </div>   
                 </div>
 
@@ -362,14 +371,305 @@ h5 {
                
                <!-- PORTAFOLIO -->
                
+
+
+               <!-- TAB - 2 -->
+
                 </div>
-            <div id="menu1" class="container tab-pane fade"><br>
-                <h3>Menu 1</h3>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div id="menu1" class="tab-pane fade"><br>
+            <div style='margin-top: 3.4rem' class="tab-content">
+               <div class="bg-faint-gray py-5">
+                <div class="big-title text-red my-4 text-center">
+                Animación 2D
+                </div>
+                <div class="container">
+                    <div class="row">
+                    <div class="col-sm-6">
+
+            <div class="my-3">
+                <div class="text-green  my-3 text-left" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
+                Crea historias que enganchen
+                </div>
             </div>
-            <div id="menu2" class="container tab-pane fade"><br>
-                <h3>Menu 2</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <p class='font-weight-normal w-90' style='line-height: 22px; font-size: 1rem'>
+            Comunicamos información relevante y contenido de interés de la manera más <strong>creativa y cautivadora.</strong> Aplicable a <b>videos para comunicación interna y externa,</b> eventos corporativos, tutoriales y otros. <br> <br>
+            Manejamos diversos estilos de animación: motion graphic, stop motion y otros. Contamos con un equipo especializado en Illustrator, After effects, Premier, Audition, Cinema 4D y 3D Max.
+            </p>
+            </div>
+                  <div class="col-sm-6">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/animacion-2d.png" alt="Cámara fotográfica">
+                  </div>
+                    </div>
+                </div>
+                </div>
+                <?php
+                 $parameters = array('color' => '#ED1164', 'position' => '') ;
+                 get_template_part('components/border-circle','full', $parameters ); 
+                ?>
+                <div >
+                     <div class="big-title text-red text-center py-5" style='display: flex; flex-direction: column; align-items: center;'>
+                     ¿Cómo lo hacemos?
+                       <div class="line-h"></div>
+                     </div>
+                     <div>
+                         <div class="d-flex justify-content-center">
+                             <div>  
+                                 <div class="mb-1">
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos1.svg"></div>
+                                          <div class="d-inline-block ml-1" style='width: 14.5rem;'>
+                                          <b> Desarrollo </b> de concepto.
+                                            </div>   
+                                   </div> 
+                                    <div class="ml-5">
+                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
+                                    </div>
+                                   
+                             </div>
+                             <div> 
+                                <div> 
+                                    <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
+                                    </svg>
+                                 </div> 
+                                 <div class="position-relative">
+                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
+                                </div>
+                                
+                              </div>
+                             <div >
+                                   <div class="mb-1 mt-5 ml-5">
+                                   <div class="d-inline-block ml-1">
+                                   Creación de <b> Storyboard.</b>
+
+                                    </div>   
+                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos2.svg"></div> 
+                                   </div> 
+
+                                   <div class="position-relative" style='margin-left: -1rem;'>
+                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
+                                </div>
+                             </div>
+                         </div>
+
+                        <div class="d-flex justify-content-center " style='margin-top:-24rem'>
+                            <div style='margin-left: 4rem;'>  
+                                 <div class="mb-1 d-flex align-items-center">
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago3.svg"></div>
+                                          <div class="d-inline-block ml-1" style='width: 12rem;'>
+                                            <b>Ilustración y caracterización</b> de personajes y escenarios.
+                                            </div>  
+                                   </div> 
+                                    <div class="ml-5">
+                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
+                                    </div>
+                                   
+                             </div>
+                             <div >
+                                   <div class="mb-1 mt-5 ml-5">
+                                   <div class="d-inline-block ml-1">
+                                   <b>Animación, musicalización y voz en off.</b>
+                                    </div>   
+                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago4.svg"></div> 
+                                   </div> 
+
+                                   <div class="position-relative" style='margin-left: 2.5rem;'>
+                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
+                                </div>
+                             </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
+                            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como lo hacemos.png">
+                        </div>
+                     </div>
+                </div>
+                <div class="bg-red">
+                   <div class="bg-pink-form rounded" style='height: 27.6rem;'>
+                       <div class='w-100 text-right'>
+                           <?php
+                             $parameters = array('color' => '#019B69', 'position' => 'transform: rotate(-180deg);') ;
+                             get_template_part('components/border-circle','full', $parameters ); 
+                            ?>
+                       </div>
+                      <div class='mt-5'>
+                        <?php
+                          $parameters = array ('svg' => $directory_imgs.'form-quote-request.svg','title'=> '¿Estás listo?');
+                          get_template_part('components/form-quote-request','full', $parameters );  
+                        ?> 
+                      </div>
+                    </div>   
+                </div>
+
+               <div class='py-5 my-5 pl-5'>
+                   <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
+                        <div class='w-90 bg-fa' style='height: 12.1rem'></div>
+                    </div>
+                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
+                          <div>
+                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
+                               <ul>
+                                    <li>Video-tutoriales.</li>
+                                   <li>Presentación de productos o servicios.</li>
+                                   <li>Videos infográficos y otros.</li>
+                                   <li>Producción de audio (Musicalización, efectos de sonido, masterización de audio, locución).</li>
+                               </ul>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png" alt="Ofrecemos imagen 1">
+                      </div>
+               </div>
+               
+               
+               <!-- PORTAFOLIO -->
+               
+
+            </div>
+         </div>
+
+            <!-- TAB - 3 -->
+            <div id="menu2" class="tab-pane fade"><br>
+               <div class="bg-faint-gray py-5">
+                <div class="big-title text-red my-4 text-center">
+                Fotografía Profesional
+                </div>
+                <div class="container">
+                    <div class="row">
+                    <div class="col-sm-6">
+
+            <div class="my-3">
+                <div class="text-green  my-3 text-left" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
+                Crea historias que enganchen
+                </div>
+            </div>
+            <p class='font-weight-normal w-90' style='line-height: 22px; font-size: 1rem'>
+            Comunicamos información relevante y contenido de interés de la manera más <strong>creativa y cautivadora.</strong> Aplicable a <b>videos para comunicación interna y externa,</b> eventos corporativos, tutoriales y otros. <br> <br>
+            Manejamos diversos estilos de animación: motion graphic, stop motion y otros. Contamos con un equipo especializado en Illustrator, After effects, Premier, Audition, Cinema 4D y 3D Max.
+            </p>
+            </div>
+                  <div class="col-sm-6">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/animacion-2d.png" alt="Cámara fotográfica">
+                  </div>
+                    </div>
+                </div>
+                </div>
+                <?php
+                 $parameters = array('color' => '#ED1164', 'position' => '') ;
+                 get_template_part('components/border-circle','full', $parameters ); 
+                ?>
+                <div >
+                     <div class="big-title text-red text-center py-5" style='display: flex; flex-direction: column; align-items: center;'>
+                     ¿Cómo lo hacemos?
+                       <div class="line-h"></div>
+                     </div>
+                     <div>
+                         <div class="d-flex justify-content-center">
+                             <div>  
+                                 <div class="mb-1">
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos1.svg"></div>
+                                          <div class="d-inline-block ml-1" style='width: 14.5rem;'>
+                                          <b> Desarrollo </b> de concepto.
+                                            </div>   
+                                   </div> 
+                                    <div class="ml-5">
+                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
+                                    </div>
+                                   
+                             </div>
+                             <div> 
+                                <div> 
+                                    <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
+                                    </svg>
+                                 </div> 
+                                 <div class="position-relative">
+                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
+                                </div>
+                                
+                              </div>
+                             <div >
+                                   <div class="mb-1 mt-5 ml-5">
+                                   <div class="d-inline-block ml-1">
+                                   Creación de <b> Storyboard.</b>
+
+                                    </div>   
+                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos2.svg"></div> 
+                                   </div> 
+
+                                   <div class="position-relative" style='margin-left: -1rem;'>
+                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
+                                </div>
+                             </div>
+                         </div>
+
+                        <div class="d-flex justify-content-center " style='margin-top:-24rem'>
+                            <div style='margin-left: 4rem;'>  
+                                 <div class="mb-1 d-flex align-items-center">
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago3.svg"></div>
+                                          <div class="d-inline-block ml-1" style='width: 12rem;'>
+                                            <b>Ilustración y caracterización</b> de personajes y escenarios.
+                                            </div>  
+                                   </div> 
+                                    <div class="ml-5">
+                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
+                                    </div>
+                                   
+                             </div>
+                             <div >
+                                   <div class="mb-1 mt-5 ml-5">
+                                   <div class="d-inline-block ml-1">
+                                   <b>Animación, musicalización y voz en off.</b>
+                                    </div>   
+                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago4.svg"></div> 
+                                   </div> 
+
+                                   <div class="position-relative" style='margin-left: 2.5rem;'>
+                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
+                                </div>
+                             </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
+                            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como lo hacemos.png">
+                        </div>
+                     </div>
+                </div>
+                <div class="bg-red">
+                   <div class="bg-pink-form rounded" style='height: 27.6rem;'>
+                       <div class='w-100 text-right'>
+                           <?php
+                             $parameters = array('color' => '#019B69', 'position' => 'transform: rotate(-180deg);') ;
+                             get_template_part('components/border-circle','full', $parameters ); 
+                            ?>
+                       </div>
+                      <div class='mt-5'>
+                        <?php
+                          $parameters = array ('svg' => $directory_imgs.'form-quote-request.svg','title'=> '¿Estás listo?');
+                          get_template_part('components/form-quote-request','full', $parameters );  
+                        ?> 
+                      </div>
+                    </div>   
+                </div>
+
+               <div class='py-5 my-5 pl-5'>
+                   <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
+                        <div class='w-90 bg-fa' style='height: 12.1rem'></div>
+                    </div>
+                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
+                          <div>
+                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
+                               <ul>
+                                    <li>Video-tutoriales.</li>
+                                   <li>Presentación de productos o servicios.</li>
+                                   <li>Videos infográficos y otros.</li>
+                                   <li>Producción de audio (Musicalización, efectos de sonido, masterización de audio, locución).</li>
+                               </ul>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png" alt="Ofrecemos imagen 1">
+                      </div>
+               </div>
+               
+               
+               <!-- PORTAFOLIO -->
+               
+
+            </div>
             </div>
         </div>
     </div>
