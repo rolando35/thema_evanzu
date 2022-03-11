@@ -13,7 +13,7 @@
  
 <?php 
 wp_head();
-$result = $transparentNone ? 'hola' : 'navbar';
+// $result = $transparentNone ? 'hola' : 'navbar';
 ?> 
   <!-- Navigation -->
   <nav class="<?php echo $result ?> navbar-expand-lg  bg-gray  fixed-top navbar-dark">
