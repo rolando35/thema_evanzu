@@ -370,6 +370,11 @@ h5 {
                </div>
                
                <!-- PORTAFOLIO -->
+
+                <section>
+                       <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
+                           <?php echo get_template_part('components/video-galery','full', array('video1' => 'zpq6oje5FsA', 'video2' => '-SdnP9s5cF8'));   ?>
+                 </section>
                
 
 
