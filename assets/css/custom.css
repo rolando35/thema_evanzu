@@ -135,9 +135,30 @@
 	font-size: 56.6006px;
 }
 
+.running-text-btl {
+	/* font-family: running-text;
+	font-size: 1rem;
+	text-align: left;
+	color: white; */
+
+	font-family: running-text;
+	font-size: 2.5rem;
+	text-align: left;
+	color: white;
+}
+
 .hurme-simple {
 	font-family: hurme-simple-black;
 	font-style: normal;
+}
+
+.hurme-simple-btl {
+	font-family: hurme-simple-black;
+	font-style: normal;
+	font-size: 7.4rem;
+	line-height: 7rem;
+	margin-top: -1rem;
+	color: white;
 }
 
 .subtitle-btl {
@@ -159,6 +180,22 @@
 	display: flex;
 	align-items: center;
 	text-transform: uppercase;
+}
+
+.medium-subtitle-first-btl {
+	font-family: hurme-simple;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3.5rem;
+	margin-top: -1rem;
+	text-transform: uppercase;
+	color: white;
+}
+
+.text-subtitle-btl {
+	line-height: 17px;
+	text-align: left;
+	color: white;
 }
 
 .medium-subtitle-first-upper {
@@ -418,10 +455,17 @@
 	border: 0px solid;
 }
 
-.img-float-event {
-	height: 23.4rem;
-	margin-top: -4.4rem;
-	margin-bottom: -3.2rem;
+/* .img-float-event {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 100%; */
+/* max-height: 20rem; */
+/* padding-top: 1rem; */
+/* } */
+
+.card-btl {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
 }
 
 /****RESPONSIVE****/
@@ -444,21 +488,49 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+	/* .img-float-event {
+		height: 23.4rem;
+		margin-top: -4.4rem;
+		margin-bottom: -3.2rem;
+	} */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-	.img-float-event {
+	/* .img-float-event {
 		margin-top: 0 !important;
 		margin-bottom: 0 !important;
 		height: 100% !important;
 		max-height: 20rem !important;
 		padding-top: 1rem !important;
-	}
+	} */
+
+	/* .card-btl {
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+	} */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+	.img-float-event {
+		height: 23.4rem;
+		margin-top: -4.4rem;
+		margin-bottom: -3.2rem;
+	}
+
+	.card-activation-2 {
+		margin-top: -6.5rem;
+	}
+
+	.card-sales-2 {
+		margin-top: -5rem;
+	}
+
+	.card-btl {
+		padding-bottom: 5rem;
+		padding-top: 3rem;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
