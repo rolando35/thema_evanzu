@@ -493,20 +493,13 @@
 		height: 330px;
 	}
 
-<<<<<<< HEAD
-  #icon-pink-background {
-    width: auto;
-    height: auto;
-  }
   .widthText {
     width: auto !important;
   }
-=======
 	#icon-pink-background {
 		width: auto;
 		height: auto;
 	}
->>>>>>> fdd17c32d87e1d0b7c53f2181548984d97caab44
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
