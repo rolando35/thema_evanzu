@@ -453,6 +453,9 @@
     width: auto;
     height: auto;
   }
+  .widthText {
+    width: auto !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -472,10 +475,44 @@
     max-height: 20rem !important;
     padding-top: 1rem !important;
   }
+  .margin-24 {
+    margin: 0 !important;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .margin {
+    margin-top:-18rem !important;
+  }
+  
+  .margin-negative {
+    margin-top:-24rem !important;
+  }
+
+  .width-production {
+    width: 302px !important;
+  }
+  
+  .w-310 {
+    width: auto !important;
+  }
+  
+  .w-14 {
+    width: 14.5rem !important;
+  }
+
+  .w-15 {
+    width: 15rem !important;
+  }
+
+  .m-left-4 {
+    margin-left: 4rem !important;
+  }
+
+  .w-12 {
+    width: 12rem !important;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
