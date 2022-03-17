@@ -653,7 +653,7 @@ h5 {
 
                         <div class="d-block d-md-flex text-center justify-content-center margin-24">
                             <div style='margin-left: 4rem;'>  
-                                 <div class="mb-1 d-flex align-items-center">
+                                 <div class="mb-1 d-block d-md-flex align-items-center">
                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/herramientas3.svg"></div>
                                           <div class="d-inline-block ml-1" style='width: 12rem;'>
                                             <b>Video</b> cámara HD y 4K
