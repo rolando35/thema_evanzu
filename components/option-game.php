@@ -13,9 +13,9 @@
 			width: 10.2rem;
 		"
 	>
-		<img src="<?php echo $game["path"] . $game["image"] ?>" alt="" />
+		<img src="<?php echo $game["path"] . $game["image"] ?>" class="img-fluid" />
 	</div>
-	<div><img src="<?php echo $game["path"] . $game["icon"]; ?>" alt="" /></div>
+	<div><img src="<?php echo $game["path"] . $game["icon"]; ?>" /></div>
 	<div>
 		<svg
 			width="54"
