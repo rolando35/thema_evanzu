@@ -552,12 +552,12 @@
 		height: 330px;
 	}
 
+  .widthText {
+    width: auto !important;
+  }
 	#icon-pink-background {
 		width: auto;
 		height: auto;
-	}
-	.widthText {
-		width: auto !important;
 	}
 }
 
@@ -575,7 +575,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	.margin-24 {
 		margin: 0 !important;
 	}
