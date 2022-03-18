@@ -308,8 +308,6 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/marketing-digit
       <div class="big-title text-red my-4 text-center">
          PORTAFOLIO
       </div> 
-      
-
         <div>
         <div class="container" style="margin-top:5rem">
   <div class="row">

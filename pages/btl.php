@@ -14,9 +14,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		height: 100%;
 	}
 
-	.gallery-wrapper {
-		overflow: hidden;
+    .gallery-wrapper {
+  		overflow: hidden;
 	}
+
 
 	.grid-item {
 		padding-bottom: 3rem;
@@ -58,6 +59,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		text-align: justified;
 		color: #808080;
 	}
+
+	.group-nav  {
+		z-index: 17;
+		position: relative;
+		width: 90%;
+		margin: -2.5rem auto 0;
+	}
 </style>
 
 <section id="slider">
@@ -65,7 +73,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		id="demo"
 		class="carousel slide"
 		data-ride="carousel"
-		style="margin-top: 3rem"
 	>
 		<div class="float-rectangle-banner">
 			<div id="rectangle" class="text-center"></div>
@@ -78,43 +85,42 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					width="1100"
 					height="500"
 				/>
-				<div class="carousel-caption" style="top: 5rem; bottom: auto">
-					<div class="">
-						<div class="row">
-							<div class="col-lg-6 text-white text-left">
-								<div class="box-text">
-									<div class="text-white running-text" style="font-size: 41px">
-										Somos una agencia de
-									</div>
-									<div class="text-white hurme-simple" style="font-size: 118px">
-										Btl &
-										<img
-											style="display: inline-block; width: 70px; height: 70px"
-											src="<?php echo get_template_directory_uri()?>/assets/images/btl/title-icon.png"
-										/>
-									</div>
-									<div class="medium-subtitle-first" style="font-size: 56px">
-										<span class="text-white">Comunicación</span>
-									</div>
-									<div class="text-white mt-3" style="line-height: 17px">
-										Sacamos nuestra creatividad y estrategia a las calles.
-									</div>
-									<div class="text-white m-0 p-0" style="line-height: 17px">
-										Salimos a encontrar a tus próximos clientes y enamorar a los
-										actuales con campañas interactivas.
-									</div>
-									<div class="mt-3">
-										<button class="btn-btl">
-											Quieres resultados.
-											<span style="font-weight: 400"
-												>Escríbenos &nbsp&nbsp</span
-											>
-										</button>
-									</div>
+				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
+					<div class="row">
+						<div class="col-6 flex-column align-items-left p-0">
+							<div class="running-text-btl">
+								Somos una agencia de
+							</div>
+							<div class="d-flex mt-n3">
+								<div class="hurme-simple-btl">
+									Btl & 
+								</div>
+								<div class="pl-5">
+									<img
+									style="width: 70px; height: 70px"
+									src="<?php echo get_template_directory_uri()?>/assets/images/btl/title-icon.png"
+									/>
 								</div>
 							</div>
+							<div class="medium-subtitle-first-btl text-left">Comunicación
+							</div>
+							<div class="text-subtitle-btl">
+								Sacamos nuestra creatividad y estrategia a las calles.
+							</div>
+							<div class="text-subtitle-btl">
+								Salimos a encontrar a tus próximos clientes y enamorar a los
+								actuales con campañas interactivas.
+							</div>
+							<div class="mt-3 text-left">
+								<button class="btn-btl">
+								Quieres resultados.
+								<span style="font-weight: 400"
+									>Escríbenos &nbsp&nbsp</span
+									>
+								</button>
+							</div>
 						</div>
-					</div>
+					</div>				
 				</div>
 			</div>
 		</div>
@@ -123,102 +129,145 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 <section>
 	<div class="bg-white">
-		<div class="">
+		<!-------------------nav-------------------->
+		<div class="group-nav">
 			<ul class="nav nav-pills justify-content-center" role="tablist">
-				<li class="nav-item">
-					<a class="nav-link active" data-toggle="pill" href="#home"
-						>BTL Y Activaciones</a
-					>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" data-toggle="pill" href="#events">Eventos</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" data-toggle="pill" href="#relations"
-						>Relaciones Públicas</a
-					>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" data-toggle="pill" href="#sales"
-						>Fuerza de ventas</a
-					>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" data-toggle="pill" href="#hostess"
-						>Anfitrionaje</a
-					>
-				</li>
+				<?php                          
+                    foreach (
+						array (
+							array (
+							'svg' => 'first-tab.svg',
+							'title'=> 'BTL y<br>Activaciones',
+							'href'=> '#home',
+							'active'=> 'active',
+							"path" => $path_img
+							),
+                            array (
+							'svg' =>'second-tab.svg',
+							'title'=> 'Eventos' ,
+							'href'=> '#events',
+							'active'=> '',
+							"path" => $path_img
+							),
+                            array (
+							'svg' => 'third-tab.svg',
+							'title'=> 'Relaciones<br>Públicas',
+							'href'=> '#relations',
+							'active'=> '',
+							"path" => $path_img
+							),
+                            array (
+							'svg' =>'fourth-tab.svg',
+							'title'=> 'Fuerza de<br>Ventas',
+							'href'=> '#sales',
+							'active'=> '',
+							"path" => $path_img
+							),
+                            array (
+							'svg' => 'fifth-tab.svg',
+							'title'=> 'Anfitrionaje',
+							'href'=> '#hostess',
+							'active'=> '',
+							"path" => $path_img
+							)) as $nav) {
+                             get_template_part('components/circle-nav-2','full', $nav ); 
+                         }
+                     ?>
 			</ul>
 		</div>
+		<!-------------------nav-------------------->
 
-		<!-- Tab panes -->
+		<!-------------------Tab---------------------->
 		<div class="tab-content" style="overflow: hidden">
 			<!------------BTL------------>
 			<div id="home" class="tab-pane active">
-				<br />
-				<div class="bg-light-gray">
-					<div class="big-title text-red my-4 text-center">
-						BTL y Activaciones
-					</div>
-					<!---------- Container ---------->
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="my-3 subtitle-btl">
-									LLevamos tu marca al lado del consumidor
+				<br>
+				<!----------------------Main---------------------->
+				<section class="p-0">
+					<div class="bg-light-gray py-0">
+						<div class="big-title text-red my-2 text-center">BTL y Activaciones</div>
+						<!-------------------Card---------------------->
+						<div class="py-2">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-md-11 col-lg-6 d-flex align-items-center">
+										<div class="card bg-transparent border-0">
+											<div class="card-body">
+												<h3 class="subtitle-btl text-left p-1">LLevamos tu marca al lado del consumidor</h3>
+												<p class="text-justify text-light-gray p-1">
+												Realizamos todo tipo de activaciones promocionales y juegos
+												BTL con la finalidad de lograr una
+												<strong
+													>interacción especial y de valor con el consumidor.</strong
+													>
+												Ofrecemos una experiencia vivencial que involucre a tus
+												clientes con tu mensaje u oferta.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-10 col-lg-6">
+										<img
+											src="<?php echo $path_img; ?>activacion-01.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
 								</div>
-								<p class="text-justify text-light-gray">
-									Realizamos todo tipo de activaciones promocionales y juegos
-									BTL con la finalidad de lograr una
-									<strong
-										>interacción especial y de valor con el consumidor.</strong
-									>
-									Ofrecemos una experiencia vivencial que involucre a tus
-									clientes con tu mensaje u oferta.
-								</p>
-							</div>
-
-							<div class="col-sm-6 text-center" style="height: 26.4rem">
-								<img src="<?php echo $path_img; ?>girls.svg" alt="" />
 							</div>
 						</div>
+						<!------------Card---------->
 
-						<div class="row">
-							<div class="col-sm-6 text-justify" style="margin-top: -130px">
-								<img src="<?php echo $path_img; ?>bottle.svg" />
-							</div>
-							<div class="col-sm-6 text-light-gray">
-								<p class="text-justify">
-									Nos comprometemos en cada proceso: desarrollo del concepto,
-									diseño de piezas de comunicación, planeamiento de actividades
-									y ejecución.
-								</p>
-								<p
-									class="text-justify"
-									style="font-weight: 700; margin-bottom: 0"
-								>
-									Trabajamos en base a tu presupuesto y lo optimizamos.
-								</p>
-								<p class="text-justify">
-									Ideal para lanzamiento de productos o marcas, sampling,
-									volanteo publicitario y otros.
-								</p>
-								<p
-									class="text-justify"
-									style="font-weight: 700; margin-bottom: 0"
-								>
-									¡Genera experiencias positivas para tu cliente!
-								</p>
+						<!-------------------Card---------------------->
+						<div class="py-2 card-activation-2">
+							<div class="container">
+								<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end">
+									<div class="col-md-10 col-lg-6 py-2 text-center">
+										<img
+											src="<?php echo $path_img; ?>activacion-02.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
+										<div class="card bg-transparent border-0">
+											<div class="card-body pb-0">
+												<div class="text-justify text-light-gray p-1 pb-2 pb-md-3">
+												Nos comprometemos en cada proceso: desarrollo del concepto,
+												diseño de piezas de comunicación, planeamiento de actividades
+												y ejecución.
+												</div>
+												<div
+												class="text-justify text-light-gray p-1 pb-2 pb-md-3"
+												>
+												<strong>Trabajamos en base a tu presupuesto y lo optimizamos.</strong>
+												<br>
+												Ideal para lanzamiento de productos o marcas, sampling,
+												volanteo publicitario y otros.
+												</div>
+												<div
+												class="text-justify text-light-gray p-1"
+												>
+												<strong>¡Genera experiencias positivas para tu cliente!</strong>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+						<!------------Card---------->
 					</div>
-					<!---------- Container ---------->
-				</div>
+				</section>
+				<!----------------------Main---------------------->
 
+				<!--------------------bola-Left------------------------->
 				<?php
                  get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
                 ?>
+				<!--------------------bola-Left------------------------->
 
+				<!-----------------------Service----------------------------->
 				<div style="margin-top: -3.2rem">
 					<div class="big-title text-red text-center">El servicio incluye:</div>
 					<div>
@@ -411,56 +460,22 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								</div>
 							</div>
 						</div>
-
-						<div class="d-flex justify-content-center">
-							<div class="d-inline-block ml-5">
-								<img
-									src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/root-tree.svg"
-								/>
-							</div>
-						</div>
 					</div>
 				</div>
+				<!-----------------------Service----------------------------->
 
-				<?php
-                 get_template_part('components/border-circle','full', array('color' => '#01A5EC', 'position' => 'right')); 
-                ?>
-
-				<!-- <div class="bg-red">
-					<div class="bg-pink-form rounded">
-						<div class="big-title text-white text-center">
-							Define tu presupuesto
-						</div>
-
-						<div class="bg-white mx-5 px-5 rounded-pill">
-							<div class="d-inline-block w-75">
-								<div class="input-group">
-									<input
-										type="text"
-										placeholder="Sitio Web"
-										class="form-control"
-									/>
-									<input
-										type="text"
-										placeholder="E-mail"
-										class="form-control"
-									/>
-								</div>
-							</div>
-							<div class="d-inline-block">
-								<button
-									type="button"
-									class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm"
-								>
-									Solicita tu cotización
-								</button>
-							</div>
-						</div>
-					</div>
-				</div> -->
+				<!-----------------------Contanct----------------------------->
+				<?php 
+					get_template_part('components/btl/contact','full', 
+					array (
+						'path_img' => $path_img,
+						'title'=> 'Define tu presupuesto'
+					));  	 
+				?>
+				<!-----------------------Contanct----------------------------->
 
 				<!------------------Game-------------------->
-				<div style="margin-top: 2rem" class="text-center">
+				<section style="margin-top: 2rem" class="text-center">
 					<!------------title-------------->
 					<div class="big-title text-red text-center">Juegos BTL:</div>
 					<!------------title-------------->
@@ -487,37 +502,89 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 					<!-------------Options---------------->
 					<div class="my-5">
-						<div class="row justify-content-center">
-							<?php 
-							foreach (array(
-								array
-								(
-								"image" => "tablero-memoria.png", 
-								"icon" => "cerebro.svg",
-								"title" => "Tablero de <strong>Memoria</strong>",
-								"path" => $path_img
-								), 
-								array ( 
-								"image" => "cabina-aire.png",
-								"icon" => "cabina-aire.svg", 
-								"title" => "Cabina de <strong>Aire</strong>", 
-								"path" => $path_img
-								),
-								array (
-								"image" => "ruta.png",
-								"icon" => "ruleta.svg",
-								"title" => "La <strong>Ruleta</strong>",
-								"path" => $path_img
-								), 
-								array (
-								"image" => "jenga-gigante.png", 
-								"icon" => "jenga-gigante.svg",
-								"title" => "Jenga <strong>Gigante</strong>",
-								"path" => $path_img
-								)) as $game) {
-							get_template_part('components/option-game','full', $game ); } ?>
+						<div class="container">
+							<div class="row justify-content-center">
+								<?php 
+								foreach (array(
+									array
+									(
+									"image" => "tablero-memoria.png", 
+									"icon" => "cerebro.svg",
+									"title" => "Tablero de <strong>Memoria</strong>",
+									"path" => $path_img
+									), 
+									array ( 
+									"image" => "cabina-aire.png",
+									"icon" => "cabina-aire.svg", 
+									"title" => "Cabina de <strong>Aire</strong>", 
+									"path" => $path_img
+									),
+									array (
+									"image" => "ruta.png",
+									"icon" => "ruleta.svg",
+									"title" => "La <strong>Ruleta</strong>",
+									"path" => $path_img
+									), 
+									array (
+									"image" => "jenga-gigante.png", 
+									"icon" => "jenga-gigante.svg",
+									"title" => "Jenga <strong>Gigante</strong>",
+									"path" => $path_img
+									),
+									array
+									(
+									"image" => "carrera-enchufes.png", 
+									"icon" => "carrera-enchufes.svg",
+									"title" => "Carrera de <strong>Enchufes</strong>",
+									"path" => $path_img
+									), 
+									array ( 
+									"image" => "palestra-inflable.png",
+									"icon" => "palestra-inflable.svg", 
+									"title" => "Palestra <strong>Inflable</strong>", 
+									"path" => $path_img
+									),
+									array (
+									"image" => "palestra.png",
+									"icon" => "palestra.svg",
+									"title" => "La <strong>Palesta</strong>",
+									"path" => $path_img
+									), 
+									array (
+									"image" => "tablero-dardos.png", 
+									"icon" => "tablero-dardos.svg",
+									"title" => "Tablero de <strong>Dardos</strong>",
+									"path" => $path_img
+									),
+									array
+									(
+									"image" => "hombre-globo.png", 
+									"icon" => "hombre-globo.svg",
+									"title" => "Hombre <strong>Glogo</strong>",
+									"path" => $path_img
+									), 
+									array ( 
+									"image" => "futbol-billar-gigante.png",
+									"icon" => "futbol-billar-gigante.svg", 
+									"title" => "Futbol Billar <strong>Gigante</strong>", 
+									"path" => $path_img
+									),
+									array (
+									"image" => "tira-gol.png",
+									"icon" => "tira-gol.svg",
+									"title" => "El <strong>TiraGol</strong>",
+									"path" => $path_img
+									), 
+									array (
+									"image" => "obstaculos.png", 
+									"icon" => "obstaculos.svg",
+									"title" => "Los <strong>Obstáculos</strong>",
+									"path" => $path_img
+									)) as $game) {
+								get_template_part('components/option-game','full', $game ); } ?>
+							</div>
 						</div>
-						<div class="row justify-content-center">
+						<!-- <div class="row justify-content-center">
 							<?php 
 							foreach (array(
 								array
@@ -576,10 +643,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								"path" => $path_img
 								)) as $game) {
 							get_template_part('components/option-game','full', $game ); } ?>
-						</div>
+						</div> -->
 					</div>
 					<!-------------Options---------------->
-				</div>
+				</section>
 				<!------------------Game-------------------->
 
 			</div>
@@ -587,284 +654,1217 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 			<!----------Events---------->
 			<div id="events" class="tab-pane fade">
-				<br />
-				<div class="bg-light-gray">
-					<div class="big-title text-red my-4 text-center">Eventos</div>
-					<!---------- Container ---------->
-					<div class="container">
-						<div class="row align-items-center justify-content-center">
-							<div class="col-sm-6">
-								<div class="my-3 subtitle-btl">
-									Creamos experiencias que conectan.
-								</div>
-								<p class="text-justify text-light-gray">
-									La planificación, es excelente trabajo en equipo y la
-									capacidad de ejecución son nuestro pilares para asegurar que
-									tu evento sea totalmente exitoso, tanto en organización como
-									lógistica. <br /><br />
-									<strong
-										>Nos adaptamos al tamaño de tu audiencia e imagen
-										corporativa</strong
-									>
-									para asegurar una
-									<strong>experiencia única y exclusiva.</strong> Nos encargamos
-									de las acciones de comunicación pre-evento, y durante la
-									ejecución lograremos el papel activo de la audiencia.
-								</p>
-							</div>
-
-							<div class="col-sm-6 text-right">
-								<img
-									src="<?php echo $path_img; ?>first-event.svg"
-									alt=""
-								/>
-							</div>
-						</div>
-
-						<div class="row justify-content-center pb-5">
-							<div class="col-sm-6 col-md-3 text-center">
-								<img
-									style="height: 13rem"
-									src="<?php echo $path_img; ?>second-event.svg"
-								/>
-							</div>
-							<div class="col-sm-6 col-md-6 text-light-gray">
-								<div class="d-flex flex-column justify-content-end h-100">
-									<div class="my-3 subtitle-btl">
-										¿Qué lograrás?<br />
-										Establecer enlaces con tu audiencia y generar el
-										reconocimiento de tu marca
+				<br>
+				<!----------------------Main---------------------->
+				<section class="p-0">
+					<div class="bg-light-gray py-0">
+						<div class="big-title text-red my-2 text-center">Eventos</div>
+						<!-------------------Card---------------------->
+						<div class="py-2">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-md-11 col-lg-6 d-flex align-items-center">
+										<div class="card bg-transparent border-0">
+											<div class="card-body">
+												<h3 class="subtitle-btl text-left p-1">Creamos experiencias que conectan.</h3>
+												<p class="text-justify text-light-gray p-1">
+												La planificación, es excelente trabajo en equipo y la
+												capacidad de ejecución son nuestro pilares para asegurar que
+												tu evento sea totalmente exitoso, tanto en organización como
+												lógistica.
+												</p>
+												<p class="text-justify text-light-gray p-1">
+													<strong
+														>Nos adaptamos al tamaño de tu audiencia e imagen
+													corporativa</strong
+														>
+													para asegurar una
+													<strong>experiencia única y exclusiva.</strong> Nos encargamos
+													de las acciones de comunicación pre-evento, y durante la
+													ejecución lograremos el papel activo de la audiencia.
+												</p>
+											</div>
+										</div>
 									</div>
-									<div>
+									<div class="col-md-10 col-lg-6">
 										<img
-											src="<?php echo $path_img; ?>third-event.svg"
+											src="<?php echo $path_img; ?>eventos.png"
 											alt=""
+											class="img-fluid"
 										/>
 									</div>
 								</div>
 							</div>
 						</div>
+						<!------------Card---------->
+
+						<!-------------------Card---------------------->
+						<div class="py-2">
+							<div class="container">
+								<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end">
+									<div class="col-md-10 col-lg-3 py-2 text-center">
+										<img
+											src="<?php echo $path_img; ?>second-event.svg"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-md-11 col-lg-7 py-2 d-flex align-items-end">
+										<div class="card bg-transparent border-0">
+											<div class="card-body pb-0">
+												<h3 class="subtitle-btl text-left">¿Qué lograrás?</h3>
+												<p class="subtitle-btl text-left">Establecer enlaces con tu audiencia y generar el reconocimiento de tu marca.
+												</p>
+												<div class="d-none d-lg-block">
+													<img
+														src="<?php echo $path_img; ?>third-event.svg"
+														alt=""
+														/>
+												</div>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!------------Card---------->
 					</div>
-					<!---------- Container ---------->
-				</div>
+				</section>
+				<!----------------------Main---------------------->
 
 				<?php
                  get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
                 ?>
 
-				<div class="row justify-content-center" style="padding-bottom: 5rem;">
-					<div style="background: #FAFAFA;" class="col-sm-12 col-md-10 d-flex flex-md-row align-items-center justify-content-center flex-column mx-3">
-						<div class="pr-md-2 pr-lg-5">
-							<div class="subtitle-event pb-3">Eventos Presenciales</div>
-							<ul>
-								<li class="text-event">Lanzamientos y otros corporativos.</li>
-								<li class="text-event">Eventos de integración para empleados.</li>
-								<li class="text-event">Conferencias, foros, seminarios y convenciones.</li>
-							</ul>
-							<div class="text-event-italic">*Cubrimos el protocolo de bioseguridad en todos los eventos</div>
+				<!-----------------------Service----------------------------->
+				<div style="margin-top: -3.2rem">
+					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<div>
+						<div class="d-flex justify-content-center">
+							<div>
+								<div class="mb-1">
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>first-icon-service.svg"
+										/>
+									</div>
+									<div class="d-inline-block ml-1">
+										<strong>Desarrollo</strong> de Concepto.
+									</div>
+								</div>
+								<div class="ml-5">
+									<img
+										class="pl-2"
+										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
+									/>
+								</div>
+							</div>
+							<div>
+								<div>
+									<svg
+										width="10"
+										height="114"
+										viewBox="0 0 7 56"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
+											fill="#ED1164"
+										/>
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="19"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="18"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											r="9"
+											transform="matrix(-1 0 0 1 9 9.5)"
+											fill="#01A5EC"
+										/>
+									</svg>
+								</div>
+							</div>
+							<div>
+								<div class="mb-1 mt-5">
+									<div class="d-inline-block ml-1 text-right">
+										<strong>Activaciones</strong> en ferias, <br />
+										mercados, universidades,<br />
+										parques y más.
+									</div>
+									<div class="d-inline-block ml-4">
+										<img
+											src="<?php echo $path_img; ?>second-icon-service.svg"
+										/>
+									</div>
+								</div>
+
+								<div>
+									<svg
+										width="290"
+										height="23"
+										viewBox="0 0 290 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
+											stroke="#01A5EC"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-dasharray="6 6"
+										/>
+									</svg>
+								</div>
+							</div>
 						</div>
-						<div class="pl-md-2 pl-lg-5">
-							<!-- style="height: 23.4rem; margin-top: -4.4rem; margin-bottom: -3.2rem;" -->
-							<img
-								class="img-float-event"
-								src="<?php echo $path_img; ?>eventos-presenciales.png"
-							/>						
+
+						<div class="d-flex justify-content-center">
+							<div>
+								<div class="mb-1">
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>third-icon-service.svg"
+										/>
+									</div>
+									<div class="d-inline-block ml-1">
+										<strong>Pre-Producción</strong> de la<br />
+										activación (Merchandising,<br />
+										personal, juegos y otros).
+									</div>
+								</div>
+								<div class="ml-5">
+									<img
+										class="pl-2"
+										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
+									/>
+								</div>
+							</div>
+							<div>
+								<div>
+									<svg
+										width="10"
+										height="114"
+										viewBox="0 0 7 56"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
+											fill="#ED1164"
+										/>
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="19"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="18"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											r="9"
+											transform="matrix(-1 0 0 1 9 9.5)"
+											fill="#01A5EC"
+										/>
+									</svg>
+								</div>
+							</div>
+							<div>
+								<div class="mb-1 mt-3">
+									<div class="d-inline-block ml-1">
+										<strong>Reporte</strong> de resultados.
+									</div>
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>fourth-icon-service.svg"
+										/>
+									</div>
+								</div>
+
+								<div>
+									<svg
+										width="290"
+										height="24"
+										viewBox="0 0 290 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
+											stroke="#01A5EC"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-dasharray="6 6"
+										/>
+									</svg>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+				<!-----------------------Service----------------------------->
+
+				<!-----------------------Contact----------------------------->
+				<?php 
+					get_template_part('components/btl/contact','full', 
+					array (
+						'path_img' => $path_img,
+						'title'=> '¡Empecemos ahora!'
+					));  	 
+				?>
+				<!-----------------------Contact----------------------------->
+
+				<!-----------------Section-------------------->
+				<section class="p-0 mt-5">
+					<!-------------------Card---------------------->
+					<div class="card-btl">
+						<div class="container bg-fa">
+							<div class="row justify-content-center">
+								<div class="col-md-10 col-lg-6 d-flex align-items-center">
+									<div class="card bg-transparent border-0">
+										<div class="card-body">
+											<h3 class="card-title subtitle-event">Eventos Presenciales</h3>
+											<ul class="card-text px-4">
+												<li class="text-event">Lanzamientos y otros corporativos.</li>
+												<li class="text-event">Eventos de integración para empleados.</li>
+												<li class="text-event">Conferencias, foros, seminarios y convenciones.</li>
+											</ul>
+											<p class="text-event-italic">*Cubrimos el protocolo de bioseguridad en todos los eventos</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-10 col-lg-6">
+									<img
+										src="<?php echo $path_img; ?>eventos-presenciales.png"
+										alt=""
+										class="img-fluid img-float-event"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!------------Card---------->	
+
+					<!-------------------Card---------------------->
+					<div class="card-btl">
+						<div class="container bg-fa">
+							<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center">
+								<div class="col-md-10 col-lg-6">
+									<img
+										src="<?php echo $path_img; ?>eventos-online.png"
+										alt=""
+										class="img-fluid img-float-event"
+									/>
+								</div>
+								<div class="col-md-10 col-lg-6 d-flex align-items-center">
+									<div class="card bg-transparent border-0">
+										<div class="card-body">
+											<h3 class="card-title subtitle-event">Eventos Online</h3>
+											<p class="card-text text-event">Redefinimos la manera tradicional de hacer eventos y las llevamos a un formato digital. Organizamos:</p>
+											<ul class="card-text px-4">
+												<li class="text-event">Webinars y capacitaciones online.</li>
+												<li class="text-event">Dinámicas digitales para equipos de trabajo.</li>
+												<li class="text-event">Ferias virtuales.</li>
+											</ul>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!------------Card---------->					
+				</section>
+				<!-----------------Section-------------------->
 			</div>
 			<!----------Events---------->
 
 			<!----------relations---------->
 			<div id="relations" class="tab-pane fade">
-				<br />
-				<div class="bg-light-gray pb-5">
-					<div class="big-title text-red my-4 text-center">
-						Relaciones Públicas
-					</div>
-					<!---------- Container ---------->
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-sm-6 text-center" style="height: 26.4rem">
-								<img
-									src="<?php echo $path_img; ?>first-relation.svg"
-									alt=""
-								/>
-							</div>
-
-							<div class="col-sm-6" style="padding-top: 2rem">
-								<div class="my-3 subtitle-btl">
-									Establece vínculos sólidos y perdurables
+				<br>
+				<!----------------------Main---------------------->
+				<section class="p-0">
+					<div class="bg-light-gray py-0">
+						<div class="big-title text-red my-2 text-center">Relaciones Públicas</div>
+						<!-------------------Card---------------------->
+						<div class="py-2">
+							<div class="container">
+								<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center">
+									<div class="col-md-10 col-lg-6">
+										<img
+											src="<?php echo $path_img; ?>relaciones-publicas.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-md-11 col-lg-6 d-flex align-items-center">
+										<div class="card bg-transparent border-0">
+											<div class="card-body">
+												<h3 class="subtitle-btl text-left p-1">Establece vínculos sólidos y perdurables</h3>
+												<div class="text-justify text-light-gray p-1">
+												<strong>Hacemos que tu voz suene en los medios.</strong> Te
+												asesoramos en la selección de los medios efectivos para un
+												mayor impacto.<br />
+												Formulamos
+												<strong
+													>estrategias de comunicación para construir tu reputación
+													mediática.</strong>
+												</div>
+												<div class="text-justify text-light-gray p-1">
+													Monitoreamos las líneas de acción para consolidar las
+													relaciones con tu comunidad. Cubrimos actividades online y
+													offline.	
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
-								<p class="text-justify text-light-gray">
-									<strong>Hacemos que tu voz suene en los medios.</strong> Te
-									asesoramos en la selección de los medios efectivos para un
-									mayor impacto.<br />
-									Formulamos
-									<strong
-										>estrategias de comunicación para construir tu reputación
-										mediática.</strong
-									><br /><br />
-
-									Monitoreamos las líneas de acción para consolidar las
-									relaciones con tu comunidad. Cubrimos actividades online y
-									offline.
-								</p>
 							</div>
 						</div>
+						<!------------Card---------->
 
-						<div class="row">
-							<div class="col-sm-6 text-light-gray text-right">
-								<div class="my-3 subtitle-btl text-right">
-									¿Qué lograrás?<br />
-									Generar un impacto<br />
-									mediático positivo
+						<!-------------------Card---------------------->
+						<div class="pb-2">
+							<div class="container">
+								<div class="row justify-content-center align-items-center align-items-lg-end">
+									<div class="col-md-11 col-lg-6 py-2 d-flex justify-content-center justify-content-lg-end align-items-start align-items-lg-end ml-0 pl-0">
+										<div class="card bg-transparent border-0">
+											<div class="card-body py-0">
+												<h3 class="subtitle-btl text-left text-lg-right">¿Qué lograrás?</h3>
+												<div class="subtitle-btl text-left text-lg-right">Generar un impacto</div>
+												<div class="subtitle-btl text-left text-lg-right">mediático positivo</div>
+												<div class="d-none d-lg-block text-right">
+													<img
+														src="<?php echo $path_img; ?>third-relation.svg"
+														alt=""
+														/>
+												</div>	
+
+
+											</div>
+										</div>
+									</div>
+									<div class="col-md-10 col-lg-6 py-2 text-center">
+										<img
+											src="<?php echo $path_img; ?>second-relation.svg"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>									
 								</div>
-								<img
-									src="<?php echo $path_img; ?>third-relation.svg"
-									alt=""
-								/>
-							</div>
-
-							<div class="col-sm-6 text-center" style="margin-top: -5rem">
-								<img
-									style="height: 13rem"
-									src="<?php echo $path_img; ?>second-relation.svg"
-								/>
 							</div>
 						</div>
+						<!------------Card---------->
 					</div>
-					<!---------- Container ---------->
-				</div>
+				</section>
+				<!----------------------Main---------------------->
 
 				<?php
                  get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
                 ?>
+
+				<!-----------------------Service----------------------------->
+				<div style="margin-top: -3.2rem">
+					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<div>
+						<div class="d-flex justify-content-center">
+							<div>
+								<div class="mb-1">
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>first-icon-service.svg"
+										/>
+									</div>
+									<div class="d-inline-block ml-1">
+										<strong>Desarrollo</strong> de Concepto.
+									</div>
+								</div>
+								<div class="ml-5">
+									<img
+										class="pl-2"
+										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
+									/>
+								</div>
+							</div>
+							<div>
+								<div>
+									<svg
+										width="10"
+										height="114"
+										viewBox="0 0 7 56"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
+											fill="#ED1164"
+										/>
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="19"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="18"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											r="9"
+											transform="matrix(-1 0 0 1 9 9.5)"
+											fill="#01A5EC"
+										/>
+									</svg>
+								</div>
+							</div>
+							<div>
+								<div class="mb-1 mt-5">
+									<div class="d-inline-block ml-1 text-right">
+										<strong>Activaciones</strong> en ferias, <br />
+										mercados, universidades,<br />
+										parques y más.
+									</div>
+									<div class="d-inline-block ml-4">
+										<img
+											src="<?php echo $path_img; ?>second-icon-service.svg"
+										/>
+									</div>
+								</div>
+
+								<div>
+									<svg
+										width="290"
+										height="23"
+										viewBox="0 0 290 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
+											stroke="#01A5EC"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-dasharray="6 6"
+										/>
+									</svg>
+								</div>
+							</div>
+						</div>
+
+						<div class="d-flex justify-content-center">
+							<div>
+								<div class="mb-1">
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>third-icon-service.svg"
+										/>
+									</div>
+									<div class="d-inline-block ml-1">
+										<strong>Pre-Producción</strong> de la<br />
+										activación (Merchandising,<br />
+										personal, juegos y otros).
+									</div>
+								</div>
+								<div class="ml-5">
+									<img
+										class="pl-2"
+										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
+									/>
+								</div>
+							</div>
+							<div>
+								<div>
+									<svg
+										width="10"
+										height="114"
+										viewBox="0 0 7 56"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
+											fill="#ED1164"
+										/>
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="19"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="18"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											r="9"
+											transform="matrix(-1 0 0 1 9 9.5)"
+											fill="#01A5EC"
+										/>
+									</svg>
+								</div>
+							</div>
+							<div>
+								<div class="mb-1 mt-3">
+									<div class="d-inline-block ml-1">
+										<strong>Reporte</strong> de resultados.
+									</div>
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>fourth-icon-service.svg"
+										/>
+									</div>
+								</div>
+
+								<div>
+									<svg
+										width="290"
+										height="24"
+										viewBox="0 0 290 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
+											stroke="#01A5EC"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-dasharray="6 6"
+										/>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-----------------------Service----------------------------->				
+
+				<!-----------------------Contact----------------------------->
+				<?php 
+					get_template_part('components/btl/contact','full', 
+					array (
+						'path_img' => $path_img,
+						'title'=> 'Te escuchamos'
+					));  	 
+				?>
+				<!-----------------------Contact----------------------------->
+
 			</div>
 			<!---------relations------------>
 
 			<!----------Sales---------->
 			<div id="sales" class="tab-pane fade">
-				<br />
-				<div class="bg-light-gray pb-5">
-					<div class="big-title text-red my-4 text-center">
-						Fuerza de ventas
-					</div>
-					<!---------- Container ---------->
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-sm-6" style="padding-top: 3rem">
-								<div class="my-3 subtitle-btl">
-									Incrementa tus ventas y fideliza a tus clientes
+				<br>
+				<!----------------------Main---------------------->
+				<section class="p-0">
+					<div class="bg-light-gray py-0">
+						<div class="big-title text-red my-2 text-center">Fuerza de ventas</div>
+						<!-------------------Card---------------------->
+						<div class="py-2">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-md-11 col-lg-6 d-flex align-items-center">
+										<div class="card bg-transparent border-0">
+											<div class="card-body">
+												<h3 class="subtitle-btl text-left p-1">Incrementa tus ventas y fideliza a tus clientes</h3>			
+												<div class="text-justify text-light-gray p-1">
+													Ponemos a tu disposición un
+													<strong>equipo humano capacitado y con experiencia</strong>
+													que te ayudará a alcanzar resultados. Nos encargamos del
+													<strong
+														>reclutamiento y seguimiento para crear tu propia red de
+														ventas a nivel nacional</strong
+													>
+													a la medida de tus necesidades y objetivos.
+												</div>
+												<div class="text-justify text-light-gray p-1">
+													El desempeño de nuestro equipo preservará la identidad de tu organización y logrará construir relaciones a largo plazo con tus clientes.
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-10 col-lg-6">
+										<img
+											src="<?php echo $path_img; ?>fuerza-ventas.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
 								</div>
-								<p class="text-justify text-light-gray">
-									Ponemos a tu disposición un
-									<strong>equipo humano capacitado y con experiencia</strong>
-									que te ayudará a alcanzar resultados. Nos encargamos del
-									<strong
-										>reclutamiento y seguimiento para crear tu propia red de
-										ventas a nivel nacional</strong
-									>
-									a la medida de tus necesidades y objetivos.<br /><br />
-
-									El desempeño de nuestro equipo preservará la identidad de tu
-									organización y logrará construir relaciones a largo plazo con
-									tus clientes.
-								</p>
-							</div>
-
-							<div class="col-sm-6 text-right">
-								<img
-									src="<?php echo $path_img; ?>first-sales.svg"
-									alt=""
-								/>
 							</div>
 						</div>
+						<!------------Card---------->
 
-						<div class="row justify-content-center align-items-end">
-							<div
-								class="col-sm-6 col-md-3 text-center"
-								style="margin-top: -5rem"
-							>
-								<img
-									style="height: 15rem"
-									src="<?php echo $path_img; ?>second-sales.svg"
-								/>
-							</div>
-							<div class="col-sm-6 col-md-6" style="padding-left: 2rem">
-								<div class="text-justify text-light-gray">
-									Con nosotros conseguirás equipos de alto<br />
-									desempeño: Promotores, Ejecutivos de Ventas,<br />
-									Asesores Comerciales y más.
+						<!-------------------Card---------------------->
+						<div class="py-2 card-sales-2">
+							<div class="container">
+								<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end">
+									<div class="col-md-10 col-lg-4 py-2 text-center">
+										<img
+											src="<?php echo $path_img; ?>second-sales.svg"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-md-11 col-lg-5 py-2 d-flex align-items-end">
+										<div class="card bg-transparent border-0">
+											<div class="card-body pb-0">
+												<div class="text-justify text-light-gray p-1">
+													Con nosotros conseguirás equipos de alto<br />
+													desempeño: Promotores, Ejecutivos de Ventas,<br />
+													Asesores Comerciales y más.													
+												</div>
+												<div class="d-none d-lg-block">
+													<img
+														src="<?php echo $path_img; ?>third-sales.svg"
+														alt=""
+														/>
+												</div>	
+											</div>
+										</div>
+									</div>
 								</div>
-								<img
-									src="<?php echo $path_img; ?>third-sales.svg"
-									alt=""
-								/>
 							</div>
 						</div>
+						<!------------Card---------->
+
 					</div>
-					<!---------- Container ---------->
-				</div>
+				</section>
+				<!----------------------Main---------------------->
 
 				<?php
                  get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
                 ?>
+
+				<!-----------------------Service----------------------------->
+				<div style="margin-top: -3.2rem">
+					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<div>
+						<div class="d-flex justify-content-center">
+							<div>
+								<div class="mb-1">
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>first-icon-service.svg"
+										/>
+									</div>
+									<div class="d-inline-block ml-1">
+										<strong>Desarrollo</strong> de Concepto.
+									</div>
+								</div>
+								<div class="ml-5">
+									<img
+										class="pl-2"
+										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
+									/>
+								</div>
+							</div>
+							<div>
+								<div>
+									<svg
+										width="10"
+										height="114"
+										viewBox="0 0 7 56"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
+											fill="#ED1164"
+										/>
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="19"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="18"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											r="9"
+											transform="matrix(-1 0 0 1 9 9.5)"
+											fill="#01A5EC"
+										/>
+									</svg>
+								</div>
+							</div>
+							<div>
+								<div class="mb-1 mt-5">
+									<div class="d-inline-block ml-1 text-right">
+										<strong>Activaciones</strong> en ferias, <br />
+										mercados, universidades,<br />
+										parques y más.
+									</div>
+									<div class="d-inline-block ml-4">
+										<img
+											src="<?php echo $path_img; ?>second-icon-service.svg"
+										/>
+									</div>
+								</div>
+
+								<div>
+									<svg
+										width="290"
+										height="23"
+										viewBox="0 0 290 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
+											stroke="#01A5EC"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-dasharray="6 6"
+										/>
+									</svg>
+								</div>
+							</div>
+						</div>
+
+						<div class="d-flex justify-content-center">
+							<div>
+								<div class="mb-1">
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>third-icon-service.svg"
+										/>
+									</div>
+									<div class="d-inline-block ml-1">
+										<strong>Pre-Producción</strong> de la<br />
+										activación (Merchandising,<br />
+										personal, juegos y otros).
+									</div>
+								</div>
+								<div class="ml-5">
+									<img
+										class="pl-2"
+										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
+									/>
+								</div>
+							</div>
+							<div>
+								<div>
+									<svg
+										width="10"
+										height="114"
+										viewBox="0 0 7 56"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
+											fill="#ED1164"
+										/>
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="19"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="18"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											r="9"
+											transform="matrix(-1 0 0 1 9 9.5)"
+											fill="#01A5EC"
+										/>
+									</svg>
+								</div>
+							</div>
+							<div>
+								<div class="mb-1 mt-3">
+									<div class="d-inline-block ml-1">
+										<strong>Reporte</strong> de resultados.
+									</div>
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>fourth-icon-service.svg"
+										/>
+									</div>
+								</div>
+
+								<div>
+									<svg
+										width="290"
+										height="24"
+										viewBox="0 0 290 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
+											stroke="#01A5EC"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-dasharray="6 6"
+										/>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-----------------------Service----------------------------->				
+
+				<!-----------------------Contact----------------------------->
+				<?php 
+					get_template_part('components/btl/contact','full', 
+					array (
+						'path_img' => $path_img,
+						'title'=> '¡Estamos listos! Contáctanos'
+					));  	 
+				?>
+				<!-----------------------Contact----------------------------->
 			</div>
 			<!----------Sales---------->
 
 			<!----------Hostess---------->
 			<div id="hostess" class="tab-pane fade">
-				<br />
-				<div class="bg-light-gray pb-5">
-					<div class="big-title text-red my-4 text-center">Anfitrionaje</div>
-					<!---------- Container ---------->
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-sm-6" style="padding-top: 3rem">
-								<div class="my-3 subtitle-btl">
-									Imagen y calidad de atención
+				<br>
+				<!----------------------Main---------------------->
+				<section class="p-0">
+					<div class="bg-light-gray py-0">
+						<div class="big-title text-red my-2 text-center">Anfitrionaje</div>
+						<!-------------------Card---------------------->
+						<div class="pt-2 pb-5">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-md-11 col-lg-6 d-flex align-items-center">
+										<div class="card bg-transparent border-0">
+											<div class="card-body">
+												<h3 class="subtitle-btl text-left p-1">Imagen y calidad de atención</h3>
+												<p class="text-justify text-light-gray p-1">
+												Buscamos elevar el posicionamiento de tu marca y resaltar la
+												imagen de tu empresa. Contamos con
+												<strong
+													>anfitrionas e impulsadoras de primer nivel y con
+													experiencia</strong
+												>
+												que garantizan un excelente contacto directo con los
+												clientes.
+												</p>
+												<p class="text-justify text-light-gray p-1">
+													Nuestro equipo es más que una cara bonita; posee carisma,
+													habilidades comunicativas y capacidad de trabajo en equipo.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-10 col-lg-6">
+										<img
+											src="<?php echo $path_img; ?>anfitriona.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
 								</div>
-								<p class="text-justify text-light-gray">
-									Buscamos elevar el posicionamiento de tu marca y resaltar la
-									imagen de tu empresa. Contamos con
-									<strong
-										>anfitrionas e impulsadoras de primer nivel y con
-										experiencia</strong
-									>
-									que garantizan un excelente contacto directo con los
-									clientes.<br /><br />
-
-									Nuestro equipo es más que una cara bonita; posee carisma,
-									habilidades comunicativas y capacidad de trabajo en equipo.
-								</p>
-							</div>
-
-							<div class="col-sm-6 text-right">
-								<img
-									src="<?php echo $path_img; ?>first-hostess.svg"
-									alt=""
-								/>
 							</div>
 						</div>
+						<!------------Card---------->
+
 					</div>
-					<!---------- Container ---------->
-				</div>
+				</section>
+				<!----------------------Main---------------------->
 
 				<?php
                  get_template_part('components/border-circle','full', array('color' => '#ED1164', 'position' => '')); 
                 ?>
+
+				<!-----------------------Service----------------------------->
+				<div style="margin-top: -3.2rem">
+					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<div>
+						<div class="d-flex justify-content-center">
+							<div>
+								<div class="mb-1">
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>first-icon-service.svg"
+										/>
+									</div>
+									<div class="d-inline-block ml-1">
+										<strong>Desarrollo</strong> de Concepto.
+									</div>
+								</div>
+								<div class="ml-5">
+									<img
+										class="pl-2"
+										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
+									/>
+								</div>
+							</div>
+							<div>
+								<div>
+									<svg
+										width="10"
+										height="114"
+										viewBox="0 0 7 56"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
+											fill="#ED1164"
+										/>
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="19"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="18"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											r="9"
+											transform="matrix(-1 0 0 1 9 9.5)"
+											fill="#01A5EC"
+										/>
+									</svg>
+								</div>
+							</div>
+							<div>
+								<div class="mb-1 mt-5">
+									<div class="d-inline-block ml-1 text-right">
+										<strong>Activaciones</strong> en ferias, <br />
+										mercados, universidades,<br />
+										parques y más.
+									</div>
+									<div class="d-inline-block ml-4">
+										<img
+											src="<?php echo $path_img; ?>second-icon-service.svg"
+										/>
+									</div>
+								</div>
+
+								<div>
+									<svg
+										width="290"
+										height="23"
+										viewBox="0 0 290 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
+											stroke="#01A5EC"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-dasharray="6 6"
+										/>
+									</svg>
+								</div>
+							</div>
+						</div>
+
+						<div class="d-flex justify-content-center">
+							<div>
+								<div class="mb-1">
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>third-icon-service.svg"
+										/>
+									</div>
+									<div class="d-inline-block ml-1">
+										<strong>Pre-Producción</strong> de la<br />
+										activación (Merchandising,<br />
+										personal, juegos y otros).
+									</div>
+								</div>
+								<div class="ml-5">
+									<img
+										class="pl-2"
+										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
+									/>
+								</div>
+							</div>
+							<div>
+								<div>
+									<svg
+										width="10"
+										height="114"
+										viewBox="0 0 7 56"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
+											fill="#ED1164"
+										/>
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="19"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
+									</svg>
+								</div>
+								<div>
+									<svg
+										width="18"
+										height="19"
+										viewBox="0 0 18 19"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											r="9"
+											transform="matrix(-1 0 0 1 9 9.5)"
+											fill="#01A5EC"
+										/>
+									</svg>
+								</div>
+							</div>
+							<div>
+								<div class="mb-1 mt-3">
+									<div class="d-inline-block ml-1">
+										<strong>Reporte</strong> de resultados.
+									</div>
+									<div class="d-inline-block">
+										<img
+											src="<?php echo $path_img; ?>fourth-icon-service.svg"
+										/>
+									</div>
+								</div>
+
+								<div>
+									<svg
+										width="290"
+										height="24"
+										viewBox="0 0 290 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
+											stroke="#01A5EC"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-dasharray="6 6"
+										/>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-----------------------Service----------------------------->				
+
+				<!-----------------------Contact----------------------------->
+				<?php 
+					get_template_part('components/btl/contact','full', 
+					array (
+						'path_img' => $path_img,
+						'title'=> 'Define tu presupuesto'
+					));  	 
+				?>
+				<!-----------------------Contact----------------------------->
+
 			</div>
 			<!----------Hostess---------->
 
 			<div class="corner_footer"></div>
 		</div>
+		<!-------------------Tab---------------------->
 	</div>
 </section>
-<!-- <section>
+
+<section>
       <div class="big-title text-red my-4 text-center">
          PORTAFOLIO
-         PORTAFOLIO avanzado
       </div> 
         <div>
         <div class="container" style="margin-top:5rem">
@@ -920,6 +1920,25 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
 
       
-</section> -->
+</section>
+
+
+ <script>
+     jQuery(function ($) {
+	
+    var $grid = $('.gallery-wrapper').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true,
+    transitionDuration: 0,
+  });
+
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry();
+  });
+
+    });
+  </script>
+
 
 <?php  get_footer(); ?>

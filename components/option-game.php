@@ -2,7 +2,7 @@
     global $game; 
 ?>
 <div
-	class="col-sm-5 col-md-3 col-lg-2 mx-lg-3 d-flex flex-column align-items-center mb-3"
+	class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column align-items-center"
 >
 	<div
 		class="mb-2"

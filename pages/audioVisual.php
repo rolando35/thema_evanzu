@@ -91,6 +91,46 @@ h5 {
     border-radius: 10px;
 }
 
+.widthText{
+  width: 28rem;
+}
+
+.margin {
+  margin-top: 0;
+}
+
+.width-production{
+  width: 100%;
+}
+
+.w-310 {
+  width: 310px;
+}
+
+.w-12 {
+  width: 100%;
+}
+
+.w-15 {
+  width: 100%;
+}
+
+.w-14 {
+  width: 100%;
+}
+.margin-negative {
+  margin-top: 0;
+}
+
+.m-left-4 {
+  margin-left: 0;
+}
+
+.margin-24{
+  margin-top:-24rem;
+  margin-right: 4.5rem;
+}
+
 .points-line-position {
     position: absolute;
     margin-left: -10px;
@@ -100,7 +140,7 @@ h5 {
 <section>
 
 
-<div class="view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/portada 2.png'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 100vh;">
+<div class="view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/portada 2.png'); background-repeat: no-repeat; background-size: cover; height: 100vh;">
 
 <div class="mask rgba-black-light align-items-center">
   <div class="container">
@@ -177,7 +217,7 @@ h5 {
                 Spots & Videos
                 </div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row d-flex justify-content-center">
                     <div class="col-sm-6">
 
 <div class="my-3">
@@ -185,7 +225,7 @@ h5 {
     Creatividad y emociones en cada cuadro
     </div>
 </div>
-  <p class='font-weight-normal w-90' style='line-height: 22px; font-size: 1rem'>
+  <p class='font-weight-normal w-90 text-justify' style='line-height: 22px; font-size: 1rem'>
     Ponemos tu marca en escena y <strong>seducimos desde los primeros segundos.</strong> Nos aseguramos de que tu mensaje se comprenda y se recuerde. <br> <br>
 
     Muestra tus proyectos en múltiples plataformas (TV, redes sociales, sitios web) con <strong>piezas audiovisuales que despierten el interés y generen conexión </strong> con tu público objetivo.
@@ -195,7 +235,7 @@ h5 {
     </div>
 
 </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 d-flex flex-column-reverse flex-sm-column">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 585.png" alt="Cámara fotográfica">
         <p class="text-justify py-4">
             Es una solución ideal para promocionar lanzamientos, marcas, productos, servicios, instalaciones, herramientas, procesos, tutoriales y más.
@@ -215,13 +255,13 @@ h5 {
                        <div class="line-h"></div>
                      </div>
                      <div>
-                         <div class="d-flex justify-content-center">
+                         <div class="d-block d-lg-flex justify-content-center">
                              <div>  
-                                 <div class="mb-1">
-                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/icono (1).svg"></div>
-                                          <div class="d-inline-block ml-1">
+                                 <div class="mb-1 text-center text-lg-left">
+                                     <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/icono (1).svg"></div>
+                                          <div class="d-inline-block ml-1 mt-3 mt-lg-0">
                                                 <strong>Pre Produción</strong>
-                                                <ul>
+                                                <ul class="text-left">
                                                     <li>Brief de Requerimiento.</li>
                                                     <li>Desarrollo de concepto.</li>
                                                     <li>Creación del Guión y Storyboard.</li>
@@ -231,37 +271,39 @@ h5 {
                                             </div>   
                                    </div> 
                                     <div class="ml-5">
-                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 303.svg">
+                                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 303.svg">
                                     </div>
-                                   
+                                   <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
                              </div>
                              <div> 
-                                <div> 
+                                <div class="d-none d-lg-block"> 
                                     <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                                       <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
                                     </svg>
                                  </div> 
-                                 <div class="position-relative">
+                                 <div class="d-none d-lg-block position-relative">
                                     <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
                                 </div>
                                 
                               </div>
                              <div style='margin-top: 3.5rem'>
-                                   <div class="mb-1 mt-5">
-                                   <div class="d-inline-block ml-1" style='width: 302px;'>
+                                 <div class="mb-1 mt-5 d-flex flex-column-reverse flex-lg-column justify-content-center d-lg-block">
+                                    <div class="d-flex flex-column align-items-center width-production d-lg-inline-block ml-1  mt-3 mt-lg-0" >
                                         <strong>Produción</strong>
-                                        <ul>
+                                        <ul class="w-310">
                                             <li>Producción y gestión de rodaje.</li>
                                             <li>Maquillaje y Make up.</li>
                                             <li>Capatura de tomas en audio directo.</li>
                                             <li>Profesionales en la dirección fotográfica e iluminación.</li>
                                             <li>Grabaciones cuadro por cuadro.</li>
                                         </ul>
-                                    </div>   
-                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/imageMicripho.svg"></div> 
-                                   </div> 
-
-                                 <div class='points-line-position' style='margin-left: -1rem;'>
+                                    </div> 
+                                    <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/imageMicripho.svg"></div> 
+                                  </div>
+                                  <!-----------------------BoxShadow Line----------------------------->
+                                  <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
+                                  <!-----------------------BoxShadow Line----------------------------->
+                                 <div class='points-line-position d-none d-lg-block position-relative' style='margin-left: -1rem;'>
                                  <svg width="391" height="34" viewBox="0 0 391 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M25 25L389 25C389.552 25 390 24.5523 390 24L390 1" stroke="#019B69" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
                                     <circle r="9" transform="matrix(-1 0 0 1 9 25)" fill="#019B69"/>
@@ -270,49 +312,51 @@ h5 {
                              </div>
                          </div>
 
-                        <div class="d-flex justify-content-center " style='margin-top:-18rem'>
+                        <div class="mt-5 mt-lg-0 d-block d-lg-flex justify-content-center margin">
                             <div>  
-                                 <div class="mb-1">
-                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/icono (1).svg"></div>
-                                          <div class="d-inline-block ml-1">
-                                               <strong>Post Producción</strong>
-                                                <ul>
-                                                    <li>Edición de Video Digital.</li>
-                                                    <li>Realización de efectos visuales.</li>
-                                                    <li>Locución y edición de audio digital.</li>
-                                                    <li>Masterización de audio y video.</li>
-                                                    <li>Presentación y empaquetado.</li>
-                                                </ul>
-                                            </div>   
-                                   </div> 
+                               <div>
+                                 <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/icono (1).svg">
+                                </div>
+                                <div class="d-flex flex-column align-items-center width-production d-lg-inline-block ml-1  mt-3 mt-lg-0">
+                                     <strong>Post Producción</strong>
+                                      <ul>
+                                          <li>Edición de Video Digital.</li>
+                                          <li>Realización de efectos visuales.</li>
+                                          <li>Locución y edición de audio digital.</li>
+                                          <li>Masterización de audio y video.</li>
+                                          <li>Presentación y empaquetado.</li>
+                                      </ul>
+                                  </div>   
+                               </div> 
                                     <div class="ml-5">
-                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 303.svg">
+                                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 303.svg">
                                     </div>
                                    
                              </div>
                              <div style='width: 27rem;'></div>
                         </div>
-                        <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
+                        <div class="position-relative d-flex justify-content-center mt-5" style="margin-bottom: -8rem;">
                             <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como lo hacemos.png">
                         </div>
                      </div>
                 </div>
-                <div class="bg-red">
-                   <div class="bg-pink-form rounded" style='height: 27.6rem;'>
-                       <div class='w-100 text-right'>
+                       <div class='w-100 text-right' style="margin-bottom: -10rem">
                            <?php
-                             $parameters = array('color' => '#019B69', 'position' => 'transform: rotate(-180deg);') ;
+                             $parameters = array('color' => '#019B69', 'position' => 'right') ;
                              get_template_part('components/border-circle','full', $parameters ); 
                             ?>
                        </div>
                       <div class='mt-5'>
-                        <?php
-                          $parameters = array ('svg' => $directory_imgs.'form-quote-request.svg','title'=> '¡Empecemos ahora!');
-                          get_template_part('components/form-quote-request','full', $parameters );  
-                        ?> 
+                        <!-----------------------Contanct----------------------------->
+                				<?php 
+                					get_template_part('components/form-quote-request2','full', 
+                					array (
+                						'image' => $directory_imgs.'form-quote-request.svg',
+                						'title'=> '¡Empecemos ahora!'
+                					));  	 
+                				?>
+                				<!-----------------------Contanct----------------------------->
                       </div>
-                    </div>   
-                </div>
 
                <div class="bg-white big-title text-center text-red">Ofrecemos</div>
                <div class='py-5 my-5 pl-5'>
@@ -323,7 +367,7 @@ h5 {
                           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 01.png" alt="Ofrecemos imagen 1">
                           <div>
                               <p class='text-red' style='font-weight: 900; font-size: 26px;'>Proyectos audiovisuales</p>
-                              <ul class='font-weight-normal'>
+                              <ul class='font-weight-normal text-justify'>
                                   <li>Spots publicitarios para Radio, TV, Cine, Web.</li>
                                   <li>Publireportajes.</li>
                                   <li>Video de producto o testimonial.</li>
@@ -336,10 +380,10 @@ h5 {
                    <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
                         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
                     </div>
-                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
+                      <div class='w-90 d-flex position-relative justify-content-around align-items-center flex-column-reverse flex-lg-row' style='margin-top: -16rem'>
                           <div>
                               <p class='text-red' style='font-weight: 900; font-size: 26px;'>Filmación aérea</p>
-                              <p class='font-weight-normal' style='width: 27.8rem;'>
+                              <p class='widthText font-weight-normal text-justify text-justify' style='width: 27.8rem;'>
                                 Comunica desde un ángulo diferente <br> <br>
  
                                 Trabajamos contenido a la altura de tu proyecto. Más que una grabación, <strong>ofrecemos estrategia audiovisual que emocione.</strong> Muéstrate sumamente profesional y atrayente con tomas aéreas. <br> <br>
@@ -358,7 +402,7 @@ h5 {
                           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 03 1.png" alt="Ofrecemos imagen 1">
                           <div>
                               <p class='text-red' style='font-weight: 900; font-size: 26px;'>Desarrollo de guiones</p>
-                              <p class='font-weight-normal' style='width: 27.8rem;'>
+                              <p class='widthText font-weight-normal text-justify'>
                                 Historias contadas de forma inolvidable. <br> <br>
 
                                 Construimos narrativas según tu objetivo de comunicación. Planteamos <strong> guiones originales, entretenidos y que generen una reacción positiva para la marca. </strong> <br> <br>
@@ -388,20 +432,20 @@ h5 {
                 Animación 2D
                 </div>
                 <div class="container">
-                    <div class="row">
-                    <div class="col-sm-6">
+                    <div class="column col-12 d-lg-flex align-items-center">
+                    <div class="col-sm-12 col-lg-6 ">
 
             <div class="my-3">
                 <div class="text-green  my-3 text-left" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
                 Crea historias que enganchen
                 </div>
             </div>
-            <p class='font-weight-normal w-90' style='line-height: 22px; font-size: 1rem'>
+            <p class='font-weight-normal text-justify w-90' style='line-height: 22px; font-size: 1rem'>
             Comunicamos información relevante y contenido de interés de la manera más <strong>creativa y cautivadora.</strong> Aplicable a <b>videos para comunicación interna y externa,</b> eventos corporativos, tutoriales y otros. <br> <br>
             Manejamos diversos estilos de animación: motion graphic, stop motion y otros. Contamos con un equipo especializado en Illustrator, After effects, Premier, Audition, Cinema 4D y 3D Max.
             </p>
             </div>
-                  <div class="col-sm-6">
+                  <div class="col-sm-12 col-lg-6 ">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/animacion-2d.png" alt="Cámara fotográfica">
                   </div>
                     </div>
@@ -417,20 +461,22 @@ h5 {
                        <div class="line-h"></div>
                      </div>
                      <div>
-                         <div class="d-flex justify-content-center">
+                         <div class="d-block d-lg-flex justify-content-center">
                              <div>  
                                  <div class="mb-1">
-                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos1.svg"></div>
-                                          <div class="d-inline-block ml-1" style='width: 14.5rem;'>
+                                     <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos1.svg"></div>
+                                          <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center w-14">
                                           <b> Desarrollo </b> de concepto.
                                             </div>   
                                    </div> 
                                     <div class="ml-5">
-                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
+                                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
                                     </div>
-                                   
+                                  <!-----------------------BoxShadow Line----------------------------->
+                                  <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
+                                  <!-----------------------BoxShadow Line----------------------------->
                              </div>
-                             <div> 
+                             <div class="d-none d-lg-block"> 
                                 <div> 
                                     <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                                       <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
@@ -442,43 +488,47 @@ h5 {
                                 
                               </div>
                              <div >
-                                   <div class="mb-1 mt-5 ml-5">
-                                   <div class="d-inline-block ml-1">
+                                   <div class="mb-1 mt-5 d-flex flex-column-reverse flex-lg-column justify-content-center d-lg-block">
+                                   <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center">
                                    Creación de <b> Storyboard.</b>
 
                                     </div>   
-                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos2.svg"></div> 
+                                      <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos2.svg"></div> 
                                    </div> 
-
+                                  <!-----------------------BoxShadow Line----------------------------->
+                                  <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
+                                  <!-----------------------BoxShadow Line----------------------------->
                                    <div class="position-relative" style='margin-left: -1rem;'>
-                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
+                                    <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
                                 </div>
                              </div>
                          </div>
 
-                        <div class="d-flex justify-content-center " style='margin-top:-24rem'>
-                            <div style='margin-left: 4rem;'>  
-                                 <div class="mb-1 d-flex align-items-center">
-                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago3.svg"></div>
-                                          <div class="d-inline-block ml-1" style='width: 12rem;'>
+                        <div class="d-block d-lg-flex justify-content-center margin-negative">
+                            <div class="m-left-4">  
+                                 <div class="mb-1 mt-5 d-flex flex-column flex-column justify-content-center d-lg-block">
+                                     <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago3.svg"></div>
+                                          <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-12 text-center text-lg-left">
                                             <b>Ilustración y caracterización</b> de personajes y escenarios.
                                             </div>  
                                    </div> 
                                     <div class="ml-5">
-                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
+                                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
                                     </div>
-                                   
+                                    <!-----------------------BoxShadow Line----------------------------->
+                                  <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
+                                  <!-----------------------BoxShadow Line----------------------------->
                              </div>
-                             <div >
-                                   <div class="mb-1 mt-5 ml-5">
-                                   <div class="d-inline-block ml-1">
+                             <div style="margin-bottom: 6rem; margin-top: -2rem;" class="mt-3 mt-lg-0">
+                                   <div class="mb-1 mt-5 d-flex d-lg-block flex-column-reverse">
+                                   <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-15 text-center text-lg-left">
                                    <b>Animación, musicalización y voz en off.</b>
                                     </div>   
-                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago4.svg"></div> 
+                                      <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago4.svg"></div> 
                                    </div> 
 
-                                   <div class="position-relative" style='margin-left: 2.5rem;'>
-                                    <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
+                                   <div class="position-relative" style='margin-left: -1rem;'>
+                                    <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
                                 </div>
                              </div>
                         </div>
@@ -487,29 +537,32 @@ h5 {
                         </div>
                      </div>
                 </div>
-                <div class="bg-red">
-                   <div class="bg-pink-form rounded" style='height: 27.6rem;'>
-                       <div class='w-100 text-right'>
-                           <?php
-                             $parameters = array('color' => '#019B69', 'position' => 'transform: rotate(-180deg);') ;
-                             get_template_part('components/border-circle','full', $parameters ); 
-                            ?>
-                       </div>
-                      <div class='mt-5'>
-                        <?php
-                          $parameters = array ('svg' => $directory_imgs.'form-quote-request.svg','title'=> '¿Estás listo?');
-                          get_template_part('components/form-quote-request','full', $parameters );  
-                        ?> 
-                      </div>
-                    </div>   
+                <!-----------------------Circle Right----------------------------->
+                <div class='w-100 text-right' style="margin-bottom: -10rem">
+                <?php
+                  $parameters = array('color' => '#019B69', 'position' => 'right') ;
+                  get_template_part('components/border-circle','full', $parameters ); 
+                  ?>
                 </div>
+                <!-----------------------Circle Right----------------------------->
+                  <div class='mt-5'>
+                    <!-----------------------Contanct----------------------------->
+                    <?php 
+            					get_template_part('components/form-quote-request2','full', 
+            					array (
+            						'image' => $directory_imgs.'form-quote-request.svg',
+            						'title'=> '¿Estás listo?'
+            					));  	 
+            				?>
+                    <!-----------------------Contanct----------------------------->
+                  </div>
 
                <div class='py-5 my-5 pl-5'>
                    <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
                         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
                     </div>
                       <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
-                          <div>
+                          <div class="col-sm-12 col-lg-6 ">
                               <p class='text-red' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
                                <ul>
                                     <li>Video-tutoriales.</li>
@@ -518,13 +571,18 @@ h5 {
                                    <li>Producción de audio (Musicalización, efectos de sonido, masterización de audio, locución).</li>
                                </ul>
                           </div>
-                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png" alt="Ofrecemos imagen 1">
+                          <div class="col-sm-12 col-lg-6 ">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png" alt="Ofrecemos imagen 1">
+                          </div>
                       </div>
                </div>
                
                
                <!-- PORTAFOLIO -->
-               
+               <section>
+                       <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
+                           <?php echo get_template_part('components/video-galery','full', array('video1' => 'zpq6oje5FsA', 'video2' => '-SdnP9s5cF8'));   ?>
+                 </section>
 
             </div>
          </div>
@@ -537,20 +595,20 @@ h5 {
                 </div>
                 <div class="container">
                     <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12 col-lg-6">
 
             <div class="my-3">
                 <div class="text-green  my-3 text-left" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
-                Crea historias que enganchen
+                Hacemos de tus imágenes tu mejor estrategia de comunicación
                 </div>
             </div>
-            <p class='font-weight-normal w-90' style='line-height: 22px; font-size: 1rem'>
-            Comunicamos información relevante y contenido de interés de la manera más <strong>creativa y cautivadora.</strong> Aplicable a <b>videos para comunicación interna y externa,</b> eventos corporativos, tutoriales y otros. <br> <br>
-            Manejamos diversos estilos de animación: motion graphic, stop motion y otros. Contamos con un equipo especializado en Illustrator, After effects, Premier, Audition, Cinema 4D y 3D Max.
+            <p class='font-weight-normal w-90 text-justify' style='line-height: 22px; font-size: 1rem'>
+            Renueva la imagen de tu negocio mediante fotografías profesionales de alta calidad. <b>Obtendrás imágenes de calidad artística.</b> <br> <br> 
+            Creamos escenarios en función del objetivo de comunicación. Manejamos técnicas de fotografía comercial, iluminación y retoque.
             </p>
             </div>
-                  <div class="col-sm-6">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/animacion-2d.png" alt="Cámara fotográfica">
+                  <div class="col-sm-12 col-lg-6">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/fotografia-profesional.png" alt="Cámara fotográfica">
                   </div>
                     </div>
                 </div>
@@ -561,24 +619,27 @@ h5 {
                 ?>
                 <div >
                      <div class="big-title text-red text-center py-5" style='display: flex; flex-direction: column; align-items: center;'>
-                     ¿Cómo lo hacemos?
+                     Nuestras Herramientas
                        <div class="line-h"></div>
                      </div>
                      <div>
-                         <div class="d-flex justify-content-center">
+                         <div class="d-block d-md-flex text-center justify-content-center">
                              <div>  
                                  <div class="mb-1">
-                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos1.svg"></div>
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/herramientas1.svg"></div>
                                           <div class="d-inline-block ml-1" style='width: 14.5rem;'>
-                                          <b> Desarrollo </b> de concepto.
+                                          <b> Fotos </b> de Cámaras DLSR.
                                             </div>   
                                    </div> 
                                     <div class="ml-5">
-                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
+                                        <img  class="points-line-position d-none d-md-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
                                     </div>
+                                    <!-----------------------BoxShadow Line----------------------------->
+                                  <div class="d-auto d-md-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
+                                  <!-----------------------BoxShadow Line----------------------------->
                                    
                              </div>
-                             <div> 
+                             <div class="d-none d-md-block"> 
                                 <div> 
                                     <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                                       <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
@@ -592,40 +653,45 @@ h5 {
                              <div >
                                    <div class="mb-1 mt-5 ml-5">
                                    <div class="d-inline-block ml-1">
-                                   Creación de <b> Storyboard.</b>
+                                   <b> Fotos </b>Fotos de estudio.
+
 
                                     </div>   
-                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hacemos2.svg"></div> 
+                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/herramientas2.svg"></div> 
                                    </div> 
-
-                                   <div class="position-relative" style='margin-left: -1rem;'>
+                                  <!-----------------------BoxShadow Line----------------------------->
+                                  <div class="d-auto d-md-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
+                                  <!-----------------------BoxShadow Line----------------------------->
+                                   <div class="points-line-position d-none d-md-block position-relative" style='margin-left: -1rem;'>
                                     <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
                                 </div>
                              </div>
                          </div>
 
-                        <div class="d-flex justify-content-center " style='margin-top:-24rem'>
-                            <div style='margin-left: 4rem;'>  
-                                 <div class="mb-1 d-flex align-items-center">
-                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago3.svg"></div>
+                        <div class="d-block d-md-flex text-center justify-content-center margin-24">
+                            <div class="mt-5 mt-md-0 ml-0 ml-md-5">  
+                                 <div class="mb-1 d-block d-md-flex align-items-center">
+                                     <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/herramientas3.svg"></div>
                                           <div class="d-inline-block ml-1" style='width: 12rem;'>
-                                            <b>Ilustración y caracterización</b> de personajes y escenarios.
+                                            <b>Video</b> cámara HD y 4K
                                             </div>  
                                    </div> 
                                     <div class="ml-5">
-                                        <img  class="points-line-position" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
+                                        <img  class="points-line-position ml-3 d-none d-md-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
                                     </div>
-                                   
+                                   <!-----------------------BoxShadow Line----------------------------->
+                                  <div class="d-auto d-md-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
+                                  <!-----------------------BoxShadow Line----------------------------->
                              </div>
                              <div >
-                                   <div class="mb-1 mt-5 ml-5">
+                                   <div class="mb-1 mt-5 ml-0 ml-md-5 w-100">
                                    <div class="d-inline-block ml-1">
-                                   <b>Animación, musicalización y voz en off.</b>
+                                   <b>Fotos aéreas</b> con drones.
                                     </div>   
-                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-lo-hago4.svg"></div> 
+                                      <div class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/herramientas4.svg"></div> 
                                    </div> 
 
-                                   <div class="position-relative" style='margin-left: 2.5rem;'>
+                                   <div class="points-line-position d-none d-md-block position-relative">
                                     <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line2.svg">
                                 </div>
                              </div>
@@ -635,45 +701,51 @@ h5 {
                         </div>
                      </div>
                 </div>
-                <div class="bg-red">
-                   <div class="bg-pink-form rounded" style='height: 27.6rem;'>
-                       <div class='w-100 text-right'>
-                           <?php
-                             $parameters = array('color' => '#019B69', 'position' => 'transform: rotate(-180deg);') ;
-                             get_template_part('components/border-circle','full', $parameters ); 
-                            ?>
-                       </div>
-                      <div class='mt-5'>
-                        <?php
-                          $parameters = array ('svg' => $directory_imgs.'form-quote-request.svg','title'=> '¿Estás listo?');
-                          get_template_part('components/form-quote-request','full', $parameters );  
-                        ?> 
-                      </div>
-                    </div>   
+                <!-----------------------Circle Right----------------------------->
+                <div class='w-100 text-right' style="margin-bottom: -10rem">
+                <?php
+                  $parameters = array('color' => '#019B69', 'position' => 'right') ;
+                  get_template_part('components/border-circle','full', $parameters ); 
+                  ?>
                 </div>
-
+                <!-----------------------Circle Right----------------------------->
+                  <div class='mt-5'>
+                    <!-----------------------Contanct----------------------------->
+                    <?php 
+            					get_template_part('components/form-quote-request2','full', 
+            					array (
+            						'image' => $directory_imgs.'form-quote-request.svg',
+            						'title'=> 'Tenemos más por contarte, escríbenos'
+            					));  	 
+            				?>
+                    <!-----------------------Contanct----------------------------->
+                  </div>
                <div class='py-5 my-5 pl-5'>
                    <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
                         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
                     </div>
                       <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
                           <div>
-                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
+                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Desarrollamos estos proyectos:</p>
                                <ul>
-                                    <li>Video-tutoriales.</li>
-                                   <li>Presentación de productos o servicios.</li>
-                                   <li>Videos infográficos y otros.</li>
-                                   <li>Producción de audio (Musicalización, efectos de sonido, masterización de audio, locución).</li>
+                                 <li>Fotografía Publicitaria en Estudio o Locación.</li>
+                                 <li>Fotografía Institucional y corporativa.</li>
+                                 <li>Fotografía para Campañas y Eventos.</li>
+                                 <li>Fotografía de Productos y catálogos.</li>
+                                 <li>Fotografías para páginas web </li>
+                                 <li>Fotografías de productos para tiendas virtuales.</li>
                                </ul>
                           </div>
-                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png" alt="Ofrecemos imagen 1">
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/desarrollo-proyectos.png" alt="Desarrollo imagen">
                       </div>
                </div>
                
                
                <!-- PORTAFOLIO -->
-               
-
+               <section>
+                       <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
+                           <?php echo get_template_part('components/video-galery','full', array('video1' => 'zpq6oje5FsA', 'video2' => '-SdnP9s5cF8'));   ?>
+                 </section>
             </div>
             </div>
         </div>
