@@ -485,6 +485,65 @@
 	padding-top: 1rem;
 }
 
+.section-contact {
+	margin-top: -6.8rem;
+}
+
+.logo-top-contact {
+	height: 16.5rem;
+	margin-bottom: -8.5rem;
+}
+
+.box-container-contact {
+	padding: 4.5rem 0;
+}
+
+.container-contact {
+	padding-bottom: 3rem;
+	padding-top: 2rem;
+	width: 100%;
+}
+
+.container-contact > .row-first {
+	width: 90%;
+}
+
+.container-contact > .row-second {
+	width: 80%;
+}
+
+.button-contact {
+	width: 13rem;
+	background-color: #f64f8e;
+}
+
+.points-element {
+	width: 3.5rem;
+}
+
+.image-contact {
+	width: auto;
+}
+
+.title-contact {
+	/* font-size: 2.2rem; */
+	font-size: 1.7rem;
+	font-weight: 900;
+	width: auto;
+}
+
+.input-group-contact {
+	width: 90%;
+}
+
+/* .input-contact {
+	width: 100%;
+} */
+
+.image-contact > img {
+	margin-bottom: -1.5rem;
+}
+
 /****RESPONSIVE****/
 
 /* Extra small devices (phones, 600px and down) */
@@ -516,10 +575,10 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  .margin-24 {
-    margin: 0 !important;
-  }
+@media only screen and (max-width: 767px) {
+	.margin-24 {
+		margin: 0 !important;
+	}
 	/* .img-float-event {
 		margin-top: 0 !important;
 		margin-bottom: 0 !important;
@@ -536,37 +595,84 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .margin {
-    margin-top:-18rem !important;
-  }
-  
-  .margin-negative {
-    margin-top:-24rem !important;
-  }
+	.margin {
+		margin-top: -18rem !important;
+	}
 
-  .width-production {
-    width: 302px !important;
-  }
-  
-  .w-310 {
-    width: auto !important;
-  }
-  
-  .w-14 {
-    width: 14.5rem !important;
-  }
+	.margin-negative {
+		margin-top: -24rem !important;
+	}
 
-  .w-15 {
-    width: 15rem !important;
-  }
+	.width-production {
+		width: 302px !important;
+	}
 
-  .m-left-4 {
-    margin-left: 4rem !important;
-  }
+	.w-310 {
+		width: auto !important;
+	}
 
-  .w-12 {
-    width: 12rem !important;
-  }
+	.w-14 {
+		width: 14.5rem !important;
+	}
+
+	.w-15 {
+		width: 15rem !important;
+	}
+
+	.m-left-4 {
+		margin-left: 4rem !important;
+	}
+
+	.w-12 {
+		width: 12rem !important;
+	}
+	/* responsive al de formulario */
+
+	.box-container-contact {
+		padding-bottom: 4.5rem;
+		padding-top: 10.7rem;
+	}
+
+	.container-contact {
+		width: 56rem;
+		padding-top: 0;
+	}
+
+	.input-group-contact {
+		width: 33.5rem;
+		padding: 0 1rem;
+	}
+
+	.input-contact {
+		width: 50% !important;
+	}
+
+	.image-contact {
+		width: 10rem;
+	}
+
+	.image-contact > img {
+		margin-top: -3rem;
+		margin-bottom: 0%;
+	}
+
+	.title-contact {
+		width: 36rem;
+	}
+
+	.container-contact > .row-first {
+		width: 100%;
+	}
+
+	.container-contact > .row-second {
+		margin-top: -1.3rem;
+		width: 47rem;
+	}
+
+	.row-second > div {
+		width: auto !important;
+	}
+
 	.img-float-event {
 		height: 23.4rem;
 		margin-top: -4.4rem;
