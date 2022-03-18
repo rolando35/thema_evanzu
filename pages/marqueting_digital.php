@@ -71,7 +71,8 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/marketing-digit
         <div class="">
             <ul class="nav nav-pills justify-content-center" role="tablist">							
                     <?php
-                     $lista = array (array ('svg' => $directory_imgs.'first-tab.svg','title'=> 'Publicidad <br> digital','href'=> '#home','active'=> 'active',),
+                     $lista = array (
+array ('svg' => $directory_imgs.'first-tab.svg','title'=> 'Publicidad <br> digital','href'=> '#home','active'=> 'active',),
                                      array ('svg' => $directory_imgs.'second-tab.svg','title'=> 'Gestión <br> de Redes' ,'href'=> '#menu1','active'=> ''),
                                      array ('svg' => $directory_imgs.'third-tab.svg','title'=> 'Posicionamiento <br> SEO','href'=> '#menu2','active'=> ''),
                                      array ('svg' => $directory_imgs.'quarter-tab.svg','title'=> 'Growth <br> hacking','href'=> '#menu2','active'=> ''),
