@@ -314,53 +314,95 @@ $directory_imgs = get_template_directory_uri() . '/assets/images/marketing-digit
         <div class="container" style="margin-top:5rem">
   <div class="row">
     
-    <div class="col-lg-8">
+    <div class="col-lg-12">
       <div class="gallery-wrapper clearfix">
-        <div class="col-lg-4 grid-sizer">  </div>
-        <div class="col-lg-4 grid-item">
+        <div class="col-lg-3 grid-sizer"> 
+            
+        
+        
+        </div>
+        <div class="col-lg-6 grid-item">
             primer parte
           <img class="img-fluid" src="http://via.placeholder.com/1024x900">
         </div>
 
-        <div class="col-lg-4 grid-item">
+        <div class="col-lg-6 grid-item">
             segunda parte
           <img class="img-fluid" src="http://via.placeholder.com/800x370">
         </div>
 
-        <div class="col-lg-4 grid-item">
+        <div class="col-lg-3 grid-item">
             tercera
           <img class="img-fluid" src="http://via.placeholder.com/500x370">
         </div>
 
-        <div class="col-lg-6 grid-item">
+        <div class="col-lg-3 grid-item">
             cuarta
           <img class="img-fluid" src="http://via.placeholder.com/1024x600">
         </div>
 
-        <div class="col-lg-6 grid-item">
+        <div class="col-lg-12 grid-sizer"> 
+                 <div class="col-lg-3 grid-item">
+                   primer parte
+                  <img class="img-fluid" src="http://via.placeholder.com/800x370">
+                 </div>
+
+                <div class="col-lg-3 grid-item">
+                    segunda parte
+                <img class="img-fluid" src="http://via.placeholder.com/800x370">
+                </div>
+                 <div class="col-lg-3 grid-item">
+                  <img class="img-fluid" src="http://via.placeholder.com/800x370">
+                 </div>
+
+                   <div class="col-lg-3 grid-item">
+                  <img class="img-fluid" src="http://via.placeholder.com/800x370">
+                 </div>
+         </div>
+
+          <div class="col-lg-12 grid-sizer">          
+
+                <div class="col-lg-2 grid-item">
+                     <img class="img-fluid" src="http://via.placeholder.com/500x370">
+                </div>
+                 <div class="col-lg-2 grid-item">
+                    <img class="img-fluid" src="http://via.placeholder.com/500x370">
+                 </div>
+
+                 <div class="col-lg-8 grid-item">
+                  <img class="img-fluid" src="http://via.placeholder.com/500x370">
+                 </div>
+         </div>
+
+          <div class="col-lg-12 grid-sizer">     
+                <div class="col-lg-12 grid-item">
+                  <img class="img-fluid" src="http://via.placeholder.com/500x370">
+                 </div>
+           </div>
+        <!-- <div class="col-lg-3 grid-item">
             quinta
           <img class="img-fluid" src="http://via.placeholder.com/1024x300">
-        </div>
+        </div> -->
 
-        <div class="col-lg-6 grid-item">
+        <!-- <div class="col-lg-3 grid-item">
             sexta
           <img class="img-fluid" src="http://via.placeholder.com/1024x600">
-        </div>
+        </div> -->
 
-        <div class="col-lg-6 grid-item">
+        <!-- <div class="col-lg-6 grid-item">
             septima
           <img class="img-fluid" src="http://via.placeholder.com/800x900">
-        </div>
+        </div> -->
 
-        <div class="col-lg-6 grid-item">
+        <!-- <div class="col-lg-6 grid-item">
             octava
           <img class="img-fluid" src="http://via.placeholder.com/1024x600">
-        </div>
+        </div> -->
 
-         <div class="col-lg-12 col-12 grid-item">
+         <!-- <div class="col-lg-12 col-12 grid-item">
             octava
           <img class="img-fluid" src="http://via.placeholder.com/1024x600">
-        </div>
+        </div> -->
 
       </div>
     </div>
