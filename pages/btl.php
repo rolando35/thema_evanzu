@@ -268,199 +268,69 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!--------------------bola-Left------------------------->
 
 				<!-----------------------Service----------------------------->
-				<div style="margin-top: -3.2rem">
+				<div class="section-service">
 					<div class="big-title text-red text-center">El servicio incluye:</div>
-					<div>
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>first-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Desarrollo</strong> de Concepto.
-									</div>
-								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
-							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
-							</div>
-							<div>
-								<div class="mb-1 mt-5">
-									<div class="d-inline-block ml-1 text-right">
-										<strong>Activaciones</strong> en ferias, <br />
-										mercados, universidades,<br />
-										parques y más.
-									</div>
-									<div class="d-inline-block ml-4">
-										<img
-											src="<?php echo $path_img; ?>second-icon-service.svg"
-										/>
-									</div>
-								</div>
 
-								<div>
-									<svg
-										width="290"
-										height="23"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
-							</div>
-						</div>
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
 
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>third-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Pre-Producción</strong> de la<br />
-										activación (Merchandising,<br />
-										personal, juegos y otros).
-									</div>
+					<div class="container">
+						<div class="d-flex flex-column align-items-center">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."first-icon-service.svg",
+											'text' => '<strong>Desarrollo</strong> de Concepto.',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
 								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."second-icon-service.svg",
+											'text' => '<strong>Activaciones</strong> en ferias, <br>mercados, universidades, <br>parques y más.',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>
 							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
-							</div>
-							<div>
-								<div class="mb-1 mt-3">
-									<div class="d-inline-block ml-1">
-										<strong>Reporte</strong> de resultados.
-									</div>
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>fourth-icon-service.svg"
-										/>
-									</div>
-								</div>
 
-								<div>
-									<svg
-										width="290"
-										height="24"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."third-icon-service.svg",
+											'text' => '<strong>Pre-Producción</strong> de la<br>activación (Merchandising,<br> personal, juegos y otros).',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
 								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."fourth-icon-service.svg",
+											'text' => '<strong>Reporte</strong> de resultados.',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>
+							</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
 							</div>
 						</div>
 					</div>
+									
 				</div>
 				<!-----------------------Service----------------------------->
 
@@ -584,66 +454,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								get_template_part('components/option-game','full', $game ); } ?>
 							</div>
 						</div>
-						<!-- <div class="row justify-content-center">
-							<?php 
-							foreach (array(
-								array
-								(
-								"image" => "carrera-enchufes.png", 
-								"icon" => "carrera-enchufes.svg",
-								"title" => "Carrera de <strong>Enchufes</strong>",
-								"path" => $path_img
-								), 
-								array ( 
-								"image" => "palestra-inflable.png",
-								"icon" => "palestra-inflable.svg", 
-								"title" => "Palestra <strong>Inflable</strong>", 
-								"path" => $path_img
-								),
-								array (
-								"image" => "palestra.png",
-								"icon" => "palestra.svg",
-								"title" => "La <strong>Palesta</strong>",
-								"path" => $path_img
-								), 
-								array (
-								"image" => "tablero-dardos.png", 
-								"icon" => "tablero-dardos.svg",
-								"title" => "Tablero de <strong>Dardos</strong>",
-								"path" => $path_img
-								)) as $game) {
-							get_template_part('components/option-game','full', $game ); } ?>
-						</div>
-						<div class="row justify-content-center">
-							<?php 
-							foreach (array(
-								array
-								(
-								"image" => "hombro-globo.png", 
-								"icon" => "hombro-globo.svg",
-								"title" => "Hombre <strong>Glogo</strong>",
-								"path" => $path_img
-								), 
-								array ( 
-								"image" => "futbol-billar-gigante.png",
-								"icon" => "futbol-billar-gigante.svg", 
-								"title" => "Futbol Billar <strong>Gigante</strong>", 
-								"path" => $path_img
-								),
-								array (
-								"image" => "tira-gol.png",
-								"icon" => "tira-gol.svg",
-								"title" => "El <strong>TiraGol</strong>",
-								"path" => $path_img
-								), 
-								array (
-								"image" => "obstaculos.png", 
-								"icon" => "obstaculos.svg",
-								"title" => "Los <strong>Obstáculos</strong>",
-								"path" => $path_img
-								)) as $game) {
-							get_template_part('components/option-game','full', $game ); } ?>
-						</div> -->
 					</div>
 					<!-------------Options---------------->
 				</section>
@@ -737,199 +547,69 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 ?>
 
 				<!-----------------------Service----------------------------->
-				<div style="margin-top: -3.2rem">
+				<div class="section-service">
 					<div class="big-title text-red text-center">El servicio incluye:</div>
-					<div>
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>first-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Desarrollo</strong> de Concepto.
-									</div>
-								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
-							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
-							</div>
-							<div>
-								<div class="mb-1 mt-5">
-									<div class="d-inline-block ml-1 text-right">
-										<strong>Activaciones</strong> en ferias, <br />
-										mercados, universidades,<br />
-										parques y más.
-									</div>
-									<div class="d-inline-block ml-4">
-										<img
-											src="<?php echo $path_img; ?>second-icon-service.svg"
-										/>
-									</div>
+
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
+
+					<div class="container">
+						<div class="d-flex flex-column align-items-center">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."first-icon-service.svg",
+											'text' => '<strong>Desarrollo</strong> de Concepto.',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
 								</div>
 
-								<div>
-									<svg
-										width="290"
-										height="23"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."second-icon-service.svg",
+											'text' => '<strong>Ejecución</strong> y control.',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>
 							</div>
-						</div>
-
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>third-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Pre-Producción</strong> de la<br />
-										activación (Merchandising,<br />
-										personal, juegos y otros).
-									</div>
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."third-icon-service.svg",
+											'text' => '<strong>Planeación</strong> (equipo de<br>trabajo, espacios,<br>decoración, catering, etc.',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."fourth-icon-service.svg",
+											'text' => '<strong>Reporte</strong> de resultados.',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>
 							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
-							</div>
-							<div>
-								<div class="mb-1 mt-3">
-									<div class="d-inline-block ml-1">
-										<strong>Reporte</strong> de resultados.
-									</div>
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>fourth-icon-service.svg"
-										/>
-									</div>
-								</div>
-
-								<div>
-									<svg
-										width="290"
-										height="24"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
 							</div>
 						</div>
 					</div>
+									
 				</div>
 				<!-----------------------Service----------------------------->
 
@@ -1092,201 +772,70 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 ?>
 
 				<!-----------------------Service----------------------------->
-				<div style="margin-top: -3.2rem">
+				<div class="section-service">
 					<div class="big-title text-red text-center">El servicio incluye:</div>
-					<div>
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>first-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Desarrollo</strong> de Concepto.
-									</div>
-								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
-							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
-							</div>
-							<div>
-								<div class="mb-1 mt-5">
-									<div class="d-inline-block ml-1 text-right">
-										<strong>Activaciones</strong> en ferias, <br />
-										mercados, universidades,<br />
-										parques y más.
-									</div>
-									<div class="d-inline-block ml-4">
-										<img
-											src="<?php echo $path_img; ?>second-icon-service.svg"
-										/>
-									</div>
-								</div>
 
-								<div>
-									<svg
-										width="290"
-										height="23"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
-							</div>
-						</div>
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
 
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>third-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Pre-Producción</strong> de la<br />
-										activación (Merchandising,<br />
-										personal, juegos y otros).
-									</div>
+					<div class="container">
+						<div class="d-flex flex-column align-items-center">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."first-icon-service.svg",
+											'text' => '<strong>Conferencia de prensa</strong><br>en medios televisivos,<br>radiales, impresos y <br>digitales.',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
 								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."second-icon-service.svg",
+											'text' => '<strong>Representación:</strong> ofrecemos<br>la presencia de un vocero<br>para ampliar la información<br>cada vez que lo requieran.',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>
 							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
+							<div class="d-flex flex-column flex-md-row">	
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."third-icon-service.svg",
+											'text' => '<strong>Redacción:</strong> creación de<br>artículos con información<br>objetiva para los medios de<br>comunicación.',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."fourth-icon-service.svg",
+											'text' => '<strong>Prevención, gestión de<br>crisis y recuperación de<br>imágen.</strong>',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>									
 							</div>
-							<div>
-								<div class="mb-1 mt-3">
-									<div class="d-inline-block ml-1">
-										<strong>Reporte</strong> de resultados.
-									</div>
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>fourth-icon-service.svg"
-										/>
-									</div>
-								</div>
-
-								<div>
-									<svg
-										width="290"
-										height="24"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
 							</div>
 						</div>
 					</div>
+									
 				</div>
-				<!-----------------------Service----------------------------->				
+				<!-----------------------Service----------------------------->			
 
 				<!-----------------------Contact----------------------------->
 				<?php 
@@ -1386,199 +935,90 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 ?>
 
 				<!-----------------------Service----------------------------->
-				<div style="margin-top: -3.2rem">
+				<div class="section-service">
 					<div class="big-title text-red text-center">El servicio incluye:</div>
-					<div>
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>first-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Desarrollo</strong> de Concepto.
-									</div>
-								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
-							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
-							</div>
-							<div>
-								<div class="mb-1 mt-5">
-									<div class="d-inline-block ml-1 text-right">
-										<strong>Activaciones</strong> en ferias, <br />
-										mercados, universidades,<br />
-										parques y más.
-									</div>
-									<div class="d-inline-block ml-4">
-										<img
-											src="<?php echo $path_img; ?>second-icon-service.svg"
-										/>
-									</div>
-								</div>
 
-								<div>
-									<svg
-										width="290"
-										height="23"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
-							</div>
-						</div>
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
 
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>third-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Pre-Producción</strong> de la<br />
-										activación (Merchandising,<br />
-										personal, juegos y otros).
-									</div>
+					<div class="container">
+						<div class="d-flex flex-column align-items-center">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."first-icon-service.svg",
+											'text' => '<strong>Definición del perfil,</strong><br>reclutamiento, capacitación<br>y objetivo de venta.',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>								
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
 								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."estrategia-lanzamiento.svg",
+											'text' => '<strong>Estrategia de<br>lanzamiento.</strong>',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>									
 							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."elaboracion.svg",
+											'text' => '<strong>Elaboración</strong> de<br>merchandising, uniforme<br>brandeado, material de<br>comunicación y herramientas<br>de trabajo.',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."ejecucion-supervision.svg",
+											'text' => '<strong>Ejecución y supervisión</strong> con<br>sistema de seguimiento y<br>control digital.',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>									
 							</div>
-							<div>
-								<div class="mb-1 mt-3">
-									<div class="d-inline-block ml-1">
-										<strong>Reporte</strong> de resultados.
-									</div>
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>fourth-icon-service.svg"
-										/>
-									</div>
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."fourth-icon-service.svg",
+											'text' => '<strong>Speech de ventas</strong> en<br>calidad de atención y FAQ<br>del producto/servicio.',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
 								</div>
-
-								<div>
-									<svg
-										width="290"
-										height="24"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."reporte-digitales.svg",
+											'text' => '<strong>Reportes digitales</strong> según<br>requerimientos: Diarios, <br>semanales y mensuales.<br>',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>								
+							</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
 							</div>
 						</div>
 					</div>
+									
 				</div>
 				<!-----------------------Service----------------------------->				
 
@@ -1647,201 +1087,69 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 ?>
 
 				<!-----------------------Service----------------------------->
-				<div style="margin-top: -3.2rem">
+				<div class="section-service">
 					<div class="big-title text-red text-center">El servicio incluye:</div>
-					<div>
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>first-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Desarrollo</strong> de Concepto.
-									</div>
-								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
-							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
-							</div>
-							<div>
-								<div class="mb-1 mt-5">
-									<div class="d-inline-block ml-1 text-right">
-										<strong>Activaciones</strong> en ferias, <br />
-										mercados, universidades,<br />
-										parques y más.
-									</div>
-									<div class="d-inline-block ml-4">
-										<img
-											src="<?php echo $path_img; ?>second-icon-service.svg"
-										/>
-									</div>
-								</div>
 
-								<div>
-									<svg
-										width="290"
-										height="23"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
-							</div>
-						</div>
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
 
-						<div class="d-flex justify-content-center">
-							<div>
-								<div class="mb-1">
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>third-icon-service.svg"
-										/>
-									</div>
-									<div class="d-inline-block ml-1">
-										<strong>Pre-Producción</strong> de la<br />
-										activación (Merchandising,<br />
-										personal, juegos y otros).
-									</div>
+					<div class="container">
+						<div class="d-flex flex-column align-items-center">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."anfitriona.svg",
+											'text' => '<strong>Anfitrionas/es</strong>',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>								
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
 								</div>
-								<div class="ml-5">
-									<img
-										class="pl-2"
-										src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-									/>
-								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."estrategia-lanzamiento.svg",
+											'text' => '<strong>Impulsadoras</strong>',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>									
 							</div>
-							<div>
-								<div>
-									<svg
-										width="10"
-										height="114"
-										viewBox="0 0 7 56"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-											fill="#ED1164"
-										/>
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="19"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-									</svg>
-								</div>
-								<div>
-									<svg
-										width="18"
-										height="19"
-										viewBox="0 0 18 19"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle
-											r="9"
-											transform="matrix(-1 0 0 1 9 9.5)"
-											fill="#01A5EC"
-										/>
-									</svg>
-								</div>
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_img."degustadoras.svg",
+											'text' => '<strong>Degustadoras</strong>',
+											'line' => $path_img."line-rosado.svg"
+										)
+									); 
+								?>								
+								<div class="d-none d-lg-block container-center-service"></div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_img."fourth-icon-service.svg",
+											'text' => '<strong>Animadores</strong>',
+											'line' => $path_img."line-celeste.svg"
+										)
+									); 
+								?>									
 							</div>
-							<div>
-								<div class="mb-1 mt-3">
-									<div class="d-inline-block ml-1">
-										<strong>Reporte</strong> de resultados.
-									</div>
-									<div class="d-inline-block">
-										<img
-											src="<?php echo $path_img; ?>fourth-icon-service.svg"
-										/>
-									</div>
-								</div>
-
-								<div>
-									<svg
-										width="290"
-										height="24"
-										viewBox="0 0 290 26"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-											stroke="#01A5EC"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-dasharray="6 6"
-										/>
-									</svg>
-								</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
 							</div>
 						</div>
 					</div>
+									
 				</div>
-				<!-----------------------Service----------------------------->				
+				<!-----------------------Service----------------------------->			
 
 				<!-----------------------Contact----------------------------->
 				<?php 
@@ -1942,3 +1250,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 
 <?php  get_footer(); ?>
+
+
+
+<!-- line-height: 1.2rem; para los textos del cuadrado -->

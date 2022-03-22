@@ -480,18 +480,25 @@
 /* padding-top: 1rem; */
 /* } */
 
+/*-------------------- BTL -------------------*/
+
 .card-btl {
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 }
 
 .section-contact {
-	margin-top: -6.8rem;
+	margin-top: 0;
+}
+
+.section-service {
+	margin-top: 0;
 }
 
 .logo-top-contact {
 	height: 16.5rem;
 	margin-bottom: -8.5rem;
+	margin-top: -2rem;
 }
 
 .box-container-contact {
@@ -544,6 +551,52 @@
 	margin-bottom: -1.5rem;
 }
 
+.image-service {
+	width: 6rem;
+}
+
+.container-center-service {
+	background-color: #eaeaea;
+	width: 0.8rem;
+}
+
+.element-final-center {
+	height: 6rem;
+}
+
+.element-center-service {
+	width: 0.8rem;
+	background: #ed1164;
+	height: 5rem;
+	border-radius: 1rem;
+	margin-top: 0.5rem;
+}
+
+.text-service {
+	width: 18rem;
+	box-sizing: border-box;
+	line-height: 1.125rem;
+}
+
+.container-line-right-service {
+	margin-left: -0.9rem;
+}
+
+.container-line-left-service {
+	margin-right: -0.9rem;
+}
+
+.line-right-service {
+	width: 21.9rem;
+}
+
+.line-left-service {
+	width: 21.9rem;
+	z-index: 1;
+}
+
+/*-------------------- BTL -------------------*/
+
 /****RESPONSIVE****/
 
 /* Extra small devices (phones, 600px and down) */
@@ -552,9 +605,9 @@
 		height: 330px;
 	}
 
-  .widthText {
-    width: auto !important;
-  }
+	.widthText {
+		width: auto !important;
+	}
 	#icon-pink-background {
 		width: auto;
 		height: auto;
@@ -572,6 +625,14 @@
 		margin-top: -4.4rem;
 		margin-bottom: -3.2rem;
 	} */
+
+	.section-contact {
+		margin-top: -6.8rem;
+	}
+
+	.section-service {
+		margin-top: -3.2rem;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
