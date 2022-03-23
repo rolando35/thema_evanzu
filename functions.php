@@ -67,11 +67,29 @@ function custom_enqueue_styles()
 
 function bps_masonry()
 {
-	wp_enqueue_script('masonry-js', '//unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js', array('jquery'));
+	wp_register_script('masonry-js', '//unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js', array('jquery'));
 	wp_enqueue_script('masonry-init', get_stylesheet_directory_uri() . '/assets/js/masonry-init.js', array('masonry'), 1, true);
 }
 
 add_action('wp_enqueue_scripts', 'bps_masonry');
+
+// NavIcons
+add_action('wp_enqueue_scripts', 'bps_nav_icons');
+
+function bps_nav_icons()
+{
+	wp_enqueue_script('nav-icons-init', get_stylesheet_directory_uri() . '/assets/js/navIcons-init.js', array(), 1, true);
+	// wp_enqueue_script('nav-icons-init');
+}
+
+
+
+// add_action('wp_enqueue_scripts', 'tutsplus_enqueue_custom_js');
+// function tutsplus_enqueue_custom_js() {
+//     wp_enqueue_script('custom', get_stylesheet_directory_uri().'/scripts/custom.js');
+// }
+
+
 
 
 add_theme_support('post-thumbnails');

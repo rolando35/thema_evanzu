@@ -131,7 +131,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 	<div class="bg-white">
 		<!-------------------nav-------------------->
 		<div class="group-nav">
-			<ul class="nav nav-pills justify-content-center" role="tablist">
+			<ul class="nav nav-pills justify-content-center" id="nav-iconos" role="tablist">
 				<?php                          
                     foreach (
 						array (
@@ -139,35 +139,31 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							'svg' => 'first-tab.svg',
 							'title'=> 'BTL y<br>Activaciones',
 							'href'=> '#home',
-							'active'=> 'active',
+							'active'=> true,
 							"path" => $path_img
 							),
                             array (
 							'svg' =>'second-tab.svg',
 							'title'=> 'Eventos' ,
 							'href'=> '#events',
-							'active'=> '',
 							"path" => $path_img
 							),
                             array (
 							'svg' => 'third-tab.svg',
 							'title'=> 'Relaciones<br>Públicas',
 							'href'=> '#relations',
-							'active'=> '',
 							"path" => $path_img
 							),
                             array (
 							'svg' =>'fourth-tab.svg',
 							'title'=> 'Fuerza de<br>Ventas',
 							'href'=> '#sales',
-							'active'=> '',
 							"path" => $path_img
 							),
                             array (
 							'svg' => 'fifth-tab.svg',
 							'title'=> 'Anfitrionaje',
 							'href'=> '#hostess',
-							'active'=> '',
 							"path" => $path_img
 							)) as $nav) {
                              get_template_part('components/circle-nav-2','full', $nav ); 
@@ -1232,25 +1228,21 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 
  <script>
-     jQuery(function ($) {
-	
-    var $grid = $('.gallery-wrapper').masonry({
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
-    percentPosition: true,
-    transitionDuration: 0,
-  });
 
-  $grid.imagesLoaded().progress( function() {
-    $grid.masonry();
-  });
 
-    });
+	// jQuery(function ($) {
+	// 	var $grid = $('.gallery-wrapper').masonry({
+	// 		itemSelector: '.grid-item',
+	// 		columnWidth: '.grid-sizer',
+	// 		percentPosition: true,
+	// 		transitionDuration: 0,
+	// 	});
+
+	// 	$grid.imagesLoaded().progress( function() {
+	// 		$grid.masonry();
+	// 	});
+    // });
   </script>
 
 
 <?php  get_footer(); ?>
-
-
-
-<!-- line-height: 1.2rem; para los textos del cuadrado -->

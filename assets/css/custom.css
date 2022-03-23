@@ -5,7 +5,7 @@
 }
 
 .bg-red {
-	background-color: #ed1164;
+	background-color: #ed1164 !important;
 }
 
 .bg-pink {
@@ -461,6 +461,10 @@
 	font-size: 18px;
 	text-align: center;
 	text-decoration: none;
+}
+
+.li-circle > a:hover {
+	text-decoration: none !important;
 }
 
 .li-circle {
