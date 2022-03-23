@@ -347,7 +347,7 @@ h5 {
                             ?>
                        </div>
                       <div class='mt-5'>
-                        <!-----------------------Contanct----------------------------->
+                        <!-----------------------Contact----------------------------->
                 				<?php 
                 					get_template_part('components/form-quote-request2','full', 
                 					array (
@@ -355,7 +355,7 @@ h5 {
                 						'title'=> '¡Empecemos ahora!'
                 					));  	 
                 				?>
-                				<!-----------------------Contanct----------------------------->
+                				<!-----------------------Contact----------------------------->
                       </div>
 
                <div class="bg-white big-title text-center text-red">Ofrecemos</div>
@@ -546,7 +546,7 @@ h5 {
                 </div>
                 <!-----------------------Circle Right----------------------------->
                   <div class='mt-5'>
-                    <!-----------------------Contanct----------------------------->
+                    <!-----------------------Contact----------------------------->
                     <?php 
             					get_template_part('components/form-quote-request2','full', 
             					array (
@@ -554,7 +554,7 @@ h5 {
             						'title'=> '¿Estás listo?'
             					));  	 
             				?>
-                    <!-----------------------Contanct----------------------------->
+                    <!-----------------------Contact----------------------------->
                   </div>
 
                <div class='py-5 my-5 pl-5'>
@@ -710,7 +710,7 @@ h5 {
                 </div>
                 <!-----------------------Circle Right----------------------------->
                   <div class='mt-5'>
-                    <!-----------------------Contanct----------------------------->
+                    <!-----------------------Contact----------------------------->
                     <?php 
             					get_template_part('components/form-quote-request2','full', 
             					array (
@@ -718,7 +718,7 @@ h5 {
             						'title'=> 'Tenemos más por contarte, escríbenos'
             					));  	 
             				?>
-                    <!-----------------------Contanct----------------------------->
+                    <!-----------------------Contact----------------------------->
                   </div>
                <div class='py-5 my-5 pl-5'>
                    <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
