@@ -75,6 +75,10 @@ $path_software =
 	background: #03479C;
 }
 
+.mb-n1-5 {
+  margin-bottom: 0;
+}
+
 </style>
 
 <section id="slider">
@@ -124,42 +128,38 @@ $path_software =
 	<div class="bg-white">
 		<!-------------------nav-------------------->
 		<div class="group-nav">
-			<ul class="nav nav-pills justify-content-center" role="tablist">
+			<ul class="nav nav-pills justify-content-center" id="nav-iconos" role="tablist">
 				<?php foreach (
         [
             [
                 'svg' => 'first-tab.svg',
                 'title' => 'Tiendas <br> virtuales',
+                'active' => true,
                 'href' => '#home',
-                'active' => 'active',
                 'path' => $path_software,
             ],
             [
                 'svg' => 'second-tab.svg',
                 'title' => 'Páginas <br> web',
                 'href' => '#events',
-                'active' => '',
                 'path' => $path_software,
             ],
             [
                 'svg' => 'third-tab.svg',
                 'title' => 'App <br> móviles',
                 'href' => '#relations',
-                'active' => '',
                 'path' => $path_software,
             ],
             [
                 'svg' => 'fourth-tab.svg',
                 'title' => 'Software <br> a medida',
                 'href' => '#sales',
-                'active' => '',
                 'path' => $path_software,
             ],
             [
                 'svg' => 'fifth-tab.svg',
                 'title' => 'Diseño <br> UX & UI',
                 'href' => '#hostess',
-                'active' => '',
                 'path' => $path_software,
             ],
         ]
@@ -211,115 +211,83 @@ $path_software =
 					</div>
 				</section>
 				<!----------------------Main---------------------->
-				<!-----------------------Service----------------------------->
-				<div class="mt-3" style="margin-top: -3.2rem">
-					<div class="big-title text-red text-center">El servicio incluye:
-            <div class="text-center w-100 d-flex justify-content-center">
-              <div class="line-h mb-5"></div>
-            </div>
-          </div>
-					<div >
-           <div>
-             <div class="d-block d-lg-flex justify-content-center">
-               <div class="text-center">  
-                 <div class="mb-1">
-                   <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-incluye1.svg">
-                  </div>
-                  <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center w-14 text-lg-left">
-                  <b>Diseño personalizado</b> <br> y enfocado en la experiencia de usuario.
-                  </div>   
-                 </div> 
-                <div class="ml-5">
-                    <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
-                </div>
-                    <!-----------------------BoxShadow Line----------------------------->
-                    <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                    <!-----------------------BoxShadow Line----------------------------->
-               </div>
-                 <div class="d-none d-lg-block"> 
-                    <div> 
-                        <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
-                        </svg>
-                     </div> 
-                     <div class="position-relative">
-                        <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
-                    </div>
-                    
-                  </div>
-                 <div >
-                       <div class="
-                        mb-1 
-                        mt-5 
-                        d-flex 
-                        flex-column-reverse
-                        flex-lg-row
-                        w100-auto
-                        justify-content-center 
-                        justify-content-lg-around 
-                        ml-lg-5 
-                        align-items-center 
-                        ">
-                       <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center text-lg-right">
-                       Desarrollo a medida <br> o en CMS.
-                        </div>   
-                          <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-incluye2.svg"></div> 
-                       </div> 
-                      <!-----------------------BoxShadow Line----------------------------->
-                      <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                       <div class="position-relative" style='margin-left: -1rem;'>
-                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                    </div>
-                 </div>
-             </div>
 
-              <div class="d-block d-lg-flex justify-content-center margin-negative">
-                  <div class="m-left-4">  
-                       <div class="text-center mb-1 mt-5 d-block d-lg-flex justify-content-center align-items-lg-center justify-content-lg-start">
-                           <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                             <img class="mr-0 mr-lg-3" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-incluye3.svg"></div>
-                                <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-12 text-center text-lg-left">
-                                Integración de <b>medios de pagos online.</b>
-                                  </div>  
-                         </div> 
-                          <div class="ml-5">
-                              <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
-                          </div>
-                          <!-----------------------BoxShadow Line----------------------------->
-                        <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                        <!-----------------------BoxShadow Line----------------------------->
-                   </div>
-                   <div style="margin-bottom: 6rem; margin-top: -2rem;" class="mt-4">
-                         <div class="mb-1 mt-5 d-flex flex-column-reverse mt-lg-5 align-items-center flex-lg-row">
-                         <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-15 text-center text-lg-left">
-                          Desarrollo de un <b> Backoffice </b> para la gestión de pedidos.
-                          </div>   
-                            <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-incluye4.svg"></div> 
-                         </div> 
-                         <div class="position-relative" style='margin-left: -1rem;'>
-                         <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                      </div>
-                   </div>
-              </div>
-              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
-                  <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-incluye.png">
-              </div>
-           </div>
+
+        <!-----------------------Service component tab1----------------------------->
+				<div class="section-service">
+					<div class="big-title text-red text-center">El servicio incluye:</div>
+
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
+
+					<div class="container">
+						<div class="d-flex flex-column align-items-center mb-n1-5">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."servicio-incluye1.svg",
+											'text' => '<b>Diseño personalizado</b> <br> y enfocado en la experiencia de usuario.',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."servicio-incluye2.svg",
+											'text' => 'Desarrollo a medida <br> o en CMS.',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."servicio-incluye3.svg",
+											'text' => 'Integración de <b>medios de pagos online.</b>',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."servicio-incluye4.svg",
+											'text' => 'Desarrollo de un <b> Backoffice </b> para la gestión de pedidos.',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
+							</div>
+						</div>
+					</div>
+          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
+              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-incluye.png">
           </div>
 				</div>
-				<!-----------------------Service----------------------------->
+				<!-----------------------Service component tab1----------------------------->
 
 				<div class='mt-5'>
         <!-----------------------Contact----------------------------->
-				<?php 
-					get_template_part('components/form-quote-request2','full', 
-					array (
-						'image' => $path_software.'form-quote-request.svg',
-						'title'=> '¡Empecemos ahora!'
-					));  	 
-				?>
+				<?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $path_software . 'form-quote-request.svg',
+        'title' => '¡Empecemos ahora!',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
 
@@ -380,154 +348,120 @@ $path_software =
         'position' => '',
     ]); ?>
 
-				<!-----------------------Service paht two----------------------------->
-				<div class="mt-3" style="margin-top: -3.2rem">
-					<div class="big-title text-red text-center">El servicio incluye:
-            <div class="text-center w-100 d-flex justify-content-center">
-              <div class="line-h mb-5"></div>
-            </div>
-          </div>
-					<div >
-           <div>
-             <div class="d-block d-lg-flex justify-content-center">
-               <div class="text-center">  
-                 <div class="mb-1">
-                   <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-incluye1.svg">
-                  </div>
-                  <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center w-14 text-lg-left">
-                  <b>Diseño personalizado</b> <br> y responsivo.
-                  </div>   
-                 </div> 
-                <div class="ml-5">
-                    <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
-                </div>
-                    <!-----------------------BoxShadow Line----------------------------->
-                    <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                    <!-----------------------BoxShadow Line----------------------------->
-               </div>
-                 <div class="d-none d-lg-block"> 
-                    <div> 
-                        <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
-                        </svg>
-                     </div> 
-                     <div class="position-relative">
-                        <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
-                    </div>
-                    
-                  </div>
-                 <div >
-                       <div class="
-                        mb-1 
-                        mt-5 
-                        d-flex 
-                        flex-column-reverse
-                        flex-lg-row
-                        w100-auto
-                        justify-content-center 
-                        justify-content-lg-end 
-                        ml-lg-5 
-                        align-items-center 
-                        ">
-                       <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center text-lg-right mr-lg-2">
-                       Publicidad y <br>Desarrollo.
-                        </div>   
-                          <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block ml-lg-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-path2-2.svg"></div> 
-                       </div> 
-                      <!-----------------------BoxShadow Line----------------------------->
-                      <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                       <div class="position-relative" style='margin-left: -1rem;'>
-                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                    </div>
-                 </div>
-             </div>
 
-              <div class="d-block d-lg-flex justify-content-center margin-negative-27">
-                  <div class="m-left-4">  
-                       <div class="text-center mb-1 mt-5 d-block d-lg-flex justify-content-center align-items-lg-center justify-content-lg-start">
-                           <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                             <img class="mr-0 mr-lg-3" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-path2-3.svg"></div>
-                                <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-12 text-center text-lg-left">
-                                  <b>Definición de la estrategia del proyecto.</b>
-                                </div>  
-                         </div> 
-                          <div class="ml-5">
-                              <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
-                          </div>
-                          <!-----------------------BoxShadow Line----------------------------->
-                        <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                        <!-----------------------BoxShadow Line----------------------------->
-                   </div>
-                   <div style="margin-top: -2rem;" class="mt-4 mb-10">
-                         <div class="mb-1 mt-5 d-flex flex-column-reverse mt-lg-5 align-items-center flex-lg-row">
-                         <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-15 text-center text-lg-left">
-                          <b> Maquetación y arquitectura. </b>
-                          </div>   
-                            <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-path2-4.svg"></div> 
-                         </div> 
-                         <div class="position-relative" style='margin-left: -1rem;'>
-                         <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                      </div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                      <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                   </div>
-              </div>
+        <!-----------------------Service component tab2----------------------------->
+				<div class="section-service">
+					<div class="big-title text-red text-center">El servicio incluye:</div>
 
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
 
-              <div class="d-block d-lg-flex justify-content-center " style="margin-top: -7rem;">
-                  <div class="ml-n1-17">
-                       <div class="text-center mb-1 mt-5 d-block d-lg-flex justify-content-center align-items-lg-center justify-content-lg-start">
-                           <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                             <img class="mr-0 mr-lg-3" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-path2-5.svg"></div>
-                                <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-12 text-center text-lg-left">
-                                  <b>Implementación <br> y mantenimiento</b>
-                                </div>  
-                         </div> 
-                          <div class="ml-5">
-                              <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
-                          </div>
-                   </div>
-                   <div style="margin-bottom: 6rem; margin-top: -2rem;" class="mt-4">
-                         <div class="mb-1 mt-5 d-flex flex-column-reverse mt-lg-5 align-items-center flex-lg-row">
-                         <div class="d-none">
-                          <b> Maquetación y arquitectura. </b>
-                          </div>   
-                            <div class="d-none"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-path2-4.svg"></div> 
-                         </div> 
-                         <div class="position-relative" style=''>
-                         <img  class="d-none" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                      </div>
-                   </div>
-              </div>
-              
-              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
-                  <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/SERVICIO-web-imagen-2 1.png">
-              </div>
-           </div>
+					<div class="container">
+						<div class="d-flex flex-column align-items-center mb-n1-5">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."servicio-incluye1.svg",
+											'text' => '<b>Diseño personalizado</b> <br> y responsivo.',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."servicio-path2-2.svg",
+											'text' => 'Publicidad y <br>Desarrollo.',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."servicio-path2-3.svg",
+											'text' => '<b>Definición de la estrategia del proyecto.</b>',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."servicio-path2-4.svg",
+											'text' => 'Maquetación y arquitectura. ',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+							
+              <div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."servicio-path2-5.svg",
+											'text' => '<b>Implementación <br> y mantenimiento</b>',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => "",
+											'text' => '',
+											'line' => ""
+										)
+									); 
+								?>
+							</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
+							</div>
+						</div>
+					</div>
+          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -4rem;'>
+              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/SERVICIO-web-imagen-2 1.png">
           </div>
 				</div>
+				<!-----------------------Service component tab2----------------------------->
+
+
 				<!-----------------------Service paht two----------------------------->
         <!-----------------------Circle Right----------------------------->
         <div class='w-100 text-right' style="margin-bottom: -10rem">
                 <?php
-                  $parameters = array('color' => '#03479C', 'position' => 'right') ;
-                  get_template_part('components/border-circle','full', $parameters ); 
-                  ?>
+                $parameters = ['color' => '#03479C', 'position' => 'right'];
+                get_template_part(
+                    'components/border-circle',
+                    'full',
+                    $parameters
+                );
+                ?>
                 </div>
                 <!-----------------------Circle Right----------------------------->
 
         <div class='mt-5'>
         <!-----------------------Contact----------------------------->
-				<?php 
-					get_template_part('components/form-quote-request2','full', 
-					array (
-						'image' => $path_software.'form-quote-request.svg',
-						'title'=> 'Estamos listos. ¡Contáctanos!'
-					));  	 
-				?>
+				<?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $path_software . 'form-quote-request.svg',
+        'title' => 'Estamos listos. ¡Contáctanos!',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
 
@@ -636,124 +570,91 @@ $path_software =
         'position' => '',
     ]); ?>
 
-				<!-----------------------Service tab3----------------------------->
-				<div class="mt-3" style="margin-top: -3.2rem">
-					<div class="big-title text-red text-center">¿Cómo trabajamos?
-            <div class="text-center w-100 d-flex justify-content-center">
-              <div class="line-h mb-5"></div>
-            </div>
-          </div>
-					<div >
-           <div>
-             <div class="d-block d-lg-flex justify-content-center">
-               <div class="text-center">  
-                 <div class="mb-1 d-block d-lg-flex justify-content-between align-items-center">
-                   <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/como-trabajamos1.svg">
-                  </div>
-                  <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center w-14 text-lg-left">
-                  <b>Planificamos según tus objetivos y necesidades.</b>
-                  </div>   
-                 </div> 
-                <div class="ml-5">
-                    <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
-                </div>
-                    <!-----------------------BoxShadow Line----------------------------->
-                    <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                    <!-----------------------BoxShadow Line----------------------------->
-               </div>
-                 <div class="d-none d-lg-block"> 
-                    <div> 
-                        <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
-                        </svg>
-                     </div> 
-                     <div class="position-relative">
-                        <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
-                    </div>
-                    
-                  </div>
-                 <div >
-                       <div class="
-                        mb-1 
-                        mt-5 
-                        d-flex 
-                        flex-column-reverse
-                        flex-lg-row
-                        w100-auto
-                        justify-content-center 
-                        justify-content-lg-around 
-                        align-items-center 
-                        ">
-												<div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center text-lg-right" style="width: 14rem;">
-												<b>Definimos las funciones</b> <br> que cubran las necesidades actuales y que se anticipen a las futuras.
 
-                        </div>   
-                          <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block ml-lg-2"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-path2-4.svg"></div> 
-                       </div> 
-                      <!-----------------------BoxShadow Line----------------------------->
-                      <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                       <div class="position-relative" style='margin-left: -1rem;'>
-                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                    </div>
-                 </div>
-             </div>
+      <!-----------------------Service component tab3----------------------------->
+				<div class="section-service">
+					<div class="big-title text-red text-center">¿Cómo trabajamos?</div>
 
-              <div class="d-block d-lg-flex justify-content-center margin-negative">
-                  <div class="marg-left-1">  
-                       <div class="text-center mb-1 mt-5 d-block d-lg-flex justify-content-center align-items-lg-center ml-n1-4 justify-content-lg-start">
-                           <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                             <img class="mr-0 mr-lg-3" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/como-trabajamos3.svg"></div>
-                                <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-12 text-center text-lg-left">
-                                <b>Establecemos el flujo <br> de navegación y diseño </b>pensando en el usuario. 
-                                  </div>  
-                         </div> 
-                          <div class="ml-5">
-                              <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
-                          </div>
-                          <!-----------------------BoxShadow Line----------------------------->
-                        <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                        <!-----------------------BoxShadow Line----------------------------->
-                   </div>
-                   <div style="margin-bottom: 6rem; margin-top: -2rem;" class="mt-4">
-                         <div class="mb-1 mt-5 d-flex flex-column-reverse mt-lg-5 align-items-center flex-lg-row">
-                         <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-15 text-center text-lg-left">
-                          <b>Realizamos testing y control de calidad.</b>
-                          </div>   
-                            <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/como-trabajamos4.svg"></div> 
-                         </div> 
-                         <div class="position-relative" style='margin-left: -1rem;'>
-                         <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                      </div>
-                   </div>
-              </div>
-              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
-                  <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-imagen.png">
-              </div>
-           </div>
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
+
+					<div class="container">
+						<div class="d-flex flex-column align-items-center mb-n1-5">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."como-trabajamos1.svg",
+											'text' => '<b>Planificamos según tus objetivos y necesidades.</b>',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."servicio-path2-4.svg",
+											'text' => '<b>Definimos las funciones</b> <br> que cubran las necesidades actuales y que se anticipen a las futuras.',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."como-trabajamos3.svg",
+											'text' => '<b>Establecemos el flujo <br> de navegación y diseño </b>pensando en el usuario. ',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."como-trabajamos4.svg",
+											'text' => '<b>Realizamos testing y control de calidad.</b>',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
+							</div>
+						</div>
+					</div>
+          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-imagen.png">
           </div>
 				</div>
-				<!-----------------------Service tab3----------------------------->			
+				<!-----------------------Service component tab3----------------------------->	
 
 				<!-----------------------Circle Right----------------------------->
         <div class='w-100 text-right' style="margin-bottom: -10rem">
         <?php
-          $parameters = array('color' => '#03479C', 'position' => 'right') ;
-          get_template_part('components/border-circle','full', $parameters ); 
-          ?>
+        $parameters = ['color' => '#03479C', 'position' => 'right'];
+        get_template_part('components/border-circle', 'full', $parameters);
+        ?>
         </div>
                 <!-----------------------Circle Right----------------------------->
 
         <div class='mt-5'>
         <!-----------------------Contact----------------------------->
-				<?php 
-					get_template_part('components/form-quote-request2','full', 
-					array (
-						'image' => $path_software.'form-quote-request.svg',
-						'title'=> 'Define tu presupuesto'
-					));  	 
-				?>
+				<?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $path_software . 'form-quote-request.svg',
+        'title' => 'Define tu presupuesto',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-------------------------- list -------------------------->
 				<div class="py-5">
@@ -825,154 +726,117 @@ $path_software =
         'position' => '',
     ]); ?>
 
-				<!-----------------------Service paht two----------------------------->
-				<div class="mt-3" style="margin-top: -3.2rem">
-					<div class="big-title text-red text-center">El servicio incluye:
-            <div class="text-center w-100 d-flex justify-content-center">
-              <div class="line-h mb-5"></div>
-            </div>
-          </div>
-					<div >
-           <div>
-             <div class="d-block d-lg-flex justify-content-center">
-               <div class="text-center">  
-                 <div class="mb-1">
-                   <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/tab4-servicio1.svg">
-                  </div>
-                  <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center w-14 text-lg-left">
-                  <b>Software ERP.</b>
-                  </div>   
-                 </div> 
-                <div class="ml-5">
-                    <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
-                </div>
-                    <!-----------------------BoxShadow Line----------------------------->
-                    <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                    <!-----------------------BoxShadow Line----------------------------->
-               </div>
-                 <div class="d-none d-lg-block"> 
-                    <div> 
-                        <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
-                        </svg>
-                     </div> 
-                     <div class="position-relative">
-                        <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
-                    </div>
-                    
-                  </div>
-                 <div >
-                       <div class="
-                        mb-1 
-                        mt-5 
-                        d-flex 
-                        flex-column-reverse
-                        flex-lg-row
-                        w100-auto
-                        justify-content-center 
-                        justify-content-lg-end 
-                        ml-lg-5 
-                        align-items-center 
-                        ">
-                       <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center text-lg-right mr-lg-2">
-                       <b>Software CRM.</b>
-                        </div>   
-                          <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/tab4-servicio2.svg"></div> 
-                       </div> 
-                      <!-----------------------BoxShadow Line----------------------------->
-                      <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                       <div class="position-relative" style='margin-left: -1rem;'>
-                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                    </div>
-                 </div>
-             </div>
 
-              <div class="d-block d-lg-flex justify-content-center margin-negative-27">
-                  <div class="m-left-4">  
-                       <div class="text-center mb-1 mt-5 d-block d-lg-flex justify-content-center align-items-lg-center justify-content-lg-start">
-                           <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                             <img class="mr-0 mr-lg-3" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/tab4-servicio3.svg"></div>
-                                <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-12 text-center text-lg-left">
-                                  <b>Sistemas de Matrícula.</b>
-                                </div>  
-                         </div> 
-                          <div class="ml-5">
-                              <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
-                          </div>
-                          <!-----------------------BoxShadow Line----------------------------->
-                        <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                        <!-----------------------BoxShadow Line----------------------------->
-                   </div>
-                   <div style="margin-top: -2rem;" class="mt-4 mb-10">
-                         <div class="mb-1 mt-5 d-flex flex-column-reverse mt-lg-5 align-items-center flex-lg-row">
-                         <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-15 text-center text-lg-left">
-                          <b>Sistemas de gestión de <br> ventas e ingresos.</b>
-                          </div>   
-                            <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/tab4-servicio4.svg"></div> 
-                         </div> 
-                         <div class="position-relative" style='margin-left: -1rem;'>
-                         <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                      </div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                      <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                   </div>
-              </div>
+      <!-----------------------Service component tab4----------------------------->
+				<div class="section-service">
+					<div class="big-title text-red text-center">El servicio incluye:</div>
 
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
 
-              <div class="d-block d-lg-flex justify-content-center " style="margin-top: -7rem;">
-                  <div class="ml-n1-17">
-                       <div class="text-center mb-1 mt-5 d-block d-lg-flex justify-content-center align-items-lg-center justify-content-lg-start">
-                           <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                             <img class="mr-0 mr-lg-3" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/tab4-servicio5.svg"></div>
-                                <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-12 text-center text-lg-left">
-                                  <b>Sistemas de <br> control de stock.</b>
-                                </div>  
-                         </div> 
-                          <div class="ml-5">
-                              <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
-                          </div>
-                   </div>
-                   <div style="margin-bottom: 6rem; margin-top: -2rem;" class="mt-4">
-                         <div class="mb-1 mt-5 d-flex flex-column-reverse mt-lg-5 align-items-center flex-lg-row">
-                         <div class="d-none">
-                          <b> Maquetación y arquitectura. </b>
-                          </div>   
-                            <div class="d-none"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-path2-4.svg"></div> 
-                         </div> 
-                         <div class="position-relative" style=''>
-                         <img  class="d-none" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                      </div>
-                   </div>
-              </div>
-              
-              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
-                  <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/software-medida-icon.png">
-              </div>
-           </div>
+					<div class="container">
+						<div class="d-flex flex-column align-items-center mb-n1-5">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."tab4-servicio1.svg",
+											'text' => '<b>Software ERP.</b>',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."tab4-servicio2.svg",
+											'text' => '<b>Software CRM.</b>',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."tab4-servicio3.svg",
+											'text' => '<b>Sistemas de Matrícula.</b>',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."tab4-servicio4.svg",
+											'text' => '<b>Sistemas de gestión de <br> ventas e ingresos.</b>',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+							
+              <div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."tab4-servicio5.svg",
+											'text' => '<b>Sistemas de <br> control de stock.</b>',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => "",
+											'text' => '',
+											'line' => ""
+										)
+									); 
+								?>
+							</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
+							</div>
+						</div>
+					</div>
+          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/software-medida-icon.png">
           </div>
 				</div>
-				<!-----------------------Service paht two----------------------------->
+				<!-----------------------Service component tab4----------------------------->
         <!-----------------------Circle Right----------------------------->
         <div class='w-100 text-right' style="margin-bottom: -10rem">
                 <?php
-                  $parameters = array('color' => '#03479C', 'position' => 'right') ;
-                  get_template_part('components/border-circle','full', $parameters ); 
-                  ?>
+                $parameters = ['color' => '#03479C', 'position' => 'right'];
+                get_template_part(
+                    'components/border-circle',
+                    'full',
+                    $parameters
+                );
+                ?>
                 </div>
                 <!-----------------------Circle Right----------------------------->
 
         <div class='mt-5'>
         <!-----------------------Contact----------------------------->
-				<?php 
-					get_template_part('components/form-quote-request2','full', 
-					array (
-						'image' => $path_software.'form-quote-request.svg',
-						'title'=> '¿Un proyecto en mente?'
-					));  	 
-				?>
+				<?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $path_software . 'form-quote-request.svg',
+        'title' => '¿Un proyecto en mente?',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-----------------------Portafolio tab4----------------------------->
 				<!-----------------------Portafolio tab4----------------------------->
@@ -1026,124 +890,91 @@ $path_software =
         'position' => '',
     ]); ?>
 
-				<!-----------------------Service tab6----------------------------->
-				<div class="mt-3" style="margin-top: -3.2rem">
-					<div class="big-title text-red text-center">¿Cómo trabajamos?
-            <div class="text-center w-100 d-flex justify-content-center">
-              <div class="line-h mb-5"></div>
-            </div>
-          </div>
-					<div >
-           <div>
-             <div class="d-block d-lg-flex justify-content-center">
-               <div class="text-center">  
-                 <div class="mb-1 d-block d-lg-flex justify-content-between align-items-center">
-                   <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/como-trabajamos3.svg">
-                  </div>
-                  <div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center w-14 text-lg-left">
-                  <b>Investigación del perfil</b> de usuario.
-                  </div>   
-                 </div> 
-                <div class="ml-5">
-                    <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line1.svg">
-                </div>
-                    <!-----------------------BoxShadow Line----------------------------->
-                    <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                    <!-----------------------BoxShadow Line----------------------------->
-               </div>
-                 <div class="d-none d-lg-block"> 
-                    <div> 
-                        <svg width="10" height="114" viewBox="0 0 7 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z" fill="#ED1164"/>
-                        </svg>
-                     </div> 
-                     <div class="position-relative">
-                        <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/verticalLine.svg">
-                    </div>
-                    
-                  </div>
-                 <div >
-                       <div class="
-                        mb-1 
-                        mt-5 
-                        d-flex 
-                        flex-column-reverse
-                        flex-lg-row
-                        w100-auto
-                        justify-content-center 
-                        justify-content-lg-around 
-                        align-items-center 
-                        ">
-												<div class="d-inline-block ml-1 mt-3 mt-lg-0 text-center text-lg-right" style="width: 14rem;">
-												<b>Desarrollo del mapa de navegación, animación y transiciones.</b>
 
-                        </div>   
-                          <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block ml-lg-2"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/diseño-servicio2.svg"></div> 
-                       </div> 
-                      <!-----------------------BoxShadow Line----------------------------->
-                      <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                      <!-----------------------BoxShadow Line----------------------------->
-                       <div class="position-relative" style='margin-left: -1rem;'>
-                        <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                    </div>
-                 </div>
-             </div>
+        <!-----------------------Service component tab6----------------------------->
+				<div class="section-service">
+					<div class="big-title text-red text-center">¿Cómo trabajamos?</div>
 
-              <div class="d-block d-lg-flex justify-content-center margin-negative">
-                  <div class="marg-left-1">  
-                       <div class="text-center mb-1 mt-5 d-block d-lg-flex justify-content-center align-items-lg-center justify-content-lg-start">
-                           <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block">
-                             <img class="mr-0 mr-lg-3" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/diseño-servicio3.svg"></div>
-                                <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-12 text-center text-lg-left">
-                                <b>Diseño de diagramas de navegación simulando interacciones</b> <br>Uso de plataformas como Figma, Adobe Xd y otros. 
-                                  </div>  
-                         </div> 
-                          <div class="ml-5">
-                              <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como-line3.svg">
-                          </div>
-                          <!-----------------------BoxShadow Line----------------------------->
-                        <div class="d-auto d-lg-none text-center" style="background: transparent; height: 1px; box-shadow: 0px 21px 3px 0px #000"></div>
-                        <!-----------------------BoxShadow Line----------------------------->
-                   </div>
-                   <div style="margin-bottom: 6rem; margin-top: -2rem;" class="mt-4">
-                         <div class="mb-1 mt-5 mt-lg-2 d-flex flex-column-reverse align-items-center flex-lg-row">
-                         <div class="d-inline-block ml-1 mt-3 mt-lg-0 w-15 text-center text-lg-left">
-                          <b>Testing.</b>
-                          </div>   
-                            <div class="d-flex justify-content-center justify-content-lg-end d-lg-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/diseño-servicio4.svg"></div> 
-                         </div> 
-                         <div class="position-relative" style='margin-left: -1rem;'>
-                         <img  class="points-line-position d-none d-lg-block position-relative" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/line-blue.svg">
-                      </div>
-                   </div>
-              </div>
-              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -6rem;'>
-                  <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/UX-UI-imagen.png">
-              </div>
-           </div>
+					<div class="text-center">
+						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+						</svg>
+					</div>
+
+					<div class="container">
+						<div class="d-flex flex-column align-items-center mb-n1-5">
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."como-trabajamos3.svg",
+											'text' => '<b>Investigación del perfil</b> de usuario.',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>
+								<div class="d-none d-lg-block container-center-service">
+						 			<div class="element-center-service"></div>
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."diseño-servicio2.svg",
+											'text' => '<b>Desarrollo del mapa de navegación, animación y transiciones.</b>',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+
+							<div class="d-flex flex-column flex-md-row">
+								<?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' => $path_software."diseño-servicio3.svg",
+											'text' => '<b>Diseño de diagramas de navegación simulando interacciones</b> <br>Uso de plataformas como Figma, Adobe Xd y otros. ',
+											'line' => $path_software."line-rosado.svg"
+										)
+									); 
+								?>									
+								<div class="d-none d-lg-block container-center-service">
+								</div>
+								<?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' => $path_software."diseño-servicio4.svg",
+											'text' => '<b>Testing.</b>',
+											'line' => $path_software."line-blu.svg"
+										)
+									); 
+								?>
+							</div>
+							<div class="d-none d-lg-flex">
+								<div class="container-center-service element-final-center"></div>
+							</div>
+						</div>
+					</div>
+          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/UX-UI-imagen.png">
           </div>
 				</div>
-				<!-----------------------Service tab6----------------------------->			
+				<!-----------------------Service component tab6----------------------------->	
 
 				<!-----------------------Circle Right----------------------------->
         <div class='w-100 text-right' style="margin-bottom: -10rem">
         <?php
-          $parameters = array('color' => '#03479C', 'position' => 'right') ;
-          get_template_part('components/border-circle','full', $parameters ); 
-          ?>
+        $parameters = ['color' => '#03479C', 'position' => 'right'];
+        get_template_part('components/border-circle', 'full', $parameters);
+        ?>
         </div>
                 <!-----------------------Circle Right----------------------------->
 
         <div class='mt-5'>
         <!-----------------------Contact----------------------------->
-				<?php 
-					get_template_part('components/form-quote-request2','full', 
-					array (
-						'image' => $path_software.'form-quote-request.svg',
-						'title'=> 'Define tu presupuesto'
-					));  	 
-				?>
+				<?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $path_software . 'form-quote-request.svg',
+        'title' => 'Define tu presupuesto',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-----------------------Portafolio tab6----------------------------->
 				<!-----------------------Portafolio tab6----------------------------->
