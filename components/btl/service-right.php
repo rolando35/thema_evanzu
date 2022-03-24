@@ -1,4 +1,3 @@
-<?php $width_image = $arg['image'] == '' ? '96px' : 'auto' ?>
 <div class="d-flex flex-column my-1 my-lg-0 align-self-lg-end">
 	<div class="d-flex flex-column-reverse align-items-center flex-lg-row">
 		<div
@@ -6,7 +5,7 @@
 		>
         <?php echo $args["text"]; ?>
 		</div>
-		<div class="align-self-lg-end" style="width: <?php echo $width_image; ?>" >
+		<div class="align-self-lg-end">
 			<img class="image-service" src="<?php echo $args["image"]; ?>"
 			/>
 		</div>

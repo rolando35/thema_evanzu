@@ -420,15 +420,7 @@ $path_software =
 								?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => "",
-											'text' => '',
-											'line' => ""
-										)
-									); 
-								?>
+								<div class="d-none d-lg-block container-empty-service"></div>
 							</div>
 							<div class="d-none d-lg-flex">
 								<div class="container-center-service element-final-center"></div>
@@ -798,15 +790,7 @@ $path_software =
 								?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => "",
-											'text' => '',
-											'line' => ""
-										)
-									); 
-								?>
+								<div class="d-none d-lg-block container-empty-service"></div>
 							</div>
 							<div class="d-none d-lg-flex">
 								<div class="container-center-service element-final-center"></div>

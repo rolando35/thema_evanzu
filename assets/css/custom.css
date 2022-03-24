@@ -49,7 +49,7 @@
 }
 
 .text-blue {
-	color: #03479C !important;
+	color: #03479c !important;
 }
 
 .w-60 {
@@ -599,6 +599,10 @@
 	width: 0.8rem;
 }
 
+.container-empty-service {
+	width: 24rem;
+}
+
 .element-final-center {
 	height: 6rem;
 }
@@ -717,7 +721,7 @@
 		margin-left: -4rem !important;
 	}
 
-	.marg-left-1{
+	.marg-left-1 {
 		margin-left: 1.5rem !important;
 	}
 
