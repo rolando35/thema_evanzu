@@ -434,6 +434,48 @@ Template Name: Home
             <div class="big-title text-red my-4">
                 NUESTROS CLIENTES
             </div>
+            <!-------------------- Clients -------------------->
+            <section class="pb-4 pt-5">
+                <div class="container">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <a class="p-1" href="bbva"> 
+                            <img 
+                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png" 
+                            class="img-fluid"
+                            />
+                        </a>
+
+                        <a class="p-1" href="artecola">
+                            <img 
+                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png" 
+                            class="img-fluid"
+                            />
+                        </a>
+
+                        <a class="p-1" href="betfair">
+                            <img 
+                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" 
+                            class="img-fluid"
+                            />
+                        </a>
+
+                        <a class="p-1" href="bmatic">
+                            <img 
+                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png" 
+                            class="img-fluid"
+                            />
+                        </a>
+
+                        <a class="p-1" href="aesa">
+                            <img 
+                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" 
+                            class="img-fluid"
+                            />
+                        </a>						
+                    </div>
+                </div>
+            </section>
+            <!-------------------- Clients -------------------->
             <div class="mb-4 mx-auto w-50">
                 Trabajamos con start-ups, micro y pequeñas empresas, marcas líderes y organizaciones gubernamentales.
             </div>
