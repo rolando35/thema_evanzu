@@ -1,10 +1,10 @@
 <?php 
 /* 
-    Template Name: BBVA
+    Template Name: AESA
 */
 get_header();
 
-$path_img = get_template_directory_uri() . '/assets/images/bbva/';
+$path_img = get_template_directory_uri() . '/assets/images/aesa/';
 ?>
 
 <section class="pt-5 pb-3">
@@ -16,15 +16,14 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 					class="img-fluid px-1 py-3"
 				/>
 				<h1 class="px-1 py-2 text-light-gray title-client text-uppercase">
-					financiera
+					Minería e Infraestructura
 				</h1>
 			</div>
 			<div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
-					Es una sólida institución financiera fundada en Lima en 1951. Con su
-					propósito de poner al alcance de todos los peruanos las oportunidades
-					de esta nueva era, contribuyendo a la reallización de sus sueños y
-					proyectos.
+					Aesa, una empresa especializada en el servicio de exploración,
+					desarrollo, explotación de yacimiento mineros y gestión de operaciones
+					mineras, pertenece al grupo Breca.
 				</div>
 			</div>
 		</div>
@@ -36,61 +35,51 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<!---------------title--------------->
 		<div class="container-subtitle-client">
 			<h2 class="text-red text-center subtitle-client p-1 m-0">
-				Diseño Publicitario
+				Gestión de Evento en Seguridad
 			</h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Producimos material gráfico publicitario para puntos de venta y canales
-				digitales de las campañas. Los formatos y mensajes lograron los
-				objetivos esperado.
+				Planificación, diseño y gestión de evento en Seguridad con la Familia
+				realizado en Huancayo - Junín.
 			</p>
 		</div>
 		<!---------------title--------------->
 
 		<!---------------images-------------->
 		<div class="row">
-			<div class="col-md-8 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Portada-BBVA.jpg" class="w-100 h-100" />
+			<div class="col-12 p-1 m-0 p-md-2">
+				<img
+					src="<?php echo $path_img?>Fotografia-AESA.jpg"
+					class="w-100 h-100"
+				/>
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Cierre-de-oficinas.jpg"
+					src="<?php echo $path_img?>Fotografia-vertical-AESA-3.jpg"
+					class="w-100 h-100"
+				/>
+			</div>
+			<div class="col-md-4 p-1 m-0 p-md-2">
+				<img
+					src="<?php echo $path_img?>Fotografia-vertical-AESA-2.jpg"
+					class="w-100 h-100"
+				/>
+			</div>
+			<div class="col-md-4 p-1 m-0 p-md-2">
+				<img
+					src="<?php echo $path_img?>Fotografia-vertical-AESA.jpg"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Piezas-Agentes-BBVA.jpg"
+					src="<?php echo $path_img?>Fotografia-aesa-h2.jpg"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Triptico-BBVA.jpg"
-					class="w-100 h-100"
-				/>
-			</div>
-			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img
-					src="<?php echo $path_img?>Poster-Campana-escolar.jpg"
-					class="w-100 h-100"
-				/>
-			</div>
-			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img
-					src="<?php echo $path_img?>Poster-BBVA-ganador.jpg"
-					class="w-100 h-100"
-				/>
-			</div>
-			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img
-					src="<?php echo $path_img?>Sticker-Giros.jpg"
-					class="w-100 h-100"
-				/>
-			</div>
-			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img
-					src="<?php echo $path_img?>Poster-Agente-BBVA.jpg"
+					src="<?php echo $path_img?>Fotografia-aesa-h-1.jpg"
 					class="w-100 h-100"
 				/>
 			</div>
@@ -100,12 +89,11 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<!---------------title--------------->
 		<div class="container-subtitle-client">
 			<h2 class="text-red text-center subtitle-client p-1 m-0">
-				Gestión de Redes Sociales y offline
+				Diseño y producción gráfica
 			</h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Gestionamos un grupo cerrado en Facebook de Agentes Corresponsales del
-				BBVA. Generando contenidos y atendimos a 300 usuarios.
+				Elaboración de diseños para el evento de AESA.
 			</p>
 		</div>
 		<!---------------title--------------->
@@ -113,20 +101,23 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
+				<img src="<?php echo $path_img?>banner.jpg" class="w-100 h-100" />
+			</div>
+			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Portada-facebook-agente-BBVA.jpg"
+					src="<?php echo $path_img?>Banner-AESA-3.png"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Redes-Sociales-BBVA.jpg"
+					src="<?php echo $path_img?>Disenos-troquelados-AESA.png"
 					class="w-100 h-100"
 				/>
 			</div>
-			<div class="col-12 p-1 m-0 p-md-2">
+			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Disenos-redes-sociales.jpg"
+					src="<?php echo $path_img?>Membrete-AESA-.png"
 					class="w-100 h-100"
 				/>
 			</div>
@@ -136,12 +127,12 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<!---------------title--------------->
 		<div class="container-subtitle-client">
 			<h2 class="text-red text-center subtitle-client p-1 m-0">
-				Activaciones BTL con impacto
+				Ilustración y diseño de personaje
 			</h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Realizamos el concepto, planificación, diseño y gestión de las
-				activaciones para nuestro clientes Agentes BBVA, del banco BBVA.
+				Para darle una personificación al evento decidimos crear el vestuario
+				del personaje y el estilo animado para las diferentes piezas diseñadas.
 			</p>
 		</div>
 		<!---------------title--------------->
@@ -150,16 +141,63 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<div class="row">
 			<div class="col-12 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Activacion-BBVA.jpg"
+					src="<?php echo $path_img?>Personaje-AESA.png"
 					class="w-100 h-100"
 				/>
 			</div>
+		</div>
+		<!---------------images-------------->
+
+		<!---------------title--------------->
+		<div class="container-subtitle-client">
+			<h2 class="text-red text-center subtitle-client p-1 m-0">
+				Grabación de evento
+			</h2>
+
+			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
+				Realizamos la grabación del evento para nuestro cliente.
+			</p>
+		</div>
+		<!---------------title--------------->
+
+		<!---------------video-------------->
+		<div class="row justify-content-center">
+			<div class="col-md-10">
+				<div class="video-responsive">
+					<iframe
+						height="215"
+						src="https://www.youtube.com/embed/zpq6oje5FsA?controls=0"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+			</div>
+		</div>
+		<!---------------video-------------->
+
+		<!---------------title--------------->
+		<div class="container-subtitle-client">
+			<h2 class="text-red text-center subtitle-client p-1 m-0">
+				Diseño de piezas gráficas
+			</h2>
+
+			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
+				Creamos las piezas gráficas que cumplan con los objetivos y con
+				coherencia gráfica al público y comunicación.
+			</p>
+		</div>
+		<!---------------title--------------->
+
+		<!---------------images-------------->
+		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Evanzu-04.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Flyer-AESA.jpg" class="w-100 h-100" />
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Activacion-foto-2.jpg"
+					src="<?php echo $path_img?>Banner-Ahora-te-toca-a-ti.jpg"
 					class="w-100 h-100"
 				/>
 			</div>
