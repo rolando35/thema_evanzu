@@ -37,9 +37,6 @@ wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.3.1/css/al
 //llamar al archivo de custimización
 require_once(trailingslashit(get_template_directory()) . 'inc/customize.php');
 
-
-
-
 //clase css
 
 add_filter('nav_menu_css_class', 'raiola_nav_class', 10, 2);

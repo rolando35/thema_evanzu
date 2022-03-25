@@ -5,11 +5,7 @@
 }
 
 .bg-red {
-<<<<<<< HEAD
-  background-color: #ed1164;
-=======
-	background-color: #ed1164 !important;
->>>>>>> 4df2baecf505cf91d91294f3a21a2e328de80049
+  background-color: #ed1164 !important;
 }
 
 .bg-pink {
@@ -53,7 +49,7 @@
 }
 
 .text-blue {
-	color: #03479c !important;
+  color: #03479c !important;
 }
 
 .w-60 {
@@ -423,33 +419,33 @@
 
 /******** Clients ********/
 .title-client {
-	font-weight: 400;
-	font-size: 1.5rem;
-	line-height: 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-main-client {
-	font-size: 1.5rem;
-	font-family: 'Hurme Geometric Sans 4';
-	font-weight: 600;
-	line-height: 2rem;
+  font-size: 1.5rem;
+  font-family: "Hurme Geometric Sans 4";
+  font-weight: 600;
+  line-height: 2rem;
 }
 
 .container-subtitle-client {
-	padding: 1rem;
+  padding: 1rem;
 }
 
 .subtitle-client {
-	font-family: 'Hurme Geometric Sans 4';
-	font-size: 1.5rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 1.5rem;
+  font-family: "Hurme Geometric Sans 4";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
 }
 
 .text-secondary-client {
-	font-family: 'Hurme Geometric Sans 4';
-	line-height: 1.2rem;
+  font-family: "Hurme Geometric Sans 4";
+  line-height: 1.2rem;
 }
 
 /**** Marketing Digital ****/
@@ -503,7 +499,7 @@
 }
 
 .li-circle > a:hover {
-	text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .li-circle {
@@ -531,26 +527,17 @@
 }
 
 .section-contact {
-<<<<<<< HEAD
-  margin-top: -6.8rem;
+  margin-top: 0;
+}
+
+.section-service {
+  margin-top: 0;
 }
 
 .logo-top-contact {
   height: 16.5rem;
   margin-bottom: -8.5rem;
-=======
-	margin-top: 0;
-}
-
-.section-service {
-	margin-top: 0;
-}
-
-.logo-top-contact {
-	height: 16.5rem;
-	margin-bottom: -8.5rem;
-	margin-top: -2rem;
->>>>>>> 4df2baecf505cf91d91294f3a21a2e328de80049
+  margin-top: -2rem;
 }
 
 .box-container-contact {
@@ -615,51 +602,51 @@
 }
 
 .image-service {
-	width: 6rem;
+  width: 6rem;
 }
 
 .container-center-service {
-	background-color: #eaeaea;
-	width: 0.8rem;
+  background-color: #eaeaea;
+  width: 0.8rem;
 }
 
 .container-empty-service {
-	width: 24rem;
+  width: 24rem;
 }
 
 .element-final-center {
-	height: 6rem;
+  height: 6rem;
 }
 
 .element-center-service {
-	width: 0.8rem;
-	background: #ed1164;
-	height: 5rem;
-	border-radius: 1rem;
-	margin-top: 0.5rem;
+  width: 0.8rem;
+  background: #ed1164;
+  height: 5rem;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
 }
 
 .text-service {
-	width: 18rem;
-	box-sizing: border-box;
-	line-height: 1.125rem;
+  width: 18rem;
+  box-sizing: border-box;
+  line-height: 1.125rem;
 }
 
 .container-line-right-service {
-	margin-left: -0.9rem;
+  margin-left: -0.9rem;
 }
 
 .container-line-left-service {
-	margin-right: -0.9rem;
+  margin-right: -0.9rem;
 }
 
 .line-right-service {
-	width: 21.9rem;
+  width: 21.9rem;
 }
 
 .line-left-service {
-	width: 21.9rem;
-	z-index: 1;
+  width: 21.9rem;
+  z-index: 1;
 }
 
 /*-------------------- BTL -------------------*/
@@ -672,7 +659,6 @@
     height: 330px;
   }
 
-<<<<<<< HEAD
   .widthText {
     width: auto !important;
   }
@@ -680,15 +666,6 @@
     width: auto;
     height: auto;
   }
-=======
-	.widthText {
-		width: auto !important;
-	}
-	#icon-pink-background {
-		width: auto;
-		height: auto;
-	}
->>>>>>> 4df2baecf505cf91d91294f3a21a2e328de80049
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -703,18 +680,18 @@
 		margin-bottom: -3.2rem;
 	} */
 
-	.container-subtitle-client {
-		padding-right: 4rem;
-		padding-left: 4rem;
-	}
+  .container-subtitle-client {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
 
-	.section-contact {
-		margin-top: -6.8rem;
-	}
+  .section-contact {
+    margin-top: -6.8rem;
+  }
 
-	.section-service {
-		margin-top: -3.2rem;
-	}
+  .section-service {
+    margin-top: -3.2rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -738,64 +715,50 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-<<<<<<< HEAD
+  .container-subtitle-client {
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+
   .margin {
     margin-top: -18rem !important;
+  }
+
+  .mb-n1-5 {
+    margin-bottom: -5rem !important;
+  }
+
+  .ml-n1-4 {
+    margin-left: -4rem !important;
+  }
+
+  .marg-left-1 {
+    margin-left: 1.5rem !important;
+  }
+
+  .w100-auto {
+    width: 100% !important;
+  }
+
+  .mb-10 {
+    margin-bottom: 6rem !important;
+  }
+
+  .ml-n1-17 {
+    margin-left: -17rem !important;
   }
 
   .margin-negative {
     margin-top: -24rem !important;
   }
 
+  .margin-negative-27 {
+    margin-top: -27rem !important;
+  }
+
   .width-production {
     width: 302px !important;
   }
-=======
-	.container-subtitle-client {
-		padding-right: 8rem;
-		padding-left: 8rem;
-	}
-
-	.margin {
-		margin-top: -18rem !important;
-	}
-
-	.mb-n1-5 {
-		margin-bottom: -5rem !important;
-	}
-
-	.ml-n1-4 {
-		margin-left: -4rem !important;
-	}
-
-	.marg-left-1 {
-		margin-left: 1.5rem !important;
-	}
-
-	.w100-auto {
-		width: 100% !important;
-	}
-
-	.mb-10 {
-		margin-bottom: 6rem !important;
-	}
-
-	.ml-n1-17 {
-		margin-left: -17rem !important;
-	}
-
-	.margin-negative {
-		margin-top: -24rem !important;
-	}
-
-	.margin-negative-27 {
-		margin-top: -27rem !important;
-	}
-
-	.width-production {
-		width: 302px !important;
-	}
->>>>>>> 4df2baecf505cf91d91294f3a21a2e328de80049
 
   .w-310 {
     width: auto !important;
@@ -805,15 +768,9 @@
     width: 14.5rem !important;
   }
 
-<<<<<<< HEAD
   .w-15 {
-    width: 15rem !important;
+    width: 15.5rem !important;
   }
-=======
-	.w-15 {
-		width: 15.5rem !important;
-	}
->>>>>>> 4df2baecf505cf91d91294f3a21a2e328de80049
 
   .m-left-4 {
     margin-left: 4rem !important;
@@ -891,4 +848,27 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+}
+
+/*****Text responsive boostrap*******/
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
 }
