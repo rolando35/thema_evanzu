@@ -309,8 +309,17 @@ array ('svg' => $directory_imgs.'first-tab.svg','title'=> 'Publicidad <br> digit
       <div class="big-title text-red my-4 text-center">
          PORTAFOLIO
       </div> 
-        <div>
-        <div class="container" style="margin-top:5rem">
+ <div>
+   
+    <div>
+         <?php  
+                
+                get_template_part('components/masonry', );  
+        ?>      
+    </div>    
+
+            
+<div class="container" style="margin-top:5rem">
   <div class="row">
     
     <div class="col-lg-12">
@@ -413,7 +422,7 @@ array ('svg' => $directory_imgs.'first-tab.svg','title'=> 'Publicidad <br> digit
     
   </div>
 </div>
-        </div>
+ </div>
 
       
 </section>
