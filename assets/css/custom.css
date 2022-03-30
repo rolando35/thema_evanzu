@@ -833,6 +833,10 @@
 		padding-bottom: 5rem;
 		padding-top: 3rem;
 	}
+	
+	.mt-n1-6 { 
+    margin-top: -6rem !important;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
