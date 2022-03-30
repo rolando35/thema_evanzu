@@ -89,6 +89,13 @@ function bps_nav_icons()
 //     wp_enqueue_script('custom', get_stylesheet_directory_uri().'/scripts/custom.js');
 // }
 
+// listFooter
+function list_footer_icon($icon, $href)
+{
+	$hrefs = empty($href) ? '' : "href = $href";
+	return("<li class='text-light' style='font-size: 18px;'><i><a $hrefs class='text-light'>$icon</a></i></li>");
+}
+
 
 
 
