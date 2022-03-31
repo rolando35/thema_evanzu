@@ -23,7 +23,7 @@ function evanzu_customize_register($wp_customize)
      $wp_customize -> add_panel('btl_site',array(
         'title' => __("Edita la página BTL"),
         'description' => __("Puedes editar todo respecto al home desde aqui"),
-        'priority' => 10,
+        'priority' => 15,
     ));
 
 
@@ -343,59 +343,6 @@ function evanzu_customize_register($wp_customize)
         'settings'   => 'evanzu[generales-image]',
         'type'=> 'textarea'
     ));
-
-   
-   /////// Marqueting digital///////
-   $wp_customize -> add_panel('Page_marqueting',array(
-    'title' => __("Edita la página Marqueting digital"),
-    'description' => __("Puedes editar algunas secciones la página Marketing digital"),
-    'priority' => 10,
-));
-
-
-$wp_customize->add_section('evanzu_marqueting', array(
-    'panel' =>'Page_marqueting',
-    'priority'             => 11,
-    'capability'         => 'edit_theme_options',
-    'title'                => __('Carrusel', 'd5-business-line'),
-    'description'          => ''
-));
-
-$wp_customize->add_setting('evanzu[carrusell-image-one]', array(
-    'default'           => get_template_directory_uri() . '/assets/images/home/dto.png',
-    'capability'        => 'edit_theme_options',
-    'sanitize_callback' => 'esc_url',
-    'type'               => 'option'
-
-));
-
-$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'carrusell-image-one', array(
-    'label'                => __('Imagen de slider', ''),
-    'section'              => 'evanzu_marqueting',
-    'settings'             => 'evanzu[carrusell-image-one]',
-    'description'       => __('Sube una imagen para el slider de la página marequeting digital', '')
-
-)));
-    
- 
-
-$wp_customize->add_setting('evanzu[carrusell-image-two]', array(
-    'default'           => get_template_directory_uri() . '/assets/images/home/dto.png',
-    'capability'        => 'edit_theme_options',
-    'sanitize_callback' => 'esc_url',
-    'type'               => 'option'
-
-));
-
-$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'carrusell-image-two', array(
-    'label'                => __('Imagen de slider', ''),
-    'section'              => 'evanzu_marqueting',
-    'settings'             => 'evanzu[carrusell-image-two]',
-    'description'       => __('Sube una imagen para el slider de la página marequeting digital', '')
-
-)));
-    
-
 
 
 }
