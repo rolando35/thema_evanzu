@@ -974,7 +974,18 @@ $path_software =
   <!----------------- Tabs ----------------->
 
 </section>
+<section>
+  <div class="big-title text-red my-4 text-center">PORTAFOLIO</div>
+  <div>
+    <div>
+      <?php         
+                get_template_part('components/masonry-desarrollo', );  
+        ?>
+    </div>
 
+    <div class="container" style="margin-top: 5rem"></div>
+  </div>
+</section>
 
 <?php get_footer();
 ?>
