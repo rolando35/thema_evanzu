@@ -1,21 +1,3 @@
-<style>
-  .toggle-position{
-    position: initial;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
-  }
-  .toggle-position:hover{
-    position: inherit;
-    transform: scale(1.02);
-  }
-  .toggle{
-    position: absolute;
-  }
-  .toggle:hover{
-    position: fixed;
-  }
-</style>
-
 <div class="container">
   <div class="d-md-flex justify-content-center flex-md-row mb-2">
     <div class="">
