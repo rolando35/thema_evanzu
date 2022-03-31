@@ -683,8 +683,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
   <div>
     <div>
       <?php  
-                
-                get_template_part('components/masonry-diseño', );  
+          get_template_part('components/masonry-diseño', );
         ?>
     </div>
 
