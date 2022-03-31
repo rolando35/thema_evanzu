@@ -175,6 +175,16 @@
   color: #01a5ec;
 }
 
+.marqueting-btl {
+  font-family: Hurme Geometric Sans 4;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-align: justify;
+  color: #434041;
+}
+
 .medium-subtitle-first {
   font-family: hurme-simple;
   font-style: normal;

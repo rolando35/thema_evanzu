@@ -1,10 +1,11 @@
 <?php
 /* 
-    Template Name: Marketing
+    Template Name: Branding
 */
 
 get_header();
 $directory_imgs = get_template_directory_uri() . '/assets/images/marketing-digital/';
+$directory_branding_imgs = get_template_directory_uri() . '/assets/images/branding/';
 $path_img = get_template_directory_uri() . '/assets/images/btl/';
 ?>
 
@@ -97,13 +98,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <br />
         <div class="bg-faint-gray">
           <div class="big-title text-red my-4 text-center">
-            Publicidad Digital
+             Logo & Branding
           </div>
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
                 <img
-                  src="<?php echo get_template_directory_uri() ?>/assets/images/cellphone-publicidad-digital.svg"
+                  src="<?php echo $directory_branding_imgs ?>Identity Branding.png"
                   alt=""
                 />
                 <div class="text-red text-center my-3">
@@ -144,11 +145,12 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   Instagram, Twitter, Linkedin, TikTok, Wase, Spotify, Shazam, y
                   otros).
                 </p>
-
-                <img
-                  src="<?php echo get_template_directory_uri() ?>/assets/images/laptop-publicidad-digital.svg"
-                  alt=""
-                />
+                <div class="text-center p-3">
+                    <img
+                    src="<?php echo $directory_branding_imgs ?>pincel_girl.png"
+                    alt=""
+                    />
+                </div>
               </div>
             </div>
           </div>
@@ -682,7 +684,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     <div>
       <?php  
                 
-                get_template_part('components/masonry-marketing', );  
+                get_template_part('components/masonry-diseño', );  
         ?>
     </div>
 
