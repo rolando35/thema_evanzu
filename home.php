@@ -27,6 +27,7 @@ Template Name: Home
     <!--------------------- Button Modal --------------------->
     <div 
     class="position-absolute ndx w-100 h-100" 
+    style="padding-top: 5rem;"
     > 
         <div
         type="button"
@@ -46,9 +47,9 @@ Template Name: Home
             </div>
         </div>
         <div class="mt-5c" style="z-index: 1;">
-            <?php get_template_part('components/modal/modal', 'full'); ?>
+            <?php get_template_part('components/modal/form-postula', 'full'); ?>
         </div>
-    <!--------------------- Button Modal --------------------->
+    <!--------------------- Button Modal ---------------------> 
     </div>
     <video autoplay muted loop id="myVideo" class="position-relative mt-5c">
         <source src="<?php echo get_template_directory_uri() ?>/assets/video/evanzu.mp4" type="video/mp4">
