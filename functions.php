@@ -39,7 +39,7 @@ wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.3.1/css/al
 require_once(trailingslashit(get_template_directory()) . 'inc/customize.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_marketing.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_diseño.php');
-//require_once(trailingslashit(get_template_directory()) . 'inc/software_development_customize.php');
+require_once(trailingslashit(get_template_directory()) . 'inc/software_customize.php');
 
 
 /*** fin de data ****/
