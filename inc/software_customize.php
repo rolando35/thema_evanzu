@@ -4,7 +4,7 @@ function software_development_customize($wp_customize)
    $wp_customize -> add_panel('page_software_development',array(
     'title' => __('Edita la página de desarrollo y software'),
     'description' => __('Puedes editar algunas secciones de la página desarrollo & software'),
-    'priority' => 15,
+    'priority' => 19,
 ));
 
        $wp_customize->add_section('software_development', array(
@@ -23,7 +23,7 @@ function software_development_customize($wp_customize)
             'label'=>_('Ejemplo input','textdomain'),
             'section'=>'software_development',
             'setting'=> 'campo_texto_development[uno]',
-            'priority'=>19,
+            'priority'=>17,
             'type'=>'option',     
         ));                            
 

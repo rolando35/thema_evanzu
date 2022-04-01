@@ -82,7 +82,7 @@ label[for="src-file1"] {
         <div class=" w-100 h-100">
           <div class="d-block d-lg-flex w-100">
 
-            <div class="col-12 col-lg-7">
+            <div class="col-12 col-lg-7" style="z-index: 2">
               <h2 class="text-light " style="font-weight: 900; font-size: 50px;">Queremos conocer tu perfil</h2>
               <h5 class="text-light font-weight-light"><i>Déjanos tus datos y te contactámos</i></h5>
               <form>
