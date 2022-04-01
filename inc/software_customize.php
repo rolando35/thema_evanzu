@@ -2,7 +2,7 @@
 function software_development_customize($wp_customize)
 {
    $wp_customize -> add_panel('page_software_development',array(
-    'title' => __('Edita la página de desarrollo y software'),
+    'title' => __('Edita la página de desarrollo y software esta la original '),
     'description' => __('Puedes editar algunas secciones de la página desarrollo & software'),
     'priority' => 15,
 ));
