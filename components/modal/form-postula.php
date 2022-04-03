@@ -51,6 +51,10 @@ label[for="src-file1"] {
     cursor: pointer;
  }
 
+.mt-n1-19{
+  margin-top: -19rem;
+}
+
   @media only screen and (min-width: 992px) {
     .bg-white-transparent {
       background: transparent !important;
@@ -61,15 +65,20 @@ label[for="src-file1"] {
     }
 
   }
+  
+@media only screen and (min-height: 750px) {
+  .mt-n1-19{
+    margin-top: -4rem;
+  }
+
+}
 </style>
-
-
 
 <div id="myModalRight" class="modal fade modal-right mt-5c pr-0" tabindex="-1">
   <div class="modal-dialog mw-100">
 
-    <div class="modal-content">
-      <div class="modal-body bg-yellow" style="width: 100%;">
+    <div class="modal-content" style="height: 100vh">
+      <div class="modal-body bg-yellow py-5" style="width: 100%;">
         <div class=" w-100 h-100">
           <div class="d-block d-lg-flex w-100">
 
@@ -155,13 +164,11 @@ label[for="src-file1"] {
             </div>
 
             <div class="col-12 col-lg-5 ">
-              <img class="position-absolute d-none d-lg-block" style="height: 102%;"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-modal.svg">
-              <!--
-              <div class="position-absolute d-block text-center w-100 bg-white-transparent">
+              <img class="position-absolute d-none d-lg-block mt-n1-19" style="max-width: none" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-form-postula.svg">
+              <div class="position-absolute d-block text-center bg-white-transparent" style="margin-left: -34rem">
                 <img style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/form-postula.png">
               </div>
-              --->
+
               <div class="d-flex h-100 align-items-center justify-content-end" style="margin-right: -2rem;">
                 <div class="position-relative close" style="z-index: 2; margin-right: -3.5rem;" type="button"
                   data-dismiss="modal" aria-label="Close">
