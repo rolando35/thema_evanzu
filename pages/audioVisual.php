@@ -81,8 +81,6 @@ h5 {
 .contain{
     display: flex;
     flex-direction: column;
-    padding-top: 11.5rem;
-    padding-bottom: 13.8rem;
 }
 .line-h{
     width: 4.9rem;
@@ -138,17 +136,24 @@ h5 {
 }
 </style>
 <section>
-
-
-<!-- <div class="view" style="background-image: url('<?php //echo get_template_directory_uri(); ?>/assets/images/audioVisual/portada 2.png'); background-repeat: no-repeat;"> -->
-<div>
-  <!-- <img src="<?php // echo get_template_directory_uri;?>assets/images/audioVisual/portada 2.png" alt="">
-</div>
-
-<div class="mask rgba-black-light align-items-center">
-  <div class="container">
-    <div class="row">
-      <div class="contain mb-4 text-center">
+	<div
+		class="carousel slide"
+		data-ride="carousel"
+		>
+		<div class="float-rectangle-banner">
+			<div id="rectangle" class="text-center d-none d-md-block"></div>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img
+					src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/portada 2.png"
+					alt="Los Angeles"
+					width="1100"
+					height="500"
+          class="w-100"
+				/>
+				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%; width: 25rem;">
+        <div class="contain mb-4 text-center">
         <h1 style="font-family: running-text;
             font-size: 60px; line-height: 119px; color: #FFFFFF;
             margin-bottom: -70px;
@@ -170,50 +175,10 @@ h5 {
         <div class="d-inline-block w-100"><button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90"><strong>Desafíanos</strong> con tu proyecto</button>
         </div>
         
-        <div class="float-rectangle-banner">
-            <div id="rectangle" class="text-center">
-            </div>
-        </div>
 
        
 
-    </div> -->
-    <!----------------- Banner ----------------->
-	<div
-		class="carousel slide"
-		data-ride="carousel"
-		>
-		<div class="float-rectangle-banner">
-			<div id="rectangle" class="text-center"></div>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img
-					src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/portada 2.png"
-					alt="Los Angeles"
-					width="1100"
-					height="500"
-          class="w-100"
-				/>
-				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
-					<div class="col-8 flex-colum text-left p-0">
-            <h1 class="develop-title" data-wow-delay="0.3s">Creadores de aplicaciones</h1>
-            <p class="text-paragraph" data-wow-delay="0.3s">MÓVILES &</p>
-            <div class="d-flex align-center">
-              <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">SOFTWARE</p>
-              <img
-								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/title-icon.svg"
-								/>
-            </div>
-						<div class="text-subtitle-btl">
-              Es momento de ponerte en modo digital. <br> Ofrecemos la combinación perfecta de diseño, usabilidad y técnología.
-						</div>
-              <div class="mt-3 text-left">
-                <button class="btn-btl">
-                  <span>¡Desafíanos con tu proyecto!</span>
-                </button>
-              </div>
-						</div>
+    </div>
 					</div>				
 				</div>
 			</div>
