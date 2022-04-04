@@ -18,7 +18,7 @@ Template Name: Home
         margin: 0;
     }
     .mt-5c{
-        margin-top: 5rem;
+        margin-top: 3.5rem;
     }
 </style>
 
