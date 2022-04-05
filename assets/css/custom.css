@@ -71,6 +71,10 @@
   color: #fbc000;
 }
 
+.text-gray-black {
+  color: #434041;
+}
+
 .text-gray {
   color: #595958;
 }
@@ -165,14 +169,18 @@
   color: white;
 }
 
-.subtitle-btl {
+.subtitle-btl,
+.subtitle-marketing {
   font-family: Hurme Geometric Sans 4;
   font-style: normal;
   font-weight: 900;
   font-size: 1.6rem;
   line-height: 1.8rem;
-  text-align: justify;
+}
+
+.subtitle-btl {
   color: #01a5ec;
+  text-align: justify;
 }
 
 .marqueting-btl {
@@ -473,6 +481,13 @@
   padding-left: 0;
 }
 
+.right-conten-description {
+  margin-top: 5rem;
+  width: 60%;
+  float: right;
+  text-align: right;
+}
+
 /*****Componentes*****/
 
 .circle-nav {
@@ -688,6 +703,16 @@
     width: auto;
     height: auto;
   }
+
+  .right-conten-description {
+    margin-top: unset;
+    width: unset;
+    float: unset;
+    text-align: center;
+  }
+  .left-conten-description {
+    text-align: center;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -801,6 +826,10 @@
   .w-12 {
     width: 12rem !important;
   }
+
+  .spacing-services-rigth {
+    width: 24rem;
+  }
   /* responsive al de formulario */
 
   .box-container-contact {
@@ -879,22 +908,4 @@
 /*****Text responsive boostrap*******/
 html {
   font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
 }
