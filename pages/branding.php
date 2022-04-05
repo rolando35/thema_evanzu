@@ -649,31 +649,538 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!-----------------------Contanct----------------------------->
       </div>
       <!------------SEO ------------>
-      <div id="menu2" class="container tab-pane fade">
+      <div id="menu2" class="tab-pane fade">
+            
         <br />
-        <h3>Menu 2</h3>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam.
-        </p>
+        <!----------------------Main---------------------->
+        <section class="p-0">
+          <div class="bg-light-gray py-0">
+            <div class="big-title text-red my-2 text-center">
+              Gestión de Redes Sociales
+            </div>
+            <!-------------------Card---------------------->
+            <div class="py-2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                    <img
+                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-10 col-lg-6">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body">
+                        <h3 class="subtitle-btl text-left p-1">
+                          ¡Usuarios más conectados, más fidelizados!
+                        </h3>
+                        <p class="text-justify text-light-gray p-1">
+                          Encontraremos el
+                          <strong> y tono de comunicación ideal </strong>
+                          para administrar tus redes sociales.
+                        </p>
+                        <p class="text-justify text-light-gray p-1">
+                          Trabajamos con creatividad estratégica para
+                          <strong> generar una respuesta emocional</strong> en
+                          tus clientes, forjar conexiones más fuertes con ellos
+                          y motivarlos a tomar acción.
+                        </p>
+                        <p class="text-justify text-light-gray p-1">
+                          Al contar con un community manager podrás
+                          <strong> generar viralidad</strong> para potenciar tu
+                          marca y llegar a más clientes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+
+            <!-------------------Card---------------------->
+            <div class="py-2 card-activation-2">
+              <div class="container">
+                <div
+                  class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end"
+                >
+                  <div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body pb-0">
+                        <h3 class="subtitle-btl text-left p-1">
+                          ¿Qué lograrás?
+                        </h3>
+                        <div
+                          class="text-justify text-light-gray p-1 pb-2 pb-md-3"
+                        >
+                          Ganarás<strong> notoriedad </strong> en redes sociales
+                          <strong> y tus clientes amarán tu marca.</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-10 col-lg-6 py-2 text-center">
+                    <img
+                      src="<?php echo $directory_imgs;?>Girl_teaching_evanzu.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+          </div>
+        </section>
+        <!----------------------Main---------------------->
+
+        <!--------------------bola-Left------------------------->
+        <?php
+                 get_template_part('components/border-circle','full', array('color' =>
+        '#ED1164', 'position' => '')); ?>
+        <!--------------------bola-Left------------------------->
+
+        <!-----------------------Service----------------------------->
+        <div class="section-service">
+          <div class="big-title text-red text-center">El servicio incluye:</div>
+
+          <div class="text-center">
+            <svg
+              width="80"
+              height="4"
+              viewBox="0 0 80 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
+                fill="#ED1164"
+              />
+            </svg>
+          </div>
+
+          <div class="container">
+            <div class="d-flex flex-column align-items-center">
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $path_img."first-icon-service.svg", 'text' => '<strong
+                  >Desarrollo</strong
+                >
+                de Concepto.', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
+                  <div class="element-center-service"></div>
+                </div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $path_img."second-icon-service.svg", 'text' => '<strong
+                  >Activaciones</strong
+                >
+                en ferias, <br />mercados, universidades, <br />parques y más.',
+                'line' => $path_img."line-celeste.svg" ) ); ?>
+              </div>
+
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $path_img."third-icon-service.svg", 'text' => '<strong
+                  >Pre-Producción</strong
+                >
+                de la<br />activación (Merchandising,<br />
+                personal, juegos y otros).', 'line' =>
+                $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service"></div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $path_img."fourth-icon-service.svg", 'text' => '<strong
+                  >Reporte</strong
+                >
+                de resultados.', 'line' => $path_img."line-celeste.svg" ) ); ?>
+              </div>
+              <div class="d-none d-lg-flex">
+                <div
+                  class="container-center-service element-final-center"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----------------------Service----------------------------->
+
+        <!-----------------------Contanct----------------------------->
+        <?php 
+					get_template_part('components/btl/contact','full', 
+					array (
+						'path_img' =>
+        $path_img, 'title'=> '¿Estás listo?' )); ?>
+        <!-----------------------Contanct----------------------------->
+    
       </div>
       <!------------Growth hacking ------------>
-      <div id="menu3" class="container tab-pane fade">
+      <div id="menu3" class="tab-pane fade">
+        
         <br />
-        <h3>Menu 3</h3>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam.
-        </p>
+        <!----------------------Main---------------------->
+        <section class="p-0">
+          <div class="bg-light-gray py-0">
+            <div class="big-title text-red my-2 text-center">
+              Gestión de Redes Sociales
+            </div>
+            <!-------------------Card---------------------->
+            <div class="py-2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                    <img
+                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-10 col-lg-6">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body">
+                        <h3 class="subtitle-btl text-left p-1">
+                          ¡Usuarios más conectados, más fidelizados!
+                        </h3>
+                        <p class="text-justify text-light-gray p-1">
+                          Encontraremos el
+                          <strong> y tono de comunicación ideal </strong>
+                          para administrar tus redes sociales.
+                        </p>
+                        <p class="text-justify text-light-gray p-1">
+                          Trabajamos con creatividad estratégica para
+                          <strong> generar una respuesta emocional</strong> en
+                          tus clientes, forjar conexiones más fuertes con ellos
+                          y motivarlos a tomar acción.
+                        </p>
+                        <p class="text-justify text-light-gray p-1">
+                          Al contar con un community manager podrás
+                          <strong> generar viralidad</strong> para potenciar tu
+                          marca y llegar a más clientes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+
+            <!-------------------Card---------------------->
+            <div class="py-2 card-activation-2">
+              <div class="container">
+                <div
+                  class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end"
+                >
+                  <div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body pb-0">
+                        <h3 class="subtitle-btl text-left p-1">
+                          ¿Qué lograrás?
+                        </h3>
+                        <div
+                          class="text-justify text-light-gray p-1 pb-2 pb-md-3"
+                        >
+                          Ganarás<strong> notoriedad </strong> en redes sociales
+                          <strong> y tus clientes amarán tu marca.</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-10 col-lg-6 py-2 text-center">
+                    <img
+                      src="<?php echo $directory_imgs;?>Girl_teaching_evanzu.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+          </div>
+        </section>
+        <!----------------------Main---------------------->
+
+        <!--------------------bola-Left------------------------->
+        <?php
+                 get_template_part('components/border-circle','full', array('color' =>
+        '#ED1164', 'position' => '')); ?>
+        <!--------------------bola-Left------------------------->
+
+        <!-----------------------Service----------------------------->
+        <div class="section-service">
+          <div class="big-title text-red text-center">El servicio incluye:</div>
+
+          <div class="text-center">
+            <svg
+              width="80"
+              height="4"
+              viewBox="0 0 80 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
+                fill="#ED1164"
+              />
+            </svg>
+          </div>
+
+          <div class="container">
+            <div class="d-flex flex-column align-items-center">
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $path_img."first-icon-service.svg", 'text' => '<strong
+                  >Desarrollo</strong
+                >
+                de Concepto.', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
+                  <div class="element-center-service"></div>
+                </div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $path_img."second-icon-service.svg", 'text' => '<strong
+                  >Activaciones</strong
+                >
+                en ferias, <br />mercados, universidades, <br />parques y más.',
+                'line' => $path_img."line-celeste.svg" ) ); ?>
+              </div>
+
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $path_img."third-icon-service.svg", 'text' => '<strong
+                  >Pre-Producción</strong
+                >
+                de la<br />activación (Merchandising,<br />
+                personal, juegos y otros).', 'line' =>
+                $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service"></div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $path_img."fourth-icon-service.svg", 'text' => '<strong
+                  >Reporte</strong
+                >
+                de resultados.', 'line' => $path_img."line-celeste.svg" ) ); ?>
+              </div>
+              <div class="d-none d-lg-flex">
+                <div
+                  class="container-center-service element-final-center"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----------------------Service----------------------------->
+
+        <!-----------------------Contanct----------------------------->
+        <?php 
+					get_template_part('components/btl/contact','full', 
+					array (
+						'path_img' =>
+        $path_img, 'title'=> '¿Estás listo?' )); ?>
+        <!-----------------------Contanct----------------------------->
+      
       </div>
       <!------------Marketing de contenidos ------------>
-      <div id="menu4" class="container tab-pane fade">
+      <div id="menu4" class="tab-pane fade">
+   
         <br />
-        <h3>Menu 4</h3>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam.
-        </p>
+        <!----------------------Main---------------------->
+        <section class="p-0">
+          <div class="bg-light-gray py-0">
+            <div class="big-title text-red my-2 text-center">
+              Gestión de Redes Sociales
+            </div>
+            <!-------------------Card---------------------->
+            <div class="py-2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                    <img
+                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-10 col-lg-6">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body">
+                        <h3 class="subtitle-btl text-left p-1">
+                          ¡Usuarios más conectados, más fidelizados!
+                        </h3>
+                        <p class="text-justify text-light-gray p-1">
+                          Encontraremos el
+                          <strong> y tono de comunicación ideal </strong>
+                          para administrar tus redes sociales.
+                        </p>
+                        <p class="text-justify text-light-gray p-1">
+                          Trabajamos con creatividad estratégica para
+                          <strong> generar una respuesta emocional</strong> en
+                          tus clientes, forjar conexiones más fuertes con ellos
+                          y motivarlos a tomar acción.
+                        </p>
+                        <p class="text-justify text-light-gray p-1">
+                          Al contar con un community manager podrás
+                          <strong> generar viralidad</strong> para potenciar tu
+                          marca y llegar a más clientes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+
+            <!-------------------Card---------------------->
+            <div class="py-2 card-activation-2">
+              <div class="container">
+                <div
+                  class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end"
+                >
+                  <div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body pb-0">
+                        <h3 class="subtitle-btl text-left p-1">
+                          ¿Qué lograrás?
+                        </h3>
+                        <div
+                          class="text-justify text-light-gray p-1 pb-2 pb-md-3"
+                        >
+                          Ganarás<strong> notoriedad </strong> en redes sociales
+                          <strong> y tus clientes amarán tu marca.</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-10 col-lg-6 py-2 text-center">
+                    <img
+                      src="<?php echo $directory_imgs;?>Girl_teaching_evanzu.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+          </div>
+        </section>
+        <!----------------------Main---------------------->
+
+        <!--------------------bola-Left------------------------->
+        <?php
+                 get_template_part('components/border-circle','full', array('color' =>
+        '#ED1164', 'position' => '')); ?>
+        <!--------------------bola-Left------------------------->
+
+        <!-----------------------Service----------------------------->
+        <div class="section-service">
+          <div class="big-title text-red text-center">El servicio incluye:</div>
+
+          <div class="text-center">
+            <svg
+              width="80"
+              height="4"
+              viewBox="0 0 80 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
+                fill="#ED1164"
+              />
+            </svg>
+          </div>
+
+          <div class="container">
+            <div class="d-flex flex-column align-items-center">
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $path_img."first-icon-service.svg", 'text' => '<strong
+                  >Desarrollo</strong
+                >
+                de Concepto.', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
+                  <div class="element-center-service"></div>
+                </div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $path_img."second-icon-service.svg", 'text' => '<strong
+                  >Activaciones</strong
+                >
+                en ferias, <br />mercados, universidades, <br />parques y más.',
+                'line' => $path_img."line-celeste.svg" ) ); ?>
+              </div>
+
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $path_img."third-icon-service.svg", 'text' => '<strong
+                  >Pre-Producción</strong
+                >
+                de la<br />activación (Merchandising,<br />
+                personal, juegos y otros).', 'line' =>
+                $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service"></div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $path_img."fourth-icon-service.svg", 'text' => '<strong
+                  >Reporte</strong
+                >
+                de resultados.', 'line' => $path_img."line-celeste.svg" ) ); ?>
+              </div>
+              <div class="d-none d-lg-flex">
+                <div
+                  class="container-center-service element-final-center"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----------------------Service----------------------------->
+
+        <!-----------------------Contanct----------------------------->
+        <?php 
+					get_template_part('components/btl/contact','full', 
+					array (
+						'path_img' =>
+        $path_img, 'title'=> '¿Estás listo?' )); ?>
+        <!-----------------------Contanct----------------------------->
+       
       </div>
     </div>
   </div>
