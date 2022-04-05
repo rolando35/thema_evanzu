@@ -86,7 +86,7 @@ $path_software =
 	<div
 		class="carousel slide"
 		data-ride="carousel"
-	>
+		>
 		<div class="float-rectangle-banner">
 			<div id="rectangle" class="text-center"></div>
 		</div>
@@ -121,7 +121,7 @@ $path_software =
 					</div>				
 				</div>
 			</div>
-		</div>
+	</div>
   <!----------------- Banner ----------------->
   <!----------------- Tabs ----------------->
   <section>
