@@ -427,8 +427,6 @@ function customize_marketing($wp_customize)
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
-<<<<<<< HEAD
-=======
     /////////////// Galeri  software qdevelopement  //////////////
       
     $wp_customize -> add_panel('Page_desarrollo',array(
@@ -436,7 +434,6 @@ function customize_marketing($wp_customize)
         'description' => __("Puedes editar algunas secciones la página diseño grafico"),
         'priority' => 15,
     ));
->>>>>>> 930ff99a9203c8221fe5f7451fa04497c5266319
 
     /////////////branding galer hover ///////////
 
