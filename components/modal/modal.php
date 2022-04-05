@@ -45,6 +45,19 @@
     }
 
   }
+
+  @media only screen and (min-height: 750px) {
+    .min-height {
+    margin-top: -16.5rem !important;
+    max-width: none !important;
+    }
+
+  }
+
+  .min-height {
+      margin-top: -0.5rem;
+    }
+  
 </style>
 
 
@@ -167,13 +180,11 @@
             </div>
 
             <div class="col-12 col-lg-6 ">
-              <img class="position-absolute d-none d-lg-block" style="height: 102%;"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-modal.svg">
-              <div class="position-absolute d-block text-center w-100 bg-white-transparent">
-                <img style="margin-top: -2rem;"
-                  src="<?php echo get_template_directory_uri(); ?>/assets/images/asset-modal.png">
+            <img class="position-absolute d-none d-lg-block w-100 min-height" style="" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-modal.svg">
+            <div class="position-absolute d-block text-center w-100 bg-white-transparent">
+                <img style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/asset-modal.png">
                 <div class="d-flex justify-content-center w-100 bg-white-transparent">
-                  <h3 class="text-right" style="color: #ED1164; ">
+                  <h3 class="text-right" style="color:#ED1164; ">
                     Con los pies <br>
                     en los zapatos del cliente, <br>
                     el corazón <br>

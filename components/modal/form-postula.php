@@ -74,7 +74,7 @@ label[for="src-file1"] {
 }
 </style>
 
-<div id="myModalRight" class="modal fade modal-right mt-5c pr-0" tabindex="-1">
+<div id="myModalBottom" class="modal fade modal-right mt-5c pr-0" tabindex="-1">
   <div class="modal-dialog mw-100">
 
     <div class="modal-content" style="height: 100vh">
@@ -178,7 +178,7 @@ label[for="src-file1"] {
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z"
-                    fill="#ED1164" />
+                    fill="rgba(251, 152, 0, 0.42)" />
                 </svg>
               </div>
             </div>
