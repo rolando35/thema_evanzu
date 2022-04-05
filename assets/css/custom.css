@@ -650,8 +650,12 @@
   z-index: 1;
 }
 
+.toggle {
+  position: relative !important;
+}
+
 /* Masonry toggle */
-.toggle-position{
+/* .toggle-position{
   position: initial;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
@@ -665,7 +669,7 @@
 }
 .toggle:hover{
   position: fixed;
-}
+} */
 /* Masonry toggle */
 /*-------------------- BTL -------------------*/
 

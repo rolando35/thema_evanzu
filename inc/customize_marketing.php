@@ -427,13 +427,6 @@ function customize_marketing($wp_customize)
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
-    /////////////// Galeri  software qdevelopement  //////////////
-      
-    $wp_customize -> add_panel('Page_desarrollo',array(
-        'title' => __("Edita la página Desarrollo de Software"),
-        'description' => __("Puedes editar algunas secciones la página diseño grafico"),
-        'priority' => 15,
-    ));
 
     /////////////branding galer hover ///////////
 
@@ -447,181 +440,396 @@ function customize_marketing($wp_customize)
     ));
  
 
-    $wp_customize->add_setting('branding_hover[galleri-image-one]', array(
+    $wp_customize->add_setting('branding_hover[galleri-image-one-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-one', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-one-hover', array(
+        'label'                => __('Imagen de galeria uno', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-one]',
+        'settings'             => 'branding_hover[galleri-image-one-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
 
-
-    $wp_customize->add_setting('branding_hover[galleri-image-two]', array(
+    $wp_customize->add_setting('branding_hover[galleri-image-two-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-two', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-two-hover', array(
+        'label'                => __('Imagen de galeria dos', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-two]',
+        'settings'             => 'branding_hover[galleri-image-two-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
-    $wp_customize->add_setting('branding_hover[galleri-image-three]', array(
+    $wp_customize->add_setting('branding_hover[galleri-image-three-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-three', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-three-hover', array(
+        'label'                => __('Imagen de galeria Tres', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-three]',
+        'settings'             => 'branding_hover[galleri-image-three-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
-    $wp_customize->add_setting('branding_hover[galleri-image-four]', array(
+    $wp_customize->add_setting('branding_hover[galleri-image-four-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-four', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-four-hover', array(
+        'label'                => __('Imagen de galeria cuatro', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-four]',
+        'settings'             => 'branding_hover[galleri-image-four-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
 
-    $wp_customize->add_setting('branding_hover[galleri-image-five]', array(
+    $wp_customize->add_setting('branding_hover[galleri-image-five-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-five', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-five-hover', array(
+        'label'                => __('Imagen de galeria cinco' , ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-five]',
+        'settings'             => 'branding_hover[galleri-image-five-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
-     $wp_customize->add_setting('branding_hover[galleri-image-six]', array(
+     $wp_customize->add_setting('branding_hover[galleri-image-six-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-six', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-six-hover', array(
+        'label'                => __('Imagen de galeria seis', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-six]',
+        'settings'             => 'branding_hover[galleri-image-six-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
-    $wp_customize->add_setting('branding_hover[galleri-image-seven]', array(
+    $wp_customize->add_setting('branding_hover[galleri-image-seven-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-seven', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-seven-hover', array(
+        'label'                => __('Imagen de galeria siete', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-seven]',
+        'settings'             => 'branding_hover[galleri-image-seven-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
-    $wp_customize->add_setting('branding_hover[galleri-image-eight]', array(
+    $wp_customize->add_setting('branding_hover[galleri-image-eight-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-eight', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-eight-hover', array(
+        'label'                => __('Imagen de galeria ocho', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-eight]',
+        'settings'             => 'branding_hover[galleri-image-eight-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
     
-     $wp_customize->add_setting('branding_hover[galleri-image-nine]', array(
+     $wp_customize->add_setting('branding_hover[galleri-image-nine-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-nine', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-nine-hover', array(
+        'label'                => __('Imagen de galeria nueve', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-nine]',
+        'settings'             => 'branding_hover[galleri-image-nine-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
    
 
-      $wp_customize->add_setting('branding_hover[galleri-image-teen]', array(
+     $wp_customize->add_setting('branding_hover[galleri-image-teens-hover]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-teen', array(
-        'label'                => __('Imagen de galeria', ''),
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-teens-hover', array(
+        'label'                => __('Imagen de galeria teens', ''),
         'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-teen]',
+        'settings'             => 'branding_hover[galleri-image-teens-hover]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+
+
+    $wp_customize->add_setting('branding_hover[galleri-image-eleven-hover]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-eleven-hover', array(
+        'label'                => __('Imagen de galeria once', ''),
+        'section'              => 'branding_galeria_hover',
+        'settings'             => 'branding_hover[galleri-image-eleven-hover]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+$wp_customize->add_setting('branding_hover[galleri-image-twelve-hover]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-twelve-hover', array(
+        'label'                => __('Imagen de galeria doce', ''),
+        'section'              => 'branding_galeria_hover',
+        'settings'             => 'branding_hover[galleri-image-twelve-hover]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+
+    
+    /////////////// Galeri  software qdevelopement  //////////////
+
+$wp_customize -> add_panel('Page_desarrollo',array(
+        'title' => __("Edita la página Desarrollo de Software"),
+        'description' => __("Puedes editar algunas secciones la página diseño grafico"),
+        'priority' => 15,
+    ));
+
+      $wp_customize->add_section('desarrollo_galeria', array(
+        'panel' =>'Page_desarrollo',
+        'priority'             => 11,
+        'capability'         => 'edit_theme_options',
+        'title'                => __('Galeria', 'd5-business-line'),
+        'description'          => ''
+    ));
+ 
+
+    $wp_customize->add_setting('desarrollo[galleri-image-one-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-one-dev', array(
+        'label'                => __('Imagen de galeria uno', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-one-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+
+
+    $wp_customize->add_setting('desarrollo[galleri-image-two-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-two-dev', array(
+        'label'                => __('Imagen de galeria dos', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-two-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+    $wp_customize->add_setting('desarrollo[galleri-image-three-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-three-dev', array(
+        'label'                => __('Imagen de galeria tres', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-three-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+    $wp_customize->add_setting('desarrollo[galleri-image-four-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-four-dev', array(
+        'label'                => __('Imagen de galeria cuatro', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-four-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+
+    $wp_customize->add_setting('desarrollo[galleri-image-five-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-five-dev', array(
+        'label'                => __('Imagen de galeria cinco', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-five-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+     $wp_customize->add_setting('desarrollo[galleri-image-six-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-six-dev', array(
+        'label'                => __('Imagen de galeria', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-six-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+    $wp_customize->add_setting('desarrollo[galleri-image-seven-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-seven-dev', array(
+        'label'                => __('Imagen de galeria seis', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-seven-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+    $wp_customize->add_setting('desarrollo[galleri-image-eight-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-eight-dev', array(
+        'label'                => __('Imagen de galeria ocho', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-eight-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+    
+     $wp_customize->add_setting('desarrollo[galleri-image-nine-a-hover]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-nine-a-hover', array(
+        'label'                => __('Imagen de galeria A', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-nine-a-hover]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
    
 
-    $wp_customize->add_setting('branding_hover[galleri-image-eleven]', array(
+
+     $wp_customize->add_setting('desarrollo[galleri-image-nine-b-dev]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-eleven', array(
-        'label'                => __('Imagen de galeria', ''),
-        'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-eleven]',
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-nine-b-dev', array(
+        'label'                => __('Imagen de galeria B', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-nine-b-dev]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
 
-     $wp_customize->add_setting('branding_hover[galleri-image-last]', array(
+
+
+    $wp_customize->add_setting('desarrollo[galleri-image-teen-dev]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-last', array(
-        'label'                => __('Imagen de galeria', ''),
-        'section'              => 'branding_galeria_hover',
-        'settings'             => 'branding_hover[galleri-image-twelve]',
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-teen-dev', array(
+        'label'                => __('Imagen de galeria dies', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-teen-dev]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
+   
+
+    $wp_customize->add_setting('desarrollo[galleri-image-eleven-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-eleven-dev', array(
+        'label'                => __('Imagen de galeria once', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-eleven-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+
+     $wp_customize->add_setting('desarrollo[galleri-image-twelve-dev]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-twelve-dev', array(
+        'label'                => __('Imagen de galeria doce', ''),
+        'section'              => 'desarrollo_galeria',
+        'settings'             => 'desarrollo[galleri-image-twelve-dev]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+
 
 }
 add_action('customize_register', 'customize_marketing');
+
+
+
 
 ?>
