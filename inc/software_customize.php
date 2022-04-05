@@ -1,13 +1,24 @@
 <?php
+function software_development_customize($wp_customize)
+{
+   $wp_customize -> add_panel('page_software_development',array(
+    'title' => __('Edita la página de desarrollo y software'),
+    'description' => __('Puedes editar algunas secciones de la página desarrollo & software'),
+    'priority' => 19,
+));
 
 
-// function software_development_customize($wp_customize)
-// {
-//    $wp_customize -> add_panel('page_software_development',array(
-//     'title' => __('Edita la página de desarrollo y software esta la original '),
-//     'description' => __('Puedes editar algunas secciones de la página desarrollo & software'),
-//     'priority' => 1,
-//      ));
+        $wp_customize->add_setting('campo_texto_development[uno]',array(
+             'type'=> 'theme_mod',
+             'capability'=>'edit_theme_options',
+        ));
+        $wp_customize->add_control('campo_texto',array(
+            'label'=>_('Ejemplo input','textdomain'),
+            'section'=>'software_development',
+            'setting'=> 'campo_texto_development[uno]',
+            'priority'=>17,
+            'type'=>'option',     
+        ));                            
 
 //        $wp_customize->add_section('software_development', array(
 //             'panel' =>'page_software_development',

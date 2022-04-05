@@ -72,7 +72,7 @@ add_action('customize_register', 'exitosa');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_marketing.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_diseño.php');
-require_once(trailingslashit(get_template_directory()) . 'inc/software_customize.php');
+// require_once(trailingslashit(get_template_directory()) . 'inc/software_customize.php');
 
 
 /*** fin de data ****/
