@@ -2168,7 +2168,7 @@ Template Name: Home
     <div class="bg-pink text-center text-white ">
         <img class="my-5" src="<?php echo get_template_directory_uri() ?>/assets/images/icono-upper-stop.svg">
         <div class="big-title">
-            Team Evanzu
+            Team Evanzu next
         </div>
         <div class="text-white my-4 mx-auto w-50">
             Somos nativos digitales, sabemos cómo trabajar en un entorno digital. Nos divertimos creando estrategias de acuerdo a tus metas.
