@@ -20,15 +20,9 @@ function evanzu_customize_register($wp_customize)
     ));
 
 
-    //  $wp_customize -> add_panel('btl_site',array(
-    //     'title' => __("Edita la página BTL"),
-    //     'description' => __("Puedes editar todo respecto al home desde aqui"),
-    //     'priority' => 15,
-    // ));
-
 
     //////galeria/////////////////////
-    /*
+    
     $wp_customize->add_section('home_galeria', array(
         'panel' =>'home_site',
         'priority'             => 12,
@@ -275,7 +269,7 @@ function evanzu_customize_register($wp_customize)
 
     )));
    
-    */
+    
     // $wp_customize->add_setting('home[galleria-image-fifteen]', array(
    
     //     'capability'        => 'edit_theme_options',
