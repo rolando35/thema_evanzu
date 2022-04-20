@@ -28,6 +28,7 @@ function evanzu_customize_register($wp_customize)
 
 
     //////galeria/////////////////////
+    /*
     $wp_customize->add_section('home_galeria', array(
         'panel' =>'home_site',
         'priority'             => 12,
@@ -274,6 +275,7 @@ function evanzu_customize_register($wp_customize)
 
     )));
    
+    */
     // $wp_customize->add_setting('home[galleria-image-fifteen]', array(
    
     //     'capability'        => 'edit_theme_options',
