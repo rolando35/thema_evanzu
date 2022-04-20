@@ -4,7 +4,7 @@
   }
 </style>
 <?php
-  $display = $args['description'] == '' ? none : block
+  $display = $args['description'] == '' ? 'none' : 'block';
 ?>
 <div class="mt-5">
   <h2 class="text-light font-weight-bold" style="font-size: 24.17px;"><?php echo $args['title'] ?></h2>
