@@ -137,7 +137,7 @@ Template Name: Home
         <div class="text-red text-center big-title  my-3">
             PORTAFOLIO
         </div>
-        <div class="ladrillo mx-auto w-75">
+        <!-- <div class="ladrillo mx-auto w-75">
            
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-one"]; ?>">
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-fifteen"]; ?>">
@@ -155,7 +155,15 @@ Template Name: Home
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-thirteen"]; ?>">
             <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-fourteen"]; ?>">
            
+        </div> -->
+         
+        <div> 
+              	<!------------------Portafolio-------------------->
+				<?php get_template_part('components/masonry-home'); ?>
+				<!------------------Portafolio-------------------->
+
         </div>
+
     </div>
 
     <div class="pt-5 bg-red">
@@ -2452,7 +2460,7 @@ Template Name: Home
 </section>
 
 
-<script>
+<!-- <script>
     jQuery(window).load(function() {
         jQuery('.ladrillo').masonry({
             gutter: 16,
@@ -2460,7 +2468,7 @@ Template Name: Home
 
         });
     })
-</script>
+</script> -->
 
 
 
