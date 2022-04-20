@@ -274,21 +274,21 @@ function evanzu_customize_register($wp_customize)
 
     )));
    
-    $wp_customize->add_setting('home[galleria-image-fifteen]', array(
+    // $wp_customize->add_setting('home[galleria-image-fifteen]', array(
    
-        'capability'        => 'edit_theme_options',
-        'sanitize_callback' => 'esc_url',
-        'type'               => 'option'
+    //     'capability'        => 'edit_theme_options',
+    //     'sanitize_callback' => 'esc_url',
+    //     'type'               => 'option'
 
-    ));
+    // ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleria-image-fifteen', array(
-        'label'                => __('Imagen de galeria Quince', ''),
-        'section'              => 'home_galeria',
-        'settings'             => 'home[galleria-image-fifteen]',
-        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    // $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleria-image-fifteen', array(
+    //     'label'                => __('Imagen de galeria Quince', ''),
+    //     'section'              => 'home_galeria',
+    //     'settings'             => 'home[galleria-image-fifteen]',
+    //     'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
-    )));
+    // )));
 
 
       /*********foooter********************** */
