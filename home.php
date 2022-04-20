@@ -2206,7 +2206,7 @@ Template Name: Home
                         <? the_title(); ?>
                         </span>
                     <h5 id="slider-caption-content" class="light grey-text text-lighten-3">
-                        <?  var_dum(the_content()); ?>
+                        <!-- <?  var_dum(the_content()); ?> -->
                     </h5>
                 </div>
 
