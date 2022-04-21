@@ -36,43 +36,13 @@ wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.3.1/css/al
 
 //llamar al archivo de custimización
 
-function exitosa($wp_customize)
-{
-$wp_customize -> add_panel('Page_desarrollo',array(
-        'title' => __("Edita la página Desarrollo de Software nota"),
-        'description' => __("Puedes editar algunas secciones la página diseño grafico"),
-        'priority' => 15,
-    ));
 
-      $wp_customize->add_section('desarrollo_galeria', array(
-        'panel' =>'Page_desarrollo',
-        'priority'             => 11,
-        'capability'         => 'edit_theme_options',
-        'title'                => __('Galeria', 'd5-business-line'),
-        'description'          => ''
-    ));
- 
-
-    $wp_customize->add_setting('desarrollo[galleri-image-one]', array(
-        'capability'        => 'edit_theme_options',
-        'sanitize_callback' => 'esc_url',
-        'type'               => 'option'
-
-    ));
-
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-one', array(
-        'label'                => __('Imagen de galeria', ''),
-        'section'              => 'desarrollo_galeria',
-        'settings'             => 'desarrollo[galleri-image-one]',
-        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
-	)));
-}	
-add_action('customize_register', 'exitosa');
 
 require_once(trailingslashit(get_template_directory()) . 'inc/customize.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_marketing.php');
+require_once(trailingslashit(get_template_directory()) . 'inc/customize_software.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_diseño.php');
-// require_once(trailingslashit(get_template_directory()) . 'inc/software_customize.php');
+require_once(trailingslashit(get_template_directory()) . 'inc/customize_btl.php');
 
 
 /*** fin de data ****/
