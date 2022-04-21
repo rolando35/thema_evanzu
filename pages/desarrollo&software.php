@@ -292,7 +292,7 @@ $path_software =
       </div>
 
 				<!------------------Portafolio-------------------->
-				<?php get_template_part('components/masonry-marketing'); ?>
+			
 				<!------------------Portafolio-------------------->
 
 			</div>
