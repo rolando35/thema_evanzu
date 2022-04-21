@@ -1173,79 +1173,14 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div class="big-title text-red my-4 text-center">
          PORTAFOLIO
       </div> 
-        <div>
+        
         <div class="container" style="margin-top:5rem">
-  <div class="row">
-    
-    <div class="col-lg-8">
-      <div class="gallery-wrapper clearfix">
-        <div class="col-lg-6 grid-sizer">  </div>
-        <div class="col-lg-6 grid-item">
-            primer parte
-          <img class="img-fluid" src="http://via.placeholder.com/1024x900">
+               <?php         
+                get_template_part('components/masonry-btl', );  
+                ?>
         </div>
+</section>
 
-        <div class="col-lg-6 grid-item">
-            segunda parte
-          <img class="img-fluid" src="http://via.placeholder.com/800x370">
-        </div>
-
-        <div class="col-lg-6 grid-item">
-          <img class="img-fluid" src="http://via.placeholder.com/500x370">
-        </div>
-
-        <div class="col-lg-6 grid-item">
-          <img class="img-fluid" src="http://via.placeholder.com/1024x600">
-        </div>
-
-        <div class="col-lg-6 grid-item">
-          <img class="img-fluid" src="http://via.placeholder.com/1024x300">
-        </div>
-
-        <div class="col-lg-6 grid-item">
-          <img class="img-fluid" src="http://via.placeholder.com/1024x600">
-        </div>
-
-        <div class="col-lg-6 grid-item">
-          <img class="img-fluid" src="http://via.placeholder.com/800x900">
-        </div>
-
-        <div class="col-lg-6 grid-item">
-          <img class="img-fluid" src="http://via.placeholder.com/1024x600">
-        </div>
-
-      </div>
-    </div>
-
-    <div class="col-lg-4 sidebar">
-      <h3>Sidebar</h3>
-    </div>
-    
-    
-  </div>
-</div>
-        </div>
-
-      
-</section> -->
-
-
- <script>
-
-
-	// jQuery(function ($) {
-	// 	var $grid = $('.gallery-wrapper').masonry({
-	// 		itemSelector: '.grid-item',
-	// 		columnWidth: '.grid-sizer',
-	// 		percentPosition: true,
-	// 		transitionDuration: 0,
-	// 	});
-
-	// 	$grid.imagesLoaded().progress( function() {
-	// 		$grid.masonry();
-	// 	});
-    // });
-  </script>
 
 
 <?php  get_footer(); ?>
