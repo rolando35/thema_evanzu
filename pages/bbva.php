@@ -7,7 +7,7 @@ get_header();
 $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 ?>
 
-<section class="pt-5 pb-3">
+<section class="top-clients pb-3">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 text-center text-md-left">
