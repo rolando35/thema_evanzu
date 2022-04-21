@@ -75,9 +75,16 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		<div class="carousel-inner">
 			<div class="carousel-item active d-flex align-items-center">
 				<img
+					src="<?php echo get_template_directory_uri()?>/assets/images/btl/Servicio-ActivacionBTL2.png;"
+					alt="Los Angeles"
+					class="w-100 d-none d-sm-block d-md-none"
+					style="min-height: 25rem;"
+				/>
+
+				<img
 					src="<?php echo get_template_directory_uri()?>/assets/images/btl/btl-slider.jpg;"
 					alt="Los Angeles"
-					class="w-100 d-none d-sm-block"
+					class="w-100 d-none d-md-block"
 					style="min-height: 25rem;"
 				/>
 				
@@ -357,14 +364,23 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 					<!-------------Note------------>
 					<div class="d-flex justify-content-center flex-wrap">
-						<div class="m-sm-1 m-md-2">
-							<img src="<?php echo $path_img; ?>first-game.svg" alt="" />
+						<div class="m-sm-1 m-md-2 position-relative">
+							<img src="<?php echo $path_img; ?>Group-607.png" alt="Genera expectativa" />
+							<div class="note-btl top-note-btl text-white">
+								<strong>Genera expectativa e interés</strong>
+							</div>
 						</div>
-						<div class="m-sm-1 m-md-2">
-							<img src="<?php echo $path_img; ?>second-game.svg" alt="" />
+						<div class="m-sm-1 m-md-2 position-relative">
+							<img src="<?php echo $path_img; ?>Group-609.png" alt="Informa a tus clientes" />
+							<div class="note-btl top-note-btl text-gray">
+								<strong>Informa a tus clientes actuales y potenciales</strong>
+							</div>							
 						</div>
-						<div class="m-sm-1 m-md-2">
-							<img src="<?php echo $path_img; ?>third-game.svg" alt="" />
+						<div class="m-sm-1 m-md-2 position-relative">
+							<img src="<?php echo $path_img; ?>Group-610.png" alt="Conecta y logra" />
+							<div class="note-btl top-note-btl text-white">
+								<strong>Conecta y logra la recordación de tu marca</strong>
+							</div>							
 						</div>
 					</div>
 					<!-------------Note------------>
@@ -1169,7 +1185,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 	</div>
 </section>
 
-<!-- <section>
+<section>
       <div class="big-title text-red my-4 text-center">
          PORTAFOLIO
       </div> 

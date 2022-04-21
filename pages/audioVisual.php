@@ -769,14 +769,7 @@ h5 {
                <!-- PORTAFOLIO -->
                <section>
                        <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
-                           <?php echo get_template_part(
-                               'components/video-galery',
-                               'full',
-                               [
-                                   'video1' => 'zpq6oje5FsA',
-                                   'video2' => '-SdnP9s5cF8',
-                               ]
-                           ); ?>
+                           <?php echo get_template_part('components/masonry-audio-visual'); ?>
                  </section>
             </div>
         </div>

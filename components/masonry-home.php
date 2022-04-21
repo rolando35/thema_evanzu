@@ -1,17 +1,3 @@
-<style>
-  .masonry-hover-lirycs{
-    display: none;
-  }
-
-  .hover-image:hover > div{
-    display: block !important;
-    z-index: 1;
-  }
-  .masonry-hover-lirycs:hover + img {
-    filter: brightness(20%) !important;
-  }
-</style>
-
 <div class="container">
   <div class="mb-1">
     <div class="d-md-flex justify-content-center flex-md-row text-center">
