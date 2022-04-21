@@ -3,7 +3,7 @@
 Template Name: Home
 */
 ?>
-<?php get_header(); ?>
+<?php get_header();?>
 <style>
     .ndx{
         z-index: 1;
@@ -2417,11 +2417,11 @@ Template Name: Home
 <div class="mt-5 text-center">
  
   <span  class="big-title text-red">¿Cómo lo hacemos?</span>
-      <p>Estamos comprometidos a ofrecer resultados 
-    <br>excepcionales y medibles</p> 
+      <!-- <p>Estamos comprometidos a ofrecer resultados 
+    <br>excepcionales y medibles</p>  -->
 </div>
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   <div class="row my-5 mx-5">
     <div class="col-sm-3">
       <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-07-1.png" alt="2" width="266px" height="186px">
@@ -2440,7 +2440,30 @@ Template Name: Home
       <div class="texto"><strong id="heading2" class="text-gray">Ejecutamos el plan</strong> con responsabilidad y profesionalismo.</div>     
     </div>
   </div>
+</div> -->
+
+
+<div class="my-5 mx-auto">
+  <div class="d-flex justify-content-center flex-wrap">
+    <div class="m-sm-1 m-md-2 position-relative">
+      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-07-1.png" alt="2" width="266px" height="186px">
+      <div class="note-btl top-note-home"><strong id="witheng" class="text-white">Cuéntanos tus necesidades y lo que</strong> <strong class="text-red" id="heading">quieres lograr.</strong></div>
+    </div>
+    <div class="m-sm-1 m-md-2 position-relative">
+      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-08.png" alt="2" width="266px" height="186px">
+      <div class="note-btl top-note-home"><strong id="heading2" class="text-gray">Analizaremos tu caso</strong> y la información del mercado.</div>
+    </div>
+    <div class="m-sm-1 m-md-2 position-relative">
+    <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-09.png" alt="3" width="266px" height="186px"> 
+    <div class="note-btl top-note-home"><strong id="witheng" class="text-white" >presentamos una propuesta con las</strong> <strong id="heading" class="text-red">soluciones más creativas</strong> <strong id="witheng" class="text-white">para conseguir tu objetivo.</strong></div>     
+    </div>
+    <div class="m-sm-1 m-md-2 position-relative">
+      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-10.png" alt="4" width="266px" height="186px"> 
+      <div class="note-btl top-note-home"><strong id="heading2" class="text-gray">Ejecutamos el plan</strong> con responsabilidad y profesionalismo.</div>     
+    </div>
+  </div>
 </div>
+
 
 
     <div class="row">

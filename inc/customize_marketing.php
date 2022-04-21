@@ -1,5 +1,5 @@
 <?php
-function customize_marketing($wp_customize)
+function customize_page_marketing($wp_customize)
 {
             $wp_customize -> add_panel('PageMarqueting',array(
                 'title' => __("Edita la página Marqueting digital"),
@@ -62,7 +62,7 @@ function customize_marketing($wp_customize)
     ));
  
 
-    $wp_customize->add_setting('marketing[galleri-image-one]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-one]', array(
     
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
@@ -73,13 +73,13 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-one', array(
         'label'                => __('Imagen de galeria uno', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-one]',
+        'settings'             => 'marketing_page[galleri-image-one]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
 
 
-    $wp_customize->add_setting('marketing[galleri-image-two]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-two]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -90,14 +90,14 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-two', array(
         'label'                => __('Imagen de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-two]',
+        'settings'             => 'marketing_page[galleri-image-two]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
 
    
 
-    $wp_customize->add_setting('marketing[galleri-image-three]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-three]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -108,13 +108,13 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-three', array(
         'label'                => __('Imagen de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-three]',
+        'settings'             => 'marketing_page[galleri-image-three]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
 
 
-    $wp_customize->add_setting('marketing[galleri-image-four_new]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-four_new]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -125,7 +125,7 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-four_new', array(
         'label'                => __('Imagen de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-four_new]',
+        'settings'             => 'marketing_page[galleri-image-four_new]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
 
@@ -133,7 +133,7 @@ function customize_marketing($wp_customize)
 
 
 
-    $wp_customize->add_setting('marketing[galleri-image-five]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-five]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -144,14 +144,14 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-five', array(
         'label'                => __('Imagen de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-five]',
+        'settings'             => 'marketing_page[galleri-image-five]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
 
     
 
-    $wp_customize->add_setting('marketing[galleri-image-six]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-six]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -162,13 +162,13 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-six', array(
         'label'                => __('Imagen de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-six]',
+        'settings'             => 'marketing_page[galleri-image-six]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
 
    
-    $wp_customize->add_setting('marketing[galleri-image-seven]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-seven]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -179,12 +179,12 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-seven', array(
         'label'                => __('Imagen de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-seven]',
+        'settings'             => 'marketing_page[galleri-image-seven]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
 
-    $wp_customize->add_setting('marketing[galleri-image-eight]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-eight]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -195,13 +195,13 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-eight', array(
         'label'                => __('Imagen de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-eight]',
+        'settings'             => 'marketing_page[galleri-image-eight]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
 
     
-    $wp_customize->add_setting('marketing[galleri-image-nine]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-nine]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -212,14 +212,14 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-nine', array(
         'label'                => __('Imagen de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-nine]',
+        'settings'             => 'marketing_page[galleri-image-nine]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
 
      
       
-    $wp_customize->add_setting('marketing[galleri-image-teen]', array(
+    $wp_customize->add_setting('marketing_page[galleri-image-teen]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -230,11 +230,11 @@ function customize_marketing($wp_customize)
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-teen', array(
         'label'                => __('Base imagén de galeria', ''),
         'section'              => 'marketing_galeria',
-        'settings'             => 'marketing[galleri-image-teen]',
+        'settings'             => 'marketing_page[galleri-image-teen]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
   
 }
-add_action('customize_register', 'customize_marketing');
+add_action('customize_register', 'customize_page_marketing');
 
 ?>

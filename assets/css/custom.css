@@ -174,7 +174,7 @@
 }
 
 .section-slider-btl {
-	margin-top: 2.5rem;
+	margin-top: 5.5rem;
 }
 
 .subtitle-btl,
@@ -382,6 +382,33 @@
 }
 #heading2 {
 	font-weight: 700;
+}
+
+.top-note-btl {
+	top: 9.5rem;
+}
+
+.top-note-home {
+	top: 8rem;
+}
+
+.top-clients {
+	margin-top: 6rem;
+}
+
+.note-btl {
+	position: absolute;
+	width: 70%;
+	/* bottom: 1.8rem; */
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	font-family: hurme-simple;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
 }
 
 .texto {
@@ -744,6 +771,19 @@
 	}
 }
 
+/* Masonry effect styles */
+.masonry-hover-lirycs{
+	display: none;
+}
+
+.hover-image:hover > div{
+	display: block !important;
+	z-index: 1;
+}
+.masonry-hover-lirycs:hover + img {
+	filter: brightness(20%) !important;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 }
@@ -755,10 +795,6 @@
 		margin-top: -4.4rem;
 		margin-bottom: -3.2rem;
 	} */
-
-	.section-slider-btl {
-		margin-top: 2.7rem;
-	}
 
 	.container-subtitle-client {
 		padding-right: 4rem;
@@ -795,13 +831,13 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-	.section-slider-btl {
-		margin-top: 3.5rem;
-	}
-
 	.container-subtitle-client {
 		padding-right: 8rem;
 		padding-left: 8rem;
+	}
+
+	.top-clients {
+		margin-top: 8rem;
 	}
 
 	/* .group-nav {
