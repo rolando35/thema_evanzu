@@ -626,6 +626,10 @@
 
 /****MASONRY******/
 
+.fs-5{
+  font-size: 10px !important;
+}
+
 .image-service {
 	width: 6rem;
 }
