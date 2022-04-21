@@ -5,7 +5,7 @@
        <div>
       <div class="d-md-flex  flex-md-row">
         <div class=" justify-content-center ">
-            <div class="m-1"><img src="<?php echo get_option("home_main")["galleria-image-two"]; ?>"></div>
+            <div class="m-1"><img width="25" src="<?php echo get_option("home_main")["galleria-image-two"]; ?>"></div>
             <div class="m-1"><img src="<?php echo get_option("home_main")["galleria-image-four"]; ?>"></div>  
         </div>
         <div class="justify-content-center">
