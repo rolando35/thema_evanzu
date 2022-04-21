@@ -1169,7 +1169,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 	</div>
 </section>
 
-<!-- <section>
+<section>
       <div class="big-title text-red my-4 text-center">
          PORTAFOLIO
       </div> 
