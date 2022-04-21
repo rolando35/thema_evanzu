@@ -669,6 +669,19 @@
   position: relative !important;
 }
 
+.responsive-masonry-image {
+  width: unset;
+}
+
+.hover-masonry-image {
+  filter: unset;
+  content: unset;
+}
+.hover-masonry-image:hover {
+  filter: brightness(20%);
+  content: "whatever it is you want to add";
+}
+
 /* Masonry toggle */
 /* .toggle-position{
   position: initial;
@@ -712,6 +725,9 @@
   }
   .left-conten-description {
     text-align: center;
+  }
+  .responsive-masonry-image {
+    width: 60%;
   }
 }
 
