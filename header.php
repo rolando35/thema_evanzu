@@ -29,10 +29,13 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
   <nav class="<?php echo $result ?> navbar-expand-lg  nav-colors fixed-top navbar-dark">
     <div class="container" style="height: 5.56rem;">
       <div class="d-none d-lg-block">
-        <img
+      <a href="<?php echo home_url(); ?>">
+       <img
 					src="<?php echo $path_header; ?>logo-evanzu.svg"
 					alt="loguito"
 				/>
+      </a>
+
       </div>
      <?php the_custom_logo() ?> 
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

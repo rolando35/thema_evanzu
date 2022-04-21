@@ -8,12 +8,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 ?>
 
 <style>
-	/* Make the image fully responsive */
-	.carousel-inner img {
-		width: 100%;
-		height: 100%;
-	}
-
     .gallery-wrapper {
   		overflow: hidden;
 	}
@@ -63,31 +57,40 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 	.group-nav  {
 		z-index: 17;
 		position: relative;
-		width: 90%;
-		margin: -2.5rem auto 0;
+		padding: 1rem;
+		/* width: 100%; */
+		/* margin: -2.5rem auto 0; */
 	}
 </style>
 
-<section id="slider">
+<section id="slider" class="section-slider-btl">
 	<div
 		id="demo"
 		class="carousel slide"
 		data-ride="carousel"
 	>
-		<div class="float-rectangle-banner">
-			<div id="rectangle" class="text-center"></div>
+		<div class="float-rectangle-banner text-center d-none d-xl-block">
+			<div id="rectangle" class="text-center my-0 mx-auto"></div>
 		</div>
 		<div class="carousel-inner">
-			<div class="carousel-item active">
+			<div class="carousel-item active d-flex align-items-center">
 				<img
 					src="<?php echo get_template_directory_uri()?>/assets/images/btl/btl-slider.jpg;"
 					alt="Los Angeles"
-					width="1100"
-					height="500"
+					class="w-100 d-none d-sm-block"
+					style="min-height: 25rem;"
 				/>
-				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
+				
+				<img
+					src="<?php echo get_template_directory_uri()?>/assets/images/btl/ServicioActivacionBTL.png"
+					alt="Los Angeles"
+					class="w-100 d-sm-none"
+					style="max-height: 25rem;"
+				/>					
+
+				<div class="carousel-caption" style="bottom: auto; left: 10%;">
 					<div class="row">
-						<div class="col-6 flex-column align-items-left p-0">
+						<div class="col-12 col-md-8 col-lg-6 flex-column align-items-left p-0">
 							<div class="running-text-btl">
 								Somos una agencia de
 							</div>
@@ -1166,7 +1169,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 	</div>
 </section>
 
-<section>
+<!-- <section>
       <div class="big-title text-red my-4 text-center">
          PORTAFOLIO
       </div> 
@@ -1224,7 +1227,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
 
       
-</section>
+</section> -->
 
 
  <script>
