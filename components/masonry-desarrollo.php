@@ -89,8 +89,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-5 font-weight-bold">UX/UI Design</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>BMatic</p>
+            <h6 class="small text-red fs-5 font-weight-bold">UI Design</h6>
+            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>Caja Huancayo</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
