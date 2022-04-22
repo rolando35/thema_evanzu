@@ -32,14 +32,14 @@ Template Name: Home
     }
 
 
-  @media only screen and (max-width: 440px) {
-    .image-sup {
-    margin-top: -5rem;
-    cursor: pointer;
-    margin-left: 9rem;
-    width: 8rem;
+    @media only screen and (max-width: 440px) {
+        .image-sup {
+        margin-top: -5rem;
+        cursor: pointer;
+        margin-left: 9rem;
+        width: 8rem;
+        }
     }
-  }
 </style>
 
 <!--////First////-->
