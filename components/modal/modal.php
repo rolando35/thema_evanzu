@@ -72,33 +72,35 @@
 
             <div class="col-12 col-lg-6">
               <h2 class="text-light " style="font-weight: 900; font-size: 65px;">CONTÁCTANOS</h2>
-              <form>
+              <form action="" method="post" class="ajax" enctype="multipart/form-data">
                 <input type="text"
-                  class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                  class="nombre form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre" name="nombre">
                 <div class="d-flex">
                   <input type="email"
-                    class="form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+                    class="correo form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo" name="correo">
                   <input type="numb"
-                    class="form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Celular">
+                    class="celular form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Celular" name="celular">
                 </div>
                 <div class="d-flex">
                   <input type="text"
-                    class="form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Empresa">
+                    class="empresa form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Empresa" name="empresa">
                   <input type="text"
-                    class="form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dirección">
+                    class="direccion form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dirección" name="direccion">
                 </div>
                 <input type="text"
-                  class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje">
-                <button class="bg-white py-2 px-5 border-0 my-4  font-weight-bold"
-                  style="color: #ED1164; border-radius: 2.2rem;">Enviar mensaje</button>
+                  class="mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="mensaje">
+                <span class="bg-white py-2 px-5 border-0 my-4  font-weight-bold"
+                  style="color: #ED1164; border-radius: 2.2rem;">Enviar mensaje</span>
+                  <div class="success_msg" style="display:none">Message Sent Successfully</div>
+                  <div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
               </form>
-
+         
               <div class="h-30">
                 <h4 class="text-yellow font-weight-bold">Nuestras Sedes</h4>
                 <div class="d-flex pb-1 mb-lg-5">
