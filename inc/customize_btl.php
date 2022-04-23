@@ -99,7 +99,7 @@ $wp_customize -> add_panel('Page_btl',array(
     ));
 
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-six-btl', array(
-        'label'                => __('Imagen de galeria', ''),
+        'label'                => __('Imagen de galeria seis', ''),
         'section'              => 'desarrollo_btl',
         'settings'             => 'btl[galleri-image-six-btl]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
@@ -113,7 +113,7 @@ $wp_customize -> add_panel('Page_btl',array(
     ));
 
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-seven-btl', array(
-        'label'                => __('Imagen de galeria seis', ''),
+        'label'                => __('Imagen de galeria siete', ''),
         'section'              => 'desarrollo_btl',
         'settings'             => 'btl[galleri-image-seven-btl]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
@@ -133,7 +133,7 @@ $wp_customize -> add_panel('Page_btl',array(
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
     
-     $wp_customize->add_setting('btl[galleri-image-nine-btl]', array(
+    $wp_customize->add_setting('btl[galleri-image-nine-btl]', array(
         'capability'        => 'edit_theme_options',
         'sanitize_callback' => 'esc_url',
         'type'               => 'option'
@@ -144,6 +144,20 @@ $wp_customize -> add_panel('Page_btl',array(
         'label'                => __('Imagen de galeria nueve', ''),
         'section'              => 'desarrollo_btl',
         'settings'             => 'btl[galleri-image-nine-btl]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+    )));
+
+    $wp_customize->add_setting('btl[galleri-image-ten-btl]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleri-image-ten-btl', array(
+        'label'                => __('Imagen de galeria diez', ''),
+        'section'              => 'desarrollo_btl',
+        'settings'             => 'btl[galleri-image-ten-btl]',
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
     )));
     

@@ -43,6 +43,7 @@ require_once(trailingslashit(get_template_directory()) . 'inc/customize_marketin
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_software.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_diseño.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_btl.php');
+require_once(trailingslashit(get_template_directory()) . 'inc/customize_audio_visual.php');
 
 
 /*** fin de data ****/
