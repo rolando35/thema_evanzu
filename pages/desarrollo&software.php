@@ -38,6 +38,45 @@ $path_software =
     margin-bottom: -9px;
 }
 
+
+@media only screen and (max-width: 1200px) {
+  .text-paragraph {
+		font-size: 2.2rem !important;
+    line-height: 6rem;
+  }
+	.text-paragraph2 {
+    font-size: 3.25rem;
+	}
+.develop-title{
+  font-size: 1.7rem;
+  line-height: 4rem;
+	}
+}
+@media only screen and (max-width: 870px) {
+  .text-paragraph {
+		font-size: 2.2rem !important;
+    line-height: 6rem;
+  }
+	.text-paragraph2 {
+    font-size: 3.25rem;
+	}
+	.develop-title{
+  font-size: 1.7rem;
+  line-height: 4rem;
+	}
+}
+@media only screen and (max-width: 669px) {
+	.flex-colum {
+		max-width: none;
+	}
+	.carousel-caption{
+		top: 1rem !important;
+	} 
+	.carousel-item > img {
+		height: 25rem !important;
+	}
+}
+
 .line-h{
     width: 4.9rem;
     height: 0.2rem;
@@ -95,9 +134,7 @@ $path_software =
 				<img
 					src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/banner.png"
 					alt="Los Angeles"
-					width="1100"
-					height="500"
-          class="w-100"
+          class="w-100 h-100"
 				/>
 				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
 					<div class="col-8 flex-colum text-left p-0">
@@ -128,7 +165,7 @@ $path_software =
 	<div class="bg-white">
 		<!-------------------nav-------------------->
 		<div class="group-nav">
-			<ul class="nav nav-pills justify-content-center" id="nav-iconos" role="tablist">
+			<ul class="nav nav-pills justify-content-center mt-4 mt-lg-0" id="nav-iconos" role="tablist">
 				<?php foreach (
         [
             [

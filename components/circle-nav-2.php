@@ -1,4 +1,4 @@
-<li class="nav-item mx-lg-3 text-center li-circle">
+<li class="nav-item mx-lg-3 text-center li-circle" style="z-index: 17;">
 	<a
 		class="<?php echo isset($args["active"]) ? "active" : "";?>"
 		data-toggle="pill"
