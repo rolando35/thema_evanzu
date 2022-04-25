@@ -9,8 +9,6 @@
   }
 
 
-  span.error{ color: yellow; font-size: 0.8em; }
-
   /*.modal.modal-right .modal-content{height:calc(100vh - 0);overflow-y:auto}*/
   .modal.modal-right .modal-dialog {
     transform: translate(100%, 0);
@@ -238,3 +236,75 @@
   </div>
 </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+<script>
+
+    (function ($) {
+        
+        $("#basic-form").validate({
+        rules: {
+           nombre : {
+            required: true,
+            minlength: 3
+           },
+           correo: {
+             required: true,
+             email: true
+           },
+           celular: {
+            required: true,
+            number: true
+           }
+        },
+        messages : {
+          nombre: {
+            required: "Este campo es obligatorio*.",
+            minlength: "Como mínimo tiene que tener 3 caracteres"
+          },
+           correo: {
+              required: "Este campo es obligatorio*.",
+              email: "El correo tiene que tener un formato: abc@domain.tld"
+           },
+           celular: {
+             required: "Este campo es obligatorio*.",
+             number: "Por favor ingrese solo valores numéricos"
+           }
+        },
+        submitHandler: function (e) {
+          var name = $("#nombre").val();
+          var mail =  $("#correo").val()
+          var phone =  $("#telefono").val()
+          var business =  $("#empresa").val()
+          var direction =  $("#direccion").val()
+          var message = $("#nensaje").val();
+          
+          $.ajax({
+            url: '<?php echo admin_url('admin-ajax.php') ?>',
+            type: "post",
+            data: {
+              action: "dcms_ajax_readmore",
+              nombre: name,
+              correo:mail,
+              telefono:phone,
+              empresa: business,
+              direccion: direction,
+              mensaje: message
+            },
+            beforeSend: function () {
+               $("#succes").show()
+               $("#succes").html("<span style='color:white;font-size:2rem;'>Cargando ...</span>")
+            },
+            success: function (resultado) {
+                $("#succes").show(); 
+                $("#succes").html(resultado);
+            },
+          });
+          return false
+        },
+        errorElement : 'span'
+      });
+
+    })(jQuery);
+
+</script> 
