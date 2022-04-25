@@ -8,6 +8,9 @@
     transform: translate(0, 0)
   }
 
+
+  span.error{ color: yellow; font-size: 0.8em; }
+
   /*.modal.modal-right .modal-content{height:calc(100vh - 0);overflow-y:auto}*/
   .modal.modal-right .modal-dialog {
     transform: translate(100%, 0);
@@ -72,28 +75,43 @@
 
             <div class="col-12 col-lg-6">
               <h2 class="text-light " style="font-weight: 900; font-size: 65px;">CONTÁCTANOS</h2>
-              <form id="basic-form">
-                <input type="text"
-                  class=" form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="nombre" aria-describedby="emailHelp" placeholder="Nombre" >
-                <div class="d-flex">
-                  <input type="email"
-                    class="correo form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="correo" aria-describedby="emailHelp" placeholder="Correo" name="correo">
-                  <input type="numb"
-                    class="celular form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="celular" aria-describedby="emailHelp" placeholder="Celular" name="celular">
-                </div>
-                <div class="d-flex">
+              <div>
+                <form id="basic-form" action="" method="post">
+                  <input
+                    type="text"
+                    class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    id="nombre" 
+                    placeholder="Nombre"
+                    name="nombre">
+                  <div class="d-flex">
+                    <div class="w-50">
+                      <input type="email"
+                        class="correo form-control rounded-0 mt-3_5 text-light w-100 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                        id="correo" aria-describedby="emailHelp" placeholder="Correo" name="correo">
+                    </div>
+                    <div class="w-50 ml-5 ">
+                      <input type="numb"
+                        class="celular form-control rounded-0 mt-3_5 text-light w-100 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                        id="celular" aria-describedby="emailHelp" placeholder="Celular" name="celular">
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <input type="text"
+                      class="empresa form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                      id="empresa" aria-describedby="emailHelp" placeholder="Empresa" name="empresa">
+                    <input type="text"
+                      class="direccion form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                      id="direccion" aria-describedby="emailHelp" placeholder="Dirección" name="direccion">
+                  </div>
                   <input type="text"
                     class="mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                     id="mensaje" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="mensaje">
-                  <button type = "submit" class="submit submitbtn  bg-white py-2 px-5 border-0 my-4  font-weight-bold"
+                  <button id="send" type = "submit" class="submit submitbtn  bg-white py-2 px-5 border-0 my-4  font-weight-bold"
                     style="color: #ED1164; border-radius: 2.2rem;"> enviar</button>
                 </form>
                   <div id="succes" class="success_msg" style="display:none">Message Sent Successfully</div>
                   <div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
-  </form>
+             </div>
          
               <div class="h-30">
                 <h4 class="text-yellow font-weight-bold">Nuestras Sedes</h4>

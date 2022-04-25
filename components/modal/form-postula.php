@@ -8,6 +8,8 @@
     transform: translate(0, 0)
   }
 
+  span.error{ color: red; font-size: 0.8em; }
+
   /*.modal.modal-right .modal-content{height:calc(100vh - 0);overflow-y:auto}*/
   .modal.modal-right .modal-dialog {
     transform: translate(100%, 0);
@@ -81,54 +83,33 @@ label[for="src-file1"] {
       <div class="modal-body bg-yellow py-5" style="width: 100%;">
         <div class=" w-100 h-100">
           <div class="d-block d-lg-flex w-100">
-
             <div class="col-12 col-lg-7" style="z-index: 2">
               <h2 class="text-light " style="font-weight: 900; font-size: 50px;">Queremos conocer tu perfil</h2>
               <h5 class="text-light font-weight-light"><i>Déjanos tus datos y te contactámos</i></h5>
-              <form>
+              <form id="form-postula" action="" method="post">
                 <input type="text"
                   class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombres y Apellidos">
+                  id="fullName" aria-describedby="emailHelp" placeholder="Nombres y Apellidos">
                 <div class="d-flex">
                   <input type="text"
                     class="form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Perfil profesional">
+                    id="profile" aria-describedby="emailHelp" placeholder="Perfil profesional">
                   <input type="numb"
                     class="form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Celular">
+                    id="phone" aria-describedby="emailHelp" placeholder="Celular">
                 </div>
                 
                 <div class="mt-3_5">
                     
-                    <div class="
-                        position-absolute
-                        px-2
-                        d-flex
-                        w-100
-                        justify-content-between
-                        mt-2
-                        ">
-                    <h8 class="
-                        text-light 
-                        font-weight-light
-                       
-                        "
-                        style="opacity: 0.6; z-index: 1;"
-                    >Adjuntar CV</h8>
-                    <div class="py-0 px-3 d-flex mr-4" style="background: rgba(251, 152, 0, 0.42);
-                        border-radius: 2.2rem; 
-                    ">
-                        <p class="
-                        text-light 
-                        font-weight-light
-                        my-0
-                        "
-                        style="opacity: 0.6; z-index: 1;">
-                            Archivo.pdf
-                        </p>
-                        <img class="my-0 ml-2" src="<?php echo get_template_directory_uri() ?>/assets/images/clip.svg">
-                        
-                    </div>
+                    <div class=" position-absolute px-2 d-flex w-100 justify-content-between mt-2">
+                      <h8  class="text-light font-weight-light" style="opacity: 0.6; z-index: 1;">Adjuntar CV</h8>
+                      <div class="py-0 px-3 d-flex mr-4" style="background: rgba(251, 152, 0, 0.42); border-radius: 2.2rem;">
+                          <p class=" text-light  font-weight-light my-0"
+                          style="opacity: 0.6; z-index: 1;">
+                              Archivo.pdf
+                          </p>
+                          <img class="my-0 ml-2" src="<?php echo get_template_directory_uri(); ?>/assets/images/clip.svg">
+                      </div>
                     </div>
                     <label 
                     class="form-control
@@ -156,8 +137,8 @@ label[for="src-file1"] {
                 
                 <input type="text"
                   class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje">
-                <button class="bg-white py-2 px-5 border-0 my-4  font-weight-bold"
+                  id="message" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje">
+                <button type="submit" id="submit" class="bg-white py-2 px-5 border-0 my-4  font-weight-bold"
                   style="color: #ED1164; border-radius: 2.2rem;">Enviar mensaje</button>
               </form>
               <!----------------Social---------------->
