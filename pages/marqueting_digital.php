@@ -34,8 +34,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <li data-target="#demo" data-slide-to="2"></li>
     </ul>
 
-    <div class="float-rectangle-banner">
-      <div id="rectangle" class="text-center"></div>
+    <div class="float-rectangle-banner d-none d-xl-block">
+      <div id="rectangle" class="text-center my-0 mx-auto"></div>
     </div>
 
     <!-- The slideshow -->

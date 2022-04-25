@@ -126,8 +126,8 @@ $path_software =
 		class="carousel slide"
 		data-ride="carousel"
 		>
-		<div class="float-rectangle-banner">
-			<div id="rectangle" class="text-center d-none d-lg-block"></div>
+		<div class="float-rectangle-banner d-none d-xl-block">
+			<div id="rectangle" class="text-center my-0 mx-auto"></div>
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">

@@ -72,34 +72,34 @@
 
             <div class="col-12 col-lg-6">
               <h2 class="text-light " style="font-weight: 900; font-size: 65px;">CONTÁCTANOS</h2>
-              <form action="" method="post" class="ajax" enctype="multipart/form-data">
+              <div>
                 <input type="text"
-                  class="nombre form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre" name="nombre">
+                  class=" form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                  id="nombre" aria-describedby="emailHelp" placeholder="Nombre" >
                 <div class="d-flex">
                   <input type="email"
                     class="correo form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo" name="correo">
+                    id="correo" aria-describedby="emailHelp" placeholder="Correo" name="correo">
                   <input type="numb"
                     class="celular form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Celular" name="celular">
+                    id="celular" aria-describedby="emailHelp" placeholder="Celular" name="celular">
                 </div>
                 <div class="d-flex">
                   <input type="text"
                     class="empresa form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Empresa" name="empresa">
+                    id="empresa" aria-describedby="emailHelp" placeholder="Empresa" name="empresa">
                   <input type="text"
                     class="direccion form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dirección" name="direccion">
+                    id="direccion" aria-describedby="emailHelp" placeholder="Dirección" name="direccion">
                 </div>
                 <input type="text"
                   class="mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="mensaje">
-                <span class="bg-white py-2 px-5 border-0 my-4  font-weight-bold"
-                  style="color: #ED1164; border-radius: 2.2rem;">Enviar mensaje</span>
-                  <div class="success_msg" style="display:none">Message Sent Successfully</div>
+                  id="mensaje" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="mensaje">
+                <button  id="send" type = "submit" class="submitbtn  bg-white py-2 px-5 border-0 my-4  font-weight-bold"
+                  style="color: #ED1164; border-radius: 2.2rem;"> enviar carajo</button>
+                  <div id="succes" class="success_msg" style="display:none">Message Sent Successfully</div>
                   <div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
-              </form>
+             </div>
          
               <div class="h-30">
                 <h4 class="text-yellow font-weight-bold">Nuestras Sedes</h4>

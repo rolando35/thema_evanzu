@@ -411,6 +411,12 @@
 	letter-spacing: 0em;
 }
 
+.group-nav {
+	z-index: 17;
+	position: relative;
+	padding: 1rem;
+}
+
 .texto {
 	position: absolute;
 	top: 65%;
