@@ -72,7 +72,7 @@
 
             <div class="col-12 col-lg-6">
               <h2 class="text-light " style="font-weight: 900; font-size: 65px;">CONTÁCTANOS</h2>
-              <div>
+              <form id="basic-form">
                 <input type="text"
                   class=" form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                   id="nombre" aria-describedby="emailHelp" placeholder="Nombre" >
@@ -99,7 +99,7 @@
                   style="color: #ED1164; border-radius: 2.2rem;"> enviar carajo</button>
                   <div id="succes" class="success_msg" style="display:none">Message Sent Successfully</div>
                   <div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
-             </div>
+  </form>
          
               <div class="h-30">
                 <h4 class="text-yellow font-weight-bold">Nuestras Sedes</h4>
