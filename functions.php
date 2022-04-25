@@ -201,6 +201,8 @@ add_action('wp_ajax_nopriv_dcms_ajax_readmore','dcms_enviar_contenido');
 add_action('wp_ajax_dcms_ajax_readmore','dcms_enviar_contenido');
 add_action('wp_ajax_nopriv_postulate','dcms_enviar_postulacion');
 add_action('wp_ajax_postulate','dcms_enviar_postulacion');
+add_action('wp_ajax_nopriv_cotization','dcms_enviar_cotization');
+add_action('wp_ajax_cotization','dcms_enviar_cotization');
 
 function dcms_enviar_contenido()
 {
@@ -250,13 +252,13 @@ else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 
 function dcms_enviar_postulacion()
 {
-	$fullName = $_POST['fullName'];	
+	$fullname = $_POST['fullname'];
 	$profile = $_POST['profile'];	
 	$phone = $_POST['phone'];	
 	$file = $_POST['file'];	
 	$message = $_POST['message'];
   sleep(1);
-	echo "<span style='color:white; font-size:2rem;'> Hola: ".$fullName." en breve nos comunicaremos, gracias. <span> ";
+	echo "<span style='color:white; font-size:2rem;'> Hola: ".$fullname." en breve nos comunicaremos, gracias. <span> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
@@ -270,7 +272,7 @@ function dcms_enviar_postulacion()
 		<p>Contenido del Email</p>
 		<table>
 		<tr>
-		<th>Nombre Completo: ".$fullName."</th>
+		<th>Nombre Completo: ".$fullname."</th>
 		<th>Perfil: ".$profile."</th>
 		<th>telefono:".$phone."</th>
 		<th>CV:".$file."</th>
@@ -280,7 +282,6 @@ function dcms_enviar_postulacion()
 		</body>
 		</html>
 ";
-
 	// Always set content-type when sending HTML email
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -290,6 +291,43 @@ function dcms_enviar_postulacion()
 	$correo = mail($to,$subject,$message,$headers);
 	if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado <span> ";
 	else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+}
+
+function dcms_enviar_cotization()
+{
+	$website = $_POST['website'];
+	$email = $_POST['email'];	
+  sleep(1);
+	echo "<span style='color:white; font-size:2rem;'> Hola, recibimos tus datos. En breve nos comunicaremos, gracias. <span> ";
+	
+	$to = "rolando@evanzu.com";
+    $subject = "Evanzu contacto";
+
+   $message = "
+    <html>
+    	<head>
+		<title>Email de contactanos EVANZU</title>
+		</head>
+		<body>
+		<p>Contenido del Email</p>
+		<table>
+		<tr>
+		<th>Sitio Web: ".$website."</th>
+		<th>Correo: ".$email."</th>
+		</tr>
+		</table>
+		</body>
+		</html>
+";
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+// More headers
+$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
+$correo = mail($to,$subject,$message,$headers);
+if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado <span> ";
+else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 }
 
 ?>

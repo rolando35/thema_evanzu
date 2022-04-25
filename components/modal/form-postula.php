@@ -8,8 +8,7 @@
     transform: translate(0, 0)
   }
 
-  span.error{ color: red; font-size: 0.8em; }
-
+  span.error{ color: white; font-size: 0.8em; }
   /*.modal.modal-right .modal-content{height:calc(100vh - 0);overflow-y:auto}*/
   .modal.modal-right .modal-dialog {
     transform: translate(100%, 0);
@@ -36,11 +35,11 @@
   .h-30 {
     height: 22rem;
   }
-  #src-file1::before {
+  #file::before {
     content: 'Adjuntar CV';
 }
 
-input[type="file"]#src-file1 {
+input[type="file"]#file {
  width: 0.1px;
  height: 0.1px;
  opacity: 0;
@@ -49,7 +48,7 @@ input[type="file"]#src-file1 {
  z-index: -1;
  }
 
-label[for="src-file1"] {
+label[for="file"] {
     cursor: pointer;
  }
 
@@ -78,7 +77,6 @@ label[for="src-file1"] {
 
 <div id="myModalBottom" class="modal fade modal-right mt-5c pr-0" tabindex="-1">
   <div class="modal-dialog mw-100">
-
     <div class="modal-content" style="height: 100vh">
       <div class="modal-body bg-yellow py-5" style="width: 100%;">
         <div class=" w-100 h-100">
@@ -86,17 +84,22 @@ label[for="src-file1"] {
             <div class="col-12 col-lg-7" style="z-index: 2">
               <h2 class="text-light " style="font-weight: 900; font-size: 50px;">Queremos conocer tu perfil</h2>
               <h5 class="text-light font-weight-light"><i>Déjanos tus datos y te contactámos</i></h5>
-              <form id="form-postula" action="" method="post">
+              <form id="postulation" action="" class="text-left" method="post">
                 <input type="text"
-                  class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="fullName" aria-describedby="emailHelp" placeholder="Nombres y Apellidos">
+                  class="fullname form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                  id="fullname" aria-describedby="emailHelp" placeholder="Nombres y Apellidos" name="fullname">
                 <div class="d-flex">
-                  <input type="text"
-                    class="form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="profile" aria-describedby="emailHelp" placeholder="Perfil profesional">
-                  <input type="numb"
-                    class="form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="phone" aria-describedby="emailHelp" placeholder="Celular">
+                  <div class="w-50">
+                    <input type="text"
+                      class="profile form-control rounded-0 mt-3_5 text-light w-100  input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                      id="profile" aria-describedby="emailHelp" placeholder="Perfil profesional" name="profile">
+                  </div>
+                  <div class="w-50 ml-5">
+                    <input type="numb"
+                      class="phone form-control rounded-0 mt-3_5 text-light w-100 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                      id="phone" aria-describedby="emailHelp" placeholder="Celular" name="phone">
+                  </div>
+                  
                 </div>
                 
                 <div class="mt-3_5">
@@ -124,23 +127,27 @@ label[for="src-file1"] {
                         position-relative
                         "
                         style="z-index: 2"
-                        for="src-file1"
+                        for="file"
                     ></label>
                     <input 
                     lang="es"
                     type="file"
-                    id="src-file1"
+                    id="file"
                     aria-describedby="selectFile"
                     accept=".pdf"
+                    name="file"
+                    class="file"
                     >
                 </div>
                 
                 <input type="text"
-                  class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="message" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje">
-                <button type="submit" id="submit" class="bg-white py-2 px-5 border-0 my-4  font-weight-bold"
+                  class="message form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                  id="message" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="message">
+                <button type="submit" class="submit bg-white py-2 px-5 border-0 my-4  font-weight-bold"
                   style="color: #ED1164; border-radius: 2.2rem;">Enviar mensaje</button>
               </form>
+              <div id="success" class="success_msg" style="display:none">Message Sent Successfully</div>
+              <div class="error_mssg" style="display:none">Message Not Sent, There is some error.</div>
               <!----------------Social---------------->
             </div>
 
@@ -172,3 +179,86 @@ label[for="src-file1"] {
   </div>
 </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+<script>
+
+    (function ($) {
+
+      $("#postulation").validate({
+        rules: {
+            fullname: {
+            required: true,
+            minlength: 6
+          },
+          profile: {
+            required: true,
+          },
+          phone: {
+            required: true,
+            number: true,
+            minlength: 9,
+          },
+          file: {
+            required: true,
+          },
+          message: {
+            required: true,
+            minlength: 20
+          }
+        },
+        messages : {
+            fullname: {
+            required: "Este campo es obligatorio*.",
+            minlength: "Como mínimo tiene que tener 6 caracteres."
+          },
+          profile: {
+              required: "Este campo es obligatorio*.",
+          },
+          phone: {
+            required: "Este campo es obligatorio*.",
+            number: "Por favor ingrese solo valores numéricos.",
+            minlength: 'Tiene que tener 9 dígitos.'
+          },
+          file: {
+            required: "Este campo es obligatorio*.",
+          },
+          message: {
+            required: "Este campo es obligatorio*.",
+            minlength: "Como mínimo tiene que tener 20 caracteres."
+          }
+        },
+        submitHandler: function (e) {
+          var fullname = $("#fullname").val()
+          var profile =  $("#profile").val()
+          var phone =  $("#phone").val()
+          var file =  $("#file").val()
+          var message =  $("#message").val()
+          
+          $.ajax({
+            url: '<?php  echo admin_url('admin-ajax.php') ?>',
+            type: "post",
+            data: {
+              action: "postulate",
+              fullname,
+              profile,
+              phone,
+              file,
+              message
+            },
+            beforeSend: function () {
+              $("#success").show()
+              $("#success").html("<span style='color:white;font-size:2rem;'>Cargando ...</span>")
+            },
+            success: function (resultado) {
+                $("#success").show()
+                $("#success").html(resultado)
+            },
+          });
+          return false
+        },
+        errorElement : 'span'
+      });
+
+})(jQuery);
+</script>
