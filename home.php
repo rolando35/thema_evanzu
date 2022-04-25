@@ -2513,17 +2513,21 @@ Template Name: Home
     </div>
  
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 <script>
 
     (function ($) {
-
+        
+        $("#basic-form").validate();
         $("#send").click(function(){
+            event.preventDefault(); 
          var name = $("#nombre").val();
          var mail =  $("#correo").val(); 
          var phone =  $("#telefono").val(); 
          var business =  $("#empresa").val(); 
          var direction =  $("#direccion").val();       
-         var message = $("#nensaje").val(); 
+         var message = $("#nensaje").val();
+
       $.ajax({
         url: '<?php echo admin_url('admin-ajax.php') ?>',
         type: "post",
@@ -2546,31 +2550,6 @@ Template Name: Home
 
         });
  
-    // $("#send").on("click", function (e) {
-    //   e.preventDefault();
-    //   aler('ko disfuntion')
-
-    // //   link = $(this);
-    // //   id = link.attr("href").replace(/^.*#more-/, "");
-
-    // //   $.ajax({
-    // //     url: dcms_vars.ajaxurl,
-    // //     type: "post",
-    // //     data: {
-    // //       action: "dcms_ajax_readmore",
-    // //       id_post: id,
-    // //     },
-    // //     beforeSend: function () {
-    // //       link.html("Cargando ...");
-    // //     },
-    // //     success: function (resultado) {
-    // //       $("#post-" + id)
-    // //         .find(".entry-content")
-    // //         .html(resultado);
-    // //     },
-    // //   });
-
-    // });
 })(jQuery);
 
 </script>    

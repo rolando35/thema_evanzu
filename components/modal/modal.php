@@ -72,30 +72,19 @@
 
             <div class="col-12 col-lg-6">
               <h2 class="text-light " style="font-weight: 900; font-size: 65px;">CONTÁCTANOS</h2>
-              <div>
-                <form id="basic-form" action="" method="post">
-                  <input
-                    type="text"
-                    class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="name" 
-                    placeholder="Nombre"
-                    name="name">
-                  <div class="d-flex">
-                    <input type="email"
-                      class="correo form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                      id="correo" aria-describedby="emailHelp" placeholder="Correo" name="correo">
-                    <input type="numb"
-                      class="celular form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                      id="celular" aria-describedby="emailHelp" placeholder="Celular" name="celular">
-                  </div>
-                  <div class="d-flex">
-                    <input type="text"
-                      class="empresa form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                      id="empresa" aria-describedby="emailHelp" placeholder="Empresa" name="empresa">
-                    <input type="text"
-                      class="direccion form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                      id="direccion" aria-describedby="emailHelp" placeholder="Dirección" name="direccion">
-                  </div>
+              <form id="basic-form">
+                <input type="text"
+                  class=" form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                  id="nombre" aria-describedby="emailHelp" placeholder="Nombre" >
+                <div class="d-flex">
+                  <input type="email"
+                    class="correo form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    id="correo" aria-describedby="emailHelp" placeholder="Correo" name="correo">
+                  <input type="numb"
+                    class="celular form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    id="celular" aria-describedby="emailHelp" placeholder="Celular" name="celular">
+                </div>
+                <div class="d-flex">
                   <input type="text"
                     class="mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                     id="mensaje" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="mensaje">
@@ -104,7 +93,7 @@
                 </form>
                   <div id="succes" class="success_msg" style="display:none">Message Sent Successfully</div>
                   <div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
-             </div>
+  </form>
          
               <div class="h-30">
                 <h4 class="text-yellow font-weight-bold">Nuestras Sedes</h4>
