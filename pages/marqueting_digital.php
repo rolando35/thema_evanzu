@@ -23,6 +23,75 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     background: red;
     height: 900px;
   }
+
+
+
+.develop-title{
+  font-family: running-text;
+  font-size: 2.7rem; 
+  line-height: 119px; 
+  color: #FFFFFF;
+  margin-bottom: -2.8rem;
+}
+
+.text-paragraph {
+    font-family: Hurme Geometric Sans 4;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 4.2rem;
+    margin: 0;
+    margin-bottom: -2.5rem;
+}
+
+.text-paragraph2 {
+    font-family: Hurme Geometric Sans 4;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 5.25rem;
+    margin: 0;
+    margin-bottom: -9px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .text-paragraph {
+		font-size: 2.2rem !important;
+    line-height: 6rem;
+  }
+	.text-paragraph2 {
+    font-size: 3.25rem;
+	}
+.develop-title{
+  font-size: 1.7rem;
+  line-height: 4rem;
+	}
+}
+
+  @media only screen and (max-width: 870px) {
+  .text-paragraph {
+		font-size: 2.2rem !important;
+    line-height: 6rem;
+  }
+	.text-paragraph2 {
+    font-size: 3.25rem;
+	}
+	.develop-title{
+  font-size: 1.7rem;
+  line-height: 4rem;
+	}
+}
+
+  @media only screen and (max-width: 669px) {
+	.flex-colum {
+		max-width: none;
+	}
+	.carousel-caption{
+		top: 1rem !important;
+	} 
+	.carousel-item > img {
+		height: 25rem !important;
+	}
+}
 </style>
 
 <section id="slider">
@@ -41,14 +110,35 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="<?php echo get_option("evanzu")["carrusell-image-one"]; ?>">
+        <img class="w-100" src="<?php echo get_option("evanzu")["carrusell-image-one"]; ?>">
+          	<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
+					<div class="col-8 flex-colum text-left p-0">
+            <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
+            <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
+            <div class="d-flex align-center">
+              <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
+              <img
+								src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
+								/>
+            </div>
+						<div class="text-subtitle-btl">
+                Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
+						</div>
+              <div class="mt-3 text-left">
+                Quieres resultados. 
+                <button class="btn-btl">
+                  <span>¡Desafíanos con tu proyecto!</span>
+                </button>
+              </div>
+						</div>
+					</div>	
       </div>
       <div class="carousel-item">
         <img src="<?php echo get_option("evanzu")["carrusell-image-two"]; ?>">
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <img src="<?php echo get_option("evanzu")["carrusell-image-one"]; ?>">
-      </div>
+      </div> -->
     </div>
 
     <!-- Left and right controls -->
@@ -146,329 +236,124 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 </p>
 
                 <img
-                  src="<?php echo get_template_directory_uri() ?>/assets/images/laptop-publicidad-digital.svg"
-                  alt=""
+                  src="<?php echo get_template_directory_uri() ?>/assets/images/laptop-publicidad-digital-marketing.svg"
+                  alt="Marketing digital evanzu"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div>
-          <div class="big-title text-red my-4 text-center">
-            El servicio incluye:
+         <!--------------------bola-Left------------------------->
+        <?php
+                 get_template_part('components/border-circle','full', array('color' =>
+        '#ED1164', 'position' => '')); ?>
+        <!--------------------bola-Left------------------------->
+
+        <div class="section-service">
+          <div class="big-title text-red text-center">El servicio incluye:</div>
+
+          <div class="text-center">
+            <svg
+              width="80"
+              height="4"
+              viewBox="0 0 80 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
+                fill="#FBC000"
+              />
+            </svg>
           </div>
-          <div>
-            <div class="d-flex justify-content-center">
-              <div>
-                <div class="mb-1">
-                  <div class="d-inline-block">
-                    <img
-                      src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/first-icon-service.svg"
-                    />
-                  </div>
-                  <div class="d-inline-block ml-1">
-                    Plan de medios digitales <br />
+
+          <div class="container">
+            <div class="d-flex flex-column align-items-center mb-n1-5">
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                  $directory_imgs."first-icon-service.svg", 'text' => '<strong>Plan de medios digitales</strong> <br />
                     (definir los canales con los <br />
-                    que tu público interactúa)
-                  </div>
+                    que tu público interactúa)', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
+                  <div class="element-center-service"></div>
                 </div>
-                <div class="ml-5">
-                  <img
-                    class="pl-2"
-                    src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-                  />
-                </div>
-              </div>
-              <div>
-                <div>
-                  <svg
-                    width="10"
-                    height="114"
-                    viewBox="0 0 7 56"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-                      fill="#ED1164"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <svg
-                    width="19"
-                    height="19"
-                    viewBox="0 0 18 19"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-                  </svg>
-                </div>
-                <div>
-                  <svg
-                    width="18"
-                    height="19"
-                    viewBox="0 0 18 19"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      r="9"
-                      transform="matrix(-1 0 0 1 9 9.5)"
-                      fill="#FBC000"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <div class="mb-1 mt-5">
-                  <div class="d-inline-block ml-1">
-                    Definir el <strong>formato </strong> <br />
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $directory_imgs."secon-icon-righ.svg", 'text' => 'Definir el <strong>formato </strong> <br />
                     de <strong>publicidad</strong> adecuado.
-                  </div>
-                  <div class="d-inline-block ml-4">
-                    <img
-                      src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/secon-icon-righ.svg"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <svg
-                    width="290"
-                    height="23"
-                    viewBox="0 0 290 26"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-                      stroke="#FBC000"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-dasharray="6 6"
-                    />
-                  </svg>
-                </div>
+                ',
+                'line' => $directory_imgs."line-point-yellow.svg" ) ); ?>
               </div>
-            </div>
 
-            <div class="d-flex justify-content-center">
-              <div>
-                <div class="mb-1">
-                  <div class="d-inline-block">
-                    <img
-                      src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/contain-define.svg"
-                    />
-                  </div>
-                  <div class="d-inline-block ml-1">
-                    <strong>
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $directory_imgs."contain-define.svg", 'text' => ' <strong>
                       Definición de contenidos <br />
                       publicitarios</strong
                     >
                     (Mensaje y <br />
-                    gráfica o audiovisual).
-                  </div>
-                </div>
-                <div class="ml-5">
-                  <img
-                    class="pl-2"
-                    src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-                  />
-                </div>
-              </div>
-              <div>
-                <div>
-                  <svg
-                    width="10"
-                    height="114"
-                    viewBox="0 0 7 56"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-                      fill="#ED1164"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <svg
-                    width="19"
-                    height="19"
-                    viewBox="0 0 18 19"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-                  </svg>
-                </div>
-                <div>
-                  <svg
-                    width="18"
-                    height="19"
-                    viewBox="0 0 18 19"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      r="9"
-                      transform="matrix(-1 0 0 1 9 9.5)"
-                      fill="#FBC000"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <div class="mb-1 mt-3">
-                  <div class="d-inline-block ml-1">
-                    <strong
+                    gráfica o audiovisual).', 'line' =>
+                $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service"></div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                  $directory_imgs."deploy-configuration.svg", 'text' => ' <strong
                       >Despliegue y configuración <br />
                       de la campaña en la
                     </strong>
-                    <br />plataforma seleccionada.
-                  </div>
-                  <div class="d-inline-block">
-                    <img
-                      src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/deploy-configuration.svg"
-                    />
-                  </div>
-                </div>
+                    <br />plataforma seleccionada.', 'line' => $directory_imgs."line-point-yellow.svg" ) ); ?>
+              </div>
 
-                <div>
-                  <svg
-                    width="290"
-                    height="24"
-                    viewBox="0 0 290 26"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-                      stroke="#FBC000"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-dasharray="6 6"
-                    />
-                  </svg>
+               <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                  $directory_imgs."rocket-optimisation.svg", 'text' => '<strong>Optimización</strong> de la <br />campaña 
+                .', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
                 </div>
-              </div>
-            </div>
-
-            <div class="d-flex justify-content-center">
-              <div>
-                <div class="mb-1">
-                  <div class="d-inline-block">
-                    <img
-                      src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/rocket-optimisation.svg"
-                    />
-                  </div>
-                  <div class="d-inline-block ml-2">
-                    <strong>Optimización</strong> de la <br />campaña.
-                  </div>
-                </div>
-                <div class="ml-5">
-                  <img
-                    class="pl-2"
-                    src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/ponit-line-red.svg"
-                  />
-                </div>
-              </div>
-              <div>
-                <div>
-                  <svg
-                    width="10"
-                    height="114"
-                    viewBox="0 0 7 56"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0 3.5C0 1.567 1.567 0 3.5 0C5.433 0 7 1.567 7 3.5V52.5C7 54.433 5.433 56 3.5 56C1.567 56 0 54.433 0 52.5V3.5Z"
-                      fill="#ED1164"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <svg
-                    width="19"
-                    height="19"
-                    viewBox="0 0 18 19"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="9" cy="9.5" r="9" fill="#ED1164" />
-                  </svg>
-                </div>
-                <div>
-                  <svg
-                    width="18"
-                    height="19"
-                    viewBox="0 0 18 19"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      r="9"
-                      transform="matrix(-1 0 0 1 9 9.5)"
-                      fill="#FBC000"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <div class="ml-5 mt-5">
-                  <div class="d-inline-block ml-1 mr-5">
-                    <strong
+                    <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                  $directory_imgs."periodic-reports.svg", 'text' => ' <strong
                       >Reportes <br />
                       periódicos.</strong
                     >
-                  </div>
-                  <div class="d-inline-block ml-5">
-                    <img
-                      src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/periodic-reports.svg"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <svg
-                    width="290"
-                    height="24"
-                    viewBox="0 0 290 26"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0.999998 24.5L288 24.5C288.552 24.5 289 24.0523 289 23.5L289 1"
-                      stroke="#FBC000"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-dasharray="6 6"
-                    />
-                  </svg>
-                </div>
+                ', 'line' => $directory_imgs."line-point-yellow.svg" ) ); ?>
               </div>
-            </div>
 
-            <div class="d-flex justify-content-center">
-              <div class="d-inline-block ml-5">
-                <img
-                  src="<?php echo get_template_directory_uri() ?>/assets/images/marketing-digital/root-tree.svg"
-                />
+             
+              <div class="d-none d-lg-flex">
+                <div
+                  class="container-center-service element-final-center"
+                ></div>
               </div>
             </div>
           </div>
+            
         </div>
-        <div class="bg-red py-5">
-          <?php  
-                                      $parameters = array ('svg' =>
-          $directory_imgs.'form-quote-request.svg','title'=> 'Crece
-          exponencialmente');
-          get_template_part('components/form-quote-request','full', $parameters
-          ); ?>
-        </div>
+         <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
+                 <img  class="" src="<?php echo $directory_imgs;?>root-tree.svg">
+          </div>
+
+        <!-----------------------Contanct----------------------------->
+            <?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $directory_imgs.'form-quote-request.svg',
+        'title' => '¡Empecemos ahora!',
+    ]); ?>                
+        <!-----------------------Contanct----------------------------->
       </div>
       <!------------REDES SOCIALES ------------>
       <div id="redes_sociales" class="tab-pane fade">
@@ -880,13 +765,158 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
      
       </div>
       <!------------Growth hacking ------------>
-      <div id="menu3" class="container tab-pane fade">
-        <br />
-        <h3>Menu 3</h3>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam.
-        </p>
+      <div id="menu3" class="tab-pane fade">
+          <br />
+        <!----------------------Main---------------------->
+        <section class="p-0">
+          <div class="bg-light-gray py-0">
+            <div class="big-title text-red my-2 text-center">
+              Gestión de Redes Sociales
+            </div>
+            <!-------------------Card---------------------->
+            <div class="py-2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                    <img
+                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-10 col-lg-6">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body">
+                        <h3 class="subtitle-marketing text-gray-black text-left p-1">
+                         Impacta para crecer
+                        </h3>
+                        <p class="text-justify text-light-gray p-1">
+                           Desarrollamos técnicas y estrategias para lograr un <strong>rápido crecimiento de tu marca </strong>, así lograremos incrementar de forma notoria el volumen de clientes, usuarios y presencia de marca.</p> 
+                          <p class="text-justify text-light-gray p-1">
+                          Partimos de un conocimiento profundo de la empresa y su audiencia para tomar decisiones inteligentes que logren mucho sin invertir de más.  </p>
+                          <p class="text-justify text-light-gray p-1">
+                          Nuestras habilidades integrales nos permiten crear formas de llegar a más personas de una manera viral.
+
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+
+           
+          </div>
+        </section>
+        <!----------------------Main---------------------->
+
+        <!--------------------bola-Left------------------------->
+        <?php
+                 get_template_part('components/border-circle','full', array('color' =>
+        '#ED1164', 'position' => '')); ?>
+        <!--------------------bola-Left------------------------->
+
+        <!-----------------------Service----------------------------->
+        <div class="section-service">
+          <div class="big-title text-red text-center">El servicio incluye:</div>
+
+          <div class="text-center">
+            <svg
+              width="80"
+              height="4"
+              viewBox="0 0 80 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
+                fill="#FBC000"
+              />
+            </svg>
+          </div>
+
+          <div class="container">
+            <div class="d-flex flex-column align-items-center mb-n1-5">
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                  $directory_imgs."first-icon-service.svg", 'text' => '<strong
+                  >Plan de comunicaciones</strong
+                >
+                para cada red social.', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
+                  <div class="element-center-service"></div>
+                </div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $directory_imgs."plan-contenidos.svg", 'text' => '<strong
+                  >Plan de contenidos</strong
+                >
+                ',
+                'line' => $directory_imgs."line-point-yellow.svg" ) ); ?>
+              </div>
+
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $directory_imgs."plan-grafico.svg", 'text' => '<strong
+                  >Plan gráfico</strong
+                >
+                <br />
+                   Banners, gifs, micro videos, spots publicitarios y otros.', 'line' =>
+                $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service"></div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                  $directory_imgs."comuniti-manager.svg", 'text' => '<strong
+                  >Community management</strong
+                >
+                Interacción con los usuarios, concursos y promociones.', 'line' => $directory_imgs."line-point-yellow.svg" ) ); ?>
+              </div>
+
+               <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                  $directory_imgs."reporte-mensual.svg", 'text' => '<strong
+                  >Reportes mensuales de resultados.</strong
+                >
+                .', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
+                 
+                </div>
+                  <div class="spacing-services-rigth"></div>
+              </div>
+              <div class="d-none d-lg-flex">
+                <div
+                  class="container-center-service element-final-center"
+                ></div>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+        <!-----------------------Service----------------------------->
+         <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
+                 <img  class="" src="<?php echo $directory_imgs;?>Publicidad digital.png">
+              </div>
+        <!-----------------------Contanct----------------------------->
+              <?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $directory_imgs.'form-quote-request.svg',
+        'title' => '¡Empecemos ahora!',
+    ]); ?>                
+        <!-----------------------Contanct----------------------------->
+
       </div>
       <!------------Marketing de contenidos ------------>
       <div id="menu4" class="container tab-pane fade">
