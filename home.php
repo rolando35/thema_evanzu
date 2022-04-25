@@ -31,7 +31,6 @@ Template Name: Home
         justify-content: center;
     }
 
-
     @media only screen and (max-width: 440px) {
         .image-sup {
         margin-top: -5rem;
@@ -2487,41 +2486,146 @@ Template Name: Home
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 <script>
 
-    (function ($) {
+    // (function ($) {
         
-        $("#basic-form").validate();
-        $("#send").click(function(){
-            event.preventDefault(); 
-         var name = $("#nombre").val();
-         var mail =  $("#correo").val(); 
-         var phone =  $("#telefono").val(); 
-         var business =  $("#empresa").val(); 
-         var direction =  $("#direccion").val();       
-         var message = $("#nensaje").val();
+    //     $("#basic-form").validate({
+    //     rules: {
+    //        nombre : {
+    //         required: true,
+    //         minlength: 3
+    //        },
+    //        correo: {
+    //          required: true,
+    //          email: true
+    //        },
+    //        celular: {
+    //         required: true,
+    //         number: true
+    //        }
+    //     },
+    //     messages : {
+    //       nombre: {
+    //         required: "Este campo es obligatorio*.",
+    //         minlength: "Como mínimo tiene que tener 3 caracteres"
+    //       },
+    //        correo: {
+    //           required: "Este campo es obligatorio*.",
+    //           email: "El correo tiene que tener un formato: abc@domain.tld"
+    //        },
+    //        celular: {
+    //          required: "Este campo es obligatorio*.",
+    //          number: "Por favor ingrese solo valores numéricos"
+    //        }
+    //     },
+    //     submitHandler: function (e) {
+    //       var name = $("#nombre").val();
+    //       var mail =  $("#correo").val()
+    //       var phone =  $("#telefono").val()
+    //       var business =  $("#empresa").val()
+    //       var direction =  $("#direccion").val()
+    //       var message = $("#nensaje").val();
+          
+    //       $.ajax({
+    //         url: '<?php // echo admin_url('admin-ajax.php') ?>',
+    //         type: "post",
+    //         data: {
+    //           action: "dcms_ajax_readmore",
+    //           nombre: name,
+    //           correo:mail,
+    //           telefono:phone,
+    //           empresa: business,
+    //           direccion: direction,
+    //           mensaje: message
+    //         },
+    //         beforeSend: function () {
+    //            $("#succes").show()
+    //            $("#succes").html("<span style='color:white;font-size:2rem;'>Cargando ...</span>")
+    //         },
+    //         success: function (resultado) {
+    //             $("#succes").show(); 
+    //             $("#succes").html(resultado);
+    //         },
+    //       });
+    //       return false
+    //     },
+    //     errorElement : 'span'
+    //   });
 
-      $.ajax({
-        url: '<?php echo admin_url('admin-ajax.php') ?>',
-        type: "post",
-        data: {
-          action: "dcms_ajax_readmore",
-          nombre: name,
-          correo:mail,
-          telefono:phone,
-        },
-        beforeSend: function () {
-           $("#succes").show(); 
-           $("#succes").html("<span style='color:white;font-size:2rem;'>Cargando ...</span>"); 
-        },
-        success: function (resultado) {
-             $("#succes").show(); 
-           $("#succes").html(resultado);    
-        },
-      });
+    //   FORM POSTULA
+        // $("#basic-form").validate({
+        // rules: {
+        //     fullName : {
+        //     required: true,
+        //     minlength: 6
+        //    },
+        //    profile: {
+        //      required: true,
+        //    },
+        //    phone: {
+        //     required: true,
+        //     number: true
+        //    },
+        //    src-file1: {
+        //     required: true,
+        //    },
+        //    message: {
+        //     required: true,
+        //     minlength: 20
+        //    }
+        // },
+        // messages : {
+        //     fullName: {
+        //     required: "Este campo es obligatorio*.",
+        //     minlength: "Como mínimo tiene que tener 6 caracteres"
+        //   },
+        //   profile: {
+        //       required: "Este campo es obligatorio*.",
+        //    },
+        //    phone: {
+        //      required: "Este campo es obligatorio*.",
+        //      number: "Por favor ingrese solo valores numéricos"
+        //    },
+        //    src-file1: {
+        //      required: "Este campo es obligatorio*.",
+        //    },
+        //    message: {
+        //      required: "Este campo es obligatorio*.",
+        //      minlength: "Como mínimo tiene que tener 20 caracteres"
+        //    }
+        // },
+        // submitHandler: function (e) {
+        //   var fullName = $("#fullName").val()
+        //   var profile =  $("#profile").val()
+        //   var phone =  $("#phone").val()
+        //   var file =  $("#src-file1").val()
+        //   var message =  $("#message").val()
+          
+        //   $.ajax({
+        //     url: '<?php // echo admin_url('admin-ajax.php') ?>',
+        //     type: "post",
+        //     data: {
+        //       action: "postulate",
+        //       fullName: fullName,
+        //       profile: profile,
+        //       phone: phone,
+        //       file: file,
+        //       message: message
+        //     },
+        //     beforeSend: function () {
+        //        $("#succes").show()
+        //        $("#succes").html("<span style='color:white;font-size:2rem;'>Cargando ...</span>")
+        //     },
+        //     success: function (resultado) {
+        //         $("#succes").show()
+        //         $("#succes").html(resultado)
+        //     },
+        //   });
+        //   return false
+        // },
+//         errorElement : 'span'
+//       });
 
-
-        });
- 
-})(jQuery);
+// })(jQuery);
 
 </script>    
 <?php get_footer(); ?>

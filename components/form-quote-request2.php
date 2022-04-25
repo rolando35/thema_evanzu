@@ -1,3 +1,6 @@
+<style>
+	p.error{ color: red; font-size: 0.8em; }
+</style>
 <div class="bg-red box-container-contact">
 	<?php
         $directory_points = get_template_directory_uri() . '/assets/images/form-quote-request/point-group.svg';
@@ -27,32 +30,39 @@
 					</div>
 				</div>
 
-				<div
-					class="row bg-white rounded-pill row-second flex-column flex-lg-row align-content-center"
-				>
+				<form action="" id="chalking" class="row bg-white rounded-pill row-second flex-column flex-lg-row align-content-center">
 					<div
 						class="d-flex pt-3 pb-1 pt-md-2 pt-lg-0 pb-lg-0 w-80 flex-column flex-lg-row align-items-center justify-content-center"
 					>
 						<div
-							class="input-group input-group-contact d-flex flex-column flex-lg-row"
+							class="input-group input-group-contact d-flex flex-column flex-lg-row justify-content-between"
 						>
-							<input
-								type="text"
-								placeholder="Sitio Web"
-								class="input-non-border form-control w-100 input-contact"
-							/>
-							<input
-								type="text "
-								placeholder="E-mail"
-								class="input-non-border form-control w-100 input-contact"
-							/>
+							<div class="w-50">
+								<input
+									type="text"
+									id="website"
+									placeholder="Sitio Web"
+									class="website input-non-border form-control w-100"
+									name="website"
+								/>
+							</div>
+							<div class="w-50">
+								<input
+									type="text"
+									id="email"
+									placeholder="E-mail"
+									class="email input-non-border form-control w-100"
+									name="email"
+								/>
+							</div>
 						</div>
 					</div>
 
 					<div class="text-center">
 						<button
-							type="button"
-							class="btn rounded-pill text-white my-1 p-2 btn-sm button-contact"
+							type="submit"
+							class="submit btn rounded-pill text-white my-1 p-2 btn-sm button-contact"
+							id="submit"
 						>
 							<span><strong>Solicita tu cotización</strong></span>
 
@@ -79,8 +89,66 @@
 							</svg>
 						</button>
 					</div>
-				</div>
+				</form>
+				<div id="successfully" class="success_msg" style="display:none; font-size: 1rem">Message Sent Successfully</div>
+				<div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+<script>
+
+    (function ($) {
+        
+        $("#chalking").validate({
+        rules: {
+           website : {
+            required: true,
+            minlength: 10
+           },
+           email: {
+             required: true,
+             email: true
+           }
+        },
+        messages : {
+          website: {
+            required: "Este campo es obligatorio*.",
+            minlength: "Como mínimo tiene que tener 10 caracteres"
+          },
+           email: {
+              required: "Este campo es obligatorio*.",
+              email: "El correo tiene que tener un formato: abc@domain.tld"
+           }
+        },
+        submitHandler: function (e) {
+          var website = $("#website").val();
+          var email =  $("#email").val()
+          
+          $.ajax({
+            url: '<?php echo admin_url('admin-ajax.php') ?>',
+            type: "post",
+            data: {
+              action: "cotization",
+              website,
+              email
+            },
+            beforeSend: function () {
+               $("#successfully").show()
+               $("#successfully").html("<span style='color:white;font-size:1rem;'>Cargando ...</span>")
+            },
+            success: function (resultado) {
+                $("#successfully").show(); 
+                $("#successfully").html(resultado);
+            },
+          });
+          return false
+        },
+        errorElement : 'p'
+      });
+
+    })(jQuery);
+
+</script> 

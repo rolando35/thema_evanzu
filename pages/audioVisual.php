@@ -347,17 +347,17 @@ h5 {
 			</div>
 
       <div class='w-100 text-right' style="margin-bottom: -10rem">
-         <?php
-           $parameters = [
-               'color' => '#019B69',
-               'position' => 'right',
-           ];
-           get_template_part(
-               'components/border-circle',
-               'full',
-               $parameters
-           );
-         ?>
+          <?php
+            $parameters = [
+                'color' => '#019B69',
+                'position' => 'right',
+            ];
+            get_template_part(
+                'components/border-circle',
+                'full',
+                $parameters
+            );
+          ?>
       </div>
       <div class='mt-5'>
         <!-----------------------Contact----------------------------->
@@ -375,7 +375,7 @@ h5 {
 
       <div class="bg-white big-title text-center text-red">Ofrecemos</div>
       <div class='py-5 my-5 pl-5'>
-       <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
+        <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
         </div>
         <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
