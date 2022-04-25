@@ -54,13 +54,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		color: #808080;
 	}
 
-	.group-nav  {
-		z-index: 17;
-		position: relative;
-		padding: 1rem;
-		/* width: 100%; */
-		/* margin: -2.5rem auto 0; */
-	}
 </style>
 
 <section id="slider" class="section-slider-btl">
@@ -74,7 +67,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active d-flex align-items-center">
-				<img
+
+				<!-- <img
 					src="<?php echo get_template_directory_uri()?>/assets/images/btl/Servicio-ActivacionBTL2.png;"
 					alt="Los Angeles"
 					class="w-100 d-none d-sm-block d-md-none"
@@ -93,7 +87,14 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					alt="Los Angeles"
 					class="w-100 d-sm-none"
 					style="max-height: 25rem;"
-				/>					
+				/>					 -->
+
+				<img
+					src="<?php echo get_template_directory_uri()?>/assets/images/btl/btl-slider.jpg;"
+					alt="Los Angeles"
+					class="w-100"
+					style="min-height: 25rem;"
+				/>
 
 				<div class="carousel-caption" style="bottom: auto; left: 10%;">
 					<div class="row">
