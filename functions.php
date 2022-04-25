@@ -199,12 +199,21 @@ function dcms_insertar_js(){
 //Devolver datos a archivo js
 add_action('wp_ajax_nopriv_dcms_ajax_readmore','dcms_enviar_contenido');
 add_action('wp_ajax_dcms_ajax_readmore','dcms_enviar_contenido');
+add_action('wp_ajax_nopriv_postulate','dcms_enviar_postulacion');
+add_action('wp_ajax_postulate','dcms_enviar_postulacion');
+add_action('wp_ajax_nopriv_cotization','dcms_enviar_cotization');
+add_action('wp_ajax_cotization','dcms_enviar_cotization');
 
 function dcms_enviar_contenido()
 {
 	$name = $_POST['nombre'];	
+	$correo = $_POST['correo'];	
+	$telefono = $_POST['telefono'];	
+	$empresa = $_POST['empresa'];	
+	$direccion = $_POST['direccion'];	
+	$mensaje = $_POST['mensaje'];	
     sleep(1);
-	echo "<span style='color:white; font-size:2rem;'> Hola: ".$name ." en breve nos comunicaremos, gracias. <span> ";
+	echo "<span style='color:white; font-size:2rem;'> Hola: ".$name." en breve nos comunicaremos, gracias. <span> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
@@ -212,24 +221,104 @@ function dcms_enviar_contenido()
    $message = "
     <html>
     	<head>
-		<title>HTML email</title>
+		<title>Email de contactanos EVANZU</title>
 		</head>
 		<body>
-		<p>This email contains HTML Tags!</p>
+		<p>Contenido del Email</p>
 		<table>
 		<tr>
-		<th>Firstname</th>
-		<th>Lastname</th> 
-		</tr>
-		<tr>
-		<td>John</td>
-		<td>Doe</td>
+		<th>nombre: ".$name."</th>
+		<th>correo: ".$correo."</th>
+		<th>telefono:".$telefono."</th>
+		<th>empresa:".$empresa."</th>
+		<th>direccion:".$direccion."</th>
+		<th>mensaje:".$mensaje."</th>
 		</tr>
 		</table>
 		</body>
 		</html>
 ";
 
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+// More headers
+$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
+$correo = mail($to,$subject,$message,$headers);
+if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado <span> ";
+else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+}
+
+function dcms_enviar_postulacion()
+{
+	$fullname = $_POST['fullname'];
+	$profile = $_POST['profile'];	
+	$phone = $_POST['phone'];	
+	$file = $_POST['file'];	
+	$message = $_POST['message'];
+  sleep(1);
+	echo "<span style='color:white; font-size:2rem;'> Hola: ".$fullname." en breve nos comunicaremos, gracias. <span> ";
+	
+	$to = "rolando@evanzu.com";
+    $subject = "Evanzu contacto";
+
+   $message = "
+    <html>
+    	<head>
+		<title>Email de contactanos EVANZU</title>
+		</head>
+		<body>
+		<p>Contenido del Email</p>
+		<table>
+		<tr>
+		<th>Nombre Completo: ".$fullname."</th>
+		<th>Perfil: ".$profile."</th>
+		<th>telefono:".$phone."</th>
+		<th>CV:".$file."</th>
+		<th>mensaje:".$message."</th>
+		</tr>
+		</table>
+		</body>
+		</html>
+";
+	// Always set content-type when sending HTML email
+	$headers = "MIME-Version: 1.0" . "\r\n";
+	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+	// More headers
+	$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
+	$correo = mail($to,$subject,$message,$headers);
+	if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado <span> ";
+	else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+}
+
+function dcms_enviar_cotization()
+{
+	$website = $_POST['website'];
+	$email = $_POST['email'];	
+  sleep(1);
+	echo "<span style='color:white; font-size:2rem;'> Hola, recibimos tus datos. En breve nos comunicaremos, gracias. <span> ";
+	
+	$to = "rolando@evanzu.com";
+    $subject = "Evanzu contacto";
+
+   $message = "
+    <html>
+    	<head>
+		<title>Email de contactanos EVANZU</title>
+		</head>
+		<body>
+		<p>Contenido del Email</p>
+		<table>
+		<tr>
+		<th>Sitio Web: ".$website."</th>
+		<th>Correo: ".$email."</th>
+		</tr>
+		</table>
+		</body>
+		</html>
+";
 // Always set content-type when sending HTML email
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
