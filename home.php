@@ -2374,7 +2374,7 @@ Template Name: Home
                     >
                         <img
                         class="image-sup"
-                        src="<?php echo get_site_url();?>/wp-content/themes/theme_evanzu/assets/images/button-open-form.svg" 
+                        src="<?php echo get_template_directory_uri()?>/assets/images/button-open-form.svg" 
                         alt="Imagen de postula" 
                         >
                     </div>
