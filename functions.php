@@ -36,8 +36,6 @@ wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.3.1/css/al
 
 //llamar al archivo de custimización
 
-
-
 require_once(trailingslashit(get_template_directory()) . 'inc/customize.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_marketing.php');
 require_once(trailingslashit(get_template_directory()) . 'inc/customize_software.php');
@@ -182,4 +180,65 @@ if (!function_exists('marabelia_menus')) { // Register Navigation Menus
 	}
 	add_action('init', 'marabelia_menus');
 }
+
+
+////////formulario de envio/////
+
+
+// Insertar Javascript js y enviar ruta admin-ajax.php
+add_action('wp_enqueue_scripts', 'dcms_insertar_js');
+
+function dcms_insertar_js(){
+	// if (!is_home()) return;
+	wp_register_script('dcms_miscript',get_stylesheet_directory_uri(). '/assets/js/script.js', array('jquery'), '1', true );
+	wp_enqueue_script('dcms_miscript');
+	wp_localize_script('dcms_miscript','dcms_vars',['ajaxurl'=>admin_url('admin-ajax.php')]);
+}
+
+
+//Devolver datos a archivo js
+add_action('wp_ajax_nopriv_dcms_ajax_readmore','dcms_enviar_contenido');
+add_action('wp_ajax_dcms_ajax_readmore','dcms_enviar_contenido');
+
+function dcms_enviar_contenido()
+{
+	$name = $_POST['nombre'];	
+    sleep(1);
+	echo "<span style='color:white; font-size:2rem;'> Hola: ".$name ." en breve nos comunicaremos, gracias. <span> ";
+	
+	$to = "rolando@evanzu.com";
+    $subject = "Evanzu contacto";
+
+   $message = "
+    <html>
+    	<head>
+<title>HTML email</title>
+</head>
+<body>
+<p>This email contains HTML Tags!</p>
+<table>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th> 
+</tr>
+<tr>
+<td>John</td>
+<td>Doe</td>
+</tr>
+</table>
+</body>
+</html>
+";
+
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+// More headers
+$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
+$correo = mail($to,$subject,$message,$headers);
+if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado <span> ";
+else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+}
+
 ?>

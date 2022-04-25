@@ -2508,29 +2508,70 @@ Template Name: Home
       </div>
       <div id="lef-ultimate-box" class="col-sm-6">
       
-         
-    
        </div>
-
-         
+        
     </div>
  
-
-
 </section>
+<script>
 
+    (function ($) {
 
-<!-- <script>
-    jQuery(window).load(function() {
-        jQuery('.ladrillo').masonry({
-            gutter: 16,
-            horizontalOrder: false,
+        $("#send").click(function(){
+         var name = $("#nombre").val();
+         var mail =  $("#correo").val(); 
+         var phone =  $("#telefono").val(); 
+         var business =  $("#empresa").val(); 
+         var direction =  $("#direccion").val();       
+         var message = $("#nensaje").val(); 
+      $.ajax({
+        url: '<?php echo admin_url('admin-ajax.php') ?>',
+        type: "post",
+        data: {
+          action: "dcms_ajax_readmore",
+          nombre: name,
+          correo:mail,
+          telefono:phone,
+        },
+        beforeSend: function () {
+           $("#succes").show(); 
+           $("#succes").html("<span style='color:white;font-size:2rem;'>Cargando ...</span>"); 
+        },
+        success: function (resultado) {
+             $("#succes").show(); 
+           $("#succes").html(resultado);    
+        },
+      });
+
 
         });
-    })
-</script> -->
+ 
+    // $("#send").on("click", function (e) {
+    //   e.preventDefault();
+    //   aler('ko disfuntion')
 
+    // //   link = $(this);
+    // //   id = link.attr("href").replace(/^.*#more-/, "");
 
+    // //   $.ajax({
+    // //     url: dcms_vars.ajaxurl,
+    // //     type: "post",
+    // //     data: {
+    // //       action: "dcms_ajax_readmore",
+    // //       id_post: id,
+    // //     },
+    // //     beforeSend: function () {
+    // //       link.html("Cargando ...");
+    // //     },
+    // //     success: function (resultado) {
+    // //       $("#post-" + id)
+    // //         .find(".entry-content")
+    // //         .html(resultado);
+    // //     },
+    // //   });
 
+    // });
+})(jQuery);
 
+</script>    
 <?php get_footer(); ?>
