@@ -2421,52 +2421,10 @@ Template Name: Home
     <br>excepcionales y medibles</p>  -->
 </div>
 
-<!-- <div class="container-fluid">
-  <div class="row my-5 mx-5">
-    <div class="col-sm-3">
-      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-07-1.png" alt="2" width="266px" height="186px">
-      <div class="texto"><strong id="witheng" class="text-white">Cuéntanos tus necesidades y lo que</strong> <strong class="text-red" id="heading">quieres lograr.</strong></div>
-    </div>
-    <div class="col-sm-3">
-      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-08.png" alt="2" width="266px" height="186px">
-      <div class="texto"><strong id="heading2" class="text-gray">Analizaremos tu caso</strong> y la información del mercado.</div>
-    </div>
-    <div class="col-sm-3">
-    <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-09.png" alt="3" width="266px" height="186px"> 
-    <div class="texto"><strong id="witheng" class="text-white" >presentamos una propuesta con las</strong> <strong id="heading" class="text-red">soluciones más creativas</strong> <strong id="witheng" class="text-white">para conseguir tu objetivo.</strong></div>     
-    </div>
-    <div class="col-sm-3">
-      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-10.png" alt="4" width="266px" height="186px"> 
-      <div class="texto"><strong id="heading2" class="text-gray">Ejecutamos el plan</strong> con responsabilidad y profesionalismo.</div>     
-    </div>
-  </div>
-</div> -->
+ 
 
 
-<div class="my-5 mx-auto">
-  <div class="d-flex justify-content-center flex-wrap">
-    <div class="m-sm-1 m-md-2 position-relative">
-      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-07-1.png" alt="2" width="266px" height="186px">
-      <div class="note-btl top-note-home"><strong id="witheng" class="text-white">Cuéntanos tus necesidades y lo que</strong> <strong class="text-red" id="heading">quieres lograr.</strong></div>
-    </div>
-    <div class="m-sm-1 m-md-2 position-relative">
-      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-08.png" alt="2" width="266px" height="186px">
-      <div class="note-btl top-note-home"><strong id="heading2" class="text-gray">Analizaremos tu caso</strong> y la información del mercado.</div>
-    </div>
-    <div class="m-sm-1 m-md-2 position-relative">
-    <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-09.png" alt="3" width="266px" height="186px"> 
-    <div class="note-btl top-note-home"><strong id="witheng" class="text-white" >presentamos una propuesta con las</strong> <strong id="heading" class="text-red">soluciones más creativas</strong> <strong id="witheng" class="text-white">para conseguir tu objetivo.</strong></div>     
-    </div>
-    <div class="m-sm-1 m-md-2 position-relative">
-      <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/05/Iconos-Evanzu-10.png" alt="4" width="266px" height="186px"> 
-      <div class="note-btl top-note-home"><strong id="heading2" class="text-gray">Ejecutamos el plan</strong> con responsabilidad y profesionalismo.</div>     
-    </div>
-  </div>
-</div>
-
-
-
-    <div class="row">
+<div class="row">
 <div class="col-sm-6  p-5 bg-gray text-center">    
 <svg width="424" height="350" viewBox="0 0 424 350" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 144.641H423.232L414.909 165.754L423.232 187.322H0L8.32344 166.208L0 144.641Z" fill="#FBC000"/>
