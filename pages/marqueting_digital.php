@@ -779,7 +779,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 <div class="row justify-content-center">
                   <div class="col-md-11 col-lg-6 d-flex align-items-center">
                     <img
-                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
+                      src="<?php echo $directory_imgs; ?>Growth hacking-01 1.png"
                       alt=""
                       class="img-fluid"
                     />
@@ -793,9 +793,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         <p class="text-justify text-light-gray p-1">
                            Desarrollamos técnicas y estrategias para lograr un <strong>rápido crecimiento de tu marca </strong>, así lograremos incrementar de forma notoria el volumen de clientes, usuarios y presencia de marca.</p> 
                           <p class="text-justify text-light-gray p-1">
-                          Partimos de un conocimiento profundo de la empresa y su audiencia para tomar decisiones inteligentes que logren mucho sin invertir de más.  </p>
+                          Partimos de un conocimiento profundo de la empresa y su audiencia para tomar<strong>decisiones inteligentes que logren mucho sin invertir de más.</strong> </p>
                           <p class="text-justify text-light-gray p-1">
-                          Nuestras habilidades integrales nos permiten crear formas de llegar a más personas de una manera viral.
+                          Nuestras habilidades integrales nos permiten crear formas de llegar a más personas de una manera <strong>viral.</strong>
 
                         </p>
                       </div>
@@ -908,7 +908,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
         <!-----------------------Service----------------------------->
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  class="" src="<?php echo $directory_imgs;?>Publicidad digital.png">
+                 <img  class="" src="<?php echo $directory_imgs;?>haking grow.png">
               </div>
         <!-----------------------Contanct----------------------------->
               <?php get_template_part('components/form-quote-request2', 'full', [
