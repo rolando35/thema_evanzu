@@ -133,6 +133,11 @@
 }
 
 @font-face {
+  font-family: hurme-oblique-ligth;
+  src: url(../fonts/HurmeGeometricSans4LightOblique.otf);
+}
+
+@font-face {
   font-family: hurme-simple-black;
   src: url(../fonts/HurmeGeometricSans4Black.otf);
 }
@@ -140,6 +145,58 @@
 @font-face {
   font-family: hurme-bold;
   src: url(../fonts/HurmeGeometricSans4Bold.otf);
+}
+
+@font-face {
+  font-family: hurme-semmi-bold;
+  src: url(../fonts/HurmeGeometricSans4SemiBold);
+}
+
+@font-face {
+  font-family: hurme-bold-1;
+  src: url(../fonts/HurmeGeometricSans1Bold.otf);
+}
+
+@font-face {
+  font-family: atletico-medium;
+  src: url(../fonts/Atletico_Medium.otf);
+}
+@font-face {
+  font-family: atletico-regular;
+  src: url(../fonts/Atletico_Regular.otf);
+}
+
+.aaleyah {
+  font-family: running-text;
+}
+.hurme-simple-4 {
+  font-family: hurme-simple;
+}
+
+.hurme-oblique-4 {
+  font-family: hurme-oblique;
+}
+
+.hurme-oblique-4-light {
+  font-family: hurme-oblique-ligth;
+}
+.hurme-simple-black {
+  font-family: hurme-simple-black;
+}
+
+.hurme-bold-4 {
+  font-family: hurme-bold;
+}
+.hurme-bold-1 {
+  font-family: hurme-bold-1;
+}
+
+.hurme-semi-bold-4 {
+  font-family: hurme-semmi-bold;
+}
+
+.atletico-medium {
+  font-family: atletico-medium;
 }
 
 .running-text {
@@ -941,9 +998,9 @@
     padding: 0 1rem;
   }
 
-	.image-contact {
-		width: 10rem;
-	}
+  .image-contact {
+    width: 10rem;
+  }
 
   .image-contact > img {
     margin-top: -3rem;
