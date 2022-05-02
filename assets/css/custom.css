@@ -705,9 +705,11 @@
 
 .title-contact {
   /* font-size: 2.2rem; */
-  font-size: 1.7rem;
+  font-size: 35px;
   font-weight: 900;
   width: auto;
+  padding-top: 4rem;
+  margin-bottom: 1rem;
 }
 
 .input-group-contact {
@@ -726,6 +728,15 @@
 
 .fs-5 {
   font-size: 10px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+.fs-6 {
+  font-size: 16px !important;
 }
 
 .image-service {
