@@ -908,7 +908,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
         <!-----------------------Service----------------------------->
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  class="" src="<?php echo $directory_imgs;?>haking grow.png">
+                 <img  class="" src="<?php echo $directory_imgs;?>haking grow.pngh">
               </div>
         <!-----------------------Contanct----------------------------->
               <?php get_template_part('components/form-quote-request2', 'full', [

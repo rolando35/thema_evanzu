@@ -62,7 +62,8 @@ Template Name: Home
             </svg>
             <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
                 <i>Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
-                <span>ESCRÍBENOS</span>
+                <span class="hurme-simple-1 font-weight-bold
+">ESCRÍBENOS</span>
             </div>
         </div>
         <div class="mt-5c" style="z-index: 1;">
