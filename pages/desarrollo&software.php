@@ -38,6 +38,10 @@ $path_software =
     margin-bottom: -9px;
 }
 
+ul {
+	line-height: 1.8;
+}
+
 
 @media only screen and (max-width: 1200px) {
   .text-paragraph {
@@ -219,7 +223,7 @@ $path_software =
             <!-------------------Card---------------------->
 						<div class="py-2">
               <div class="big-title text-blue my-2 text-center pt-5" style="line-height: 25px;">
-                E-commerce <br> <span class="store font-weight-normal">(Tiendas Virtuales)</span>
+                E-commerce <br> <span class="store font-weight-normal hurme-simple-4">(Tiendas Virtuales)</span>
               </div>
 							<div class="container">
 								<div class="row justify-content-center">
@@ -353,9 +357,9 @@ $path_software =
 											class="img-fluid"
 										/>
 									</div>
-									<div class="col-md-11 col-lg-7 py-2 d-flex align-items-end">
+									<div class="col-md-11 col-lg-7 py-2 d-flex align-items-end justify-content-center">
 										<div class="card bg-transparent border-0">
-											<div class="card-body pb-0">
+											<div class="card-body pb-0" style="max-width: 28rem;">
 												<h3 class="subtitle-btl text-blue text-left">Si no tienes presencia digital, no existes</h3>
 												<p class="text-justify text-light-gray p-1">
                         Ubica tu negocio en el espacio digital con una página web profesional, atractiva y amigable. Que te encuentren cuando te busquen. 
@@ -503,18 +507,18 @@ $path_software =
 								<div class="col-md-10 col-lg-6 d-flex align-items-center">
 									<div class="card bg-transparent border-0">
 										<div class="card-body">
-											<p class="text-light-gray">
+											<p class="text-light-gray" style="font-size: 20px;">
 												Puedes solicitar el desarrollo de una <br> <span class="font-weight-bold text-blue">web administrable</span> que incluye:
 											</p>
 											<div class="d-flex flex-wrap text-light-gray">
-												<ul class="card-text px-4 col-12 col-md-10 col-lg-6 text-light-gray">
+												<ul class="card-text px-4 col-12 col-md-10 col-lg-6 text-light-gray" style="line-height: 1.5">
 													<li class="text-event"><b>Diseño personalizado</b></li>
 													<li class="text-event">5 a 7 menús (páginas)</li>
 													<li class="text-event"><b>Formulario de contacto</b></li>
 													<li class="text-event">Chat de atención al cliente</li>
 													<li class="text-event"><b>Blog</b></li>
 												</ul>
-												<ul class="card-text px-4 col-12 col-md-10 col-lg-6 text-light-gray">
+												<ul class="card-text px-4 col-12 col-md-10 col-lg-6 text-light-gray" style="line-height: 1.5">
 													<li class="text-event">Administrador de contenidos</li>
 													<li class="text-event"><b>Web Estática</b></li>
 													<li class="text-event">Diseño personalizado</li>
@@ -561,15 +565,11 @@ $path_software =
 									<div class="col-md-11 col-lg-6 d-flex align-items-center">
 										<div class="card bg-transparent border-0">
 											<div class="card-body">
-												<h3 class="subtitle-btl text-left p-1">Establece vínculos sólidos y perdurables</h3>
+												<h3 class="subtitle-btl text-left p-1 text-blue">Tu negocio en las manos de tus clientes</h3>
 												<div class="text-justify text-light-gray p-1">
-												<strong>Hacemos que tu voz suene en los medios.</strong> Te
-												asesoramos en la selección de los medios efectivos para un
-												mayor impacto.<br />
-												Formulamos
-												<strong
-													>estrategias de comunicación para construir tu reputación
-													mediática.</strong>
+												Desarrollamos <b>aplicaciones móviles tanto para uso masivo como para uso corporativo</b>. Utilízalo como extensión de tu negocio o como herramienta de comunicación para mejorar procesos internos. <br> <br>
+
+Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móviles: GPS, cámara, chat, NFC, llamadas, mensajería, pop-ups y otros.
 												</div>
 												<div class="text-justify text-light-gray p-1">
 													Monitoreamos las líneas de acción para consolidar las
@@ -682,7 +682,7 @@ $path_software =
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
-        'title' => 'Define tu presupuesto',
+        'title' => 'Tenemos más por contarte',
     ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-------------------------- list -------------------------->
@@ -693,7 +693,7 @@ $path_software =
 	          </div>
 	        </div>
 					<div class="container d-flex flex-wrap justify-content-around align-items-center">
-						<ul class="col-12 col-md-6 col-lg-4">
+						<ul class="col-12 col-md-6 col-lg-4 ">
 							<li>Seguimiento de clientes/proveedores</li>
 							<li>Gestión de stock</li>
 							<li>Geolocalización</li>
@@ -735,7 +735,7 @@ $path_software =
 									<div class="col-md-11 col-lg-6 d-flex align-items-center">
 										<div class="card bg-transparent border-0">
 											<div class="card-body">
-												<h3 class="subtitle-btl text-left p-1">Soluciones para necesidades únicas</h3>			
+												<h3 class="subtitle-btl text-left p-1 text-blue">Soluciones para necesidades únicas</h3>			
 												<div class="text-justify text-light-gray p-1">
 													<strong>Nos adaptamos a la complejidad de cualquier proyecto.</strong> Nuestro equipo te ayudará a definir y desarrollar las herramientas que necesites, ya sea para que emprendas un nuevo proyecto o para que le des un giro o impulso a tu empresa. <br> <br> Contamos con personal especializado en distintos tipos de lenguajes de programación : PHP, Java, Java script, Ruby, Node.js, C++, Visual.Net, C#. Python. <br> <br> Tenemos especialistas para todas las etapas del desarrollo: Diseño UX y UI, frontend, backend, seguridad informática y QA Testing.
 												</div>
@@ -886,7 +886,7 @@ $path_software =
 									<div class="col-md-11 col-lg-6 d-flex align-items-center">
 										<div class="card bg-transparent border-0">
 											<div class="card-body">
-												<h3 class="subtitle-btl text-left p-1">Genera la mejor experiencia de usuario en tu plataforma</h3>
+												<h3 class="subtitle-btl text-left p-1 text-blue">Genera la mejor experiencia de usuario en tu plataforma</h3>
 												<p class="text-justify text-light-gray p-1">
 													Nos basamos en el diseño centrado en el usuario para crear <strong>plataformas intuitivas.</strong> <br> <br>
 
