@@ -186,7 +186,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div id="home" class="tab-pane active">
         <br />
         <div class="bg-faint-gray">
-          <div class="big-title text-red my-4 text-center">
+          <div class="big-title  text-red my-4 text-center">
             Publicidad Digital
           </div>
           <div class="container">
@@ -196,43 +196,48 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   src="<?php echo get_template_directory_uri() ?>/assets/images/cellphone-publicidad-digital.svg"
                   alt=""
                 />
-                <div class="text-red text-center my-3">
+                <div class="text-red subtitle-marketing  my-3">
                   Ideal para promocionar
                 </div>
-                <p class="text-justify">
+                <p class="text-justify text-light-gray">
                   Ventas, tráfico web, consideración de marca, productos,
                   servicios, lanzamientos, ofertas, aplicaciones móviles y
-                  promociones. Sea cual sea tu objetivo publicitario (visitas a
+                  promociones. 
+                </p>
+
+                <p class="text-justify text-light-gray">
+                  Sea cual sea tu objetivo publicitario (visitas a
                   tu web, vistas de videos, conversiones, descargas de
                   aplicaciones, visitas o llamadas a tu negocio físico, etc) te
                   ayudaremos a alcanzarlo a través de los diversos formatos de
                   publicidad.
                 </p>
-                <p class="text-justify">
-                  Da el primer paso para promocionar tus productos.
-                </p>
+
+                <p class="text-justify text-light-gray">
+                  Da el primer paso para <strong>promocionar</strong> tus productos.
+                </p>  
               </div>
               <div class="col-sm-6">
-                <div class="my-3">
-                  Atrae a tu próximo comprador con publicidad en canales
-                  digitales.
+                 <h3 class="subtitle-marketing  text-gray-black text-left p-1">
+                          Atrae a tu próximo comprador con publicidad en canales digitales.
+                  </h3>
+
+                <div class="my-3 text-light-gray">
+                  Definimos el medio ideal de publicidad en función de tus objetivos, tu producto y el perfil de tus clientes.
                 </div>
-                <p class="text-justify">
-                  Atrae a tu próximo comprador con publicidad en canales
-                  digitales.
-                </p>
-                <div class="text-red my-1">
+               
+                <div class="text-red subtitle-marketing subtitle-spacing my-1">
                   Las plataformas digitales que manejamos:
                 </div>
-                <p>
-                  . <strong>Google Adwords</strong> (Búsqueda, Display, Youtube,
-                  Shopping y App móviles).
+                <p class="text-light-gray">
+                  . <strong>Google Adwords</strong> <i>(Búsqueda, Display, Youtube,
+                  Shopping y App móviles).</i> 
                 </p>
-                <p>
+                <p class="text-light-gray">
                   .
-                  <strong>Publicidad en plataformas sociales</strong> (Facebook,
+                  <strong>Publicidad en plataformas sociales</strong> <i>(Facebook,
                   Instagram, Twitter, Linkedin, TikTok, Wase, Spotify, Shazam, y
-                  otros).
+                  otros).</i> 
                 </p>
 
                 <img

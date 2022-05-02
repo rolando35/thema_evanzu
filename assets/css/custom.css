@@ -311,6 +311,10 @@
   font-size: 62.3886px;
 }
 
+.subtitle-spacing {
+  word-spacing: 1rem;
+}
+
 .w-90 {
   width: 90%;
 }
@@ -1072,4 +1076,15 @@
 /*****Text responsive boostrap*******/
 html {
   font-size: 1rem;
+}
+
+body {
+  margin: unset;
+  font-family: unset;
+  font-size: unset;
+  font-weight: unset;
+  line-height: unset;
+  color: #808080;
+  text-align: unset;
+  background-color: #fff;
 }
