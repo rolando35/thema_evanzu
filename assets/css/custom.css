@@ -148,6 +148,32 @@
 }
 
 @font-face {
+  font-family: hurme-regular;
+  src: url(../fonts/HurmeGeometricRegularSans4.otf);
+}
+
+.image-circle-game {
+  padding: 0.7rem;
+  background: #f798bc;
+  border-radius: 50%;
+  width: 10.2rem;
+}
+.text-title-game {
+  font-family: hurme-regular;
+  font-size: 1.125rem;
+}
+
+.text-title-game > span {
+  font-family: hurme-bold;
+}
+
+.subtitle-event {
+  font-family: hurme-bold;
+  font-size: 1.625rem;
+  color: #ed1164;
+}
+
+@font-face {
   font-family: hurme-semmi-bold;
   src: url(../fonts/HurmeGeometricSans4SemiBold);
 }
@@ -204,15 +230,18 @@
   font-size: 56.6006px;
 }
 
+.text-event {
+  font-family: hurme-regular;
+  color: #808080;
+}
+.text-event-italic {
+  font-family: hurme-bold;
+  font-style: italic;
+  color: #808080;
+}
+
 .running-text-btl {
-  /* font-family: running-text;
-	font-size: 1rem;
-	text-align: left;
-	color: white; */
-
   font-family: running-text;
-  /* font-size: 2.5rem; */
-
   font-size: 2rem;
   text-align: left;
   color: white;
@@ -1080,7 +1109,7 @@ html {
 
 body {
   margin: unset;
-  font-family: Hurme Geometric Sans 4;
+  font-family: unset;
   font-size: unset;
   font-weight: unset;
   line-height: unset;
