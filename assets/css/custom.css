@@ -269,7 +269,7 @@
 
 .subtitle-btl,
 .subtitle-marketing {
-  font-family: Hurme Geometric Sans 4;
+  font-family: hurme-simple-4;
   font-style: normal;
   font-weight: 900;
   font-size: 1.6rem;
@@ -282,7 +282,7 @@
 }
 
 .marqueting-btl {
-  font-family: Hurme Geometric Sans 4;
+  font-family: hurme-simple-4;
   font-style: normal;
   font-weight: 900;
   font-size: 1.6rem;
@@ -444,7 +444,7 @@
 
 #how-to {
   font-size: 65px;
-  font-family: "Hurme Geometric Sans 4";
+  font-family: "hurme-simple-4";
   font-style: normal;
   font-weight: 900;
   line-height: 55px;
@@ -580,7 +580,7 @@
 
 .text-main-client {
   font-size: 1.5rem;
-  font-family: "Hurme Geometric Sans 4";
+  font-family: "hurme-simple-4";
   font-weight: 600;
   line-height: 2rem;
 }
@@ -590,7 +590,7 @@
 }
 
 .subtitle-client {
-  font-family: "Hurme Geometric Sans 4";
+  font-family: "hurme-simple-4";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
@@ -598,7 +598,7 @@
 }
 
 .text-secondary-client {
-  font-family: "Hurme Geometric Sans 4";
+  font-family: "hurme-simple-4";
   line-height: 1.2rem;
 }
 
@@ -824,7 +824,7 @@
 
 #description-team {
   font-size: 25px;
-  font-family: Hurme Geometric Sans 4;
+  font-family: hurme-simple-4;
 }
 
 /* Masonry toggle */
@@ -1109,7 +1109,7 @@ html {
 
 body {
   margin: unset;
-  font-family: unset;
+  font-family: hurme-simple-4;
   font-size: unset;
   font-weight: unset;
   line-height: unset;
