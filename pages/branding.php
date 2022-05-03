@@ -172,12 +172,29 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             </div>
           </div>
         </div>
-            
-            <div class="container">
+
+  
+       <div class="big-title text-red text-center">Ofrecemos:</div>
+          <div class="text-center">
+            <svg
+              width="80"
+              height="4"
+              viewBox="0 0 80 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
+                fill="#FBC000"
+              />
+            </svg>
+        </div>
+
+          <div class="container">
             <div class="d-flex flex-column align-items-center mb-n1-5">
               <div class="d-flex flex-column flex-md-row">
                 <?php
-									get_template_part('components/btl/service-left','full', 
+									get_template_part('components/branding/service-left','full', 
 										array(
 											'image' =>
                   $directory_imgs."palabras-clabe.svg", 'text' => 'Manual de marca
