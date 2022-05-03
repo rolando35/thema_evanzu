@@ -29,11 +29,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 <section id="slider">
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
 
     <div class="float-rectangle-banner">
       <div id="rectangle" class="text-center"></div>
@@ -42,23 +37,43 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="<?php echo get_option("evanzu")["carrusell-image-one"]; ?>">
-      </div>
-      <div class="carousel-item">
-        <img src="<?php echo get_option("evanzu")["carrusell-image-two"]; ?>">
-      </div>
-      <div class="carousel-item">
-        <img src="<?php echo get_option("evanzu")["carrusell-image-one"]; ?>">
+        <img
+          src="<?php echo $directory_branding_imgs.'banner_brading.png';  ?>"
+          class="w-100"
+          style="min-height: 25rem"
+        />
+
+        <div class="carousel-caption-branding">
+          <div class="running-text-btl">Consultura de</div>
+          <div class="title-bold-branding hurme-bold-4">
+            BRANDING &
+            <img
+              width="60"
+              height="60"
+              class="align-top"
+              src="<?php echo $directory_branding_imgs.'title_icon.svg'?>"
+            />
+
+            <br />
+            DISEÑO
+          </div>
+
+          <div class="text-subtitle-btl">
+            Humanizamos marcas y diseñamos <br />
+            experiencias únicas.
+          </div>
+
+          <div class="mt-3 text-left">
+            <span class="text-subtitle-btl text-red"
+              >Sabes que tu marca lo necesita.
+            </span>
+            <button class="btn-btl">
+              <span style="font-weight: 400">Escríbenos</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
   </div>
 </section>
 <section>
@@ -97,9 +112,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div id="home" class="tab-pane active">
         <br />
         <div class="bg-light-gray">
-          <div class="big-title text-red my-4 text-center">
-             Logo & Branding
-          </div>
+          <div class="big-title text-red my-4 text-center">Logo & Branding</div>
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
@@ -146,10 +159,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   otros).
                 </p>
                 <div class="text-center p-3">
-                    <img
+                  <img
                     src="<?php echo $directory_branding_imgs ?>pincel_girl.png"
                     alt=""
-                    />
+                  />
                 </div>
               </div>
             </div>
@@ -650,7 +663,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       </div>
       <!------------SEO ------------>
       <div id="menu2" class="tab-pane fade">
-            
         <br />
         <!----------------------Main---------------------->
         <section class="p-0">
@@ -824,11 +836,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 						'path_img' =>
         $path_img, 'title'=> '¿Estás listo?' )); ?>
         <!-----------------------Contanct----------------------------->
-    
       </div>
       <!------------Growth hacking ------------>
       <div id="menu3" class="tab-pane fade">
-        
         <br />
         <!----------------------Main---------------------->
         <section class="p-0">
@@ -1002,11 +1012,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 						'path_img' =>
         $path_img, 'title'=> '¿Estás listo?' )); ?>
         <!-----------------------Contanct----------------------------->
-      
       </div>
       <!------------Marketing de contenidos ------------>
       <div id="menu4" class="tab-pane fade">
-   
         <br />
         <!----------------------Main---------------------->
         <section class="p-0">
@@ -1180,7 +1188,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 						'path_img' =>
         $path_img, 'title'=> '¿Estás listo?' )); ?>
         <!-----------------------Contanct----------------------------->
-       
       </div>
     </div>
   </div>
