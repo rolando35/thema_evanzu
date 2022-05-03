@@ -271,7 +271,7 @@ ul {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."servicio-incluye1.svg",
-											'text' => '<b>Diseño personalizado</b> <br> y enfocado en la experiencia de usuario.',
+											'text' => '<b class="font-weight-bold text-gray-black" >Diseño personalizado</b> <br> y enfocado en la experiencia de usuario.',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -295,7 +295,7 @@ ul {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."servicio-incluye3.svg",
-											'text' => 'Integración de <b>medios de pagos online.</b>',
+											'text' => 'Integración de <b class="font-weight-bold text-gray-black" >medios de pagos online.</b>',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -306,7 +306,7 @@ ul {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_software."servicio-incluye4.svg",
-											'text' => 'Desarrollo de un <b> Backoffice </b> para la gestión de pedidos.',
+											'text' => 'Desarrollo de un <b class="font-weight-bold text-gray-black" > Backoffice </b> para la gestión de pedidos.',
 											'line' => $path_software."line-blu.svg"
 										)
 									); 
@@ -407,7 +407,7 @@ ul {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."servicio-incluye1.svg",
-											'text' => '<b>Diseño personalizado</b> <br> y responsivo.',
+											'text' => '<b class="font-weight-bold text-gray-black" >Diseño personalizado</b> <br> y responsivo.',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -431,7 +431,7 @@ ul {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."servicio-path2-3.svg",
-											'text' => '<b>Definición de la estrategia del proyecto.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Definición de la estrategia del proyecto.</b>',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -454,7 +454,7 @@ ul {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."servicio-path2-5.svg",
-											'text' => '<b>Implementación <br> y mantenimiento</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Implementación <br> y mantenimiento</b>',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -512,17 +512,17 @@ ul {
 											</p>
 											<div class="d-flex flex-wrap text-light-gray">
 												<ul class="card-text px-4 col-12 col-md-10 col-lg-6 text-light-gray" style="line-height: 1.5">
-													<li class="text-event"><b>Diseño personalizado</b></li>
+													<li class="text-event"><b class="font-weight-bold text-gray-black" >Diseño personalizado</b></li>
 													<li class="text-event">5 a 7 menús (páginas)</li>
-													<li class="text-event"><b>Formulario de contacto</b></li>
+													<li class="text-event"><b class="font-weight-bold text-gray-black" >Formulario de contacto</b></li>
 													<li class="text-event">Chat de atención al cliente</li>
-													<li class="text-event"><b>Blog</b></li>
+													<li class="text-event"><b class="font-weight-bold text-gray-black" >Blog</b></li>
 												</ul>
 												<ul class="card-text px-4 col-12 col-md-10 col-lg-6 text-light-gray" style="line-height: 1.5">
 													<li class="text-event">Administrador de contenidos</li>
-													<li class="text-event"><b>Web Estática</b></li>
+													<li class="text-event"><b class="font-weight-bold text-gray-black" >Web Estática</b></li>
 													<li class="text-event">Diseño personalizado</li>
-													<li class="text-event"><b>5 menús (páginas)</b></li>
+													<li class="text-event"><b class="font-weight-bold text-gray-black" >5 menús (páginas)</b></li>
 													<li class="text-event">Formulario de contacto</li>
 												</ul>
 											</div>
@@ -567,7 +567,7 @@ ul {
 											<div class="card-body">
 												<h3 class="subtitle-btl text-left p-1 text-blue">Tu negocio en las manos de tus clientes</h3>
 												<div class="text-justify text-light-gray p-1">
-												Desarrollamos <b>aplicaciones móviles tanto para uso masivo como para uso corporativo</b>. Utilízalo como extensión de tu negocio o como herramienta de comunicación para mejorar procesos internos. <br> <br>
+												Desarrollamos <b class="font-weight-bold text-gray-black" >aplicaciones móviles tanto para uso masivo como para uso corporativo</b>. Utilízalo como extensión de tu negocio o como herramienta de comunicación para mejorar procesos internos. <br> <br>
 
 Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móviles: GPS, cámara, chat, NFC, llamadas, mensajería, pop-ups y otros.
 												</div>
@@ -617,7 +617,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."como-trabajamos1.svg",
-											'text' => '<b>Planificamos según tus objetivos y necesidades.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Planificamos según tus objetivos y necesidades.</b>',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -629,7 +629,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_software."servicio-path2-4.svg",
-											'text' => '<b>Definimos las funciones</b> <br> que cubran las necesidades actuales y que se anticipen a las futuras.',
+											'text' => '<b class="font-weight-bold text-gray-black" >Definimos las funciones</b> <br> que cubran las necesidades actuales y que se anticipen a las futuras.',
 											'line' => $path_software."line-blu.svg"
 										)
 									); 
@@ -641,7 +641,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."como-trabajamos3.svg",
-											'text' => '<b>Establecemos el flujo <br> de navegación y diseño </b>pensando en el usuario. ',
+											'text' => '<b class="font-weight-bold text-gray-black" >Establecemos el flujo <br> de navegación y diseño </b>pensando en el usuario. ',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -652,7 +652,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_software."como-trabajamos4.svg",
-											'text' => '<b>Realizamos testing y control de calidad.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Realizamos testing y control de calidad.</b>',
 											'line' => $path_software."line-blu.svg"
 										)
 									); 
@@ -773,7 +773,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."tab4-servicio1.svg",
-											'text' => '<b>Software ERP.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Software ERP.</b>',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -785,7 +785,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_software."tab4-servicio2.svg",
-											'text' => '<b>Software CRM.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Software CRM.</b>',
 											'line' => $path_software."line-blu.svg"
 										)
 									); 
@@ -797,7 +797,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."tab4-servicio3.svg",
-											'text' => '<b>Sistemas de Matrícula.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Sistemas de Matrícula.</b>',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -808,7 +808,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_software."tab4-servicio4.svg",
-											'text' => '<b>Sistemas de gestión de <br> ventas e ingresos.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Sistemas de gestión de <br> ventas e ingresos.</b>',
 											'line' => $path_software."line-blu.svg"
 										)
 									); 
@@ -820,7 +820,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."tab4-servicio5.svg",
-											'text' => '<b>Sistemas de <br> control de stock.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Sistemas de <br> control de stock.</b>',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -929,7 +929,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."como-trabajamos3.svg",
-											'text' => '<b>Investigación del perfil</b> de usuario.',
+											'text' => '<b class="font-weight-bold text-gray-black" >Investigación del perfil</b> de usuario.',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -941,7 +941,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_software."diseño-servicio2.svg",
-											'text' => '<b>Desarrollo del mapa de navegación, animación y transiciones.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Desarrollo del mapa de navegación, animación y transiciones.</b>',
 											'line' => $path_software."line-blu.svg"
 										)
 									); 
@@ -953,7 +953,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_software."diseño-servicio3.svg",
-											'text' => '<b>Diseño de diagramas de navegación simulando interacciones</b> <br>Uso de plataformas como Figma, Adobe Xd y otros. ',
+											'text' => '<b class="font-weight-bold text-gray-black" >Diseño de diagramas de navegación simulando interacciones</b> <br>Uso de plataformas como Figma, Adobe Xd y otros. ',
 											'line' => $path_software."line-rosado.svg"
 										)
 									); 
@@ -964,7 +964,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_software."diseño-servicio4.svg",
-											'text' => '<b>Testing.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Testing.</b>',
 											'line' => $path_software."line-blu.svg"
 										)
 									); 
