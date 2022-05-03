@@ -8,7 +8,9 @@
 			<img style="display: inline-block; width: 70px; height: 70px" src="<?php echo $args["path"] . $args['svg'];  ?>"
 			/>
 		</div>
-		<div class="title-circle-nav text-gray">
+		<div class="line-nav <?php echo isset($args["active"]) ? "bg-red" : "";?>" >
+		</div>
+		<div class="title-circle-nav <?php echo isset($args["active"]) ? "title-circle-nav-active" : "";?>"">
 			<?php 
         echo $args['title'];    
        ?>
