@@ -50,13 +50,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="running-text-btl">
 								Somos una agencia de
 							</div>
-							<div class="d-flex mt-n3">
+							<div class="d-flex">
 								<div class="hurme-simple-btl">
-									Btl & 
+									Btl &&nbsp;
 								</div>
-								<div class="pl-5">
+								<div>
 									<img
-									style="width: 70px; height: 70px"
+									class="icon-btl-title"
 									src="<?php echo get_template_directory_uri()?>/assets/images/btl/title-icon.png"
 									/>
 								</div>
@@ -73,8 +73,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="mt-3 text-left">
 								<button class="btn-btl">
 								Quieres resultados.
-								<span style="font-weight: 400"
-									>Escríbenos &nbsp&nbsp</span
+								<span class="hurme-regular-4"
+									>Escríbenos</span
 									>
 								</button>
 							</div>
@@ -149,12 +149,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 										<div class="card bg-transparent border-0">
 											<div class="card-body">
 												<h3 class="subtitle-btl text-left p-1">LLevamos tu marca al lado del consumidor</h3>
-												<p class="text-justify text-light-gray p-1">
+												<p class="card-text-btl text-light-gray p-1">
 												Realizamos todo tipo de activaciones promocionales y juegos
 												BTL con la finalidad de lograr una
-												<strong
-													>interacción especial y de valor con el consumidor.</strong
-													>
+												<span class="card-text-btl-bold">interacción especial y de valor con el consumidor.</span>
 												Ofrecemos una experiencia vivencial que involucre a tus
 												clientes con tu mensaje u oferta.
 												</p>
@@ -187,23 +185,23 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									<div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
 										<div class="card bg-transparent border-0">
 											<div class="card-body pb-0">
-												<div class="text-justify text-light-gray p-1 pb-2 pb-md-3">
+												<div class="card-text-btl p-1 pb-2 pb-md-3">
 												Nos comprometemos en cada proceso: desarrollo del concepto,
 												diseño de piezas de comunicación, planeamiento de actividades
 												y ejecución.
 												</div>
 												<div
-												class="text-justify text-light-gray p-1 pb-2 pb-md-3"
+												class="p-1 pb-2 pb-md-3"
 												>
-												<strong>Trabajamos en base a tu presupuesto y lo optimizamos.</strong>
+												<span class="card-text-btl-bold">Trabajamos en base a tu presupuesto y lo optimizamos.</span>
 												<br>
+												<span class="card-text-btl">
 												Ideal para lanzamiento de productos o marcas, sampling,
-												volanteo publicitario y otros.
+												volanteo publicitario y otros.</span>
 												</div>
 												<div
-												class="text-justify text-light-gray p-1"
-												>
-												<strong>¡Genera experiencias positivas para tu cliente!</strong>
+												class="card-text-btl-bold p-1"
+												>¡Genera experiencias positivas para tu cliente!
 												</div>
 											</div>
 										</div>
@@ -239,7 +237,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."first-icon-service.svg",
-											'text' => '<strong>Desarrollo</strong> de Concepto.',
+											'text' => '<span>Desarrollo</span> de Concepto.',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -251,7 +249,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."second-icon-service.svg",
-											'text' => '<strong>Activaciones</strong> en ferias, <br>mercados, universidades, <br>parques y más.',
+											'text' => '<span>Activaciones</span> en ferias, <br>mercados, universidades, <br>parques y más.',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -263,7 +261,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."third-icon-service.svg",
-											'text' => '<strong>Pre-Producción</strong> de la<br>activación (Merchandising,<br> personal, juegos y otros).',
+											'text' => '<span>Pre-Producción</span> de la<br>activación (Merchandising,<br> personal, juegos y otros).',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -274,7 +272,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."fourth-icon-service.svg",
-											'text' => '<strong>Reporte</strong> de resultados.',
+											'text' => '<span>Reporte</span> de resultados.',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -441,19 +439,19 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 										<div class="card bg-transparent border-0">
 											<div class="card-body">
 												<h3 class="subtitle-btl text-left p-1">Creamos experiencias que conectan.</h3>
-												<p class="text-justify text-light-gray p-1">
+												<p class="card-text-btl p-1">
 												La planificación, es excelente trabajo en equipo y la
 												capacidad de ejecución son nuestro pilares para asegurar que
 												tu evento sea totalmente exitoso, tanto en organización como
 												lógistica.
 												</p>
-												<p class="text-justify text-light-gray p-1">
-													<strong
+												<p class="card-text-btl p-1">
+													<strong class="hurme-bold-4"
 														>Nos adaptamos al tamaño de tu audiencia e imagen
 													corporativa</strong
 														>
 													para asegurar una
-													<strong>experiencia única y exclusiva.</strong> Nos encargamos
+													<strong class="hurme-bold-4">experiencia única y exclusiva.</strong> Nos encargamos
 													de las acciones de comunicación pre-evento, y durante la
 													ejecución lograremos el papel activo de la audiencia.
 												</p>
@@ -527,7 +525,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."first-icon-service.svg",
-											'text' => '<strong>Desarrollo</strong> de Concepto.',
+											'text' => '<span>Desarrollo</span> de Concepto.',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -540,7 +538,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."second-icon-service.svg",
-											'text' => '<strong>Ejecución</strong> y control.',
+											'text' => '<span>Ejecución</span> y control.',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -551,7 +549,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."third-icon-service.svg",
-											'text' => '<strong>Planeación</strong> (equipo de<br>trabajo, espacios,<br>decoración, catering, etc.',
+											'text' => '<span>Planeación</span> (equipo de<br>trabajo, espacios,<br>decoración, catering, etc.',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -562,7 +560,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."fourth-icon-service.svg",
-											'text' => '<strong>Reporte</strong> de resultados.',
+											'text' => '<span>Reporte</span> de resultados.',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -673,16 +671,17 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 										<div class="card bg-transparent border-0">
 											<div class="card-body">
 												<h3 class="subtitle-btl text-left p-1">Establece vínculos sólidos y perdurables</h3>
-												<div class="text-justify text-light-gray p-1">
-												<strong>Hacemos que tu voz suene en los medios.</strong> Te
+												<div class="card-text-btl p-1">
+												<span class="hurme-bold-4">Hacemos que tu voz suene en los medios.</span> Te
 												asesoramos en la selección de los medios efectivos para un
 												mayor impacto.<br />
 												Formulamos
-												<strong
+												<span class="hurme-bold-4"
 													>estrategias de comunicación para construir tu reputación
-													mediática.</strong>
+													mediática.</span>
 												</div>
-												<div class="text-justify text-light-gray p-1">
+												<br>
+												<div class="card-text-btl p-1">
 													Monitoreamos las líneas de acción para consolidar las
 													relaciones con tu comunidad. Cubrimos actividades online y
 													offline.	
@@ -702,7 +701,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									<div class="col-md-11 col-lg-6 py-2 d-flex justify-content-center justify-content-lg-end align-items-start align-items-lg-end ml-0 pl-0">
 										<div class="card bg-transparent border-0">
 											<div class="card-body py-0">
-												<h3 class="subtitle-btl text-left text-lg-right">¿Qué lograrás?</h3>
+												<div class="subtitle-btl text-left text-lg-right">¿Qué lograrás?</div>
 												<div class="subtitle-btl text-left text-lg-right">Generar un impacto</div>
 												<div class="subtitle-btl text-left text-lg-right">mediático positivo</div>
 												<div class="d-none d-lg-block text-right">
@@ -719,8 +718,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									<div class="col-md-10 col-lg-6 py-2 text-center">
 										<img
 											src="<?php echo $path_img; ?>second-relation.svg"
-											alt=""
-											class="img-fluid"
+											height="200"
 										/>
 									</div>									
 								</div>
@@ -752,7 +750,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."first-icon-service.svg",
-											'text' => '<strong>Conferencia de prensa</strong><br>en medios televisivos,<br>radiales, impresos y <br>digitales.',
+											'text' => '<span>Conferencia de prensa</span><br>en medios televisivos,<br>radiales, impresos y <br>digitales.',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -764,7 +762,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."second-icon-service.svg",
-											'text' => '<strong>Representación:</strong> ofrecemos<br>la presencia de un vocero<br>para ampliar la información<br>cada vez que lo requieran.',
+											'text' => '<span>Representación:</span> ofrecemos<br>la presencia de un vocero<br>para ampliar la información<br>cada vez que lo requieran.',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -775,7 +773,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."third-icon-service.svg",
-											'text' => '<strong>Redacción:</strong> creación de<br>artículos con información<br>objetiva para los medios de<br>comunicación.',
+											'text' => '<span>Redacción:</span> creación de<br>artículos con información<br>objetiva para los medios de<br>comunicación.',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -786,7 +784,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."fourth-icon-service.svg",
-											'text' => '<strong>Prevención, gestión de<br>crisis y recuperación de<br>imágen.</strong>',
+											'text' => '<span>Prevención, gestión de<br>crisis y recuperación de<br>imágen.</span>',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -829,17 +827,17 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 										<div class="card bg-transparent border-0">
 											<div class="card-body">
 												<h3 class="subtitle-btl text-left p-1">Incrementa tus ventas y fideliza a tus clientes</h3>			
-												<div class="text-justify text-light-gray p-1">
+												<div class="card-text-btl p-1">
 													Ponemos a tu disposición un
-													<strong>equipo humano capacitado y con experiencia</strong>
+													<span class="hurme-bold-4">equipo humano capacitado y con experiencia</span>
 													que te ayudará a alcanzar resultados. Nos encargamos del
-													<strong
+													<span class="hurme-bold-4"
 														>reclutamiento y seguimiento para crear tu propia red de
-														ventas a nivel nacional</strong
+														ventas a nivel nacional</span
 													>
 													a la medida de tus necesidades y objetivos.
 												</div>
-												<div class="text-justify text-light-gray p-1">
+												<div class="card-text-btl p-1">
 													El desempeño de nuestro equipo preservará la identidad de tu organización y logrará construir relaciones a largo plazo con tus clientes.
 												</div>
 											</div>
@@ -871,7 +869,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									<div class="col-md-11 col-lg-5 py-2 d-flex align-items-end">
 										<div class="card bg-transparent border-0">
 											<div class="card-body pb-0">
-												<div class="text-justify text-light-gray p-1">
+												<div class="card-text-btl p-1">
 													Con nosotros conseguirás equipos de alto<br />
 													desempeño: Promotores, Ejecutivos de Ventas,<br />
 													Asesores Comerciales y más.													
@@ -915,7 +913,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."first-icon-service.svg",
-											'text' => '<strong>Definición del perfil,</strong><br>reclutamiento, capacitación<br>y objetivo de venta.',
+											'text' => '<span>Definición del perfil,</span><br>reclutamiento, capacitación<br>y objetivo de venta.',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -927,7 +925,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."estrategia-lanzamiento.svg",
-											'text' => '<strong>Estrategia de<br>lanzamiento.</strong>',
+											'text' => '<span>Estrategia de<br>lanzamiento.</span>',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -938,7 +936,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."elaboracion.svg",
-											'text' => '<strong>Elaboración</strong> de<br>merchandising, uniforme<br>brandeado, material de<br>comunicación y herramientas<br>de trabajo.',
+											'text' => '<span>Elaboración</span> de<br>merchandising, uniforme<br>brandeado, material de<br>comunicación y herramientas<br>de trabajo.',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -949,7 +947,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."ejecucion-supervision.svg",
-											'text' => '<strong>Ejecución y supervisión</strong> con<br>sistema de seguimiento y<br>control digital.',
+											'text' => '<span>Ejecución y supervisión</span> con<br>sistema de seguimiento y<br>control digital.',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -960,7 +958,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."fourth-icon-service.svg",
-											'text' => '<strong>Speech de ventas</strong> en<br>calidad de atención y FAQ<br>del producto/servicio.',
+											'text' => '<span>Speech de ventas</span> en<br>calidad de atención y FAQ<br>del producto/servicio.',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -971,7 +969,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."reporte-digitales.svg",
-											'text' => '<strong>Reportes digitales</strong> según<br>requerimientos: Diarios, <br>semanales y mensuales.<br>',
+											'text' => '<span>Reportes digitales</span> según<br>requerimientos: Diarios, <br>semanales y mensuales.<br>',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -1013,17 +1011,17 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 										<div class="card bg-transparent border-0">
 											<div class="card-body">
 												<h3 class="subtitle-btl text-left p-1">Imagen y calidad de atención</h3>
-												<p class="text-justify text-light-gray p-1">
+												<p class="card-text-btl p-1">
 												Buscamos elevar el posicionamiento de tu marca y resaltar la
 												imagen de tu empresa. Contamos con
-												<strong
+												<span class="hurme-bold-4"
 													>anfitrionas e impulsadoras de primer nivel y con
-													experiencia</strong
+													experiencia</span
 												>
 												que garantizan un excelente contacto directo con los
 												clientes.
 												</p>
-												<p class="text-justify text-light-gray p-1">
+												<p class="card-text-btl p-1">
 													Nuestro equipo es más que una cara bonita; posee carisma,
 													habilidades comunicativas y capacidad de trabajo en equipo.
 												</p>
@@ -1067,7 +1065,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."anfitriona.svg",
-											'text' => '<strong>Anfitrionas/es</strong>',
+											'text' => '<span>Anfitrionas/es</span>',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -1079,7 +1077,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."estrategia-lanzamiento.svg",
-											'text' => '<strong>Impulsadoras</strong>',
+											'text' => '<span>Impulsadoras</span>',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
@@ -1090,7 +1088,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $path_img."degustadoras.svg",
-											'text' => '<strong>Degustadoras</strong>',
+											'text' => '<span>Degustadoras</span>',
 											'line' => $path_img."line-rosado.svg"
 										)
 									); 
@@ -1100,7 +1098,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $path_img."fourth-icon-service.svg",
-											'text' => '<strong>Animadores</strong>',
+											'text' => '<span>Animadores</span>',
 											'line' => $path_img."line-celeste.svg"
 										)
 									); 
