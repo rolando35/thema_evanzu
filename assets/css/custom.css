@@ -87,6 +87,12 @@
   color: #808080;
 }
 
+.how {
+  color: #434041;
+  font-weight: 900;
+  font-size: 45px;
+}
+
 /*Button BTL*/
 .btn-btl {
   font-size: 20px;
