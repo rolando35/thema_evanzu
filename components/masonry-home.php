@@ -1,12 +1,12 @@
-<div class="container">
+<div class="container hurme-simple-4">
   <div class="mb-1">
     <div class="d-md-flex justify-content-center flex-md-row text-center">
       <div class="m-2 d-flex justify-content-center align-items-center hover-image">
         <!-- Texts hover -->
         <div class='position-absolute masonry-hover-lirycs'>
-          <h6 class="small text-light">-- ACTIVACIONES BTL --</h6>
+          <h6 class="small font-weight-normal text-light">-- ACTIVACIONES BTL --</h6>
           <p class="text-light font-weight-bold" style='font-size: 3rem; line-height: 3rem;'>BBVA Continental</p>
-          <a class="text-red font-weight-bold fs-5" href="https://youtu.be/Y_xlvqJvI0k">https://youtu.be/Y_xlvqJvI0k</a>
+          <a class="text-red font-weight-bold fs-6" href="https://youtu.be/Y_xlvqJvI0k">https://youtu.be/Y_xlvqJvI0k</a>
         </div>
         <!-- Texts hover -->
         <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-one"]; ?>">
@@ -18,7 +18,7 @@
             <div class="m-1 d-flex justify-content-center align-items-center hover-image ">
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs'>
-                <h6 class="small text-light">-- ACTIVACIONES BTL --</h6>
+                <h6 class="small font-weight-normal text-light">-- ACTIVACIONES BTL --</h6>
                 <p class="text-light font-weight-bold" style='font-size: 24px; line-height: 10px;'>BBVA Continental</p>
                 <a class="text-red font-weight-bold fs-5" href="https://youtu.be/Y_xlvqJvI0k">https://youtu.be/Y_xlvqJvI0k</a>
               </div>
@@ -29,7 +29,7 @@
             <div class="m-1 d-flex justify-content-center align-items-center hover-image">
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs'>
-                <h6 class="small text-light">-- ACTIVACIONES BTL --</h6>
+                <h6 class="small font-weight-normal text-light">-- ACTIVACIONES BTL --</h6>
                 <p class="text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>BETFAIR</p>
                 <a class="text-red font-weight-bold fs-5" href="https://fb.watch/4_LpR8cZlY/">https://fb.watch/4_LpR8cZlY/</a>
               </div>
@@ -97,7 +97,7 @@
       <div class="text-center d-flex justify-content-center align-items-center hover-image">
         <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-            <h6 class="small text-light">-- ACTIVACIONES BTL --</h6>
+            <h6 class="small font-weight-normal text-light">-- ACTIVACIONES BTL --</h6>
             <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>AESA</p>
             <a class="text-red font-weight-bold fs-5" href="https://fb.watch/50aZyUgqKt/">https://fb.watch/50aZyUgqKt/</a>
             </div>
@@ -128,7 +128,7 @@
         <div class="m-2 d-flex justify-content-center align-items-center hover-image">
           <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <h6 class="small text-light">-- PRODUCCIÓN AUDIOVISUAL --</h6>
+              <h6 class="small font-weight-normal text-light">-- PRODUCCIÓN AUDIOVISUAL --</h6>
               <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>Caja Huancayo</p>
               <a class="text-red font-weight-bold fs-5" href="https://youtu.be/_l2wKC9ECdk">https://youtu.be/_l2wKC9ECdk</a>
             </div>
