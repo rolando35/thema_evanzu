@@ -498,12 +498,12 @@
 	font-weight: 700;
 }
 
-.top-note-btl {
-	top: 9.5rem;
+.top-note-sm {
+	top: 9rem;
 }
 
-.top-note-home {
-	top: 8rem;
+.top-note-md {
+	top: 9.5rem;
 }
 
 .top-clients {
@@ -512,17 +512,11 @@
 
 .note-btl {
 	position: absolute;
-	width: 70%;
-	/* bottom: 1.8rem; */
+	width: 72%;
 	left: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	font-family: hurme-simple;
-	font-style: normal;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 16px;
-	letter-spacing: 0em;
+	line-height: 1rem;
 }
 
 .group-nav {
@@ -600,8 +594,7 @@
 
 .text-main-client {
 	font-size: 1.5rem;
-	font-family: 'hurme-simple';
-	font-weight: 600;
+	font-family: hurme-semmi-bold;
 	line-height: 2rem;
 }
 
@@ -610,10 +603,8 @@
 }
 
 .subtitle-client {
-	font-family: 'hurme-simple';
 	font-size: 1.5rem;
-	font-style: normal;
-	font-weight: 700;
+	font-family: hurme-bold;
 	line-height: 1.5rem;
 }
 
