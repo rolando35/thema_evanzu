@@ -24,6 +24,10 @@
     opacity: 0.6;
   }
 
+  .form-control {
+    border-bottom: 1px solid white;
+  }
+
   .mt-3_5 {
     margin-top: 2rem;
   }
@@ -53,7 +57,7 @@ label[for="file"] {
  }
 
 .mt-n1-19{
-  margin-top: -19rem;
+  margin-top: -16rem;
 }
 
   @media only screen and (min-width: 992px) {
@@ -73,18 +77,22 @@ label[for="file"] {
   }
 
 }
+
+::placeholder {
+  color: white;
+}
 </style>
 
-<div id="myModalBottom" class="modal fade modal-right mt-5c pr-0" tabindex="-1">
+<div id="myModalBottom" class="modal fade modal-right mt-5c pr-0 hurme-simple-4" tabindex="-1">
   <div class="modal-dialog mw-100">
     <div class="modal-content" style="height: 100vh">
       <div class="modal-body bg-yellow py-5" style="width: 100%;">
         <div class=" w-100 h-100">
-          <div class="d-block d-lg-flex w-100">
-            <div class="col-12 col-lg-7" style="z-index: 2">
+          <div class="px-5 d-block d-lg-flex w-100">
+            <div class="col-12 col-lg-7 px-5" style="z-index: 2">
               <h2 class="text-light " style="font-weight: 900; font-size: 50px;">Queremos conocer tu perfil</h2>
               <h5 class="text-light font-weight-light"><i>Déjanos tus datos y te contactámos</i></h5>
-              <form id="postulation" action="" class="text-left" method="post">
+              <form id="postulation" action="" class="text-left mr-5 pr-5" method="post">
                 <input type="text"
                   class="fullname form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                   id="fullname" aria-describedby="emailHelp" placeholder="Nombres y Apellidos" name="fullname">
@@ -104,9 +112,9 @@ label[for="file"] {
                 
                 <div class="mt-3_5">
                     
-                    <div class=" position-absolute px-2 d-flex w-100 justify-content-between mt-2">
+                    <div class=" position-absolute d-flex w-100 justify-content-between mt-2" style="padding: 0 4.5rem 0 0.5rem">
                       <h8  class="text-light font-weight-light" style="opacity: 0.6; z-index: 1;">Adjuntar CV</h8>
-                      <div class="py-0 px-3 d-flex mr-4" style="background: rgba(251, 152, 0, 0.42); border-radius: 2.2rem;">
+                      <div class="py-0 px-3 d-flex" style="background: rgba(251, 152, 0, 0.42); border-radius: 2.2rem; margin-right: 8rem;">
                           <p class=" text-light  font-weight-light my-0"
                           style="opacity: 0.6; z-index: 1;">
                               Archivo.pdf
@@ -152,7 +160,7 @@ label[for="file"] {
             </div>
 
             <div class="col-12 col-lg-5 ">
-              <img class="position-absolute d-none d-lg-block mt-n1-19" style="max-width: none" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-form-postula.svg">
+              <img class="position-absolute d-none d-lg-block mt-n1-19" style="max-width: none; margin-left: -7rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-form-postula.svg">
               <div class="position-absolute d-block text-center bg-white-transparent" style="margin-left: -34rem">
                 <img style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/form-postula.png">
               </div>
@@ -160,13 +168,13 @@ label[for="file"] {
               <div class="d-flex h-100 align-items-center justify-content-end" style="margin-right: -2rem;">
                 <div class="position-relative close" style="z-index: 2; margin-right: -3.5rem;" type="button"
                   data-dismiss="modal" aria-label="Close">
-                  <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-close.svg">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-close.svg">
                 </div>
-                <svg class="position-relative" width="72" height="509" viewBox="0 0 72 509" fill="none"
+                <svg  style="margin-right: -3rem;" class="position-relative" width="72" height="509" viewBox="0 0 72 509" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z"
-                    fill="rgba(251, 152, 0, 0.42)" />
+                    fill="#FBC000" />
                 </svg>
               </div>
             </div>

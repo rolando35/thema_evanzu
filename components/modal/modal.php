@@ -58,6 +58,10 @@
   .min-height {
       margin-top: -0.5rem;
     }
+
+  .mb-n1 {
+    margin-bottom: -2.3rem !important;
+  }
   
 </style>
 
@@ -77,42 +81,42 @@
                 <form id="basic-form" action="" method="post">
                   <input
                     type="text"
-                    class="form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    class="hurme-simple-4 form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                     id="nombre" 
                     placeholder="Nombre"
                     name="nombre">
                   <div class="d-flex">
                     <div class="w-50">
                       <input type="email"
-                        class="correo form-control rounded-0 mt-3_5 text-light w-100 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                        class="hurme-simple-4 correo form-control rounded-0 mt-3_5 text-light w-100 input-form bg-transparent border-top-0 border-left-0 border-right-0"
                         id="correo" aria-describedby="emailHelp" placeholder="Correo" name="correo">
                     </div>
                     <div class="w-50 ml-5 ">
                       <input type="numb"
-                        class="celular form-control rounded-0 mt-3_5 text-light w-100 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                        class="hurme-simple-4 celular form-control rounded-0 mt-3_5 text-light w-100 input-form bg-transparent border-top-0 border-left-0 border-right-0"
                         id="celular" aria-describedby="emailHelp" placeholder="Celular" name="celular">
                     </div>
                   </div>
                   <div class="d-flex">
                     <input type="text"
-                      class="empresa form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                      class="hurme-simple-4 empresa form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
                       id="empresa" aria-describedby="emailHelp" placeholder="Empresa" name="empresa">
                     <input type="text"
-                      class="direccion form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                      class="hurme-simple-4 direccion form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
                       id="direccion" aria-describedby="emailHelp" placeholder="Dirección" name="direccion">
                   </div>
                   <input type="text"
-                    class="mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
+                    class="hurme-simple-4 mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                     id="mensaje" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="mensaje">
-                  <button id="send" type = "submit" class="submit submitbtn  bg-white py-2 px-5 border-0 my-4  font-weight-bold"
-                    style="color: #ED1164; border-radius: 2.2rem;"> enviar</button>
+                  <button id="send" type = "submit" class="hurme-simple-4 submit submitbtn  bg-white py-2 px-5 border-0 my-4  font-weight-bold"
+                    style="color: #ED1164; border-radius: 2.2rem; font-size: 22px;">Enviar mensaje</button>
                 </form>
                   <div id="succes" class="success_msg" style="display:none">Message Sent Successfully</div>
                   <div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
              </div>
          
               <div class="h-30">
-                <h4 class="text-yellow font-weight-bold">Nuestras Sedes</h4>
+                <h4 class="text-yellow font-weight-bold mb-n1">Nuestras Sedes</h4>
                 <div class="d-flex pb-1 mb-lg-5">
 
                   <div class="pb-5 mr-5" style="width: 15.6rem">

@@ -36,6 +36,71 @@ header,
     background: #78909c !important;
   }
 }
+.develop-title{
+  font-family: running-text;
+  font-size: 2.7rem; 
+  line-height: 119px; 
+  color: #FFFFFF;
+  margin-bottom: -2.8rem;
+}
+
+.text-paragraph {
+    font-family: Hurme Geometric Sans 4;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 4.2rem;
+    margin: 0;
+    margin-bottom: -1.5rem;
+}
+
+.text-paragraph2 {
+    font-family: Hurme Geometric Sans 4;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 5.25rem;
+    margin: 0;
+    margin-bottom: -9px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text-paragraph {
+		font-size: 2.2rem !important;
+    line-height: 6rem;
+  }
+	.text-paragraph2 {
+    font-size: 3.25rem;
+	}
+.develop-title{
+  font-size: 1.7rem;
+  line-height: 4rem;
+	}
+}
+
+
+@media only screen and (max-width: 870px) {
+  .text-paragraph {
+		font-size: 2.2rem !important;
+    line-height: 6rem;
+  }
+	.text-paragraph2 {
+    font-size: 3.25rem;
+	}
+	.develop-title{
+  font-size: 1.7rem;
+  line-height: 4rem;
+	}
+}
+@media only screen and (max-width: 669px) {
+	.flex-colum {
+		max-width: none;
+	}
+	.carousel-caption{
+		top: 1rem !important;
+	} 
+	.carousel-item > img {
+		height: 25rem !important;
+	}
+}
 
 /* h1 {
   letter-spacing: 8px;
@@ -62,21 +127,7 @@ h5 {
   width: 80px;
 }
 
-.text-paragraph {
-    font-family: Hurme Geometric Sans 4;
-    color: #FFFFFF;
-    font-weight: 900;
-    font-size: 115px;
-    margin: 0;
-    margin-bottom: -20px;
-}
 
-.text-paragraph-small {
-    font-size: 84.6404px;
-    font-family: Hurme Geometric Sans 4;
-    color: #FFFFFF;
-    font-weight: 900;
-}
 
 .contain{
     display: flex;
@@ -148,19 +199,14 @@ h5 {
 				<img
 					src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/portada 2.png"
 					alt="Los Angeles"
-					width="1100"
-					height="500"
-          class="w-100"
+          class="w-100 h-100"
 				/>
-				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%; width: 25rem;">
-        <div class="contain mb-4 text-center">
-        <h1 style="font-family: running-text;
-            font-size: 60px; line-height: 119px; color: #FFFFFF;
-            margin-bottom: -70px;
-        " data-wow-delay="0.3s">Genera impacto</h1>
+				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
+        <div class="col-8 flex-colum text-left p-0 mt-5 mt-sm-1 mt-md-0 mt-lg-5">
+        <h1 class="develop-title" data-wow-delay="0.3s">Genera impacto</h1>
         <p class="text-paragraph text-uppercase" data-wow-delay="0.3s">Audio</p>
-        <div class='two-elements'>
-            <p class="text-paragraph-small text-uppercase">visual</p>
+        <div class='d-flex align-center'>
+            <p class="text-paragraph2 text-uppercase mr-2">visual</p>
             <svg width="58" height="64" viewBox="0 0 58 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M57.9974 20.5832C57.9974 19.7822 57.3321 19.132 56.5191 19.132H48.0457L53.7474 26.0184H46.6229L40.9212 19.132H35.3409L41.0426 26.0184H33.9234L28.2163 19.132H22.636L28.3404 26.0184H21.2159L15.5115 19.1347H9.93121L15.6356 26.0184H8.51105L3.34783 19.7848L7.99897 11L1.14634 12.5421C0.351793 12.7216 -0.144488 13.4992 0.0376505 14.2793L1.1648 19.1398C1.20968 19.3349 1.29416 19.5117 1.40502 19.6652C1.19649 19.9148 1.06449 20.2321 1.06449 20.5832V25.5685C1.06449 26.1198 1.37863 26.5931 1.83794 26.8376C1.82738 26.8974 1.81944 26.9572 1.81944 27.0196V60.0237C1.81944 62.216 3.63028 64 5.85554 64H52.1452C54.3704 64 56.1812 62.216 56.1812 60.0237V27.0248V27.0222H56.5217C57.3348 27.0222 58 26.3721 58 25.5711L57.9974 20.5832ZM52.1425 61.9924H5.8529C4.75215 61.9924 3.85728 61.1108 3.85728 60.0263V58.9601H43.4738C44.0387 58.9601 44.4953 58.5102 44.4953 57.9536C44.4953 57.3971 44.0387 56.9472 43.4738 56.9472H3.85728V33.1856H10.4565C11.0214 33.1856 11.4781 32.7357 11.4781 32.1792C11.4781 31.6227 11.0214 31.1728 10.4565 31.1728H3.85728V28.0261H54.1355V31.0609H14.519C13.9541 31.0609 13.4974 31.5108 13.4974 32.0674C13.4974 32.6239 13.9541 33.0738 14.519 33.0738H54.1355V56.8354H47.5363C46.9714 56.8354 46.5147 57.2853 46.5147 57.8418C46.5147 58.3983 46.9714 58.8482 47.5363 58.8482H54.1355V60.0315C54.1381 61.1108 53.2433 61.9924 52.1425 61.9924Z" fill="#019B69"/>
                 <path d="M45 2L39.7281 3.29153L35 13L40.2719 11.7085L45 2Z" fill="#019B69"/>
@@ -172,7 +218,10 @@ h5 {
                 </svg>
         </div>
         <p style='font-weight: 300;' class="text-white">con videos ideados para comunicar y emocionar.</p>
-        <div class="d-inline-block w-100"><button type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90"><strong>Desafíanos</strong> con tu proyecto</button>
+        <div class="d-inline-block w-100">
+          <button style="max-width: 20rem;" type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90">
+            <strong>Desafíanos</strong> con tu proyecto
+          </button>
         </div>
         
 
@@ -226,7 +275,7 @@ h5 {
 		<!------------Sports & videos------------>
 		<div id="home" class="tab-pane active">
 			<br>
-      <div class="bg-faint-gray py-5">
+      <div class="bg-light-gray py-5">
         <div class="big-title text-red my-4 text-center">
         Spots & Videos
         </div>
@@ -395,10 +444,10 @@ h5 {
       </div>
       <div class='py-5 my-5 pl-5'>
          <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
-              <div class='w-90 bg-fa' style='height: 12.1rem'></div>
+              <div class='w-90 bg-fa' style='height: 15.1rem'></div>
           </div>
             <div class='w-90 d-flex position-relative justify-content-around align-items-center flex-column-reverse flex-lg-row' style='margin-top: -16rem'>
-                <div>
+                <div class="mt-3">
                     <p class='text-red' style='font-weight: 900; font-size: 26px;'>
                       Filmación aérea
                     </p>
@@ -415,11 +464,11 @@ h5 {
       </div>
       <div class='py-5 my-5 pl-5'>
          <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
-              <div class='w-90 bg-fa' style='height: 12.1rem'></div>
+              <div class='w-90 bg-fa' style='height: 16rem'></div>
         </div>
         <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 03 1.png" alt="Ofrecemos imagen 1">
-            <div>
+            <div class="mt-5">
                 <p class='text-red' style='font-weight: 900; font-size: 26px;'>
                   Desarrollo de guiones
                 </p>
@@ -452,7 +501,7 @@ h5 {
                <!-- TAB - 2 -->
             <div id="menu1" class="tab-pane fade"><br>
             <div style='margin-top: 3.4rem' class="tab-content">
-               <div class="bg-faint-gray py-5">
+               <div class="bg-light-gray py-5">
                 <div class="big-title text-red my-4 text-center">
                 Animación 2D
                 </div>
@@ -604,7 +653,7 @@ h5 {
                <section>
                        <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
                            <?php echo get_template_part(
-                               'components/video-galery',
+                               'components/video-galery-animacion2d',
                                'full',
                                [
                                    'video1' => 'zpq6oje5FsA',
@@ -619,7 +668,7 @@ h5 {
 
             <!-- TAB - 3 -->
             <div id="menu2" class="tab-pane fade"><br>
-               <div class="bg-faint-gray py-5">
+               <div class="bg-light-gray py-5">
                 <div class="big-title text-red my-4 text-center">
                 Fotografía Profesional
                 </div>
