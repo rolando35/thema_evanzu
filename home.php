@@ -2415,28 +2415,28 @@ Template Name: Home
 
     	<div class="d-flex justify-content-center flex-wrap mb-5">
 						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri()?>/assets/images/btl/Group-607.png" alt="Genera expectativa" />
-							<div class="note-btl top-note-btl text-white">
-								<strong>Genera expectativa e interés</strong>
+							<img src="<?php echo get_template_directory_uri()?>/assets/images/note1.png" alt="Genera expectativa" />
+							<div class="note-btl top-note-sm hurme-regular-4 text-white">
+								Cuéntanos tus necesidades y lo que <span class="hurme-bold-4 text-red">quieres lograr.</span>
 							</div>
 						</div>
 						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri()?>/assets/images/btl/Group-609.png" alt="Informa a tus clientes" />
-							<div class="note-btl top-note-btl text-gray">
-								<strong>Informa a tus clientes actuales y potenciales</strong>
+							<img src="<?php echo get_template_directory_uri()?>/assets/images/note2.png" alt="Informa a tus clientes" />
+							<div class="note-btl top-note-sm hurme-regular-4 text-gray">
+								<span class="hurme-bold-4">Analizaremos tu caso</span> y la información del mercado.
 							</div>							
 						</div>
 						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri()?>/assets/images/btl/Group-610.png" alt="Conecta y logra" />
-							<div class="note-btl top-note-btl text-white">
-								<strong>Conecta y logra la recordación de tu marca</strong>
+							<img src="<?php echo get_template_directory_uri()?>/assets/images/note3.png" alt="Conecta y logra" />
+							<div class="note-btl top-note-md hurme-regular-4 text-white">
+								Te presentaremos una propuesta con las <span class="hurme-bold-4 text-red">soluciones más creativas</span> para conseguir tu objetivo.
 							</div>							
                         </div>
                         
                         	<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri()?>/assets/images/btl/Group-609.png" alt="Informa a tus clientes" />
-							<div class="note-btl top-note-btl text-gray">
-								<strong>Ejecutaremos el plan con responsabilidad y profesionalismo.</strong>
+							<img src="<?php echo get_template_directory_uri()?>/assets/images/note4.png" alt="Informa a tus clientes" />
+							<div class="note-btl top-note-sm hurme-regular-4 text-gray">
+								<span class="hurme-bold-4">Ejecutaremos el plan</span> con responsabilidad y profesionalismo.
 							</div>							
 						</div>
 
