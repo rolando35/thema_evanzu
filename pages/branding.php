@@ -505,20 +505,16 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             </div>
           </div>
         </div>
-        <div class="bg-red py-5">
-          <?php
-          $parameters = [
-              'svg' => $directory_imgs . 'form-quote-request.svg',
-              'title' => 'Crece
-          exponencialmente',
-          ];
-          get_template_part(
-              'components/form-quote-request',
-              'full',
-              $parameters
-          );
-          ?>
-        </div>
+        <!-----------------------Contanct----------------------------->
+        <?php get_template_part('components/form-quote-request2', 'full', [
+                'image' => $directory_imgs . 'form-quote-request.svg',
+                'title' => 'Queremos conocer tu proyecto',
+                'idwebsite' => 'branding4website',
+                'idemail' => 'branding4email',
+                'idform' => 'branding4',
+                'idparagraph' => 'pbranding4',
+            ]); ?>                
+        <!-----------------------Contanct----------------------------->
       </div>
       <!------------REDES SOCIALES ------------>
       <div id="redes_sociales" class="tab-pane fade">
@@ -696,10 +692,14 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!-----------------------Service----------------------------->
 
         <!-----------------------Contanct----------------------------->
-        <?php get_template_part('components/btl/contact', 'full', [
-            'path_img' => $path_img,
-            'title' => '¿Estás listo?',
-        ]); ?>
+        <?php get_template_part('components/form-quote-request2', 'full', [
+                'image' => $directory_imgs . 'form-quote-request.svg',
+                'title' => 'Queremos conocer tu proyecto',
+                'idwebsite' => 'branding0website',
+                'idemail' => 'branding0email',
+                'idform' => 'branding0',
+                'idparagraph' => 'pbranding0',
+            ]); ?>                
         <!-----------------------Contanct----------------------------->
       </div>
       <!------------SEO ------------>
@@ -878,10 +878,14 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!-----------------------Service----------------------------->
 
         <!-----------------------Contanct----------------------------->
-        <?php get_template_part('components/btl/contact', 'full', [
-            'path_img' => $path_img,
-            'title' => '¿Estás listo?',
-        ]); ?>
+        <?php get_template_part('components/form-quote-request2', 'full', [
+                'image' => $directory_imgs . 'form-quote-request.svg',
+                'title' => '¡Empecemos ahora!',
+                'idwebsite' => 'branding5website',
+                'idemail' => 'branding5email',
+                'idform' => 'branding5',
+                'idparagraph' => 'pbranding5',
+            ]); ?>                
         <!-----------------------Contanct----------------------------->
       </div>
       <!------------Growth hacking ------------>
@@ -1088,6 +1092,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<?php get_template_part('components/form-quote-request2', 'full', [
             'image' => $path_img . 'girl-icon.svg',
             'title' => 'Queremos conocer tu proyecto',
+            'idwebsite' => 'branding1website',
+            'idemail' => 'branding1email',
+            'idform' => 'branding1',
+            'idparagraph' => 'pbranding1',
         ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
@@ -1275,6 +1283,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<?php get_template_part('components/form-quote-request2', 'full', [
             'image' => $path_img . 'girl-icon.svg',
             'title' => '¿Un proyecto en mente?',
+            'idwebsite' => 'branding2website',
+            'idemail' => 'branding2email',
+            'idform' => 'branding2',
+            'idparagraph' => 'pbranding2',
         ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
