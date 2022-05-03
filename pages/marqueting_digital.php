@@ -913,7 +913,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
         <!-----------------------Service----------------------------->
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  class="" src="<?php echo $directory_imgs;?>haking grow.pngh">
+                 <img  class="" src="<?php echo $directory_imgs;?>haking grow.png">
               </div>
         <!-----------------------Contanct----------------------------->
               <?php get_template_part('components/form-quote-request2', 'full', [
@@ -924,13 +924,194 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
       </div>
       <!------------Marketing de contenidos ------------>
-      <div id="menu4" class="container tab-pane fade">
-        <br />
-        <h3>Menu 4</h3>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam.
-        </p>
+      <div id="menu4" class=" tab-pane fade">
+        <section class="p-0">
+          <div class="bg-light-gray py-0">
+            <div class="big-title text-red my-2 text-center">
+               Marketing de contenidos
+            </div>
+            <!-------------------Card---------------------->
+            <div class="py-2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-11 col-lg-6 d-flex">
+                    <img
+                      src="<?php echo $directory_imgs; ?>imac-contenido.png"
+                      alt=""
+                      class="ml-5 img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-10 col-lg-6">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body">
+                        <h3 class="subtitle-marketing text-gray-black text-left p-1">
+                             EL FIN: Atraer. 
+EL MEDIO: Contenido relevante y valioso.
+
+                        </h3>
+                        <p class="text-light-gray p-1">
+                           Nos encargamos de la <strong> creación y distribución de contenido </strong> para generar tráfico, obtener nuevos clientes y retenerlos. 
+                        </p>
+                        <p class="text-light-gray p-1">                    
+                              
+Utilizamos nuestra visión global de medios digitales y las adaptamos a tu empresa y objetivos. Nuestras estrategias se enfocan en <strong> despertar una necesidad de compra en el usuario a través de contenido que informe, eduque y entretenga. </strong>
+                       </p>
+                        <p class="text-light-gray p-1">   
+                          
+Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar </strong> a tu empresa y se <strong> convierta en un cliente leal </strong> de tu marca. 
+                            
+                        </p>    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+
+            <!-------------------Card---------------------->
+            <div class="py-2 card-activation-2">
+              <div class="container">
+                <div  class="row mt-3">
+                  <div class="col-md-11 col-lg-6 py-2">
+                    <div class="right-conten-description">
+                        <div class="subtitle-marketing text-red p-1">
+                          ¿Qué lograrás?
+                        </div>
+                        <div class="text-light-gray p-1 pb-2">
+                             ¿Qué lograrás?
+                               Incrementar el <strong> tráfico y <br>
+                              los resultados </strong> de tu negocio.
+                        </div>
+                        <svg width="177" height="4" viewBox="0 0 177 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3.49193 3.2865e-07L173.516 1.51926e-05C175.438 1.53607e-05 177 0.896557 177 2C177 3.10345 175.438 4 173.516 4L3.48442 3.99998C1.56198 3.99998 7.83793e-08 3.10343 1.74845e-07 1.99999C0.0075076 0.896542 1.56949 1.60585e-07 3.49193 3.2865e-07Z" fill="#FBC000"/>
+                        </svg>
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-12 col-lg-6 py-5 left-conten-description">
+                    <img
+                      src="<?php echo $directory_imgs;?>Girl_campania_marketin.png"
+                      alt=""
+                      class="img-fluid ml-4"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------------Card---------->
+          </div>
+        </section>
+
+         <!--------------------bola-Left------------------------->
+        <?php
+                 get_template_part('components/border-circle','full', array('color' =>
+        '#ED1164', 'position' => '')); ?>
+        <!--------------------bola-Left------------------------->
+
+        <div class="section-service">
+          <div class="big-title text-red text-center">El servicio incluye:</div>
+
+          <div class="text-center">
+            <svg
+              width="80"
+              height="4"
+              viewBox="0 0 80 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
+                fill="#FBC000"
+              />
+            </svg>
+          </div>
+
+          <div class="container">
+            <div class="d-flex flex-column align-items-center mb-n1-5">
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                  $directory_imgs."first-icon-service.svg", 'text' => '<strong>Plan de contenidos</strong> <br />
+                   en diferentes formatos', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
+                  <div class="element-center-service"></div>
+                </div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                $directory_imgs."Left_pencil_circle.svg", 'text' => '<strong>Gestión de blogs. </strong> <br />
+                ',
+                'line' => $directory_imgs."line-point-yellow.svg" ) ); ?>
+              </div>
+
+              <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                $directory_imgs."icono-rigth-redes.svg", 'text' => ' <strong>
+                      Gestión de redes <br />
+                      sociales.</strong
+                    >
+                    ', 'line' =>
+                $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service"></div>
+                <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                  $directory_imgs."Producción_adiovisual.svg", 'text' => ' <strong
+                      >Producción <br />
+                      audivisual.
+                    </strong>
+                    ', 'line' => $directory_imgs."line-point-yellow.svg" ) ); ?>
+              </div>
+
+               <div class="d-flex flex-column flex-md-row">
+                <?php
+									get_template_part('components/btl/service-left','full', 
+										array(
+											'image' =>
+                  $directory_imgs."icono_seo.svg", 'text' => '<strong>Posicionamiento</strong> <br />SEO. 
+                .', 'line' => $path_img."line-rosado.svg" ) ); ?>
+                <div class="d-none d-lg-block container-center-service">
+                </div>
+                    <?php
+									get_template_part('components/btl/service-right','full', 
+										array(
+											'image' =>
+                  $directory_imgs."periodic-reports.svg", 'text' => ' <strong
+                      >Reportes y análisis de  <br />
+                     resultados   .</strong
+                    >
+                ', 'line' => $directory_imgs."line-point-yellow.svg" ) ); ?>
+              </div>
+
+             
+              <div class="d-none d-lg-flex">
+                <div
+                  class="container-center-service element-final-center"
+                ></div>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+         <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
+                 <img  class="" src="<?php echo $directory_imgs;?>Marketing_contenido_base_tree.svg">
+          </div>
+
+        <!-----------------------Contanct----------------------------->
+            <?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $directory_imgs.'form-quote-request.svg',
+        'title' => '¡Empecemos ahora!',
+    ]); ?>                
+        <!-----------------------Contanct----------------------------->
       </div>
     </div>
   </div>
