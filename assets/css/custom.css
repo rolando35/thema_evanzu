@@ -211,6 +211,9 @@
 .aaleyah {
   font-family: running-text;
 }
+.hurme-simple {
+  font-family: hurme-simple;
+}
 .hurme-simple-4 {
   font-family: hurme-simple;
 }
@@ -464,7 +467,7 @@
 
 #how-to {
   font-size: 65px;
-  font-family: "hurme-simple-4";
+  font-family: "hurme-simple";
   font-style: normal;
   font-weight: 900;
   line-height: 55px;
@@ -600,7 +603,7 @@
 
 .text-main-client {
   font-size: 1.5rem;
-  font-family: "hurme-simple-4";
+  font-family: "hurme-simple";
   font-weight: 600;
   line-height: 2rem;
 }
@@ -610,7 +613,7 @@
 }
 
 .subtitle-client {
-  font-family: "hurme-simple-4";
+  font-family: "hurme-simple";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
@@ -618,7 +621,7 @@
 }
 
 .text-secondary-client {
-  font-family: "hurme-simple-4";
+  font-family: "hurme-simple";
   line-height: 1.2rem;
 }
 
@@ -879,7 +882,7 @@
 
 #description-team {
   font-size: 25px;
-  font-family: hurme-simple-4;
+  font-family: hurme-simple;
 }
 
 /* Masonry toggle */
@@ -1204,7 +1207,7 @@ html {
 
 body {
   margin: unset;
-  font-family: hurme-simple-4;
+  font-family: hurme-simple;
   font-size: unset;
   font-weight: unset;
   line-height: unset;
