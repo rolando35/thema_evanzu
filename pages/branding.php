@@ -96,7 +96,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     <div class="tab-content">
       <div id="home" class="tab-pane active">
         <br />
-        <div class="bg-faint-gray">
+        <div class="bg-light-gray">
           <div class="big-title text-red my-4 text-center">
              Logo & Branding
           </div>
