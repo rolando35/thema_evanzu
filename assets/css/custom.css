@@ -195,7 +195,7 @@
 .aaleyah {
   font-family: running-text;
 }
-.hurme-simple-4 {
+.hurme-simple {
   font-family: hurme-simple;
 }
 
@@ -223,6 +223,9 @@
 
 .atletico-medium {
   font-family: atletico-medium;
+}
+.atletico-regular {
+  font-family: atletico-regular;
 }
 
 .running-text {
@@ -269,7 +272,7 @@
 
 .subtitle-btl,
 .subtitle-marketing {
-  font-family: hurme-simple-4;
+  font-family: hurme-simple;
   font-style: normal;
   font-weight: 900;
   font-size: 1.6rem;
@@ -282,7 +285,7 @@
 }
 
 .marqueting-btl {
-  font-family: hurme-simple-4;
+  font-family: hurme-simple;
   font-style: normal;
   font-weight: 900;
   font-size: 1.6rem;
@@ -444,7 +447,7 @@
 
 #how-to {
   font-size: 65px;
-  font-family: "hurme-simple-4";
+  font-family: "hurme-simple";
   font-style: normal;
   font-weight: 900;
   line-height: 55px;
@@ -580,7 +583,7 @@
 
 .text-main-client {
   font-size: 1.5rem;
-  font-family: "hurme-simple-4";
+  font-family: "hurme-simple";
   font-weight: 600;
   line-height: 2rem;
 }
@@ -590,7 +593,7 @@
 }
 
 .subtitle-client {
-  font-family: "hurme-simple-4";
+  font-family: "hurme-simple";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
@@ -598,7 +601,7 @@
 }
 
 .text-secondary-client {
-  font-family: "hurme-simple-4";
+  font-family: "hurme-simple";
   line-height: 1.2rem;
 }
 
@@ -835,7 +838,7 @@
 
 #description-team {
   font-size: 25px;
-  font-family: hurme-simple-4;
+  font-family: hurme-simple;
 }
 
 /* Masonry toggle */
@@ -856,6 +859,22 @@
 } */
 /* Masonry toggle */
 /*-------------------- BTL -------------------*/
+
+/*--------------------BRANDIG -------------------*/
+.title-bold-branding {
+  font-size: 4.05rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.carousel-caption-branding {
+  position: absolute;
+  bottom: 25%;
+  top: 25%;
+  left: 5%;
+}
+
+/*--------------------BRANDIG -------------------*/
 
 /****RESPONSIVE****/
 
@@ -1120,7 +1139,7 @@ html {
 
 body {
   margin: unset;
-  font-family: hurme-simple-4;
+  font-family: hurme-simple;
   font-size: unset;
   font-weight: unset;
   line-height: unset;
