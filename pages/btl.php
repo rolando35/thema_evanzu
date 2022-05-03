@@ -24,36 +24,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		height: 900px;
 	}
 
-	.subtitle-event {
-		font-family: Hurme Geometric Sans 4;
-		font-size: 1.6rem;
-		font-style: normal;
-		font-weight: 700;
-		letter-spacing: 0em;
-		color: #ED1164;
-	}
-
-	.text-event-italic {
-		font-family: Hurme Geometric Sans 4;
-		font-size: 1rem;
-		font-style: italic;
-		font-weight: 700;
-		line-height: 19px;
-		letter-spacing: 0em;
-		text-align: justified;
-		color:#808080;
-	}
-
-	.text-event {
-		font-family: Hurme Geometric Sans 4;
-		font-size: 1rem;
-		font-style: normal;
-		font-weight: 400;
-		letter-spacing: 0em;
-		text-align: justified;
-		color: #808080;
-	}
-
 </style>
 
 <section id="slider" class="section-slider-btl">
@@ -67,28 +37,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active d-flex align-items-center">
-
-				<!-- <img
-					src="<?php echo get_template_directory_uri()?>/assets/images/btl/Servicio-ActivacionBTL2.png;"
-					alt="Los Angeles"
-					class="w-100 d-none d-sm-block d-md-none"
-					style="min-height: 25rem;"
-				/>
-
-				<img
-					src="<?php echo get_template_directory_uri()?>/assets/images/btl/btl-slider.jpg;"
-					alt="Los Angeles"
-					class="w-100 d-none d-md-block"
-					style="min-height: 25rem;"
-				/>
-				
-				<img
-					src="<?php echo get_template_directory_uri()?>/assets/images/btl/ServicioActivacionBTL.png"
-					alt="Los Angeles"
-					class="w-100 d-sm-none"
-					style="max-height: 25rem;"
-				/>					 -->
-
 				<img
 					src="<?php echo get_template_directory_uri()?>/assets/images/btl/btl-slider.jpg;"
 					alt="Los Angeles"
@@ -396,75 +344,75 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									(
 									"image" => "tablero-memoria.png", 
 									"icon" => "cerebro.svg",
-									"title" => "Tablero de <strong>Memoria</strong>",
+									"title" => "Tablero de <span>Memoria</span>",
 									"path" => $path_img
 									), 
 									array ( 
 									"image" => "cabina-aire.png",
 									"icon" => "cabina-aire.svg", 
-									"title" => "Cabina de <strong>Aire</strong>", 
+									"title" => "Cabina de <span>Aire</span>", 
 									"path" => $path_img
 									),
 									array (
 									"image" => "ruta.png",
 									"icon" => "ruleta.svg",
-									"title" => "La <strong>Ruleta</strong>",
+									"title" => "La <span>Ruleta</span>",
 									"path" => $path_img
 									), 
 									array (
 									"image" => "jenga-gigante.png", 
 									"icon" => "jenga-gigante.svg",
-									"title" => "Jenga <strong>Gigante</strong>",
+									"title" => "Jenga <span>Gigante</span>",
 									"path" => $path_img
 									),
 									array
 									(
 									"image" => "carrera-enchufes.png", 
 									"icon" => "carrera-enchufes.svg",
-									"title" => "Carrera de <strong>Enchufes</strong>",
+									"title" => "Carrera de <span>Enchufes</span>",
 									"path" => $path_img
 									), 
 									array ( 
 									"image" => "palestra-inflable.png",
 									"icon" => "palestra-inflable.svg", 
-									"title" => "Palestra <strong>Inflable</strong>", 
+									"title" => "Palestra <span>Inflable</span>", 
 									"path" => $path_img
 									),
 									array (
 									"image" => "palestra.png",
 									"icon" => "palestra.svg",
-									"title" => "La <strong>Palesta</strong>",
+									"title" => "La <span>Palesta</span>",
 									"path" => $path_img
 									), 
 									array (
 									"image" => "tablero-dardos.png", 
 									"icon" => "tablero-dardos.svg",
-									"title" => "Tablero de <strong>Dardos</strong>",
+									"title" => "Tablero de <span>Dardos</span>",
 									"path" => $path_img
 									),
 									array
 									(
 									"image" => "hombre-globo.png", 
 									"icon" => "hombre-globo.svg",
-									"title" => "Hombre <strong>Glogo</strong>",
+									"title" => "Hombre <span>Glogo</span>",
 									"path" => $path_img
 									), 
 									array ( 
 									"image" => "futbol-billar-gigante.png",
 									"icon" => "futbol-billar-gigante.svg", 
-									"title" => "Futbol Billar <strong>Gigante</strong>", 
+									"title" => "Futbol Billar <span>Gigante</span>", 
 									"path" => $path_img
 									),
 									array (
 									"image" => "tira-gol.png",
 									"icon" => "tira-gol.svg",
-									"title" => "El <strong>TiraGol</strong>",
+									"title" => "El <span>TiraGol</span>",
 									"path" => $path_img
 									), 
 									array (
 									"image" => "obstaculos.png", 
 									"icon" => "obstaculos.svg",
-									"title" => "Los <strong>Obstáculos</strong>",
+									"title" => "Los <span>Obstáculos</span>",
 									"path" => $path_img
 									)) as $game) {
 								get_template_part('components/option-game','full', $game ); } ?>

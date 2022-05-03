@@ -5,13 +5,7 @@
 	class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column align-items-center"
 >
 	<div
-		class="mb-2"
-		style="
-			padding: 0.7rem;
-			background: #f798bc;
-			border-radius: 50%;
-			width: 10.2rem;
-		"
+		class="mb-2 image-circle-game"
 	>
 		<img src="<?php echo $game["path"] . $game["image"] ?>" class="img-fluid" />
 	</div>
@@ -32,5 +26,5 @@
 			/>
 		</svg>
 	</div>
-	<p class="text-red" style="font-size: 1.2rem;"><?php echo $game["title"]; ?></p>
+	<p class="text-title-game text-red"><?php echo $game["title"]; ?></p>
 </div>
