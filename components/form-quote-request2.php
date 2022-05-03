@@ -2,9 +2,9 @@
 	p.error{ color: red; font-size: 0.8em; }
 </style>
 <div class="bg-red box-container-contact">
-	<?php
-        $directory_points = get_template_directory_uri() . '/assets/images/form-quote-request/point-group.svg';
-	?>
+	<?php $directory_points =
+     get_template_directory_uri() .
+     '/assets/images/form-quote-request/point-group.svg'; ?>
 
 	<div class="container">
 		<div class="row justify-content-center">
@@ -15,22 +15,24 @@
 					class="row flex-column-reverse flex-lg-row align-items-center row-first justify-content-lg-center"
 				>
 					<div class="align-self-center d-none d-lg-block points-element">
-						<img src="<?php echo $directory_points;?>" />
+						<img src="<?php echo $directory_points; ?>" />
 					</div>
 					<div class="image-contact">
-						<img src="<?php echo $args["image"]; ?>"/>
+						<img src="<?php echo $args['image']; ?>"/>
 					</div>
 					<div
 						class="d-none d-sm-block hurme-simple text-white text-left mt-lg-n3 title-contact"
 					>
-						<?php echo $args["title"] ?>
+						<?php echo $args['title']; ?>
 					</div>
 					<div class="align-self-center d-none d-lg-block points-element">
 						<img src="<?php echo $directory_points; ?>" />
 					</div>
 				</div>
 
-				<form action="" id="chalking" class="row bg-white rounded-pill row-second flex-column flex-lg-row align-content-center">
+				<form action="" id="<?php echo $args[
+        'idform'
+    ]; ?>" class="row bg-white rounded-pill row-second flex-column flex-lg-row align-content-center">
 					<div
 						class="d-flex pt-3 pb-1 pt-md-2 pt-lg-0 pb-lg-0 w-80 flex-column flex-lg-row align-items-center justify-content-center"
 					>
@@ -40,19 +42,19 @@
 							<div class="w-50">
 								<input
 									type="text"
-									id="website"
+									id="<?php echo $args['idwebsite']; ?>"
 									placeholder="Sitio Web"
-									class="website input-non-border form-control w-100"
-									name="website"
+									class="<?php echo $args['idwebsite']; ?> input-non-border form-control w-100"
+									name="<?php echo $args['idwebsite']; ?>"
 								/>
 							</div>
 							<div class="w-50">
 								<input
 									type="text"
-									id="email"
+									id="<?php echo $args['idemail']; ?>"
 									placeholder="E-mail"
-									class="email input-non-border form-control w-100"
-									name="email"
+									class="<?php echo $args['idemail']; ?> input-non-border form-control w-100"
+									name="<?php echo $args['idemail']; ?>"
 								/>
 							</div>
 						</div>
@@ -90,7 +92,7 @@
 						</button>
 					</div>
 				</form>
-				<div id="successfully" class="success_msg" style="display:none; font-size: 1rem">Message Sent Successfully</div>
+				<div id="<?php echo $args['idparagraph']; ?>" class="success_msg" style="display:none; font-size: 1rem">Message Sent Successfully</div>
 				<div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
 			</div>
 		</div>
@@ -102,33 +104,33 @@
 
     (function ($) {
         
-        $("#chalking").validate({
+        $("#<?php echo $args['idform']; ?>").validate({
         rules: {
-           website : {
+					<?php echo $args['idwebsite']; ?>: {
             required: true,
             minlength: 10
-           },
-           email: {
-             required: true,
-             email: true
-           }
+          },
+          <?php echo $args['idemail']; ?>: {
+            required: true,
+            email: true
+          }
         },
         messages : {
-          website: {
+          <?php echo $args['idwebsite']; ?>: {
             required: "Este campo es obligatorio*.",
             minlength: "Como mínimo tiene que tener 10 caracteres"
           },
-           email: {
+					<?php echo $args['idemail']; ?>: {
               required: "Este campo es obligatorio*.",
               email: "El correo tiene que tener un formato: abc@domain.tld"
-           }
+          }
         },
         submitHandler: function (e) {
-          var website = $("#website").val();
-          var email =  $("#email").val()
+          var website = $("#<?php echo $args['idwebsite']; ?>").val();
+          var email =  $("#<?php echo $args['idemail']; ?>").val()
           
           $.ajax({
-            url: '<?php echo admin_url('admin-ajax.php') ?>',
+            url: '<?php echo admin_url('admin-ajax.php'); ?>',
             type: "post",
             data: {
               action: "cotization",
@@ -136,12 +138,12 @@
               email
             },
             beforeSend: function () {
-               $("#successfully").show()
-               $("#successfully").html("<span style='color:white;font-size:1rem;'>Cargando ...</span>")
+              $("#<?php echo $args['idparagraph']; ?>").show()
+              $("#<?php echo $args['idparagraph']; ?>").html("<span style='color:white;font-size:1rem;'>Cargando ...</span>")
             },
             success: function (resultado) {
-                $("#successfully").show(); 
-                $("#successfully").html(resultado);
+                $("#<?php echo $args['idparagraph']; ?>").show(); 
+                $("#<?php echo $args['idparagraph']; ?>").html(resultado);
             },
           });
           return false
