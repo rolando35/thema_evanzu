@@ -21,7 +21,11 @@
 						<img src="<?php echo $args["image"]; ?>"/>
 					</div>
 					<div
+<<<<<<< HEAD
 						class="d-none d-sm-block hurme-simple text-white text-left mt-lg-n3 title-contact"
+=======
+						class="d-none d-sm-block mt-lg-n3 title-contact"
+>>>>>>> 21efd51a63461bde5614a803e46bcfe5a44cc3a9
 					>
 						<?php echo $args["title"] ?>
 					</div>
@@ -64,7 +68,7 @@
 							class="submit btn rounded-pill text-white my-1 p-2 btn-sm button-contact"
 							id="submit"
 						>
-							<span><strong>Solicita tu cotización</strong></span>
+							<span class="hurme-bold-4">Solicita tu cotización</span>
 
 							<svg
 								width="37"
