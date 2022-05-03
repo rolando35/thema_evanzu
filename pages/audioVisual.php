@@ -515,7 +515,7 @@ h5 {
                 </div>
             </div>
             <p class='font-weight-normal text-justify w-90' style='line-height: 22px; font-size: 1rem'>
-            Comunicamos información relevante y contenido de interés de la manera más <strong>creativa y cautivadora.</strong> Aplicable a <b>videos para comunicación interna y externa,</b> eventos corporativos, tutoriales y otros. <br> <br>
+            Comunicamos información relevante y contenido de interés de la manera más <strong>creativa y cautivadora.</strong> Aplicable a <b class="font-weight-bold text-gray-black" >videos para comunicación interna y externa,</b> eventos corporativos, tutoriales y otros. <br> <br>
             Manejamos diversos estilos de animación: motion graphic, stop motion y otros. Contamos con un equipo especializado en Illustrator, After effects, Premier, Audition, Cinema 4D y 3D Max.
             </p>
             </div>
@@ -551,7 +551,7 @@ h5 {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $directory_imgs."como-lo-hacemos1.svg",
-											'text' => '<b> Desarrollo </b> de concepto.',
+											'text' => '<b class="font-weight-bold text-gray-black" > Desarrollo </b> de concepto.',
 											'line' => $directory_imgs."line-rosado.svg"
 										)
 									); 
@@ -563,7 +563,7 @@ h5 {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $directory_imgs."como-lo-hacemos2.svg",
-											'text' => 'Creación de <b> Storyboard.</b>',
+											'text' => 'Creación de <b class="font-weight-bold text-gray-black" > Storyboard.</b>',
 											'line' => $directory_imgs."line-blu.svg"
 										)
 									); 
@@ -575,7 +575,7 @@ h5 {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $directory_imgs."como-lo-hago3.svg",
-											'text' => '<b>Ilustración y caracterización</b> de personajes y escenarios.',
+											'text' => '<b class="font-weight-bold text-gray-black" >Ilustración y caracterización</b> de personajes y escenarios.',
 											'line' => $directory_imgs."line-rosado.svg"
 										)
 									); 
@@ -586,7 +586,7 @@ h5 {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $directory_imgs."como-lo-hago4.svg",
-											'text' => '<b>Animación, musicalización y voz en off.</b>',
+											'text' => '<b class="font-weight-bold text-gray-black" >Animación, musicalización y voz en off.</b>',
 											'line' => $directory_imgs."line-blu.svg"
 										)
 									); 
@@ -682,7 +682,7 @@ h5 {
                 </div>
             </div>
             <p class='font-weight-normal w-90 text-justify' style='line-height: 22px; font-size: 1rem'>
-            Renueva la imagen de tu negocio mediante fotografías profesionales de alta calidad. <b>Obtendrás imágenes de calidad artística.</b> <br> <br> 
+            Renueva la imagen de tu negocio mediante fotografías profesionales de alta calidad. <span class="font-weight-bold text-gray-black">Obtendrás imágenes de calidad artística.</span> <br> <br> 
             Creamos escenarios en función del objetivo de comunicación. Manejamos técnicas de fotografía comercial, iluminación y retoque.
             </p>
             </div>
@@ -718,7 +718,7 @@ h5 {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $directory_imgs."herramientas1.svg",
-											'text' => '<b> Fotos </b> de Cámaras DLSR.',
+											'text' => '<b class="font-weight-bold text-gray-black" > Fotos </b> de Cámaras DLSR.',
 											'line' => $directory_imgs."line-rosado.svg"
 										)
 									); 
@@ -730,7 +730,7 @@ h5 {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $directory_imgs."herramientas2.svg",
-											'text' => '<b> Fotos </b>Fotos de estudio.',
+											'text' => '<b class="font-weight-bold text-gray-black" > Fotos </b>Fotos de estudio.',
 											'line' => $directory_imgs."line-blu.svg"
 										)
 									); 
@@ -742,7 +742,7 @@ h5 {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $directory_imgs."herramientas3.svg",
-											'text' => '<b>Video</b> cámara HD y 4K',
+											'text' => '<b class="font-weight-bold text-gray-black" >Video</b> cámara HD y 4K',
 											'line' => $directory_imgs."line-rosado.svg"
 										)
 									); 
@@ -753,7 +753,7 @@ h5 {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $directory_imgs."herramientas4.svg",
-											'text' => '<b>Fotos aéreas</b> con drones.',
+											'text' => '<b class="font-weight-bold text-gray-black" >Fotos aéreas</b> con drones.',
 											'line' => $directory_imgs."line-blu.svg"
 										)
 									); 
