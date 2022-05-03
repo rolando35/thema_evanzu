@@ -36,8 +36,8 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 			<h2 class="text-red text-center subtitle-client p-1 m-0">Diseño Web</h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Realizamos el diseño web con la actualización de la nueva marca.<br /><strong
-					>Post - Rebranding</strong
+				Realizamos el diseño web con la actualización de la nueva marca.<br /><span class="hurme-bold-4"
+					>Post - Rebranding</span
 				>
 			</p>
 		</div>
@@ -75,7 +75,7 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
 				Realizamos la elaboración de diferentes piezas gráficas para sus
-				diferentes productos.<br /><strong>Pre - Rebranding</strong>
+				diferentes productos.<br /><span class="hurme-bold-4">Pre - Rebranding</span>
 			</p>
 		</div>
 		<!---------------title--------------->

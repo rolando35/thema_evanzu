@@ -313,20 +313,20 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					<div class="d-flex justify-content-center flex-wrap">
 						<div class="m-sm-1 m-md-2 position-relative">
 							<img src="<?php echo $path_img; ?>Group-607.png" alt="Genera expectativa" />
-							<div class="note-btl top-note-btl text-white">
-								<strong>Genera expectativa e interés</strong>
+							<div class="note-btl top-note-md hurme-bold-4 text-white">
+								Genera expectativa e interés
 							</div>
 						</div>
 						<div class="m-sm-1 m-md-2 position-relative">
 							<img src="<?php echo $path_img; ?>Group-609.png" alt="Informa a tus clientes" />
-							<div class="note-btl top-note-btl text-gray">
-								<strong>Informa a tus clientes actuales y potenciales</strong>
+							<div class="note-btl top-note-sm hurme-bold-4 text-gray">
+								Informa a tus clientes actuales y potenciales
 							</div>							
 						</div>
 						<div class="m-sm-1 m-md-2 position-relative">
 							<img src="<?php echo $path_img; ?>Group-610.png" alt="Conecta y logra" />
-							<div class="note-btl top-note-btl text-white">
-								<strong>Conecta y logra la recordación de tu marca</strong>
+							<div class="note-btl top-note-md hurme-bold-4 text-white">
+								Conecta y logra la recordación de tu marca
 							</div>							
 						</div>
 					</div>
