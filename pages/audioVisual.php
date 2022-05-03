@@ -417,6 +417,10 @@ h5 {
                 'image' =>
                     $directory_imgs . 'form-quote-request.svg',
                 'title' => '¡Empecemos ahora!',
+                'idwebsite' => 'form1website',
+                'idemail' => 'form1email',
+                'idform' => 'chalk1',
+                'idparagraph' => 'p1',
             ]
         ); ?>
 				<!-----------------------Contact----------------------------->
@@ -623,24 +627,28 @@ h5 {
                             'image' =>
                                 $directory_imgs . 'form-quote-request.svg',
                             'title' => '¿Estás listo?',
+                            'idwebsite' => 'form2website',
+                            'idemail' => 'form2email',
+                            'idform' => 'chalk2',
+                            'idparagraph' => 'p2',
                         ]
                     ); ?>
                     <!-----------------------Contact----------------------------->
                   </div>
 
-               <div class='py-5 my-5 pl-5'>
-                   <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
+                <div class='py-5 my-5 pl-5'>
+                    <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
                         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
                     </div>
                       <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
                           <div class="col-sm-12 col-lg-6 ">
                               <p class='text-red' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
-                               <ul>
+                                <ul>
                                     <li>Video-tutoriales.</li>
-                                   <li>Presentación de productos o servicios.</li>
-                                   <li>Videos infográficos y otros.</li>
-                                   <li>Producción de audio (Musicalización, efectos de sonido, masterización de audio, locución).</li>
-                               </ul>
+                                    <li>Presentación de productos o servicios.</li>
+                                    <li>Videos infográficos y otros.</li>
+                                    <li>Producción de audio (Musicalización, efectos de sonido, masterización de audio, locución).</li>
+                                </ul>
                           </div>
                           <div class="col-sm-12 col-lg-6 ">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png" alt="Ofrecemos imagen 1">
@@ -650,17 +658,17 @@ h5 {
                
                
                <!-- PORTAFOLIO -->
-               <section>
-                       <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
-                           <?php echo get_template_part(
-                               'components/video-galery-animacion2d',
-                               'full',
-                               [
-                                   'video1' => 'zpq6oje5FsA',
-                                   'video2' => '-SdnP9s5cF8',
-                               ]
-                           ); ?>
-                 </section>
+                <section>
+                        <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
+                            <?php echo get_template_part(
+                                'components/video-galery-animacion2d',
+                                'full',
+                                [
+                                    'video1' => 'zpq6oje5FsA',
+                                    'video2' => '-SdnP9s5cF8',
+                                ]
+                            ); ?>
+                  </section>
 
             </div>
         </div>
@@ -668,7 +676,7 @@ h5 {
 
             <!-- TAB - 3 -->
             <div id="menu2" class="tab-pane fade"><br>
-               <div class="bg-light-gray py-5">
+              <div class="bg-light-gray py-5">
                 <div class="big-title text-red my-4 text-center">
                 Fotografía Profesional
                 </div>
@@ -790,6 +798,10 @@ h5 {
                             'image' =>
                                 $directory_imgs . 'form-quote-request.svg',
                             'title' => 'Tenemos más por contarte, escríbenos',
+                            'idwebsite' => 'form3website',
+                            'idemail' => 'form3email',
+                            'idform' => 'chalk3',
+                            'idparagraph' => 'p3',
                         ]
                     ); ?>
                     <!-----------------------Contact----------------------------->

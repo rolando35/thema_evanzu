@@ -267,50 +267,37 @@ ul {
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."servicio-incluye1.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Diseño personalizado</b> <br> y enfocado en la experiencia de usuario.',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'servicio-incluye1.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Diseño personalizado</b> <br> y enfocado en la experiencia de usuario.',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."servicio-incluye2.svg",
-											'text' => 'Desarrollo a medida <br> o en CMS.',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'servicio-incluye2.svg',
+            'text' => 'Desarrollo a medida <br> o en CMS.',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."servicio-incluye3.svg",
-											'text' => 'Integración de <b class="font-weight-bold text-gray-black" >medios de pagos online.</b>',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'servicio-incluye3.svg',
+            'text' =>
+                'Integración de <b class="font-weight-bold text-gray-black" >medios de pagos online.</b>',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."servicio-incluye4.svg",
-											'text' => 'Desarrollo de un <b class="font-weight-bold text-gray-black" > Backoffice </b> para la gestión de pedidos.',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'servicio-incluye4.svg',
+            'text' =>
+                'Desarrollo de un <b class="font-weight-bold text-gray-black" > Backoffice </b> para la gestión de pedidos.',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 							<div class="d-none d-lg-flex">
 								<div class="container-center-service element-final-center"></div>
@@ -328,6 +315,10 @@ ul {
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => '¡Empecemos ahora!',
+				'idwebsite' => 'softWare1website',
+        'idemail' => 'softWare1email',
+        'idform' => 'softWare1',
+        'idparagraph' => 'psoftWare1',
     ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
@@ -403,62 +394,45 @@ ul {
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."servicio-incluye1.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Diseño personalizado</b> <br> y responsivo.',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'servicio-incluye1.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Diseño personalizado</b> <br> y responsivo.',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."servicio-path2-2.svg",
-											'text' => 'Publicidad y <br>Desarrollo.',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'servicio-path2-2.svg',
+            'text' => 'Publicidad y <br>Desarrollo.',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."servicio-path2-3.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Definición de la estrategia del proyecto.</b>',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'servicio-path2-3.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Definición de la estrategia del proyecto.</b>',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."servicio-path2-4.svg",
-											'text' => 'Maquetación y arquitectura. ',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'servicio-path2-4.svg',
+            'text' => 'Maquetación y arquitectura. ',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 							
               <div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."servicio-path2-5.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Implementación <br> y mantenimiento</b>',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'servicio-path2-5.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Implementación <br> y mantenimiento</b>',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
 								<div class="d-none d-lg-block container-empty-service"></div>
@@ -494,6 +468,10 @@ ul {
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Estamos listos. ¡Contáctanos!',
+				'idwebsite' => 'softWare2website',
+        'idemail' => 'softWare2email',
+        'idform' => 'softWare2',
+        'idparagraph' => 'psoftWare2',
     ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
@@ -613,50 +591,38 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."como-trabajamos1.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Planificamos según tus objetivos y necesidades.</b>',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'como-trabajamos1.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Planificamos según tus objetivos y necesidades.</b>',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."servicio-path2-4.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Definimos las funciones</b> <br> que cubran las necesidades actuales y que se anticipen a las futuras.',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'servicio-path2-4.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Definimos las funciones</b> <br> que cubran las necesidades actuales y que se anticipen a las futuras.',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."como-trabajamos3.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Establecemos el flujo <br> de navegación y diseño </b>pensando en el usuario. ',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'como-trabajamos3.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Establecemos el flujo <br> de navegación y diseño </b>pensando en el usuario. ',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."como-trabajamos4.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Realizamos testing y control de calidad.</b>',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'como-trabajamos4.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Realizamos testing y control de calidad.</b>',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 							<div class="d-none d-lg-flex">
 								<div class="container-center-service element-final-center"></div>
@@ -683,6 +649,10 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Tenemos más por contarte',
+				'idwebsite' => 'softWare3website',
+        'idemail' => 'softWare3email',
+        'idform' => 'softWare3',
+        'idparagraph' => 'psoftWare3',
     ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-------------------------- list -------------------------->
@@ -769,62 +739,47 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."tab4-servicio1.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Software ERP.</b>',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'tab4-servicio1.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Software ERP.</b>',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."tab4-servicio2.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Software CRM.</b>',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'tab4-servicio2.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Software CRM.</b>',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."tab4-servicio3.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Sistemas de Matrícula.</b>',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'tab4-servicio3.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Sistemas de Matrícula.</b>',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."tab4-servicio4.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Sistemas de gestión de <br> ventas e ingresos.</b>',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'tab4-servicio4.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Sistemas de gestión de <br> ventas e ingresos.</b>',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 							
               <div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."tab4-servicio5.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Sistemas de <br> control de stock.</b>',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'tab4-servicio5.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Sistemas de <br> control de stock.</b>',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
 								<div class="d-none d-lg-block container-empty-service"></div>
@@ -857,6 +812,10 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => '¿Un proyecto en mente?',
+				'idwebsite' => 'softWare4website',
+        'idemail' => 'softWare4email',
+        'idform' => 'softWare4',
+        'idparagraph' => 'psoftWare4',
     ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-----------------------Portafolio tab4----------------------------->
@@ -925,50 +884,38 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."como-trabajamos3.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Investigación del perfil</b> de usuario.',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'como-trabajamos3.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Investigación del perfil</b> de usuario.',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."diseño-servicio2.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Desarrollo del mapa de navegación, animación y transiciones.</b>',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'diseño-servicio2.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Desarrollo del mapa de navegación, animación y transiciones.</b>',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $path_software."diseño-servicio3.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Diseño de diagramas de navegación simulando interacciones</b> <br>Uso de plataformas como Figma, Adobe Xd y otros. ',
-											'line' => $path_software."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $path_software . 'diseño-servicio3.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Diseño de diagramas de navegación simulando interacciones</b> <br>Uso de plataformas como Figma, Adobe Xd y otros. ',
+            'line' => $path_software . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $path_software."diseño-servicio4.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Testing.</b>',
-											'line' => $path_software."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $path_software . 'diseño-servicio4.svg',
+            'text' =>
+                '<b class="font-weight-bold text-gray-black" >Testing.</b>',
+            'line' => $path_software . 'line-blu.svg',
+        ]); ?>
 							</div>
 							<div class="d-none d-lg-flex">
 								<div class="container-center-service element-final-center"></div>
@@ -995,6 +942,10 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Define tu presupuesto',
+				'idwebsite' => 'softWare5website',
+        'idemail' => 'softWare5email',
+        'idform' => 'softWare5',
+        'idparagraph' => 'psoftWare5',
     ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-----------------------Portafolio tab6----------------------------->
@@ -1015,9 +966,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
   <div class="big-title text-red my-4 text-center">PORTAFOLIO</div>
   <div>
     <div>
-      <?php         
-                get_template_part('components/masonry-desarrollo', );  
-        ?>
+      <?php get_template_part('components/masonry-desarrollo'); ?>
     </div>
 
     <div class="container" style="margin-top: 5rem"></div>
