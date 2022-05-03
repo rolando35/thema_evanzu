@@ -90,6 +90,11 @@
 .text-light-purple {
   color: #681484;
 }
+.how {
+  color: #434041;
+  font-weight: 900;
+  font-size: 45px;
+}
 
 /*Button BTL*/
 .btn-btl {
@@ -918,10 +923,16 @@
   left: 5%;
 }
 
-.service-braning-text {
+.service-braning-text-left {
   position: absolute;
   width: 18%;
   margin-top: 30px;
+}
+
+.service-braning-text-rigth {
+  position: absolute;
+  width: 18%;
+  margin-top: 40px;
 }
 
 /*--------------------BRANDIG -------------------*/
@@ -955,7 +966,13 @@
     width: 60%;
   }
 
-  .service-braning-text {
+  .service-braning-text-left {
+    position: unset;
+    width: unset;
+    margin-top: unset;
+  }
+
+  .service-braning-text-rigth {
     position: unset;
     width: unset;
     margin-top: unset;

@@ -21,7 +21,7 @@
 						<img src="<?php echo $args["image"]; ?>"/>
 					</div>
 					<div
-						class="d-none d-sm-block mt-lg-n3 title-contact"
+						class="d-none d-sm-block hurme-simple text-white text-left mt-lg-n3 title-contact"
 					>
 						<?php echo $args["title"] ?>
 					</div>
