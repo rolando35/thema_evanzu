@@ -861,6 +861,15 @@
 	content: 'whatever it is you want to add';
 }
 
+.hover-video-invert {
+  filter: brightness(20%);
+}
+
+.hover-video-invert:hover {
+  filter: unset;
+  content: unset;
+}
+
 #description-team {
 	font-size: 25px;
 	font-family: hurme-simple;
@@ -906,9 +915,8 @@
 }
 
 .service-braning-text-rigth {
-	position: absolute;
-	width: 18%;
-	margin-top: 40px;
+  position: absolute;
+  max-width: 17rem;
 }
 
 .service-doble-line {
@@ -921,9 +929,30 @@
   margin-right: 15%;
 }
 
+.responsive-long{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.long-services {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 /*--------------------BRANDIG -------------------*/
 
 /****RESPONSIVE****/
+@media only screen and (max-width: 992px) {
+  .responsive-long{
+    margin-top: 19rem;
+    margin-bottom: 13rem;
+  }
+  
+  .long-services {
+    margin-top: 7rem;
+    margin-bottom: -5rem;
+  }
+
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -966,6 +995,23 @@
 }
 
 /* Masonry effect styles */
+.hover-div-invert {
+  display: block !important;
+  z-index: 1;
+}
+.hover-div-invert:hover > div {
+  display: none;
+  z-index: 0;
+}
+
+.lirycs-hover {
+  display: block !important;
+  z-index: 1;
+}
+.lirycs-hover:hover {
+  display: none;
+}
+
 .masonry-hover-lirycs {
 	display: none;
 }
@@ -974,8 +1020,13 @@
 	display: block !important;
 	z-index: 1;
 }
+
 .masonry-hover-lirycs:hover + img {
 	filter: brightness(20%) !important;
+}
+
+.lirycs-hover:hover + iframe {
+  filter: brightness(20%) !important;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
