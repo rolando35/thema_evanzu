@@ -26,6 +26,36 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     background: red;
     height: 900px;
   }
+
+  .hight-content {
+    margin-bottom: -19rem;
+    margin-top: 5rem;
+  }
+
+  .long-content{
+    margin-bottom: -8rem;
+  }
+  
+  .hight-content1{
+    margin-bottom: -8rem;
+  }
+
+  .title-width {
+    max-width: 58rem;
+  }
+
+  .card-n1 {
+    margin-top: -4rem;
+  }
+
+  .semi-title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+@media only screen and (max-width: 992px) {
+
+}
 </style>
 
 <section id="slider">
@@ -147,7 +177,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                  <div class="row justify-content-center">
                   <div class="col-md-11 col-lg-6 d-flex justify-content-lg-end">
                     <img
-                      src="<?php echo $directory_branding_imgs ?>Identity Branding.png"
+                      src="<?php echo $directory_branding_imgs; ?>Identity Branding.png"
                       alt=""
                       class="img-fluid"
                     />
@@ -189,7 +219,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
                   <div class="col-md-12 col-lg-6 py-5 left-conten-description">
                     <img
-                      src="<?php echo $directory_branding_imgs ?>pincel_girl.png"
+                      src="<?php echo $directory_branding_imgs; ?>pincel_girl.png"
                       class="img-fluid ml-4"
                     />
                   </div>
@@ -202,8 +232,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           </div>
         </div>
 
-  
-       <div class="big-title text-red text-center">Ofrecemos:</div>
+  <!----------------------------- services tab 1 ----------------------------->
+        <div class="big-title text-red text-center">Ofrecemos:</div>
           <div class="text-center">
             <svg
               width="80"
@@ -222,50 +252,70 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           <div class="container">
             <div class="d-flex flex-column align-items-center mb-n1-5">
               <div class="d-flex flex-column flex-md-row">
-                <?php
-									get_template_part('components/branding/service-left','full', 
-										array(
-											'image' =>
-                      $directory_branding_imgs."manual_icon.svg", 'text' => '
+                <?php get_template_part(
+                    'components/branding/service-left',
+                    'full',
+                    [
+                        'image' => $directory_branding_imgs . 'manual_icon.svg',
+                        'text' => '
                           Plasmamos tu ADN corporativo en un documento guía para las diversas 
                           formas de comunicación en función de tu negocio: Restaurantes, ONG’s, 
-                          Moda, Estudios Contables y Servicios.', 'title' => 'Manual de marca','line' => $directory_branding_imgs."line-red.svg" ) ); ?>
+                          Moda, Estudios Contables y Servicios.',
+                        'title' => 'Manual de marca',
+                        'line' => $directory_branding_imgs . 'line-red.svg',
+                    ]
+                ); ?>
                 <div class="d-none d-lg-block container-center-service">
                   <div class="element-center-service"></div>
                 </div>
-                <?php
-									get_template_part('components/branding/service-right','full', 
-										array(
-											'image' =>
-                   $directory_branding_imgs."logog_a.svg", 'text' => 'Logos
-                   Te ofrecemos la mejor solución para identificar tu marca, tener identidad y presencia en el mercado.
+                <?php get_template_part(
+                    'components/branding/service-right',
+                    'full',
+                    [
+                        'image' => $directory_branding_imgs . 'logog_a.svg',
+                        'text' => 'Te ofrecemos la mejor solución para identificar tu marca, tener identidad y presencia en el mercado.
                     Diseñamos logotipos originales y con personalidad propia.
-                ','title' => 'Logos',
-                'line' => $directory_branding_imgs."line-purple-higth.svg" ) ); ?>
+                ',
+                        'title' => 'Logos',
+                        'line' =>
+                            $directory_branding_imgs . 'line-purple-higth.svg',
+                    ]
+                ); ?>
               </div>
 
-             <div class="d-flex flex-column flex-md-row">
-                <?php
-									get_template_part('components/branding/service-left','full', 
-										array(
-											'image' =>
-                      $directory_branding_imgs."notes_icon.svg", 'text' => '
+              <div class="d-flex flex-column flex-md-row">
+                <?php get_template_part(
+                    'components/branding/service-left',
+                    'full',
+                    [
+                        'image' => $directory_branding_imgs . 'notes_icon.svg',
+                        'text' => '
                         Creamos nombres y slogans para empresas que resuenan, enganchan y son fáciles de recordar. 
                         Serán la principal publicidad de tu marca y haremos que sea efectiva.
-                        ', 'title' => ' Naming y slogans','line' => $directory_branding_imgs."line-red.svg" ) ); ?>
+                        ',
+                        'title' => ' Naming y slogans',
+                        'line' => $directory_branding_imgs . 'line-red.svg',
+                    ]
+                ); ?>
                 <div class="d-none d-lg-block container-center-service">
                   <div class="element-center-service"></div>
                 </div>
-                <?php
-									get_template_part('components/branding/service-right','full', 
-										array(
-											'image' =>
-                   $directory_branding_imgs."box-icon.svg", 'text' => '
-                   Diseñamos empaques funcionales con el toque estético y creativo que necesita tu marca.
-                  Servicio dirigido a empresas de ventas online que buscan crear una experiencia de unboxing 
-                  cautivante y posteable. Diseñamos y producimos empaques, bolsas, cajas, envases y otros..
-                ','tall' => 'height: 100px;','title' => 'Packaging',
-                'line' => $directory_branding_imgs."line-purple-higth.svg" ) ); ?>
+                <?php get_template_part(
+                    'components/branding/service-right',
+                    'full',
+                    [
+                        'image' => $directory_branding_imgs . 'box-icon.svg',
+                        'text' => '
+                    Diseñamos empaques funcionales con el toque estético y creativo que necesita tu marca.
+                    Servicio dirigido a empresas de ventas online que buscan crear una experiencia de unboxing 
+                    cautivante y posteable. Diseñamos y producimos empaques, bolsas, cajas, envases y otros..
+                  ',
+                        'tall' => 'height: 100px;',
+                        'title' => 'Packaging',
+                        'line' =>
+                            $directory_branding_imgs . 'line-purple-higth.svg',
+                    ]
+                ); ?>
               </div>
 
               
@@ -275,10 +325,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 ></div>
               </div>
             </div>
-             <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-               <img   src="<?php echo $directory_branding_imgs.'publicidad grafico_Mesa.png'?>">
-             </div>
-
+              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+                <img   src="<?php echo $directory_branding_imgs .
+                    'publicidad grafico_Mesa.png'; ?>">
+              </div>
           </div>
 
               <!-----------------------Circle Right----------------------------->
@@ -297,9 +347,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <div class='mt-5'>
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
-            'image' => $path_img . 'girl-icon.svg',
-            'title' => '¿Un proyecto en mente?',
-        ]); ?>
+        'image' => $path_img . 'girl-icon.svg',
+        'title' => '¿Un proyecto en mente?',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
       </div>
@@ -480,13 +530,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Contanct----------------------------->
         <?php get_template_part('components/form-quote-request2', 'full', [
-                'image' => $directory_imgs . 'form-quote-request.svg',
-                'title' => 'Queremos conocer tu proyecto',
-                'idwebsite' => 'branding0website',
-                'idemail' => 'branding0email',
-                'idform' => 'branding0',
-                'idparagraph' => 'pbranding0',
-            ]); ?>                
+            'image' => $directory_imgs . 'form-quote-request.svg',
+            'title' => 'Queremos conocer tu proyecto',
+            'idwebsite' => 'branding0website',
+            'idemail' => 'branding0email',
+            'idform' => 'branding0',
+            'idparagraph' => 'pbranding0',
+        ]); ?>                
         <!-----------------------Contanct----------------------------->
       </div>
       <!------------SEO ------------>
@@ -496,77 +546,35 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <section class="p-0">
           <div class="bg-light-gray py-0">
             <div class="big-title text-red my-2 text-center">
-              Gestión de Redes Sociales
+            Merchandising & Impresos
             </div>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center justify-content-center">
                     <img
-                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
-                      alt=""
+                      src="<?php echo $directory_branding_imgs; ?>Bim merchandising_Mesa de trabajo 1 1.png"
+                      alt="Mechanding mesa"
                       class="img-fluid"
                     />
                   </div>
-                  <div class="col-md-10 col-lg-6">
+                  <div class="col-md-10 col-lg-6 d-flex align-items-center">
                     <div class="card bg-transparent border-0">
                       <div class="card-body">
-                        <h3 class="subtitle-btl text-left p-1">
-                          ¡Usuarios más conectados, más fidelizados!
+                        <h3 class="subtitle-marketing text-light-purple text-left p-1">
+                          Capta y fideliza a más clientes
                         </h3>
                         <p class="text-justify text-light-gray p-1">
-                          Encontraremos el
-                          <strong> y tono de comunicación ideal </strong>
-                          para administrar tus redes sociales.
-                        </p>
-                        <p class="text-justify text-light-gray p-1">
-                          Trabajamos con creatividad estratégica para
-                          <strong> generar una respuesta emocional</strong> en
-                          tus clientes, forjar conexiones más fuertes con ellos
-                          y motivarlos a tomar acción.
-                        </p>
-                        <p class="text-justify text-light-gray p-1">
-                          Al contar con un community manager podrás
-                          <strong> generar viralidad</strong> para potenciar tu
-                          marca y llegar a más clientes.
+                          Nuestros expertos creativos diseñan 
+                          <b class="text-light-gray font-weight-bold hurme-simple">
+                            artículos publicitarios que transmiten la identidad de una marca
+                          </b> y que a su vez consiguen los objetivos trazados. <br> <br>
+
+                          En la conceptualización establecemos el diseño, funcionalidad y empleabilidad del formato que mejor calce con tu objetivo.
                         </p>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!------------Card---------->
-
-            <!-------------------Card---------------------->
-            <div class="py-2 card-activation-2">
-              <div class="container">
-                <div
-                  class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end"
-                >
-                  <div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
-                    <div class="card bg-transparent border-0">
-                      <div class="card-body pb-0">
-                        <h3 class="subtitle-btl text-left p-1">
-                          ¿Qué lograrás?
-                        </h3>
-                        <div
-                          class="text-justify text-light-gray p-1 pb-2 pb-md-3"
-                        >
-                          Ganarás<strong> notoriedad </strong> en redes sociales
-                          <strong> y tus clientes amarán tu marca.</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-10 col-lg-6 py-2 text-center">
-                    <img
-                      src="<?php echo $directory_imgs; ?>Girl_teaching_evanzu.png"
-                      alt=""
-                      class="img-fluid"
-                    />
                   </div>
                 </div>
               </div>
@@ -583,97 +591,118 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         ]); ?>
         <!--------------------bola-Left------------------------->
 
-        <!-----------------------Service----------------------------->
-        <div class="section-service">
-          <div class="big-title text-red text-center">El servicio incluye:</div>
+        <!-------------------- services tab1 -------------------->
+			<div class="section-service">
+				<div class="big-title text-red text-center">Ofrecemos:</div>
 
-          <div class="text-center">
-            <svg
-              width="80"
-              height="4"
-              viewBox="0 0 80 4"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
-                fill="#ED1164"
-              />
-            </svg>
-          </div>
+				<div class="text-center">
+					<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z" fill="#ED1164"/>
+					</svg>
+				</div>
 
-          <div class="container">
-            <div class="d-flex flex-column align-items-center">
-              <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $path_img . 'first-icon-service.svg',
-                    'text' => '<strong
-                  >Desarrollo</strong
-                >
-                de Concepto.',
-                    'line' => $path_img . 'line-rosado.svg',
+				<div class="container">
+					<div class="d-flex flex-column align-items-center mb-n1-5">
+						<div class="d-flex flex-column flex-md-row">
+							<?php get_template_part('components/btl/service-left', 'full', [
+                    'image' => $directory_branding_imgs . 'ofrecemos1.png',
+                    'text' => '
+                      <div class="long-content">
+                        <strong>Merchandising</strong>
+                        <p>
+                        Logra que las personas descubran, reconozcan y difundan tu marca con artículos como: Gorras, polos, lapiceros, tazas, Soleras, llaveros, pines, tomados y mucho más.
+                        </p>
+                      </div>
+                    ',
+                    'line' => $directory_branding_imgs . 'line-red.svg',
                 ]); ?>
-                <div class="d-none d-lg-block container-center-service">
-                  <div class="element-center-service"></div>
+							<div class="d-none d-lg-block container-center-service">
+                <div class="element-center-service"></div>
+							</div>
+							<?php get_template_part('components/service-right-long', 'full', [
+                      'image' => $directory_branding_imgs . 'ofrecemos2.png',
+                      'text' => '
+                        <div class="hight-content">
+                          <b>Impresos</b>
+    
+                          Partimos de las necesidades de comunicación para la <b>maquetación de contenido que cautive</b> al público objetivo, informe efectivamente y refuerce la identidad corporativa.
+                          
+                          <p class="text-red font-weight-bold">Incluye:</p> 
+                          <i>
+                          Hojas membretadas, tarjetas de presentación personales y corporativas, brochures corporativos, banners publicitarios, sobres y bolsas, volantes, dipticos y tripticos, y otras publicaciones como: libros, revistas, periódicos, catálogos, carátulas, cuentos y otros.
+                          </i>
+                        </div>
+                      ',
+                      'line' => $directory_branding_imgs . 'line-purple-higth1.svg',
+                  ]); ?>
+						  </div>
+
+            <div class="d-flex flex-column flex-md-row">
+							<?php get_template_part('components/service-left-long', 'full', [
+            'image' => $directory_branding_imgs . 'ofrecemos3.png',
+            'text' => ' 
+                <div class="hight-content1">
+                  <b>Señalética corporativa </b>
+
+                  <p>
+                  Ideamos señaléticas para espacios interiores como oficinas, puntos de venta y atención al cliente. Trabajamos señalamiento de contingencia sanitaria, material POP, entre otros. Nos aseguramos de que sean originales, fáciles de percibir y de interpretar.
+                  </p> 
+                  <b class="text-red">Incluye:</b>
+                  <i>
+                  Diseño de Jalavistas, rompetráficos, flanger, table tent, letreros y mucho más; además de pictogramas, iconos y tipografía.
+                  </i>
                 </div>
-                <?php get_template_part(
-                    'components/btl/service-right',
-                    'full',
-                    [
-                        'image' => $path_img . 'second-icon-service.svg',
-                        'text' => '<strong
-                  >Activaciones</strong
-                >
-                en ferias, <br />mercados, universidades, <br />parques y más.',
-                        'line' => $path_img . 'line-celeste.svg',
-                    ]
-                ); ?>
-              </div>
+            ',
+            'line' => $directory_branding_imgs . 'line-red.svg',
+        ]); ?>									
+							<div class="d-none d-lg-block container-center-service">
+							</div>
+							<div class="d-none d-lg-block container-empty-service"></div>
+						</div>
+						<div class="d-none d-lg-flex">
+							<div class="container-center-service element-final-center"></div>
+						</div>
+					</div>
+				</div>
 
-              <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $path_img . 'third-icon-service.svg',
-                    'text' => '<strong
-                  >Pre-Producción</strong
-                >
-                de la<br />activación (Merchandising,<br />
-                personal, juegos y otros).',
-                    'line' => $path_img . 'line-rosado.svg',
-                ]); ?>
-                <div class="d-none d-lg-block container-center-service"></div>
-                <?php get_template_part(
-                    'components/btl/service-right',
-                    'full',
-                    [
-                        'image' => $path_img . 'fourth-icon-service.svg',
-                        'text' => '<strong
-                  >Reporte</strong
-                >
-                de resultados.',
-                        'line' => $path_img . 'line-celeste.svg',
-                    ]
-                ); ?>
-              </div>
-              <div class="d-none d-lg-flex">
-                <div
-                  class="container-center-service element-final-center"
-                ></div>
-              </div>
-            </div>
-          </div>
+        <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+            <img  class="" src="<?php echo $directory_branding_imgs .
+                'Piezas de Comunicación 1.png'; ?>">
         </div>
+			</div>
         <!-----------------------Service----------------------------->
 
-        <!-----------------------Contanct----------------------------->
-        <?php get_template_part('components/form-quote-request2', 'full', [
-                'image' => $directory_imgs . 'form-quote-request.svg',
-                'title' => '¡Empecemos ahora!',
+        <!-----------------------Circle Right----------------------------->
+        <div class='w-100 text-right' style="margin-bottom: -10rem">
+          <?php
+          $parameters = ['color' => '#681484', 'position' => 'right'];
+          get_template_part(
+              'components/border-circle',
+              'full',
+              $parameters
+          );
+          ?>
+          </div>
+        <!-----------------------Circle Right----------------------------->
+
+
+        <div class='mt-5'>
+          <!-----------------------Contact----------------------------->
+          <?php get_template_part(
+              'components/form-quote-request2',
+              'full',
+              [
+                'image' => $path_img . 'girl-icon.svg',
+                'title' => 'Te escuchamos',
                 'idwebsite' => 'branding5website',
                 'idemail' => 'branding5email',
                 'idform' => 'branding5',
                 'idparagraph' => 'pbranding5',
-            ]); ?>                
-        <!-----------------------Contanct----------------------------->
+              ]
+          ); ?>
+          <!-----------------------Contact----------------------------->
+        </div>
+
       </div>
       <!------------Growth hacking ------------>
       <div id="menu3" class="tab-pane fade">
@@ -682,77 +711,39 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <section class="p-0">
           <div class="bg-light-gray py-0">
             <div class="big-title text-red my-2 text-center">
-              Gestión de Redes Sociales
+              Ilustración digital
             </div>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center justify-content-center">
                     <img
-                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
-                      alt=""
+                      src="<?php echo $directory_branding_imgs; ?>Mockup 1.png"
+                      alt="Mechanding mesa"
                       class="img-fluid"
                     />
                   </div>
-                  <div class="col-md-10 col-lg-6">
+                  <div class="col-md-10 col-lg-6 d-flex align-items-center">
                     <div class="card bg-transparent border-0">
                       <div class="card-body">
-                        <h3 class="subtitle-btl text-left p-1">
-                          ¡Usuarios más conectados, más fidelizados!
+                        <h3 class="subtitle-marketing text-light-purple text-left p-1">
+                          Expresión visual y creativa
                         </h3>
                         <p class="text-justify text-light-gray p-1">
-                          Encontraremos el
-                          <strong> y tono de comunicación ideal </strong>
-                          para administrar tus redes sociales.
-                        </p>
-                        <p class="text-justify text-light-gray p-1">
-                          Trabajamos con creatividad estratégica para
-                          <strong> generar una respuesta emocional</strong> en
-                          tus clientes, forjar conexiones más fuertes con ellos
-                          y motivarlos a tomar acción.
-                        </p>
-                        <p class="text-justify text-light-gray p-1">
-                          Al contar con un community manager podrás
-                          <strong> generar viralidad</strong> para potenciar tu
-                          marca y llegar a más clientes.
+                        La ilustración digital es un recurso clave en esta era de la comunicación visual. Creemos en el poder de las imágenes como un recurso diferenciador para las marcas. <br> <br>
+
+                        Trasladamos conceptos a 
+                        <b class="text-light-gray font-weight-bold hurme-simple">
+                          imágenes exclusivas y personalizadas.
+                        </b> Manejamos el 
+                        <b class="text-light-gray font-weight-bold hurme-simple">
+                          arte visual enfocado a ganar la atención y fidelidad de los usuarios.
+                        </b>
+
                         </p>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!------------Card---------->
-
-            <!-------------------Card---------------------->
-            <div class="py-2 card-activation-2">
-              <div class="container">
-                <div
-                  class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end"
-                >
-                  <div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
-                    <div class="card bg-transparent border-0">
-                      <div class="card-body pb-0">
-                        <h3 class="subtitle-btl text-left p-1">
-                          ¿Qué lograrás?
-                        </h3>
-                        <div
-                          class="text-justify text-light-gray p-1 pb-2 pb-md-3"
-                        >
-                          Ganarás<strong> notoriedad </strong> en redes sociales
-                          <strong> y tus clientes amarán tu marca.</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-10 col-lg-6 py-2 text-center">
-                    <img
-                      src="<?php echo $directory_imgs; ?>Girl_teaching_evanzu.png"
-                      alt=""
-                      class="img-fluid"
-                    />
                   </div>
                 </div>
               </div>
@@ -771,7 +762,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Service component tab5----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">Ofrecemos ilustración digital para:</div>
+          <div class="w-100 d-flex justify-content-center">
+            <div class="big-title text-red text-center title-width">Ofrecemos ilustración digital para:</div>
+          </div>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -782,42 +775,32 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $directory_branding_imgs . 'ilustracion1.png',
-											'text' => '<span class="font-weight-bold text-gray-black">Personajes para videos <br>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $directory_branding_imgs . 'ilustracion1.png',
+            'text' => '<span class="font-weight-bold text-gray-black">Personajes para videos <br>
                       corporativos.</span>',
-                    'line' => $path_img . 'line-rosado.svg',
-										)
-									); 
-								?>
+            'line' => $path_img . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $directory_branding_imgs . 'ilustracion2.png',
-                        'text' => '<span class="font-weight-bold text-gray-black">Dirección de arte para <br> campañas publicitarias.</span>',
-                        'line' => $directory_branding_imgs . 'line_purple.svg',
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $directory_branding_imgs . 'ilustracion2.png',
+            'text' =>
+                '<span class="font-weight-bold text-gray-black">Dirección de arte para <br> campañas publicitarias.</span>',
+            'line' => $directory_branding_imgs . 'line_purple.svg',
+        ]); ?>
 							</div>
 
 							
 
               <div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-                  array(
-                    'image' => $directory_branding_imgs . 'ilustracion3.png',
-                  'text' => '<span class="font-weight-bold text-gray-black">Recursos para páginas web.</span>',
-                  'line' => $path_img . 'line-rosado.svg',
-                  )
-                );  
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $directory_branding_imgs . 'ilustracion3.png',
+            'text' =>
+                '<span class="font-weight-bold text-gray-black">Recursos para páginas web.</span>',
+            'line' => $path_img . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
 								<div class="d-none d-lg-block container-empty-service"></div>
@@ -841,7 +824,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         			<div class="d-flex justify-content-center flex-wrap">
         				<div class="m-sm-1 m-md-2 position-relative">
         					<img style="height: 17rem;" src="<?php echo $path_img; ?>Group-607.png" alt="Genera expectativa" />
-        					<div class="note-btl top-note-btl text-white mt-5">
+        					<div class="note-btl top-note-btl text-white card-n1">
         						<strong>
                       <span class="text-red mt-2">Briefing de requerimientos</span>
                       Recabamos los datos de tu empresa, del proyecto y los objetivos. 
@@ -850,7 +833,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         				</div>
         				<div class="m-sm-1 m-md-2 position-relative">
         					<img style="height: 17rem;" src="<?php echo $path_img; ?>Group-609.png" alt="Informa a tus clientes" />
-        					<div class="note-btl top-note-btl text-gray mt-5">
+        					<div class="note-btl top-note-btl text-gray card-n1">
         						<strong>
                       <span class="text-light-gray mt-2">Conceptualización y desarrollo creativo</span>
                       Creamos ideas originales y efectivas para adaptarlas a tu marca y sus necesidades.
@@ -859,7 +842,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         				</div>
         				<div class="m-sm-1 m-md-2 position-relative">
         					<img style="height: 17rem;" src="<?php echo $path_img; ?>Group-610.png" alt="Conecta y logra" />
-        					<div class="note-btl top-note-btl text-white mt-5">
+        					<div class="note-btl top-note-btl text-white card-n1">
         						<strong>
                     <span class="text-red mt-2">Diseño de artes gráficas</span>
                       Plasmamos nuestra experiencia y amor por el diseño en cada arte.
@@ -877,13 +860,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
-            'image' => $path_img . 'girl-icon.svg',
-            'title' => 'Queremos conocer tu proyecto',
-            'idwebsite' => 'branding1website',
-            'idemail' => 'branding1email',
-            'idform' => 'branding1',
-            'idparagraph' => 'pbranding1',
-        ]); ?>
+        'image' => $path_img . 'girl-icon.svg',
+        'title' => 'Queremos conocer tu proyecto',
+        'idwebsite' => 'branding1website',
+        'idemail' => 'branding1email',
+        'idform' => 'branding1',
+        'idparagraph' => 'pbranding1',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
       <!------------Marketing de contenidos ------------>
@@ -893,40 +876,40 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <section class="p-0">
           <div class="bg-light-gray py-0">
             <div class="big-title text-red my-2 text-center">
-              Gestión de Redes Sociales
+              Diseño UX & UI
             </div>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center justify-content-center">
                     <img
-                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
-                      alt=""
+                      src="<?php echo $directory_branding_imgs; ?>iMac Perspective Screen Mockup 1.png"
+                      alt="Mechanding mesa"
                       class="img-fluid"
                     />
                   </div>
-                  <div class="col-md-10 col-lg-6">
+                  <div class="col-md-10 col-lg-6 d-flex align-items-center">
                     <div class="card bg-transparent border-0">
                       <div class="card-body">
-                        <h3 class="subtitle-btl text-left p-1">
-                          ¡Usuarios más conectados, más fidelizados!
+                        <h3 class="subtitle-marketing text-light-purple text-left p-1">
+                          Genera la mejor experiencia de usuario en tu plataforma
                         </h3>
                         <p class="text-justify text-light-gray p-1">
-                          Encontraremos el
-                          <strong> y tono de comunicación ideal </strong>
-                          para administrar tus redes sociales.
-                        </p>
-                        <p class="text-justify text-light-gray p-1">
-                          Trabajamos con creatividad estratégica para
-                          <strong> generar una respuesta emocional</strong> en
-                          tus clientes, forjar conexiones más fuertes con ellos
-                          y motivarlos a tomar acción.
-                        </p>
-                        <p class="text-justify text-light-gray p-1">
-                          Al contar con un community manager podrás
-                          <strong> generar viralidad</strong> para potenciar tu
-                          marca y llegar a más clientes.
+
+                        Nos basamos en el diseño centrado en el usuario para crear
+                        <b class="text-light-gray font-weight-bold hurme-simple">
+                          plataformas intuitivas.
+                          </b> <br> <br>
+                          Partimos de la investigación de las necesidades del usuario y del análisis de la usabilidad de tu interfaz para proponerte un
+                          <b class="text-light-gray font-weight-bold hurme-simple">
+                            diseño efectivo que garantice la mejor experiencia de usuario.
+                          </b> <br> <br>
+
+                          Hacemos que la navegabilidad sea
+                          <b class="text-light-gray font-weight-bold hurme-simple">
+                            clara, sencilla y que encamine al usuario a tomar una acción
+                          </b>concreta.
                         </p>
                       </div>
                     </div>
@@ -940,27 +923,28 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <div class="py-2 card-activation-2">
               <div class="container">
                 <div
-                  class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end"
+                  class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end mt-5"
                 >
-                  <div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
+                  <div class="col-md-11 col-lg-6 py-2 d-flex align-items-end justify-content-end">
                     <div class="card bg-transparent border-0">
                       <div class="card-body pb-0">
-                        <h3 class="subtitle-btl text-left p-1">
-                          ¿Qué lograrás?
-                        </h3>
-                        <div
-                          class="text-justify text-light-gray p-1 pb-2 pb-md-3"
-                        >
-                          Ganarás<strong> notoriedad </strong> en redes sociales
-                          <strong> y tus clientes amarán tu marca.</strong>
+                        <p class="text-right semi-title text-light-purple">
+                          Genera una <br>
+                          <span class="hurme-simple">interacción intuitiva</span> <br>
+                          en tu interfaz.
+                        </p>
+                        <div class="d-flex justify-content-end">
+                          <svg width="177" height="4" viewBox="0 0 177 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.49193 3.2865e-07L173.516 1.51926e-05C175.438 1.53607e-05 177 0.896557 177 2C177 3.10345 175.438 4 173.516 4L3.48442 3.99998C1.56198 3.99998 7.83793e-08 3.10343 1.74845e-07 1.99999C0.0075076 0.896542 1.56949 1.60585e-07 3.49193 3.2865e-07Z" fill="#FBC000"/>
+                          </svg>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-md-10 col-lg-6 py-2 text-center">
+                  <div class="col-md-10 col-lg-6 py-2 text-center mt-5">
                     <img
-                      src="<?php echo $directory_imgs; ?>Girl_teaching_evanzu.png"
+                      src="<?php echo $directory_branding_imgs; ?>Group 371.png"
                       alt=""
                       class="img-fluid"
                     />
@@ -993,53 +977,39 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $directory_branding_imgs . 'tab5_first_image.png',
-											'text' => '<span class="font-weight-bold text-gray-black">Investigación del perfil <br>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $directory_branding_imgs . 'tab5_first_image.png',
+            'text' => '<span class="font-weight-bold text-gray-black">Investigación del perfil <br>
                     de usuario.</span>',
-                    'line' => $path_img . 'line-rosado.svg',
-										)
-									); 
-								?>
+            'line' => $path_img . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $directory_branding_imgs . 'tab5_second_image.png',
-                        'text' => '<span class="font-weight-bold text-gray-black">Desarrollo del <br> mapa de navegación, animación y <br>  transiciones.</span>',
-                        'line' => $directory_branding_imgs . 'line_purple.svg',
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $directory_branding_imgs . 'tab5_second_image.png',
+            'text' =>
+                '<span class="font-weight-bold text-gray-black">Desarrollo del <br> mapa de navegación, animación y <br>  transiciones.</span>',
+            'line' => $directory_branding_imgs . 'line_purple.svg',
+        ]); ?>
 							</div>
 
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $directory_branding_imgs . 'tab5_third_image.png',
-                    'text' => '<span class="font-weight-bold text-gray-black">
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $directory_branding_imgs . 'tab5_third_image.png',
+            'text' => '<span class="font-weight-bold text-gray-black">
                     Diseño de diagramas de navegación simulando interacciones </span>
                     <p>Uso de plataformas como Figma, Adobe Xd y otros.</p>',
-                    'line' => $path_img . 'line-rosado.svg',
-										)
-									); 
-								?>									
+            'line' => $path_img . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $directory_branding_imgs . 'tab5_fourth_image.png',
-                        'text' => '<span class="font-weight-bold text-gray-black">Testing.</span>',
-                        'line' => $directory_branding_imgs . 'line_purple.svg',
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $directory_branding_imgs . 'tab5_fourth_image.png',
+            'text' =>
+                '<span class="font-weight-bold text-gray-black">Testing.</span>',
+            'line' => $directory_branding_imgs . 'line_purple.svg',
+        ]); ?>
 							</div>
 							<div class="d-none d-lg-flex">
 								<div class="container-center-service element-final-center"></div>
@@ -1068,13 +1038,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <div class='mt-5'>
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
-            'image' => $path_img . 'girl-icon.svg',
-            'title' => '¿Un proyecto en mente?',
-            'idwebsite' => 'branding2website',
-            'idemail' => 'branding2email',
-            'idform' => 'branding2',
-            'idparagraph' => 'pbranding2',
-        ]); ?>
+        'image' => $path_img . 'girl-icon.svg',
+        'title' => '¿Un proyecto en mente?',
+        'idwebsite' => 'branding2website',
+        'idemail' => 'branding2email',
+        'idform' => 'branding2',
+        'idparagraph' => 'pbranding2',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
     </div>
