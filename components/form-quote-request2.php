@@ -17,14 +17,17 @@
 					<div class="align-self-center d-none d-lg-block points-element">
 						<img src="<?php echo $directory_points; ?>" />
 					</div>
-					<div class="image-contact">
-						<img src="<?php echo $args['image']; ?>"/>
+					<div class="d-flex flex-column-reverse flex-lg-row align-items-center group-title-contact">
+						<div class="<?php echo isset($args['imgClass'])? $args["imgClass"]: ''; ?>">
+							<img src="<?php echo $args['image']; ?>"/>
+						</div>
+						<div
+							class="d-none d-sm-block text-white hurme-simple-black <?php echo $args['titleClass']; ?>"
+						>
+							<?php echo $args['title']; ?>
+						</div>
 					</div>
-					<div
-						class="d-none d-sm-block hurme-simple text-white text-left mt-lg-n3 title-contact"
-					>
-						<?php echo $args['title']; ?>
-					</div>
+
 					<div class="align-self-center d-none d-lg-block points-element">
 						<img src="<?php echo $directory_points; ?>" />
 					</div>
