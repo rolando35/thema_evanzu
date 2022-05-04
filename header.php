@@ -16,6 +16,10 @@
   .mt-n1-6{ 
     margin-top: 0;
   }
+
+  ul > li button.active{
+    background-color: green;
+  }
 </style>
  
 <body class="w-100">
@@ -69,3 +73,14 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
 
     </div>
   </nav>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+ $(document).ready(function () {
+$("ul > li button").click(function () {
+        $('ul > li button').removeClass('active');
+        $(this).addClass('active');
+    });
+});
+</script>

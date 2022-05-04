@@ -876,6 +876,15 @@
   content: "whatever it is you want to add";
 }
 
+.hover-video-invert {
+  filter: brightness(20%);
+}
+
+.hover-video-invert:hover {
+  filter: unset;
+  content: unset;
+}
+
 #description-team {
   font-size: 25px;
   font-family: hurme-simple;
@@ -991,6 +1000,23 @@
 }
 
 /* Masonry effect styles */
+.hover-div-invert {
+  display: block !important;
+  z-index: 1;
+}
+.hover-div-invert:hover > div {
+  display: none;
+  z-index: 0;
+}
+
+.lirycs-hover {
+  display: block !important;
+  z-index: 1;
+}
+.lirycs-hover:hover {
+  display: none;
+}
+
 .masonry-hover-lirycs {
   display: none;
 }
@@ -999,7 +1025,12 @@
   display: block !important;
   z-index: 1;
 }
+
 .masonry-hover-lirycs:hover + img {
+  filter: brightness(20%) !important;
+}
+
+.lirycs-hover:hover + iframe {
   filter: brightness(20%) !important;
 }
 
