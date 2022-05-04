@@ -1,5 +1,5 @@
 <div class="d-flex flex-column my-1 mt-lg-0 mb-lg-5">
-	<div class="d-flex flex-column align-items-center flex-lg-row">
+	<div class="d-flex flex-column align-items-center flex-lg-row ">
 		<div style="<?php echo isset($args["tall"]) ? $args["tall"] : '';?>" class="align-self-lg-end">
 			<img class="image-service" src="<?php echo $args["image"]; ?>"
 			/>

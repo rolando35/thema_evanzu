@@ -88,44 +88,44 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <?php
         $lista = [
             [
-                'svg' => 'first-tab.svg',
-                'title' => 'Publicidad
+                'svg' => 'digital.svg',
+                'title' => 'Logo
+                  <br />
+                  Branding',
+                'href' => '#home',
+                'path' => $directory_branding_imgs,
+            ],
+            [
+                'svg' => 'icon-diseño.svg',
+                'title' => 'Diseño
+                <br />
+                 Publicitario',
+                'href' => '#redes_sociales',
+                'path' => $directory_branding_imgs,
+            ],
+            [
+                'svg' => 'merchandancin.svg',
+                'title' => 'Merchandising
+                  <br />
+                 & Impresos',
+                'href' => '#menu2',
+                'path' => $directory_branding_imgs,
+            ],
+            [
+                'svg' => 'icon-tv.svg',
+                'title' => 'Ilustración
         <br />
         digital',
-                'href' => '#home',
-                'path' => $directory_imgs,
-            ],
-            [
-                'svg' => 'second-tab.svg',
-                'title' => 'Gestión
-        <br />
-        de Redes',
-                'href' => '#redes_sociales',
-                'path' => $directory_imgs,
-            ],
-            [
-                'svg' => 'third-tab.svg',
-                'title' => 'Posicionamiento
-        <br />
-        SEO',
-                'href' => '#menu2',
-                'path' => $directory_imgs,
-            ],
-            [
-                'svg' => 'quarter-tab.svg',
-                'title' => 'Growth
-        <br />
-        hacking',
                 'href' => '#menu3',
-                'path' => $directory_imgs,
+                'path' => $directory_branding_imgs,
             ],
             [
-                'svg' => 'fifth-tab.svg',
-                'title' => 'Marketing de
+                'svg' => 'icon-brain.svg',
+                'title' => 'Diseño
         <br />
-        contenidos',
+       UX & UI',
                 'href' => '#menu4',
-                'path' => $directory_imgs,
+                'path' => $directory_branding_imgs,
             ],
         ];
         foreach ($lista as $data) {
@@ -410,8 +410,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <div class="d-flex flex-column align-items-center">
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/branding/service-left-double', 'full', [
-                    'image-one' => $path_img . 'first-icon-service.svg',
-                    'image-two' => $path_img . 'first-icon-service.svg',
+                    'image-one' => $directory_branding_imgs .'volante.svg',
+                    'image-two' => $directory_branding_imgs .'diptico.svg',
                     'title-one' => 'Volante',
                     'title-two' => 'Diptico',
                     'line-one' => $directory_branding_imgs.'line-rosado-large.svg',
@@ -428,11 +428,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'components/branding/service-right-double',
                     'full',
                      [
-                        'image-one' => $path_img . 'second-icon-service.svg',
-                        'image-two' => $path_img . 'second-icon-service.svg',
-                        'image' => $path_img . 'second-icon-service.svg',
-                        'title-one' => 'Volante',
-                        'title-two' => 'Diptico',
+                        'image-one' => $directory_branding_imgs.'colgante.svg',
+                        'image-two' => $directory_branding_imgs.'triptico.svg',
+                        'title-one' => 'Colgante',
+                        'title-two' => 'Triptico',
                         'line-one' => $directory_branding_imgs .'line-purple-tiny.svg',
                         'line-two' => $directory_branding_imgs .'line_purple.svg',
                     ]
@@ -440,29 +439,67 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               </div>
 
               <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $path_img . 'third-icon-service.svg',
-                    'text' => '<strong
-                  >Pre-Producción</strong
-                >
-                de la<br />activación (Merchandising,<br />
-                personal, juegos y otros).',
-                    'line' => $path_img . 'line-rosado.svg',
+                <?php get_template_part('components/branding/service-left-double', 'full', [
+                    'image-one' => $directory_branding_imgs.'stopper.svg',
+                    'image-two' => $directory_branding_imgs.'jalavista.svg',
+                    'title-one' => 'Stopper',
+                    'title-two' => 'Jalavista',
+                    'line-one' => $directory_branding_imgs.'line-rosado-large.svg',
+                    'line-two' => $directory_branding_imgs.'line-rosado.svg',
                 ]); ?>
-                <div class="d-none d-lg-block container-center-service"></div>
+
+                  
+                <div class="d-none d-lg-block container-center-service">
+                  <div class="element-center-service"></div>
+                </div>
+                
+
                 <?php get_template_part(
-                    'components/btl/service-right',
+                    'components/branding/service-right-double',
                     'full',
-                    [
-                        'image' => $path_img . 'fourth-icon-service.svg',
-                        'text' => '<strong
-                  >Reporte</strong
-                >
-                de resultados.',
-                        'line' => $path_img . 'line-celeste.svg',
+                     [
+                        'image-one' => $directory_branding_imgs.'loading.svg',
+                        'image-two' => $directory_branding_imgs.'flyer.svg',
+                        'image' => $path_img . 'second-icon-service.svg',
+                        'title-one' => 'Landing Pages',
+                        'title-two' => 'Flyer',
+                        'line-one' => $directory_branding_imgs .'line-purple-tiny.svg',
+                        'line-two' => $directory_branding_imgs .'line_purple.svg',
                     ]
                 ); ?>
               </div>
+
+               <div class="d-flex flex-column flex-md-row">
+                <?php get_template_part('components/branding/service-left-double', 'full', [
+                    'image-one' => $directory_branding_imgs.'bannerP.svg',
+                    'image-two' => $directory_branding_imgs.'gif.svg',
+                    'title-one' => 'Banners <br>digitales',
+                    'title-two' => 'gif',
+                    'line-one' => $directory_branding_imgs.'line-rosado-large.svg',
+                    'line-two' => $directory_branding_imgs.'line-rosado.svg',
+                ]); ?>
+
+                  
+                <div class="d-none d-lg-block container-center-service">
+                  <div class="element-center-service"></div>
+                </div>
+                
+
+                <?php get_template_part(
+                    'components/branding/service-right-double',
+                    'full',
+                     [
+                        'image-one' => $directory_branding_imgs.'poster.svg',
+                        'image-two' => $directory_branding_imgs.'bannersI.svg',
+                        'image' => $path_img . 'second-icon-service.svg',
+                        'title-one' => 'Poster',
+                        'title-two' => 'Banners<br> para impresión',
+                        'line-one' => $directory_branding_imgs .'line-purple-tiny.svg',
+                        'line-two' => $directory_branding_imgs .'line_purple.svg',
+                    ]
+                ); ?>
+              </div>
+
               <div class="d-none d-lg-flex">
                 <div
                   class="container-center-service element-final-center"
