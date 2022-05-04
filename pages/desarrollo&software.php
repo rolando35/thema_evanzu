@@ -43,6 +43,11 @@ ul {
 }
 
 
+@media only screen and (min-width: 1200px) {
+  .text-paragraph {
+    line-height: 1.8;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .text-paragraph {
 		font-size: 2.2rem !important;
