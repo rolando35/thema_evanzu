@@ -324,6 +324,8 @@ ul {
         'idemail' => 'softWare1email',
         'idform' => 'softWare1',
         'idparagraph' => 'psoftWare1',
+		'titleClass' =>'title-contact-fontlg title-contact-w38 text-left pl-lg-5',
+		'imgClass' => 'image-contact-margin2'
     ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
@@ -477,6 +479,8 @@ ul {
         'idemail' => 'softWare2email',
         'idform' => 'softWare2',
         'idparagraph' => 'psoftWare2',
+		'titleClass' =>'title-contact-fontmd title-contact-w38 text-center',
+		'imgClass' => 'image-contact-margin2'
     ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
@@ -653,11 +657,13 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
-        'title' => 'Tenemos más por contarte',
+        'title' => 'Define tu presupuesto',
 				'idwebsite' => 'softWare3website',
         'idemail' => 'softWare3email',
         'idform' => 'softWare3',
         'idparagraph' => 'psoftWare3',
+		'titleClass' =>'title-contact-fontlg title-contact-w38 text-left pl-lg-2',
+		'imgClass' => 'image-contact-margin2'
     ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-------------------------- list -------------------------->
@@ -821,6 +827,8 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
         'idemail' => 'softWare4email',
         'idform' => 'softWare4',
         'idparagraph' => 'psoftWare4',
+		'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
+		'imgClass' => 'image-contact-margin2'
     ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-----------------------Portafolio tab4----------------------------->
@@ -946,11 +954,13 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
-        'title' => 'Define tu presupuesto',
+        'title' => 'Tenemos más por contarte',
 				'idwebsite' => 'softWare5website',
         'idemail' => 'softWare5email',
         'idform' => 'softWare5',
         'idparagraph' => 'psoftWare5',
+		'titleClass' =>'title-contact-fontlg40 title-contact-w38 text-center',
+		'imgClass' => 'image-contact-margin2'
     ]); ?>
 				<!-----------------------Contact----------------------------->
 				<!-----------------------Portafolio tab6----------------------------->

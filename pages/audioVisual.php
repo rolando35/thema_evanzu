@@ -421,6 +421,8 @@ h5 {
                 'idemail' => 'form1email',
                 'idform' => 'chalk1',
                 'idparagraph' => 'p1',
+                'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
+                'imgClass' => 'image-contact-margin2'
             ]
         ); ?>
 				<!-----------------------Contact----------------------------->
@@ -631,6 +633,8 @@ h5 {
                             'idemail' => 'form2email',
                             'idform' => 'chalk2',
                             'idparagraph' => 'p2',
+                            'titleClass' =>'title-contact-fontlg title-contact-w38 text-left pl-lg-5',
+                            'imgClass' => 'image-contact-margin2'
                         ]
                     ); ?>
                     <!-----------------------Contact----------------------------->
@@ -802,6 +806,8 @@ h5 {
                             'idemail' => 'form3email',
                             'idform' => 'chalk3',
                             'idparagraph' => 'p3',
+                            'titleClass' =>'title-contact-fontsm title-contact-w38 text-center',
+                            'imgClass' => 'image-contact-margin2'
                         ]
                     ); ?>
                     <!-----------------------Contact----------------------------->
