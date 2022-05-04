@@ -487,7 +487,7 @@ h5 {
         </div>
       </div>
       <!-- PORTAFOLIO -->
-      <section>
+      <section class="mb-5">
         <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
         <?php echo get_template_part(
           'components/video-galery',
