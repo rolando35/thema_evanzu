@@ -301,7 +301,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             'title' => '¿Un proyecto en mente?',
         ]); ?>
 				<!-----------------------Contact----------------------------->
-      </div>
+        </div>
       </div>
       <!------------REDES SOCIALES ------------>
       <div id="redes_sociales" class="tab-pane fade">
@@ -310,15 +310,16 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <section class="p-0">
           <div class="bg-light-gray py-0">
             <div class="big-title text-red my-2 text-center">
-              Gestión de Redes Sociales
+              Diseño Publicitario
             </div>
             <!-------------------Card---------------------->
+          <div class="container">
             <div class="py-2">
               <div class="container">
-                <div class="row justify-content-center">
-                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                 <div class="row justify-content-center">
+                  <div class="col-md-11 col-lg-6 d-flex justify-content-lg-end">
                     <img
-                      src="<?php echo $directory_imgs; ?>mockup-01 1.png"
+                      src="<?php echo $directory_branding_imgs ?>bim.png"
                       alt=""
                       class="img-fluid"
                     />
@@ -326,65 +327,54 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="col-md-10 col-lg-6">
                     <div class="card bg-transparent border-0">
                       <div class="card-body">
-                        <h3 class="subtitle-btl text-left p-1">
-                          ¡Usuarios más conectados, más fidelizados!
+                        <h3 class="subtitle-marketing text-light-purple text-left p-1">
+                           Comunicación visual para tus necesidades
                         </h3>
                         <p class="text-justify text-light-gray p-1">
-                          Encontraremos el
-                          <strong> y tono de comunicación ideal </strong>
-                          para administrar tus redes sociales.
+                              Desarrollamos todo tipo de piezas de comunicación para publicidad (digital, impresa y en diferentes soportes y formatos) con un <span class="font-weight-bold text-gray-black"> diseño claro con elementos impactantes, fáciles de recordar,</span> concisos y al mismo tiempo, que  <span class="font-weight-bold text-gray-black">conectan emocionalmente</span>span con la audiencia.
                         </p>
-                        <p class="text-justify text-light-gray p-1">
-                          Trabajamos con creatividad estratégica para
-                          <strong> generar una respuesta emocional</strong> en
-                          tus clientes, forjar conexiones más fuertes con ellos
-                          y motivarlos a tomar acción.
+                        <p class="text-justify text-light-gray p-1">                       
+                          <span class="font-weight-bold text-gray-black"> Transmite tu mensaje de manera atrayente y funcional.</span>
                         </p>
-                        <p class="text-justify text-light-gray p-1">
-                          Al contar con un community manager podrás
-                          <strong> generar viralidad</strong> para potenciar tu
-                          marca y llegar a más clientes.
-                        </p>
+                      
+                      
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <!------------Card---------->
+                <div class="py-2 card-activation-2">
+                        <div class="container">
+                            <div  class="row mt-3">
+                              <div class="col-md-11 col-lg-6 py-2">
+                                <div class="right-conten-description">
+                                    <div class="subtitle-marketing text-light-purple p-1">
+                                     Partiendo de un concepto, diseñamos para:
+                                    </div>
+                                     <div class="text-left">
+                                        <ul>
+                                           <li>Impresos</li>
+                                           <li>Digitales</li>
+                                           <li>Puntos de Venta /Outdoor</li>
+                                        </ul>
+                                     </div>
 
-            <!-------------------Card---------------------->
-            <div class="py-2 card-activation-2">
-              <div class="container">
-                <div
-                  class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end"
-                >
-                  <div class="col-md-11 col-lg-6 py-2 d-flex align-items-end">
-                    <div class="card bg-transparent border-0">
-                      <div class="card-body pb-0">
-                        <h3 class="subtitle-btl text-left p-1">
-                          ¿Qué lograrás?
-                        </h3>
-                        <div
-                          class="text-justify text-light-gray p-1 pb-2 pb-md-3"
-                        >
-                          Ganarás<strong> notoriedad </strong> en redes sociales
-                          <strong> y tus clientes amarán tu marca.</strong>
+                                </div>
+                              </div>
+
+                              <div class="col-md-12 col-lg-6 py-5 left-conten-description">
+                                <img
+                                  src="<?php echo $directory_branding_imgs ?>Comunicacion_visual.png"
+                                  class="img-fluid ml-4"
+                                />
+                              </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
+                 </div>
 
-                  <div class="col-md-10 col-lg-6 py-2 text-center">
-                    <img
-                      src="<?php echo $directory_imgs; ?>Girl_teaching_evanzu.png"
-                      alt=""
-                      class="img-fluid"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
+          </div>
+
             <!------------Card---------->
           </div>
         </section>
@@ -419,27 +409,32 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           <div class="container">
             <div class="d-flex flex-column align-items-center">
               <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $path_img . 'first-icon-service.svg',
-                    'text' => '<strong
-                  >Desarrollo</strong
-                >
-                de Concepto.',
-                    'line' => $path_img . 'line-rosado.svg',
+                <?php get_template_part('components/branding/service-left-double', 'full', [
+                    'image-one' => $path_img . 'first-icon-service.svg',
+                    'image-two' => $path_img . 'first-icon-service.svg',
+                    'title-one' => 'Volante',
+                    'title-two' => 'Diptico',
+                    'line-one' => $directory_branding_imgs.'line-rosado-large.svg',
+                    'line-two' => $directory_branding_imgs.'line-rosado.svg',
                 ]); ?>
+
+                  
                 <div class="d-none d-lg-block container-center-service">
                   <div class="element-center-service"></div>
                 </div>
+                
+
                 <?php get_template_part(
-                    'components/btl/service-right',
+                    'components/branding/service-right-double',
                     'full',
-                    [
+                     [
+                        'image-one' => $path_img . 'second-icon-service.svg',
+                        'image-two' => $path_img . 'second-icon-service.svg',
                         'image' => $path_img . 'second-icon-service.svg',
-                        'text' => '<strong
-                  >Activaciones</strong
-                >
-                en ferias, <br />mercados, universidades, <br />parques y más.',
-                        'line' => $path_img . 'line-celeste.svg',
+                        'title-one' => 'Volante',
+                        'title-two' => 'Diptico',
+                        'line-one' => $directory_branding_imgs .'line-purple-tiny.svg',
+                        'line-two' => $directory_branding_imgs .'line_purple.svg',
                     ]
                 ); ?>
               </div>
@@ -605,14 +600,14 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           <div class="container">
             <div class="d-flex flex-column align-items-center">
               <div class="d-flex flex-column flex-md-row">
+
                 <?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $path_img . 'first-icon-service.svg',
-                    'text' => '<strong
-                  >Desarrollo</strong
-                >
-                de Concepto.',
+                    'image' => $path_img . 'first-icon-servicedsdsd.svg',
+                    'text' => '',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
+
+
                 <div class="d-none d-lg-block container-center-service">
                   <div class="element-center-service"></div>
                 </div>
