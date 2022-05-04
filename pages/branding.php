@@ -123,6 +123,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <br />
                   Branding',
                 'href' => '#home',
+                'active' => true,
                 'path' => $directory_branding_imgs,
             ],
             [
@@ -348,11 +349,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_img . 'girl-icon.svg',
-        'title' => '¿Un proyecto en mente?',
+        'title' => 'Desarrollamos tu marca',
         'idwebsite' => 'branding7website',
         'idemail' => 'branding7email',
         'idform' => 'branding7',
         'idparagraph' => 'pbranding7',
+        'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
+				'imgClass' => 'image-contact-margin'
     ]); ?>
 				<!-----------------------Contact----------------------------->
         </div>
@@ -566,12 +569,14 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Contanct----------------------------->
         <?php get_template_part('components/form-quote-request2', 'full', [
-            'image' => $directory_imgs . 'form-quote-request.svg',
-            'title' => 'Queremos conocer tu proyecto',
+            'image' => $path_img . 'girl-icon.svg',
+            'title' => 'Potencia tu marca',
             'idwebsite' => 'branding0website',
             'idemail' => 'branding0email',
             'idform' => 'branding0',
             'idparagraph' => 'pbranding0',
+            'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
+            'imgClass' => 'image-contact-margin'
         ]); ?>                
         <!-----------------------Contanct----------------------------->
       </div>
@@ -734,6 +739,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'idemail' => 'branding5email',
                 'idform' => 'branding5',
                 'idparagraph' => 'pbranding5',
+                'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
+                'imgClass' => 'image-contact-margin'
               ]
           ); ?>
           <!-----------------------Contact----------------------------->
@@ -902,6 +909,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         'idemail' => 'branding1email',
         'idform' => 'branding1',
         'idparagraph' => 'pbranding1',
+        'titleClass' =>'title-contact-fontmd title-contact-w36 text-center',
+        'imgClass' => 'image-contact-margin'
     ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
@@ -1075,11 +1084,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_img . 'girl-icon.svg',
-        'title' => '¿Un proyecto en mente?',
+        'title' => '¿Cómo te ayudamos?',
         'idwebsite' => 'branding2website',
         'idemail' => 'branding2email',
         'idform' => 'branding2',
         'idparagraph' => 'pbranding2',
+        'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
+        'imgClass' => 'image-contact-margin'
     ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
