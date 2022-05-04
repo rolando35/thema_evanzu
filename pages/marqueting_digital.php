@@ -169,6 +169,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <br />
         digital',
                 'href' => '#home',
+                'active' => true,
                 'path' => $directory_imgs,
             ],
             [
