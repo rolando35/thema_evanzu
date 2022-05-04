@@ -397,11 +397,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!-----------------------Contanct----------------------------->
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
-                'title' => '¡Empecemos ahora!',
+                'title' => 'Define tu presupuesto',
                 'idwebsite' => 'marketing1website',
                 'idemail' => 'marketing1email',
                 'idform' => 'marketing1',
                 'idparagraph' => 'pmarketing1',
+                'titleClass' =>'title-contact-fontlg title-contact-w38 text-left pl-lg-5',
+                'imgClass' => 'image-contact-margin2'
             ]); ?>                
         <!-----------------------Contanct----------------------------->
       </div>
@@ -602,11 +604,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   'full',
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
-                      'title' => '¡Empecemos ahora!',
+                      'title' => '¡Estás listo!',
                       'idwebsite' => 'marketing2website',
                       'idemail' => 'marketing2email',
                       'idform' => 'marketing2',
                       'idparagraph' => 'pmarketing2',
+                      'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
+                      'imgClass' => 'image-contact-margin2'
                   ]
               ); ?>                
         <!-----------------------Contanct----------------------------->
@@ -842,11 +846,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   'full',
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
-                      'title' => '¡Empecemos ahora!',
+                      'title' => 'Conoce tu calificación SEO',
                       'idwebsite' => 'marketing3website',
                       'idemail' => 'marketing3email',
                       'idform' => 'marketing3',
                       'idparagraph' => 'pmarketing3',
+                      'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
+                      'imgClass' => 'image-contact-margin2'
                   ]
               ); ?>                
         <!-----------------------Contanct----------------------------->
@@ -1011,11 +1017,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   'full',
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
-                      'title' => '¡Empecemos ahora!',
+                      'title' => 'Crece exponencialmente',
                       'idwebsite' => 'marketing4website',
                       'idemail' => 'marketing4email',
                       'idform' => 'marketing4',
                       'idparagraph' => 'pmarketing4',
+                      'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
+                      'imgClass' => 'image-contact-margin2'
                   ]
               ); ?>                
         <!-----------------------Contanct----------------------------->
@@ -1219,11 +1227,13 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
         <!-----------------------Contanct----------------------------->
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
-                'title' => '¡Empecemos ahora!',
+                'title' => 'Tenemos más por contarte',
                 'idwebsite' => 'marketing5website',
                 'idemail' => 'marketing5email',
                 'idform' => 'marketing5',
                 'idparagraph' => 'pmarketing5',
+                'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
+                'imgClass' => 'image-contact-margin2'
             ]); ?>                
         <!-----------------------Contanct----------------------------->
       </div>

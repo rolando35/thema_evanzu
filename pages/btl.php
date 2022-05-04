@@ -292,7 +292,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
-						'title'=> 'Define tu presupuesto'
+						'title'=> 'Define tu presupuesto',
+						'idwebsite' => 'websiteHome',
+                		'idemail' => 'emailHome',
+                		'idform' => 'formHome',
+                		'idparagraph' => 'pHome',
+						'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
+						'imgClass' => 'image-contact-margin'
 					));  	 
 				?>
 				<!-----------------------Contanct----------------------------->
@@ -580,7 +586,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
-						'title'=> '¡Empecemos ahora!'
+						'title'=> '¡Empecemos ahora!',
+						'idwebsite' => 'websiteEvent',
+                		'idemail' => 'emailEvent',
+                		'idform' => 'formEvent',
+                		'idparagraph' => 'pEvent',
+						'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
+						'imgClass' => 'image-contact-margin'
 					));  	 
 				?>
 				<!-----------------------Contact----------------------------->
@@ -804,7 +816,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
-						'title'=> 'Te escuchamos'
+						'title'=> 'Te escuchamos',
+						'idwebsite' => 'websiteRelations',
+                		'idemail' => 'emailRelations',
+                		'idform' => 'formRelations',
+                		'idparagraph' => 'pRelations',
+						'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
+						'imgClass' => 'image-contact-margin'
 					));  	 
 				?>
 				<!-----------------------Contact----------------------------->
@@ -812,7 +830,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 			</div>
 			<!---------relations------------>
 
-			<!----------Sales---------->
+			<!--Sales---------->
 			<div id="sales" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
@@ -989,14 +1007,20 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
-						'title'=> '¡Estamos listos! Contáctanos'
+						'title'=> '¡Estamos listos! Contáctanos',
+						'idwebsite' => 'websiteSales',
+                		'idemail' => 'emailSales',
+                		'idform' => 'formSales',
+                		'idparagraph' => 'pSales',
+						'titleClass' =>'title-contact-fontmd title-contact-w36 text-center',
+						'imgClass' => 'image-contact-margin'
 					));  	 
 				?>
 				<!-----------------------Contact----------------------------->
 			</div>
 			<!----------Sales---------->
 
-			<!----------Hostess---------->
+			<!------Hostess---------->
 			<div id="hostess" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
@@ -1118,7 +1142,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
-						'title'=> 'Define tu presupuesto'
+						'title'=> 'Define tu presupuesto',
+						'idwebsite' => 'websiteHostess',
+                		'idemail' => 'emailHostess',
+                		'idform' => 'formHostess',
+                		'idparagraph' => 'pHostess',
+						'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
+						'imgClass' => 'image-contact-margin'
 					));  	 
 				?>
 				<!-----------------------Contact----------------------------->
