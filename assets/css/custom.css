@@ -71,6 +71,10 @@
   width: 90%;
 }
 
+.z-index-1 {
+  z-index: 1;
+}
+
 .text-yellow {
   color: #fbc000;
 }
@@ -924,6 +928,16 @@
   position: absolute;
   width: 18%;
   margin-top: 40px;
+}
+
+.service-doble-line {
+  width: 85%;
+  margin-left: 15%;
+}
+
+.service-doble-line-right {
+  width: 85%;
+  margin-right: 15%;
 }
 
 /*--------------------BRANDIG -------------------*/
