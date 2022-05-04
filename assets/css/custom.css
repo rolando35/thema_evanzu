@@ -922,13 +922,33 @@
 
 .service-braning-text-rigth {
   position: absolute;
-  width: 18%;
-  margin-top: 40px;
+  max-width: 17rem;
 }
 
+.responsive-long{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.long-services {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 /*--------------------BRANDIG -------------------*/
 
 /****RESPONSIVE****/
+@media only screen and (max-width: 992px) {
+  .responsive-long{
+    margin-top: 19rem;
+    margin-bottom: 13rem;
+  }
+  
+  .long-services {
+    margin-top: 7rem;
+    margin-bottom: -5rem;
+  }
+
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
