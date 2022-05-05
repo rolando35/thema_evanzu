@@ -51,7 +51,7 @@ Template Name: Home
         margin-left: 10px;
     }
 </style>
-
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/carrusell-train.css" type="text/css">
 <!--////First////-->
 <section id="first-block" >
     <!--------------------- Button Modal --------------------->
@@ -519,44 +519,65 @@ Template Name: Home
             </div>
             <!-------------------- Clients -------------------->
             <section class="pb-4 pt-5">
-                <div class="container">
-                    <div class="d-flex flex-wrap justify-content-center">
-                        <a class="p-1" href="bbva"> 
-                            <img 
-                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png" 
-                            class="img-fluid"
-                            />
+               
+            <div class="top-content pb-5">
+                <div class="container-fluid">
+                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                                <a  href="bbva"> 
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png"  class="img-fluid mx-auto d-block" alt="img1">
+                                </a>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                <a  href="artecola">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="img2">
+                                </a>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                  <a  href="betfair">
+                                   <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" class="img-fluid mx-auto d-block" alt="img3">
+                                  </a>
+                             </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                               <a href="bmatic">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="img4">
+                                </a>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                               <a href="aesa">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="img5">
+                               </a>
+                            </div>
+                           
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                <a  href="bbva"> 
+                                 <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png" class="img-fluid mx-auto d-block" alt="img6">
+                                </a>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                <a href="bmatic">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png" class="img-fluid mx-auto d-block" alt="img7">
+                                </a>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                <a  href="betfair">
+                                  <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" class="img-fluid mx-auto d-block" alt="img8">
+                                </a>
+                            </div>
+                           
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
                         </a>
-
-                        <a class="p-1" href="artecola">
-                            <img 
-                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png" 
-                            class="img-fluid"
-                            />
+                        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
                         </a>
-
-                        <a class="p-1" href="betfair">
-                            <img 
-                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" 
-                            class="img-fluid"
-                            />
-                        </a>
-
-                        <a class="p-1" href="bmatic">
-                            <img 
-                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png" 
-                            class="img-fluid"
-                            />
-                        </a>
-
-                        <a class="p-1" href="aesa">
-                            <img 
-                            src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" 
-                            class="img-fluid"
-                            />
-                        </a>						
                     </div>
                 </div>
+            </div>
             </section>
             <!-------------------- Clients -------------------->
             <div class="mb-4 mx-auto w-50">
