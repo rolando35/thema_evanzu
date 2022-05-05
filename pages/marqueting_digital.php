@@ -220,14 +220,54 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           <div class="big-title  text-red my-4 text-center">
             Publicidad Digital
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <img
+            <div class="py-2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                      <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/cellphone-publicidad-digital.svg"
                   alt=""
                 />
-                <div class="text-red subtitle-marketing  my-3">
+                  </div>
+                  <div class="col-md-10 col-lg-6">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body">
+                          <h3 class="subtitle-marketing  text-gray-black text-left p-1">
+                          Atrae a tu próximo comprador con publicidad en canales digitales.
+                          </h3>
+
+                        <div class="my-3 text-light-gray">
+                          Definimos el medio ideal de publicidad en función de tus objetivos, tu producto y el perfil de tus clientes.
+                        </div>
+                      
+                        <div class="text-red subtitle-marketing subtitle-spacing my-1">
+                          Las plataformas digitales que manejamos:
+                        </div>
+                        <p class="text-light-gray">
+                          . <strong>Google Adwords</strong> <i>(Búsqueda, Display, Youtube,
+                          Shopping y App móviles).</i> 
+                        </p>
+                        <p class="text-light-gray">
+                          .
+                          <strong>Publicidad en plataformas sociales</strong> <i>(Facebook,
+                          Instagram, Twitter, Linkedin, TikTok, Wase, Spotify, Shazam, y
+                          otros).</i> 
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="py-2 card-activation-2">
+              <div class="container">
+                <div  class="row mt-3">
+                  <div class="col-md-11 col-lg-6 py-2">
+                  <div class="py-5">
+                        
+                          <div class="text-red subtitle-marketing  my-3">
                   Ideal para promocionar
                 </div>
                 <p class="text-justify text-light-gray">
@@ -246,38 +286,21 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
                 <p class="text-justify text-light-gray">
                   Da el primer paso para <strong>promocionar</strong> tus productos.
-                </p>  
-              </div>
-              <div class="col-sm-6">
-                 <h3 class="subtitle-marketing  text-gray-black text-left p-1">
-                          Atrae a tu próximo comprador con publicidad en canales digitales.
-                  </h3>
+                </p> 
+                    </div>
+                  </div>
 
-                <div class="my-3 text-light-gray">
-                  Definimos el medio ideal de publicidad en función de tus objetivos, tu producto y el perfil de tus clientes.
-                </div>
-               
-                <div class="text-red subtitle-marketing subtitle-spacing my-1">
-                  Las plataformas digitales que manejamos:
-                </div>
-                <p class="text-light-gray">
-                  . <strong>Google Adwords</strong> <i>(Búsqueda, Display, Youtube,
-                  Shopping y App móviles).</i> 
-                </p>
-                <p class="text-light-gray">
-                  .
-                  <strong>Publicidad en plataformas sociales</strong> <i>(Facebook,
-                  Instagram, Twitter, Linkedin, TikTok, Wase, Spotify, Shazam, y
-                  otros).</i> 
-                </p>
-
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/assets/images/laptop-publicidad-digital-marketing.svg"
+                  <div class="col-md-12 col-lg-6 py-5 left-conten-description">
+                        <img
+                  src="<?php echo $directory_imgs;?>laptop-marketing.png"
+                  
                   alt="Marketing digital evanzu"
                 />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+
         </div>
          <!--------------------bola-Left------------------------->
         <?php get_template_part('components/border-circle', 'full', [
