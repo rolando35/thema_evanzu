@@ -530,7 +530,7 @@ Template Name: Home
                                 </a>
                             </div>
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <a  href="artecola">
+                                <a  href="artecola-2">
                                 <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="img2">
                                 </a>
                             </div>
