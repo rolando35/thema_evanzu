@@ -267,12 +267,12 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                           Las plataformas digitales que manejamos:
                         </div>
                         <p class="text-light-gray">
-                          . <strong>Google Adwords</strong> <i>(Búsqueda, Display, Youtube,
+                          . <span class="hurme-bold-4">Google Adwords</span> <i>(Búsqueda, Display, Youtube,
                           Shopping y App móviles).</i> 
                         </p>
                         <p class="text-light-gray">
                           .
-                          <strong>Publicidad en plataformas sociales</strong> <i>(Facebook,
+                          <span class="hurme-bold-4">Publicidad en plataformas sociales</span> <i>(Facebook,
                           Instagram, Twitter, Linkedin, TikTok, Wase, Spotify, Shazam, y
                           otros).</i> 
                         </p>
@@ -308,7 +308,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 </p>
 
                 <p class="text-justify text-light-gray">
-                  Da el primer paso para <strong>promocionar</strong> tus productos.
+                  Da el primer paso para <span class="hurme-bold-4">promocionar</span> tus productos.
                 </p> 
                     </div>
                   </div>
@@ -355,7 +355,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'first-icon-service.svg',
-                    'text' => '<strong>Plan de medios digitales</strong> <br />
+                    'text' => '<span class="hurme-bold-4">Plan de medios digitales</span> <br />
                     (definir los canales con los <br />
                     que tu público interactúa)',
                     'line' => $path_img . 'line-rosado.svg',
@@ -368,8 +368,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'secon-icon-righ.svg',
-                        'text' => 'Definir el <strong>formato </strong> <br />
-                    de <strong>publicidad</strong> adecuado.
+                        'text' => 'Definir el <span class="hurme-bold-4">formato </span> <br />
+                    de <span class="hurme-bold-4">publicidad</span> adecuado.
                 ',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -379,10 +379,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'contain-define.svg',
-                    'text' => ' <strong>
+                    'text' => ' <span class="hurme-bold-4">
                       Definición de contenidos <br />
-                      publicitarios</strong
-                    >
+                      publicitarios</span>
                     (Mensaje y <br />
                     gráfica o audiovisual).',
                     'line' => $path_img . 'line-rosado.svg',
@@ -393,10 +392,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'deploy-configuration.svg',
-                        'text' => ' <strong
+                        'text' => ' <span class="hurme-bold-4"
                       >Despliegue y configuración <br />
                       de la campaña en la
-                    </strong>
+                    </span>
                     <br />plataforma seleccionada.',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -406,7 +405,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'rocket-optimisation.svg',
-                    'text' => '<strong>Optimización</strong> de la <br />campaña 
+                    'text' => '<span class="hurme-bold-4">Optimización</span> de la <br />campaña 
                 .',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -417,10 +416,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         'full',
                         [
                             'image' => $directory_imgs . 'periodic-reports.svg',
-                            'text' => ' <strong
-                      >Reportes <br />
-                      periódicos.</strong
-                    >
+                            'text' => ' <span class="hurme-bold-4">Reportes <br />
+                      periódicos.</span>
                 ',
                             'line' => $directory_imgs . 'line-point-yellow.svg',
                         ]
@@ -482,18 +479,18 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         </h3>
                         <p class="text-justify text-light-gray p-1">
                           Encontraremos el
-                          <strong> y tono de comunicación ideal </strong>
+                          <span class="hurme-bold-4"> y tono de comunicación ideal </span>
                           para administrar tus redes sociales.
                         </p>
                         <p class="text-justify text-light-gray p-1">
                           Trabajamos con creatividad estratégica para
-                          <strong> generar una respuesta emocional</strong> en
+                          <span class="hurme-bold-4"> generar una respuesta emocional</span> en
                           tus clientes, forjar conexiones más fuertes con ellos
                           y motivarlos a tomar acción.
                         </p>
                         <p class="text-justify text-light-gray p-1">
                           Al contar con un community manager podrás
-                          <strong> generar viralidad</strong> para potenciar tu
+                          <span class="hurme-bold-4"> generar viralidad</span> para potenciar tu
                           marca y llegar a más clientes.
                         </p>
                       </div>
@@ -514,8 +511,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                           ¿Qué lograrás?
                         </div>
                         <div class="text-light-gray p-1 pb-2">
-                          Ganarás<strong> notoriedad </strong> en redes sociales
-                          <strong> y tus clientes amarán tu marca.</strong>
+                          Ganarás<span class="hurme-bold-4"> notoriedad </span> en redes sociales
+                          <span class="hurme-bold-4"> y tus clientes amarán tu marca.</span>
                         </div>
                         <svg width="177" height="4" viewBox="0 0 177 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M3.49193 3.2865e-07L173.516 1.51926e-05C175.438 1.53607e-05 177 0.896557 177 2C177 3.10345 175.438 4 173.516 4L3.48442 3.99998C1.56198 3.99998 7.83793e-08 3.10343 1.74845e-07 1.99999C0.0075076 0.896542 1.56949 1.60585e-07 3.49193 3.2865e-07Z" fill="#FBC000"/>
@@ -570,9 +567,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'first-icon-service.svg',
-                    'text' => '<strong
-                  >Plan de comunicaciones</strong
-                >
+                    'text' => '<span class="hurme-bold-1">Plan de comunicaciones</span>
                 para cada red social.',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -584,9 +579,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'plan-contenidos.svg',
-                        'text' => '<strong
-                  >Plan de contenidos</strong
-                >
+                        'text' => '<span class="hurme-bold-1">Plan de contenidos</span>
                 ',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -596,9 +589,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'plan-grafico.svg',
-                    'text' => '<strong
-                  >Plan gráfico</strong
-                >
+                    'text' => '<span class="hurme-bold-1">Plan gráfico</span>
                 <br />
                    Banners, gifs, micro videos, spots publicitarios y otros.',
                     'line' => $path_img . 'line-rosado.svg',
@@ -609,9 +600,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'comuniti-manager.svg',
-                        'text' => '<strong
-                  >Community management</strong
-                >
+                        'text' => '<span class="hurme-bold-1">Community management</span>
                 Interacción con los usuarios, concursos y promociones.',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -621,9 +610,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'reporte-mensual.svg',
-                    'text' => '<strong
-                  >Reportes mensuales de resultados.</strong
-                >
+                    'text' => '<span class="hurme-bold-1">Reportes mensuales de resultados.</span>
                 .',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -689,8 +676,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                              Haz que tus clientes te encuentren en la web fácilmente.
                         </h3>
                         <p class="text-light-gray p-1">
-                            Nuestro objetivo es <strong>aumentar tu visibilidad <br>en motores de búsqueda</strong> como Google y 
-                            lograr un buen posicionamiento web para estar en los <strong>primeros<br> resultados de búsqueda</strong> de manera ORGÁNICA. 
+                            Nuestro objetivo es <span class="hurme-bold-4">aumentar tu visibilidad <br>en motores de búsqueda</span> como Google y 
+                            lograr un buen posicionamiento web para estar en los <span class="hurme-bold-4">primeros<br> resultados de búsqueda</span> de manera ORGÁNICA. 
 
                         </p>
                         <p class="text-light-gray p-1">                    
@@ -717,10 +704,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         <div class="text-light-gray p-1 pb-2">
                              ¿Qué lograrás?
                             Aumentar el tráfico de tu página web, eso significa 
-                           <strong>más visitas y más ventas.</strong> 
-
-                          <strong>  SEO para e-commerce <br>
-                            SEO inicial o mensual</strong> 
+                           <span class="hurme-bold-4">más visitas y más ventas.</span> <br> <br>
+                            <ul class="hurme-bold-4 text-right list-unstyled text-black">
+                              <li>● SEO para e-commerce</li>
+                              <li>● SEO inicial o mensual</li>
+                            </ul>
 
                         </div>
                         <svg width="177" height="4" viewBox="0 0 177 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -776,9 +764,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'palabras-clabe.svg',
-                    'text' => '<strong
-                  >Selección de Keywords</strong
-                >
+                    'text' => '<span class="hurme-bold-4">Selección de Keywords</span>
                 (Palabras Clave).',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -790,8 +776,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'meta-texto.svg',
-                        'text' => '<strong
-                  >Implementar Etiquetas meta </strong>
+                        'text' => '<span class="hurme-bold-4"
+                  >Implementar Etiquetas meta </span>
                     Descripción de las páginas que Google lee y posiciona.
                 ',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
@@ -802,8 +788,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'factores-internos.svg',
-                    'text' => '<strong
-                  >Optimizar factores internos</strong>
+                    'text' => '<span class="hurme-bold-4"
+                  >Optimizar factores internos</span>
                     Contenido web, sistemas y otros.
               
                 <br />
@@ -816,8 +802,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'indexacion-google.svg',
-                        'text' => '<strong
-                  >Indexación en Google</strong
+                        'text' => '<span class="hurme-bold-4"
+                  >Indexación en Google</span
                 >
                 Para que Google muestre el índice de tu web en los resultados de búsqueda.',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
@@ -828,10 +814,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'mapa-web.svg',
-                    'text' => '<strong>
-                  Crear el sitemap</strong>
-                    Archivo XML con la estructura del sitio web. 
-                .',
+                    'text' => '<span class="hurme-bold-4"> Crear el sitemap</span> Archivo XML con la estructura del sitio web.',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service">
@@ -841,10 +824,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         'full',
                         [
                             'image' => $directory_imgs . 'link-building.svg',
-                            'text' => '<strong
-                  >Linkbuilding </strong>            
-                    Estrategias para obtener enlaces que aterricen en el sitio web.
-                ',
+                            'text' => '<span class="hurme-bold-4">Linkbuilding </span> Estrategias para obtener enlaces que aterricen en el sitio web.',
                             'line' => $directory_imgs . 'line-point-yellow.svg',
                         ]
                     ); ?>
@@ -854,8 +834,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'velocidad_carga.svg',
                     'text' => '
-                  Manejo de <strong>blog</strong>    
-                ',
+                  Manejo de <span class="hurme-bold-4">blog</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service">
@@ -865,11 +844,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         'full',
                         [
                             'image' => $directory_imgs . 'manejo-de-blog.svg',
-                            'text' => '<strong
-                  >Mejora de la velocidad
-                   de carga </strong> de la página.           
-                   
-                ',
+                            'text' => '<span class="hurme-bold-4">Mejora de la velocidad de carga </span> de la página.',
                             'line' => $directory_imgs . 'line-point-yellow.svg',
                         ]
                     ); ?>
@@ -912,7 +887,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <section class="p-0">
           <div class="bg-light-gray py-0">
             <div class="big-title text-red my-2 text-center">
-              Gestión de Redes Sociales
+            Growth hacking
             </div>
             <!-------------------Card---------------------->
             <div class="py-2">
@@ -932,11 +907,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                          Impacta para crecer
                         </h3>
                         <p class="text-justify text-light-gray p-1">
-                           Desarrollamos técnicas y estrategias para lograr un <strong>rápido crecimiento de tu marca </strong>, así lograremos incrementar de forma notoria el volumen de clientes, usuarios y presencia de marca.</p> 
+                           Desarrollamos técnicas y estrategias para lograr un <span class="hurme-bold-4">rápido crecimiento de tu marca </span>, así lograremos incrementar de forma notoria el volumen de clientes, usuarios y presencia de marca.</p> 
                           <p class="text-justify text-light-gray p-1">
-                          Partimos de un conocimiento profundo de la empresa y su audiencia para tomar<strong>decisiones inteligentes que logren mucho sin invertir de más.</strong> </p>
+                          Partimos de un conocimiento profundo de la empresa y su audiencia para tomar<span class="hurme-bold-4">decisiones inteligentes que logren mucho sin invertir de más.</span> </p>
                           <p class="text-justify text-light-gray p-1">
-                          Nuestras habilidades integrales nos permiten crear formas de llegar a más personas de una manera <strong>viral.</strong>
+                          Nuestras habilidades integrales nos permiten crear formas de llegar a más personas de una manera <span class="hurme-bold-4">viral.</span>
 
                         </p>
                       </div>
@@ -982,11 +957,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <div class="d-flex flex-column align-items-center mb-n1-5">
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $directory_imgs . 'first-icon-service.svg',
-                    'text' => '<strong
-                  >Plan de comunicaciones</strong
-                >
-                para cada red social.',
+                    'image' => $directory_imgs . 'tab41.png',
+                    'text' => '<span class="hurme-bold-4">Auditoría <br>
+                    digital.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service">
@@ -996,11 +969,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'components/btl/service-right',
                     'full',
                     [
-                        'image' => $directory_imgs . 'plan-contenidos.svg',
-                        'text' => '<strong
-                  >Plan de contenidos</strong
-                >
-                ',
+                        'image' => $directory_imgs . 'tab42.png',
+                        'text' => '<span class="hurme-bold-4">Plan de publicidad <br />
+                        digital.</span>',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
                 ); ?>
@@ -1008,12 +979,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $directory_imgs . 'plan-grafico.svg',
-                    'text' => '<strong
-                  >Plan gráfico</strong
-                >
-                <br />
-                   Banners, gifs, micro videos, spots publicitarios y otros.',
+                    'image' => $directory_imgs . 'tab43.png',
+                    'text' => '<span class="hurme-bold-4"Plan de contenidos  <br />virales.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service"></div>
@@ -1021,11 +988,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'components/btl/service-right',
                     'full',
                     [
-                        'image' => $directory_imgs . 'comuniti-manager.svg',
-                        'text' => '<strong
-                  >Community management</strong
-                >
-                Interacción con los usuarios, concursos y promociones.',
+                        'image' => $directory_imgs . 'tab44.png',
+                        'text' => '<span class="hurme-bold-4">Gestión de <br />Influencers.</span>',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
                 ); ?>
@@ -1033,11 +997,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $directory_imgs . 'reporte-mensual.svg',
-                    'text' => '<strong
-                  >Reportes mensuales de resultados.</strong
-                >
-                .',
+                    'image' => $directory_imgs . 'tab45.png',
+                    'text' => '<span class="hurme-bold-4">Reporte y análisis de <br /> resultados.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service">
@@ -1058,7 +1019,22 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
                  <img  class="" src="<?php echo $directory_imgs; ?>haking grow.png">
               </div>
+
+          <!-----------------------Circle Right----------------------------->
+      <div class='w-100 text-right' style="margin-bottom: -10rem">
+            <?php
+            $parameters = ['color' => '#FBC000', 'position' => 'right'];
+            get_template_part(
+                'components/border-circle',
+                'full',
+                $parameters
+            );
+            ?>
+      </div>
+      <!-----------------------Circle Right----------------------------->
+
         <!-----------------------Contanct----------------------------->
+                  <div class='mt-5'>
               <?php get_template_part(
                   'components/form-quote-request2',
                   'full',
@@ -1072,7 +1048,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                       'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
                       'imgClass' => 'image-contact-margin2'
                   ]
-              ); ?>                
+              ); ?>
+              </div>
         <!-----------------------Contanct----------------------------->
 
       </div>
@@ -1098,20 +1075,20 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     <div class="card bg-transparent border-0">
                       <div class="card-body">
                         <h3 class="subtitle-marketing text-gray-black text-left p-1">
-                             EL FIN: Atraer. 
+                             EL FIN: Atraer. <br>
 EL MEDIO: Contenido relevante y valioso.
 
                         </h3>
                         <p class="text-light-gray p-1">
-                           Nos encargamos de la <strong> creación y distribución de contenido </strong> para generar tráfico, obtener nuevos clientes y retenerlos. 
+                           Nos encargamos de la <span class="hurme-bold-4"> creación y distribución de contenido </span> para generar tráfico, obtener nuevos clientes y retenerlos. 
                         </p>
                         <p class="text-light-gray p-1">                    
                               
-Utilizamos nuestra visión global de medios digitales y las adaptamos a tu empresa y objetivos. Nuestras estrategias se enfocan en <strong> despertar una necesidad de compra en el usuario a través de contenido que informe, eduque y entretenga. </strong>
+Utilizamos nuestra visión global de medios digitales y las adaptamos a tu empresa y objetivos. Nuestras estrategias se enfocan en <span class="hurme-bold-4"> despertar una necesidad de compra en el usuario a través de contenido que informe, eduque y entretenga. </span>
                        </p>
                         <p class="text-light-gray p-1">   
                           
-Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar </strong> a tu empresa y se <strong> convierta en un cliente leal </strong> de tu marca. 
+Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-4"> decida comprar </span> a tu empresa y se <span class="hurme-bold-4"> convierta en un cliente leal </span> de tu marca. 
                             
                         </p>    
                       </div>
@@ -1133,8 +1110,8 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
                         </div>
                         <div class="text-light-gray p-1 pb-2">
                              ¿Qué lograrás?
-                               Incrementar el <strong> tráfico y <br>
-                              los resultados </strong> de tu negocio.
+                               Incrementar el <span class="hurme-bold-4"> tráfico y <br>
+                              los resultados </span> de tu negocio.
                         </div>
                         <svg width="177" height="4" viewBox="0 0 177 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M3.49193 3.2865e-07L173.516 1.51926e-05C175.438 1.53607e-05 177 0.896557 177 2C177 3.10345 175.438 4 173.516 4L3.48442 3.99998C1.56198 3.99998 7.83793e-08 3.10343 1.74845e-07 1.99999C0.0075076 0.896542 1.56949 1.60585e-07 3.49193 3.2865e-07Z" fill="#FBC000"/>
@@ -1187,7 +1164,7 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'first-icon-service.svg',
-                    'text' => '<strong>Plan de contenidos</strong> <br />
+                    'text' => '<span class="hurme-bold-4">Plan de contenidos</span> <br />
                    en diferentes formatos',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -1199,7 +1176,7 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
                     'full',
                     [
                         'image' => $directory_imgs . 'Left_pencil_circle.svg',
-                        'text' => '<strong>Gestión de blogs. </strong> <br />
+                        'text' => '<span class="hurme-bold-4">Gestión de blogs. </span> <br />
                 ',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -1209,10 +1186,9 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'icono-rigth-redes.svg',
-                    'text' => ' <strong>
+                    'text' => ' <span class="hurme-bold-4">
                       Gestión de redes <br />
-                      sociales.</strong
-                    >
+                      sociales.</span>
                     ',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -1223,10 +1199,10 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
                     [
                         'image' =>
                             $directory_imgs . 'Producción_adiovisual.svg',
-                        'text' => ' <strong
+                        'text' => ' <span class="hurme-bold-4"
                       >Producción <br />
                       audivisual.
-                    </strong>
+                    </span>
                     ',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -1236,7 +1212,7 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'icono_seo.svg',
-                    'text' => '<strong>Posicionamiento</strong> <br />SEO. 
+                    'text' => '<span class="hurme-bold-4">Posicionamiento</span> <br />SEO. 
                 .',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -1247,10 +1223,9 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
                         'full',
                         [
                             'image' => $directory_imgs . 'periodic-reports.svg',
-                            'text' => ' <strong
+                            'text' => ' <span class="hurme-bold-4"
                       >Reportes y análisis de  <br />
-                     resultados   .</strong
-                    >
+                     resultados.</span>
                 ',
                             'line' => $directory_imgs . 'line-point-yellow.svg',
                         ]
@@ -1271,7 +1246,21 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
                  <img  class="" src="<?php echo $directory_imgs; ?>Marketing_contenido_base_tree.svg">
           </div>
 
+          <!-----------------------Circle Right----------------------------->
+          <div class='w-100 text-right' style="margin-bottom: -10rem">
+                <?php
+                $parameters = ['color' => '#FBC000', 'position' => 'right'];
+                get_template_part(
+                    'components/border-circle',
+                    'full',
+                    $parameters
+                );
+                ?>
+                </div>
+                <!-----------------------Circle Right----------------------------->
+
         <!-----------------------Contanct----------------------------->
+          <div class='mt-5'>
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
                 'title' => 'Tenemos más por contarte',
@@ -1281,7 +1270,8 @@ Haremos que todo lo que comuniques logre que un usuario <strong> decida comprar 
                 'idparagraph' => 'pmarketing5',
                 'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
                 'imgClass' => 'image-contact-margin2'
-            ]); ?>                
+            ]); ?>
+          </div>
         <!-----------------------Contanct----------------------------->
       </div>
     </div>
