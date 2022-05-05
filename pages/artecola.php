@@ -1,6 +1,6 @@
 <?php 
 /* 
-    Template Name: ARTECOLA
+    Template Name: arte-cola
 */
 get_header();
 
@@ -16,7 +16,7 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 					class="img-fluid px-1 py-3"
 				/>
 				<h1 class="px-1 py-2 text-light-gray title-client text-uppercase">
-					comerico de adhesivos
+					Comercio de adhesivos
 				</h1>
 			</div>
 			<div class="col-md-6">
