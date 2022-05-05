@@ -98,11 +98,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 <section id="slider">
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    <ul class="carousel-indicators">
+    <!-- <ul class="carousel-indicators">
       <li data-target="#demo" data-slide-to="0" class="active"></li>
       <li data-target="#demo" data-slide-to="1"></li>
       <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
+    </ul> -->
 
     <div class="float-rectangle-banner d-none d-xl-block">
       <div id="rectangle" class="text-center my-0 mx-auto"></div>
@@ -115,29 +115,52 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             'carrusell-image-one'
         ]; ?>">
           	<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
-					<div class="col-8 flex-colum text-left p-0">
-            <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-            <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
-            <div class="d-flex align-center">
-              <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
-              <img
-								src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
-								/>
-            </div>
-						<div class="text-subtitle-btl">
-                Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
-						</div>
-              <div class="mt-3 text-left">
-                Quieres resultados. 
-                <button class="btn-btl">
-                  <span>¡Desafíanos con tu proyecto!</span>
-                </button>
-              </div>
-						</div>
-					</div>	
+               <div class="col-8 flex-colum text-left p-0">
+                  <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
+                  <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
+                  <div class="d-flex align-center">
+                    <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
+                    <img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
+                      />
+                  </div>
+                  <div class="text-subtitle-btl">
+                      Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
+                  </div>
+                    <div class="mt-3 text-left">
+                      Quieres resultados. 
+                      <button class="btn-btl">
+                        <span>¡Desafíanos con tu proyecto!</span>
+                      </button>
+                    </div>
+                </div>
+					   </div>	
       </div>
       <div class="carousel-item">
-        <img src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
+        <img class="w-100" src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
+           <div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
+               <div class="col-8 flex-colum text-left p-0">
+                  <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
+                  <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
+                  <div class="d-flex align-center">
+                    <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
+                    <img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
+                      />
+                  </div>
+                  <div class="text-subtitle-btl">
+                      Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
+                  </div>
+                    <div class="mt-3 text-left">
+                      Quieres resultados. 
+                      <button class="btn-btl">
+                        <span>¡Desafíanos con tu proyecto!</span>
+                      </button>
+                    </div>
+                </div>
+					   </div>	
+
+
       </div>
       <!-- <div class="carousel-item">
         <img src="<?php echo get_option('evanzu')['carrusell-image-one']; ?>">
