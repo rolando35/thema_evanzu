@@ -220,7 +220,7 @@ h5 {
         <p style='font-weight: 300;' class="text-white">con videos ideados para comunicar y emocionar.</p>
         <div class="d-inline-block w-100">
           <button style="max-width: 20rem;" type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90">
-            <strong>Desafíanos</strong> con tu proyecto
+            <span class="hurme-bold-4">Desafíanos</span> con tu proyecto
           </button>
         </div>
         
@@ -283,14 +283,14 @@ h5 {
           <div class="row d-flex justify-content-center">
             <div class="col-sm-6">
               <div class="my-3">
-                  <div class="text-green  my-3 text-left" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
+                  <div class="text-green  my-3 text-left hurme-bold-4" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
                   Creatividad y emociones en cada cuadro
                   </div>
               </div>
               <p class='font-weight-normal w-90 text-justify' style='line-height: 22px; font-size: 1rem'>
-                Ponemos tu marca en escena y <strong>seducimos desde los primeros segundos.</strong> Nos aseguramos de que tu mensaje se comprenda y se recuerde. <br> <br>
+                Ponemos tu marca en escena y <span class="hurme-bold-4">seducimos desde los primeros segundos.</span> Nos aseguramos de que tu mensaje se comprenda y se recuerde. <br> <br>
 
-                Muestra tus proyectos en múltiples plataformas (TV, redes sociales, sitios web) con <strong>piezas audiovisuales que despierten el interés y generen conexión </strong> con tu público objetivo.
+                Muestra tus proyectos en múltiples plataformas (TV, redes sociales, sitios web) con <span class="hurme-bold-4">piezas audiovisuales que despierten el interés y generen conexión </span> con tu público objetivo.
               </p>
               <div class='text-center w-100'>
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 275.png" alt="Cámara fotográfica">
@@ -331,7 +331,7 @@ h5 {
 								get_template_part('components/btl/service-left','full', 
 									array(
 										'image' => $directory_imgs."icono (1).svg",
-										'text' => '<strong>Pre Produción</strong>
+										'text' => '<span class="hurme-bold-4">Pre Produción</span>
                                 <ul class="text-left">
                                   <li>Brief de Requerimiento.</li>
                                   <li>Desarrollo de concepto.</li>
@@ -350,7 +350,7 @@ h5 {
 								get_template_part('components/btl/service-right','full', 
 									array(
 										'image' => $directory_imgs."imageMicripho.svg",
-										'text' => '<strong>Produción</strong>
+										'text' => '<span class="hurme-bold-4">Produción</span>
                                 <ul class="w-310">
                                     <li>Producción y gestión de rodaje.</li>
                                     <li>Maquillaje y Make up.</li>
@@ -369,7 +369,7 @@ h5 {
 								get_template_part('components/btl/service-left','full', 
 									array(
 										'image' => $directory_imgs."icono (1).svg",
-										'text' => '<strong>Produción</strong>
+										'text' => '<span class="hurme-bold-4">Produción</span>
                                 <ul class="w-310">
                                     <li>Producción y gestión de rodaje.</li>
                                     <li>Maquillaje y Make up.</li>
@@ -436,7 +436,7 @@ h5 {
         <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 01.png" alt="Ofrecemos imagen 1">
             <div>
-                <p class='text-red' style='font-weight: 900; font-size: 26px;'>
+                <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>
                   Proyectos audiovisuales
                 </p>
                 <ul class='font-weight-normal text-justify'>
@@ -454,13 +454,13 @@ h5 {
           </div>
             <div class='w-90 d-flex position-relative justify-content-around align-items-center flex-column-reverse flex-lg-row' style='margin-top: -16rem'>
                 <div class="mt-3">
-                    <p class='text-red' style='font-weight: 900; font-size: 26px;'>
+                    <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>
                       Filmación aérea
                     </p>
                     <p class='widthText font-weight-normal text-justify text-justify' style='width: 27.8rem;'>
                         Comunica desde un ángulo diferente <br> <br>
 
-                        Trabajamos contenido a la altura de tu proyecto. Más que una grabación, <strong>ofrecemos estrategia audiovisual que emocione.</strong> Muéstrate sumamente profesional y atrayente con tomas aéreas. <br> <br>
+                        Trabajamos contenido a la altura de tu proyecto. Más que una grabación, <span class="hurme-bold-4">ofrecemos estrategia audiovisual que emocione.</span> Muéstrate sumamente profesional y atrayente con tomas aéreas. <br> <br>
 
                         Cubrimos producciones corporativas, eventos sociales, edificios, paisajes, escenarios, y más.
                     </p>
@@ -475,13 +475,13 @@ h5 {
         <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 03 1.png" alt="Ofrecemos imagen 1">
             <div class="mt-5">
-                <p class='text-red' style='font-weight: 900; font-size: 26px;'>
+                <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>
                   Desarrollo de guiones
                 </p>
                 <p class='widthText font-weight-normal text-justify'>
                   Historias contadas de forma inolvidable. <br> <br>
 
-                  Construimos narrativas según tu objetivo de comunicación. Planteamos <strong> guiones originales, entretenidos y que generen una reacción positiva para la marca. </strong> <br> <br>
+                  Construimos narrativas según tu objetivo de comunicación. Planteamos <span class="hurme-bold-4"> guiones originales, entretenidos y que generen una reacción positiva para la marca. </span> <br> <br>
 
                   Ofrecemos nuestra redacción estratégica para spots publicitarios, animaciones, contenido en redes sociales u otros proyectos empresariales.
                 </p>
@@ -521,7 +521,7 @@ h5 {
                 </div>
             </div>
             <p class='font-weight-normal text-justify w-90' style='line-height: 22px; font-size: 1rem'>
-            Comunicamos información relevante y contenido de interés de la manera más <strong>creativa y cautivadora.</strong> Aplicable a <b class="font-weight-bold text-gray-black" >videos para comunicación interna y externa,</b> eventos corporativos, tutoriales y otros. <br> <br>
+            Comunicamos información relevante y contenido de interés de la manera más <span class="hurme-bold-4">creativa y cautivadora.</span> Aplicable a <b class="font-weight-bold hurme-bold-4 hurme-bold-4" >videos para comunicación interna y externa,</b> eventos corporativos, tutoriales y otros. <br> <br>
             Manejamos diversos estilos de animación: motion graphic, stop motion y otros. Contamos con un equipo especializado en Illustrator, After effects, Premier, Audition, Cinema 4D y 3D Max.
             </p>
             </div>
@@ -557,7 +557,7 @@ h5 {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $directory_imgs."como-lo-hacemos1.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" > Desarrollo </b> de concepto.',
+											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Desarrollo </b> de concepto.',
 											'line' => $directory_imgs."line-rosado.svg"
 										)
 									); 
@@ -569,7 +569,7 @@ h5 {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $directory_imgs."como-lo-hacemos2.svg",
-											'text' => 'Creación de <b class="font-weight-bold text-gray-black" > Storyboard.</b>',
+											'text' => 'Creación de <b class="font-weight-bold hurme-bold-4 text-gray-black" > Storyboard.</b>',
 											'line' => $directory_imgs."line-blu.svg"
 										)
 									); 
@@ -581,7 +581,7 @@ h5 {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $directory_imgs."como-lo-hago3.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Ilustración y caracterización</b> de personajes y escenarios.',
+											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Ilustración y caracterización</b> de personajes y escenarios.',
 											'line' => $directory_imgs."line-rosado.svg"
 										)
 									); 
@@ -592,7 +592,7 @@ h5 {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $directory_imgs."como-lo-hago4.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Animación, musicalización y voz en off.</b>',
+											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Animación, musicalización y voz en off.</b>',
 											'line' => $directory_imgs."line-blu.svg"
 										)
 									); 
@@ -644,10 +644,10 @@ h5 {
                     <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
                         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
                     </div>
-                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
+                      <div class='w-100 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -18rem'>
                           <div class="col-sm-12 col-lg-6 ">
                               <p class='text-red' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
-                                <ul>
+                                <ul style="line-height: 1.5;">
                                     <li>Video-tutoriales.</li>
                                     <li>Presentación de productos o servicios.</li>
                                     <li>Videos infográficos y otros.</li>
@@ -689,12 +689,12 @@ h5 {
                     <div class="col-sm-12 col-lg-6">
 
             <div class="my-3">
-                <div class="text-green  my-3 text-left" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
+                <div class="text-green  my-3 text-left hurme-bold-4" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
                 Hacemos de tus imágenes tu mejor estrategia de comunicación
                 </div>
             </div>
             <p class='font-weight-normal w-90 text-justify' style='line-height: 22px; font-size: 1rem'>
-            Renueva la imagen de tu negocio mediante fotografías profesionales de alta calidad. <span class="font-weight-bold text-gray-black">Obtendrás imágenes de calidad artística.</span> <br> <br> 
+            Renueva la imagen de tu negocio mediante fotografías profesionales de alta calidad. <span class="font-weight-bold hurme-bold-4">Obtendrás imágenes de calidad artística.</span> <br> <br> 
             Creamos escenarios en función del objetivo de comunicación. Manejamos técnicas de fotografía comercial, iluminación y retoque.
             </p>
             </div>
@@ -730,7 +730,7 @@ h5 {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $directory_imgs."herramientas1.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" > Fotos </b> de Cámaras DLSR.',
+											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Fotos </b> de Cámaras DLSR.',
 											'line' => $directory_imgs."line-rosado.svg"
 										)
 									); 
@@ -742,7 +742,7 @@ h5 {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $directory_imgs."herramientas2.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" > Fotos </b>Fotos de estudio.',
+											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Fotos </b>Fotos de estudio.',
 											'line' => $directory_imgs."line-blu.svg"
 										)
 									); 
@@ -754,7 +754,7 @@ h5 {
 									get_template_part('components/btl/service-left','full', 
 										array(
 											'image' => $directory_imgs."herramientas3.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Video</b> cámara HD y 4K',
+											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Video</b> cámara HD y 4K',
 											'line' => $directory_imgs."line-rosado.svg"
 										)
 									); 
@@ -765,7 +765,7 @@ h5 {
 									get_template_part('components/btl/service-right','full', 
 										array(
 											'image' => $directory_imgs."herramientas4.svg",
-											'text' => '<b class="font-weight-bold text-gray-black" >Fotos aéreas</b> con drones.',
+											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Fotos aéreas</b> con drones.',
 											'line' => $directory_imgs."line-blu.svg"
 										)
 									); 
@@ -816,10 +816,10 @@ h5 {
                    <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
                         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
                     </div>
-                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
+                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center mt-md-5' style='margin-top: -20rem'>
                           <div>
-                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Desarrollamos estos proyectos:</p>
-                               <ul>
+                              <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>Desarrollamos estos proyectos:</p>
+                               <ul class="line-height: 1.5 !important;">
                                  <li>Fotografía Publicitaria en Estudio o Locación.</li>
                                  <li>Fotografía Institucional y corporativa.</li>
                                  <li>Fotografía para Campañas y Eventos.</li>

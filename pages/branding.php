@@ -190,8 +190,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         El branding de tu marca dejará huella
                         </h3>
                         <p class="text-justify text-light-gray p-1">
-                        <span class="font-weight-bold text-gray-black">Construimos marcas con personalidad y propósito.</span> 
-                           Tus clientes se llevarán una buena impresión, entenderán tus valores y  <span class="font-weight-bold text-gray-black"> amarán tu marca tanto como tú. </span> 
+                        <span class="font-weight-bold hurme-bold-4">Construimos marcas con personalidad y propósito.</span> 
+                           Tus clientes se llevarán una buena impresión, entenderán tus valores y  <span class="font-weight-bold hurme-bold-4"> amarán tu marca tanto como tú. </span> 
                         </p>
                         <p class="text-justify text-light-gray p-1">                       
                             Trabajamos en el análisis y desarrollo total de una marca desde su concepto, 
@@ -259,7 +259,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     [
                         'image' => $directory_branding_imgs . 'manual_icon.svg',
                         'text' => '
-                          Plasmamos tu ADN corporativo en un documento guía para las diversas 
+                          Plasmamos tu <span class="hurme-bold-4"> ADN corporativo</span> en un documento guía para las diversas 
                           formas de comunicación en función de tu negocio: Restaurantes, ONG’s, 
                           Moda, Estudios Contables y Servicios.',
                         'title' => 'Manual de marca',
@@ -275,7 +275,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     [
                         'image' => $directory_branding_imgs . 'logog_a.svg',
                         'text' => 'Te ofrecemos la mejor solución para identificar tu marca, tener identidad y presencia en el mercado.
-                    Diseñamos logotipos originales y con personalidad propia.
+                    Diseñamos <span class="hurme-bold-4">logotipos originales y con personalidad propia</span>.
                 ',
                         'title' => 'Logos',
                         'line' =>
@@ -291,7 +291,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     [
                         'image' => $directory_branding_imgs . 'notes_icon.svg',
                         'text' => '
-                        Creamos nombres y slogans para empresas que resuenan, enganchan y son fáciles de recordar. 
+                        Creamos <span class="hurme-bold-4">nombres y slogans</span> para empresas <span class="hurme-bold-4">que resuenan, enganchan y son fáciles de recordar.</span>
                         Serán la principal publicidad de tu marca y haremos que sea efectiva.
                         ',
                         'title' => ' Naming y slogans',
@@ -307,8 +307,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     [
                         'image' => $directory_branding_imgs . 'box-icon.svg',
                         'text' => '
-                    Diseñamos empaques funcionales con el toque estético y creativo que necesita tu marca.
-                    Servicio dirigido a empresas de ventas online que buscan crear una experiencia de unboxing 
+                    Diseñamos <span class="hurme-bold-4">empaques funcionales con el toque estético y creativo</span> que necesita tu marca.
+                    Servicio dirigido a empresas de ventas online que buscan crear una <span class="hurme-bold-4"> experiencia de unboxing</span> 
                     cautivante y posteable. Diseñamos y producimos empaques, bolsas, cajas, envases y otros..
                   ',
                         'tall' => 'height: 100px;',
@@ -388,10 +388,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                            Comunicación visual para tus necesidades
                         </h3>
                         <p class="text-justify text-light-gray p-1">
-                              Desarrollamos todo tipo de piezas de comunicación para publicidad (digital, impresa y en diferentes soportes y formatos) con un <span class="font-weight-bold text-gray-black"> diseño claro con elementos impactantes, fáciles de recordar,</span> concisos y al mismo tiempo, que  <span class="font-weight-bold text-gray-black">conectan emocionalmente</span>span con la audiencia.
+                              Desarrollamos todo tipo de piezas de comunicación para publicidad (digital, impresa y en diferentes soportes y formatos) con un <span class="font-weight-bold hurme-bold-4 text-gray-black"> diseño claro con elementos impactantes, fáciles de recordar,</span> concisos y al mismo tiempo, que  <span class="font-weight-bold hurme-bold-4 text-gray-black">conectan emocionalmente</span>span con la audiencia.
                         </p>
                         <p class="text-justify text-light-gray p-1">                       
-                          <span class="font-weight-bold text-gray-black"> Transmite tu mensaje de manera atrayente y funcional.</span>
+                          <span class="font-weight-bold hurme-bold-4 text-gray-black"> Transmite tu mensaje de manera atrayente y funcional.</span>
                         </p>
                       
                       
@@ -608,7 +608,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         </h3>
                         <p class="text-justify text-light-gray p-1">
                           Nuestros expertos creativos diseñan 
-                          <b class="text-light-gray font-weight-bold hurme-simple">
+                          <b class="text-light-gray font-weight-bold hurme-bold-4">
                             artículos publicitarios que transmiten la identidad de una marca
                           </b> y que a su vez consiguen los objetivos trazados. <br> <br>
 
@@ -649,7 +649,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'image' => $directory_branding_imgs . 'ofrecemos1.png',
                     'text' => '
                       <div class="long-content">
-                        <strong>Merchandising</strong>
+                        <span class="hurme-bold-4 mb-3">Merchandising</span class="hurme-bold-4 mb-3">
                         <p>
                         Logra que las personas descubran, reconozcan y difundan tu marca con artículos como: Gorras, polos, lapiceros, tazas, Soleras, llaveros, pines, tomados y mucho más.
                         </p>
@@ -664,11 +664,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                       'image' => $directory_branding_imgs . 'ofrecemos2.png',
                       'text' => '
                         <div class="hight-content">
-                          <b>Impresos</b>
+                          <span class="hurme-bold-4 mb-5">Impresos</span>
     
-                          Partimos de las necesidades de comunicación para la <b>maquetación de contenido que cautive</b> al público objetivo, informe efectivamente y refuerce la identidad corporativa.
+                          Partimos de las necesidades de comunicación para la  <span class="hurme-bold-4">maquetación de contenido que cautive</span> al público objetivo, informe efectivamente y refuerce la identidad corporativa.
                           
-                          <p class="text-red font-weight-bold">Incluye:</p> 
+                          <p class="text-red font-weight-bold hurme-bold-4">Incluye:</p> 
                           <i>
                           Hojas membretadas, tarjetas de presentación personales y corporativas, brochures corporativos, banners publicitarios, sobres y bolsas, volantes, dipticos y tripticos, y otras publicaciones como: libros, revistas, periódicos, catálogos, carátulas, cuentos y otros.
                           </i>
@@ -683,12 +683,12 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             'image' => $directory_branding_imgs . 'ofrecemos3.png',
             'text' => ' 
                 <div class="hight-content1">
-                  <b>Señalética corporativa </b>
+                <span class="hurme-bold-4 mb-5">Señalética corporativa </span>
 
                   <p>
-                  Ideamos señaléticas para espacios interiores como oficinas, puntos de venta y atención al cliente. Trabajamos señalamiento de contingencia sanitaria, material POP, entre otros. Nos aseguramos de que sean originales, fáciles de percibir y de interpretar.
+                  Ideamos señaléticas para espacios interiores como oficinas, puntos de venta y atención al cliente. Trabajamos señalamiento de contingencia sanitaria, material POP, entre otros. Nos aseguramos de que sean  <span class="hurme-bold-4">originales, fáciles de percibir y de interpretar.</span>
                   </p> 
-                  <b class="text-red">Incluye:</b>
+                  <b class="text-red hurme-bold-4">Incluye:</b>
                   <i>
                   Diseño de Jalavistas, rompetráficos, flanger, table tent, letreros y mucho más; además de pictogramas, iconos y tipografía.
                   </i>
@@ -777,10 +777,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         La ilustración digital es un recurso clave en esta era de la comunicación visual. Creemos en el poder de las imágenes como un recurso diferenciador para las marcas. <br> <br>
 
                         Trasladamos conceptos a 
-                        <b class="text-light-gray font-weight-bold hurme-simple">
+                        <b class="text-light-gray font-weight-bold hurme-bold-4">
                           imágenes exclusivas y personalizadas.
                         </b> Manejamos el 
-                        <b class="text-light-gray font-weight-bold hurme-simple">
+                        <b class="text-light-gray font-weight-bold hurme-bold-4">
                           arte visual enfocado a ganar la atención y fidelidad de los usuarios.
                         </b>
 
@@ -820,7 +820,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="d-flex flex-column flex-md-row">
 								<?php get_template_part('components/btl/service-left', 'full', [
             'image' => $directory_branding_imgs . 'ilustracion1.png',
-            'text' => '<span class="font-weight-bold text-gray-black">Personajes para videos <br>
+            'text' => '<span class="font-weight-bold hurme-bold-4 text-gray-black">Personajes para videos <br>
                       corporativos.</span>',
             'line' => $path_img . 'line-rosado.svg',
         ]); ?>
@@ -830,7 +830,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								<?php get_template_part('components/btl/service-right', 'full', [
             'image' => $directory_branding_imgs . 'ilustracion2.png',
             'text' =>
-                '<span class="font-weight-bold text-gray-black">Dirección de arte para <br> campañas publicitarias.</span>',
+                '<span class="font-weight-bold hurme-bold-4 text-gray-black">Dirección de arte para <br> campañas publicitarias.</span>',
             'line' => $directory_branding_imgs . 'line_purple.svg',
         ]); ?>
 							</div>
@@ -841,7 +841,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								<?php get_template_part('components/btl/service-left', 'full', [
             'image' => $directory_branding_imgs . 'ilustracion3.png',
             'text' =>
-                '<span class="font-weight-bold text-gray-black">Recursos para páginas web.</span>',
+                '<span class="font-weight-bold hurme-bold-4 text-gray-black">Recursos para páginas web.</span>',
             'line' => $path_img . 'line-rosado.svg',
         ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
@@ -943,16 +943,16 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         <p class="text-justify text-light-gray p-1">
 
                         Nos basamos en el diseño centrado en el usuario para crear
-                        <b class="text-light-gray font-weight-bold hurme-simple">
+                        <b class="text-light-gray font-weight-bold hurme-bold-4">
                           plataformas intuitivas.
                           </b> <br> <br>
                           Partimos de la investigación de las necesidades del usuario y del análisis de la usabilidad de tu interfaz para proponerte un
-                          <b class="text-light-gray font-weight-bold hurme-simple">
+                          <b class="text-light-gray font-weight-bold hurme-bold-4">
                             diseño efectivo que garantice la mejor experiencia de usuario.
                           </b> <br> <br>
 
                           Hacemos que la navegabilidad sea
-                          <b class="text-light-gray font-weight-bold hurme-simple">
+                          <b class="text-light-gray font-weight-bold hurme-bold-4">
                             clara, sencilla y que encamine al usuario a tomar una acción
                           </b>concreta.
                         </p>
@@ -975,7 +975,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                       <div class="card-body pb-0">
                         <p class="text-right semi-title text-light-purple">
                           Genera una <br>
-                          <span class="hurme-simple">interacción intuitiva</span> <br>
+                          <span class="hurme-bold-4">interacción intuitiva</span> <br>
                           en tu interfaz.
                         </p>
                         <div class="d-flex justify-content-end">
@@ -1024,7 +1024,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="d-flex flex-column flex-md-row">
 								<?php get_template_part('components/btl/service-left', 'full', [
             'image' => $directory_branding_imgs . 'tab5_first_image.png',
-            'text' => '<span class="font-weight-bold text-gray-black">Investigación del perfil <br>
+            'text' => '<span class="font-weight-bold hurme-bold-4 text-gray-black">Investigación del perfil <br>
                     de usuario.</span>',
             'line' => $path_img . 'line-rosado.svg',
         ]); ?>
@@ -1034,7 +1034,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								<?php get_template_part('components/btl/service-right', 'full', [
             'image' => $directory_branding_imgs . 'tab5_second_image.png',
             'text' =>
-                '<span class="font-weight-bold text-gray-black">Desarrollo del <br> mapa de navegación, animación y <br>  transiciones.</span>',
+                '<span class="font-weight-bold hurme-bold-4 text-gray-black">Desarrollo del <br> mapa de navegación, animación y <br>  transiciones.</span>',
             'line' => $directory_branding_imgs . 'line_purple.svg',
         ]); ?>
 							</div>
@@ -1042,7 +1042,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="d-flex flex-column flex-md-row">
 								<?php get_template_part('components/btl/service-left', 'full', [
             'image' => $directory_branding_imgs . 'tab5_third_image.png',
-            'text' => '<span class="font-weight-bold text-gray-black">
+            'text' => '<span class="font-weight-bold hurme-bold-4 text-gray-black">
                     Diseño de diagramas de navegación simulando interacciones </span>
                     <p>Uso de plataformas como Figma, Adobe Xd y otros.</p>',
             'line' => $path_img . 'line-rosado.svg',
@@ -1052,7 +1052,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								<?php get_template_part('components/btl/service-right', 'full', [
             'image' => $directory_branding_imgs . 'tab5_fourth_image.png',
             'text' =>
-                '<span class="font-weight-bold text-gray-black">Testing.</span>',
+                '<span class="font-weight-bold hurme-bold-4 text-gray-black">Testing.</span>',
             'line' => $directory_branding_imgs . 'line_purple.svg',
         ]); ?>
 							</div>
