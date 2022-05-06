@@ -558,6 +558,10 @@
   background-size: cover;
 }
 
+.active {
+  border-left: yellow 1px solid;
+}
+
 .navigation-main li a,
 .navigation-social li a {
   color: white;
