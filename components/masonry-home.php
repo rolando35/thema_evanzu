@@ -5,8 +5,8 @@
         <!-- Texts hover -->
         <div class='position-absolute masonry-hover-lirycs'>
           <h6 class="small font-weight-normal text-light">-- ACTIVACIONES BTL --</h6>
-          <p class="text-light font-weight-bold" style='font-size: 3rem; line-height: 3rem;'>BBVA Continental</p>
-          <a class="text-red font-weight-bold fs-6" href="https://youtu.be/Y_xlvqJvI0k">https://youtu.be/Y_xlvqJvI0k</a>
+          <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 3rem; line-height: 3rem;'>BBVA Continental</p>
+          <a class="text-red font-weight-bold hurme-bold-4 fs-6" target="_blank" href="https://youtu.be/Y_xlvqJvI0k">https://youtu.be/Y_xlvqJvI0k</a>
         </div>
         <!-- Texts hover -->
         <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-one"]; ?>">
@@ -19,8 +19,8 @@
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs'>
                 <h6 class="small font-weight-normal text-light">-- ACTIVACIONES BTL --</h6>
-                <p class="text-light font-weight-bold" style='font-size: 24px; line-height: 10px;'>BBVA Continental</p>
-                <a class="text-red font-weight-bold fs-12" href="https://youtu.be/Y_xlvqJvI0k">https://youtu.be/Y_xlvqJvI0k</a>
+                <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 24px; line-height: 10px;'>BBVA Continental</p>
+                <a class="text-red font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://youtu.be/Y_xlvqJvI0k">https://youtu.be/Y_xlvqJvI0k</a>
               </div>
               <!-- Texts hover -->
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-two"]; ?>">
@@ -29,9 +29,9 @@
             <div class="m-1 d-flex justify-content-center align-items-center hover-image">
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs'>
-                <h6 class="small font-weight-normal text-light">-- ACTIVACIONES BTL --</h6>
-                <p class="text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>BETFAIR</p>
-                <a class="text-red font-weight-bold fs-12" href="https://fb.watch/4_LpR8cZlY/">https://fb.watch/4_LpR8cZlY/</a>
+                <h6 class="small font-weight-normal text-light mb-3">-- ACTIVACIONES BTL --</h6>
+                <p class="text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>BETFAIR</p>
+                <a class="text-red font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://fb.watch/4_LpR8cZlY/">https://fb.watch/4_LpR8cZlY/</a>
               </div>
               <!-- Texts hover -->
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-four"]; ?>">
@@ -41,8 +41,8 @@
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>Tambo</p>
-              <h6 class="text-red font-weight-bold fs-12">Video Pixel art</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>Tambo</p>
+              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">Video Pixel art</h6>
             </div>
             <!-- Texts hover -->
             <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-three"]; ?>">
@@ -50,8 +50,8 @@
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>AESA</p>
-              <h6 class="text-red font-weight-bold fs-12">DISEÑO GRÁFICO</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>AESA</p>
+              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">DISEÑO GRÁFICO</h6>
             </div>
             <!-- Texts hover -->
             <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-five"]; ?>">
@@ -66,8 +66,8 @@
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>BMatic</p>
-              <h6 class="text-red font-weight-bold fs-12">DESARROLLO WEB</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>BMatic</p>
+              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">DESARROLLO WEB</h6>
             </div>
             <!-- Texts hover -->
             <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-six"]; ?>">
@@ -75,8 +75,8 @@
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>Tambo</p>
-              <h6 class="text-red font-weight-bold fs-12">DISEÑO GRÁFICO</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>Tambo</p>
+              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">DISEÑO GRÁFICO</h6>
             </div>
             <!-- Texts hover -->
             <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-seven"]; ?>">
@@ -84,8 +84,8 @@
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>Atelier 570</p>
-              <h6 class="text-red font-weight-bold fs-12">DESARROLLO WEB</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>Atelier 570</p>
+              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">DESARROLLO WEB</h6>
             </div>
             <!-- Texts hover -->
             <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-eight"] ?>">
@@ -97,9 +97,9 @@
       <div class="text-center d-flex justify-content-center align-items-center hover-image">
         <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-            <h6 class="small font-weight-normal text-light">-- ACTIVACIONES BTL --</h6>
-            <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>AESA</p>
-            <a class="text-red font-weight-bold fs-12" href="https://fb.watch/50aZyUgqKt/">https://fb.watch/50aZyUgqKt/</a>
+            <h6 class="small font-weight-normal text-light mb-3">-- ACTIVACIONES BTL --</h6>
+            <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>AESA</p>
+            <a class="text-red font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://fb.watch/50aZyUgqKt/">https://fb.watch/50aZyUgqKt/</a>
             </div>
             <!-- Texts hover -->
         <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-nine"]; ?>">
@@ -109,8 +109,8 @@
             <div class="m-1 d-flex justify-content-center align-items-center hover-image">
               <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>BIM</p>
-              <h6 class="text-red font-weight-bold fs-12">DISEÑO GRÁFICO</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>BIM</p>
+              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">DISEÑO GRÁFICO</h6>
             </div>
             <!-- Texts hover -->
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-teen"]; ?>">
@@ -118,8 +118,8 @@
             <div class="m-1 d-flex justify-content-center align-items-center hover-image">
               <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold " style='font-size: 1.7rem; line-height: 10px;'>Adventure Life</p>
-              <h6 class="text-red font-weight-bold fs-12">BRANDING - DISEÑO GRÁFICO</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 1.7rem; line-height: 10px;'>Adventure Life</p>
+              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">BRANDING - DISEÑO GRÁFICO</h6>
             </div>
             <!-- Texts hover -->
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-eleven"]; ?>">
@@ -129,8 +129,8 @@
           <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
               <h6 class="small font-weight-normal text-light">-- PRODUCCIÓN AUDIOVISUAL --</h6>
-              <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>Caja Huancayo</p>
-              <a class="text-red font-weight-bold fs-12" href="https://youtu.be/_l2wKC9ECdk">https://youtu.be/_l2wKC9ECdk</a>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>Caja Huancayo</p>
+              <a class="text-red font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://youtu.be/_l2wKC9ECdk">https://youtu.be/_l2wKC9ECdk</a>
             </div>
             <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-twelve"]; ?>">
@@ -139,8 +139,8 @@
       <div class="m-2 text-center d-flex justify-content-center align-items-center hover-image">
         <!-- Texts hover -->
         <div class='position-absolute masonry-hover-lirycs'>
-          <p class=" text-light font-weight-bold " style='font-size: 2rem; line-height: 10px;'>Servir</p>
-          <h6 class="text-red font-weight-bold fs-12">MARKETING DIGITAL</h6>
+          <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>Servir</p>
+          <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">MARKETING DIGITAL</h6>
         </div>
         <!-- Texts hover -->
         <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-thirteen"]; ?>">

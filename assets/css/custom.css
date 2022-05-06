@@ -779,6 +779,14 @@
   margin-bottom: -1.5rem;
 }
 
+.undeline {
+  text-decoration: underline !important;
+}
+
+.text-near{
+  margin-bottom: -0.5rem !important;
+}
+
 /****MASONRY******/
 
 .fs-5 {
