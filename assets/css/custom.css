@@ -559,7 +559,7 @@
 }
 
 .active {
-  border-left: yellow 1px solid;
+  border-left: #fbc000 2.5px solid;
 }
 
 .navigation-main li a,
