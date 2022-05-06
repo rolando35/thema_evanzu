@@ -245,7 +245,7 @@ h5 {
         [
             [
                 'svg' => 'first-tab.svg',
-                'title' => 'Sopts & <br> Videos',
+                'title' => 'Spots & <br> Videos',
                 'active' => true,
                 'href' => '#home',
                 'path' => $directory_imgs,

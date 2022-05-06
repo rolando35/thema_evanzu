@@ -91,7 +91,7 @@ label[for="file"] {
           <div class="px-5 d-block d-lg-flex w-100">
             <div class="col-12 col-lg-7 px-5" style="z-index: 2">
               <h2 class="text-light " style="font-weight: 900; font-size: 50px;">Queremos conocer tu perfil</h2>
-              <h5 class="text-light font-weight-light"><i>Déjanos tus datos y te contactámos</i></h5>
+              <h5 class="text-light font-weight-light"><i>Déjanos tus datos y te contactarémos</i></h5>
               <form id="postulation" action="" class="text-left mr-5 pr-5" method="post">
                 <input type="text"
                   class="fullname form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
