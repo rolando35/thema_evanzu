@@ -62,6 +62,11 @@
   .mb-n1 {
     margin-bottom: -2.3rem !important;
   }
+
+  .form-control:focus {
+  border-color: #fff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #fff;
+}
   
 </style>
 
@@ -76,7 +81,7 @@
           <div class="d-block d-lg-flex w-100">
 
             <div class="col-12 col-lg-6">
-              <h2 class="text-light " style="font-weight: 900; font-size: 65px;">CONTÁCTANOS</h2>
+              <h2 class="text-light mt-4" style="font-weight: 900; font-size: 65px;">CONTÁCTANOS</h2>
               <div>
                 <form id="basic-form" action="" method="post">
                   <input
