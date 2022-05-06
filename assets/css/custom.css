@@ -562,6 +562,10 @@
   border-left: #fbc000 2.5px solid;
 }
 
+.none-select {
+  border-left: transparent 2.5px solid;
+}
+
 .navigation-main li a,
 .navigation-social li a {
   color: white;
@@ -783,7 +787,7 @@
   text-decoration: underline !important;
 }
 
-.text-near{
+.text-near {
   margin-bottom: -0.5rem !important;
 }
 
