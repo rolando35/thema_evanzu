@@ -4,8 +4,8 @@
       <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">DESARROLLO DE E-COMMERCE</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>CoVende</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO DE E-COMMERCE</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>CoVende</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -19,8 +19,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">DESARROLLO WEB</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>Ciro Gálvez</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO WEB</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Ciro Gálvez</p>
           </div>
           <!-- Texts hover -->
         <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -32,8 +32,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">UX/UI Design</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>BMatic</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UX/UI Design</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>BMatic</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -44,8 +44,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">UX/UI Design</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>Asiri</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UX/UI Design</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Asiri</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -61,8 +61,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">DESARROLLO WEB</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>ATELIER 570</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO WEB</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>ATELIER 570</p>
           </div>
           <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -75,8 +75,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">DESARROLLO WEB</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>BMatic</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO WEB</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>BMatic</p>
           </div>
           <!-- Texts hover -->
            <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -89,8 +89,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">UI Design</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>Caja Huancayo</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UI Design</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Caja Huancayo</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -101,8 +101,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">UI Design</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>Caja Huancayo</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UI Design</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Caja Huancayo</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -118,8 +118,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">UX/UI Design</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>Asiri</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UX/UI Design</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Asiri</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -131,8 +131,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">ACTIVACIÓN DEL MINISTERIO DE TRANSPORTE</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>TDT</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN DEL MINISTERIO DE TRANSPORTE</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>TDT</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -148,8 +148,8 @@
           <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">Desarrollo Web</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>Dr. Edgar Salas</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">Desarrollo Web</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Dr. Edgar Salas</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -160,8 +160,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">DESARROLLO WEB</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>Asiri</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO WEB</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Asiri</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -174,8 +174,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-red fs-12 font-weight-bold">DESARROLLO WEB</h6>
-            <p class="text-light font-weight-bold" style='font-size: 1.7rem; line-height: 3rem;'>FYFSA</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO WEB</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>FYFSA</p>
           </div>
           <!-- Texts hover -->
          <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
