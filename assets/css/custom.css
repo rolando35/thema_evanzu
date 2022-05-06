@@ -563,7 +563,7 @@
 }
 
 .none-select {
-  border-left: transparent 2.5px solid;
+  margin: 0 1%;
 }
 
 .navigation-main li a,
