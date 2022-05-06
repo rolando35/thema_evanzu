@@ -330,4 +330,14 @@ if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado 
 else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 }
 
+
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+
+function special_nav_class ($classes, $item) {
+  if (in_array('current-menu-item', $classes) ){
+    $classes[] = 'active ';
+  }
+  return $classes;
+}
+
 ?>
