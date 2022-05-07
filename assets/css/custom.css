@@ -563,7 +563,11 @@
 }
 
 .none-select {
-  margin: 0 1%;
+  margin: 0 3px;
+}
+
+.margin-menu {
+  margin: 0 1% 0 20%;
 }
 
 .navigation-main li a,
