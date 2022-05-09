@@ -98,7 +98,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <span class="text-subtitle-btl text-red"
               >Sabes que tu marca lo necesita.
             </span>
-            <button class="btn-btl">
+            <button class="btn-btl" id="btn-main">
               <span style="font-weight: 400">Escríbenos</span>
             </button>
           </div>
@@ -350,7 +350,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_img . 'girl-icon.svg',
         'title' => 'Desarrollamos tu marca',
-        'idwebsite' => 'branding7website',
+        'idwebsite' => 'homeWebsite',
         'idemail' => 'branding7email',
         'idform' => 'branding7',
         'idparagraph' => 'pbranding7',
@@ -571,7 +571,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <?php get_template_part('components/form-quote-request2', 'full', [
             'image' => $path_img . 'girl-icon.svg',
             'title' => 'Potencia tu marca',
-            'idwebsite' => 'branding0website',
+            'idwebsite' => 'redes_socialesWebsite',
             'idemail' => 'branding0email',
             'idform' => 'branding0',
             'idparagraph' => 'pbranding0',
@@ -735,7 +735,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               [
                 'image' => $path_img . 'girl-icon.svg',
                 'title' => 'Te escuchamos',
-                'idwebsite' => 'branding5website',
+                'idwebsite' => 'menu2Website',
                 'idemail' => 'branding5email',
                 'idform' => 'branding5',
                 'idparagraph' => 'pbranding5',
@@ -905,7 +905,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_img . 'girl-icon.svg',
         'title' => 'Queremos conocer tu proyecto',
-        'idwebsite' => 'branding1website',
+        'idwebsite' => 'menu3Website',
         'idemail' => 'branding1email',
         'idform' => 'branding1',
         'idparagraph' => 'pbranding1',
@@ -1085,7 +1085,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_img . 'girl-icon.svg',
         'title' => '¿Cómo te ayudamos?',
-        'idwebsite' => 'branding2website',
+        'idwebsite' => 'menu4Website',
         'idemail' => 'branding2email',
         'idform' => 'branding2',
         'idparagraph' => 'pbranding2',
