@@ -20,7 +20,7 @@
 <section class="section-contact">
 	<?php  
 		get_template_part('components/form-quote-request2','full', array (
-            'image' => $args["path_img"].'girl-icon.svg', 
+            'image' => $args["path_img"].'girl-icon.svg',
             'title'=> $args["title"],
             'idwebsite' => $args["idwebsite"],
             'idemail' => $args["idemail"],
