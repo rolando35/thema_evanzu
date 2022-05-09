@@ -136,6 +136,35 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 </div>
 					   </div>	
       </div>
+
+          <!--------------------- Button Modal --------------------->
+        <div 
+        class="position-absolute ndx w-100 h-100 float-rigth float-right" 
+        style="padding-top: 5rem;"
+        > 
+                        <div
+                        type="button"
+                        class="position-fixed ndx" 
+                        class="btn btn-primary" 
+                        data-toggle="modal" 
+                        data-target="#myModalRight" 
+                        data-dismiss="modal" 
+                        data-backdrop="false"
+                        >
+                    <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
+                    </svg>
+                    <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
+                        <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
+                        <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
+                    </div>
+                </div>
+                <div class="mt-5c" style="z-index: 1;">
+                    <?php get_template_part('components/modal/modal', 'full'); ?>
+                </div>
+        </div>    
+    <!--------------------- Button Modal ---------------------> 
+
       <div class="carousel-item">
         <img class="w-100" src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
            <div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
@@ -167,6 +196,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       </div> -->
     </div>
 
+
+
     <!-- Left and right controls -->
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
       <span class="carousel-control-prev-icon"></span>
@@ -174,6 +205,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     <a class="carousel-control-next" href="#demo" data-slide="next">
       <span class="carousel-control-next-icon"></span>
     </a>
+
+       
+
   </div>
 </section>
 <section>
