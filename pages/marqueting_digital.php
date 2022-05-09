@@ -469,7 +469,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
                 'title' => 'Define tu presupuesto',
-                'idwebsite' => 'HomeWebsite',
+                'idwebsite' => 'homeWebsite',
                 'idemail' => 'marketing1email',
                 'idform' => 'marketing1',
                 'idparagraph' => 'pmarketing1',

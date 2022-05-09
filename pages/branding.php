@@ -98,7 +98,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <span class="text-subtitle-btl text-red"
               >Sabes que tu marca lo necesita.
             </span>
-            <button class="btn-btl" id="btn-main">
+            <button class="btn-btl" onclick="ButtonRedirectForm();" id="btn-main">
               <span style="font-weight: 400">Escríbenos</span>
             </button>
           </div>

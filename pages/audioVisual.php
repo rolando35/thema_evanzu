@@ -219,7 +219,7 @@ h5 {
         </div>
         <p style='font-weight: 300;' class="text-white">con videos ideados para comunicar y emocionar.</p>
         <div class="d-inline-block w-100">
-          <button style="max-width: 20rem;" id="btn-main" type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90">
+          <button style="max-width: 20rem;" onclick="ButtonRedirectForm();" id="btn-main" type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90">
             <strong>Desafíanos</strong> con tu proyecto
           </button>
         </div>
