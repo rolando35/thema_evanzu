@@ -1,6 +1,6 @@
 <li class="nav-item mx-lg-3 text-center li-circle" style="z-index: 17;">
 	<a
-		class="<?php echo isset($args["active"]) ? "active" : "";?>"
+		class="link-circle <?php echo isset($args["active"]) ? "active" : "";?>"
 		data-toggle="pill"
 		href="<?php echo $args['href'];?>"
 	>

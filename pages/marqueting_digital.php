@@ -115,26 +115,26 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             'carrusell-image-one'
         ]; ?>">
           	<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
-               <div class="col-8 flex-colum text-left p-0">
-                  <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-                  <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
-                  <div class="d-flex align-center">
-                    <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
-                    <img
-                      src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
-                      />
-                  </div>
-                  <div class="text-subtitle-btl">
-                      Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
-                  </div>
-                    <div class="mt-3 text-left">
-                      Quieres resultados. 
-                      <button class="btn-btl">
-                        <span>¡Desafíanos con tu proyecto!</span>
-                      </button>
-                    </div>
-                </div>
-					   </div>	
+					<div class="col-8 flex-colum text-left p-0">
+            <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
+            <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
+            <div class="d-flex align-center">
+              <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
+              <img
+								src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
+								/>
+            </div>
+						<div class="text-subtitle-btl">
+                Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
+						</div>
+              <div class="mt-3 text-left">
+                Quieres resultados. 
+                <button class="btn-btl" id="btn-main">
+                  <span>¡Desafíanos con tu proyecto!</span>
+                </button>
+              </div>
+						</div>
+					</div>	
       </div>
 
           <!--------------------- Button Modal --------------------->
@@ -476,7 +476,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
                 'title' => 'Define tu presupuesto',
-                'idwebsite' => 'marketing1website',
+                'idwebsite' => 'homeWebsite',
                 'idemail' => 'marketing1email',
                 'idform' => 'marketing1',
                 'idparagraph' => 'pmarketing1',
@@ -673,7 +673,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
                       'title' => '¡Estás listo!',
-                      'idwebsite' => 'marketing2website',
+                      'idwebsite' => 'redes_socialesWebsite',
                       'idemail' => 'marketing2email',
                       'idform' => 'marketing2',
                       'idparagraph' => 'pmarketing2',
@@ -903,7 +903,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
                       'title' => 'Conoce tu calificación SEO',
-                      'idwebsite' => 'marketing3website',
+                      'idwebsite' => 'seoWebsite',
                       'idemail' => 'marketing3email',
                       'idform' => 'marketing3',
                       'idparagraph' => 'pmarketing3',
@@ -1075,7 +1075,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
                       'title' => 'Crece exponencialmente',
-                      'idwebsite' => 'marketing4website',
+                      'idwebsite' => 'menu3Website',
                       'idemail' => 'marketing4email',
                       'idform' => 'marketing4',
                       'idparagraph' => 'pmarketing4',
@@ -1298,7 +1298,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
                 'title' => 'Tenemos más por contarte',
-                'idwebsite' => 'marketing5website',
+                'idwebsite' => 'menu4Website',
                 'idemail' => 'marketing5email',
                 'idform' => 'marketing5',
                 'idparagraph' => 'pmarketing5',
