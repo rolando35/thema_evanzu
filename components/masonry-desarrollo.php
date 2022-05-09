@@ -8,9 +8,14 @@
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>CoVende</p>
           </div>
           <!-- Texts hover -->
-          <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
-              'desarrollo'
-          )['galleri-image-five-dev']; ?>">
+          <img
+            class="responsive-masonry-image hover-masonry-image"
+            title="Diseño UX UI CoVende"
+            alt="Desarrollo de página web a tu medida"
+            src="<?php echo get_option(
+                'desarrollo'
+            )['galleri-image-five-dev']; ?>"
+          >
       </div>
       <div
         class="d-md-flex justify-content-center flex-md-row"
@@ -65,9 +70,12 @@
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>ATELIER 570</p>
           </div>
           <!-- Texts hover -->
-      <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
-          'desarrollo'
-      )['galleri-image-one-dev']; ?>">
+      <img
+        class="responsive-masonry-image hover-masonry-image"
+        src="<?php echo get_option( 'desarrollo' )['galleri-image-one-dev']; ?>"
+        title="Almacenamiento y tratamiento de información y otros"
+        alt="Servicio de desarrollo Web para Atelier570 consistio en realizar diseño integral y ejecucion de proyectos en el pais   "
+      >
       </div>
 
       <div class="d-md-flex justify-content-center flex-md-row">
