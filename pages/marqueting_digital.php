@@ -95,56 +95,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 }
 </style>
 
-<section id="slider">
-  <div id="demo" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <!-- <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
-    </ul> -->
-
-    <div class="float-rectangle-banner d-none d-xl-block">
-      <div id="rectangle" class="text-center my-0 mx-auto"></div>
-    </div>
-
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="w-100" src="<?php echo get_option('evanzu')[
-            'carrusell-image-one'
-        ]; ?>">
-          	<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
-					<div class="col-8 flex-colum text-left p-0">
-            <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-            <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
-            <div class="d-flex align-center">
-              <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
-              <img
-								src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
-								/>
-            </div>
-						<div class="text-subtitle-btl">
-                Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
-						</div>
-              <div class="mt-3 text-left">
-                Quieres resultados. 
-                <button class="btn-btl" id="btn-main">
-                  <span>¡Desafíanos con tu proyecto!</span>
-                </button>
-              </div>
-						</div>
-					</div>	
-      </div>
-
-          <!--------------------- Button Modal --------------------->
-        <div 
-        class="position-absolute ndx w-100 h-100 float-rigth float-right" 
-        style="padding-top: 5rem;"
-        > 
+    <!--------------------- Button Modal --------------------->
+        <div   class="position-fixed button-form-in-pages"> 
                         <div
                         type="button"
-                        class="position-fixed ndx" 
+                        class="position-absolute ndx" 
                         class="btn btn-primary" 
                         data-toggle="modal" 
                         data-target="#myModalRight" 
@@ -165,6 +120,49 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>    
     <!--------------------- Button Modal ---------------------> 
 
+
+<section id="slider">
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul> -->
+
+    <div class="float-rectangle-banner d-none d-xl-block">
+      <div id="rectangle" class="text-center my-0 mx-auto"></div>
+    </div>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="w-100" src="<?php echo get_option('evanzu')[
+            'carrusell-image-one'
+        ]; ?>">
+          	<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
+               <div class="col-8 flex-colum text-left p-0">
+                  <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
+                  <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
+                  <div class="d-flex align-center">
+                    <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
+                    <img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
+                      />
+                  </div>
+                  <div class="text-subtitle-btl">
+                      Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
+                  </div>
+                    <div class="mt-3 text-left">
+                      Quieres resultados. 
+                      <button onclick="ButtonRedirectForm();" class="btn-btl">
+                        <span >¡Desafíanos con tu proyecto!</span>
+                      </button>
+                    </div>
+                </div>
+					   </div>	
+      </div>
       <div class="carousel-item">
         <img class="w-100" src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
            <div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
@@ -196,8 +194,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       </div> -->
     </div>
 
-
-
     <!-- Left and right controls -->
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
       <span class="carousel-control-prev-icon"></span>
@@ -205,9 +201,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     <a class="carousel-control-next" href="#demo" data-slide="next">
       <span class="carousel-control-next-icon"></span>
     </a>
-
-       
-
   </div>
 </section>
 <section>
@@ -476,7 +469,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
                 'title' => 'Define tu presupuesto',
-                'idwebsite' => 'homeWebsite',
+                'idwebsite' => 'marketing1website',
                 'idemail' => 'marketing1email',
                 'idform' => 'marketing1',
                 'idparagraph' => 'pmarketing1',
@@ -673,7 +666,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
                       'title' => '¡Estás listo!',
-                      'idwebsite' => 'redes_socialesWebsite',
+                      'idwebsite' => 'marketing2website',
                       'idemail' => 'marketing2email',
                       'idform' => 'marketing2',
                       'idparagraph' => 'pmarketing2',
@@ -903,7 +896,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
                       'title' => 'Conoce tu calificación SEO',
-                      'idwebsite' => 'seoWebsite',
+                      'idwebsite' => 'marketing3website',
                       'idemail' => 'marketing3email',
                       'idform' => 'marketing3',
                       'idparagraph' => 'pmarketing3',
@@ -1075,7 +1068,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
                       'title' => 'Crece exponencialmente',
-                      'idwebsite' => 'menu3Website',
+                      'idwebsite' => 'marketing4website',
                       'idemail' => 'marketing4email',
                       'idform' => 'marketing4',
                       'idparagraph' => 'pmarketing4',
@@ -1298,7 +1291,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
                 'title' => 'Tenemos más por contarte',
-                'idwebsite' => 'menu4Website',
+                'idwebsite' => 'marketing5website',
                 'idemail' => 'marketing5email',
                 'idform' => 'marketing5',
                 'idparagraph' => 'pmarketing5',
