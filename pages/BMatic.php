@@ -45,7 +45,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-5 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Bmatic-antes-a.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Bmatic-antes-a.jpg" title="Anterior logo de BMatic" alt="Anterior logo de BMatic" class="w-100 h-100" />
 			</div>
 			<div class="d-none col-md-2 d-md-flex align-items-md-center">
 				<div class="w-100 px-1">
@@ -53,7 +53,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 				</div>
 			</div>
 			<div class="col-md-5 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Bmatic-despues-a.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Bmatic-despues-a.jpg" title="Nuevo logo de BMatic" alt="Nuevo logo de BMatic" class="w-100 h-100" />
 			</div>                        
 			<div class="col-12 p-1 m-0 p-md-2">
 				<img src="<?php echo $path_img?>Manual-BMatic-Evanzu.jpg" class="w-100 h-100" />
@@ -77,7 +77,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>web-bmatic-portafolio.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>web-bmatic-portafolio.jpg" title="" alt="" class="w-100 h-100" />
 			</div>
 			<div class="col-md-6 p-0 m-0">
                 <div class="d-flex flex-column h-100 w-100">

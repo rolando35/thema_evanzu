@@ -46,19 +46,23 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Web-Artecola.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Web-Artecola.jpg" title="Diseño y programación web Artecola" alt="Diseño web de artecola con un laptop" class="w-100 h-100" />
 			</div>
 			<div class="col-md-6 p-0 m-0">
 				<div class="d-flex flex-column h-100 w-100">
 					<div class="w-100 h-50 p-1 m-0 p-md-2">
 						<img
 							src="<?php echo $path_img?>Portafolio-Artecola.jpg"
+							title="Diseño interior web Artecola"
+							alt="Páginas interiores del diseño web de Artecola"
 							class="w-100 h-100"
 						/>
 					</div>
 					<div class="w-100 h-50 p-1 m-0 p-md-2">
 						<img
-							src="<?php echo $path_img?>Web-Artecola3.jpg"
+							src="<?php echo $path_img?>Web-Artecola2.jpg"
+							title="Web Artecola"
+							alt="Diseño para la web de Artecola"
 							class="w-100 h-100"
 						/>
 					</div>
@@ -85,29 +89,37 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Portafolio-Artecola-Revista.jpg"
+					title="Contraporta revista Artecla"
+					alt="Diseño y tratamiento de imágenes contraportada de revista latinoamericana para Artecola"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Portafolio-Artecola-4.jpg"
+					title="Diseño de mockup Afix Artecola"
+					alt="Diseño para la promoción de Afix 3x2 Artecola"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Portafolio-Artecola-5.jpg"
+					title="Diseño backing Artecola"
+					alt="Diseño de Backing Artecola"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Portafolio-Artecola-MOdulo.jpg"
+					src="<?php echo $path_img?>Portafolio-Artecola-Modulo.jpg"
+					title="Diseño de módulo para activación Artecla"
+					alt="Diseño y producción de módulo para activaciones de Artecola - Perú"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-12 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>01-triptico.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>01-triptico.jpg" title="Diseño de tríptico Artecola" alt="Diseño de tríptico A4 Artecola" class="w-100 h-100" />
 			</div>
 		</div>
 		<!---------------images-------------->
@@ -132,6 +144,8 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 					<div class="w-100 h-50 p-1 m-0 p-md-2">
 						<img
 							src="<?php echo $path_img?>Portafolio-Artecola-6.jpg"
+							title="Diseño redes sociales Artecola"
+							alt="Diseño de contenido para redes sociales de Artecola"
 							class="w-100 h-100"
 						/>
 					</div>
@@ -145,7 +159,9 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>artecola-porta.jpg"
+					src="<?php echo $path_img?>Artecola-porta.jpg"
+					title="Diseño redes sociales Artecola"
+					alt="Diseño mosaico para Facebook Artecola"
 					class="w-100 h-100"
 				/>
 			</div>
@@ -169,25 +185,33 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Fotografía-artecola.jpg"
+					src="<?php echo $path_img?>Fotografía-artecola-1.jpg"
+					title="Fotografía de producto Artecola"
+					alt="Fotografía de producto Artecola"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Fotografía-artecola-2.jpg"
+					title="Fotografía de producto Artecola"
+					alt="Fotografía de producto Artecola"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Fotografía-artecola-3.jpg"
+					title="Fotografía de producto Artecola"
+					alt="Fotografía de producto Artecola"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Fotografía-artecola-4.jpg"
+					title="Fotografía de producto Artecola"
+					alt="Fotografía de producto Artecola"
 					class="w-100 h-100"
 				/>
 			</div>

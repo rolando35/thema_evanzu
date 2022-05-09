@@ -50,47 +50,61 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-8 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Portada-BBVA.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Portada-BBVA.jpg" title="Poster BBVA desvinculacióon Kasnet" alt="Poster del BBVA en exterioor" class="w-100 h-100" />
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Cierre-de-oficinas.jpg"
+					src="<?php echo $path_img?>Cierre-de-oficinas-BBVA.jpg"
+					title="Poster Cierre de oficinas BBVA"
+					alt="Diseño de poster para cierre de oficinas BBVA - Aurora"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Piezas-Agentes-BBVA.jpg"
+					title="Piezas para el Agente BBVA"
+					alt="Diferentes diseños para los Agentes BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Triptico-BBVA.jpg"
+					title="Triptico BBVA"
+					alt="Diseño  de un triptico para el BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Poster-Campana-escolar.jpg"
+					title="Poster campaña escolar BBVA"
+					alt="Diseño y fotografía para el post de Campaña Escolar BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Poster-BBVA-ganador.jpg"
+					title="Poster BBVA ganador"
+					alt="Diseño de poster ganador para el BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Sticker-Giros.jpg"
+					title="Diseño de sticker Giros"
+					alt="Diseño de estiker giros BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Poster-Agente-BBVA.jpg"
+					title="Poster Agente BBVA"
+					alt="Diseño de poster Agente BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
@@ -114,19 +128,25 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Portada-facebook-agente-BBVA.jpg"
+					src="<?php echo $path_img?>Portada-de-facebook-agente-BBVA.jpg"
+					title="Portada de facebook agente BBVA"
+					alt="Portada y gestión de comunidad en facebook BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Redes-Sociales-BBVA.jpg"
+					title="Diseño de contenido y jalavista BBVA"
+					alt="Diseño de jalavista y post BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-12 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Disenos-redes-sociales.jpg"
+					src="<?php echo $path_img?>Disenos-para-redes-sociales.jpg"
+					title="Diseño de contenidos Agente BBVA"
+					alt="Diseño de contenidos para comunidad Agente BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
@@ -149,17 +169,22 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-12 p-1 m-0 p-md-2">
+				<!-- Portafolio_BTL&_Comunicacion_BBVA  -->
 				<img
 					src="<?php echo $path_img?>Activacion-BBVA.jpg"
+					title="Activación BBVA"
+					alt="Activación BBVA en el parque de las aguas, anfitrionas y auto brandeado"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Evanzu-04.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Activacion-BBVA2.jpg" title="Activación Paque de las Aguas Agente BBVA" alt="Activación del Agente BBVA en el parque de las aguas, toldo brandeado, banner y ruleta ganadora." class="w-100 h-100" title="Servicio de activacion BTL" alt="Activacion BTL  para tu empresa"/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Activacion-foto-2.jpg"
+					title="Activación Agente BBVA"
+					alt="Interacción en la Activación del Agente BBVA"
 					class="w-100 h-100"
 				/>
 			</div>
