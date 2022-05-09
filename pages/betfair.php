@@ -43,31 +43,31 @@ $path_img = get_template_directory_uri() . '/assets/images/betfair/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-12 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Evento-Betfair.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Evento-Betfair.jpg" title="Stand para la Conmebol Betfair" alt="Stand par ala Conmebol Lima" class="w-100 h-100" />
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Fotografía-vertical-1.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Fotografía-vertical-1.jpg" title="Stand evento Betfair Conmebol Lima" alt="Stand Betfair con banner 1x2 en Lima - Perú" class="w-100 h-100" />
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Fotografía-vertical-2.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Fotografía-vertical-2.jpg" title="Ruleta ganadora Betfair Conmebol Lima Perú" alt="Rulera, anfitriona y stand para Betfair en la Conmebol de Lima Perú" class="w-100 h-100" />
 			</div>                        
 			<div class="col-md-4 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Fotografía-vertical-3.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Fotografía-vertical-3.jpg" title="Interacción evento Betfair" alt="Evento Betfair entregando merchandising a los usuarios" class="w-100 h-100" />
 			</div>
             <div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Activación-Betfair-2.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Activación-Betfair-2.jpg" title="Evento Betfair personal" alt="Fotografía al finalizar el evento Betfair" class="w-100 h-100" />
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Activación-Betfair-1.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Activación-Betfair-1.jpg" title="Selfie Evento Betfair" alt="Fotografía de un usuario con marco selfie y una anfitriona" class="w-100 h-100" />
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Fotografía-vertical-6.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Fotografía-vertical-6.jpg" title="Orientación app Betfair" alt="Volantero con usuario utilizando aplicación Betfair" class="w-100 h-100" />
 			</div>                        
 			<div class="col-md-4 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Fotografía-vertical-5.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Fotografía-vertical-5.jpg" title="Animador Betfair en Conmebol Lima Perú" alt="Animador Betfair con participación de usuarios en la conmebol" class="w-100 h-100" />
 			</div>
             <div class="col-md-4 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Fotografía-vertical-4.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Fotografía-vertical-4.jpg" title="Aplicación Betfair" alt="Usuarios utilizando la aplicación Betfair en la Conmebol Lima - Perú" class="w-100 h-100" />
 			</div>
         </div>
         <!---------------images-------------->

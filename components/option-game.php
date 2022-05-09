@@ -7,7 +7,7 @@
 	<div
 		class="mb-2 image-circle-game"
 	>
-		<img src="<?php echo $game["path"] . $game["image"] ?>" class="img-fluid" />
+		<img src="<?php echo $game["path"] . $game["image"] ?>" class="img-fluid" title="<?php echo $game["attrTitle"]; ?>" alt="<?php echo $game["attrAlt"] ?>" />
 	</div>
 	<div><img src="<?php echo $game["path"] . $game["icon"]; ?>" /></div>
 	<div>

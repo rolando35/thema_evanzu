@@ -1,7 +1,9 @@
 <!--------------------logo-top-contact------------------------->
 <div class="text-center d-none d-lg-block">
 	<img
-		src="<?php echo $args["path_img"]; ?>servicio-incluye.png"
+		src="<?php echo $args["path_img"]; ?>Ilustración-de-Activación-BTL.png"
+        title="Servicio de Activación BTL"
+        alt="Megafono en iconos para activaciones BTL"
         class="logo-top-contact"
 	/>
 </div>
