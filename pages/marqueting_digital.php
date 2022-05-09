@@ -105,6 +105,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         data-target="#myModalRight" 
                         data-dismiss="modal" 
                         data-backdrop="false"
+                       
                         >
                     <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
@@ -180,7 +181,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   </div>
                     <div class="mt-3 text-left">
                       Quieres resultados. 
-                      <button class="btn-btl">
+                      <button onclick="ButtonRedirectForm();" class="btn-btl">
                         <span>¡Desafíanos con tu proyecto!</span>
                       </button>
                     </div>
