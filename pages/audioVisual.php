@@ -219,7 +219,7 @@ h5 {
         </div>
         <p style='font-weight: 300;' class="text-white">con videos ideados para comunicar y emocionar.</p>
         <div class="d-inline-block w-100">
-          <button style="max-width: 20rem;" type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90">
+          <button style="max-width: 20rem;" id="btn-main" type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90">
             <strong>Desafíanos</strong> con tu proyecto
           </button>
         </div>
@@ -417,7 +417,7 @@ h5 {
                 'image' =>
                     $directory_imgs . 'form-quote-request.svg',
                 'title' => '¡Empecemos ahora!',
-                'idwebsite' => 'form1website',
+                'idwebsite' => 'homeWebsite',
                 'idemail' => 'form1email',
                 'idform' => 'chalk1',
                 'idparagraph' => 'p1',
@@ -629,7 +629,7 @@ h5 {
                             'image' =>
                                 $directory_imgs . 'form-quote-request.svg',
                             'title' => '¿Estás listo?',
-                            'idwebsite' => 'form2website',
+                            'idwebsite' => 'menu1Website',
                             'idemail' => 'form2email',
                             'idform' => 'chalk2',
                             'idparagraph' => 'p2',
@@ -802,7 +802,7 @@ h5 {
                             'image' =>
                                 $directory_imgs . 'form-quote-request.svg',
                             'title' => 'Tenemos más por contarte, escríbenos',
-                            'idwebsite' => 'form3website',
+                            'idwebsite' => 'menu2Website',
                             'idemail' => 'form3email',
                             'idform' => 'chalk3',
                             'idparagraph' => 'p3',

@@ -159,7 +159,7 @@ ul {
               Es momento de ponerte en modo digital. <br> Ofrecemos la combinación perfecta de diseño, usabilidad y técnología.
 						</div>
               <div class="mt-3 text-left">
-                <button class="btn-btl">
+                <button class="btn-btl" id="btn-main">
                   <span>¡Desafíanos con tu proyecto!</span>
                 </button>
               </div>
@@ -320,7 +320,7 @@ ul {
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => '¡Empecemos ahora!',
-				'idwebsite' => 'softWare1website',
+				'idwebsite' => 'homeWebsite',
         'idemail' => 'softWare1email',
         'idform' => 'softWare1',
         'idparagraph' => 'psoftWare1',
@@ -475,7 +475,7 @@ ul {
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Estamos listos. ¡Contáctanos!',
-				'idwebsite' => 'softWare2website',
+				'idwebsite' => 'eventsWebsite',
         'idemail' => 'softWare2email',
         'idform' => 'softWare2',
         'idparagraph' => 'psoftWare2',
@@ -658,7 +658,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Define tu presupuesto',
-				'idwebsite' => 'softWare3website',
+				'idwebsite' => 'relationsWebsite',
         'idemail' => 'softWare3email',
         'idform' => 'softWare3',
         'idparagraph' => 'psoftWare3',
@@ -823,7 +823,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => '¿Un proyecto en mente?',
-				'idwebsite' => 'softWare4website',
+				'idwebsite' => 'salesWebsite',
         'idemail' => 'softWare4email',
         'idform' => 'softWare4',
         'idparagraph' => 'psoftWare4',
@@ -955,7 +955,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Tenemos más por contarte',
-				'idwebsite' => 'softWare5website',
+				'idwebsite' => 'hostessWebsite',
         'idemail' => 'softWare5email',
         'idform' => 'softWare5',
         'idparagraph' => 'psoftWare5',
