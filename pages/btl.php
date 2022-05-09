@@ -71,7 +71,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								actuales con campañas interactivas.
 							</div>
 							<div class="mt-3 text-left">
-								<button class="btn-btl">
+								<button class="btn-btl" id="btn-main">
 								Quieres resultados.
 								<span class="hurme-regular-4"
 									>Escríbenos</span
@@ -293,7 +293,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					array (
 						'path_img' => $path_img,
 						'title'=> 'Define tu presupuesto',
-						'idwebsite' => 'websiteHome',
+						'idContact'=> 'homeContact',
+						'idwebsite' => 'homeWebsite',
                 		'idemail' => 'emailHome',
                 		'idform' => 'formHome',
                 		'idparagraph' => 'pHome',
@@ -586,8 +587,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
+						'idContact'=> 'eventsContact',
 						'title'=> '¡Empecemos ahora!',
-						'idwebsite' => 'websiteEvent',
+						'idwebsite' => 'eventsWebsite',
                 		'idemail' => 'emailEvent',
                 		'idform' => 'formEvent',
                 		'idparagraph' => 'pEvent',
@@ -816,8 +818,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
+						'idContact'=> 'relationsContact',
 						'title'=> 'Te escuchamos',
-						'idwebsite' => 'websiteRelations',
+						'idwebsite' => 'relationsWebsite',
                 		'idemail' => 'emailRelations',
                 		'idform' => 'formRelations',
                 		'idparagraph' => 'pRelations',
@@ -1007,8 +1010,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
+						'idContact'=> 'salesContact',
 						'title'=> '¡Estamos listos! Contáctanos',
-						'idwebsite' => 'websiteSales',
+						'idwebsite' => 'salesWebsite',
                 		'idemail' => 'emailSales',
                 		'idform' => 'formSales',
                 		'idparagraph' => 'pSales',
@@ -1142,8 +1146,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
+						'idContact'=> 'hostessContact',
 						'title'=> 'Define tu presupuesto',
-						'idwebsite' => 'websiteHostess',
+						'idwebsite' => 'hostessWebsite',
                 		'idemail' => 'emailHostess',
                 		'idform' => 'formHostess',
                 		'idparagraph' => 'pHostess',
@@ -1173,7 +1178,5 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 ?>
         </div>
 </section>
-
-
 
 <?php  get_footer(); ?>
