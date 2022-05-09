@@ -50,36 +50,48 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 			<div class="col-12 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Fotografia-AESA.jpg"
+					title="Evento AESA Perú"
+					alt="Persona de AESA en evento de seguridad"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Fotografia-vertical-AESA-3.jpg"
+					title="Almuerzo de despedida AESA"
+					alt="Personal de AESA con el servicio de catering por EVANZU"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Fotografia-vertical-AESA-2.jpg"
+					title="Juegos del evento de seguridad AESA"
+					alt="NIños jugando en as actividades del evento AESA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Fotografia-vertical-AESA.jpg"
+					title="Diseño de letreros de suelo AESA"
+					alt="Diseño y producción de letreros AESA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Fotografia-aesa-h2.jpg"
+					src="<?php echo $path_img?>Fotografia-AESA-h2.jpg"
+					title="Increible AESA con el personal"
+					alt="Personal de AESA con el personaje increible AESA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Fotografia-aesa-h-1.jpg"
+					src="<?php echo $path_img?>Fotografia-AESA-h1.jpg"
+					title="Personajes evento AESA"
+					alt="Personajes de bienvenido del evento se AESA con marco selfie y fondo temático"
 					class="w-100 h-100"
 				/>
 			</div>
@@ -101,23 +113,29 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>banner.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Banner.jpg" title="Banner AESA" alt="Diseño y producción de banner AESA" class="w-100 h-100" />
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Banner-AESA-3.png"
+					title="3 banner de AESA"
+					alt="Diseño y producción de banner AESA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Disenos-troquelados-AESA.png"
+					title="Diseños troquelado AESA"
+					alt="Diseño y producción de letreros troquelados para el suelo en el evento de AESA"
 					class="w-100 h-100"
 				/>
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Membrete-AESA-.png"
+					title="Diseño de membrete"
+					alt="Diseño de membrete A4 para evento AESA"
 					class="w-100 h-100"
 				/>
 			</div>
@@ -142,6 +160,8 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 			<div class="col-12 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Personaje-AESA.png"
+					title="Ilustración de personaje temático AESA"
+					alt="Diseño de personaje AESA para el evento de seguridad en Perú"
 					class="w-100 h-100"
 				/>
 			</div>
@@ -193,11 +213,13 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Flyer-AESA.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Flyer-AESA.jpg" title="Diseño de flyer interno AESA" alt="Diseño de flyer interno para la minería AESA" class="w-100 h-100" />
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
 					src="<?php echo $path_img?>Banner-Ahora-te-toca-a-ti.jpg"
+					title="Diseño de banner ahora te toca a ti AESA"
+					alt="Diseño de banner ahora te toca a ti AESA"
 					class="w-100 h-100"
 				/>
 			</div>
