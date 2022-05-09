@@ -197,8 +197,9 @@ h5 {
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img
-					src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/portada 2.png"
-					alt="Los Angeles"
+					src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Sevicio de Audio Visuales.png"
+          title="Audio Visuales"
+					alt="Servicio de Audio Visuales ideadas para comunicar"
           class="w-100 h-100"
 				/>
 				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
@@ -516,8 +517,8 @@ h5 {
                     <div class="col-sm-12 col-lg-6 ">
 
             <div class="my-3">
-                <div class="text-green  my-3 text-left" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
-                Crea historias que enganchen
+                <div class="text-green  my-3 text-left hurme-bold-4" style='width: 90%; font-weight: 900; font-size: 1.6rem'>
+                  Crea historias que enganchen
                 </div>
             </div>
             <p class='font-weight-normal text-justify w-90' style='line-height: 22px; font-size: 1rem'>
@@ -526,7 +527,11 @@ h5 {
             </p>
             </div>
                   <div class="col-sm-12 col-lg-6 ">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/animacion-2d.png" alt="Cámara fotográfica">
+                  <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Servicio de Animación 2D.png"
+                    title="Animación 2D"
+                    alt="Servicio de Animación 2D"
+                  >
                   </div>
                     </div>
                 </div>
@@ -604,7 +609,12 @@ h5 {
 						</div>
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como lo hacemos.png">
+              <img
+                class=""
+                title="Herramientas de Audio Visuales"
+                alt="Ilustración de Herramientas para el servicio de Audio Visuales"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Ilustración Servicio de Audio Visuales.png"
+              >
           </div>
 				</div>
 			<!-----------------------Service component tab2----------------------------->	
@@ -777,7 +787,11 @@ h5 {
 						</div>
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/como lo hacemos.png">
+              <img
+                class=""
+                title="Herramientas de Audio Visuales"
+                alt="Ilustración de Herramientas para el servicio de Audio Visuales"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Ilustración Servicio de Audio Visuales.png">
           </div>
 				</div>
 			<!-----------------------Service component tab3----------------------------->	
