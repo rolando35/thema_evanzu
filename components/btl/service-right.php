@@ -13,7 +13,7 @@
 	<div class="d-none d-lg-flex justify-content-start container-line-right-service"
 	>
 		<div class="line-right-service">
-			<img src="<?php echo $args["line"];?>" />
+			<img class="img-fluid" src="<?php echo $args["line"];?>" />
 		</div>
 	</div>
 </div>

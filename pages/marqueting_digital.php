@@ -98,7 +98,35 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 }
 </style>
 
+    <!--------------------- Button Modal --------------------->
+        <div   class="position-fixed button-form-in-pages"> 
+                        <div
+                        type="button"
+                        class="position-absolute ndx" 
+                        class="btn btn-primary" 
+                        data-toggle="modal" 
+                        data-target="#myModalRight" 
+                        data-dismiss="modal" 
+                        data-backdrop="false"
+                       
+                        >
+                    <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
+                    </svg>
+                    <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
+                        <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
+                        <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
+                    </div>
+                </div>
+                <div class="mt-5c" style="z-index: 1;">
+                    <?php get_template_part('components/modal/modal', 'full'); ?>
+                </div>
+        </div>    
+    <!--------------------- Button Modal ---------------------> 
+
+
 <section id="slider">
+
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <!-- <ul class="carousel-indicators">
@@ -118,26 +146,26 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             'carrusell-image-one'
         ]; ?>">
           	<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
-					<div class="col-8 flex-colum text-left p-0">
-            <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-            <h1 class="text-paragraph line-height" data-wow-delay="0.3s">MARKETING</h1>
-            <div class="d-flex align-center">
-              <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
-              <img
-								src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
-								/>
-            </div>
-						<div class="text-subtitle-btl">
-                Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
-						</div>
-              <div class="mt-3 text-left">
-                Quieres resultados. 
-                <button class="btn-btl" id="btn-main">
-                  <span>¡Desafíanos con tu proyecto!</span>
-                </button>
-              </div>
-						</div>
-					</div>	
+               <div class="col-8 flex-colum text-left p-0">
+                  <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
+                  <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
+                  <div class="d-flex align-center">
+                    <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
+                    <img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
+                      />
+                  </div>
+                  <div class="text-subtitle-btl">
+                      Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
+                  </div>
+                    <div class="mt-3 text-left">
+                      Quieres resultados. 
+                      <button onclick="ButtonRedirectForm();" class="btn-btl">
+                        <span >¡Desafíanos con tu proyecto!</span>
+                      </button>
+                    </div>
+                </div>
+					   </div>	
       </div>
       <div class="carousel-item">
         <img class="w-100" src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
@@ -156,7 +184,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   </div>
                     <div class="mt-3 text-left">
                       Quieres resultados. 
-                      <button class="btn-btl">
+                      <button onclick="ButtonRedirectForm();" class="btn-btl">
                         <span>¡Desafíanos con tu proyecto!</span>
                       </button>
                     </div>

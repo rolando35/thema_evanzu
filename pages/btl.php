@@ -26,6 +26,31 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 </style>
 
+    <!--------------------- Button Modal --------------------->
+        <div   class="position-fixed button-form-in-pages"> 
+                        <div
+                        type="button"
+                        class="position-absolute ndx" 
+                        class="btn btn-primary" 
+                        data-toggle="modal" 
+                        data-target="#myModalRight" 
+                        data-dismiss="modal" 
+                        data-backdrop="false"
+                       
+                        >
+                    <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
+                    </svg>
+                    <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
+                        <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
+                        <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
+                    </div>
+                </div>
+                <div class="mt-5c" style="z-index: 1;">
+                    <?php get_template_part('components/modal/modal', 'full'); ?>
+                </div>
+        </div>    
+    <!--------------------- Button Modal ---------------------> 
 <section id="slider" class="section-slider-btl">
 	<div
 		id="demo"
@@ -38,9 +63,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		<div class="carousel-inner">
 			<div class="carousel-item active d-flex align-items-center">
 				<img
-					src="<?php echo get_template_directory_uri()?>/assets/images/btl/btl-slider.jpg;"
+					src="<?php echo get_template_directory_uri()?>/assets/images/btl/Servicio-de-Activación-BTL.jpg;"
 					alt="Los Angeles"
 					class="w-100"
+					title="Activaciones BTL"
+					alt="Anfitrionas con uniforme para activaciones BTL para tu marca"
 					style="min-height: 25rem;"
 				/>
 
@@ -71,7 +98,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								actuales con campañas interactivas.
 							</div>
 							<div class="mt-3 text-left">
-								<button class="btn-btl" id="btn-main">
+								<button class="btn-btl" onclick="ButtonRedirectForm();" id="btn-main">
 								Quieres resultados.
 								<span class="hurme-regular-4"
 									>Escríbenos</span
@@ -140,7 +167,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">BTL y Activaciones</div>
+						<h2 class="big-title text-red my-2 text-center">BTL y Activaciones</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -160,9 +187,12 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 										</div>
 									</div>
 									<div class="col-md-10 col-lg-6">
+
+									<!-- activacion-01.png -->
 										<img
-											src="<?php echo $path_img; ?>activacion-01.png"
-											alt=""
+											src="<?php echo $path_img; ?>Anfitrionas-para-Activaciones-BTL-y-comunicación.png"
+											title="Anfitrionas para Activaciones BTL"
+											alt="Anfitrionas con uniforme en iconos para Activaciones BTL"
 											class="img-fluid"
 										/>
 									</div>
@@ -177,8 +207,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center align-items-lg-end">
 									<div class="col-md-10 col-lg-6 py-2 text-center">
 										<img
-											src="<?php echo $path_img; ?>activacion-02.png"
-											alt=""
+											src="<?php echo $path_img; ?>Juegos-para-Activaciones-BTL.png"
+											title="Activaciones promocionales y juegos BTL"
+											alt="Activaciones promocionales y juegos BTL Cabina de aire con iconos de BTL"
 											class="img-fluid"
 										/>
 									</div>
@@ -222,7 +253,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -307,7 +338,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!------------------Game-------------------->
 				<section style="margin-top: 2rem" class="text-center">
 					<!------------title-------------->
-					<div class="big-title text-red text-center">Juegos BTL:</div>
+					<h3 class="big-title text-red text-center">Juegos BTL:</h3>
 					<!------------title-------------->
 
 					<!-------------line--------------->
@@ -347,78 +378,102 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								foreach (array(
 									array
 									(
-									"image" => "tablero-memoria.png", 
+									"image" => "Juego-BTL-Tablero-de-Memoria.png", 
 									"icon" => "cerebro.svg",
 									"title" => "Tablero de <span>Memoria</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Tablero de Memoria",
+									"attrAlt" => "Juego Tablero de Memoria para activaciones BTL"
 									), 
 									array ( 
-									"image" => "cabina-aire.png",
+									"image" => "Juego-BTL-Cabina-de-Aire.png",
 									"icon" => "cabina-aire.svg", 
 									"title" => "Cabina de <span>Aire</span>", 
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Cabina de Aire",
+									"attrAlt" => "Juego Cabina de Aire para activaciones BTL"
 									),
 									array (
-									"image" => "ruta.png",
+									"image" => "Juego-BTL-La-Ruleta.png",
 									"icon" => "ruleta.svg",
 									"title" => "La <span>Ruleta</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "La Ruleta",
+									"attrAlt" => "Juego La Ruleta para activaciones BTL"									
 									), 
 									array (
-									"image" => "jenga-gigante.png", 
+									"image" => "Juego-BTL-Jenga-Gigante.png", 
 									"icon" => "jenga-gigante.svg",
 									"title" => "Jenga <span>Gigante</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Jenga Gigante",
+									"attrAlt" => "Juego Jenga Gigante para activaciones BTL"									
 									),
 									array
 									(
-									"image" => "carrera-enchufes.png", 
+									"image" => "Juego-BTL-Carrera-de-Enchufes.png", 
 									"icon" => "carrera-enchufes.svg",
 									"title" => "Carrera de <span>Enchufes</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Carrera de Enchufes",
+									"attrAlt" => "Juego Carrera de Enchufes para activaciones BTL"									
 									), 
 									array ( 
-									"image" => "palestra-inflable.png",
+									"image" => "Juego-BTL-Palestra-Inflable.png",
 									"icon" => "palestra-inflable.svg", 
 									"title" => "Palestra <span>Inflable</span>", 
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Palestra Inflable",
+									"attrAlt" => "Juego Palestra Inflable para activaciones BTL"									
 									),
 									array (
-									"image" => "palestra.png",
+									"image" => "Juego-BTL-La-Palestra.png",
 									"icon" => "palestra.svg",
 									"title" => "La <span>Palesta</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "La Palestra",
+									"attrAlt" => "Juego La Palestra para activaciones BTL"									
 									), 
 									array (
-									"image" => "tablero-dardos.png", 
+									"image" => "Juego-BTL-Tablero-de-Dardos.png", 
 									"icon" => "tablero-dardos.svg",
 									"title" => "Tablero de <span>Dardos</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Tablero de Dardos",
+									"attrAlt" => "Juego Tablero de Dardos para activaciones BTL"									
 									),
 									array
 									(
-									"image" => "hombre-globo.png", 
+									"image" => "Juego-BTL-Hombre-Globo.png", 
 									"icon" => "hombre-globo.svg",
 									"title" => "Hombre <span>Glogo</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Hombre Globo",
+									"attrAlt" => "Juego Hombre Globo para activaciones BTL"									
 									), 
 									array ( 
-									"image" => "futbol-billar-gigante.png",
+									"image" => "Juego-BTL-Futbol-Billar-Gigante.png",
 									"icon" => "futbol-billar-gigante.svg", 
 									"title" => "Futbol Billar <span>Gigante</span>", 
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Futbol Billar Gigante",
+									"attrAlt" => "Juego Futbol Billar Gigante para activaciones BTL"									
 									),
 									array (
-									"image" => "tira-gol.png",
+									"image" => "Juego-BTL-El-TiraGol.png",
 									"icon" => "tira-gol.svg",
 									"title" => "El <span>TiraGol</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "El TiraGol",
+									"attrAlt" => "Juego El TiraGol para activaciones BTL"									
 									), 
 									array (
-									"image" => "obstaculos.png", 
+									"image" => "Juego-BTL-Los-Obstáculos.png", 
 									"icon" => "obstaculos.svg",
 									"title" => "Los <span>Obstáculos</span>",
-									"path" => $path_img
+									"path" => $path_img,
+									"attrTitle" => "Los Obstáculos",
+									"attrAlt" => "Juego Los Obstáculos para activaciones BTL"									
 									)) as $game) {
 								get_template_part('components/option-game','full', $game ); } ?>
 							</div>
@@ -437,7 +492,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Eventos</div>
+						<h2 class="big-title text-red my-2 text-center">Eventos</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -467,8 +522,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									</div>
 									<div class="col-md-10 col-lg-6">
 										<img
-											src="<?php echo $path_img; ?>eventos.png"
-											alt=""
+											src="<?php echo $path_img; ?>Servicio-de-Eventos-corporativo.png"
+											title="Servicio de Eventos"
+											alt="Evento coporativo de fin de año para los agentes BBVA"
 											class="img-fluid"
 										/>
 									</div>
@@ -517,7 +573,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -620,8 +676,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								</div>
 								<div class="col-md-10 col-lg-6">
 									<img
-										src="<?php echo $path_img; ?>eventos-presenciales.png"
-										alt=""
+										src="<?php echo $path_img; ?>Servicio-para-diferentes-eventos-presenciales.png"
+										title="Servicio de eventos presenciales"
+										alt="Servicio de Eventos de integración para diferentes empresas"
 										class="img-fluid img-float-event"
 									/>
 								</div>
@@ -636,8 +693,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center">
 								<div class="col-md-10 col-lg-6">
 									<img
-										src="<?php echo $path_img; ?>eventos-online.png"
-										alt=""
+										src="<?php echo $path_img; ?>Servicio-y-capacitación-de-eventos-online.png"
+										title="Servicio de eventos online"
+										alt="Capacitación online y Dinámica digital para equipos de trabajo"
 										class="img-fluid img-float-event"
 									/>
 								</div>
@@ -669,15 +727,16 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Relaciones Públicas</div>
+						<h2 class="big-title text-red my-2 text-center">Relaciones Públicas</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
 								<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center">
 									<div class="col-md-10 col-lg-6">
 										<img
-											src="<?php echo $path_img; ?>relaciones-publicas.png"
-											alt=""
+											src="<?php echo $path_img; ?>Ilustración-para-el-servicio-de-Relaciones-Públicas.png"
+											title="Servicio de Relaciones públicas"
+											alt="Ilustración de Medios de Comunicación para el desarrollo del servicio de Relaciones públicas"
 											class="img-fluid"
 										/>
 									</div>
@@ -749,7 +808,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -839,7 +898,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Fuerza de ventas</div>
+						<h2 class="big-title text-red my-2 text-center">Fuerza de ventas</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -866,8 +925,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									</div>
 									<div class="col-md-10 col-lg-6">
 										<img
-											src="<?php echo $path_img; ?>fuerza-ventas.png"
-											alt=""
+											src="<?php echo $path_img; ?>Equipo-para-el-servicio-de-Fuerza-de-Ventas.png"
+											title="Servicio de Fuerza de Ventas"
+											alt="Equipo humano capacitado y con experiencia para el servicio de Fuerza de Ventas"
 											class="img-fluid"
 										/>
 									</div>
@@ -919,7 +979,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1030,7 +1090,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Anfitrionaje</div>
+						<h2 class="big-title text-red my-2 text-center">Anfitrionaje</h2>
 						<!-------------------Card---------------------->
 						<div class="pt-2 pb-5">
 							<div class="container">
@@ -1058,8 +1118,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 									</div>
 									<div class="col-md-10 col-lg-6">
 										<img
-											src="<?php echo $path_img; ?>anfitriona.png"
-											alt=""
+											src="<?php echo $path_img; ?>Servicio-de-anfitrionas-e-impulsadoras.png"
+											title="Servicio de Anfitronaje"
+											alt="Servicio de anfitrionas e impulsadoras de primer nivel para activaciones BTL y campañas"
 											class="img-fluid"
 										/>
 									</div>
@@ -1078,7 +1139,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
