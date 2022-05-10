@@ -101,15 +101,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         />
 
         <div class="carousel-caption-branding">
-<<<<<<< HEAD
-          <div class="running-text-btl">Consultura de</div>
-          <div class="title-bold-branding hurme-bold-4">
-            BRANDING
-=======
           <div class="running-text-btl">Consultora de</div>
           <h1 class="title-bold-branding hurme-bold-4">
             BRANDING &
->>>>>>> 2a2d71bbd6bd1f15b166055ca19f587517673bd8
             <img
               width="60"
               height="60"
@@ -117,13 +111,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               src="<?php echo $directory_branding_imgs . 'title_icon.svg'; ?>"
             />
             <br />
-<<<<<<< HEAD
-           & DISEÑO
-          </div>
-=======
             DISEÑO
           </h1>
->>>>>>> 2a2d71bbd6bd1f15b166055ca19f587517673bd8
 
           <div class="text-subtitle-btl">
             Humanizamos marcas y diseñamos <br />
