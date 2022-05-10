@@ -177,6 +177,8 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 					<div class="w-100 h-50 p-1 m-0 p-md-2">
 						<img
 							src="<?php echo $path_img?>Portafolio-Artecola-8.jpg"
+							title="Marketing Digital"
+							alt="Gestión de redes sociales"
 							class="w-100 h-100"
 						/>
 					</div>
