@@ -103,7 +103,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <div class="carousel-caption-branding">
           <div class="running-text-btl">Consultura de</div>
           <div class="title-bold-branding hurme-bold-4">
-            BRANDING &
+            BRANDING
             <img
               width="60"
               height="60"
@@ -111,7 +111,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               src="<?php echo $directory_branding_imgs . 'title_icon.svg'; ?>"
             />
             <br />
-            DISEÑO
+           & DISEÑO
           </div>
 
           <div class="text-subtitle-btl">

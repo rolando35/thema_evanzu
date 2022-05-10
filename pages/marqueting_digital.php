@@ -268,7 +268,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div id="home" class="tab-pane active">
         <br />
         <div class="bg-light-gray">
-          <div class="big-title  text-red my-4 text-center">
+          <div class="big-title  text-red mt-5 pt-2 text-center">
             Publicidad Digital
           </div>
             <div class="py-2">
@@ -295,11 +295,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                           Las plataformas digitales que manejamos:
                         </div>
                         <p class="text-light-gray">
-                          . <span class="hurme-bold-4">Google Adwords</span> <i>(Búsqueda, Display, Youtube,
+                       <span class="display-4">.</span><span class="hurme-bold-4">Google Adwords</span> <i>(Búsqueda, Display, Youtube,
                           Shopping y App móviles).</i> 
                         </p>
                         <p class="text-light-gray">
-                          .
+                          <span class="display-4">.</span>
                           <span class="hurme-bold-4">Publicidad en plataformas sociales</span> <i>(Facebook,
                           Instagram, Twitter, Linkedin, TikTok, Wase, Spotify, Shazam, y
                           otros).</i> 
