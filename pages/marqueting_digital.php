@@ -93,9 +93,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		height: 25rem !important;
 	}
 }
-.line-height {
-  line-height: 1.5;
-}
 </style>
 
     <!--------------------- Button Modal --------------------->
@@ -172,7 +169,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
            <div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
                <div class="col-8 flex-colum text-left p-0">
                   <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-                  <p class="text-paragraph line-height" data-wow-delay="0.3s">MARKETING</p>
+                  <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
                   <div class="d-flex align-center">
                     <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
                     <img
@@ -273,7 +270,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <div class="bg-light-gray">
           <div class="big-title  text-red mt-5 pt-2 text-center">
             Publicidad Digital
-          </h2>
+          </div>
             <div class="py-2">
               <div class="container">
                 <div class="row justify-content-center">
@@ -294,9 +291,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                           Definimos el medio ideal de publicidad en función de tus objetivos, tu producto y el perfil de tus clientes.
                         </div>
                       
-                        <h3 class="text-red subtitle-marketing subtitle-spacing my-1">
+                        <div class="text-red subtitle-marketing subtitle-spacing my-1">
                           Las plataformas digitales que manejamos:
-                        </h3>
+                        </div>
                         <p class="text-light-gray">
                        <span class="display-4">.</span><span class="hurme-bold-4">Google Adwords</span> <i>(Búsqueda, Display, Youtube,
                           Shopping y App móviles).</i> 
@@ -364,7 +361,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!--------------------bola-Left------------------------->
 
         <div class="section-service">
-          <h2 class="big-title text-red text-center">El servicio incluye:</h2>
+          <div class="big-title text-red text-center">El servicio incluye:</div>
 
           <div class="text-center">
             <svg
@@ -488,9 +485,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <h2 class="big-title text-red my-2 text-center">
+            <div class="big-title text-red my-2 text-center">
               Gestión de Redes Sociales
-            </h2>
+            </div>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
@@ -576,7 +573,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Service----------------------------->
         <div class="section-service">
-          <h2 class="big-title text-red text-center">El servicio incluye:</h2>
+          <div class="big-title text-red text-center">El servicio incluye:</div>
 
           <div class="text-center">
             <svg
@@ -686,9 +683,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <h2 class="big-title text-red my-2 text-center">
+            <div class="big-title text-red my-2 text-center">
               Posicionamiento SEO
-            </h2>
+            </div>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
@@ -773,7 +770,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Service----------------------------->
         <div class="section-service">
-          <h2 class="big-title text-red text-center">El servicio incluye:</h2>
+          <div class="big-title text-red text-center">El servicio incluye:</div>
 
           <div class="text-center">
             <svg
@@ -917,9 +914,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <h2 class="big-title text-red my-2 text-center">
+            <div class="big-title text-red my-2 text-center">
             Growth hacking
-            </h2>
+            </div>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
@@ -967,7 +964,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Service----------------------------->
         <div class="section-service">
-          <h2 class="big-title text-red text-center">El servicio incluye:</h2>
+          <div class="big-title text-red text-center">El servicio incluye:</div>
 
           <div class="text-center">
             <svg
@@ -1088,9 +1085,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div id="menu4" class=" tab-pane fade">
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <h2 class="big-title text-red my-2 text-center">
+            <div class="big-title text-red my-2 text-center">
                Marketing de contenidos
-            </h2>
+            </div>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
@@ -1173,7 +1170,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
         <!--------------------bola-Left------------------------->
 
         <div class="section-service">
-          <h2 class="big-title text-red text-center">El servicio incluye:</h2>
+          <div class="big-title text-red text-center">El servicio incluye:</div>
 
           <div class="text-center">
             <svg
@@ -1309,7 +1306,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
   </div>
 </section>
 <section>
-  <h2 class="big-title text-red my-4 text-center">PORTAFOLIO</h2>
+  <div class="big-title text-red my-4 text-center">PORTAFOLIO</div>
   <div>
     <div>
       <?php get_template_part('components/masonry-marketing'); ?>
