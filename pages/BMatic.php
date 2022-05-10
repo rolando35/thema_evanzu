@@ -46,7 +46,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 			</div>
 			<div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
-					BMatic ayuda a las empresas a gestionar las colas y así evitando la acumulación de personas. Un gestor de colas intuitivo y de fácil uso.
+					BMatic ofrece una solución fácil e intuitiva para la gestión de colas en las empresas y así evitar la acumulación de personas.
 				</div>
 			</div>
 		</div>
@@ -62,7 +62,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
             </h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Diseñamos un simbolo para posicionar la marca, con unos colores vibrantes que resalten a la marca.
+				Diseñamos un simbolo para posicionar la marca, con unos colores vibrantes que resaltan la marca.
 			</p>
 		</div>
 		<!---------------title--------------->
@@ -81,7 +81,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 				<img src="<?php echo $path_img?>Bmatic-despues-a.jpg" title="Nuevo logo de BMatic" alt="Nuevo logo de BMatic" class="w-100 h-100" />
 			</div>                        
 			<div class="col-12 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Manual-BMatic-Evanzu.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Manual-BMatic-Evanzu.jpg" title="Branding" alt="Diseño de logo" class="w-100 h-100" />
 			</div>
         </div>
         <!---------------images-------------->
@@ -94,7 +94,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
             </h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Diseñamos la experiencia de usuario optimo con un diseño atráctivo que permita captar leads, realizamos la programación de su web para estar optimo y amigable con Google.
+				Diseñamos la experiencia de usuario de la web y app con un diseño atráctivo que permite captar leads. Además, desarrollamos su página web teniendo en cuenta características óptimas para el posicionamiento SEO.
 			</p>
 		</div>
 		<!---------------title--------------->
@@ -135,7 +135,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
                 <div class="video-responsive">
                     <iframe
                     height="215"
-                    src="https://www.youtube.com/embed/zpq6oje5FsA?controls=0"
+                    src="https://www.youtube.com/embed/v62wUTt9P6o"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

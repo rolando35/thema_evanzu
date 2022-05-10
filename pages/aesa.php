@@ -47,9 +47,7 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 			</div>
 			<div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
-					Aesa, una empresa especializada en el servicio de exploración,
-					desarrollo, explotación de yacimiento mineros y gestión de operaciones
-					mineras, pertenece al grupo Breca.
+					Es una empresa especializada en el servicio de exploración, desarrollo y explotación de yacimientos mineros. Pertenece al grupo Breca.
 				</div>
 			</div>
 		</div>
@@ -210,14 +208,15 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 		<div class="row justify-content-center">
 			<div class="col-md-10">
 				<div class="video-responsive">
-					<iframe
-						height="215"
-						src="https://www.youtube.com/embed/zpq6oje5FsA?controls=0"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
+
+                    <iframe
+                    height="215"
+                    src="https://www.youtube.com/embed/v62wUTt9P6o"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    ></iframe>
 				</div>
 			</div>
 		</div>
@@ -230,8 +229,7 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 			</h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Creamos las piezas gráficas que cumplan con los objetivos y con
-				coherencia gráfica al público y comunicación.
+				Creamos piezas gráficas que cumplieron con los objetivos establecidos por la marca.
 			</p>
 		</div>
 		<!---------------title--------------->
