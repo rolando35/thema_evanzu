@@ -1332,16 +1332,16 @@ html {
 }
 
 .ndx {
-  z-index: 1;
-  display: flex;
-  justify-content: end;
-  align-items: center;
+	z-index: 1;
+	display: flex;
+	justify-content: end;
+	align-items: center;
 }
 .texto-vertical {
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  position: absolute;
-  margin: 0;
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	position: absolute;
+	margin: 0;
 }
 
 body {

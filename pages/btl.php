@@ -167,7 +167,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">BTL y Activaciones</div>
+						<h2 class="big-title text-red my-2 text-center">BTL y Activaciones</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -253,7 +253,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -338,7 +338,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!------------------Game-------------------->
 				<section style="margin-top: 2rem" class="text-center">
 					<!------------title-------------->
-					<div class="big-title text-red text-center">Juegos BTL:</div>
+					<h3 class="big-title text-red text-center">Juegos BTL:</h3>
 					<!------------title-------------->
 
 					<!-------------line--------------->
@@ -492,7 +492,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Eventos</div>
+						<h2 class="big-title text-red my-2 text-center">Eventos</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -573,7 +573,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -727,7 +727,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Relaciones Públicas</div>
+						<h2 class="big-title text-red my-2 text-center">Relaciones Públicas</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -808,7 +808,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -898,7 +898,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Fuerza de ventas</div>
+						<h2 class="big-title text-red my-2 text-center">Fuerza de ventas</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -979,7 +979,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1090,7 +1090,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Anfitrionaje</div>
+						<h2 class="big-title text-red my-2 text-center">Anfitrionaje</h2>
 						<!-------------------Card---------------------->
 						<div class="pt-2 pb-5">
 							<div class="container">
@@ -1139,7 +1139,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
 				<!-----------------------Service----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h3 class="big-title text-red text-center">El servicio incluye:</h3>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">

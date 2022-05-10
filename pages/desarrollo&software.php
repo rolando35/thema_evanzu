@@ -199,7 +199,7 @@ ul {
 	<div class="bg-white">
 		<!-------------------nav-------------------->
 		<div class="group-nav">
-			<ul class="nav nav-pills justify-content-center mt-4 mt-lg-0" id="nav-iconos" role="tablist">
+			<ul class="nav nav-pills justify-content-center" id="nav-iconos" role="tablist">
 				<?php foreach (
         [
             [
