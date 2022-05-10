@@ -142,7 +142,8 @@ ul {
 			<div class="carousel-item active">
 				<img
 					src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/banner.png"
-					alt="Los Angeles"
+					title="Desarrollo de Software y App móviles"
+					alt="Computadora con una web"
           class="w-100 h-100"
 				/>
 				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
@@ -152,6 +153,7 @@ ul {
             <div class="d-flex align-center">
               <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">SOFTWARE</p>
               <img
+								alt="title icon"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/title-icon.svg"
 								/>
             </div>
@@ -245,8 +247,9 @@ ul {
 									</div>
 									<div class="col-md-10 col-lg-6">
 										<img
-											src="<?php echo $path_software; ?>tiendas-virtuales.png"
-											alt=""
+											src="<?php echo $path_software; ?>Ilustración tienda virtual.png"
+											title="Servicio de tienda virtual Evanzu"
+											alt="tienda virtual adaptable"
 											class="img-fluid"
 										/>
 									</div>
@@ -310,7 +313,12 @@ ul {
 						</div>
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -10rem;'>
-              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-incluye.png">
+              <img
+								class=""
+								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Ilutración tienda virtual.png"
+								title="Servicio de tienda virtual Evanzu"
+								alt="Ecommerce de una tienda"
+							>
           </div>
 				</div>
 				<!-----------------------Service component tab1----------------------------->
@@ -350,8 +358,9 @@ ul {
 								<div class="row flex-column-reverse flex-lg-row justify-content-center align-items-center">
 									<div class="col-md-10 col-lg-5 py-2 text-center">
 										<img
-											src="<?php echo $path_software; ?>Web-ilustración 2.png"
-											alt=""
+											src="<?php echo $path_software; ?>Páginas web evanzu.png"
+											title="Servicio de páginas web"
+											alt="imac con un web"
 											class="img-fluid"
 										/>
 									</div>
@@ -450,7 +459,12 @@ ul {
 						</div>
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -4rem;'>
-              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/SERVICIO-web-imagen-2 1.png">
+              <img
+								class=""
+								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Páginas web evanzu en laptop.png"
+								title="Desarrollo de páginas web"
+								alt="Desarrollo de páginas web EVANZU"
+						>
           </div>
 				</div>
 				<!-----------------------Service component tab2----------------------------->
@@ -522,8 +536,9 @@ ul {
 								</div>
 								<div class="col-md-10 col-lg-6">
 									<img
-										src="<?php echo $path_software; ?>web-administrable.svg"
-										alt=""
+										src="<?php echo $path_software; ?>Ilustración de un buscador.svg"
+										title="web administrable"
+										alt="Ilustración de un hombre buscando una web"
 										class="img-fluid img-float-event"
 									/>
 								</div>
@@ -568,8 +583,9 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 									</div>
 									<div class="col-md-10 col-lg-6 text-center mb-3 mb-md-0">
 										<img
-											src="<?php echo $path_software; ?>Appss-ilustración.png"
-											alt=""
+											src="<?php echo $path_software; ?>App móbiles desarrollo.png"
+											title="Desarrollo de aplicaciones móviles"
+											alt="Partes de una aplicación móvil"
 											class="img-fluid"
 										/>
 									</div>
@@ -639,7 +655,12 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 						</div>
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/servicio-imagen.png">
+              <img
+								class=""
+								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Ilustración app móviles.png"
+								title="Servicio de desarrollo de app móviles"
+								alt="Ilustración del proceso de desarrollo"
+								>
           </div>
 				</div>
 				<!-----------------------Service component tab3----------------------------->	
@@ -708,8 +729,9 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 								<div class="row justify-content-center">
 								<div class="col-md-10 col-lg-6">
 										<img
-											src="<?php echo $path_software; ?>software-medida.png"
-											alt="Imagen de software a medida"
+											src="<?php echo $path_software; ?>Lenguajes para desarrollo de software a medida.png"
+											title="Lenguajes de desarrollo"
+											alt="Lenguajes para el desarrollo de software"
 											class="img-fluid"
 										/>
 									</div>
@@ -801,7 +823,12 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 						</div>
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/software-medida-icon.png">
+              <img
+								class=""
+								title="Servicio de dessarrollo de software a medida"
+								alt="Desarrollo de software en equipo"
+								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Desarrollo de software a medida1.png"
+							>
           </div>
 				</div>
 				<!-----------------------Service component tab4----------------------------->
@@ -850,8 +877,9 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 							<div class="row justify-content-center d-flex flex-column-reverse flex-lg-row">
 								<div class="col-md-10 col-lg-6">
 										<img
-											src="<?php echo $path_software; ?>ilustración-UX-UI 2.png"
-											alt=""
+											src="<?php echo $path_software; ?>Desarrollo de software a medida.png"
+											title="Servicio de dessarrollo de software a medida"
+											alt="Desarrollo de software en equipo"
 											class="img-fluid"
 										/>
 									</div>
@@ -936,7 +964,11 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 						</div>
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/UX-UI-imagen.png">
+              <img
+								class=""
+								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Servicio de diseño de experiencia evanzu.png"
+								title="Wireframes para el diseño de experiencia"
+								alt="Pantallas de un diseño de interface">
           </div>
 				</div>
 				<!-----------------------Service component tab6----------------------------->	

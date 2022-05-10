@@ -31,6 +31,14 @@ Template Name: Home
         justify-content: center;
     }
 
+    .size-18{
+        font-size: 18px;
+    }
+
+    .line-height {
+        line-height: 0.5;
+    }
+
     @media only screen and (max-width: 440px) {
         .image-sup {
         margin-top: -5rem;
@@ -49,6 +57,10 @@ Template Name: Home
         font-size: 12px;
         font-weight: 300;
         margin-left: 10px;
+    }
+
+    .size-25 {
+        font-size: 25px;
     }
 </style>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/carrusell-train.css" type="text/css">
@@ -93,13 +105,15 @@ Template Name: Home
                 <div class="col-sm-6">
                     <div class="my-5">
                         <div class="text-white running-text">Agencia de</div>
-                        <div class="text-yellow text-left-contain-first hurme-simple">MARKETING</div>
-                        <div class="text-white  text-left-contain-first hurme-simple">Y PUBLICIDAD</div>
-                        <div class="medium-subtitle-first"> <span class="text-white ">GRANDES IDEAS</span>
-                            <span class="text-yellow">PARA GRANDES RESULTADOS</span> </div>
-                        <div class="text-white">
+                        <h1 class="text-yellow text-left-contain-first hurme-simple">MARKETING <br> <span class="text-white">Y PUBLICIDAD</span></h1>
+                        <!-- <div class="text-white  text-left-contain-first hurme-simple"></div> -->
+                        <h2 class="medium-subtitle-first">
+                            <span class="text-white ">GRANDES IDEAS</span>
+                            <span class="text-yellow">PARA GRANDES RESULTADOS</span>
+                        </h2>
+                        <h2 class="text-white size-18">
                             en marketing digital, branding & diseño, producción audiovisual, BTL & comunicación y desarrollo de software.
-                        </div>
+                        </h2>
                         <div>
                             <svg width="250" height="10" viewBox="0 0 250 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M244.747 9.28C242.187 9.28 240.107 7.20001 240.107 4.64001C240.107 2.08001 242.187 0 244.747 0C247.307 0 249.387 2.08001 249.387 4.64001C249.387 7.20001 247.307 9.28 244.747 9.28Z" fill="white" />
@@ -518,9 +532,10 @@ Template Name: Home
                 <path d="M5.51199 24.4849L2.75598 21.7289L0 24.4849L2.75598 27.2409L5.51199 24.4849ZM2.75598 22.7249L4.51596 24.4849L2.75598 26.2449L0.996029 24.4849L2.75598 22.7249Z" fill="#ED1164" />
                 <path d="M5.51199 2.75601L2.75598 0L0 2.75601L2.75598 5.51201L5.51199 2.75601ZM2.75598 0.986364L4.51596 2.74634L2.75598 4.50631L0.996029 2.74634L2.75598 0.986364Z" fill="#ED1164" />
             </svg>
-            <div class="big-title text-red my-4">
+            <h2 class="big-title text-red my-4 mb-0 line-height">
                 NUESTROS CLIENTES
-            </div>
+            </h2>
+            <p class="text-red hurme-bold-4 size-25">El mejor MATCH</p>
             <!-------------------- Clients -------------------->
             <section class="pb-4 pt-5">
                
@@ -2233,7 +2248,9 @@ Template Name: Home
          <img class="my-5" src="<?php echo get_template_directory_uri() ?>/assets/images/icono-upper-stop.svg">
         </div>
         <div class="text-center big-title">
-            Team Evanzu next
+            <h2>
+                Team Evanzu next
+            </h2>
         </div>
         <div class="row mx-5 px-5">
             <div class="col-sm-6 p-5 mt-5">
@@ -2432,7 +2449,7 @@ Template Name: Home
 <section>       
 <div class="mt-5 text-center">
  
-  <span  class="big-title text-red">¿Cómo lo hacemos?</span>
+  <h2  class="big-title text-red">¿Cómo lo hacemos?</h2>
       <!-- <p>Estamos comprometidos a ofrecer resultados 
     <br>excepcionales y medibles</p>  -->
 </div>

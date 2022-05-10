@@ -14,6 +14,10 @@ header,
   height: 100%;
 }
 
+ul{
+  line-height: 1.5;
+}
+
 @media (max-width: 740px) {
   html,
   body,
@@ -204,8 +208,8 @@ h5 {
 				/>
 				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
         <div class="col-8 flex-colum text-left p-0 mt-5 mt-sm-1 mt-md-0 mt-lg-5">
-        <h1 class="develop-title" data-wow-delay="0.3s">Genera impacto</h1>
-        <p class="text-paragraph text-uppercase" data-wow-delay="0.3s">Audio</p>
+        <p class="develop-title" data-wow-delay="0.3s">Genera impacto</p>
+        <h1 class="text-paragraph text-uppercase" data-wow-delay="0.3s">Audio</h1>
         <div class='d-flex align-center'>
             <p class="text-paragraph2 text-uppercase mr-2">visual</p>
             <svg width="58" height="64" viewBox="0 0 58 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -277,9 +281,9 @@ h5 {
 		<div id="home" class="tab-pane active">
 			<br>
       <div class="bg-light-gray py-5">
-        <div class="big-title text-red my-4 text-center">
+        <h2 class="big-title text-red my-4 text-center">
         Spots & Videos
-        </div>
+        </h2>
         <div class="container">
           <div class="row d-flex justify-content-center">
             <div class="col-sm-6">
@@ -294,11 +298,19 @@ h5 {
                 Muestra tus proyectos en múltiples plataformas (TV, redes sociales, sitios web) con <span class="hurme-bold-4">piezas audiovisuales que despierten el interés y generen conexión </span> con tu público objetivo.
               </p>
               <div class='text-center w-100'>
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 275.png" alt="Cámara fotográfica">
+                  <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 275.png"
+                    title="Servicio de Spots & Videos "
+                    alt="Computadoras con imagenes de edición de videos"
+                  >
               </div>
             </div>
             <div class="col-sm-6 d-flex flex-column-reverse flex-sm-column">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 585.png" alt="Cámara fotográfica">
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Group 585.png"
+                title="Equipo cámara y claqueta de video"
+                alt="Cámara de video 4K Full, ultra HD con claqueta de video "
+              >
               <p class="text-justify py-4">
                   Es una solución ideal para promocionar lanzamientos, marcas, productos, servicios, instalaciones, herramientas, procesos, tutoriales y más.
                   Contamos con equipo para todo tipo de tomas: luces, cámaras de video 4K Full y ultra HD, drones y GoPro.
@@ -317,7 +329,7 @@ h5 {
       ?>
       <!-------------------- services tab1 -------------------->
 			<div class="section-service">
-				<div class="big-title text-red text-center">El servicio incluye:</div>
+				<h2 class="big-title text-red text-center">El servicio incluye:</h2>
 
 				<div class="text-center">
 					<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -392,7 +404,12 @@ h5 {
 					</div>
 				</div>
         <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-            <img  class="" src="<?php echo $directory_imgs."como lo hacemos.png" ?>">
+            <img
+              class=""
+              title="Herramientas de Audio Visuales"
+              alt="Ilustración de Herramientas para el servicio de Audio Visuales"
+              src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Ilustración Servicio de Audio Visuales.png"
+            >
         </div>
 			</div>
 
@@ -429,13 +446,16 @@ h5 {
 				<!-----------------------Contact----------------------------->
       </div>
 
-      <div class="bg-white big-title text-center text-red">Ofrecemos</div>
+      <h2 class="bg-white big-title text-center text-red">Ofrecemos</h2>
       <div class='py-5 my-5 pl-5'>
         <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
         </div>
         <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 01.png" alt="Ofrecemos imagen 1">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Desarrollo de proyectos audiovisuales.png" 
+              title="Proyectos audiovisuales"
+              alt="Spots publicitarios para medios masivos ">
             <div>
                 <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>
                   Proyectos audiovisuales
@@ -466,7 +486,10 @@ h5 {
                         Cubrimos producciones corporativas, eventos sociales, edificios, paisajes, escenarios, y más.
                     </p>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 02 1.png" alt="Ofrecemos imagen 1">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Servicio de Filmación aérea con drone.png"
+                  title="Servicio de Filmación aérea"
+                  alt="Laptop con imagen de una fotografía tomada con un drone">
             </div>
       </div>
       <div class='py-5 my-5 pl-5'>
@@ -474,7 +497,10 @@ h5 {
               <div class='w-90 bg-fa' style='height: 16rem'></div>
         </div>
         <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos 03 1.png" alt="Ofrecemos imagen 1">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Servicio de Desarrollo de storyline y storyboard.png"
+              title="Servicio de Desarrollo de guiones"
+              alt="Laptop con imagenes de sopt publicitario y storyboard de agentes BBVA">
             <div class="mt-5">
                 <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>
                   Desarrollo de guiones
@@ -491,7 +517,7 @@ h5 {
       </div>
       <!-- PORTAFOLIO -->
       <section class="mb-5">
-        <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
+        <h2 class="bg-white big-title text-center text-red">PORTAFOLIO</h2>                 
         <?php echo get_template_part(
           'components/video-galery',
           'full',
@@ -509,9 +535,9 @@ h5 {
             <div id="menu1" class="tab-pane fade"><br>
             <div style='margin-top: 3.4rem' class="tab-content">
                <div class="bg-light-gray py-5">
-                <div class="big-title text-red my-4 text-center">
+                <h2 class="big-title text-red my-4 text-center">
                 Animación 2D
-                </div>
+                </h2>
                 <div class="container">
                     <div class="column col-12 d-lg-flex align-items-center">
                     <div class="col-sm-12 col-lg-6 ">
@@ -547,7 +573,7 @@ h5 {
                 <div >
       <!-----------------------Service component tab2----------------------------->
         <div class="section-service">
-					<div class="big-title text-red text-center">¿Cómo lo hacemos?</div>
+					<h2 class="big-title text-red text-center">¿Cómo lo hacemos?</h2>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -656,7 +682,7 @@ h5 {
                     </div>
                       <div class='w-100 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -18rem'>
                           <div class="col-sm-12 col-lg-6 ">
-                              <p class='text-red' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
+                              <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
                                 <ul style="line-height: 1.5;">
                                     <li>Video-tutoriales.</li>
                                     <li>Presentación de productos o servicios.</li>
@@ -665,7 +691,10 @@ h5 {
                                 </ul>
                           </div>
                           <div class="col-sm-12 col-lg-6 ">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png" alt="Ofrecemos imagen 1">
+                            <img
+                              src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png"
+                              title="Poryectos de Animación 2D"
+                              alt="Computadoras con diferentes animaciones en 2D">
                           </div>
                       </div>
                </div>
@@ -673,7 +702,7 @@ h5 {
                
                <!-- PORTAFOLIO -->
                 <section>
-                        <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
+                        <h2 class="bg-white big-title text-center text-red">PORTAFOLIO</h2>                 
                             <?php echo get_template_part(
                                 'components/video-galery-animacion2d',
                                 'full',
@@ -691,9 +720,9 @@ h5 {
             <!-- TAB - 3 -->
             <div id="menu2" class="tab-pane fade"><br>
               <div class="bg-light-gray py-5">
-                <div class="big-title text-red my-4 text-center">
-                Fotografía Profesional
-                </div>
+                <h2 class="big-title text-red my-4 text-center">
+                  Fotografía Profesional
+                </h2>
                 <div class="container">
                     <div class="row">
                     <div class="col-sm-12 col-lg-6">
@@ -709,7 +738,11 @@ h5 {
             </p>
             </div>
                   <div class="col-sm-12 col-lg-6">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/fotografia-profesional.png" alt="Cámara fotográfica">
+                  <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Servicio de Fotografía Profesional de alta calidad.png"
+                    alt="Cámara fotografíca y accesorios con iconos de fotografía"
+                    title="Servicio de Fotografía Profesional"
+                  >
                   </div>
                     </div>
                 </div>
@@ -725,7 +758,7 @@ h5 {
                 
         <!-----------------------Service component tab3----------------------------->
         <div class="section-service">
-					<div class="big-title text-red text-center">Nuestras Herramientas</div>
+					<h2 class="big-title text-red text-center">Nuestras Herramientas</h2>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -790,7 +823,6 @@ h5 {
               <img
                 class=""
                 title="Herramientas de Audio Visuales"
-                alt="Ilustración de Herramientas para el servicio de Audio Visuales"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Ilustración Servicio de Audio Visuales.png">
           </div>
 				</div>
@@ -830,10 +862,10 @@ h5 {
                    <div class='w-100 d-flex justify-content-center position-relative' style='height: 12.1rem' >
                         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
                     </div>
-                      <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center mt-md-5' style='margin-top: -20rem'>
-                          <div>
+                      <div class='w-90 d-flex justify-content-around flex-wrap align-items-center position-relative' style='margin-top: -20rem'>
+                          <div class="mt-md-5">
                               <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>Desarrollamos estos proyectos:</p>
-                               <ul class="line-height: 1.5 !important;">
+                               <ul>
                                  <li>Fotografía Publicitaria en Estudio o Locación.</li>
                                  <li>Fotografía Institucional y corporativa.</li>
                                  <li>Fotografía para Campañas y Eventos.</li>
@@ -842,14 +874,19 @@ h5 {
                                  <li>Fotografías de productos para tiendas virtuales.</li>
                                </ul>
                           </div>
-                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/desarrollo-proyectos.png" alt="Desarrollo imagen">
+                          <img
+                            class="mt-5"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Desarrollo de proyectos de fotografía profesionales.png"
+                            alt="Desarrollo de proyectos de fotografía profesionales para deferentes marcas"
+                            title="Desarrollo de proyectos fotografícos"
+                          >
                       </div>
                </div>
                
                
                <!-- PORTAFOLIO -->
                <section>
-                       <div class="bg-white big-title text-center text-red">PORTAFOLIO</div>                 
+                       <h2 class="bg-white big-title text-center text-red">PORTAFOLIO</h2>                 
                            <?php echo get_template_part('components/masonry-audio-visual'); ?>
                  </section>
             </div>
