@@ -28,7 +28,11 @@
                         <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>TDT</p>
                       </div>
                       <!-- Texts hover -->
-                        <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("audiovisual")["galleri-image-three-audiovisual"]; ?>">
+                        <img
+                          class="responsive-masonry-image hover-masonry-image"
+                          title="Fotografía de activación de TDT"
+                          alt="Fotografía Profesional de la  Activacion de Televisión Digital Terrestre del Ministerio de transporte"
+                          src="<?php echo get_option("audiovisual")["galleri-image-three-audiovisual"]; ?>">
                       </div>  
             </div>
             <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
@@ -38,7 +42,11 @@
                 <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Agentes BBVA</p>
               </div>
               <!-- Texts hover -->
-              <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("audiovisual")["galleri-image-four-audiovisual"]; ?>">
+              <img
+                class="responsive-masonry-image hover-masonry-image"
+                title="Fotografía de activación Agentes BBVA"
+                alt="Fotografía Profesional de la  Activacion La Ruta del Verano Agentes BBVA"
+                src="<?php echo get_option("audiovisual")["galleri-image-four-audiovisual"]; ?>">
             </div>
       </div>
 
@@ -50,7 +58,12 @@
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Aesa</p>
           </div>
           <!-- Texts hover -->
-          <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("audiovisual")["galleri-image-five-audiovisual"]; ?>">
+          <img
+            class="responsive-masonry-image hover-masonry-image"
+            src="<?php echo get_option("audiovisual")["galleri-image-five-audiovisual"]; ?>"
+            title="Fotografía de Evento AESA"
+            alt="Fotografías Profesionales de Evento de la marca minera AESA"
+          >
         </div>
         <div class="d-md-flex justify-content-center flex-md-row">
           <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
@@ -72,7 +85,11 @@
                   <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Yakufarma</p>
                 </div>
                 <!-- Texts hover -->
-                <img class="responsive-masonry-image hover-masonry-image mb-3" src="<?php echo get_option("audiovisual")["galleri-image-seven-audiovisual"]; ?>">
+                <img
+                  class="responsive-masonry-image hover-masonry-image mb-3"
+                  title="Fotografía de producto ARTECOLA"
+                  alt="Fotografías Profesionales de Producto para la marca ARTECOLA"
+                  src="<?php echo get_option("audiovisual")["galleri-image-seven-audiovisual"]; ?>">
               </div>
                 <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
                 <!-- Texts hover -->
@@ -81,7 +98,12 @@
                   <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Agente BBVA</p>
                 </div>
                 <!-- Texts hover -->
-                  <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("audiovisual")["galleri-image-eight-audiovisual"]; ?>">
+                  <img
+                    class="responsive-masonry-image hover-masonry-image"
+                    src="<?php echo get_option("audiovisual")["galleri-image-eight-audiovisual"]; ?>"
+                    title="Fotografía de Campaña Agentes BBVA"
+                    alt="Fotografía Profesional de la Activacion Campaña navideña Agentes BBVA"
+                  >
                 </div>
           </div>  
         </div>

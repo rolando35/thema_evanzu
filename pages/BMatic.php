@@ -102,15 +102,15 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>web-bmatic-portafolio.jpg" title="" alt="" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>web-BMatic-portafolio.jpg" title="Diseño de página web BMatic" alt="Diseño y programación web de  la web de BMatic" class="w-100 h-100" />
 			</div>
 			<div class="col-md-6 p-0 m-0">
                 <div class="d-flex flex-column h-100 w-100">
                     <div class="w-100 h-50 p-1 m-0 p-md-2">
-                        <img src="<?php echo $path_img?>app-bmatic-portafolio.jpg" class="w-100 h-100" />
+                        <img src="<?php echo $path_img?>app-bmatic-portafolio.jpg" title="UI de la web app de bmatic" alt="Iphone con pantallas de la webapp de BMatic" class="w-100 h-100" />
                     </div>                        
                     <div class="w-100 h-50 p-1 m-0 p-md-2">
-                        <img src="<?php echo $path_img?>Web-planes-BMatic.jpg" class="w-100 h-100" />
+                        <img src="<?php echo $path_img?>Web-planes-BMatic.jpg" title="Web BMatic" alt="Pllanes y tarifas de BMatic" class="w-100 h-100" />
                     </div>
                 </div>
 			</div>
@@ -162,13 +162,13 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-12 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>redes-sociales.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>redes-sociales.jpg" title="Diseño de post para facebook BMatic" alt="tres post para facebook de MaticB" class="w-100 h-100" />
 			</div>
             <div class="col-8 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Redes-BMatic-A.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Redes-BMatic-A.jpg" title="Diseño para redes sociales bMatic" alt="Colas de diseño de BMatic para Facebook" class="w-100 h-100" />
 			</div>
             <div class="col-4 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Redes-BMatic.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Redes-BMatic.jpg" title="Diseño para redes sociales BMatic" alt="Diseño para redes sociales BMatic" class="w-100 h-100" />
 			</div>
         </div>
         <!---------------images-------------->
@@ -189,10 +189,10 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Adwords-BMatic.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Adwords-BMatic.jpg" title="Adwords BMatic" alt="Diseño para Adwords BMatic" class="w-100 h-100" />
 			</div>
             <div class="col-6 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Adwords-BMatic-2.jpg" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Adwords-BMatic-2.jpg" title="Adwords web BMatic" alt="Diseño de banner web para Adwords BMatic" class="w-100 h-100" />
 			</div>
         </div>
         <!---------------images-------------->

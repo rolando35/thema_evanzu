@@ -101,9 +101,15 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         />
 
         <div class="carousel-caption-branding">
+<<<<<<< HEAD
           <div class="running-text-btl">Consultura de</div>
           <div class="title-bold-branding hurme-bold-4">
             BRANDING
+=======
+          <div class="running-text-btl">Consultora de</div>
+          <h1 class="title-bold-branding hurme-bold-4">
+            BRANDING &
+>>>>>>> 2a2d71bbd6bd1f15b166055ca19f587517673bd8
             <img
               width="60"
               height="60"
@@ -111,8 +117,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               src="<?php echo $directory_branding_imgs . 'title_icon.svg'; ?>"
             />
             <br />
+<<<<<<< HEAD
            & DISEÑO
           </div>
+=======
+            DISEÑO
+          </h1>
+>>>>>>> 2a2d71bbd6bd1f15b166055ca19f587517673bd8
 
           <div class="text-subtitle-btl">
             Humanizamos marcas y diseñamos <br />
@@ -196,7 +207,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div id="home" class="tab-pane active">
         <br />
         <div class="bg-light-gray">
-          <div class="big-title text-red my-5 text-center">Logo & Branding</div>
+          <h2 class="big-title text-red my-5 text-center">Logo & Branding</h2>
           <div class="container">
              <div class="py-2">
               <div class="container">
@@ -259,7 +270,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
 
   <!----------------------------- services tab 1 ----------------------------->
-        <div class="big-title text-red text-center">Ofrecemos:</div>
+        <h2 class="big-title text-red text-center">Ofrecemos:</h2>
           <div class="text-center">
             <svg
               width="80"
@@ -391,9 +402,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <div class="big-title text-red my-2 text-center">
+            <h2 class="big-title text-red my-2 text-center">
               Diseño Publicitario
-            </div>
+            </h2>
             <!-------------------Card---------------------->
           <div class="container">
             <div class="py-2">
@@ -471,7 +482,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Service----------------------------->
         <div class="section-service">
-          <div class="big-title text-red text-center">El servicio incluye:</div>
+          <h2 class="big-title text-red text-center">El servicio incluye:</h2>
 
           <div class="text-center">
             <svg
@@ -611,9 +622,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <div class="big-title text-red my-2 text-center">
+            <h2 class="big-title text-red my-2 text-center">
             Merchandising & Impresos
-            </div>
+            </h2>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
@@ -659,7 +670,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-------------------- services tab1 -------------------->
 			<div class="section-service">
-				<div class="big-title text-red text-center">Ofrecemos:</div>
+				<h2 class="big-title text-red text-center">Ofrecemos:</h2>
 
 				<div class="text-center">
 					<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -674,7 +685,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'image' => $directory_branding_imgs . 'ofrecemos1.png',
                     'text' => '
                       <div class="long-content">
-                        <span class="hurme-bold-4 mb-3">Merchandising</span class="hurme-bold-4 mb-3">
+                        <span class="hurme-bold-4 mb-3">Merchandising</span>
                         <p>
                         Logra que las personas descubran, reconozcan y difundan tu marca con artículos como: Gorras, polos, lapiceros, tazas, Soleras, llaveros, pines, tomados y mucho más.
                         </p>
@@ -778,9 +789,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <div class="big-title text-red my-2 text-center">
+            <h2 class="big-title text-red my-2 text-center">
               Ilustración digital
-            </div>
+            </h2>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
@@ -831,7 +842,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!-----------------------Service component tab5----------------------------->
 				<div class="section-service">
           <div class="w-100 d-flex justify-content-center">
-            <div class="big-title text-red text-center title-width">Ofrecemos ilustración digital para:</div>
+            <h2 class="big-title text-red text-center title-width">Ofrecemos ilustración digital para:</h2>
           </div>
 
 					<div class="text-center">
@@ -884,7 +895,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           </div>
           <div>
           <div class="" style="background: #f7f7f7; padding: 2rem 0;">
-            <h2 class="how text-center">¿Cómo lo hacemos?</h2>
+            <h3 class="how text-center hurme-bold-4">¿Cómo lo hacemos?</h3>
             <!------------------Game-------------------->
         		<section style="margin-top: 2rem" class="text-center">
 
@@ -945,9 +956,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <div class="big-title text-red my-2 text-center">
+            <h2 class="big-title text-red my-2 text-center">
               Diseño UX & UI
-            </div>
+            </h2>
             <!-------------------Card---------------------->
             <div class="py-2">
               <div class="container">
@@ -1036,7 +1047,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Service component tab5----------------------------->
 				<div class="section-service">
-					<div class="big-title text-red text-center">El servicio incluye:</div>
+					<h2 class="big-title text-red text-center">El servicio incluye:</h2>
 
 					<div class="text-center">
 						<svg width="80" height="4" viewBox="0 0 80 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1123,7 +1134,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
   </div>
 </section>
 <section>
-  <div class="big-title text-red my-4 text-center">PORTAFOLIO</div>
+  <h2 class="big-title text-red my-4 text-center">PORTAFOLIO</h2>
   <div>
     <div>
       <?php get_template_part('components/masonry-diseño'); ?>
