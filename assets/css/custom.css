@@ -493,6 +493,7 @@
 	border-radius: 50%;
 	background: white;
 }
+
 .container-fluid {
 	position: relative;
 	display: inline-block;
@@ -506,6 +507,7 @@
 #heading {
 	font-weight: 700;
 }
+
 #heading2 {
 	font-weight: 700;
 }
@@ -550,6 +552,12 @@
 	font-weight: 400;
 	line-height: 16px;
 	letter-spacing: 0em;
+}
+
+.button-form-in-pages {
+	right: 5%;
+	z-index: 100;
+	top: 15%;
 }
 
 #lef-ultimate-box {
@@ -712,7 +720,7 @@
 }
 
 .li-circle {
-	width: 130px;
+	width: 9.375rem;
 }
 
 .input-non-border {
@@ -1329,6 +1337,19 @@
 html {
 	font-size: 1rem;
 	scroll-behavior: smooth;
+}
+
+.ndx {
+	z-index: 1;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.texto-vertical {
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	position: absolute;
+	margin: 0;
 }
 
 body {

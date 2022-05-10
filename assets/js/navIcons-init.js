@@ -34,11 +34,12 @@ if (nav) {
 	}
 }
 
-let btnMain = document.getElementById('btn-main');
-if (btnMain) {
-	btnMain.addEventListener('click', function (e) {
+function ButtonRedirectForm() {
+	try {
 		let linkCircle = document.querySelector('.link-circle.active');
 		let ref = linkCircle.href.split('#')[1];
 		document.getElementById(ref + 'Website').focus();
-	});
+	} catch (error) {
+		console.log(error);
+	}
 }

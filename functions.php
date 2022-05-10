@@ -330,7 +330,7 @@ if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado 
 else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 }
 
-
+//////////// add action class menu/////
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
 function special_nav_class ($classes, $item) {
@@ -338,6 +338,39 @@ function special_nav_class ($classes, $item) {
     $classes[] = 'active ';
   }
   return $classes;
+}
+//////////get alt and title with the name edit image"/////////
+
+add_action( 'add_attachment', 'dgv_imagenes_meta' );
+function dgv_imagenes_meta( $post_ID ) {
+
+	// Comprobar si el archivo subido es una imagen
+
+	if ( wp_attachment_is_image( $post_ID ) ) {
+
+		$my_image_title = get_post( $post_ID )->post_title;
+
+		// Limpiar título: quitar guiones, barras bajas, espacios, etc:
+		$my_image_title = preg_replace( '%\s*[-_\s]+\s*%', ' ',  $my_image_title );
+
+		// Capitalizar la primera letra de cada palabra (eliminar o comentar la líne de debajo si no queremos esa función):
+		$my_image_title = ucwords( strtolower( $my_image_title ) );
+
+		// Crear un array con las meta etiquetas de la imagen (Título, Descripción y Leyenda)
+		// Nota: comenta o descomenta las líneas que no necesites
+		$my_image_meta = array(
+			'ID'		=> $post_ID,
+			'post_title'	=> $my_image_title,		// Aplicamos los cambios definidos para limpiar el título
+			//'post_excerpt'	=> $my_image_title,		// Aplicamos el título en el campo de leyenda
+			//'post_content'	=> $my_image_title,		// Aplicamos el título en el campo de descripción
+		);
+
+		// Definimos el título en la etiqueta Alt
+		update_post_meta( $post_ID, '_wp_attachment_image_alt', $my_image_title );
+
+		// Definimos el título en las etiquetas Title, Excerpt, Content.
+		wp_update_post( $my_image_meta );
+	}
 }
 
 ?>
