@@ -465,6 +465,14 @@ Template Name: Home
                         <div class="container-fluid">
                             <div id="carousel-logos" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner row w-100 mx-auto" role="listbox">
+
+                                  <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <a  href="https://indriver.com/es/city">
+                                        <img class="w-50" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>indriver.svg" class="img-fluid mx-auto d-block" alt="Indriver">
+                                        </a>
+                                    </div>
+
+
                                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
                                         <a  href="https://www.petroperu.com.pe"> 
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>petroperu.svg"  class="img-fluid mx-auto d-block" alt="Petro Peru">
@@ -533,11 +541,7 @@ Template Name: Home
                                         </a>
                                     </div>
 
-                                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                        <a  href="https://indriver.com/es/city">
-                                        <img class="w-50" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>indriver.svg" class="img-fluid mx-auto d-block" alt="Indriver">
-                                        </a>
-                                    </div>
+                                 
 
 
                                 </div>

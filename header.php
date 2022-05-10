@@ -6,7 +6,6 @@
  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
 </head>
 
 <style>
@@ -22,7 +21,8 @@
   }
 </style>
  
-<body class="w-100">
+<!-- oncontextmenu="return false;" -->
+<body class="w-100" onmousedown="return false;" onselectstart="return false;">
  
 <?php 
 wp_head();

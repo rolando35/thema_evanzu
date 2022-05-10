@@ -48,7 +48,7 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 				<div class="p-2 text-light-gray text-main-client">
 					Es una sólida institución financiera fundada en Lima en 1951. Con su
 					propósito de poner al alcance de todos los peruanos las oportunidades
-					de esta nueva era, contribuyendo a la reallización de sus sueños y
+					de esta nueva era, contribuyendo a la realización de sus sueños y
 					proyectos.
 				</div>
 			</div>
@@ -144,7 +144,7 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
 				Gestionamos un grupo cerrado en Facebook de Agentes Corresponsales del
-				BBVA. Generando contenidos y atendimos a 300 usuarios.
+				BBVA. Generamos contenidos y atendimos a 300 usuarios.
 			</p>
 		</div>
 		<!---------------title--------------->
@@ -186,7 +186,7 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
 				Realizamos el concepto, planificación, diseño y gestión de las
-				activaciones para nuestro clientes Agentes BBVA, del banco BBVA.
+				activaciones para los Agentes BBVA.
 			</p>
 		</div>
 		<!---------------title--------------->

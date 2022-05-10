@@ -142,11 +142,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <img class="w-100" src="<?php echo get_option('evanzu')[
             'carrusell-image-one'
         ]; ?>">
-          	<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
-               <div class="col-8 flex-colum text-left p-0">
+          	  <div class="carousel-caption-branding">
                   <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-                  <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
-                  <div class="d-flex align-center">
+                  <p class="title-bold-branding hurme-bold-4 " data-wow-delay="0.3s">MARKETING</p>
+                  <div class="d-flex align-center mt-n4">
                     <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
                     <img
                       src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
@@ -161,18 +160,18 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         <span >¡Desafíanos con tu proyecto!</span>
                       </button>
                     </div>
-                </div>
-					   </div>	
-      </div>
+					     </div>	
+        </div>
       <div class="carousel-item">
-        <img class="w-100" src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
-           <div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
-               <div class="col-8 flex-colum text-left p-0">
+        <img class="w-100" alt="Campaña digital para el lanzamiento de la marca BMatic" 
+             title="Evanzu servicio Marketing Digital" 
+             src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
+           <div class="carousel-caption-branding">
                   <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-                  <p class="text-paragraph" data-wow-delay="0.3s">MARKETING</p>
-                  <div class="d-flex align-center">
+                  <p class="title-bold-branding hurme-bold-4 " data-wow-delay="0.3s">MARKETING</p>
+                  <div class="d-flex align-center mt-n4">
                     <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
-                    <img
+                    <img 
                       src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
                       />
                   </div>
@@ -182,13 +181,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     <div class="mt-3 text-left">
                       Quieres resultados. 
                       <button onclick="ButtonRedirectForm();" class="btn-btl">
-                        <span>¡Desafíanos con tu proyecto!</span>
+                        <span >¡Desafíanos con tu proyecto!</span>
                       </button>
                     </div>
-                </div>
-					   </div>	
-
-
+					     </div>	
       </div>
       <!-- <div class="carousel-item">
         <img src="<?php echo get_option('evanzu')['carrusell-image-one']; ?>">
@@ -277,7 +273,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="col-md-11 col-lg-6 d-flex align-items-center">
                       <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/cellphone-publicidad-digital.svg"
-                  alt=""
+                  alt="Campaña por Google Adwords y publicidad en redes sociales."
+                  title="Publicidad en Plataformas Digitales"
                 />
                   </div>
                   <div class="col-md-10 col-lg-6">
