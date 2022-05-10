@@ -10,7 +10,7 @@
 		</div>
 		<div class="line-nav <?php echo isset($args["active"]) ? "bg-red" : "";?>" >
 		</div>
-		<div class="title-circle-nav <?php echo isset($args["active"]) ? "title-circle-nav-active" : "";?>"">
+		<div class="title-circle-nav <?php echo isset($args["active"]) ? "title-circle-nav-active" : "";?>">
 			<?php 
         echo $args['title'];    
        ?>
