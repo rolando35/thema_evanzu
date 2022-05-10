@@ -77,19 +77,12 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="running-text-btl">
 								Somos una agencia de
 							</div>
-							<div class="d-flex">
-								<div class="hurme-simple-btl">
-									Btl &&nbsp;
-								</div>
-								<div>
-									<img
-									class="icon-btl-title"
-									src="<?php echo get_template_directory_uri()?>/assets/images/btl/title-icon.png"
-									/>
-								</div>
-							</div>
-							<div class="medium-subtitle-first-btl text-left">Comunicación
-							</div>
+							<h1 class="text-left hurme-simple-btl">
+								BTL &&nbsp;<img class="icon-btl-title" src="<?php echo get_template_directory_uri()?>/assets/images/btl/title-icon.png"/>
+							</h1>
+							<h2 class="medium-subtitle-first-btl text-left">
+								Comunicación
+							</h2>
 							<div class="text-subtitle-btl">
 								Sacamos nuestra creatividad y estrategia a las calles.
 							</div>
