@@ -937,6 +937,31 @@
 	font-weight: bold;
 }
 
+.home-banner-text {
+	font-family: running-text;
+	font-size: 38px;
+}
+
+
+.home-text-yellow{
+	font-size: 2.2rem;
+	font-weight: 900;
+}
+
+.font-20 {
+	font-size: 20px;
+}
+.font-23 {
+	font-size: 23px;
+}
+.font-25 {
+	font-size: 25px;
+}
+.font-3 {
+	font-size: 3.2rem;
+}
+
+
 .carousel-caption-branding {
 	position: absolute;
 	bottom: 25%;
