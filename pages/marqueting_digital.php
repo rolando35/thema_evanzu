@@ -383,7 +383,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'first-icon-service.svg',
-                    'text' => '<span class="hurme-bold-4">Plan de medios digitales</span> <br />
+                    'text' => '<span class="hurme-bold-4 text-gray-black">Plan de medios digitales</span> <br />
                     (definir los canales con los <br />
                     que tu público interactúa)',
                     'line' => $path_img . 'line-rosado.svg',
@@ -396,7 +396,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'secon-icon-righ.svg',
-                        'text' => 'Definir el <span class="hurme-bold-4">formato </span> <br />
+                        'text' => 'Definir el <span class="hurme-bold-4 text-gray-black">formato </span> <br />
                     de <span class="hurme-bold-4">publicidad</span> adecuado.
                 ',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
@@ -407,7 +407,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'contain-define.svg',
-                    'text' => ' <span class="hurme-bold-4">
+                    'text' => ' <span class="hurme-bold-4 text-gray-black">
                       Definición de contenidos <br />
                       publicitarios</span>
                     (Mensaje y <br />
@@ -420,7 +420,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'deploy-configuration.svg',
-                        'text' => ' <span class="hurme-bold-4"
+                        'text' => ' <span class="hurme-bold-4 text-gray-black"
                       >Despliegue y configuración <br />
                       de la campaña en la
                     </span>
@@ -433,7 +433,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'rocket-optimisation.svg',
-                    'text' => '<span class="hurme-bold-4">Optimización</span> de la <br />campaña 
+                    'text' => '<span class="hurme-bold-4 text-gray-black">Optimización</span> de la <br />campaña 
                 .',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -444,7 +444,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         'full',
                         [
                             'image' => $directory_imgs . 'periodic-reports.svg',
-                            'text' => ' <span class="hurme-bold-4">Reportes <br />
+                            'text' => ' <span class="hurme-bold-4 text-gray-black">Reportes <br />
                       periódicos.</span>
                 ',
                             'line' => $directory_imgs . 'line-point-yellow.svg',
@@ -539,7 +539,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                           ¿Qué lograrás?
                         </div>
                         <div class="text-light-gray p-1 pb-2">
-                          Ganarás<span class="hurme-bold-4"> notoriedad </span> en redes sociales
+                          Ganarás<span class="hurme-bold-4 "> notoriedad </span> en redes sociales
                           <span class="hurme-bold-4"> y tus clientes amarán tu marca.</span>
                         </div>
                         <svg width="177" height="4" viewBox="0 0 177 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -595,7 +595,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'first-icon-service.svg',
-                    'text' => '<span class="hurme-bold-1">Plan de comunicaciones</span>
+                    'text' => '<span class="hurme-bold-1 text-gray-black">Plan de comunicaciones</span>
                 para cada red social.',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -607,7 +607,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'plan-contenidos.svg',
-                        'text' => '<span class="hurme-bold-1">Plan de contenidos</span>
+                        'text' => '<span class="hurme-bold-1 text-gray-black">Plan de contenidos</span>
                 ',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -617,7 +617,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'plan-grafico.svg',
-                    'text' => '<span class="hurme-bold-1">Plan gráfico</span>
+                    'text' => '<span class="hurme-bold-1 text-gray-black">Plan gráfico</span>
                 <br />
                    Banners, gifs, micro videos, spots publicitarios y otros.',
                     'line' => $path_img . 'line-rosado.svg',
@@ -628,7 +628,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'comuniti-manager.svg',
-                        'text' => '<span class="hurme-bold-1">Community management</span>
+                        'text' => '<span class="hurme-bold-1 text-gray-black">Community management</span>
                 Interacción con los usuarios, concursos y promociones.',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -638,7 +638,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'reporte-mensual.svg',
-                    'text' => '<span class="hurme-bold-1">Reportes mensuales de resultados.</span>
+                    'text' => '<span class="hurme-bold-1 text-gray-black">Reportes mensuales de resultados.</span>
                 .',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -792,7 +792,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'palabras-clabe.svg',
-                    'text' => '<span class="hurme-bold-4">Selección de Keywords</span>
+                    'text' => '<span class="hurme-bold-4 text-gray-black">Selección de Keywords</span>
                 (Palabras Clave).',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -804,7 +804,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'meta-texto.svg',
-                        'text' => '<span class="hurme-bold-4"
+                        'text' => '<span class="hurme-bold-4 text-gray-black"
                   >Implementar Etiquetas meta </span>
                     Descripción de las páginas que Google lee y posiciona.
                 ',
@@ -816,7 +816,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'factores-internos.svg',
-                    'text' => '<span class="hurme-bold-4"
+                    'text' => '<span class="hurme-bold-4 text-gray-black"
                   >Optimizar factores internos</span>
                     Contenido web, sistemas y otros.
               
@@ -830,7 +830,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'indexacion-google.svg',
-                        'text' => '<span class="hurme-bold-4"
+                        'text' => '<span class="hurme-bold-4 text-gray-black"
                   >Indexación en Google</span
                 >
                 Para que Google muestre el índice de tu web en los resultados de búsqueda.',
@@ -842,7 +842,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'mapa-web.svg',
-                    'text' => '<span class="hurme-bold-4"> Crear el sitemap</span> Archivo XML con la estructura del sitio web.',
+                    'text' => '<span class="hurme-bold-4 text-gray-black"> Crear el sitemap</span> Archivo XML con la estructura del sitio web.',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service">
@@ -852,7 +852,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         'full',
                         [
                             'image' => $directory_imgs . 'link-building.svg',
-                            'text' => '<span class="hurme-bold-4">Linkbuilding </span> Estrategias para obtener enlaces que aterricen en el sitio web.',
+                            'text' => '<span class="hurme-bold-4 text-gray-black">Linkbuilding </span> Estrategias para obtener enlaces que aterricen en el sitio web.',
                             'line' => $directory_imgs . 'line-point-yellow.svg',
                         ]
                     ); ?>
@@ -862,7 +862,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'velocidad_carga.svg',
                     'text' => '
-                  Manejo de <span class="hurme-bold-4">blog</span>',
+                  Manejo de <span class="hurme-bold-4 text-gray-black">blog</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service">
@@ -872,7 +872,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         'full',
                         [
                             'image' => $directory_imgs . 'manejo-de-blog.svg',
-                            'text' => '<span class="hurme-bold-4">Mejora de la velocidad de carga </span> de la página.',
+                            'text' => '<span class="hurme-bold-4 text-gray-black">Mejora de la velocidad de carga </span> de la página.',
                             'line' => $directory_imgs . 'line-point-yellow.svg',
                         ]
                     ); ?>
@@ -986,7 +986,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'tab41.png',
-                    'text' => '<span class="hurme-bold-4">Auditoría <br>
+                    'text' => '<span class="hurme-bold-4 text-gray-black">Auditoría <br>
                     digital.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -998,7 +998,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'tab42.png',
-                        'text' => '<span class="hurme-bold-4">Plan de publicidad <br />
+                        'text' => '<span class="hurme-bold-4 text-gray-black">Plan de publicidad <br />
                         digital.</span>',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -1008,7 +1008,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'tab43.png',
-                    'text' => '<span class="hurme-bold-4"Plan de contenidos  <br />virales.</span>',
+                    'text' => '<span class="hurme-bold-4 text-gray-black"Plan de contenidos  <br />virales.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service"></div>
@@ -1017,7 +1017,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'full',
                     [
                         'image' => $directory_imgs . 'tab44.png',
-                        'text' => '<span class="hurme-bold-4">Gestión de <br />Influencers.</span>',
+                        'text' => '<span class="hurme-bold-4 text-gray-black">Gestión de <br />Influencers.</span>',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
                 ); ?>
@@ -1026,7 +1026,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'tab45.png',
-                    'text' => '<span class="hurme-bold-4">Reporte y análisis de <br /> resultados.</span>',
+                    'text' => '<span class="hurme-bold-4 text-gray-black">Reporte y análisis de <br /> resultados.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service">
@@ -1192,7 +1192,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'first-icon-service.svg',
-                    'text' => '<span class="hurme-bold-4">Plan de contenidos</span> <br />
+                    'text' => '<span class="hurme-bold-4 text-gray-black">Plan de contenidos</span> <br />
                    en diferentes formatos',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -1204,7 +1204,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
                     'full',
                     [
                         'image' => $directory_imgs . 'Left_pencil_circle.svg',
-                        'text' => '<span class="hurme-bold-4">Gestión de blogs. </span> <br />
+                        'text' => '<span class="hurme-bold-4 text-gray-black">Gestión de blogs. </span> <br />
                 ',
                         'line' => $directory_imgs . 'line-point-yellow.svg',
                     ]
@@ -1214,7 +1214,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
               <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'icono-rigth-redes.svg',
-                    'text' => ' <span class="hurme-bold-4">
+                    'text' => ' <span class="hurme-bold-4 text-gray-black">
                       Gestión de redes <br />
                       sociales.</span>
                     ',
@@ -1227,7 +1227,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
                     [
                         'image' =>
                             $directory_imgs . 'Producción_adiovisual.svg',
-                        'text' => ' <span class="hurme-bold-4"
+                        'text' => ' <span class="hurme-bold-4 text-gray-black"
                       >Producción <br />
                       audivisual.
                     </span>
@@ -1240,7 +1240,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'icono_seo.svg',
-                    'text' => '<span class="hurme-bold-4">Posicionamiento</span> <br />SEO. 
+                    'text' => '<span class="hurme-bold-4 text-gray-black">Posicionamiento</span> <br />SEO. 
                 .',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
@@ -1251,7 +1251,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
                         'full',
                         [
                             'image' => $directory_imgs . 'periodic-reports.svg',
-                            'text' => ' <span class="hurme-bold-4"
+                            'text' => ' <span class="hurme-bold-4 text-gray-black"
                       >Reportes y análisis de  <br />
                      resultados.</span>
                 ',

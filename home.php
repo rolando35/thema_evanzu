@@ -533,19 +533,13 @@ Template Name: Home
                 <path d="M5.51199 24.4849L2.75598 21.7289L0 24.4849L2.75598 27.2409L5.51199 24.4849ZM2.75598 22.7249L4.51596 24.4849L2.75598 26.2449L0.996029 24.4849L2.75598 22.7249Z" fill="#ED1164" />
                 <path d="M5.51199 2.75601L2.75598 0L0 2.75601L2.75598 5.51201L5.51199 2.75601ZM2.75598 0.986364L4.51596 2.74634L2.75598 4.50631L0.996029 2.74634L2.75598 0.986364Z" fill="#ED1164" />
             </svg>
-<<<<<<< HEAD
             <div class="big-title text-red mt-4">
                 NUESTROS CLIENTES
             </div>
             <div class="subtitle-client text-center text-red hurme-bold-4 font-weight-bold">
             El mejor <span class="text-uppercase">match</span>
              </div> 
-=======
-            <h2 class="big-title text-red my-4 mb-0 line-height">
-                NUESTROS CLIENTES
-            </h2>
-            <p class="text-red hurme-bold-4 size-25">El mejor MATCH</p>
->>>>>>> 2a2d71bbd6bd1f15b166055ca19f587517673bd8
+            
             <!-------------------- Clients -------------------->
             <section class="pb-4 pt-5">
                
@@ -578,7 +572,7 @@ Template Name: Home
                                 <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="img5">
                                </a>
                             </div>
-                           
+<!--                            
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                                 <a  href="bbva"> 
                                  <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png" class="img-fluid mx-auto d-block" alt="img6">
@@ -593,7 +587,7 @@ Template Name: Home
                                 <a  href="betfair">
                                   <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" class="img-fluid mx-auto d-block" alt="img8">
                                 </a>
-                            </div>
+                            </div> -->
                            
                         </div>
                         <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">

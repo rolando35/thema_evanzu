@@ -298,7 +298,7 @@ function dcms_enviar_cotization()
 	$website = $_POST['website'];
 	$email = $_POST['email'];	
   sleep(1);
-	echo "<span style='color:white; font-size:2rem;'> Hola, recibimos tus datos. En breve nos comunicaremos, gracias. <span> ";
+	echo "<span style='color:white; font-size:2rem;'> En breve nos comunicaremos contigo. ¡Gracias! <span> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
