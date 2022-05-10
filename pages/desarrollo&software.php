@@ -38,9 +38,9 @@ $path_software =
     margin-bottom: -9px;
 }
 
-ul {
+/* ul {
 	line-height: 1.8;
-}
+} */
 
 
 @media only screen and (min-width: 1200px) {
@@ -174,9 +174,9 @@ ul {
 				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
 					<div class="col-8 flex-colum text-left p-0">
             <h1 class="develop-title" data-wow-delay="0.3s">Creadores de aplicaciones</h1>
-            <p class="text-paragraph" data-wow-delay="0.3s">MÓVILES &</p>
+            <h2 class="text-paragraph hurme-bold-4" data-wow-delay="0.3s">MÓVILES &</h2>
             <div class="d-flex align-center">
-              <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">SOFTWARE</p>
+              <h2 class="text-paragraph2 mr-2 hurme-bold-4" data-wow-delay="0.3s">SOFTWARE</h2>
               <img
 								alt="title icon"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/title-icon.svg"
