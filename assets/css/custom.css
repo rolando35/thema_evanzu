@@ -787,6 +787,14 @@
 	margin-bottom: -1.5rem;
 }
 
+.width-service {
+	width: 6rem;
+}
+
+.service-right {
+	margin-left: 2.5rem;
+}
+
 .undeline {
 	text-decoration: underline !important;
 }
