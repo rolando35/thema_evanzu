@@ -298,7 +298,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         <p class="text-light-gray">
                           <span class="display-4">.</span>
                           <span class="hurme-bold-4">Publicidad en plataformas sociales</span> <i>(Facebook,
-                          Instagram, Twitter, Linkedin, TikTok, Wase, Spotify, Shazam, y
+                          Instagram, Twitter, Linkedin, TikTok, Waze, Spotify, Shazam, y
                           otros).</i> 
                         </p>
 
@@ -339,10 +339,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   </div>
 
                   <div class="col-md-12 col-lg-6 py-5 left-conten-description">
-                        <img
-                  src="<?php echo $directory_imgs;?>laptop-marketing.png"
-                  
-                  alt="Marketing digital evanzu"
+                  <img
+                  src="<?php echo $directory_imgs;?>laptop-marketing.png"        
+                  alt="Promociona y aumenta tus ventas por distintos canales digitales."
+                  title="Publicidad Digital"
                 />
                   </div>
                 </div>
@@ -460,7 +460,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             
         </div>
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  class="" src="<?php echo $directory_imgs; ?>root-tree.svg">
+                 <img title="Publicidad digital proceso" alt="Optimizamos tus campañas digitales" src="<?php echo $directory_imgs; ?>root-tree.svg">
           </div>
 
         <!-----------------------Contanct----------------------------->
@@ -492,7 +492,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="col-md-11 col-lg-6 d-flex align-items-center">
                     <img
                       src="<?php echo $directory_imgs; ?>mockup-01 1.png"
-                      alt=""
+                      title="Marketing de contenidos"
+                      alt="Incremento de tráfico y resultados de tu negocio"
                       class="img-fluid"
                     />
                   </div>
@@ -655,7 +656,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
         <!-----------------------Service----------------------------->
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  class="" src="<?php echo $directory_imgs; ?>Publicidad digital.png">
+                 <img  title="Gestión de redes sociales" alt="Plan de comunicaciones para cada red social" class="" src="<?php echo $directory_imgs; ?>Publicidad digital.png">
               </div>
         <!-----------------------Contanct----------------------------->
               <?php get_template_part(
@@ -690,7 +691,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="col-md-11 col-lg-6 d-flex">
                     <img
                       src="<?php echo $directory_imgs; ?>web-visibiliti.png"
-                      alt=""
+                      title="Posicionamiento SEO"
+                      alt="Aumenta la visibilidad de tu web en el mundo digital"
                       class="ml-5 img-fluid"
                     />
                   </div>
@@ -885,7 +887,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
         <!-----------------------Service----------------------------->
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  class="" src="<?php echo $directory_imgs; ?>Publicidad digital.png">
+                 <img  title="SEO para e-commerce" alt="Evanzu especialistas en posicionamiento SEO" src="<?php echo $directory_imgs; ?>Publicidad digital.png">
               </div>
         <!-----------------------Contanct----------------------------->
               <?php get_template_part(
@@ -921,7 +923,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="col-md-11 col-lg-6 d-flex align-items-center">
                     <img
                       src="<?php echo $directory_imgs; ?>Growth hacking-01 1.png"
-                      alt=""
+                      alt="Te ayudamos a impactar para que puedas crecer"
+                      title="Crecimiento digital"
                       class="img-fluid"
                     />
                   </div>
@@ -1042,7 +1045,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
         <!-----------------------Service----------------------------->
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  class="" src="<?php echo $directory_imgs; ?>haking grow.png">
+                 <img  title="Estratégias de Marketing Digital" alt="Crecimiento rápido de tu marca" src="<?php echo $directory_imgs; ?>haking grow.png">
               </div>
 
           <!-----------------------Circle Right----------------------------->
@@ -1092,7 +1095,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="col-md-11 col-lg-6 d-flex">
                     <img
                       src="<?php echo $directory_imgs; ?>imac-contenido.png"
-                      alt=""
+                      alt="Evanzu, creamos contenido valioso para tu marca"
+                      title="Contenido relevante y valioso"
                       class="ml-5 img-fluid"
                     />
                   </div>
@@ -1268,7 +1272,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
             
         </div>
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  class="" src="<?php echo $directory_imgs; ?>Marketing_contenido_base_tree.svg">
+                 <img title="Marketing de contenidos" alt="Incremento de tráfico y resultados de tu negocio" src="<?php echo $directory_imgs; ?>Marketing_contenido_base_tree.svg">
           </div>
 
           <!-----------------------Circle Right----------------------------->
