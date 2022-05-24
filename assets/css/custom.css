@@ -60,6 +60,22 @@
   color: #03479c !important;
 }
 
+.text-black {
+	color: #000000 !important;
+}
+
+.w-19 {
+	width: 19.7rem;
+}
+
+.w-17 {
+	width: 17.1rem;
+}
+
+.text-about {
+	font-size: 16px;
+	line-height: 1.5;
+}
 .w-60 {
   width: 60%;
 }
@@ -965,6 +981,9 @@
 }
 .font-3 {
   font-size: 3.2rem;
+}
+.font-2 {
+	font-size: 2rem;
 }
 
 .carousel-caption-branding {
