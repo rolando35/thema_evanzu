@@ -17,3 +17,9 @@
 		</div>
 	</a>
 </li>
+
+   <script>
+      $(function () {
+        $(".nav-tabs-sticky").stickyTabs();
+      });
+    </script>

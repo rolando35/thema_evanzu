@@ -204,7 +204,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
   <div class="bg-white">
     <div class="">
       <ul
-        class="nav nav-pills justify-content-center"
+        class="nav nav-pills nav-tabs-sticky justify-content-center"
         id="nav-iconos"
         role="tablist"
       >
@@ -215,7 +215,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Publicidad
         <br />
         digital',
-                'href' => '#home',
+                'href' => '#publicidad_digital',
                 'active' => true,
                 'path' => $directory_imgs,
             ],
@@ -240,7 +240,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Growth
         <br />
         hacking',
-                'href' => '#menu3',
+                'href' => '#growth_hacking',
                 'path' => $directory_imgs,
             ],
             [
@@ -248,7 +248,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Marketing de
         <br />
         contenidos',
-                'href' => '#menu4',
+                'href' => '#marketing_contenidos',
                 'path' => $directory_imgs,
             ],
         ];
@@ -258,10 +258,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         ?>
       </ul>
     </div>
-
+    
     <!-- Tab panes -->
-    <div class="tab-content">
-      <div id="home" class="tab-pane active">
+    <div class="tab-content ">
+      <div id="publicidad_digital" class="tab-pane active">
         <br />
         <div class="bg-light-gray">
           <div class="big-title  text-red mt-5 pt-2 text-center">
@@ -908,7 +908,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
      
       </div>
       <!------------Growth hacking ------------>
-      <div id="menu3" class="tab-pane fade">
+      <div id="growth_hacking" class="tab-pane fade">
           <br />
         <!----------------------Main---------------------->
         <section class="p-0">
@@ -1082,7 +1082,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
       </div>
       <!------------Marketing de contenidos ------------>
-      <div id="menu4" class=" tab-pane fade">
+      <div id="marketing_contenidos" class=" tab-pane fade">
         <section class="p-0">
           <div class="bg-light-gray py-0">
             <div class="big-title text-red my-2 text-center">

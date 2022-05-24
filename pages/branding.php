@@ -136,7 +136,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
   <div class="bg-white">
     <div class="">
       <ul
-        class="nav nav-pills justify-content-center"
+        class="nav nav-pills nav-tabs-sticky justify-content-center"
         id="nav-iconos"
         role="tablist"
       >
@@ -147,7 +147,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Logo
                   <br />
                   Branding',
-                'href' => '#home',
+                'href' => '#logo_branding',
                 'active' => true,
                 'path' => $directory_branding_imgs,
             ],
@@ -156,7 +156,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Diseño
                 <br />
                  Publicitario',
-                'href' => '#redes_sociales',
+                'href' => '#diseño_publicitario',
                 'path' => $directory_branding_imgs,
             ],
             [
@@ -164,7 +164,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Merchandising
                   <br />
                  & Impresos',
-                'href' => '#menu2',
+                'href' => '#merchandising_impresos',
                 'path' => $directory_branding_imgs,
             ],
             [
@@ -172,7 +172,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Ilustración
         <br />
         digital',
-                'href' => '#menu3',
+                'href' => '#ilustracion_digital',
                 'path' => $directory_branding_imgs,
             ],
             [
@@ -180,7 +180,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Diseño
         <br />
        UX & UI',
-                'href' => '#menu4',
+                'href' => '#ux_ui',
                 'path' => $directory_branding_imgs,
             ],
         ];
@@ -193,7 +193,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
     <!-- Tab panes -->
     <div class="tab-content">
-      <div id="home" class="tab-pane active">
+      <div id="logo_branding" class="tab-pane active">
         <br />
         <div class="bg-light-gray">
           <h2 class="big-title text-red my-5 text-center">Logo & Branding</h2>
@@ -386,7 +386,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
       </div>
       <!------------REDES SOCIALES ------------>
-      <div id="redes_sociales" class="tab-pane fade">
+      <div id="diseño_publicitario" class="tab-pane fade">
         <br />
         <!----------------------Main---------------------->
         <section class="p-0">
@@ -606,7 +606,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!-----------------------Contanct----------------------------->
       </div>
       <!------------SEO ------------>
-      <div id="menu2" class="tab-pane fade">
+      <div id="merchandising_impresos" class="tab-pane fade">
         <br />
         <!----------------------Main---------------------->
         <section class="p-0">
@@ -773,7 +773,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
       </div>
       <!------------Growth hacking ------------>
-      <div id="menu3" class="tab-pane fade">
+      <div id="ilustracion_digital" class="tab-pane fade">
         <br />
         <!----------------------Main---------------------->
         <section class="p-0">
@@ -940,7 +940,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!-----------------------Contact----------------------------->
       </div>
       <!------------Marketing de contenidos ------------>
-      <div id="menu4" class="tab-pane fade">
+      <div id="ux_ui" class="tab-pane fade">
         <br />
         <!----------------------Main---------------------->
         <section class="p-0">

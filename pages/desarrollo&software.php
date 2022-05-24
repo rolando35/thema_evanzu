@@ -201,38 +201,38 @@ $path_software =
 	<div class="bg-white">
 		<!-------------------nav-------------------->
 		<div class="group-nav">
-			<ul class="nav nav-pills justify-content-center" id="nav-iconos" role="tablist">
+			<ul class="nav nav-pills nav-tabs-sticky justify-content-center" id="nav-iconos" role="tablist">
 				<?php foreach (
         [
             [
                 'svg' => 'first-tab.svg',
                 'title' => 'Tiendas <br> virtuales',
                 'active' => true,
-                'href' => '#home',
+                'href' => '#tiendas_virtuales',
                 'path' => $path_software,
             ],
             [
                 'svg' => 'second-tab.svg',
                 'title' => 'Páginas <br> web',
-                'href' => '#events',
+                'href' => '#paginas_web',
                 'path' => $path_software,
             ],
             [
                 'svg' => 'third-tab.svg',
                 'title' => 'App <br> móviles',
-                'href' => '#relations',
+                'href' => '#app_moviles',
                 'path' => $path_software,
             ],
             [
                 'svg' => 'fourth-tab.svg',
                 'title' => 'Software <br> a medida',
-                'href' => '#sales',
+                'href' => '#software_medida',
                 'path' => $path_software,
             ],
             [
                 'svg' => 'fifth-tab.svg',
                 'title' => 'Diseño <br> UX & UI',
-                'href' => '#hostess',
+                'href' => '#ux_ui',
                 'path' => $path_software,
             ],
         ]
@@ -247,7 +247,7 @@ $path_software =
 		<!-------------------Tab---------------------->
 		<div class="tab-content" style="overflow: hidden">
 			<!------------BTL------------>
-			<div id="home" class="tab-pane active">
+			<div id="tiendas_virtuales" class="tab-pane active">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -370,8 +370,8 @@ $path_software =
 			</div>
 			<!------------BTL------------>
 
-			<!----------Events---------->
-			<div id="events" class="tab-pane fade">
+			<!----------paginas_web---------->
+			<div id="paginas_web" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -576,10 +576,10 @@ $path_software =
 				</section>
 				<!-----------------Section-------------------->
 			</div>
-			<!----------Events---------->
+			<!----------paginas_web---------->
 
-			<!----------relations---------->
-			<div id="relations" class="tab-pane fade">
+			<!----------app_moviles---------->
+			<div id="app_moviles" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -739,10 +739,10 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<!----------------------- Portafolio tab3 ----------------------->
 			</div>
 			</div>
-			<!---------relations------------>
+			<!---------app_moviles------------>
 
-			<!----------Sales---------->
-			<div id="sales" class="tab-pane fade">
+			<!----------software_medida---------->
+			<div id="software_medida" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -887,10 +887,10 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<!-----------------------Portafolio tab4----------------------------->
 				</div>
 			</div>
-			<!----------Sales---------->
+			<!----------software_medida---------->
 
-			<!----------Hostess---------->
-			<div id="hostess" class="tab-pane fade">
+			<!----------ux_ui---------->
+			<div id="ux_ui" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -1024,7 +1024,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<!-----------------------Portafolio tab6----------------------------->
 
 			</div>
-			<!----------Hostess---------->
+			<!----------ux_ui---------->
 
 			<div class="corner_footer"></div>
 		</div>

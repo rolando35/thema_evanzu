@@ -271,26 +271,26 @@ h5 {
 
     <!-------------------nav-------------------->
 		<div class="group-nav">
-			<ul class="nav nav-pills justify-content-center" id="nav-iconos" role="tablist">
+			<ul class="nav nav-pills nav-tabs-sticky justify-content-center" id="nav-iconos" role="tablist">
 				<?php foreach (
         [
             [
                 'svg' => 'first-tab.svg',
                 'title' => 'Spots & <br> Videos',
                 'active' => true,
-                'href' => '#home',
+                'href' => '#spots_videos',
                 'path' => $directory_imgs,
             ],
             [
                 'svg' => 'second-tab.svg',
                 'title' => 'Animación <br> 2D',
-                'href' => '#menu1',
+                'href' => '#animacion_2d',
                 'path' => $directory_imgs,
             ],
             [
                 'svg' => 'third-tab.svg',
                 'title' => 'Fotografía Profesional',
-                'href' => '#menu2',
+                'href' => '#fotografia_profesional',
                 'path' => $directory_imgs,
             ]
         ]
@@ -304,7 +304,7 @@ h5 {
         <!-- Tab panes -->
   <div class="tab-content" style="overflow: hidden">
 		<!------------Sports & videos------------>
-		<div id="home" class="tab-pane active">
+		<div id="spots_videos" class="tab-pane active">
 			<br>
       <div class="bg-light-gray py-5">
         <h2 class="big-title text-red my-4 text-center">
@@ -558,7 +558,7 @@ h5 {
 
 
                <!-- TAB - 2 -->
-            <div id="menu1" class="tab-pane fade"><br>
+            <div id="animacion_2d" class="tab-pane fade"><br>
             <div style='margin-top: 3.4rem' class="tab-content">
                <div class="bg-light-gray py-5">
                 <h2 class="big-title text-red my-4 text-center">
@@ -744,7 +744,7 @@ h5 {
       </div>
 
             <!-- TAB - 3 -->
-            <div id="menu2" class="tab-pane fade"><br>
+            <div id="fotografia_profesional" class="tab-pane fade"><br>
               <div class="bg-light-gray py-5">
                 <h2 class="big-title text-red my-4 text-center">
                   Fotografía Profesional
