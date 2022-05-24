@@ -110,39 +110,39 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 	<div class="bg-white">
 		<!-------------------nav-------------------->
 		<div class="group-nav">
-			<ul class="nav nav-pills justify-content-center" id="nav-iconos" role="tablist">
+			<ul class="nav nav-pills nav-tabs-sticky justify-content-center" id="nav-iconos" role="tablist">
 				<?php                          
                     foreach (
 						array (
 							array (
 							'svg' => 'first-tab.svg',
 							'title'=> 'BTL y<br>Activaciones',
-							'href'=> '#home',
+							'href'=> '#btl_activaciones',
 							'active'=> true,
 							"path" => $path_img
 							),
                             array (
 							'svg' =>'second-tab.svg',
 							'title'=> 'Eventos' ,
-							'href'=> '#events',
+							'href'=> '#eventos',
 							"path" => $path_img
 							),
                             array (
 							'svg' => 'third-tab.svg',
 							'title'=> 'Relaciones<br>Públicas',
-							'href'=> '#relations',
+							'href'=> '#relaciones_publicas',
 							"path" => $path_img
 							),
                             array (
 							'svg' =>'fourth-tab.svg',
 							'title'=> 'Fuerza de<br>Ventas',
-							'href'=> '#sales',
+							'href'=> '#fuerza_ventas',
 							"path" => $path_img
 							),
                             array (
 							'svg' => 'fifth-tab.svg',
 							'title'=> 'Anfitrionaje',
-							'href'=> '#hostess',
+							'href'=> '#anfitrionaje',
 							"path" => $path_img
 							)) as $nav) {
                              get_template_part('components/circle-nav-2','full', $nav ); 
@@ -155,7 +155,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		<!-------------------Tab---------------------->
 		<div class="tab-content" style="overflow: hidden">
 			<!------------BTL------------>
-			<div id="home" class="tab-pane active">
+			<div id="btl_activaciones" class="tab-pane active">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -479,8 +479,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 			</div>
 			<!------------BTL------------>
 
-			<!----------Events---------->
-			<div id="events" class="tab-pane fade">
+			<!----------eventos---------->
+			<div id="eventos" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -712,10 +712,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				</section>
 				<!-----------------Section-------------------->
 			</div>
-			<!----------Events---------->
+			<!----------eventos---------->
 
-			<!----------relations---------->
-			<div id="relations" class="tab-pane fade">
+			<!----------relaciones_publicas---------->
+			<div id="relaciones_publicas" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -883,10 +883,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!-----------------------Contact----------------------------->
 
 			</div>
-			<!---------relations------------>
+			<!---------relaciones_publicas------------>
 
-			<!--Sales---------->
-			<div id="sales" class="tab-pane fade">
+			<!--fuerza_ventas---------->
+			<div id="fuerza_ventas" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -1077,8 +1077,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 			</div>
 			<!----------Sales---------->
 
-			<!------Hostess---------->
-			<div id="hostess" class="tab-pane fade">
+			<!------anfitrionaje---------->
+			<div id="anfitrionaje" class="tab-pane fade">
 				<br>
 				<!----------------------Main---------------------->
 				<section class="p-0">
@@ -1213,7 +1213,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!-----------------------Contact----------------------------->
 
 			</div>
-			<!----------Hostess---------->
+			<!----------anfitrionaje---------->
 
 			<div class="corner_footer"></div>
 		</div>
