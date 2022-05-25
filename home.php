@@ -439,9 +439,9 @@ Template Name: Home
              </div> 
             
            
-            <div class="mb-4 mx-auto w-50">
+            <!-- <div class="mb-4 mx-auto w-50">
                 Trabajamos con start-ups, micro y pequeñas empresas, marcas líderes y organizaciones gubernamentales.
-            </div>
+            </div> -->
 
         </div>
 
@@ -563,7 +563,7 @@ Template Name: Home
                                      </div>
 
                                       
-                                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                     <!-- <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                                         <a  href="http://drtcjunin.gob.pe/">
                                         <img src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>DRTC.svg" class="img-fluid mx-auto d-block" alt="Dirección regional de transporter y Comunicaciones">
                                         </a>
@@ -573,7 +573,7 @@ Template Name: Home
                                         <a  href="https://www.magnesol.pe/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>magnesol.svg" class="img-fluid mx-auto d-block" alt="Magnesol">
                                         </a>
-                                    </div>
+                                    </div> -->
 
                                  
 
