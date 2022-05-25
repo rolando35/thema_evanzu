@@ -110,7 +110,7 @@ Template Name: Home
                         <!-- <div class="text-white  text-left-contain-first hurme-simple"></div> -->
                         <h2 class="medium-subtitle-first">
                             <span class="text-white">GRANDES IDEAS</span>
-                            <span class="text-white">PARA GRANDES RESULTADOS</span>
+                            <span class="text-white ml-2">PARA GRANDES RESULTADOS</span>
                         </h2>
                         <h2 class="text-white size-18">
                             en marketing digital, branding & diseño, producción audiovisual, BTL & comunicación y desarrollo de software.
