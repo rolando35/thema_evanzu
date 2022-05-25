@@ -2,7 +2,42 @@
 /* 
     Template Name: desarrollo&software
 */
-get_header('', array( 'title' => 'Desarrollo de páginas web, tienda virtual, app, software, diseño UX UI','description' => 'Agencia de Desarrollo de páginas web, tienda virtual, aplicaciones móviles, software a medida, diseño UX UI', 'keywords' => ''));
+get_header('', array( 'title' => 'Desarrollo de páginas web, tienda virtual, app, software, diseño UX UI',
+					  'description' => 'Agencia de Desarrollo de páginas web, tienda virtual, aplicaciones móviles, software a medida, diseño UX UI', 
+					  'keywords' => '',
+					  'richsnippets' =>'<script type="application/ld+json">
+					{
+					"@context": "https://schema.org/", 
+					"@type": "BreadcrumbList", 
+					"itemListElement": [{
+						"@type": "ListItem", 
+						"position": 1, 
+						"name": "Tiendas virtuales",
+						"item": "https://evanzu.com/new_evanzu/desarrollo-software/#tiendas_virtuales"  
+					},{
+						"@type": "ListItem", 
+						"position": 2, 
+						"name": "Páginas web",
+						"item": "https://evanzu.com/new_evanzu/desarrollo-software/#paginas_web"  
+					},{
+						"@type": "ListItem", 
+						"position": 3, 
+						"name": "App móviles",
+						"item": "https://evanzu.com/new_evanzu/desarrollo-software/#app_moviles"  
+					},{
+						"@type": "ListItem", 
+						"position": 4, 
+						"name": "Software a medida",
+						"item": "https://evanzu.com/new_evanzu/desarrollo-software/#software_medida"  
+					},{
+						"@type": "ListItem", 
+						"position": 5, 
+						"name": "Diseño UX",
+						"item": "https://evanzu.com/new_evanzu/desarrollo-software/#ux_ui"  
+					}]
+					}
+					</script>'
+					));
 $path_software =
     get_template_directory_uri() . '/assets/images/desarrollo-de-software/';
 ?>

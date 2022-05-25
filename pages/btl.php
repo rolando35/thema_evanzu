@@ -2,7 +2,42 @@
 /* 
     Template Name: BTL
 */
-get_header('', array( 'title' => 'Agencia btl, activaciones, eventos corporativos, ventas, anfitrionas','description' => 'Agencia de activaciones y juegos btl, organización de eventos corporativos, servicio de fuerza de ventas y anfitrionaje, gestión de relaciones públicas', 'keywords' => ''));
+get_header('', array( 'title' => 'Agencia btl, activaciones, eventos corporativos, ventas, anfitrionas',
+					  'description' => 'Agencia de activaciones y juegos btl, organización de eventos corporativos, servicio de fuerza de ventas y anfitrionaje, gestión de relaciones públicas', 
+					  'keywords' => '',
+					  'richsnippets' =>'<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Btl y Activaciones",
+    "item": "https://evanzu.com/new_evanzu/btl-comunicacion/#btl_activaciones"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Eventos",
+    "item": "https://evanzu.com/new_evanzu/btl-comunicacion/#eventos"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Relaciones Publicas",
+    "item": "https://evanzu.com/new_evanzu/btl-comunicacion/#relaciones_publicas"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "Fuerza de ventas",
+    "item": "https://evanzu.com/new_evanzu/btl-comunicacion/#fuerza_ventas"  
+  },{
+    "@type": "ListItem", 
+    "position": 5, 
+    "name": "Anfitrionaje",
+    "item": "https://evanzu.com/new_evanzu/btl-comunicacion/#anfitrionaje"  
+  }]
+}
+</script>'
+					));
 
 $path_img = get_template_directory_uri() . '/assets/images/btl/';
 ?>

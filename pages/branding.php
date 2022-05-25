@@ -3,7 +3,43 @@
     Template Name: Branding
 */
 
-get_header('', array( 'title' => 'Agencia de diseño de logo, merchandising, impresos, ilustración, UX-UI','description' => 'Agencia de diseño para publicidad digital e impresos, logotipo, branding, manual de marca, señalética,  merchadising, ilustración digital, diseño Ux UI', 'keywords' => ''));
+get_header('', array( 
+      'title' => 'Agencia de diseño de logo, merchandising, impresos, ilustración, UX-UI',
+      'description' => 'Agencia de diseño para publicidad digital e impresos, logotipo, branding, manual de marca, señalética,  merchadising, ilustración digital, diseño Ux UI', 
+      'keywords' => '',
+      'richsnippets' =>'<script type="application/ld+json">
+          {
+            "@context": "https://schema.org/", 
+            "@type": "BreadcrumbList", 
+            "itemListElement": [{
+              "@type": "ListItem", 
+              "position": 1, 
+              "name": "Logo Branding",
+              "item": "https://evanzu.com/new_evanzu/branding-diseno/#logo_branding"  
+            },{
+              "@type": "ListItem", 
+              "position": 2, 
+              "name": "Diseño Publicitario",
+              "item": "https://evanzu.com/new_evanzu/branding-diseno/#dise%C3%B1o_publicitario"  
+            },{
+              "@type": "ListItem", 
+              "position": 3, 
+              "name": "Merchandising",
+              "item": "https://evanzu.com/new_evanzu/branding-diseno/#merchandising_impresos"  
+            },{
+              "@type": "ListItem", 
+              "position": 4, 
+              "name": "Ilustración digital",
+              "item": "https://evanzu.com/new_evanzu/branding-diseno/#ilustracion_digital"  
+            },{
+              "@type": "ListItem", 
+              "position": 5, 
+              "name": "diseño ux",
+              "item": "https://evanzu.com/new_evanzu/branding-diseno/#ux_ui"  
+            }]
+          }
+          </script>  ' 
+    ));
 $directory_imgs =
     get_template_directory_uri() . '/assets/images/marketing-digital/';
 $directory_branding_imgs =
