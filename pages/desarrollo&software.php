@@ -2,7 +2,7 @@
 /* 
     Template Name: desarrollo&software
 */
-get_header();
+get_header('', array( 'title' => 'Desarrollo de páginas web, tienda virtual, app, software, diseño UX UI','description' => 'Agencia de Desarrollo de páginas web, tienda virtual, aplicaciones móviles, software a medida, diseño UX UI', 'keywords' => ''));
 $path_software =
     get_template_directory_uri() . '/assets/images/desarrollo-de-software/';
 ?>

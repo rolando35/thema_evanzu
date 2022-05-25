@@ -3,7 +3,7 @@
     Template Name: Branding
 */
 
-get_header();
+get_header('', array( 'title' => 'Agencia de diseño de logo, merchandising, impresos, ilustración, UX-UI','description' => 'Agencia de diseño para publicidad digital e impresos, logotipo, branding, manual de marca, señalética,  merchadising, ilustración digital, diseño Ux UI', 'keywords' => ''));
 $directory_imgs =
     get_template_directory_uri() . '/assets/images/marketing-digital/';
 $directory_branding_imgs =
