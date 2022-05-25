@@ -4,8 +4,39 @@
 */
 get_header('', array( 'title' => 'Agencia de marketing digital, gestión redes sociales, posicionamiento',
                    'description' => 'Agencia de gestión de redes sociales, publicidad en plataformas digitales, posicionamiento SEO y contenidos varios para lanzamientos y promoción de productos y servicios', 
-                    'keywords' => 'aqui los keywords',
-                     'richsnippets' => 'protagonista'
+                    'keywords' => '',
+                     'richsnippets' => '<script type="application/ld+json">
+            {
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [{
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Publicidad digital",
+                "item": "https://evanzu.com/new_evanzu/marketing-digital/#publicidad_digital"  
+              },{
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "Gestión de redes",
+                "item": "https://evanzu.com/new_evanzu/marketing-digital/#redes_sociales"  
+              },{
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "Posicionamiento SEO",
+                "item": "https://evanzu.com/new_evanzu/marketing-digital/#seo"  
+              },{
+                "@type": "ListItem", 
+                "position": 4, 
+                "name": "Growth hacking",
+                "item": "https://evanzu.com/new_evanzu/marketing-digital/#growth_hacking"  
+              },{
+                "@type": "ListItem", 
+                "position": 5, 
+                "name": "Marketing de contenidos",
+                "item": "https://evanzu.com/new_evanzu/marketing-digital/#marketing_contenidos"  
+              }]
+            }
+            </script>'
                    ));
 $directory_imgs =
     get_template_directory_uri() . '/assets/images/marketing-digital/';
