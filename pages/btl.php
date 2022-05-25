@@ -2,7 +2,7 @@
 /* 
     Template Name: BTL
 */
-get_header();
+get_header('', array( 'title' => 'Agencia btl, activaciones, eventos corporativos, ventas, anfitrionas','description' => 'Agencia de activaciones y juegos btl, organización de eventos corporativos, servicio de fuerza de ventas y anfitrionaje, gestión de relaciones públicas', 'keywords' => ''));
 
 $path_img = get_template_directory_uri() . '/assets/images/btl/';
 ?>

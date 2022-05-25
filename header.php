@@ -2,10 +2,16 @@
 <!DOCTYPE html>
 <html lang="es">
  
-<head>
- 
+<head>     
+   <title> <?php echo isset($args["title"]) ? $args['title'] : "Evanzu Agencia de marketing digital, publicidad, BTL y desarrollo web";?></title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="<?php echo isset($args['description']) ? $args['description']: "Somos una agencia de marketing digital, branding & diseño, producción audiovisual, BTL & comunicación, desarrollo y software."; ?>"/>
+   <meta name="keywords" content="<?php echo isset($args['keywords']) ? $args['keywords'] : " " ?>" />
+   <meta name="author" content="evanzu.com"/>
+   <?php echo isset($args['richsnippets']) ? $args['richsnippets'] : "sin data " ?>
+  
+
 </head>
 
 <style>

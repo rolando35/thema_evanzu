@@ -2,8 +2,11 @@
 /* 
     Template Name: Marketing
 */
-
-get_header();
+get_header('', array( 'title' => 'Agencia de marketing digital, gestión redes sociales, posicionamiento',
+                   'description' => 'Agencia de gestión de redes sociales, publicidad en plataformas digitales, posicionamiento SEO y contenidos varios para lanzamientos y promoción de productos y servicios', 
+                    'keywords' => 'aqui los keywords',
+                     'richsnippets' => 'protagonista'
+                   ));
 $directory_imgs =
     get_template_directory_uri() . '/assets/images/marketing-digital/';
 $path_img = get_template_directory_uri() . '/assets/images/btl/';

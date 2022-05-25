@@ -3,7 +3,7 @@
     Template Name: AudioVisual
 */
 $transparentNone = true;
-get_header();
+get_header('', array( 'title' => 'Agencia de producción audiovisual, spots publicitarios, animación 2D','description' => 'Agencia de producción audiovisual, spots publicitarios para radio, tv, web, proyectos de animación 2D, video institucional y fotografía profesional', 'keywords' => ''));
 $directory_imgs = get_template_directory_uri() . '/assets/images/audioVisual/';
 ?>
 <style>
