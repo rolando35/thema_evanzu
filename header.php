@@ -35,7 +35,7 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
       <div class="d-none d-lg-block">
       <a href="<?php echo home_url(); ?>">
        <img
-					src="<?php echo $path_header; ?>logo-evanzu.svg"
+					src="<?php echo $path_header; ?>logo-evanz.svg"
 					alt="loguito"
 				/>
       </a>

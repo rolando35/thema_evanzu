@@ -433,7 +433,7 @@
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   position: relative;
 }
 .video-responsive iframe,
@@ -963,6 +963,10 @@
 .home-banner-text {
   font-family: running-text;
   font-size: 38px;
+}
+
+.h-12 {
+  height: 12rem;
 }
 
 .home-text-yellow {

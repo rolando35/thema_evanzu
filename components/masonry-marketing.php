@@ -94,8 +94,8 @@
         <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GOOGLE ADWORDS</h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>Evanzu</p>
+            <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>Petroperú</p>
           </div>
           <!-- Texts hover -->
         <img class="img-fluid responsive-masonry-image hover-masonry-image" src="<?php echo get_option('marketing')[
@@ -106,8 +106,8 @@
       <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
         <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GOOGLE ADWORDS</h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>Evanzu</p>
+            <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">EMAIL MARKETING</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>COVENDE</p>
           </div>
           <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('marketing')['galeria-image-nine']; ?>">

@@ -116,11 +116,13 @@
       <div class="video-responsive hover-div-invert">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover ml-4 fixed-bottom'>
-      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">MAKING OF - HAY MANERAS Y MANERAS DE VIAJAR</p>
-      <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>Agentes BBVA</p>
+      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">CAMPAÑA UCPP</p>
+      <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>PETROPERÚ</p>
     </div>
     <!-- Texts hover -->
-    <iframe class="responsive-masonry-image hover-video-invert" width="560" height="315" src="https://www.youtube.com/embed/Aeo_2KpzHYQ" title="Servicio producción audiovisual para Hay maneras de viajar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
+          <source src="<?php echo get_template_directory_uri() ?>/assets/video/Petroperú Campaña UCPP.mp4" type="video/mp4">
+      </video>
       </div>
     </div>
   </div>
@@ -130,23 +132,26 @@
       <div class="video-responsive hover-div-invert">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover ml-4 fixed-bottom'>
-      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">MAKING OF - DÍA DE LA MADRE</p>
-      <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>Caja Huancayo</p>
+      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">CAMPAÑA TALARA</p>
+      <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>PETROPERÚ</p>
     </div>
     <!-- Texts hover -->
-    <iframe class="responsive-masonry-image hover-video-invert" width="560" height="315" src="https://www.youtube.com/embed/bQXYZ7YIp_8" title="Servicio producción audiovisual para el día de la madre Caja Huancayo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
+          <source src="<?php echo get_template_directory_uri() ?>/assets/video/Petroperú Campaña Talara.mp4" type="video/mp4">
+      </video>
       </div>
     </div>
     <div class="col-12 col-md-6">
       <div class="video-responsive hover-div-invert">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover ml-4 fixed-bottom'>
-      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">MAKING OF - GIROS NACIONALES</p>
-      <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>Agentes BBVA</p>
+      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">ACTIVACIÓN - Feria Nexo Inmobiliario</p>
+      <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>BBVA</p>
     </div>
     <!-- Texts hover -->
-    <iframe class="responsive-masonry-image hover-video-invert" width="560" height="315" src="https://www.youtube.com/embed/NanhlgN40SQ" title="Servicio producción audiovisual para giros nacionales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
+          <source src="<?php echo get_template_directory_uri() ?>/assets/video/_BBVA Continental - Stand de atención al cliente en la Feria Nexo Inmobiliario.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
 

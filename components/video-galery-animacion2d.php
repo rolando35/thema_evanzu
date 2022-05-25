@@ -145,4 +145,34 @@
     <!-- Texts hover -->
   <iframe class="responsive-masonry-image hover-video-invert" width="560" height="315" src="https://www.youtube.com/embed/M7h_bj6YVwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
+  <!-------------- Two Iframes -------------->
+  <div class="row py-4">
+    <div class="col-12 col-md-6">
+      <div class="video-responsive hover-div-invert">
+    <!-- Texts hover -->
+    <div class='position-absolute lirycs-hover ml-4 fixed-bottom'>
+      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">PROCESO DE EXPLOTACIÓN Y EXTRACCIÓN DEL PETRÓLEO</p>
+      <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>PETROPERÚ</p>
+    </div>
+    <!-- Texts hover -->
+      <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
+          <source src="<?php echo get_template_directory_uri() ?>/assets/video/Petroperú Combustible.mp4" type="video/mp4">
+      </video>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="video-responsive hover-div-invert">
+    <!-- Texts hover -->
+    <div class='position-absolute lirycs-hover ml-4 fixed-bottom'>
+      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">CONSEJOS PARA VIDEOLLAMADAS EN TEAMS</p>
+      <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>PETROPERÚ</p>
+    </div>
+    <!-- Texts hover -->
+      <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
+          <source src="<?php echo get_template_directory_uri() ?>/assets/video/Petroperú TEAMS.mp4" type="video/mp4">
+      </video>
+      </div>
+    </div>
+  </div>
+  <!-------------- Two Iframes -------------->
 </div>

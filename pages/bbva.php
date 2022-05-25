@@ -75,7 +75,7 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		<!---------------images-------------->
 		<div class="row">
 			<div class="col-md-8 p-1 m-0 p-md-2">
-				<img src="<?php echo $path_img?>Portada-BBVA.jpg" title="Poster BBVA desvinculacióon Kasnet" alt="Poster del BBVA en exterioor" class="w-100 h-100" />
+				<img src="<?php echo $path_img?>Portada-BBVA 1.png" title="Poster BBVA desvinculacióon Kasnet" alt="Poster del BBVA en exterioor" class="w-100 h-100" />
 			</div>
 			<div class="col-md-4 p-1 m-0 p-md-2">
 				<img
@@ -103,7 +103,7 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Poster-Campana-escolar.jpg"
+					src="<?php echo $path_img?>Poster-Campaña-escolar 1.png"
 					title="Poster campaña escolar BBVA"
 					alt="Diseño y fotografía para el post de Campaña Escolar BBVA"
 					class="w-100 h-100"
@@ -127,7 +127,7 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Poster-Agente-BBVA.jpg"
+					src="<?php echo $path_img?>Poster-Agente-BBVA.png"
 					title="Poster Agente BBVA"
 					alt="Diseño de poster Agente BBVA"
 					class="w-100 h-100"
