@@ -411,6 +411,10 @@
   line-height: 25px;
 }
 
+#footer-social-text {
+  font-size: 24.17px;
+}
+
 .navbar-dark .navbar-nav .nav-link a {
   color: white;
   text-decoration: none;
