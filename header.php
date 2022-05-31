@@ -9,14 +9,13 @@
    <meta name="description" content="<?php echo isset($args['description']) ? $args['description']: "Somos una agencia de marketing digital, branding & diseño, producción audiovisual, BTL & comunicación, desarrollo y software."; ?>"/>
    <meta name="keywords" content="<?php echo isset($args['keywords']) ? $args['keywords'] : " " ?>" />
    <meta name="author" content="evanzu.com"/>
-   <?php echo isset($args['richsnippets']) ? $args['richsnippets'] : "sin data " ?>
-  
-
+   <?php echo isset($args['richsnippets']) ? $args['richsnippets'] : " " ?>
 </head>
 
 <style>
   .nav-colors {
     background: #ED1164;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .mt-n1-6{ 
     margin-top: 0;
@@ -88,9 +87,8 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
 
     </div>
   </nav>
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+          
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
  $(document).ready(function () {
 $("ul > li button").click(function () {
