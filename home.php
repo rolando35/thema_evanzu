@@ -80,29 +80,9 @@ Template Name: Home
                         data-dismiss="modal" 
                         data-backdrop="false"
                         >
-                    <!-- <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
-                    </svg> -->
-                        <?xml version="1.0" encoding="utf-8"?>
-                        <!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            viewBox="0 0 100 537" style="enable-background:new 0 0 100 537;" xml:space="preserve">
-                        <style type="text/css">
-                            .st0{fill:#ED1164;}
-                        </style>
-                        <g>
-                            
-                                <image style="overflow:visible;opacity:0.26;" width="103" height="539" xlink:href="A4DFE8EE884CC308.png"  transform="matrix(1 0 0 1 10 7)">
-                            </image>
-                            <g>
-                                <g>
-                                    <path class="st0" d="M100,15v508.7c-13.5,0-25.2-9.4-28-22.6l-37.2-172c-8.5-39.4-8.5-80.1,0-119.5L72,37.6
-                                        C74.8,24.4,86.5,15,100,15z"/>
-                                </g>
-                            </g>
-                        </g>
-                        </svg>
-                        
+                    </svg> 
 
                     <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
                         <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
