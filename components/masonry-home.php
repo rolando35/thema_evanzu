@@ -13,7 +13,7 @@
       </div>
       <div>
       <div class="">
-        <div class=" justify-content-center ">
+        <div class=" justify-content-center mb-1">
             <!------------------------- Hover-image ------------------------->
             <div class="m-1 d-flex justify-content-center align-items-center hover-image ">
               <!-- Texts hover -->
@@ -37,7 +37,7 @@
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-four"]; ?>">
             </div> -->
         </div>
-        <div class="justify-content-center">
+        <div class="justify-content-center mt-1">
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
@@ -129,8 +129,8 @@
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-eleven"]; ?>">
             </div>
           </div>     
-        <div class="m-2 d-flex justify-content-center align-items-center hover-image">
-          <div>
+        <div class="m-2 d-flex align-items-center ">
+          <div class="d-flex m-2 justify-content-center  hover-image mr-1">
             <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs'>
                 <h6 class="small font-weight-normal text-light">-- PRODUCCIÓN AUDIOVISUAL --</h6>
@@ -140,7 +140,7 @@
               <!-- Texts hover -->  
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-twelve"]; ?>">
           </div>
-           <div>
+           <div class="ml-1">
               <div class="text-center d-flex justify-content-center align-items-center hover-image">
                   <div class='position-absolute masonry-hover-lirycs'>
                   <h6 class="small font-weight-normal text-light mb-3">-- ACTIVACIONES BTL --</h6>
