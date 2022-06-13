@@ -129,7 +129,7 @@
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-eleven"]; ?>">
             </div>
           </div>     
-        <div class="m-2 d-flex align-items-center ">
+        <div class="d-md-flex justify-content-center flex-md-row">
           <div class="d-flex m-2 justify-content-center  hover-image mr-1">
             <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs'>
