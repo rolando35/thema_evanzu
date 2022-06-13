@@ -12,7 +12,7 @@
         <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-one"]; ?>">
       </div>
       <div>
-        <div class="d-md-flex  flex-md-row">
+      <div class="">
         <div class=" justify-content-center ">
             <!------------------------- Hover-image ------------------------->
             <div class="m-1 d-flex justify-content-center align-items-center hover-image ">
