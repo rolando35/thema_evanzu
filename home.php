@@ -185,20 +185,59 @@ Template Name: Home
 <section>
     <div id="box-masonry">
         <div class="text-red text-center big-title  mt-3">
-        Portafolio
+        Portafolio 360&#176
         </div>
-         <div class="text-center mb-4">
-                Conoce nuestro trabajo con estas marcas líderes en el mercado.
-         </div>
+         
 
               <!-------------------- Clients -------------------->
         <section class="bg-smooth-gray p-4 mb-3">  
             
-        
+        <div class="text-center mb-4">
+                Grandes campañas para grandes clientes, <span class="text-red"><b>hazme click.</b></span> 
+         </div>
 
         <!-- partial:index.partial.html -->
-        
-            <div class="slider container px-5">
+            
+             <div class="container px-5">
+                 <div class="d-flex justify-content-center">
+                     <div class="mx-2">
+                            <a  href="bbva"> 
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
+                            </a>
+                     </div>
+                     <div class="mx-2">
+                            <a  href="petro-peru"> 
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-PETROPERU.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu PETRO PERU">
+                            </a>
+                     </div>
+                     <div class="mx-2">
+                         <a  href="betfair">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-BETFAIR.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
+                            </a>
+                     </div>
+                 </div>
+
+                  <div class="d-flex justify-content-center my-2">
+                    
+                     <div class="mx-2">
+                            <a  href="artecola">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
+                            </a>
+                     </div>
+                     <div class="mx-2">
+                          <a href="aesa">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
+                         </a>
+                     </div>
+                       <div class="mx-2">
+                           <a href="bmatic">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
+                            </a>
+                     </div>
+                 </div>
+             </div>    
+
+            <!--div class="slider container px-5">
                 <div class="slide-track">
                         <div class="slide">
                             <a  href="bbva"> 
@@ -226,60 +265,8 @@ Template Name: Home
                             </a>
                         </div>
 
-
-                        <div class="slide">
-                            <a  href="bbva"> 
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a  href="artecola">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a  href="betfair">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a href="bmatic">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu bmatic">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a href="aesa">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente evanzu AESA">
-                            </a>
-                        </div>      
-                        
-                        <div class="slide">
-                            <a  href="bbva"> 
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente evanzu BBVA">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a  href="artecola">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente evanzu ArteCola">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a  href="betfair">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" class="img-fluid mx-auto d-block" alt="Cliente evanzu Betfair">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a href="bmatic">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente evanzu BMatic">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a href="aesa">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente evanzu AESA">
-                            </a>
-                        </div>
                 </div>
-            </div>
+            </div-->
 <!-- partial -->
                              
            
@@ -287,6 +274,9 @@ Template Name: Home
             <!-------------------- Clients -------------------->
          
         <div> 
+             <div class="text-center mb-4">
+               Lo que creamos para otros clientes
+             </div>
               	<!------------------Portafolio-------------------->
 				<?php get_template_part('components/masonry-home'); ?>
 				<!------------------Portafolio-------------------->

@@ -20,6 +20,9 @@
   background: #dd317280;
   background-blend-mode: multiply;
 }
+.bg-granate {
+  background-color: #ce0350;
+}
 
 .bg-gray {
   background-color: #595958;
@@ -413,6 +416,12 @@
 
 #footer-social-text {
   font-size: 24.17px;
+}
+
+#footer-box-directions {
+  border: 2px dashed white;
+  padding: 0 2%;
+  border-radius: 12px;
 }
 
 .navbar-dark .navbar-nav .nav-link a {

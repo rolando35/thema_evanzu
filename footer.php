@@ -16,9 +16,9 @@
         
                   
 
-          <div class="m-n4 pl-5 d-flex justify-content-center flex-column">
+          <div class="mt-n4 ml-5 pl-5 d-flex justify-content-center flex-column">
             <?php get_template_part('components/footer-list-link', 'full', [
-                  'title' => 'Desarrollo & Software',
+                  'title' => 'Desarrollo & <br> Software',
                   'list' => [
                     'Tiendas virtuales',
                     'Páginas web',
@@ -57,9 +57,9 @@
               '/evanzu_work/marketing-digital'
             ]
         ]); ?>
-
+        <div class="my-5"></div>
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Producción Audiovisual',
+            'title' => 'Producción <br> Audiovisual',
             'list' => [
               'Spots & Videos',
               'Animación 2D',
@@ -95,7 +95,7 @@
               '/evanzu_work/branding-diseno/'
             ]
         ]); ?>
-
+         <div class="my-5"></div>
         <?php get_template_part('components/footer-list-link', 'full', [
             'title' => 'BTL & comunicación',
             'list' => [
@@ -117,15 +117,15 @@
         <!----------------- Column ----------------->
         
         <!----------------- Column ----------------->
-        <div class="col-sm-3 col-12">
-
-        <?php get_template_part('components/box-footer-text', 'full', [
+        <div id="footer-box-directions" class="col-sm-3 col-12">
+        <div  class="text-light hurme-semi-bold-4 mt-3" style="font-size: 24.17px;"> Nuestras sedes</div>
+        <!-- <?php get_template_part('components/box-footer-text', 'full', [
             'title' => 'Nuestras sedes',
             'description' => '',
-        ]); ?>
+        ]); ?> -->
 
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Lima <a class="font-weight-light text-light undeline" href="#"></a>',
+            'title' => 'Lima <a class="font-weight-light text-light undeline" href="#">MAPA</a>',
             'list' => [
               '<svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.67911 20.5497C8.52529 20.5497 8.36047 20.4838 8.23962 20.363L2.83423 14.9576C-0.384847 11.7385 -0.384847 6.4869 2.83423 3.26782C6.0533 0.048747 11.3049 0.048747 14.524 3.26782C17.7431 6.4869 17.7431 11.7385 14.524 14.9576L9.1186 20.363C8.99774 20.4948 8.83292 20.5497 8.67911 20.5497ZM8.67911 2.10324C6.8773 2.10324 5.08647 2.78441 3.71314 4.15773C0.977478 6.8934 0.977478 11.3539 3.71314 14.0896L8.67911 19.0556L13.6451 14.0896C16.3807 11.3539 16.3807 6.8934 13.6451 4.15773C12.2717 2.78441 10.4699 2.10324 8.67911 2.10324Z" fill="white"/>
@@ -152,7 +152,7 @@
         ]); ?>
 
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Huancayo <a class="font-weight-light text-light undeline" href="#"></a>',
+            'title' => 'Huancayo <a class="font-weight-light text-light undeline" href="#">MAPA</a>',
             'list' => [
               '<svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.67911 20.5497C8.52529 20.5497 8.36047 20.4838 8.23962 20.363L2.83423 14.9576C-0.384847 11.7385 -0.384847 6.4869 2.83423 3.26782C6.0533 0.048747 11.3049 0.048747 14.524 3.26782C17.7431 6.4869 17.7431 11.7385 14.524 14.9576L9.1186 20.363C8.99774 20.4948 8.83292 20.5497 8.67911 20.5497ZM8.67911 2.10324C6.8773 2.10324 5.08647 2.78441 3.71314 4.15773C0.977478 6.8934 0.977478 11.3539 3.71314 14.0896L8.67911 19.0556L13.6451 14.0896C16.3807 11.3539 16.3807 6.8934 13.6451 4.15773C12.2717 2.78441 10.4699 2.10324 8.67911 2.10324Z" fill="white"/>
@@ -178,15 +178,15 @@
             'href' => ['', '', '']
         ]); ?>
 
-        <div class="mt-5">
-          <h2 id="footer-social-text" class="text-light font-weight-bold">Redes sociales</h2>
+        <div class="my-3">
+          <h2 id="footer-social-text" class="text-light hurme-semi-bold-4">Redes sociales</h2>
           <div class="d-flex justify-content-between w-50">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/tiktok.png">
+           <a>  <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg"> </a> 
+           
+            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg">
+            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
+            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
+            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tiktok.png">
             
           </div>
         </div>
@@ -195,9 +195,9 @@
       </div>
     </div>
   </div>
-  <div class="bg-garnet text-center py-3 text-white">
+  <div class="bg-granate text-center py-3 text-white">
     <div class="footer-text">Evanzu - Agencia de Marketing y Publicidad - Lima/Perú</div>
-    <div>Copyright &copy; <?php bloginfo('name');
+    <div> Todos los derechos reservados - ©   Copyright &copy; <?php bloginfo('name');
                           echo ' ' . date('Y'); ?> </div>
   </div>
   <!-- /.container -->
