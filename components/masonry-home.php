@@ -130,16 +130,18 @@
             </div>
           </div>     
         <div class="d-md-flex justify-content-center flex-md-row">
-          <div class="d-flex m-2 justify-content-center  hover-image mr-1">
-            <!-- Texts hover -->
-              <div class='position-absolute masonry-hover-lirycs'>
-                <h6 class="small font-weight-normal text-light">-- PRODUCCIÓN AUDIOVISUAL --</h6>
-                <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>Caja Huancayo</p>
-                <a class="text-red font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://youtu.be/_l2wKC9ECdk">https://youtu.be/_l2wKC9ECdk</a>
+          <div class="mr-1">
+              <div class="text-center d-flex justify-content-center align-items-center hover-image">
+                <!-- Texts hover -->
+                  <div class='position-absolute masonry-hover-lirycs'>
+                    <h6 class="small font-weight-normal text-light">-- PRODUCCIÓN AUDIOVISUAL --</h6>
+                    <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>Caja Huancayo</p>
+                    <a class="text-red font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://youtu.be/_l2wKC9ECdk">https://youtu.be/_l2wKC9ECdk</a>
+                  </div>
+                  <!-- Texts hover -->  
+                  <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-twelve"]; ?>">
               </div>
-              <!-- Texts hover -->  
-              <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-twelve"]; ?>">
-          </div>
+           </div>
            <div class="ml-1">
               <div class="text-center d-flex justify-content-center align-items-center hover-image">
                   <div class='position-absolute masonry-hover-lirycs'>
