@@ -15,7 +15,10 @@
     margin: 0 0 0 auto;
   }
 
-  .mt-5c {
+  .image-postula {
+    width: 60rem ;
+  }
+   {
     margin-top: 5rem;
   }
 
@@ -68,7 +71,9 @@ label[for="file"] {
     .h-30 {
       height: 30rem;
     }
-
+    .image-postula {
+    width: auto !important;
+  }
   }
   
 @media only screen and (min-height: 750px) {
@@ -89,7 +94,7 @@ label[for="file"] {
       <div class="modal-body bg-yellow py-5" style="width: 100%;">
         <div class=" w-100 h-100">
           <div class="px-5 d-block d-lg-flex w-100">
-            <div class="col-12 col-lg-7 px-5" style="z-index: 2">
+            <div class="col-12 col-lg-7 px-0 px-lg-5 " style="z-index: 2">
               <h2 class="text-light " style="font-weight: 900; font-size: 50px;">Queremos conocer tu perfil</h2>
               <h5 class="text-light font-weight-light"><i>Déjanos tus datos y te contactarémos</i></h5>
               <form id="postulation" action="" class="text-left mr-5 pr-5" method="post">
@@ -162,7 +167,7 @@ label[for="file"] {
             <div class="col-12 col-lg-5 ">
               <img class="position-absolute d-none d-lg-block mt-n1-19" style="max-width: none; margin-left: -7rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-form-postula.svg">
               <div class="position-absolute d-block text-center bg-white-transparent" style="margin-left: -34rem">
-                <img style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/form-postula.png">
+                <img class="image-postula" style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/form-postula.png">
               </div>
 
               <div class="d-flex h-100 align-items-center justify-content-end" style="margin-right: -2rem;">

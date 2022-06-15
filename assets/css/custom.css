@@ -1119,6 +1119,10 @@
   display: none;
 }
 
+.b-0 {
+  bottom: 0 !important;
+}
+
 .masonry-hover-lirycs {
   display: none;
 }

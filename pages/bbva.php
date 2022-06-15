@@ -117,9 +117,9 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 					class="w-100 h-100"
 				/>
 			</div>
-			<div class="col-md-6 p-1 m-0 p-md-2">
+			<!-- <div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Sticker-Giros.jpg"
+					src="<?php // echo $path_img?>Sticker-Giros.jpg"
 					title="Diseño de sticker Giros"
 					alt="Diseño de estiker giros BBVA"
 					class="w-100 h-100"
@@ -127,12 +127,12 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Poster-Agente-BBVA.png"
+					src="<?php // echo $path_img?>Poster-Agente-BBVA.png"
 					title="Poster Agente BBVA"
 					alt="Diseño de poster Agente BBVA"
 					class="w-100 h-100"
 				/>
-			</div>
+			</div> -->
 		</div>
 		<!---------------images-------------->
 
@@ -226,35 +226,48 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 		>
 			<a class="p-1" href="bbva">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png"
+					src="<?php echo get_template_directory_uri() .
+         '/assets/images/clients/'; ?>BBVA-small.png"
+					class="img-fluid"
+				/>
+			</a>
+
+			<a class="p-1" href="#">
+				<img
+					src="<?php echo get_template_directory_uri() .
+         '/assets/images/clients/'; ?>PetroPeru-small.png"
 					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="artecola">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"
+					src="<?php echo get_template_directory_uri() .
+         '/assets/images/clients/'; ?>Artecola-small.png"
 					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="betfair">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png"
+					src="<?php echo get_template_directory_uri() .
+         '/assets/images/clients/'; ?>Betfair-small.png"
 					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="bmatic">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"
+					src="<?php echo get_template_directory_uri() .
+         '/assets/images/clients/'; ?>BMatic-small.png"
 					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="aesa">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png"
+					src="<?php echo get_template_directory_uri() .
+         '/assets/images/clients/'; ?>AESA-small.png"
 					class="img-fluid"
 				/>
 			</a>
