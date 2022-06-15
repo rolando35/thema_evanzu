@@ -82,7 +82,8 @@ Template Name: Home
                         >
                     <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
-                    </svg>
+                    </svg> 
+
                     <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
                         <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
                         <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
@@ -94,7 +95,7 @@ Template Name: Home
         </div>    
     <!--------------------- Button Modal ---------------------> 
    
-    <video autoplay muted loop id="myVideo" class="position-relative mt-5c">
+    <video autoplay muted loop id="myVideo" class="position-relative mt-n1">
         <source src="<?php echo get_template_directory_uri() ?>/assets/video/evanzu.mp4" type="video/mp4">
     </video>
 </section>
@@ -184,82 +185,98 @@ Template Name: Home
 <section>
     <div id="box-masonry">
         <div class="text-red text-center big-title  mt-3">
-        Portafolio
+        Portafolio 360&#176
         </div>
-         <div class="text-center mb-4">
-                Conoce nuestro trabajo con estas marcas líderes en el mercado.
-         </div>
+         
 
               <!-------------------- Clients -------------------->
-            <section class="bg-smooth-gray p-4 mb-3">
-               
-            <div class="top-content container">
-                <div class="container-fluid">
-                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner row w-100 mx-auto" role="listbox">
-                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-                                <a  href="bbva"> 
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png"  class="img-fluid mx-auto d-block" alt="img1">
-                                </a>
-                            </div>
-                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <a  href="artecola-2">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="img2">
-                                </a>
-                            </div>
-                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                  <a  href="betfair">
-                                   <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" class="img-fluid mx-auto d-block" alt="img3">
-                                  </a>
-                             </div>
-                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                               <a href="bmatic">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="img4">
-                                </a>
-                            </div>
-                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                               <a href="aesa">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="img5">
-                               </a>
-                            </div>
-                           
+        <section class="bg-smooth-gray p-4 mb-3">  
+            
+        <div class="text-center mb-4">
+                Grandes campañas para grandes clientes, <span class="text-red"><b>hazme click.</b></span> 
+         </div>
+
+        <!-- partial:index.partial.html -->
+            
+             <div class="container px-5">
+                 <div class="d-flex justify-content-center">
+                     <div class="mx-2">
+                            <a  href="bbva"> 
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
+                            </a>
+                     </div>
+                     <div class="mx-2">
+                            <a  href="petro-peru"> 
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-PETROPERU.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu PETRO PERU">
+                            </a>
+                     </div>
+                     <div class="mx-2">
+                         <a  href="betfair">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-BETFAIR.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
+                            </a>
+                     </div>
+                 </div>
+
+                  <div class="d-flex justify-content-center my-2">
+                    
+                     <div class="mx-2">
+                            <a  href="artecola">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
+                            </a>
+                     </div>
+                     <div class="mx-2">
+                          <a href="aesa">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
+                         </a>
+                     </div>
+                       <div class="mx-2">
+                           <a href="bmatic">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
+                            </a>
+                     </div>
+                 </div>
+             </div>    
+
+            <!--div class="slider container px-5">
+                <div class="slide-track">
+                        <div class="slide">
+                            <a  href="bbva"> 
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
+                            </a>
                         </div>
-                        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+                        <div class="slide">
+                            <a  href="artecola">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a  href="betfair">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="bmatic">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="aesa">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
+                            </a>
+                        </div>
+
                 </div>
-            </div>
-            </section>
+            </div-->
+<!-- partial -->
+                             
+           
+        </section>
             <!-------------------- Clients -------------------->
-
-
-        <!-- <div class="ladrillo mx-auto w-75">
-           
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-one"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-fifteen"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-two"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-three"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-four_new"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-five"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-six"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-seven"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-eight"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-nine"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-teen"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-eleven"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-twelve"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-thirteen"]; ?>">
-            <img class="banner" src="<?php echo get_option("evanzu")["galleri-image-fourteen"]; ?>">
-           
-        </div> -->
          
         <div> 
+             <div class="text-center mb-4">
+               Lo que creamos para otros clientes
+             </div>
               	<!------------------Portafolio-------------------->
 				<?php get_template_part('components/masonry-home'); ?>
 				<!------------------Portafolio-------------------->
@@ -438,11 +455,6 @@ Template Name: Home
             El mejor <span class="text-uppercase">match</span>
              </div> 
             
-           
-            <div class="mb-4 mx-auto w-50">
-                Trabajamos con start-ups, micro y pequeñas empresas, marcas líderes y organizaciones gubernamentales.
-            </div>
-
         </div>
 
 
@@ -453,142 +465,119 @@ Template Name: Home
 
              <div class="container">
                    <div class="top-content pb-5">
-                        <div class="container-fluid">
-                            <div id="carousel-logos" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner row w-100 mx-auto" role="listbox">
-
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                      
+                               <div class="d-flex justify-content-center my-4 flex-md-row" >
+                                    <div class="">
                                         <a  href="https://www.bbva.pe/">
                                         <img class="w-50" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>BBVA.svg" class="img-fluid mx-auto d-block" alt="bbva">
                                         </a>
                                     </div>
                                     
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="">
                                         <a  href="https://www.betfair.com/pe">
                                         <img class="w-50" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>betfair.svg" class="img-fluid mx-auto d-block" alt="Betfair">
                                         </a>
                                     </div>
 
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                                    <div class="mx-2">
                                         <a  href="https://www.petroperu.com.pe"> 
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>petroperu.svg"  class="img-fluid mx-auto d-block" alt="Petro Peru">
                                         </a>
                                     </div>
 
-                                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                     <div class="mx-4">
                                         <a  href="https://www.bancomercio.com/elbanco">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>banco_comercio.svg"  class="img-fluid mx-auto d-block" alt="Banco de comercio">
                                         </a>
                                     </div>
 
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="mx-4">
                                         <a  href="https://www.cofide.com.pe/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>cofide.svg"  class="img-fluid mx-auto d-block" alt="Cofide">
                                         </a>
                                     </div>
 
-                                  <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                   <div class="">
                                         <a  href="https://indriver.com/es/city">
-                                        <img class="w-50" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>indriver.svg" class="img-fluid mx-auto d-block" alt="Indriver">
+                                        <img class="w-70" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>indriver.svg" class="img-fluid mx-auto d-block" alt="Indriver">
                                         </a>
                                     </div>
-                                       
-                                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                </div>  
+                                  
+                                  
+                                <div class="d-flex justify-content-center my-4 flex-md-row"> 
+                                     <div class="mx-1">
                                        <a href="https://www.gob.pe/mtc">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>ministeriotransportes.svg"  class="img-fluid mx-auto d-block" alt="Ministerio de transportes y comunicaciones">
                                         </a>
                                     </div>
                                    
-                                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                     <div class="mx-2">
                                        <a href="https://www.pichincha.pe/">
                                         <img src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>banco_pichincha.svg"  class="img-fluid mx-auto d-block" alt="Banco pichincha">
                                         </a>
                                     </div>
                                    
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="mx-2">
                                         <a  href="https://www.cajahuancayo.com.pe/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>cajahuancayo.svg" class="img-fluid mx-auto d-block" alt="Caja Huancayo">
                                         </a>
                                     </div>
 
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="mx-2">
                                     <a href="https://www.hiper.com.pe/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>hiper.svg" class="img-fluid mx-auto d-block" alt="Hiper">
                                     </a>
                                     </div>
 
-                                   <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                   <div class="mx-1">
                                     <a href="https://www.bmatic.com.pe/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>bmatic.png" class="img-fluid mx-auto d-block" alt="Bmatic">
                                     </a>
                                     </div>
 
 
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="mx-1">
                                         <a  href="https://mibim.pe/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>Bim.svg" class="img-fluid mx-auto d-block" alt="Bim">
                                         </a>
                                     </div>
-                                
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                </div>
+
+                                 <div class="d-flex justify-content-center my-4 flex-md-row"> 
+                                    <div class="mx-2">
                                         <a  href="https://www.paraiso-peru.com/"> 
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>paraiso.svg" class="img-fluid mx-auto d-block" alt="Paraiso">
                                         </a>
                                     </div>
 
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="mx-2">
                                         <a href="https://www.cruzdelsur.com.pe/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>cruzdelsur.svg" class="img-fluid mx-auto d-block" alt="Cruz del sur">
                                         </a>
                                     </div>
 
                                 
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="mx-3">
                                         <a  href="https://www.mivivienda.com.pe/PortalWEB/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>mivivienda.svg" class="img-fluid mx-auto d-block" alt="Mi vivienda">
                                         </a>
                                     </div>
                                     
-                                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                     <div class="mx-3">
                                         <a  href="https://www.sath.gob.pe/">
                                         <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>sath.svg" class="img-fluid mx-auto d-block" alt="Sath Huancayo">
                                         </a>
                                     </div>
                                         
                                          
-                                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                     <div class="mx-3">
                                         <a  href="https://www.munlima.gob.pe/">
                                         <img src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>muni_lima.svg" class="img-fluid mx-auto d-block" alt="Municipalidad de Lima">
                                         </a>
                                      </div>
-
-                                      
-                                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                        <a  href="http://drtcjunin.gob.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>DRTC.svg" class="img-fluid mx-auto d-block" alt="Dirección regional de transporter y Comunicaciones">
-                                        </a>
-                                    </div>
-
-                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                        <a  href="https://www.magnesol.pe/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>magnesol.svg" class="img-fluid mx-auto d-block" alt="Magnesol">
-                                        </a>
-                                    </div>
-
-                                 
-
-
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-logos" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon text-red" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-logos" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon text-red" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
+                                </div>         
+                       
                     </div>
              </div>    
 

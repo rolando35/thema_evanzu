@@ -20,6 +20,9 @@
   background: #dd317280;
   background-blend-mode: multiply;
 }
+.bg-granate {
+  background-color: #ce0350;
+}
 
 .bg-gray {
   background-color: #595958;
@@ -411,6 +414,16 @@
   line-height: 25px;
 }
 
+#footer-social-text {
+  font-size: 24.17px;
+}
+
+#footer-box-directions {
+  border: 2px dashed white;
+  padding: 0 2%;
+  border-radius: 12px;
+}
+
 .navbar-dark .navbar-nav .nav-link a {
   color: white;
   text-decoration: none;
@@ -491,6 +504,12 @@
 	background-position-x: 52%;
 	background-size: 49%;
 } */
+
+.shadow {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  /* Similar syntax to box-shadow */
+}
 
 #icon-pink-background {
   width: 701px;

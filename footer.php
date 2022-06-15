@@ -1,28 +1,24 @@
 <!-- Footer -->
+<?php $path_header = get_template_directory_uri() . '/assets/images/'; ?>
 <footer class="bg-red">
   <div class="py-5">
     <div class="mx-5">
       <div class="row">
         <!----------------- Column ----------------->
         <div class="col-sm-3 col-12">
-        <svg width="187" height="104" viewBox="0 0 187 104" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M81.3721 44.5627C72.2796 34.3673 57.0282 43.5769 57.4212 56.5811C57.8413 70.1795 71.4123 77.7417 80.3626 68.9304C80.7691 68.532 81.0537 68.2079 81.284 67.9716L81.2705 72.4414H89.4416V40.3495H81.3924L81.3721 44.5627ZM81.3179 58.681C80.4236 63.117 77.1443 66.0811 73.2213 66.1959C68.6006 66.3309 64.847 61.9354 64.847 56.6824C64.847 51.4496 68.5802 47.0879 73.2078 46.9461C77.1782 46.8313 80.4642 49.4646 81.3382 53.8803L81.3179 58.681Z" fill="white"/>
-      <path d="M77.9573 5.50293L8.74023 38.2295L35.1032 35.0831L77.9573 5.50293Z" fill="white"/>
-      <path d="M43.1658 58.8904L50.8626 36.0891L79.0685 5.14502L36.1465 36.1229L43.1658 58.8904Z" fill="white"/>
-      <path d="M79.7528 5.10449L52.4888 35.7785L74.2174 38.1147L79.7528 5.10449Z" fill="white"/>
-      <path d="M126.882 46.6219C126.896 47.4794 127.248 47.6482 128.881 47.5942H143.638L135.487 56.3852L128.413 64.1702C127.458 65.1965 126.571 66.243 126.591 67.8635V72.394H150.786C151.721 72.3805 152.629 72.3805 153.496 72.394V66.1485C153.462 65.291 153.13 65.1222 151.497 65.156H136.727L144.878 56.3785L151.971 48.5935C152.906 47.5672 153.794 46.5206 153.794 44.9002V40.3696H129.606C128.671 40.3899 127.763 40.3899 126.896 40.3696V46.6219H126.882Z" fill="white"/>
-      <path d="M178.829 40.3496V61.4561C175.773 64.1097 172.785 65.8854 169.269 65.8854C165.481 65.8854 163.95 64.1029 163.95 60.5784V40.3496H155.786V62.6715C155.786 69.2951 159.783 72.455 166.213 72.455C171.979 72.455 176.241 69.734 178.829 67.0805L178.761 72.3673H186.81L187 40.3496H178.829Z" fill="white"/>
-      <path d="M93.3103 39.7487L93.1342 72.4415H101.305V50.6598C104.347 48.0063 107.335 46.244 110.865 46.244C114.632 46.244 116.164 48.0063 116.164 51.5443V72.4348H124.335V49.4647C124.335 42.8276 120.358 39.6812 113.907 39.6812C108.135 39.6812 103.88 42.4022 101.305 45.0557L101.359 39.7487H93.3103Z" fill="white"/>
-      <path d="M52.3261 36.8522L44.2431 60.4637H42.075L34.5882 36.2378L26.9388 37.1493L38.999 72.4417H46.6619L59.3251 37.6017L52.3261 36.8522Z" fill="white"/>
-      <path d="M23.1853 71.3949C25.3941 70.5712 27.3386 69.3221 29.1612 67.6476L29.2831 67.526L29.195 67.391L26.2545 62.6646L26.1122 62.4621L25.9361 62.6309C24.6691 63.826 23.1379 64.8388 21.4169 65.541C19.8315 66.1756 18.097 66.5335 16.2202 66.5335C13.7879 66.5335 11.6672 65.8516 10.1563 64.4472C8.8012 63.198 7.9475 61.348 7.79167 58.9038H29.378H29.588V58.7013V57.0268C29.588 51.3146 28.1313 47.331 25.9022 44.6572C23.1582 41.3691 19.2488 40.1064 15.3868 40.1064C11.6468 40.1064 7.26996 41.5243 4.14652 44.826C1.68707 47.4458 0 51.2066 0 56.3718C0 61.6924 1.61254 65.595 4.17362 68.2282C7.14801 71.2734 11.3487 72.644 15.8205 72.644C18.578 72.644 20.9901 72.2321 23.1853 71.3949ZM10.3257 48.2493C11.6807 46.9461 13.4694 46.3317 15.3326 46.3317C17.4737 46.3317 19.1201 46.9664 20.3058 48.1412C21.4847 49.3228 22.1825 51.0513 22.3926 53.2052H7.88652C8.25239 51.0176 9.11964 49.3768 10.3257 48.2493Z" fill="white"/>
-      <path d="M60.0365 37.6895L56.7098 47.1422L63.1599 38.0338L60.0365 37.6895Z" fill="white"/>
-      <path d="M100.926 104C99.11 103.912 97.2807 103.73 95.4852 103.453L95.7969 101.455C97.5178 101.718 99.2794 101.893 101.021 101.981L100.926 104ZM106.387 103.98L106.272 101.954C108.02 101.86 109.781 101.671 111.495 101.394L111.814 103.392C110.039 103.689 108.209 103.878 106.387 103.98ZM90.1259 102.339C88.3711 101.873 86.6162 101.313 84.9224 100.671L85.6474 98.7808C87.2802 99.4019 88.9605 99.9421 90.6476 100.388L90.1259 102.339ZM117.166 102.265L116.638 100.307C118.325 99.8543 119.998 99.3074 121.631 98.6795L122.363 100.57C120.669 101.218 118.921 101.792 117.166 102.265ZM79.9222 98.4634C78.3029 97.6464 76.7039 96.7282 75.1794 95.7491L76.2838 94.0476C77.7473 94.9929 79.2785 95.8707 80.8436 96.6607L79.9222 98.4634ZM127.356 98.3351L126.428 96.5324C127.98 95.7424 129.504 94.8511 130.968 93.8991L132.079 95.5938C130.554 96.5931 128.969 97.5114 127.356 98.3351ZM70.7551 92.5555C69.3391 91.4212 67.9704 90.1991 66.6831 88.9229L68.1195 87.4848C69.3594 88.7136 70.6738 89.8885 72.0357 90.9755L70.7551 92.5555ZM136.49 92.3799L135.202 90.8135C136.557 89.7129 137.865 88.5313 139.098 87.2957L140.541 88.7271C139.261 90.0033 137.899 91.2389 136.49 92.3799ZM63.0041 84.892C61.8523 83.4876 60.7682 82.009 59.7723 80.4965L61.4729 79.3892C62.4282 80.8409 63.4716 82.2655 64.576 83.6092L63.0041 84.892ZM144.187 84.6625L142.601 83.3931C143.699 82.036 144.735 80.6113 145.684 79.1529L147.391 80.2535C146.409 81.7726 145.325 83.2581 144.187 84.6625ZM57.0282 75.7904C56.2016 74.1835 55.4428 72.509 54.7856 70.821L56.6827 70.0918C57.3128 71.719 58.0378 73.3192 58.8373 74.8654L57.0282 75.7904ZM53.0782 65.6423C52.6039 63.9003 52.2177 62.1043 51.9332 60.315L53.9387 59.9977C54.2165 61.7194 54.5891 63.4411 55.0431 65.1156L53.0782 65.6423ZM150.318 33.8744C149.688 32.254 148.963 30.647 148.164 29.1008L149.973 28.1758C150.806 29.7895 151.558 31.4572 152.215 33.1452L150.318 33.8744ZM145.514 24.577C144.559 23.1254 143.516 21.7075 142.405 20.3571L143.976 19.0742C145.128 20.4786 146.219 21.9573 147.208 23.463L145.514 24.577ZM138.868 16.4815C137.628 15.2594 136.307 14.0845 134.952 12.9907L136.225 11.4108C137.642 12.5451 139.01 13.7672 140.304 15.0433L138.868 16.4815ZM130.69 9.93209C129.227 8.98682 127.688 8.11582 126.13 7.32585L127.045 5.51633C128.664 6.33331 130.263 7.24482 131.788 8.22385L130.69 9.93209ZM85.3357 5.34753L84.604 3.45699C86.2978 2.80205 88.0458 2.22814 89.8007 1.7555L90.3359 3.71356C88.6489 4.16594 86.9686 4.71285 85.3357 5.34753ZM121.326 5.21249C119.694 4.59131 118.006 4.05791 116.319 3.61228L116.841 1.65422C118.596 2.11335 120.344 2.67376 122.051 3.32195L121.326 5.21249ZM95.4649 2.613L95.1397 0.614426C96.9283 0.330845 98.7509 0.128287 100.573 0.0270077L100.689 2.05259C98.9406 2.14711 97.1858 2.33617 95.4649 2.613ZM111.177 2.54548C109.456 2.28215 107.694 2.1066 105.946 2.02558L106.041 0C107.857 0.0877751 109.686 0.270077 111.482 0.540155L111.177 2.54548Z" fill="white"/>
-    </svg>
+         
+               <a  href="<?php echo home_url(); ?>">
+                    <img
+                        src="<?php echo $path_header; ?>footer-logo.svg"
+                        alt="logo"
+                      />
+                    </a>
+        
+                  
 
-
-          <div class="h-100 d-flex justify-content-center flex-column" style="margin-top: -3.5rem;">
+          <div class="mt-n4 ml-5 pl-5 d-flex justify-content-center flex-column">
             <?php get_template_part('components/footer-list-link', 'full', [
-                  'title' => 'Desarrollo & Software',
+                  'title' => 'Desarrollo & <br> Software',
                   'list' => [
                     'Tiendas virtuales',
                     'Páginas web',
@@ -61,9 +57,9 @@
               '/evanzu_work/marketing-digital'
             ]
         ]); ?>
-
+        <div class="my-5"></div>
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Producción Audiovisual',
+            'title' => 'Producción <br> Audiovisual',
             'list' => [
               'Spots & Videos',
               'Animación 2D',
@@ -99,7 +95,7 @@
               '/evanzu_work/branding-diseno/'
             ]
         ]); ?>
-
+         <div class="my-5"></div>
         <?php get_template_part('components/footer-list-link', 'full', [
             'title' => 'BTL & comunicación',
             'list' => [
@@ -121,15 +117,15 @@
         <!----------------- Column ----------------->
         
         <!----------------- Column ----------------->
-        <div class="col-sm-3 col-12">
-
-        <?php get_template_part('components/box-footer-text', 'full', [
+        <div id="footer-box-directions" class="col-sm-3 col-12">
+        <div  class="text-light hurme-semi-bold-4 mt-3" style="font-size: 24.17px;"> Nuestras sedes</div>
+        <!-- <?php get_template_part('components/box-footer-text', 'full', [
             'title' => 'Nuestras sedes',
             'description' => '',
-        ]); ?>
+        ]); ?> -->
 
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Lima <a class="font-weight-light text-light undeline" href="#"></a>',
+            'title' => 'Lima <a class="font-weight-light text-light undeline" href="#">MAPA</a>',
             'list' => [
               '<svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.67911 20.5497C8.52529 20.5497 8.36047 20.4838 8.23962 20.363L2.83423 14.9576C-0.384847 11.7385 -0.384847 6.4869 2.83423 3.26782C6.0533 0.048747 11.3049 0.048747 14.524 3.26782C17.7431 6.4869 17.7431 11.7385 14.524 14.9576L9.1186 20.363C8.99774 20.4948 8.83292 20.5497 8.67911 20.5497ZM8.67911 2.10324C6.8773 2.10324 5.08647 2.78441 3.71314 4.15773C0.977478 6.8934 0.977478 11.3539 3.71314 14.0896L8.67911 19.0556L13.6451 14.0896C16.3807 11.3539 16.3807 6.8934 13.6451 4.15773C12.2717 2.78441 10.4699 2.10324 8.67911 2.10324Z" fill="white"/>
@@ -156,7 +152,7 @@
         ]); ?>
 
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Huancayo <a class="font-weight-light text-light undeline" href="#"></a>',
+            'title' => 'Huancayo <a class="font-weight-light text-light undeline" href="#">MAPA</a>',
             'list' => [
               '<svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.67911 20.5497C8.52529 20.5497 8.36047 20.4838 8.23962 20.363L2.83423 14.9576C-0.384847 11.7385 -0.384847 6.4869 2.83423 3.26782C6.0533 0.048747 11.3049 0.048747 14.524 3.26782C17.7431 6.4869 17.7431 11.7385 14.524 14.9576L9.1186 20.363C8.99774 20.4948 8.83292 20.5497 8.67911 20.5497ZM8.67911 2.10324C6.8773 2.10324 5.08647 2.78441 3.71314 4.15773C0.977478 6.8934 0.977478 11.3539 3.71314 14.0896L8.67911 19.0556L13.6451 14.0896C16.3807 11.3539 16.3807 6.8934 13.6451 4.15773C12.2717 2.78441 10.4699 2.10324 8.67911 2.10324Z" fill="white"/>
@@ -182,15 +178,15 @@
             'href' => ['', '', '']
         ]); ?>
 
-        <div class="mt-5">
-          <h2 class="text-light font-weight-bold" style="font-size: 24.17px;">Redes sociales</h2>
+        <div class="my-3">
+          <h2 id="footer-social-text" class="text-light hurme-semi-bold-4">Redes sociales</h2>
           <div class="d-flex justify-content-between w-50">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
-            <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/tiktok.png">
+           <a>  <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg"> </a> 
+           
+            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg">
+            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
+            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
+            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tiktok.png">
             
           </div>
         </div>
@@ -199,13 +195,14 @@
       </div>
     </div>
   </div>
-  <div class="bg-garnet text-center py-3 text-white">
+  <div class="bg-granate text-center py-3 text-white">
     <div class="footer-text">Evanzu - Agencia de Marketing y Publicidad - Lima/Perú</div>
-    <div>Copyright &copy; <?php bloginfo('name');
+    <div> Todos los derechos reservados - ©   Copyright &copy; <?php bloginfo('name');
                           echo ' ' . date('Y'); ?> </div>
   </div>
   <!-- /.container -->
 </footer>
+
 
 <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -215,6 +212,7 @@
 
 
   <script src="<?php echo get_stylesheet_directory_uri();?>'/assets/js/navIcons-init.js'"></script>
+   <script src="<?php echo get_stylesheet_directory_uri();?>'/assets/js/script.js'"></script>
 
 </body>
 

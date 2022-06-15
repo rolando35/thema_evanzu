@@ -1,4 +1,4 @@
-<h2 class="text-light font-weight-bold mt-5" style="font-size: 24.17px;"><?php echo $args['title'] ?></h2>
+<h2 class="text-light hurme-semi-bold-4  mt-3" style="font-size: 24.17px;"><?php echo $args['title'] ?></h2>
 <ul class="list-unstyled m-0">
   <?php 
     $isEmpty = empty($args['href']) ? '' : $args['href'];

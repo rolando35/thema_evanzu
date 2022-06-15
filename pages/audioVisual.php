@@ -3,7 +3,33 @@
     Template Name: AudioVisual
 */
 $transparentNone = true;
-get_header();
+get_header('', array( 'title' => 'Agencia de producción audiovisual, spots publicitarios, animación 2D',
+'description' => 'Agencia de producción audiovisual, spots publicitarios para radio, tv, web, proyectos de animación 2D, video institucional y fotografía profesional', 
+'keywords' => '',
+'richsnippets' =>'<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "spots",
+    "item": "https://evanzu.com/new_evanzu/produccion-audiovisual/#spots_videos"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Animación",
+    "item": "https://evanzu.com/new_evanzu/produccion-audiovisual/#animacion_2d"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Fotografia Profesional",
+    "item": "https://evanzu.com/new_evanzu/produccion-audiovisual/#fotografia_profesional"  
+  }]
+}
+</script>'
+
+));
 $directory_imgs = get_template_directory_uri() . '/assets/images/audioVisual/';
 ?>
 <style>
