@@ -424,6 +424,10 @@
   border-radius: 12px;
 }
 
+#mt-n4-footer-software {
+  margin-top: -1.8rem;
+}
+
 .navbar-dark .navbar-nav .nav-link a {
   color: white;
   text-decoration: none;
@@ -1094,6 +1098,10 @@
     position: unset;
     width: unset;
     margin-top: unset;
+  }
+
+  .center-responsive-footer {
+    text-align: center;
   }
 }
 

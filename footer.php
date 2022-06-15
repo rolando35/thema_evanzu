@@ -5,18 +5,15 @@
     <div class="mx-5">
       <div class="row">
         <!----------------- Column ----------------->
-        <div class="col-sm-3 col-12">
-         
+        <div class="center-responsive-footer col-sm-3 col-12">
                <a  href="<?php echo home_url(); ?>">
                     <img
                         src="<?php echo $path_header; ?>footer-logo.svg"
                         alt="logo"
                       />
-                    </a>
-        
-                  
+                </a>       
 
-          <div class="mt-n4 ml-5 pl-5 d-flex justify-content-center flex-column">
+          <div id="mt-n4-footer-software" class="ml-md-5 pl-md-5 ml-sm-0 pl-sm-0 ml-0-xs pl-0-xs d-flex flex-column">
             <?php get_template_part('components/footer-list-link', 'full', [
                   'title' => 'Desarrollo & <br> Software',
                   'list' => [
@@ -27,11 +24,11 @@
                     'Diseño UX & UI'
                     ],
                   'href' => [
-                    '/evanzu_work/desarrollo-software/',
-                    '/evanzu_work/desarrollo-software/',
-                    '/evanzu_work/desarrollo-software/',
-                    '/evanzu_work/desarrollo-software/',
-                    '/evanzu_work/desarrollo-software/'
+                    'desarrollo-software/#tiendas_virtuales',
+                    'desarrollo-software/#paginas_web',
+                    'desarrollo-software/#app_moviles',
+                    'desarrollo-software/#software_medida',
+                    'desarrollo-software/#ux_ui'
                   ]
               ]); ?>
           </div>
@@ -39,8 +36,10 @@
         </div>
         <!----------------- Column ----------------->
         <!----------------- Column ----------------->
-        <div class="col-sm-3 col-12">
-        <?php get_template_part('components/footer-list-link', 'full', [
+      <div class="col-sm-3 col-12  center-responsive-footer">
+        <?php 
+        
+         get_template_part('components/footer-list-link', 'full', [
             'title' => 'Marketing Digital',
             'list' => [
               'Publicidad digital',
@@ -50,11 +49,11 @@
               'Marketing de contenidos'
               ],
             'href' => [
-              '/evanzu_work/marketing-digital',
-              '/evanzu_work/marketing-digital',
-              '/evanzu_work/marketing-digital',
-              '/evanzu_work/marketing-digital',
-              '/evanzu_work/marketing-digital'
+              '.get_home_url()./marketing-digital/#publicidad_digital',
+              '.get_home_url()./marketing-digital/#redes_sociales',
+              '.get_home_url()./marketing-digital/#seo',
+              '.get_home_url()./marketing-digital/#growth_hacking',
+              '.get_home_url()./marketing-digital/#marketing_contenidos'
             ]
         ]); ?>
         <div class="my-5"></div>
@@ -66,17 +65,17 @@
               'Fotografía Profesional'
               ],
             'href' => [
-              '/evanzu_work/produccion-audiovisual/',
-              '/evanzu_work/produccion-audiovisual/',
-              '/evanzu_work/produccion-audiovisual/'
+              'produccion-audiovisual/#spots_videos',
+              'produccion-audiovisual/#animacion_2d',
+              'produccion-audiovisual/#fotografia_profesional'
             ]
         ]); ?>
 
 
-        </div>
+      </div>
         <!----------------- Column ----------------->
         <!----------------- Column ----------------->
-        <div class="col-sm-3 col-12">
+        <div class="col-sm-3 col-12 center-responsive-footer">
 
         <?php get_template_part('components/footer-list-link', 'full', [
             'title' => 'Branding & Diseño',
@@ -88,11 +87,11 @@
               'Diseño UX & UI'
               ],
             'href' => [
-              '/evanzu_work/branding-diseno/',
-              '/evanzu_work/branding-diseno/',
-              '/evanzu_work/branding-diseno/',
-              '/evanzu_work/branding-diseno/',
-              '/evanzu_work/branding-diseno/'
+              'branding-diseno/#logo_branding',
+              'branding-diseno/#diseño_publicitario',
+              'branding-diseno/#merchandising_impresos',
+              'branding-diseno/#ilustracion_digital',
+              'branding-diseno/#ux_ui'
             ]
         ]); ?>
          <div class="my-5"></div>
@@ -106,18 +105,18 @@
               'Anfitrionaje '
               ],
             'href' => [
-              '/evanzu_work/evanzu_work/btl-comunicacion/',
-              '/evanzu_work/evanzu_work/btl-comunicacion/',
-              '/evanzu_work/evanzu_work/btl-comunicacion/',
-              '/evanzu_work/evanzu_work/btl-comunicacion/',
-              '/evanzu_work/evanzu_work/btl-comunicacion/'
+              'btl-comunicacion/#btl_activaciones',
+              'btl-comunicacion/#eventos',
+              'btl-comunicacion/#relaciones_publicas',
+              'btl-comunicacion/#fuerza_ventas',
+              'btl-comunicacion/#anfitrionaje'
             ]
         ]); ?>
         </div>
         <!----------------- Column ----------------->
         
         <!----------------- Column ----------------->
-        <div id="footer-box-directions" class="col-sm-3 col-12">
+        <div id="footer-box-directions" class="col-sm-3 col-12 center-responsive-footer">
         <div  class="text-light hurme-semi-bold-4 mt-3" style="font-size: 24.17px;"> Nuestras sedes</div>
         <!-- <?php get_template_part('components/box-footer-text', 'full', [
             'title' => 'Nuestras sedes',
@@ -125,7 +124,7 @@
         ]); ?> -->
 
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Lima <a class="font-weight-light text-light undeline" href="#">MAPA</a>',
+            'title' => 'Lima <a class="font-weight-light text-light undeline" href="#"></a>',
             'list' => [
               '<svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.67911 20.5497C8.52529 20.5497 8.36047 20.4838 8.23962 20.363L2.83423 14.9576C-0.384847 11.7385 -0.384847 6.4869 2.83423 3.26782C6.0533 0.048747 11.3049 0.048747 14.524 3.26782C17.7431 6.4869 17.7431 11.7385 14.524 14.9576L9.1186 20.363C8.99774 20.4948 8.83292 20.5497 8.67911 20.5497ZM8.67911 2.10324C6.8773 2.10324 5.08647 2.78441 3.71314 4.15773C0.977478 6.8934 0.977478 11.3539 3.71314 14.0896L8.67911 19.0556L13.6451 14.0896C16.3807 11.3539 16.3807 6.8934 13.6451 4.15773C12.2717 2.78441 10.4699 2.10324 8.67911 2.10324Z" fill="white"/>
@@ -152,7 +151,7 @@
         ]); ?>
 
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Huancayo <a class="font-weight-light text-light undeline" href="#">MAPA</a>',
+            'title' => 'Huancayo <a class="font-weight-light text-light undeline" href="#"></a>',
             'list' => [
               '<svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.67911 20.5497C8.52529 20.5497 8.36047 20.4838 8.23962 20.363L2.83423 14.9576C-0.384847 11.7385 -0.384847 6.4869 2.83423 3.26782C6.0533 0.048747 11.3049 0.048747 14.524 3.26782C17.7431 6.4869 17.7431 11.7385 14.524 14.9576L9.1186 20.363C8.99774 20.4948 8.83292 20.5497 8.67911 20.5497ZM8.67911 2.10324C6.8773 2.10324 5.08647 2.78441 3.71314 4.15773C0.977478 6.8934 0.977478 11.3539 3.71314 14.0896L8.67911 19.0556L13.6451 14.0896C16.3807 11.3539 16.3807 6.8934 13.6451 4.15773C12.2717 2.78441 10.4699 2.10324 8.67911 2.10324Z" fill="white"/>
@@ -181,12 +180,11 @@
         <div class="my-3">
           <h2 id="footer-social-text" class="text-light hurme-semi-bold-4">Redes sociales</h2>
           <div class="d-flex justify-content-between w-50">
-           <a>  <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg"> </a> 
-           
-            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg">
-            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
-            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
-            <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tiktok.png">
+            <a  target="_blank" href="https://www.youtube.com/c/EvanzuAgenciadeMarketingyPublicidad">  <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg"> </a>       
+            <a  target="_blank" href="https://www.instagram.com/evanzuperu/">  <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg"></a> 
+            <a  target="_blank" href="https://www.linkedin.com/company/evanzu/"> <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg"></a> 
+            <!-- <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg"> -->
+            <a  target="_blank" href="https://www.tiktok.com/@evanzuperu">   <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tiktok.png"></a>
             
           </div>
         </div>
