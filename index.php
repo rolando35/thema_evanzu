@@ -14,8 +14,8 @@
             <?php the_post_thumbnail(); ?>
          <div class="card-body">
            <h2 class="card-title"><?php the_title(); ?></h2>
-           <p class="card-text"><?php the_excerpt(); ?></p>
-           <a href="<?php the_permalink(); ?>" class="btn btn-primary">Leer más &rarr;</a>
+           <p class="card-text"><?php the_content(); ?></p>
+           <!-- <a href="<?php the_permalink(); ?>" class="btn btn-primary">Leer más &rarr;</a> -->
          </div>
          <div class="card-footer text-muted">
            <?php echo get_the_date(); ?> - <?php the_author(); ?>
