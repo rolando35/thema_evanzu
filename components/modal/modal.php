@@ -36,6 +36,12 @@
     height: 22rem;
   }
 
+  @media only screen and ( max-width: 550px ) {
+    .mt-5c {
+      margin-top: 2.9rem !important;
+    }
+  }
+
   @media only screen and (min-width: 992px) {
     .bg-white-transparent {
       background: transparent !important;
