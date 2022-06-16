@@ -1061,6 +1061,12 @@
   font-size: 21px;
   line-height: 22px;
 }
+
+.box-date-car {
+  position: absolute;
+  z-index: 1;
+  margin: 5% 2% 0;
+}
 /*--------------------  BLOG -------------------*/
 
 /****RESPONSIVE****/
