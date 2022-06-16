@@ -1101,6 +1101,11 @@
   border-radius: 10px;
 }
 
+.post-image .attachment-post-thumbnail {
+  width: 50%;
+  height: auto;
+}
+
 /*--------------------  BLOG -------------------*/
 
 /****RESPONSIVE****/

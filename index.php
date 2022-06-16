@@ -9,9 +9,11 @@
             <!-- SE MUESTRA EL CONTENIDO DEL POST -->
  
                
-            <div class="card mb-4">
-
-            <?php the_post_thumbnail(); ?>
+         <div class="card mb-4">
+         <div class="post-image">
+              <?php the_post_thumbnail(); ?>
+         </div>
+           
          <div class="card-body">
            <h2 class="card-title"><?php the_title(); ?></h2>
            <p class="card-text"><?php the_content(); ?></p>
