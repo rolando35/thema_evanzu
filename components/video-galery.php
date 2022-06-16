@@ -120,9 +120,9 @@
       <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>PETROPERÚ</p>
     </div>
     <!-- Texts hover -->
-      <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
-          <source src="<?php echo get_template_directory_uri() ?>/assets/video/Petroperú Campaña UCPP.mp4" type="video/mp4">
-      </video>
+      <!-- <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
+          <source src="<?php // echo get_template_directory_uri() ?>/assets/video/Petroperú Campaña UCPP.mp4" type="video/mp4">
+      </video> -->
       </div>
     </div>
   </div>
@@ -136,9 +136,9 @@
       <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>PETROPERÚ</p>
     </div>
     <!-- Texts hover -->
-      <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
-          <source src="<?php echo get_template_directory_uri() ?>/assets/video/Petroperú Campaña Talara.mp4" type="video/mp4">
-      </video>
+      <!-- <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
+          <source src="<?php // echo get_template_directory_uri() ?>/assets/video/Petroperú Campaña Talara.mp4" type="video/mp4">
+      </video> -->
       </div>
     </div>
     <div class="col-12 col-md-6">
