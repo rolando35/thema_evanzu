@@ -1063,6 +1063,35 @@
   z-index: 1;
   margin: 5% 2% 0;
 }
+
+.box-autor-car {
+  position: absolute;
+  z-index: 1;
+  margin: 5% 2% 0;
+  top: 30%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+}
+
+.post-categories {
+  display: inline;
+}
+
+.post-categories li {
+  display: inline;
+}
+.post-categories a {
+  color: #808080;
+}
+.attachment-post-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
 /*--------------------  BLOG -------------------*/
 
 /****RESPONSIVE****/

@@ -37,13 +37,14 @@ foreach ( $last_posts as $post ) :
   <div class="card">
     <div class="">
         <div class="box-date-car" >     
-           <?php echo get_the_date();?>  I  	<?php the_category(); ?>
+          <img  src=" <?php echo get_template_directory_uri(); ?>/assets/images/blog/calendar.svg"> <?php echo get_the_date();?>  I  	<?php the_category(); ?>
         </div> 
          <?php the_post_thumbnail();?>
 
-          <div class="box-date-car" >
-              <?php the_author(); ?>
-        </div> 
+          <div class="box-autor-car" >
+              <?php the_author(); ?>     
+             <span> <?php echo get_avatar( get_the_author_meta('ID') ); ?>   </span>          
+         </div> 
     </div>
     <div class="card-body">
       <h5 class="card-title text-red font-weight-bold"> <?php the_title();?> </h5>
