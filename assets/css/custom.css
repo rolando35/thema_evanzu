@@ -208,6 +208,10 @@
   color: #ed1164;
 }
 
+.card {
+  border: transparent;
+}
+
 .card-text-btl {
   font-family: hurme-regular;
   line-height: 1.375rem;
