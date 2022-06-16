@@ -149,9 +149,9 @@
       <p class="text-light font-weight-bold hurme-simple" style='font-size: 1.7rem; line-height: 3rem;'>BBVA</p>
     </div>
     <!-- Texts hover -->
-      <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
+      <!-- <video class="responsive-masonry-image hover-video-invert" controls muted id="myVideo">
           <source src="<?php echo get_template_directory_uri() ?>/assets/video/_BBVA Continental - Stand de atención al cliente en la Feria Nexo Inmobiliario.mp4" type="video/mp4">
-      </video>
+      </video> -->
     </div>
   </div>
 
