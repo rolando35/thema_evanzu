@@ -3,7 +3,7 @@
 Template Name: Home
 */
 ?>
-<?php get_header();?>
+<?php get_header(); ?>
 <style>
     .ndx{
         z-index: 1;
@@ -91,7 +91,7 @@ Template Name: Home
         right: auto;
     }
 </style>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/carrusell-train.css" type="text/css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/carrusell-train.css" type="text/css">
 <!--////First////-->
 <section id="first-block" >
     <!--------------------- Button Modal --------------------->
@@ -118,13 +118,16 @@ Template Name: Home
                     </div>
                 </div>
                 <div class="mt-5c" style="z-index: 1;">
-                    <?php get_template_part('components/modal/modal', 'full'); ?>
+                    <?php get_template_part(
+                        'components/modal/modal',
+                        'full'
+                    ); ?>
                 </div>
         </div>    
     <!--------------------- Button Modal ---------------------> 
    
     <video autoplay muted loop id="myVideo" class="position-relative mt-n1">
-        <source src="<?php echo get_template_directory_uri() ?>/assets/video/evanzu.mp4" type="video/mp4">
+        <source src="<?php echo get_template_directory_uri(); ?>/assets/video/evanzu.mp4" type="video/mp4">
     </video>
 </section>
 <!--////Second////-->
@@ -161,7 +164,7 @@ Template Name: Home
                         </svg>
                         <div id="circle-background">
                             <img
-                                src="<?php echo get_template_directory_uri() ?>/assets/images/Homepage_agencia_evanzu.png"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage_agencia_evanzu.png"
                                 alt="Presentación de la agencia de marketing y publicidad Evanzu"
                                 title="Agencia Marketing y publicidad Evanzu"
                             >
@@ -230,17 +233,20 @@ Template Name: Home
                  <div class="d-flex justify-content-center">
                      <div class="mx-2">
                             <a  href="bbva"> 
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>BIG-BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
                             </a>
                      </div>
                      <div class="mx-2">
                             <a  href="petro-peru"> 
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-PETROPERU.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu PETRO PERU">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>BIG-PETROPERU.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu PETRO PERU">
                             </a>
                      </div>
                      <div class="mx-2">
                          <a  href="betfair">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BIG-BETFAIR.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>BIG-BETFAIR.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
                             </a>
                      </div>
                  </div>
@@ -249,17 +255,20 @@ Template Name: Home
                     
                      <div class="mx-2">
                             <a  href="artecola">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
                             </a>
                      </div>
                      <div class="mx-2">
                           <a href="aesa">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
+                            <img src="<?php echo get_template_directory_uri() .
+                                '/assets/images/clients/'; ?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
                          </a>
                      </div>
                        <div class="mx-2">
                            <a href="bmatic">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
                             </a>
                      </div>
                  </div>
@@ -269,27 +278,32 @@ Template Name: Home
                 <div class="slide-track">
                         <div class="slide">
                             <a  href="bbva"> 
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
                             </a>
                         </div>
                         <div class="slide">
                             <a  href="artecola">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
                             </a>
                         </div>
                         <div class="slide">
                             <a  href="betfair">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>Betfair.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
                             </a>
                         </div>
                         <div class="slide">
                             <a href="bmatic">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
                             </a>
                         </div>
                         <div class="slide">
                             <a href="aesa">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
+                            <img src="<?php echo get_template_directory_uri() .
+                                '/assets/images/clients/'; ?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
                             </a>
                         </div>
 
@@ -390,11 +404,14 @@ Template Name: Home
             <div class="position-absolute mb-5">
                 <div class="mt-07">
                     <div class="d-flex justify-content-center align-items-center">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/images/'?>says-left.svg" alt="Imagen de las hojas izquierdas" title="Hojas">
+                        <img src="<?php echo get_template_directory_uri() .
+                            '/assets/images/'; ?>says-left.svg" alt="Imagen de las hojas izquierdas" title="Hojas">
                         <p class="home-banner-text text-black mx-1 font-2 my-0">Tú dices</p>
-                        <img class="mx-3" src="<?php echo get_template_directory_uri() . '/assets/images/'?>says-middle.svg" alt="Imagen de hojas medio" title="Hojas centro">
+                        <img class="mx-3" src="<?php echo get_template_directory_uri() .
+                            '/assets/images/'; ?>says-middle.svg" alt="Imagen de hojas medio" title="Hojas centro">
                         <p class="home-banner-text text-red mx-1 font-2 my-0">Nosotros</p>
-                        <img src="<?php echo get_template_directory_uri() . '/assets/images/'?>says-right.svg" alt="Imagen de las hojas Derecha" title="Hojas derecha">
+                        <img src="<?php echo get_template_directory_uri() .
+                            '/assets/images/'; ?>says-right.svg" alt="Imagen de las hojas Derecha" title="Hojas derecha">
                     </div>
                     
                     <div class="text-center">
@@ -402,7 +419,8 @@ Template Name: Home
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo tener más ventas?</p>
                             <img
                                 class="mx-2"
-                                src="<?php echo get_template_directory_uri() . '/assets/images/'?>line-mid-text.svg"
+                                src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/'; ?>line-mid-text.svg"
                                 alt="Imagen de las hojas Derecha"
                                 title="Hojas derecha">
                             <p class="m-0 text-red text-about w-17 d-flex justify-content-start">Generamos estrategias.</p>
@@ -411,7 +429,8 @@ Template Name: Home
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo tener más seguidores?</p>
                             <img
                                 class="mx-2"
-                                src="<?php echo get_template_directory_uri() . '/assets/images/'?>line-mid-text.svg"
+                                src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/'; ?>line-mid-text.svg"
                                 alt="Imagen de las hojas Derecha"
                                 title="Hojas derecha">
                             <p class="m-0 text-red text-about w-17 d-flex justify-content-start">Gestionamos tu contenido.</p>
@@ -420,7 +439,8 @@ Template Name: Home
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo mejorar la imagen de mi empresa?</p>
                             <img
                                 class="mx-2"
-                                src="<?php echo get_template_directory_uri() . '/assets/images/'?>line-mid-text.svg"
+                                src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/'; ?>line-mid-text.svg"
                                 alt="Imagen de las hojas Derecha"
                                 title="Hojas derecha">
                             <p class="m-0 text-red text-about w-17 d-flex justify-content-start">Trabajamos tu identidad corporativa.</p>
@@ -429,7 +449,8 @@ Template Name: Home
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo ser más conocido?</p>
                             <img
                                 class="mx-2"
-                                src="<?php echo get_template_directory_uri() . '/assets/images/'?>line-mid-text.svg"
+                                src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/'; ?>line-mid-text.svg"
                                 alt="Imagen de las hojas Derecha"
                                 title="Hojas derecha">
                             <p class="m-0 text-red text-about w-17 d-flex justify-content-start">Trabajamos tu posicionamiento SEO.</p>
@@ -439,7 +460,8 @@ Template Name: Home
                 </div>
             </div>
             <div>
-                <img class="d-none d-md-block" src="<?php echo get_template_directory_uri() . '/assets/images/'?>about-home.svg" alt="imagen de Background customer">
+                <img class="d-none d-md-block" src="<?php echo get_template_directory_uri() .
+                    '/assets/images/'; ?>about-home.svg" alt="imagen de Background customer">
             </div>
         </div>
 
@@ -492,41 +514,46 @@ Template Name: Home
 
              <div class="container">
                    <div class="top-content pb-5">
-                      
-                               <div class="d-flex justify-content-center my-4 flex-md-row" >
+                      <div class="d-flex justify-content-center my-4 flex-md-row" >
                                     <div class="">
                                         <a  href="https://www.bbva.pe/">
-                                        <img class="w-50" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>BBVA.svg" class="img-fluid mx-auto d-block" alt="bbva">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>BBVA.svg" class="img-fluid mx-auto d-block" alt="bbva">
                                         </a>
                                     </div>
                                     
-                                    <div class="">
+                                    <div class="mx-2">
                                         <a  href="https://www.betfair.com/pe">
-                                        <img class="w-50" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>betfair.svg" class="img-fluid mx-auto d-block" alt="Betfair">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>betfair.svg" class="img-fluid mx-auto d-block" alt="Betfair">
                                         </a>
                                     </div>
 
                                     <div class="mx-2">
                                         <a  href="https://www.petroperu.com.pe"> 
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>petroperu.svg"  class="img-fluid mx-auto d-block" alt="Petro Peru">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>petroperu.svg"  class="img-fluid mx-auto d-block" alt="Petro Peru">
                                         </a>
                                     </div>
 
                                      <div class="mx-4">
                                         <a  href="https://www.bancomercio.com/elbanco">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>banco_comercio.svg"  class="img-fluid mx-auto d-block" alt="Banco de comercio">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>banco_comercio.svg"  class="img-fluid mx-auto d-block" alt="Banco de comercio">
                                         </a>
                                     </div>
 
                                     <div class="mx-4">
                                         <a  href="https://www.cofide.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>cofide.svg"  class="img-fluid mx-auto d-block" alt="Cofide">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>cofide.svg"  class="img-fluid mx-auto d-block" alt="Cofide">
                                         </a>
                                     </div>
 
                                    <div class="">
                                         <a  href="https://indriver.com/es/city">
-                                        <img class="w-70" src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>indriver.svg" class="img-fluid mx-auto d-block" alt="Indriver">
+                                        <img class="w-70" src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>indriver.svg" class="img-fluid mx-auto d-block" alt="Indriver">
                                         </a>
                                     </div>
                                 </div>  
@@ -535,38 +562,44 @@ Template Name: Home
                                 <div class="d-flex justify-content-center my-4 flex-md-row"> 
                                      <div class="mx-1">
                                        <a href="https://www.gob.pe/mtc">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>ministeriotransportes.svg"  class="img-fluid mx-auto d-block" alt="Ministerio de transportes y comunicaciones">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>ministeriotransportes.svg"  class="img-fluid mx-auto d-block" alt="Ministerio de transportes y comunicaciones">
                                         </a>
                                     </div>
                                    
                                      <div class="mx-2">
                                        <a href="https://www.pichincha.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>banco_pichincha.svg"  class="img-fluid mx-auto d-block" alt="Banco pichincha">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>banco_pichincha.svg"  class="img-fluid mx-auto d-block" alt="Banco pichincha">
                                         </a>
                                     </div>
                                    
                                     <div class="mx-2">
                                         <a  href="https://www.cajahuancayo.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>cajahuancayo.svg" class="img-fluid mx-auto d-block" alt="Caja Huancayo">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>cajahuancayo.svg" class="img-fluid mx-auto d-block" alt="Caja Huancayo">
                                         </a>
                                     </div>
 
                                     <div class="mx-2">
                                     <a href="https://www.hiper.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>hiper.svg" class="img-fluid mx-auto d-block" alt="Hiper">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>hiper.svg" class="img-fluid mx-auto d-block" alt="Hiper">
                                     </a>
                                     </div>
 
                                    <div class="mx-1">
                                     <a href="https://www.bmatic.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>bmatic.png" class="img-fluid mx-auto d-block" alt="Bmatic">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>bmatic.png" class="img-fluid mx-auto d-block" alt="Bmatic">
                                     </a>
                                     </div>
 
 
                                     <div class="mx-1">
                                         <a  href="https://mibim.pe/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>Bim.svg" class="img-fluid mx-auto d-block" alt="Bim">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>Bim.svg" class="img-fluid mx-auto d-block" alt="Bim">
                                         </a>
                                     </div>
                                 </div>
@@ -574,33 +607,38 @@ Template Name: Home
                                  <div class="d-flex justify-content-center my-4 flex-md-row"> 
                                     <div class="mx-2">
                                         <a  href="https://www.paraiso-peru.com/"> 
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>paraiso.svg" class="img-fluid mx-auto d-block" alt="Paraiso">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>paraiso.svg" class="img-fluid mx-auto d-block" alt="Paraiso">
                                         </a>
                                     </div>
 
                                     <div class="mx-2">
                                         <a href="https://www.cruzdelsur.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>cruzdelsur.svg" class="img-fluid mx-auto d-block" alt="Cruz del sur">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>cruzdelsur.svg" class="img-fluid mx-auto d-block" alt="Cruz del sur">
                                         </a>
                                     </div>
 
                                 
                                     <div class="mx-3">
                                         <a  href="https://www.mivivienda.com.pe/PortalWEB/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>mivivienda.svg" class="img-fluid mx-auto d-block" alt="Mi vivienda">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>mivivienda.svg" class="img-fluid mx-auto d-block" alt="Mi vivienda">
                                         </a>
                                     </div>
                                     
                                      <div class="mx-3">
                                         <a  href="https://www.sath.gob.pe/">
-                                        <img src="<?php echo get_template_directory_uri() . '/assets/images/home/'?>sath.svg" class="img-fluid mx-auto d-block" alt="Sath Huancayo">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>sath.svg" class="img-fluid mx-auto d-block" alt="Sath Huancayo">
                                         </a>
                                     </div>
                                         
                                          
                                      <div class="mx-3">
                                         <a  href="https://www.munlima.gob.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .'/assets/images/home/'?>muni_lima.svg" class="img-fluid mx-auto d-block" alt="Municipalidad de Lima">
+                                        <img src="<?php echo get_template_directory_uri() .
+                                            '/assets/images/home/'; ?>muni_lima.svg" class="img-fluid mx-auto d-block" alt="Municipalidad de Lima">
                                         </a>
                                      </div>
                                 </div>         
@@ -612,7 +650,7 @@ Template Name: Home
     </div>
     <div class="bg-pink  text-white ">
         <div class="text-center">
-         <img class="my-5" src="<?php echo get_template_directory_uri() ?>/assets/images/icono-upper-stop.svg">
+         <img class="my-5" src="<?php echo get_template_directory_uri(); ?>/assets/images/icono-upper-stop.svg">
         </div>
         <div class="text-center big-title">
             <h2>
@@ -797,7 +835,7 @@ Template Name: Home
                     >
                         <img
                         class="image-sup img-postula"
-                        src="<?php echo get_template_directory_uri()?>/assets/images/button-open-form.svg" 
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/button-open-form.svg" 
                         alt="Imagen de postula" 
                         >
                     </div>
@@ -824,26 +862,26 @@ Template Name: Home
 
     	<div class="d-flex justify-content-center flex-wrap mb-5">
 						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri()?>/assets/images/note1.png" alt="Genera expectativa" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note1.png" alt="Genera expectativa" />
 							<div class="note-btl top-note-sm hurme-regular-4 text-white">
 								Cuéntanos tus necesidades y lo que <span class="hurme-bold-4 text-red">quieres lograr.</span>
 							</div>
 						</div>
 						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri()?>/assets/images/note2.png" alt="Informa a tus clientes" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note2.png" alt="Informa a tus clientes" />
 							<div class="note-btl top-note-sm hurme-regular-4 text-gray">
 								<span class="hurme-bold-4">Analizaremos tu caso</span> y la información del mercado.
 							</div>							
 						</div>
 						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri()?>/assets/images/note3.png" alt="Conecta y logra" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note3.png" alt="Conecta y logra" />
 							<div class="note-btl top-note-md hurme-regular-4 text-white">
 								Te presentaremos una propuesta con las <span class="hurme-bold-4 text-red">soluciones más creativas</span> para conseguir tu objetivo.
 							</div>							
                         </div>
                         
                         	<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri()?>/assets/images/note4.png" alt="Informa a tus clientes" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note4.png" alt="Informa a tus clientes" />
 							<div class="note-btl top-note-sm hurme-regular-4 text-gray">
 								<span class="hurme-bold-4">Ejecutaremos el plan</span> con responsabilidad y profesionalismo.
 							</div>							
@@ -863,32 +901,32 @@ Template Name: Home
     <div class="text-center position-absolute">
         <div class="d-flex justify-content-center">
             <div class="d-flex">
-                <img src="<?php echo get_template_directory_uri()?>/assets/images/left-title.svg" alt="Imagen de adorno izquierda">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/left-title.svg" alt="Imagen de adorno izquierda">
                 <p class="home-banner-text text-white mx-1 font-3">Estamos</p>
-                <img src="<?php echo get_template_directory_uri()?>/assets/images/right-title.svg" alt="Imagen de adorno derecha">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/right-title.svg" alt="Imagen de adorno derecha">
             </div>
         </div>
         <p class="text-yellow home-text-yellow hurme-bold-4 m-0">COMPROMETIDOS</p>
         <div class="d-flex justify-content-center">
             <div class="d-flex mb-2 font-23">
-                <img src="<?php echo get_template_directory_uri()?>/assets/images/left-ofrecer.svg" alt="Imagen de adorno izquierda">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/left-ofrecer.svg" alt="Imagen de adorno izquierda">
                 <p class="atletico-medium text-white my-0 mx-3">A OFRECER</p>
-                <img src="<?php echo get_template_directory_uri()?>/assets/images/right-ofrecer.svg" alt="Imagen de adorno derecha">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/right-ofrecer.svg" alt="Imagen de adorno derecha">
             </div>
         </div>
         <div class=" d-flex justify-content-center align-items-center">
             <p class="text-white position-absolute hurme-bold-4 m-0 font-25">RESULTADOS EXCEPCIONALES</p>
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/base-banner.svg" alt="Imagen de la base del banner">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/base-banner.svg" alt="Imagen de la base del banner">
         </div>
         <div class="d-flex justify-content-center">
             <div class="d-flex mt-4">
-                <img src="<?php echo get_template_directory_uri()?>/assets/images/olas.svg" alt="Imagen de olas izquierda">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/olas.svg" alt="Imagen de olas izquierda">
                 <p class="home-banner-text text-white mx-3 my-0">y medibles</p>
-                <img src="<?php echo get_template_directory_uri()?>/assets/images/olas.svg" alt="Imagen de olas derecha">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/olas.svg" alt="Imagen de olas derecha">
             </div>
         </div>
         <div class="d-flex flex-column align-items-center">
-            <img class="my-4" src="<?php echo get_template_directory_uri()?>/assets/images/abobe-line.svg" alt="Imagen de olas derecha">
+            <img class="my-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/abobe-line.svg" alt="Imagen de olas derecha">
             <i class="text-white font-20" >Es momento de empezar</i>
             <button 
                 style="max-width: 20rem;" 
@@ -902,7 +940,7 @@ Template Name: Home
     </div>
 
     <div>
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/bg-home.svg" alt="Imagen de la base del banner">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-home.svg" alt="Imagen de la base del banner">
     </div>
 </div>
 
@@ -956,7 +994,9 @@ Template Name: Home
     //       var message = $("#nensaje").val();
           
     //       $.ajax({
-    //         url: '<?php // echo admin_url('admin-ajax.php') ?>',
+    //         url: '<?php
+// echo admin_url('admin-ajax.php')
+?>',
     //         type: "post",
     //         data: {
     //           action: "dcms_ajax_readmore",
@@ -1031,7 +1071,9 @@ Template Name: Home
         //   var message =  $("#message").val()
           
         //   $.ajax({
-        //     url: '<?php // echo admin_url('admin-ajax.php') ?>',
+        //     url: '<?php
+// echo admin_url('admin-ajax.php')
+?>',
         //     type: "post",
         //     data: {
         //       action: "postulate",
