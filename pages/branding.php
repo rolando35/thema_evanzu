@@ -123,7 +123,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
 
-    <div class="float-rectangle-banner">
+    <div class="float-rectangle-banner d-none d-xl-flex">
       <div id="rectangle" class="text-center"></div>
     </div>
 
@@ -143,7 +143,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <img
               width="60"
               height="60"
-              class="align-top"
+              class="align-top d-none d-xl-inline"
               src="<?php echo $directory_branding_imgs . 'title_icon.svg'; ?>"
             />
             <br />

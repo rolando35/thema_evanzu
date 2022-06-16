@@ -114,12 +114,20 @@ $path_software =
 		max-width: none;
 	}
 	.carousel-caption{
-		top: 1rem !important;
+		top: 5rem !important;
+		bottom: auto;
+		left: 10%;
 	} 
 	.carousel-item > img {
 		height: 25rem !important;
 	}
 }
+
+.carousel-caption{
+		top: 5rem;
+		bottom: auto;
+		left: 10%;
+	} 
 
 .line-h{
     width: 4.9rem;
@@ -174,7 +182,6 @@ $path_software =
                         data-target="#myModalRight" 
                         data-dismiss="modal" 
                         data-backdrop="false"
-                       
                         >
                     <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
@@ -206,7 +213,7 @@ $path_software =
 					alt="Computadora con una web"
           class="w-100 h-100"
 				/>
-				<div class="carousel-caption" style="top: 5rem; bottom: auto; left: 10%;">
+				<div class="carousel-caption">
 					<div class="col-8 flex-colum text-left p-0">
             <h1 class="develop-title" data-wow-delay="0.3s">Creadores de aplicaciones</h1>
             <h2 class="text-paragraph hurme-bold-4" data-wow-delay="0.3s">MÓVILES &</h2>

@@ -44,6 +44,12 @@
     .h-30 {
       height: 30rem;
     }
+    .bg-custom-white{
+      background: none !important;
+    }
+    .modal-style{
+      padding: 1rem !important;
+    }
 
   }
 
@@ -52,7 +58,9 @@
     margin-top: -16.5rem !important;
     max-width: none !important;
     }
-
+    .modal-style{
+      padding: 1rem !important;
+    }
   }
 
   .min-height {
@@ -67,7 +75,18 @@
   border-color: #fff;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #fff;
 }
-  
+
+.modal-style {
+  padding: 1rem 1rem 0 0;
+}
+
+  .bg-custom-white {
+    background: white;
+  }
+
+  .h-19 {
+    height: 19rem;
+  }
 </style>
 
 
@@ -76,7 +95,7 @@
   <div class="modal-dialog mw-100">
 
     <div class="modal-content">
-      <div class="modal-body" style="width: 100%; background: #ED1164;">
+      <div class="modal-body modal-style" style="width: 100%; background: #ED1164;">
         <div class=" w-100 h-100">
           <div class="d-block d-lg-flex w-100">
 
@@ -121,7 +140,7 @@
              </div>
          
               <div class="h-30">
-                <h4 class="text-yellow font-weight-bold mb-n1">Nuestras Sedes</h4>
+                <h4 class="text-yellow font-weight-bold">Nuestras Sedes</h4>
                 <div class="d-flex pb-1 mb-lg-5">
 
                   <div class="pb-5 mr-5" style="width: 15.6rem">
@@ -208,11 +227,11 @@
               <!----------------Social---------------->
             </div>
 
-            <div class="col-12 col-lg-6 ">
+            <div class="col-12 col-lg-6  bg-custom-white ">
             <img class="position-absolute d-none d-lg-block w-100 min-height" style="" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-modal.svg">
             <div class="position-absolute d-block text-center w-100 bg-white-transparent">
                 <img style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/asset-modal.png">
-                <div class="d-flex justify-content-center w-100 bg-white-transparent">
+                <div class="d-flex justify-content-center w-100 bg-white-transparent h-19">
                   <h3 class="text-right" style="color:#ED1164; ">
                     Con los pies <br>
                     en los zapatos del cliente, <br>

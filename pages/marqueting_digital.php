@@ -178,7 +178,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         ]; ?>">
           	  <div class="carousel-caption-branding">
                   <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-                  <p class="title-bold-branding hurme-bold-4 " data-wow-delay="0.3s">MARKETING</p>
+                  <p class="title-bold-branding mt-4 mt-lg-0 hurme-bold-4 mt-sm-5 " data-wow-delay="0.3s">MARKETING</p>
                   <div class="d-flex align-center mt-n4">
                     <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
                     <img
@@ -188,7 +188,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="text-subtitle-btl">
                       Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
                   </div>
-                    <div class="mt-3 text-left">
+                    <div class="mt-3 text-left text-white">
                       Quieres resultados. 
                       <button onclick="ButtonRedirectForm();" class="btn-btl">
                         <span >¡Desafíanos con tu proyecto!</span>
@@ -202,7 +202,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
              src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
            <div class="carousel-caption-branding">
                   <h1 class="develop-title" data-wow-delay="0.3s">Somos una agencia de</h1>
-                  <p class="title-bold-branding hurme-bold-4 " data-wow-delay="0.3s">MARKETING</p>
+                  <p class="title-bold-branding mt-4 mt-lg-0 hurme-bold-4 " data-wow-delay="0.3s">MARKETING</p>
                   <div class="d-flex align-center mt-n4">
                     <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
                     <img 
@@ -212,7 +212,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="text-subtitle-btl">
                       Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
                   </div>
-                    <div class="mt-3 text-left">
+                    <div class="mt-3 text-left text-white">
                       Quieres resultados. 
                       <button onclick="ButtonRedirectForm();" class="btn-btl">
                         <span >¡Desafíanos con tu proyecto!</span>
@@ -766,7 +766,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                              ¿Qué lograrás?
                             Aumentar el tráfico de tu página web, eso significa 
                            <span class="hurme-bold-4">más visitas y más ventas.</span> <br> <br>
-                            <ul class="hurme-bold-4 text-right list-unstyled text-black">
+                            <ul class="hurme-bold-4 text-lg-right list-unstyled text-black">
                               <li>● SEO para e-commerce</li>
                               <li>● SEO inicial o mensual</li>
                             </ul>
