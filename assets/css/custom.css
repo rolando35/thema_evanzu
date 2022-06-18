@@ -775,7 +775,7 @@
 
 .input-non-border {
   background-color: transparent;
-  border: 0px solid;
+  /* border: 0px solid; */
 }
 
 /*-------------------- BTL -------------------*/
@@ -1472,6 +1472,11 @@
 
 .navbar-dark .navbar-nav .nav-link {
   margin: 0 0.5rem;
+}
+
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
 }
 
 /* .card-columns {

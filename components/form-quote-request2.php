@@ -40,9 +40,9 @@
 						class="d-flex pt-3 pb-1 pt-md-2 pt-lg-0 pb-lg-0 w-80 flex-column flex-lg-row align-items-center justify-content-center"
 					>
 						<div
-							class="input-group input-group-contact d-flex flex-column flex-lg-row justify-content-between"
+							class="input-group input-group-contact d-flex flex-column flex-lg-row justify-content-center"
 						>
-							<div class="w-50">
+							<div class="w-14 mr-2">
 								<input
 									type="text"
 									id="<?php echo $args['idwebsite']; ?>"
@@ -51,7 +51,7 @@
 									name="<?php echo $args['idwebsite']; ?>"
 								/>
 							</div>
-							<div class="w-50">
+							<div class="w-14 ml-2">
 								<input
 									type="text"
 									id="<?php echo $args['idemail']; ?>"
