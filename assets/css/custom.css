@@ -8,6 +8,10 @@
   background-color: #ed1164 !important;
 }
 
+.bg-purple {
+  background-color: #681484 !important;
+}
+
 .bg-pink {
   background-color: #f681ad;
 }
@@ -437,6 +441,14 @@
   text-decoration: none;
 }
 
+a .link-circle {
+  border: 0 !important;
+}
+
+.nav-link {
+  padding: 0;
+}
+
 #first-block {
   margin-bottom: -6px;
 }
@@ -617,7 +629,7 @@
 }
 
 .active {
-  border-left: #fbc000 2.5px solid;
+  border-left: #fbc000 2px solid;
 }
 
 .none-select {

@@ -77,7 +77,7 @@
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
               <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>BETFAIR</p>
-                 <h6 class="small font-weight-normal text-yellow">DISEÑO GRAFICO</h6>
+                 <h6 class="small font-weight-normal text-yellow">DISEÑO PUBLICITARIO</h6>
                 <svg width="29" height="2" viewBox="0 0 29 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.996582 1.28003H28.1166" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -135,8 +135,8 @@
             <div class="m-1 d-flex justify-content-center align-items-center hover-image">
               <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>BIM</p>
-              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">DISEÑO GRÁFICO</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>TAMBO</p>
+              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12 text-uppercase">VIDEO PIXEL ART</h6>
             </div>
             <!-- Texts hover -->
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-teen"]; ?>">

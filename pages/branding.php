@@ -749,6 +749,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     <span class="hurme-bold-4 mb-3">Merchandising</span>
                     <p>
                     Logra que las personas descubran, reconozcan y difundan tu marca con artículos como: Gorras, polos, lapiceros, tazas, Soleras, llaveros, pines, tomados y mucho más.
+
+                    <a style="z-index: 2; border-radius: 20px; font-size: 14px; border: none;" class="btn btn-primary bg-red position-relative" target="_blank" href="https://evanzu.com/Catalogo_de_Merchandising.pdf" role="button">Descarga nuestro catálogo aquí.</a>
                     </p>
                   </div>',
                 'line' => $directory_branding_imgs . 'line-red.svg',
