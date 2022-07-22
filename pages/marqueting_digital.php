@@ -374,10 +374,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
                   <div class="col-md-12 col-lg-6 py-5 left-conten-description">
                   <img
-                  src="<?php echo $directory_imgs;?>laptop-marketing.png"        
-                  alt="Promociona y aumenta tus ventas por distintos canales digitales."
-                  title="Publicidad Digital"
-                />
+                    class="w-100"
+                    src="<?php echo $directory_imgs;?>laptop-marketing.png"        
+                    alt="Promociona y aumenta tus ventas por distintos canales digitales."
+                    title="Publicidad Digital"
+                  />
                   </div>
                 </div>
               </div>
@@ -493,8 +494,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           </div>
             
         </div>
-         <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img title="Publicidad digital proceso" alt="Optimizamos tus campañas digitales" src="<?php echo $directory_imgs; ?>root-tree.svg">
+          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem; height: 20rem;'>
+            <img class="d-none d-lg-block" title="Publicidad digital proceso" alt="Optimizamos tus campañas digitales" src="<?php echo $directory_imgs; ?>root-tree.svg">
           </div>
 
         <!-----------------------Contanct----------------------------->
@@ -670,8 +671,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                <div class="d-flex flex-column flex-md-row">
                 <?php get_template_part('components/btl/service-left', 'full', [
                     'image' => $directory_imgs . 'reporte-mensual.svg',
-                    'text' => '<span class="hurme-bold-1 text-gray-black">Reportes mensuales de resultados.</span>
-                .',
+                    'text' => '<span class="hurme-bold-1 text-gray-black">Reportes mensuales de resultados.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
                 <div class="d-none d-lg-block container-center-service">
@@ -679,34 +679,46 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 </div>
                   <div class="spacing-services-rigth"></div>
               </div>
-              <div class="d-none d-lg-flex">
-                <div
-                  class="container-center-service element-final-center"
-                ></div>
-              </div>
             </div>
           </div>
             
         </div>
+
+        <!-----------------------Circle Right----------------------------->
+        <div class='w-100 text-right' style="margin-bottom: -10rem">
+          <div class="w-100 text-right d-none d-md-block"">
+            <svg style="margin-top: -2rem; margin-bottom: -5rem; transform: rotate(-180deg);" width="108" height="217" viewBox="0 0 108 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z" fill="#FBC000"/>
+            </svg>
+          </div>
+        </div>
+        <!-----------------------Circle Right----------------------------->
+
         <!-----------------------Service----------------------------->
-         <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  title="Gestión de redes sociales" alt="Plan de comunicaciones para cada red social" class="" src="<?php echo $directory_imgs; ?>Publicidad digital.png">
-              </div>
+        <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem; height: 19.5rem;'>
+          <img
+            title="Gestión de redes sociales"
+            alt="Plan de comunicaciones para cada red social"
+            style="margin-right: -22rem; margin-top: 0.5rem;"
+            class="d-none d-lg-block"
+            src="<?php echo $directory_imgs; ?>Publicidad digital.png"
+          >
+        </div>
         <!-----------------------Contanct----------------------------->
-              <?php get_template_part(
-                  'components/form-quote-request2',
-                  'full',
-                  [
-                      'image' => $directory_imgs . 'form-quote-request.svg',
-                      'title' => '¡Estás listo!',
-                      'idwebsite' => 'redes_socialesWebsite',
-                      'idemail' => 'marketing2email',
-                      'idform' => 'marketing2',
-                      'idparagraph' => 'pmarketing2',
-                      'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
-                      'imgClass' => 'image-contact-margin2'
-                  ]
-              ); ?>                
+          <?php get_template_part(
+            'components/form-quote-request2',
+            'full',
+            [
+                'image' => $directory_imgs . 'form-quote-request.svg',
+                'title' => '¡Estás listo!',
+                'idwebsite' => 'redes_socialesWebsite',
+                'idemail' => 'marketing2email',
+                'idform' => 'marketing2',
+                'idparagraph' => 'pmarketing2',
+                'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
+                'imgClass' => 'image-contact-margin2'
+            ]
+          ); ?>
         <!-----------------------Contanct----------------------------->
       </div>
       <!------------SEO ------------>
@@ -910,11 +922,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         ]
                     ); ?>
               </div>
-              <div class="d-none d-lg-flex">
-                <div
-                  class="container-center-service element-final-center"
-                ></div>
-              </div>
             </div>
           </div>
             
@@ -1068,19 +1075,19 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 </div>
                   <div class="spacing-services-rigth"></div>
               </div>
-              <div class="d-none d-lg-flex">
-                <div
-                  class="container-center-service element-final-center"
-                ></div>
-              </div>
             </div>
           </div>
             
         </div>
         <!-----------------------Service----------------------------->
-         <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  title="Estratégias de Marketing Digital" alt="Crecimiento rápido de tu marca" src="<?php echo $directory_imgs; ?>haking grow.png">
-              </div>
+        <div class="position-relative d-flex justify-content-center" style='margin-bottom: -9rem; height: 15rem;'>
+          <img
+            class="d-none d-lg-block"
+            style='margin-right: -21rem; margin-top: -4rem;'
+            title="Estratégias de Marketing Digital"
+            alt="Crecimiento rápido de tu marca"
+            src="<?php echo $directory_imgs; ?>haking grow.png">
+        </div>
 
           <!-----------------------Circle Right----------------------------->
       <div class='w-100 text-right' style="margin-bottom: -10rem">

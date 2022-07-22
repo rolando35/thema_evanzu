@@ -3,11 +3,13 @@
     Template Name: Branding
 */
 
-get_header('', array( 
-      'title' => 'Agencia de diseño de logo, merchandising, impresos, ilustración, UX-UI',
-      'description' => 'Agencia de diseño para publicidad digital e impresos, logotipo, branding, manual de marca, señalética,  merchadising, ilustración digital, diseño Ux UI', 
-      'keywords' => '',
-      'richsnippets' =>'<script type="application/ld+json">
+get_header('', [
+    'title' =>
+        'Agencia de diseño de logo, merchandising, impresos, ilustración, UX-UI',
+    'description' =>
+        'Agencia de diseño para publicidad digital e impresos, logotipo, branding, manual de marca, señalética,  merchadising, ilustración digital, diseño Ux UI',
+    'keywords' => '',
+    'richsnippets' => '<script type="application/ld+json">
           {
             "@context": "https://schema.org/", 
             "@type": "BreadcrumbList", 
@@ -38,8 +40,8 @@ get_header('', array(
               "item": "https://evanzu.com/new_evanzu/branding-diseno/#ux_ui"  
             }]
           }
-          </script>  ' 
-    ));
+          </script>  ',
+]);
 $directory_imgs =
     get_template_directory_uri() . '/assets/images/marketing-digital/';
 $directory_branding_imgs =
@@ -115,7 +117,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     </div>
                 </div>
                 <div class="mt-5c" style="z-index: 1;">
-                    <?php get_template_part('components/modal/modal', 'full'); ?>
+                    <?php get_template_part(
+                        'components/modal/modal',
+                        'full'
+                    ); ?>
                 </div>
         </div>    
     <!--------------------- Button Modal ---------------------> 
@@ -196,27 +201,28 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'path' => $directory_branding_imgs,
             ],
             [
-                'svg' => 'merchandancin.svg',
-                'title' => 'Merchandising
-                  <br />
-                 & Impresos',
-                'href' => '#merchandising_impresos',
+                'svg' => 'icon-brain.svg',
+                'title' => 'Diseño
+                            <br />
+                           UX & UI',
+                'href' => '#ux_ui',
                 'path' => $directory_branding_imgs,
             ],
+
             [
                 'svg' => 'icon-tv.svg',
                 'title' => 'Ilustración
-        <br />
-        digital',
+                            <br />
+                            digital',
                 'href' => '#ilustracion_digital',
                 'path' => $directory_branding_imgs,
             ],
             [
-                'svg' => 'icon-brain.svg',
-                'title' => 'Diseño
-        <br />
-       UX & UI',
-                'href' => '#ux_ui',
+                'svg' => 'merchandancin.svg',
+                'title' => 'Merchandising
+                              <br />
+                            & Impresos',
+                'href' => '#merchandising_impresos',
                 'path' => $directory_branding_imgs,
             ],
         ];
@@ -415,8 +421,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         'idemail' => 'branding7email',
         'idform' => 'branding7',
         'idparagraph' => 'pbranding7',
-        'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
-				'imgClass' => 'image-contact-margin'
+        'titleClass' => 'title-contact-fontlg title-contact-w36 text-center',
+        'imgClass' => 'image-contact-margin',
     ]); ?>
 				<!-----------------------Contact----------------------------->
         </div>
@@ -437,7 +443,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                  <div class="row justify-content-center">
                   <div class="col-md-11 col-lg-6 d-flex justify-content-lg-end">
                     <img
-                      src="<?php echo $directory_branding_imgs ?>bim.png"
+                      src="<?php echo $directory_branding_imgs; ?>bim.png"
                       alt=""
                       class="img-fluid"
                     />
@@ -481,7 +487,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
                               <div class="col-md-12 col-lg-6 py-5 left-conten-description">
                                 <img
-                                  src="<?php echo $directory_branding_imgs ?>Comunicacion_visual.png"
+                                  src="<?php echo $directory_branding_imgs; ?>Comunicacion_visual.png"
                                   class="img-fluid ml-4"
                                 />
                               </div>
@@ -527,14 +533,20 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           <div class="container">
             <div class="d-flex flex-column align-items-center">
               <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part('components/branding/service-left-double', 'full', [
-                    'image-one' => $directory_branding_imgs .'volante.svg',
-                    'image-two' => $directory_branding_imgs .'diptico.svg',
-                    'title-one' => 'Volante',
-                    'title-two' => 'Diptico',
-                    'line-one' => $directory_branding_imgs.'line-rosado-large.svg',
-                    'line-two' => $directory_branding_imgs.'line-rosado.svg',
-                ]); ?>
+                <?php get_template_part(
+                    'components/branding/service-left-double',
+                    'full',
+                    [
+                        'image-one' => $directory_branding_imgs . 'volante.svg',
+                        'image-two' => $directory_branding_imgs . 'diptico.svg',
+                        'title-one' => 'Volante',
+                        'title-two' => 'Diptico',
+                        'line-one' =>
+                            $directory_branding_imgs . 'line-rosado-large.svg',
+                        'line-two' =>
+                            $directory_branding_imgs . 'line-rosado.svg',
+                    ]
+                ); ?>
 
                   
                 <div class="d-none d-lg-block container-center-service">
@@ -545,26 +557,37 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 <?php get_template_part(
                     'components/branding/service-right-double',
                     'full',
-                     [
-                        'image-one' => $directory_branding_imgs.'colgante.svg',
-                        'image-two' => $directory_branding_imgs.'triptico.svg',
+                    [
+                        'image-one' =>
+                            $directory_branding_imgs . 'colgante.svg',
+                        'image-two' =>
+                            $directory_branding_imgs . 'triptico.svg',
                         'title-one' => 'Colgante',
                         'title-two' => 'Triptico',
-                        'line-one' => $directory_branding_imgs .'line-purple-tiny.svg',
-                        'line-two' => $directory_branding_imgs .'line_purple.svg',
+                        'line-one' =>
+                            $directory_branding_imgs . 'line-purple-tiny.svg',
+                        'line-two' =>
+                            $directory_branding_imgs . 'line_purple.svg',
                     ]
                 ); ?>
               </div>
 
               <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part('components/branding/service-left-double', 'full', [
-                    'image-one' => $directory_branding_imgs.'stopper.svg',
-                    'image-two' => $directory_branding_imgs.'jalavista.svg',
-                    'title-one' => 'Stopper',
-                    'title-two' => 'Jalavista',
-                    'line-one' => $directory_branding_imgs.'line-rosado-large.svg',
-                    'line-two' => $directory_branding_imgs.'line-rosado.svg',
-                ]); ?>
+                <?php get_template_part(
+                    'components/branding/service-left-double',
+                    'full',
+                    [
+                        'image-one' => $directory_branding_imgs . 'stopper.svg',
+                        'image-two' =>
+                            $directory_branding_imgs . 'jalavista.svg',
+                        'title-one' => 'Stopper',
+                        'title-two' => 'Jalavista',
+                        'line-one' =>
+                            $directory_branding_imgs . 'line-rosado-large.svg',
+                        'line-two' =>
+                            $directory_branding_imgs . 'line-rosado.svg',
+                    ]
+                ); ?>
 
                   
                 <div class="d-none d-lg-block container-center-service">
@@ -575,27 +598,35 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 <?php get_template_part(
                     'components/branding/service-right-double',
                     'full',
-                     [
-                        'image-one' => $directory_branding_imgs.'loading.svg',
-                        'image-two' => $directory_branding_imgs.'flyer.svg',
+                    [
+                        'image-one' => $directory_branding_imgs . 'loading.svg',
+                        'image-two' => $directory_branding_imgs . 'flyer.svg',
                         'image' => $path_img . 'second-icon-service.svg',
                         'title-one' => 'Landing Pages',
                         'title-two' => 'Flyer',
-                        'line-one' => $directory_branding_imgs .'line-purple-tiny.svg',
-                        'line-two' => $directory_branding_imgs .'line_purple.svg',
+                        'line-one' =>
+                            $directory_branding_imgs . 'line-purple-tiny.svg',
+                        'line-two' =>
+                            $directory_branding_imgs . 'line_purple.svg',
                     ]
                 ); ?>
               </div>
 
                <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part('components/branding/service-left-double', 'full', [
-                    'image-one' => $directory_branding_imgs.'bannerP.svg',
-                    'image-two' => $directory_branding_imgs.'gif.svg',
-                    'title-one' => 'Banners <br>digitales',
-                    'title-two' => 'gif',
-                    'line-one' => $directory_branding_imgs.'line-rosado-large.svg',
-                    'line-two' => $directory_branding_imgs.'line-rosado.svg',
-                ]); ?>
+                <?php get_template_part(
+                    'components/branding/service-left-double',
+                    'full',
+                    [
+                        'image-one' => $directory_branding_imgs . 'bannerP.svg',
+                        'image-two' => $directory_branding_imgs . 'gif.svg',
+                        'title-one' => 'Banners <br>digitales',
+                        'title-two' => 'gif',
+                        'line-one' =>
+                            $directory_branding_imgs . 'line-rosado-large.svg',
+                        'line-two' =>
+                            $directory_branding_imgs . 'line-rosado.svg',
+                    ]
+                ); ?>
 
                   
                 <div class="d-none d-lg-block container-center-service">
@@ -606,14 +637,17 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 <?php get_template_part(
                     'components/branding/service-right-double',
                     'full',
-                     [
-                        'image-one' => $directory_branding_imgs.'poster.svg',
-                        'image-two' => $directory_branding_imgs.'bannersI.svg',
+                    [
+                        'image-one' => $directory_branding_imgs . 'poster.svg',
+                        'image-two' =>
+                            $directory_branding_imgs . 'bannersI.svg',
                         'image' => $path_img . 'second-icon-service.svg',
                         'title-one' => 'Poster',
                         'title-two' => 'Banners<br> para impresión',
-                        'line-one' => $directory_branding_imgs .'line-purple-tiny.svg',
-                        'line-two' => $directory_branding_imgs .'line_purple.svg',
+                        'line-one' =>
+                            $directory_branding_imgs . 'line-purple-tiny.svg',
+                        'line-two' =>
+                            $directory_branding_imgs . 'line_purple.svg',
                     ]
                 ); ?>
               </div>
@@ -636,8 +670,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             'idemail' => 'branding0email',
             'idform' => 'branding0',
             'idparagraph' => 'pbranding0',
-            'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
-            'imgClass' => 'image-contact-margin'
+            'titleClass' =>
+                'title-contact-fontlg title-contact-w36 text-center',
+            'imgClass' => 'image-contact-margin',
         ]); ?>                
         <!-----------------------Contanct----------------------------->
       </div>
@@ -706,43 +741,52 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<div class="container">
 					<div class="d-flex flex-column align-items-center mb-n1-5">
 						<div class="d-flex flex-column flex-md-row">
+
 							<?php get_template_part('components/btl/service-left', 'full', [
-                    'image' => $directory_branding_imgs . 'ofrecemos1.png',
-                    'text' => '
-                      <div class="long-content">
-                        <span class="hurme-bold-4 mb-3">Merchandising</span>
-                        <p>
-                        Logra que las personas descubran, reconozcan y difundan tu marca con artículos como: Gorras, polos, lapiceros, tazas, Soleras, llaveros, pines, tomados y mucho más.
-                        </p>
-                      </div>
-                    ',
-                    'line' => $directory_branding_imgs . 'line-red.svg',
-                ]); ?>
+                'image' => $directory_branding_imgs . 'ofrecemos1.png',
+                'text' => '
+                  <div class="long-content">
+                    <span class="hurme-bold-4 mb-3">Merchandising</span>
+                    <p>
+                    Logra que las personas descubran, reconozcan y difundan tu marca con artículos como: Gorras, polos, lapiceros, tazas, Soleras, llaveros, pines, tomados y mucho más.
+                    </p>
+                  </div>',
+                'line' => $directory_branding_imgs . 'line-red.svg',
+              ]); ?>
+
 							<div class="d-none d-lg-block container-center-service">
                 <div class="element-center-service"></div>
 							</div>
-							<?php get_template_part('components/service-right-long', 'full', [
-                      'image' => $directory_branding_imgs . 'ofrecemos2.png',
-                      'text' => '
-                        <div class="hight-content">
-                          <span class="hurme-bold-4 mb-5">Impresos</span>
-    
-                          Partimos de las necesidades de comunicación para la  <span class="hurme-bold-4">maquetación de contenido que cautive</span> al público objetivo, informe efectivamente y refuerce la identidad corporativa.
-                          
-                          <p class="text-red font-weight-bold hurme-bold-4">Incluye:</p> 
-                          <i>
-                          Hojas membretadas, tarjetas de presentación personales y corporativas, brochures corporativos, banners publicitarios, sobres y bolsas, volantes, dipticos y tripticos, y otras publicaciones como: libros, revistas, periódicos, catálogos, carátulas, cuentos y otros.
-                          </i>
-                        </div>
-                      ',
-                      'line' => $directory_branding_imgs . 'line-purple-higth1.svg',
-                  ]); ?>
+
+              <div class="d-flex flex-column my-1 my-lg-0 align-self-lg-end">
+                <div class="d-flex flex-column-reverse align-items-center flex-lg-row">
+                  <div class="align-self-center text-center text-lg-right p-2 pr-lg-3 pb-lg-0 text-service">
+                    <div class="hight-content">
+                      <span class="hurme-bold-4 mb-5">Impresos</span>
+                      Partimos de las necesidades de comunicación para la  <span class="hurme-bold-4">maquetación de contenido que cautive</span> al público objetivo, informe efectivamente y refuerce la identidad corporativa.
+                      <p class="text-red font-weight-bold hurme-bold-4">Incluye:</p> 
+                      <i>
+                      Hojas membretadas, tarjetas de presentación personales y corporativas, brochures corporativos, banners publicitarios, sobres y bolsas, volantes, dipticos y tripticos, y otras publicaciones como: libros, revistas, periódicos, catálogos, carátulas, cuentos y otros.
+                      </i>
+                    </div>
+                  </div>
+                  <div class="align-self-lg-end long-services">
+                    <img class="image-service" src="<?php echo $directory_branding_imgs . 'ofrecemos2.png' ?>"/>
+                  </div>
+                </div>
+                <div class="d-none d-lg-flex justify-content-start container-line-right-service" style="margin-bottom: -10rem; z-index: 1;" >
+                  <div class="line-right-service">
+                    <img src="<?php echo $directory_branding_imgs . 'line-purple-higth1.svg'?>" />
+                  </div>
+                </div>
+              </div>
+
 					</div>
 
             <div class="d-flex flex-column flex-md-row">
 							<?php get_template_part('components/service-left-long', 'full', [
-            'image' => $directory_branding_imgs . 'ofrecemos3.png',
-            'text' => ' 
+           'image' => $directory_branding_imgs . 'ofrecemos3.png',
+           'text' => ' 
                 <div class="hight-content1">
                 <span class="hurme-bold-4 mb-5">Señalética corporativa </span>
 
@@ -755,21 +799,24 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   </i>
                 </div>
             ',
-            'line' => $directory_branding_imgs . 'line-red.svg',
-        ]); ?>									
+           'line' => $directory_branding_imgs . 'line-red.svg',
+       ]); ?>									
 							<div class="d-none d-lg-block container-center-service">
 							</div>
 							<div class="d-none d-lg-block container-empty-service"></div>
 						</div>
-						<div class="d-none d-lg-flex">
+						<div class="d-none d-lg-flex" style="z-index: -1;">
 							<div class="container-center-service element-final-center"></div>
 						</div>
 					</div>
 				</div>
 
         <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-            <img  class="" src="<?php echo $directory_branding_imgs .
-                'Piezas de Comunicación 1.png'; ?>">
+            <img
+            class="d-none d-lg-block"
+            style="margin-right: -23rem; margin-top: -12rem;"
+            src="
+            <?php echo $directory_branding_imgs . 'Piezas de Comunicación 1.png'; ?>">
         </div>
 			</div>
         <!-----------------------Service----------------------------->
@@ -778,11 +825,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <div class='w-100 text-right' style="margin-bottom: -10rem">
           <?php
           $parameters = ['color' => '#681484', 'position' => 'right'];
-          get_template_part(
-              'components/border-circle',
-              'full',
-              $parameters
-          );
+          get_template_part('components/border-circle', 'full', $parameters);
           ?>
           </div>
         <!-----------------------Circle Right----------------------------->
@@ -790,20 +833,17 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <div class='mt-5'>
           <!-----------------------Contact----------------------------->
-          <?php get_template_part(
-              'components/form-quote-request2',
-              'full',
-              [
-                'image' => $path_img . 'girl-icon.svg',
-                'title' => 'Te escuchamos',
-                'idwebsite' => 'menu2Website',
-                'idemail' => 'branding5email',
-                'idform' => 'branding5',
-                'idparagraph' => 'pbranding5',
-                'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
-                'imgClass' => 'image-contact-margin'
-              ]
-          ); ?>
+          <?php get_template_part('components/form-quote-request2', 'full', [
+              'image' => $path_img . 'girl-icon.svg',
+              'title' => 'Te escuchamos',
+              'idwebsite' => 'menu2Website',
+              'idemail' => 'branding5email',
+              'idform' => 'branding5',
+              'idparagraph' => 'pbranding5',
+              'titleClass' =>
+                  'title-contact-fontlg title-contact-w36 text-center',
+              'imgClass' => 'image-contact-margin',
+          ]); ?>
           <!-----------------------Contact----------------------------->
         </div>
 
@@ -895,9 +935,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             'line' => $directory_branding_imgs . 'line_purple.svg',
         ]); ?>
 							</div>
-
-							
-
               <div class="d-flex flex-column flex-md-row">
 								<?php get_template_part('components/btl/service-left', 'full', [
             'image' => $directory_branding_imgs . 'ilustracion3.png',
@@ -909,18 +946,21 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								</div>
 								<div class="d-none d-lg-block container-empty-service"></div>
 							</div>
-
-							<div class="d-none d-lg-flex">
-								<div class="container-center-service element-final-center"></div>
-							</div>
 						</div>
 					</div>
           <div class="position-relative d-flex justify-content-center">
-              <img  class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/branding/Group 86.png">
+              <img
+                class="d-none d-lg-block"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/branding/Group 86.png"
+                style="
+                    margin-right: -22rem;
+                    margin-top: -4rem;
+                    margin-bottom: -6rem;"
+              >
           </div>
           <div>
           <div class="" style="background: #f7f7f7; padding: 2rem 0;">
-            <h3 class="how text-center hurme-bold-4">¿Cómo lo hacemos?</h3>
+            <h3 class="how text-center hurme-bold-4 mt-0 mt-lg-5">¿Cómo lo hacemos?</h3>
             <!------------------Game-------------------->
         		<section style="margin-top: 2rem" class="text-center">
 
@@ -970,8 +1010,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         'idemail' => 'branding1email',
         'idform' => 'branding1',
         'idparagraph' => 'pbranding1',
-        'titleClass' =>'title-contact-fontmd title-contact-w36 text-center',
-        'imgClass' => 'image-contact-margin'
+        'titleClass' => 'title-contact-fontmd title-contact-w36 text-center',
+        'imgClass' => 'image-contact-margin',
     ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
@@ -1150,8 +1190,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         'idemail' => 'branding2email',
         'idform' => 'branding2',
         'idparagraph' => 'pbranding2',
-        'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
-        'imgClass' => 'image-contact-margin'
+        'titleClass' => 'title-contact-fontlg title-contact-w36 text-center',
+        'imgClass' => 'image-contact-margin',
     ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>

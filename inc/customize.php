@@ -268,7 +268,86 @@ function evanzu_customize_register($wp_customize)
         'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
 
     )));
-   
+
+
+    $wp_customize->add_setting('home_main[galleria-image-fifteen]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleria-image-fifteen', array(
+        'label'                => __('Imagen de galeria quince', ''),
+        'section'              => 'home_galeria',
+        'settings'             => 'home_main[galleria-image-fifteen]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+
+    )));
+
+
+    $wp_customize->add_setting('home_main[galleria-image-sixteen]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleria-image-sixteen', array(
+        'label'                => __('Imagen de galeria dieciseis', ''),
+        'section'              => 'home_galeria',
+        'settings'             => 'home_main[galleria-image-sixteen]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+
+    )));
+
+
+    $wp_customize->add_setting('home_main[galleria-image-seventeen]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleria-image-seventeen', array(
+        'label'                => __('Imagen de galeria diecisiete', ''),
+        'section'              => 'home_galeria',
+        'settings'             => 'home_main[galleria-image-seventeen]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+
+    )));
+
+
+    $wp_customize->add_setting('home_main[galleria-image-eighteen]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleria-image-eighteen', array(
+        'label'                => __('Imagen de galeria dieciocho', ''),
+        'section'              => 'home_galeria',
+        'settings'             => 'home_main[galleria-image-eighteen]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+
+    )));
+
+
+    $wp_customize->add_setting('home_main[galleria-image-nineteen]', array(
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'esc_url',
+        'type'               => 'option'
+
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'galleria-image-nineteen', array(
+        'label'                => __('Imagen de galeria diecinueve', ''),
+        'section'              => 'home_galeria',
+        'settings'             => 'home_main[galleria-image-nineteen]',
+        'description'       => __('Sube una imagen para la geleria de la página de incio. Se recomienda una imagen de 2000px X 900px', '')
+
+    )));
     
     // $wp_customize->add_setting('home_main[galleria-image-fifteen]', array(
    

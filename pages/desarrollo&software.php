@@ -140,6 +140,27 @@ $path_software =
   font-size: 22px;
 }
 
+.contain-image {
+	margin-bottom: -4rem;
+  margin-right: -29rem;
+  top: -13rem;
+	height: 21rem;
+}
+
+.mt-24rm {
+	margin-top: -16rem;
+}
+
+.contain-img-software {
+	margin-bottom: -10rem;
+	height: 11rem;
+}
+
+.image-software {
+	margin-top: -11rem;
+  margin-right: -28rem;
+}
+
 .w100-auto {
   width: auto;
 }
@@ -525,33 +546,36 @@ $path_software =
 							</div>
 						</div>
 					</div>
-          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -4rem;'>
+          <div class="position-relative d-flex justify-content-center mt-5 contain-image">
               <img
-								class=""
+								class="d-none d-lg-block"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Páginas web evanzu en laptop.png"
 								title="Desarrollo de páginas web"
 								alt="Desarrollo de páginas web EVANZU"
 						>
           </div>
+					<!-----------------------Circle Right----------------------------->
+					<div class='w-100 text-right'>
+						<div class="w-100 text-right d-none d-md-block">
+							<svg 
+								style='margin-top: -31rem; transform: rotate(-180deg);'
+								width="108"
+								height="217"
+								viewBox="0 0 108 217"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z" fill="#03479C"/>
+							</svg>
+						</div>
+					</div>
+					<!-----------------------Circle Right----------------------------->
 				</div>
 				<!-----------------------Service component tab2----------------------------->
 
 
 				<!-----------------------Service paht two----------------------------->
-        <!-----------------------Circle Right----------------------------->
-        <div class='w-100 text-right' style="margin-bottom: -10rem">
-                <?php
-                $parameters = ['color' => '#03479C', 'position' => 'right'];
-                get_template_part(
-                    'components/border-circle',
-                    'full',
-                    $parameters
-                );
-                ?>
-                </div>
-                <!-----------------------Circle Right----------------------------->
 
-        <div class='mt-5'>
+        <div class='mt-24rm'>
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
@@ -560,9 +584,9 @@ $path_software =
         'idemail' => 'softWare2email',
         'idform' => 'softWare2',
         'idparagraph' => 'psoftWare2',
-		'titleClass' =>'title-contact-fontmd title-contact-w38 text-center',
-		'imgClass' => 'image-contact-margin2'
-    ]); ?>
+				'titleClass' =>'title-contact-fontmd title-contact-w38 text-center',
+				'imgClass' => 'image-contact-margin2'
+				]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
 
@@ -889,30 +913,33 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 							</div>
 						</div>
 					</div>
-          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+          <div class="position-relative d-flex justify-content-center mt-5 contain-img-software">
               <img
-								class=""
+								class="d-none d-lg-block image-software"
 								title="Servicio de dessarrollo de software a medida"
 								alt="Desarrollo de software en equipo"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Desarrollo de software a medida1.png"
 							>
           </div>
+					<!-----------------------Circle Right----------------------------->
+					<div class='w-100 text-right'>
+						<div class="w-100 text-right d-none d-md-block">
+							<svg 
+								style='margin: -9rem 0 -6rem 0; transform: rotate(-180deg);'
+								width="108"
+								height="217"
+								viewBox="0 0 108 217"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M0 0C59.6468 0 108 48.8533 108 108.5C108 168.147 59.6468 217 0 217V0Z" fill="#03479C"/>
+							</svg>
+						</div>
+					</div>
+					<!-----------------------Circle Right----------------------------->
 				</div>
 				<!-----------------------Service component tab4----------------------------->
-        <!-----------------------Circle Right----------------------------->
-        <div class='w-100 text-right' style="margin-bottom: -10rem">
-                <?php
-                $parameters = ['color' => '#03479C', 'position' => 'right'];
-                get_template_part(
-                    'components/border-circle',
-                    'full',
-                    $parameters
-                );
-                ?>
-                </div>
-                <!-----------------------Circle Right----------------------------->
 
-        <div class='mt-5'>
+        <div class='' style="margin-top: -1rem;">
         <!-----------------------Contact----------------------------->
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',

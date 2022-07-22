@@ -3,10 +3,13 @@
     Template Name: AudioVisual
 */
 $transparentNone = true;
-get_header('', array( 'title' => 'Agencia de producción audiovisual, spots publicitarios, animación 2D',
-'description' => 'Agencia de producción audiovisual, spots publicitarios para radio, tv, web, proyectos de animación 2D, video institucional y fotografía profesional', 
-'keywords' => '',
-'richsnippets' =>'<script type="application/ld+json">
+get_header('', [
+    'title' =>
+        'Agencia de producción audiovisual, spots publicitarios, animación 2D',
+    'description' =>
+        'Agencia de producción audiovisual, spots publicitarios para radio, tv, web, proyectos de animación 2D, video institucional y fotografía profesional',
+    'keywords' => '',
+    'richsnippets' => '<script type="application/ld+json">
 {
   "@context": "https://schema.org/", 
   "@type": "BreadcrumbList", 
@@ -27,9 +30,8 @@ get_header('', array( 'title' => 'Agencia de producción audiovisual, spots publ
     "item": "https://evanzu.com/new_evanzu/produccion-audiovisual/#fotografia_profesional"  
   }]
 }
-</script>'
-
-));
+</script>',
+]);
 $directory_imgs = get_template_directory_uri() . '/assets/images/audioVisual/';
 ?>
 <style>
@@ -92,6 +94,11 @@ ul{
     margin-bottom: -9px;
 }
 
+.mb-07 {
+  margin-bottom: -7rem;
+  z-index: 1;
+}
+
 @media only screen and (max-width: 1200px) {
   .text-paragraph {
 		font-size: 2.2rem !important;
@@ -130,6 +137,12 @@ ul{
 	.carousel-item > img {
 		height: 25rem !important;
 	}
+}
+@media only screen and (max-width: 780px) {
+  .mb-07 {
+    margin-bottom: 0.25rem!important; 
+    z-index: 1;
+  }
 }
 
 /* h1 {
@@ -238,7 +251,10 @@ h5 {
                     </div>
                 </div>
                 <div class="mt-5c" style="z-index: 1;">
-                    <?php get_template_part('components/modal/modal', 'full'); ?>
+                    <?php get_template_part(
+                        'components/modal/modal',
+                        'full'
+                    ); ?>
                 </div>
         </div>    
     <!--------------------- Button Modal ---------------------> 
@@ -318,7 +334,7 @@ h5 {
                 'title' => 'Fotografía Profesional',
                 'href' => '#fotografia_profesional',
                 'path' => $directory_imgs,
-            ]
+            ],
         ]
         as $nav
     ) {
@@ -372,12 +388,8 @@ h5 {
         </div>
       </div>
       <?php
-        $parameters = ['color' => '#ED1164', 'position' => ''];
-        get_template_part(
-            'components/border-circle',
-            'full',
-            $parameters
-        );
+      $parameters = ['color' => '#ED1164', 'position' => ''];
+      get_template_part('components/border-circle', 'full', $parameters);
       ?>
       <!-------------------- services tab1 -------------------->
 			<div class="section-service">
@@ -392,11 +404,9 @@ h5 {
 				<div class="container">
 					<div class="d-flex flex-column align-items-center mb-n1-5">
 						<div class="d-flex flex-column flex-md-row">
-							<?php
-								get_template_part('components/btl/service-left','full', 
-									array(
-										'image' => $directory_imgs."icono (1).svg",
-										'text' => '<span class="hurme-bold-4">Pre Produción</span>
+							<?php get_template_part('components/btl/service-left', 'full', [
+           'image' => $directory_imgs . 'icono (1).svg',
+           'text' => '<span class="hurme-bold-4">Pre Produción</span>
                                 <ul class="text-left">
                                   <li>Brief de Requerimiento.</li>
                                   <li>Desarrollo de concepto.</li>
@@ -404,48 +414,55 @@ h5 {
                                   <li>Planificación y Scouting (locaciones).</li>
                                   <li>Casting, arte y vestuario.</li>
                                 </ul>',
-										'line' => $directory_imgs."line-rosado.svg"
-									)
-								); 
-							?>
+           'line' => $directory_imgs . 'line-rosado.svg',
+       ]); ?>
 							<div class="d-none d-lg-block container-center-service">
 					 			<div class="element-center-service"></div>
 							</div>
-							<?php
-								get_template_part('components/btl/service-right','full', 
-									array(
-										'image' => $directory_imgs."imageMicripho.svg",
-										'text' => '<span class="hurme-bold-4">Produción</span>
-                                <ul class="w-310">
-                                    <li>Producción y gestión de rodaje.</li>
-                                    <li>Maquillaje y Make up.</li>
-                                    <li>Capatura de tomas en audio directo.</li>
-                                    <li>Profesionales en la dirección fotográfica e iluminación.</li>
-                                    <li>Grabaciones cuadro por cuadro.</li>
-                                </ul>',
-										'line' => $directory_imgs."line-blu.svg"
-									)
-								); 
-							?>
+
+              <div class="d-flex flex-column  align-self-lg-end mb-07">
+              	<div class="d-flex flex-column-reverse align-items-center flex-lg-row">
+              		<div
+              			class="align-self-center text-center text-lg-left p-2 pr-lg-3 pb-lg-0 text-service"
+              		>
+                  <span class="hurme-bold-4">Produción</span>
+                    <ul class="w-310">
+                        <li>Producción y gestión de rodaje.</li>
+                        <li>Maquillaje y Make up.</li>
+                        <li>Capatura de tomas en audio directo.</li>
+                        <li>Profesionales en la dirección fotográfica e iluminación.</li>
+                        <li>Grabaciones cuadro por cuadro.</li>
+                    </ul>
+              		</div>
+              		<div class="align-self-lg-end">
+              			<img class="image-service" src="<?php echo get_template_directory_uri() .
+                     '/assets/images/audioVisual/'; ?>imageMicripho.svg"
+              			/>
+              		</div>
+              	</div>
+              	<div class="d-none d-lg-flex justify-content-start container-line-right-service"
+              	>
+              		<div class="line-right-service">
+              			<img class="img-fluid" src="<?php echo get_template_directory_uri() .
+                     '/assets/images/audioVisual/'; ?>line-blu.svg" />
+              		</div>
+              	</div>
+              </div>
 						</div>
 
             <div class="d-flex flex-column flex-md-row">
-							<?php
-								get_template_part('components/btl/service-left','full', 
-									array(
-										'image' => $directory_imgs."icono (1).svg",
-										'text' => '<span class="hurme-bold-4">Produción</span>
+							<?php get_template_part('components/btl/service-left', 'full', [
+           'image' => $directory_imgs . 'icono (1).svg',
+           'text' => '<span class="hurme-bold-4">Post Producción</span>
                                 <ul class="w-310">
-                                    <li>Producción y gestión de rodaje.</li>
-                                    <li>Maquillaje y Make up.</li>
-                                    <li>Capatura de tomas en audio directo.</li>
-                                    <li>Profesionales en la dirección fotográfica e iluminación.</li>
-                                    <li>Grabaciones cuadro por cuadro.</li>
+                                    <li>Edición de Video Digital.</li>
+                                    <li>Realización de efectos visuales.</li>
+                                    <li>Locución y edición de audio digital.</li>
+                                    <li>Masterización de audio y video.</li>
+                                    <li>Presentación y empaquetado.</li>
                                 </ul>',
-										'line' => $directory_imgs."line-rosado.svg"
-									)
-								); 
-							?>									
+           'line' => $directory_imgs . 'line-rosado.svg',
+       ]); ?>									
 							<div class="d-none d-lg-block container-center-service">
 							</div>
 							<div class="d-none d-lg-block container-empty-service"></div>
@@ -467,34 +484,25 @@ h5 {
 
       <div class='w-100 text-right' style="margin-bottom: -10rem">
           <?php
-            $parameters = [
-                'color' => '#019B69',
-                'position' => 'right',
-            ];
-            get_template_part(
-                'components/border-circle',
-                'full',
-                $parameters
-            );
+          $parameters = [
+              'color' => '#019B69',
+              'position' => 'right',
+          ];
+          get_template_part('components/border-circle', 'full', $parameters);
           ?>
       </div>
       <div class='mt-5'>
         <!-----------------------Contact----------------------------->
-				<?php get_template_part(
-            'components/form-quote-request2',
-            'full',
-            [
-                'image' =>
-                    $directory_imgs . 'form-quote-request.svg',
-                'title' => '¡Empecemos ahora!',
-                'idwebsite' => 'homeWebsite',
-                'idemail' => 'form1email',
-                'idform' => 'chalk1',
-                'idparagraph' => 'p1',
-                'titleClass' =>'title-contact-fontlg title-contact-w38 text-center',
-                'imgClass' => 'image-contact-margin2'
-            ]
-        ); ?>
+				<?php get_template_part('components/form-quote-request2', 'full', [
+        'image' => $directory_imgs . 'form-quote-request.svg',
+        'title' => '¡Empecemos ahora!',
+        'idwebsite' => 'homeWebsite',
+        'idemail' => 'form1email',
+        'idform' => 'chalk1',
+        'idparagraph' => 'p1',
+        'titleClass' => 'title-contact-fontlg title-contact-w38 text-center',
+        'imgClass' => 'image-contact-margin2',
+    ]); ?>
 				<!-----------------------Contact----------------------------->
       </div>
 
@@ -570,14 +578,10 @@ h5 {
       <!-- PORTAFOLIO -->
       <section class="mb-5">
         <h2 class="bg-white big-title text-center text-red">PORTAFOLIO</h2>                 
-        <?php echo get_template_part(
-          'components/video-galery',
-          'full',
-          [
-          'video1' => 'zpq6oje5FsA',
-          'video2' => '-SdnP9s5cF8',
-          ]
-          ); ?>
+        <?php echo get_template_part('components/video-galery', 'full', [
+            'video1' => 'zpq6oje5FsA',
+            'video2' => '-SdnP9s5cF8',
+        ]); ?>
       </section>
     </div>
     <!------------Sports & videos------------>
@@ -636,50 +640,38 @@ h5 {
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $directory_imgs."como-lo-hacemos1.svg",
-											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Desarrollo </b> de concepto.',
-											'line' => $directory_imgs."line-rosado.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $directory_imgs . 'como-lo-hacemos1.svg',
+            'text' =>
+                '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Desarrollo </b> de concepto.',
+            'line' => $directory_imgs . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $directory_imgs."como-lo-hacemos2.svg",
-											'text' => 'Creación de <b class="font-weight-bold hurme-bold-4 text-gray-black" > Storyboard.</b>',
-											'line' => $directory_imgs."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $directory_imgs . 'como-lo-hacemos2.svg',
+            'text' =>
+                'Creación de <b class="font-weight-bold hurme-bold-4 text-gray-black" > Storyboard.</b>',
+            'line' => $directory_imgs . 'line-blu.svg',
+        ]); ?>
 							</div>
 
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $directory_imgs."como-lo-hago3.svg",
-											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Ilustración y caracterización</b> de personajes y escenarios.',
-											'line' => $directory_imgs."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $directory_imgs . 'como-lo-hago3.svg',
+            'text' =>
+                '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Ilustración y caracterización</b> de personajes y escenarios.',
+            'line' => $directory_imgs . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $directory_imgs."como-lo-hago4.svg",
-											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Animación, musicalización y voz en off.</b>',
-											'line' => $directory_imgs."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $directory_imgs . 'como-lo-hago4.svg',
+            'text' =>
+                '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Animación, musicalización y voz en off.</b>',
+            'line' => $directory_imgs . 'line-blu.svg',
+        ]); ?>
 							</div>
 							<div class="d-none d-lg-flex">
 								<div class="container-center-service element-final-center"></div>
@@ -721,8 +713,9 @@ h5 {
                             'idemail' => 'form2email',
                             'idform' => 'chalk2',
                             'idparagraph' => 'p2',
-                            'titleClass' =>'title-contact-fontlg title-contact-w38 text-left pl-lg-5',
-                            'imgClass' => 'image-contact-margin2'
+                            'titleClass' =>
+                                'title-contact-fontlg title-contact-w38 text-left pl-lg-5',
+                            'imgClass' => 'image-contact-margin2',
                         ]
                     ); ?>
                     <!-----------------------Contact----------------------------->
@@ -821,50 +814,38 @@ h5 {
 					<div class="container">
 						<div class="d-flex flex-column align-items-center mb-n1-5">
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $directory_imgs."herramientas1.svg",
-											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Fotos </b> de Cámaras DLSR.',
-											'line' => $directory_imgs."line-rosado.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $directory_imgs . 'herramientas1.svg',
+            'text' =>
+                '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Fotos </b> de Cámaras DLSR.',
+            'line' => $directory_imgs . 'line-rosado.svg',
+        ]); ?>
 								<div class="d-none d-lg-block container-center-service">
 						 			<div class="element-center-service"></div>
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $directory_imgs."herramientas2.svg",
-											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Fotos </b>Fotos de estudio.',
-											'line' => $directory_imgs."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $directory_imgs . 'herramientas2.svg',
+            'text' =>
+                '<b class="font-weight-bold hurme-bold-4 text-gray-black" > Fotos </b>Fotos de estudio.',
+            'line' => $directory_imgs . 'line-blu.svg',
+        ]); ?>
 							</div>
 
 							<div class="d-flex flex-column flex-md-row">
-								<?php
-									get_template_part('components/btl/service-left','full', 
-										array(
-											'image' => $directory_imgs."herramientas3.svg",
-											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Video</b> cámara HD y 4K',
-											'line' => $directory_imgs."line-rosado.svg"
-										)
-									); 
-								?>									
+								<?php get_template_part('components/btl/service-left', 'full', [
+            'image' => $directory_imgs . 'herramientas3.svg',
+            'text' =>
+                '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Video</b> cámara HD y 4K',
+            'line' => $directory_imgs . 'line-rosado.svg',
+        ]); ?>									
 								<div class="d-none d-lg-block container-center-service">
 								</div>
-								<?php
-									get_template_part('components/btl/service-right','full', 
-										array(
-											'image' => $directory_imgs."herramientas4.svg",
-											'text' => '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Fotos aéreas</b> con drones.',
-											'line' => $directory_imgs."line-blu.svg"
-										)
-									); 
-								?>
+								<?php get_template_part('components/btl/service-right', 'full', [
+            'image' => $directory_imgs . 'herramientas4.svg',
+            'text' =>
+                '<b class="font-weight-bold hurme-bold-4 text-gray-black" >Fotos aéreas</b> con drones.',
+            'line' => $directory_imgs . 'line-blu.svg',
+        ]); ?>
 							</div>
 							<div class="d-none d-lg-flex">
 								<div class="container-center-service element-final-center"></div>
@@ -904,8 +885,9 @@ h5 {
                             'idemail' => 'form3email',
                             'idform' => 'chalk3',
                             'idparagraph' => 'p3',
-                            'titleClass' =>'title-contact-fontsm title-contact-w38 text-center',
-                            'imgClass' => 'image-contact-margin2'
+                            'titleClass' =>
+                                'title-contact-fontsm title-contact-w38 text-center',
+                            'imgClass' => 'image-contact-margin2',
                         ]
                     ); ?>
                     <!-----------------------Contact----------------------------->
@@ -939,7 +921,9 @@ h5 {
                <!-- PORTAFOLIO -->
                <section>
                        <h2 class="bg-white big-title text-center text-red">PORTAFOLIO</h2>                 
-                           <?php echo get_template_part('components/masonry-audio-visual'); ?>
+                           <?php echo get_template_part(
+                               'components/masonry-audio-visual'
+                           ); ?>
                  </section>
             </div>
         </div>
