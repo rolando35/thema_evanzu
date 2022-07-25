@@ -22,12 +22,12 @@
         <input
           type="text"
           placeholder="Sitio Web"
-          class="input-non-border form-control"
+          class="input-non-border form-controls"
         />
         <input
           type="text "
           placeholder="E-mail"
-          class="input-non-border form-control"
+          class="input-non-border form-controls"
         />
       </div>
     </div>

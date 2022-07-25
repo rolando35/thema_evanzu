@@ -47,7 +47,7 @@
 									type="text"
 									id="<?php echo $args['idwebsite']; ?>"
 									placeholder="Sitio Web"
-									class="<?php echo $args['idwebsite']; ?> input-non-border form-control w-100"
+									class="<?php echo $args['idwebsite']; ?> input-non-border form-controls w-100"
 									name="<?php echo $args['idwebsite']; ?>"
 								/>
 							</div>
@@ -56,7 +56,7 @@
 									type="text"
 									id="<?php echo $args['idemail']; ?>"
 									placeholder="E-mail"
-									class="<?php echo $args['idemail']; ?> input-non-border form-control w-100"
+									class="<?php echo $args['idemail']; ?> input-non-border form-controls w-100"
 									name="<?php echo $args['idemail']; ?>"
 								/>
 							</div>
@@ -128,6 +128,7 @@
               email: "El correo tiene que tener un formato: abc@domain.tld"
           }
         },
+
         submitHandler: function (e) {
           var website = $("#<?php echo $args['idwebsite']; ?>").val();
           var email =  $("#<?php echo $args['idemail']; ?>").val()

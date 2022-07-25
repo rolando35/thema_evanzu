@@ -42,7 +42,7 @@
 </style>
  
 <!-- oncontextmenu="return false;" -->
-<body class="w-100" onmousedown="return false;" onselectstart="return false;">
+<!-- <body class="w-100" onmousedown="return false;" onselectstart="return false;"> -->
  
 <?php 
 wp_head();
@@ -104,11 +104,11 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
   </nav>
           
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
+<!-- <script>
  $(document).ready(function () {
 $("ul > li button").click(function () {
         $('ul > li button').removeClass('active');
         $(this).addClass('active');
     });
 });
-</script>
+</script> -->
