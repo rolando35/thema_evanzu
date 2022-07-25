@@ -985,6 +985,9 @@ a.link-circle {
   font-family: hurme-simple;
 }
 
+.carousel-inner-negative {
+  margin-top: unset;
+}
 /* Masonry toggle */
 /* .toggle-position{
   position: initial;
@@ -1186,6 +1189,10 @@ a.link-circle {
 
   .center-responsive-footer {
     text-align: center;
+  }
+
+  .carousel-inner-negative {
+    margin-top: -10%;
   }
 }
 
