@@ -436,17 +436,29 @@
   margin-top: -1.8rem;
 }
 
+.ht7 {
+  height: 7rem;
+}
+
 .navbar-dark .navbar-nav .nav-link a {
   color: white;
   text-decoration: none;
 }
 
-a .link-circle {
-  border: 0 !important;
+a.link-circle {
+  border: none !important;
+}
+
+.carousel-item.active {
+  border: none !important;
 }
 
 .nav-link {
   padding: 0;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  line-height: 1.2;
 }
 
 #first-block {

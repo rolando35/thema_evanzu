@@ -152,7 +152,7 @@ $path_software =
 }
 
 .contain-img-software {
-	margin-bottom: -10rem;
+	margin-bottom: -9rem;
 	height: 11rem;
 }
 

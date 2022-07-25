@@ -33,7 +33,19 @@ Template Name: Home
 
     .size-18{
         font-size: 18px;
+        align-items: center;
     }
+
+    .wrap-row {
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .gap-row {
+        gap: 1.5rem;
+    }
+
     .line-1{
         line-height: 1;
     }
@@ -526,139 +538,290 @@ Template Name: Home
     <div class="d-flex justify-content-center bg-pink">
         <div id="rectangle-inverse" class="text-center">
 
-             <div class="container">
-                   <div class="top-content pb-5">
-                      <div class="d-flex justify-content-center my-4 flex-md-row" >
-                                    <div class="">
-                                        <a  href="https://www.bbva.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>BBVA.svg" class="img-fluid mx-auto d-block" alt="bbva">
-                                        </a>
-                                    </div>
-                                    
-                                    <div class="mx-2">
-                                        <a  href="https://www.betfair.com/pe">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>betfair.svg" class="img-fluid mx-auto d-block" alt="Betfair">
-                                        </a>
-                                    </div>
+            <div class="container">
+                <div class="top-content pb-5">
+                    <!-- First row -->
+                    <div class="d-flex justify-content-center my-4 flex-md-row wrap-row">
+                        
+                        <div class="d-flex gap-row">
+                            <div>
+                                <a  href="https://www.bbva.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>BBVA.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="bbva">
+                                </a>
+                            </div>
 
-                                    <div class="mx-2">
-                                        <a  href="https://www.petroperu.com.pe"> 
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>petroperu.svg"  class="img-fluid mx-auto d-block" alt="Petro Peru">
-                                        </a>
-                                    </div>
+                            <div>
+                                <a  href="https://www.betfair.com/pe">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>betfair.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Betfair">
+                                </a>
+                            </div>
 
-                                     <div class="mx-4">
-                                        <a  href="https://www.bancomercio.com/elbanco">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>banco_comercio.svg"  class="img-fluid mx-auto d-block" alt="Banco de comercio">
-                                        </a>
-                                    </div>
+                            <div>
+                                <a  href="https://www.petroperu.com.pe"> 
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>petroperu.svg" 
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Petro Peru">
+                                </a>
+                            </div>
+                        </div>
 
-                                    <div class="mx-4">
-                                        <a  href="https://www.cofide.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>cofide.svg"  class="img-fluid mx-auto d-block" alt="Cofide">
-                                        </a>
-                                    </div>
+                        <div class="d-flex gap-row">
 
-                                   <div class="">
-                                        <a  href="https://indriver.com/es/city">
-                                        <img class="w-70" src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>indriver.svg" class="img-fluid mx-auto d-block" alt="Indriver">
-                                        </a>
-                                    </div>
-                                </div>  
-                                  
-                                  
-                                <div class="d-flex justify-content-center my-4 flex-md-row"> 
-                                     <div class="mx-1">
-                                       <a href="https://www.gob.pe/mtc">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>ministeriotransportes.svg"  class="img-fluid mx-auto d-block" alt="Ministerio de transportes y comunicaciones">
-                                        </a>
-                                    </div>
-                                   
-                                     <div class="mx-2">
-                                       <a href="https://www.pichincha.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>banco_pichincha.svg"  class="img-fluid mx-auto d-block" alt="Banco pichincha">
-                                        </a>
-                                    </div>
-                                   
-                                    <div class="mx-2">
-                                        <a  href="https://www.cajahuancayo.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>cajahuancayo.svg" class="img-fluid mx-auto d-block" alt="Caja Huancayo">
-                                        </a>
-                                    </div>
+                            <div>
+                                <a  href="https://www.cofide.com.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>cofide.svg" 
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Cofide">
+                                </a>
+                            </div>
 
-                                    <div class="mx-2">
-                                    <a href="https://www.hiper.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>hiper.svg" class="img-fluid mx-auto d-block" alt="Hiper">
+                            <div>
+                                <a  href="https://www.bancomercio.com/elbanco">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>banco_comercio.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Banco de comercio">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a  href="https://indriver.com/es/city">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>Group 394.png"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Indriver">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Secon row -->
+                    <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
+                        
+                        <div class="d-flex gap-row">
+
+                            <div class="">
+                                <a  href="https://indriver.com/es/city">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>entel.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Imagen de Entel">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="https://www.gob.pe/mtc">
+                                    <img
+                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>ministeriotransportes.svg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="Ministerio de transportes y comunicaciones">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="https://www.pichincha.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>banco_pichincha.svg" 
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Banco pichincha">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-row">
+
+                            <div>
+                                <a  href="https://www.cajahuancayo.com.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>cajahuancayo.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Caja Huancayo">
+                                </a>
+                            </div>
+
+                            <div>
+                            <a href="https://www.hiper.com.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>hiper.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Hiper">
+                            </a>
+                            </div>
+
+                            <div>
+                            <a href="https://www.bmatic.com.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>bmatic.png"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Bmatic">
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Third row -->
+                    <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
+                            
+                        <div class="d-flex gap-row">
+
+                            <div>
+                                <a  href="https://mibim.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>Bim.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Bim">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a  href="https://mibim.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>defensoria.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Imagen de defensoría del pueblo.">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a  href="https://www.paraiso-peru.com/"> 
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/home/'; ?>paraiso.svg" class="img-fluid mx-auto d-block" alt="Paraiso">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-row">
+
+                            <div>
+                                <a href="https://www.cruzdelsur.com.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>cruzdelsur.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Cruz del sur">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="https://www.cruzdelsur.com.pe/">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>administracion.svg"
+                                    class="img-fluid mx-auto d-block"
+                                    alt="Imagen de administración tributaria">
+                                </a>
+                            </div>
+
+                            <div>
+                                <a  href="https://www.munlima.gob.pe/">
+                                <img src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/home/'; ?>muni_lima.svg" class="img-fluid mx-auto d-block" alt="Municipalidad de Lima">
+                                </a>
+                            </div>
+                        </div>
+                            
+                    </div>
+
+                        <!-- Fourth row -->
+
+                        <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
+                            
+                            <div class="d-flex gap-row">
+
+                                <div>
+                                    <a  href="https://www.munlima.gob.pe/">
+                                    <img src="<?php echo get_template_directory_uri() .
+                                        '/assets/images/home/'; ?>axess.svg" class="img-fluid mx-auto d-block" alt="Imagen de axess network">
                                     </a>
-                                    </div>
-
-                                   <div class="mx-1">
-                                    <a href="https://www.bmatic.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>bmatic.png" class="img-fluid mx-auto d-block" alt="Bmatic">
-                                    </a>
-                                    </div>
-
-
-                                    <div class="mx-1">
-                                        <a  href="https://mibim.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>Bim.svg" class="img-fluid mx-auto d-block" alt="Bim">
-                                        </a>
-                                    </div>
                                 </div>
 
-                                 <div class="d-flex justify-content-center my-4 flex-md-row"> 
-                                    <div class="mx-2">
-                                        <a  href="https://www.paraiso-peru.com/"> 
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>paraiso.svg" class="img-fluid mx-auto d-block" alt="Paraiso">
-                                        </a>
-                                    </div>
+                                <div>
+                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/">
+                                    <img src="<?php echo get_template_directory_uri() .
+                                        '/assets/images/home/'; ?>mivivienda.svg" class="img-fluid mx-auto d-block" alt="Mi vivienda">
+                                    </a>
+                                </div>
 
-                                    <div class="mx-2">
-                                        <a href="https://www.cruzdelsur.com.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>cruzdelsur.svg" class="img-fluid mx-auto d-block" alt="Cruz del sur">
-                                        </a>
-                                    </div>
+                                <div>
+                                    <a  href="https://www.paraiso-peru.com/"> 
+                                    <img
+                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>magne.svg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="Imagen de Magnesol">
+                                    </a>
+                                </div>
+                            </div>
 
-                                
-                                    <div class="mx-3">
-                                        <a  href="https://www.mivivienda.com.pe/PortalWEB/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>mivivienda.svg" class="img-fluid mx-auto d-block" alt="Mi vivienda">
-                                        </a>
-                                    </div>
-                                    
-                                     <div class="mx-3">
-                                        <a  href="https://www.sath.gob.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>sath.svg" class="img-fluid mx-auto d-block" alt="Sath Huancayo">
-                                        </a>
-                                    </div>
-                                        
-                                         
-                                     <div class="mx-3">
-                                        <a  href="https://www.munlima.gob.pe/">
-                                        <img src="<?php echo get_template_directory_uri() .
-                                            '/assets/images/home/'; ?>muni_lima.svg" class="img-fluid mx-auto d-block" alt="Municipalidad de Lima">
-                                        </a>
-                                     </div>
-                                </div>         
-                       
+                            <div class="d-flex gap-row">
+
+                                <div>
+                                    <a href="https://www.cruzdelsur.com.pe/">
+                                    <img
+                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>british.svg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="Imagen de British american tobaco.">
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a  href="https://www.munlima.gob.pe/">
+                                    <img
+                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>servir.svg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="Imagen de servir.">
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a  href="https://www.munlima.gob.pe/">
+                                    <img src="<?php echo get_template_directory_uri() .
+                                        '/assets/images/home/'; ?>adeco.svg" class="img-fluid mx-auto d-block" alt="Imagen de Adecco">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <!-- Fifth row -->
+
+                        <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
+                            
+                            <div class="d-flex gap-row">
+
+                                <div>
+                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/">
+                                    <img src="<?php echo get_template_directory_uri() .
+                                        '/assets/images/home/'; ?>teleton.svg" class="img-fluid mx-auto d-block" alt="Imagen de la teleton.">
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/">
+                                    <img
+                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>aceo.svg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="Logo de la empresa.">
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href="https://www.cruzdelsur.com.pe/">
+                                    <img
+                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>market_nexus.svg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="Imagen de Market nexus.">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-             </div>    
+                </div>
 
         </div>
     </div>

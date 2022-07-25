@@ -467,14 +467,12 @@ h5 {
 							</div>
 							<div class="d-none d-lg-block container-empty-service"></div>
 						</div>
-						<div class="d-none d-lg-flex">
-							<div class="container-center-service element-final-center"></div>
-						</div>
 					</div>
 				</div>
-        <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+        <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem; height: 10rem;'>
             <img
-              class=""
+              class="d-none d-lg-block"
+              style="margin-top: -7rem; margin-right: -28rem;"
               title="Herramientas de Audio Visuales"
               alt="Ilustración de Herramientas para el servicio de Audio Visuales"
               src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Ilustración Servicio de Audio Visuales.png"

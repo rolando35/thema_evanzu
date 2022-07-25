@@ -97,7 +97,7 @@
 
 
 
-<div id="myModalRight" class="modal fade modal-right mt-5c pr-0" tabindex="-1">
+<div id="myModalRight" class="modal fade modal-right mt-5c pr-0 bg-light" tabindex="-1">
   <div class="modal-dialog mw-100">
 
     <div class="modal-content">

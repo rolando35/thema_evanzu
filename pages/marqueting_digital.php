@@ -674,8 +674,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'text' => '<span class="hurme-bold-1 text-gray-black">Reportes mensuales de resultados.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
-                <div class="d-none d-lg-block container-center-service">
-                 
+                <div class="d-none d-lg-block container-center-service ht7">
                 </div>
                   <div class="spacing-services-rigth"></div>
               </div>
@@ -1070,7 +1069,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     'text' => '<span class="hurme-bold-4 text-gray-black">Reporte y análisis de <br /> resultados.</span>',
                     'line' => $path_img . 'line-rosado.svg',
                 ]); ?>
-                <div class="d-none d-lg-block container-center-service">
+                <div class="d-none d-lg-block container-center-service ht7">
                  
                 </div>
                   <div class="spacing-services-rigth"></div>

@@ -48,7 +48,7 @@
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>PETRO PERU</p>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>PETROPERU</p>
                   <h6 class="small font-weight-normal text-yellow">MARKETING DIGITAL</h6>
                 <svg width="29" height="2" viewBox="0 0 29 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.996582 1.28003H28.1166" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -77,7 +77,7 @@
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
               <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>BETFAIR</p>
-                 <h6 class="small font-weight-normal text-yellow">DISEÑO PUBLICITARIO</h6>
+                 <h6 class="small font-weight-normal text-red text-uppercase">Activación btl</h6>
                 <svg width="29" height="2" viewBox="0 0 29 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.996582 1.28003H28.1166" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -90,7 +90,7 @@
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
               <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>COFIDE</p>
-                 <h6 class="small font-weight-normal text-yellow"></h6>
+                 <h6 class="small font-weight-normal text-red text-uppercase">Gestión de relaciones públicas</h6>
                 <svg width="29" height="2" viewBox="0 0 29 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.996582 1.28003H28.1166" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -102,8 +102,8 @@
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
            
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>COFIDE</p>
-               <h6 class="small font-weight-normal text-red">DISEÑO GRAFICO</h6>
+              <p class=" text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 2rem; line-height: 10px;'>COFIDE</p>
+               <h6 class="small font-weight-normal text-red">gESTIÓN DE RELACIONES PÚBLICAS</h6>
                 <svg width="29" height="2" viewBox="0 0 29 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.996582 1.28003H28.1166" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -116,7 +116,7 @@
           <div class="m-1 d-flex justify-content-center align-items-center hover-image">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>PETRO PERU</p>
+              <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>PETROPERU</p>
                  <h6 class="small font-weight-normal text-red">COMUNICACIÓN INTERNA</h6>
                 <svg width="29" height="2" viewBox="0 0 29 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.996582 1.28003H28.1166" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -142,10 +142,10 @@
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-teen"]; ?>">
             </div>
             <div class="m-1 d-flex justify-content-center align-items-center hover-image">
-              <!-- Texts hover -->
-            <div class='position-absolute masonry-hover-lirycs'>
-              <p class=" text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 10px;'>Adventure Life</p>
-              <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">BRANDING - DISEÑO GRÁFICO</h6>
+            <!-- Texts hover -->
+            <div class='position-absolute masonry-hover-lirycs ml-4'>
+              <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">ANIMACIÓN 2D</h6>
+              <p class="text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 3rem;'>Cruz del sur</p>
             </div>
             <!-- Texts hover -->
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-eleven"]; ?>">
@@ -155,21 +155,23 @@
           <div class="mr-1">
               <div class="text-center d-flex justify-content-center align-items-center hover-image">
                 <!-- Texts hover -->
-                  <div class='position-absolute masonry-hover-lirycs'>
-                    <h6 class="small font-weight-normal text-light">-- PRODUCCIÓN AUDIOVISUAL --</h6>
-                    <p class=" text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 2rem; line-height: 10px;'>Caja Huancayo</p>
-                    <a class="text-red font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://youtu.be/_l2wKC9ECdk">https://youtu.be/_l2wKC9ECdk</a>
-                  </div>
-                  <!-- Texts hover -->  
+                <div class='position-absolute masonry-hover-lirycs ml-4'>
+                  <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">PRODUCCIÓN AUDIOVISUAL</h6>
+                  <p class="text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 3rem;'>Caja Huancayo</p>
+                  <a
+                    class="text-yellow font-weight-bold hurme-bold-4 fs-12"
+                    target="_blank"
+                    href="https://youtu.be/_l2wKC9ECdk">https://youtu.be/_l2wKC9ECdk</a>
+                </div>
+                <!-- Texts hover --> 
                   <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-twelve"]; ?>">
               </div>
            </div>
            <div class="ml-1">
               <div class="text-center d-flex justify-content-center align-items-center hover-image">
                   <div class='position-absolute masonry-hover-lirycs'>
-                  <h6 class="small font-weight-normal text-light mb-3">-- ACTIVACIONES BTL --</h6>
-                  <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>AESA</p>
-                  <a class="text-red font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://fb.watch/50aZyUgqKt/">https://fb.watch/50aZyUgqKt/</a>
+                  <h6 class="small font-weight-normal text-light mb-3">DISEÑO GRÁFICO</h6>
+                  <p class=" text-light font-weight-bold hurme-bold-4 " style='font-size: 2rem; line-height: 10px;'>Entel</p>
                   </div>
                   
                   <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-nine"]; ?>">
@@ -181,8 +183,9 @@
       <div class="m-2 text-center d-flex justify-content-center align-items-center hover-image">
         <!-- Texts hover -->
         <div class='position-absolute masonry-hover-lirycs'>
-          <p class=" text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 2rem; line-height: 10px;'>Servir</p>
-          <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">MARKETING DIGITAL</h6>
+          <p class=" text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 2rem; line-height: 10px;'>AESA</p>
+          <h6 class="text-red font-weight-bold hurme-bold-4 fs-12">ACTIVACIÓN BTL</h6>
+          <a class="text-yellow font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://youtu.be/0KUkOKlPXKI">https://youtu.be/0KUkOKlPXKI</a>
         </div>
         <!-- Texts hover -->
         <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-thirteen"]; ?>">
@@ -195,8 +198,8 @@
     <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
-        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
-        <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Tambo</p>
+        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">Marketing digital</h6>
+        <p class="text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 3rem;'>Servir</p>
       </div>
       <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('home_main')['galleria-image-fourteen']; ?>">
@@ -206,7 +209,7 @@
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
         <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO GRÁFICO</h6>
-        <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>TAMBO</p>
+        <p class="text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 3rem;'>Artecola</p>
       </div>
       <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('home_main')['galleria-image-fifteen']; ?>">
@@ -215,8 +218,8 @@
     <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image ">
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
-        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">PACKAGING</h6>
-        <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Hander</p>
+        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">BRANDING</h6>
+        <p class="text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 3rem;'>BMatic</p>
       </div>
       <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('home_main')['galleria-image-sixteen']; ?>">
@@ -231,8 +234,8 @@
     <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
-        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO GRÁFICO</h6>
-        <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>TAMBO</p>
+        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO UX & UI</h6>
+        <p class="text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 3rem;'>Caja <br> Huancayo</p>
       </div>
       <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('home_main')['galleria-image-seventeen']; ?>">
@@ -241,8 +244,8 @@
     <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image ">
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
-        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">PACKAGING</h6>
-        <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Hander</p>
+        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">Activación btl</h6>
+        <p class="text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 3rem;'>Bim</p>
       </div>
       <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('home_main')['galleria-image-eighteen']; ?>">
@@ -251,8 +254,9 @@
     <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
-        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
-        <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Artecola</p>
+        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN BTL</h6>
+        <p class="text-light font-weight-bold hurme-bold-4 text-uppercase" style='font-size: 1.7rem; line-height: 3rem;'>Ministerio de Transporte</p>
+        <a class="text-yellow font-weight-bold hurme-bold-4 fs-12" target="_blank" href="https://youtu.be/7yoS0UVQzfQ">https://youtu.be/7yoS0UVQzfQ</a>
       </div>
       <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('home_main')['galleria-image-nineteen']; ?>">
