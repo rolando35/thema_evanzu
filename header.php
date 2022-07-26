@@ -4,6 +4,7 @@
  
 <head>     
    <title> <?php echo isset($args["title"]) ? $args['title'] : "Evanzu Agencia de marketing digital, publicidad, BTL y desarrollo web";?></title>
+  <link rel ="icon" href ="<?php echo get_template_directory_uri()?>/assets/Favicon_Evanzu.gif" type = "image / gif" />
   <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <meta name="description" content="<?php echo isset($args['description']) ? $args['description']: "Somos una agencia de marketing digital, branding & diseño, producción audiovisual, BTL & comunicación, desarrollo y software."; ?>"/>
@@ -33,7 +34,7 @@
     height: 5.56rem;
   }
   .mt-neg {
-    margin-top: -3rem;
+    margin-top: -2.2rem;
   }
   
   ul > li button.active{
@@ -62,8 +63,10 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
 
       </div>
      <?php the_custom_logo() ?> 
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+     <button class="navbar-toggler ml-2 mt-2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar-toggler-icon ">
+          
+       </div>
       </button>
       <div>
        <div>
@@ -92,13 +95,19 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
         
          ?> 
         </div> 
-        <div class="mt-neg ml-2 float-right">
-          <?php
-             echo '<svg class="none-select"  width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M14.78 28.56C22.3905 28.56 28.56 22.3905 28.56 14.78C28.56 7.16952 22.3905 1 14.78 1C7.16952 1 1 7.16952 1 14.78C1 22.3905 7.16952 28.56 14.78 28.56Z" fill="white" stroke="white" stroke-width="0.8142" stroke-miterlimit="10"/> <path d="M9.21997 10.11H20.35" stroke="#ED1164" stroke-width="1.6285" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M9.21997 14.78H20.35" stroke="#ED1164" stroke-width="1.6285" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M9.21997 19.46H20.35" stroke="#ED1164" stroke-width="1.6285" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-             echo '<svg class="none-select" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M14.78 28.56C22.3905 28.56 28.56 22.3905 28.56 14.78C28.56 7.16952 22.3905 1 14.78 1C7.16952 1 1 7.16952 1 14.78C1 22.3905 7.16952 28.56 14.78 28.56Z" stroke="white" stroke-width="0.8142" stroke-miterlimit="10"/> <path d="M17.9699 13.51C17.9699 14.74 17.4699 15.85 16.6699 16.66C15.8599 17.47 14.7499 17.96 13.5199 17.96C11.0599 17.96 9.06995 15.97 9.06995 13.51C9.06995 11.05 11.0599 9.06 13.5199 9.06C15.9799 9.06 17.9699 11.05 17.9699 13.51Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M16.66 16.66L20.51 20.51" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </svg>'
-          ?>
+         <div class="mt-neg mr-n5 float-right d-none d-md-block">
+              <?php
+                echo '<svg class="none-select"  width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M14.78 28.56C22.3905 28.56 28.56 22.3905 28.56 14.78C28.56 7.16952 22.3905 1 14.78 1C7.16952 1 1 7.16952 1 14.78C1 22.3905 7.16952 28.56 14.78 28.56Z" fill="white" stroke="white" stroke-width="0.8142" stroke-miterlimit="10"/> <path d="M9.21997 10.11H20.35" stroke="#ED1164" stroke-width="1.6285" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M9.21997 14.78H20.35" stroke="#ED1164" stroke-width="1.6285" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M9.21997 19.46H20.35" stroke="#ED1164" stroke-width="1.6285" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
+                echo '<svg class="none-select" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M14.78 28.56C22.3905 28.56 28.56 22.3905 28.56 14.78C28.56 7.16952 22.3905 1 14.78 1C7.16952 1 1 7.16952 1 14.78C1 22.3905 7.16952 28.56 14.78 28.56Z" stroke="white" stroke-width="0.8142" stroke-miterlimit="10"/> <path d="M17.9699 13.51C17.9699 14.74 17.4699 15.85 16.6699 16.66C15.8599 17.47 14.7499 17.96 13.5199 17.96C11.0599 17.96 9.06995 15.97 9.06995 13.51C9.06995 11.05 11.0599 9.06 13.5199 9.06C15.9799 9.06 17.9699 11.05 17.9699 13.51Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M16.66 16.66L20.51 20.51" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </svg>'
+              ?>
           </div>
-      </div>
+          <div class="mt-neg mr-3 pb-2 float-right d-block  d-md-none">
+            <img class="img-fluid"
+              src="<?php echo $path_header; ?>naked_logo.svg"
+              alt="Logo Evanzu"
+              />
+          <div>
+        </div>
 
     </div>
   </nav>

@@ -1194,6 +1194,14 @@ a.link-circle {
   .carousel-inner-negative {
     margin-top: -10%;
   }
+  .margin-menu {
+    margin: 0 1% 0 27%;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    margin: 0.4rem 0.5rem;
+    padding-left: 0.4rem;
+  }
 }
 
 /* Masonry effect styles */
@@ -1501,9 +1509,9 @@ a.link-circle {
 	} */
 }
 
-.navbar-dark .navbar-nav .nav-link {
+/* .navbar-dark .navbar-nav .nav-link {
   margin: 0 0.5rem;
-}
+} */
 .form-controls {
   display: block;
   width: 100%;

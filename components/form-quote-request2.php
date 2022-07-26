@@ -148,6 +148,7 @@
             success: function (resultado) {
                 $("#<?php echo $args['idparagraph']; ?>").show(); 
                 $("#<?php echo $args['idparagraph']; ?>").html(resultado);
+				$("#submit").attr("disabled", true);
             },
           });
           return false
