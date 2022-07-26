@@ -36,15 +36,74 @@
     height: 22rem;
   }
 
+  .height-small {
+    height: 49.5rem;
+  }
+
+  .contact-text {
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  .button-send-msg {
+    color: #ED1164;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .social-net {
+    height: 1.5rem !important;
+  }
+
+  .text-footer{
+    font-size: 14px;
+  }
+
+  .img-banner-modal {
+    height: 24rem;
+  }
+
   @media only screen and ( max-width: 550px ) {
     .mt-5c {
       margin-top: 2.9rem !important;
+    }
+
+    .button-send-msg {
+      color: #ED1164;
+      border-radius: 2.2rem;
+      font-size: 22px;
     }
   }
 
   @media only screen and (min-width: 992px) {
     .bg-white-transparent {
       background: transparent !important;
+    }
+
+    .social-net {
+      height: 2rem !important;
+    }
+
+    .text-footer{
+      font-size: auto !important;
+    }
+
+    .img-banner-modal {
+      height: auto !important;
+    }
+
+    .button-send-msg {
+      color: #ED1164;
+      border-radius: 20px !important;
+      font-size: 22px !important;
+    }
+
+    .height-small {
+      height: auto !important;
+    }
+
+    .contact-text {
+      font-weight: 900;
+      font-size: 65px;
     }
 
     .h-30 {
@@ -101,12 +160,12 @@
   <div class="modal-dialog mw-100">
 
     <div class="modal-content">
-      <div class="modal-body modal-style" style="width: 100%; background: #ED1164;">
+      <div class="modal-body modal-style height-small" style="width: 100%; background: #ED1164;">
         <div class=" w-100 h-100">
           <div class="d-block d-lg-flex w-100">
 
             <div class="col-12 col-lg-6">
-              <h2 class="text-light mt-4" style="font-weight: 900; font-size: 65px;">CONTÁCTANOS</h2>
+              <h2 class="text-light mt-4 contact-text hurme-bold-4">CONTÁCTANOS</h2>
               <div>
                 <form id="basic-form" action="" method="post">
                   <input
@@ -138,18 +197,20 @@
                   <input type="text"
                     class="hurme-simple-4 mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                     id="mensaje" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="mensaje">
-                  <button id="send" type = "submit" class="hurme-simple-4 submit submitbtn  bg-white py-2 px-5 border-0 my-4  font-weight-bold"
-                    style="color: #ED1164; border-radius: 2.2rem; font-size: 22px;">Enviar mensaje</button>
+                  <button
+                    id="send"
+                    type = "submit"
+                    class="hurme-simple-4 submit submitbtn button-send-msg bg-white py-2 px-5 border-0 my-4 font-weight-bold">Enviar mensaje</button>
                 </form>
                   <div id="succes" class="success_msg" style="display:none">Message Sent Successfully</div>
                   <div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
              </div>
          
               <div class="h-30">
-                <h4 class="text-yellow font-weight-bold">Nuestras Sedes</h4>
-                <div class="d-flex pb-1 mb-lg-5">
+                <h4 class="text-yellow hurme-bold-4">Nuestras Sedes</h4>
+                <div class="d-flex pb-1 mb-lg-5" style="justify-content: space-evenly;">
 
-                  <div class="pb-5 mr-5" style="width: 15.6rem">
+                  <div class="pb-5 mr-1 mr-lg-5" style="width: 15.6rem">
                     <?php get_template_part(
                         'components/footer-list-link',
                         'full',
@@ -181,7 +242,7 @@
                         ]
                     ); ?>
                   </div>
-                  <div class="ml-5">
+                  <div class="ml-1 ml-lg-5">
                     <?php get_template_part(
                         'components/footer-list-link',
                         'full',
@@ -217,15 +278,15 @@
                 <!----------------Social---------------->
                 <div class="w-100 d-flex justify-content-center">
                   <div class="d-flex justify-content-around w-75 bg-red">
-                    <img class="" style="height: 2rem"
+                    <img class="social-net"
                       src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">
-                    <img class="" style="height: 2rem"
+                    <img class="social-net"
                       src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg">
-                    <img class="" style="height: 2rem"
+                    <img class="social-net"
                       src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg">
-                    <img class="" style="height: 2rem"
+                    <img class="social-net"
                       src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
-                    <img class="" style="height: 2rem"
+                    <img class="social-net"
                       src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
                   </div>
                 </div>
@@ -236,9 +297,9 @@
             <div class="col-12 col-lg-6  bg-custom-white ">
             <img class="position-absolute d-none d-lg-block w-100 min-height" style="" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-modal.svg">
             <div class="position-absolute d-block text-center w-100 bg-white-transparent">
-                <img style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/asset-modal.png">
+                <img class="img-banner-modal" style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/asset-modal.png">
                 <div class="d-flex justify-content-center w-100 bg-white-transparent h-19">
-                  <h3 class="text-right" style="color:#ED1164; ">
+                  <h3 class="text-right text-footer" style="color:#ED1164; ">
                     Con los pies <br>
                     en los zapatos del cliente, <br>
                     el corazón <br>
