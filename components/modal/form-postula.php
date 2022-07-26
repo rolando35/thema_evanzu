@@ -16,10 +16,7 @@
   }
 
   .image-postula {
-    width: 60rem ;
-  }
-   {
-    margin-top: 5rem;
+    width: 100%;
   }
 
   .form-control::placeholder {
@@ -37,6 +34,8 @@
 
   .bg-white-transparent {
     background: #ffffff;
+    margin-left: 0;
+    width: 100%;
   }
 
   .h-30 {
@@ -63,9 +62,53 @@ label[for="file"] {
   margin-top: -16rem;
 }
 
+.button-right {
+  position: absolute;
+  right: -6.5rem;
+}
+
+.button-close {
+  z-index: 2;
+  position: absolute !important;
+  top: 32px;
+  display: block;
+}
+
+.font-title {
+    font-weight: 900 ;
+    font-size: 24px ;
+  }
+
+  .fs-lg-12 {
+    font-size: 12px;
+  }
+
+  .font-send {
+    font-size: 12px;
+  }
+
   @media only screen and (min-width: 992px) {
     .bg-white-transparent {
       background: transparent !important;
+      margin-left: -34rem !important;
+      width: auto !important;
+    }
+
+    .fs-lg-12 {
+      font-size: 1.25rem !important;
+    }
+
+    .font-send {
+      font-size: medium !important;
+    }
+
+    .font-title {
+      font-weight: 900 !important;
+      font-size: 50px !important;
+    }
+
+    .button-close {
+      display: none !important;
     }
 
     .h-30 {
@@ -95,9 +138,9 @@ label[for="file"] {
         <div class=" w-100 h-100">
           <div class="px-5 d-block d-lg-flex w-100">
             <div class="col-12 col-lg-7 px-0 px-lg-5 " style="z-index: 2">
-              <h2 class="text-light " style="font-weight: 900; font-size: 50px;">Queremos conocer tu perfil</h2>
-              <h5 class="text-light font-weight-light"><i>Déjanos tus datos y te contactarémos</i></h5>
-              <form id="postulation" action="" class="text-left mr-5 pr-5" method="post">
+              <h2 class="text-light font-title">Queremos conocer tu perfil</h2>
+              <h5 class="text-light font-weight-light fs-lg-12"><i>Déjanos tus datos y te contactarémos</i></h5>
+              <form id="postulation" action="" class="text-left mr-0 pr-0 mr-lg-5 pr-lg-5" method="post">
                 <input type="text"
                   class="fullname form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                   id="fullname" aria-describedby="emailHelp" placeholder="Nombres y Apellidos" name="fullname">
@@ -156,17 +199,22 @@ label[for="file"] {
                 <input type="text"
                   class="message form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                   id="message" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="message">
-                <button type="submit" class="submit bg-white py-2 px-5 border-0 my-4  font-weight-bold"
+                <button type="submit" class="submit bg-white py-2 px-5 border-0 my-4  font-weight-bold font-send"
                   style="color: #ED1164; border-radius: 2.2rem;">Enviar mensaje</button>
               </form>
               <div id="success" class="success_msg" style="display:none">Message Sent Successfully</div>
               <div class="error_mssg" style="display:none">Message Not Sent, There is some error.</div>
               <!----------------Social---------------->
             </div>
+            <div class="d-flex h-100 align-items-center justify-content-end" style="margin-right: -2rem;">
+                <div class="position-relative close button-close" type="button" data-dismiss="modal" aria-label="Close">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-close.svg">
+                </div>
+              </div>
 
-            <div class="col-12 col-lg-5 ">
+            <div class="col-12 col-lg-5 d-none d-lg-block ">
               <img class="position-absolute d-none d-lg-block mt-n1-19" style="max-width: none; margin-left: -7rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-form-postula.svg">
-              <div class="position-absolute d-block text-center bg-white-transparent" style="margin-left: -34rem">
+              <div class="position-absolute d-block text-center bg-white-transparent">
                 <img class="image-postula" style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/form-postula.png">
               </div>
 
@@ -175,7 +223,7 @@ label[for="file"] {
                   data-dismiss="modal" aria-label="Close">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-close.svg">
                 </div>
-                <svg  style="margin-right: -3rem;" class="position-relative" width="72" height="509" viewBox="0 0 72 509" fill="none"
+                <svg class="button-right" width="72" height="509" viewBox="0 0 72 509" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z"

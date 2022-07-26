@@ -229,7 +229,7 @@ $path_software =
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img
-					src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/banner.png"
+					src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Portada Desarrollo.jpg"
 					title="Desarrollo de Software y App móviles"
 					alt="Computadora con una web"
           class="w-100 h-100"

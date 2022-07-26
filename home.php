@@ -256,20 +256,22 @@ Template Name: Home
             
              <div class="container px-5">
                  <div class="d-flex justify-content-center">
+                    <div class="mx-2">
+                        <a  href="bbva" class="hover-underline-animation"> 
+                            <img
+                                src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BIG-BBVA.png"
+                                class="img-fluid mx-auto d-block"
+                                alt="Cliente Evanzu BBVA">
+                        </a>
+                    </div>
                      <div class="mx-2">
-                            <a  href="bbva"> 
-                                <img src="<?php echo get_template_directory_uri() .
-                                    '/assets/images/clients/'; ?>BIG-BBVA.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu BBVA">
-                            </a>
-                     </div>
-                     <div class="mx-2">
-                            <a  href="petro-peru"> 
+                            <a  href="petro-peru" class="hover-underline-animation"> 
                                 <img src="<?php echo get_template_directory_uri() .
                                     '/assets/images/clients/'; ?>BIG-PETROPERU.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu PETRO PERU">
                             </a>
                      </div>
                      <div class="mx-2">
-                         <a  href="betfair">
+                         <a  href="betfair"  class="hover-underline-animation">
                                 <img src="<?php echo get_template_directory_uri() .
                                     '/assets/images/clients/'; ?>BIG-BETFAIR.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
                             </a>
@@ -279,19 +281,19 @@ Template Name: Home
                   <div class="d-flex justify-content-center my-2">
                     
                      <div class="mx-2">
-                            <a  href="artecola">
+                            <a  href="artecola" class="hover-underline-animation">
                                 <img src="<?php echo get_template_directory_uri() .
                                     '/assets/images/clients/'; ?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
                             </a>
                      </div>
                      <div class="mx-2">
-                          <a href="aesa">
+                          <a href="aesa" class="hover-underline-animation">
                             <img src="<?php echo get_template_directory_uri() .
                                 '/assets/images/clients/'; ?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
                          </a>
                      </div>
                        <div class="mx-2">
-                           <a href="bmatic">
+                           <a href="bmatic" class="hover-underline-animation">
                                 <img src="<?php echo get_template_directory_uri() .
                                     '/assets/images/clients/'; ?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
                             </a>
