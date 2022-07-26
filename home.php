@@ -1113,7 +1113,7 @@ Template Name: Home
         </div>
         <div class=" d-flex justify-content-center align-items-center">
             <p class="text-white position-absolute hurme-bold-4 m-0 font-25">RESULTADOS EXCEPCIONALES</p>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/base-banner.svg" alt="Imagen de la base del banner">
+            <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/base-banner.svg" alt="Imagen de la base del banner">
         </div>
         <div class="d-flex justify-content-center">
             <div class="d-flex mt-4">
@@ -1137,7 +1137,7 @@ Template Name: Home
     </div>
 
     <div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-home.svg" alt="Imagen de la base del banner">
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-home.svg" alt="Imagen de la base del banner">
     </div> 
 </div>
 
