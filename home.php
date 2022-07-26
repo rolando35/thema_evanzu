@@ -859,7 +859,7 @@ Template Name: Home
                 Crece con nosotros
             </h2>
         </div>
-        <!-- <div class="row mx-5 px-5">
+        <div class="row mx-5 px-5">
             <div class="col-sm-6 p-0 p-lg-5 mt-5">
                 <div class="d-flex justify-content-center align-items-center"> 
                         <div id="description-team" class="text-white w-70">
@@ -1044,7 +1044,7 @@ Template Name: Home
                 </div>
             </div>
            
-        </div> -->
+        </div>
          <div  class="py-4 my-4 bg-darkpink">  </div>
         <div class="mt-5c" style="z-index: 1;">
             <?php get_template_part('components/modal/form-postula', 'full'); ?>
