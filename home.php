@@ -453,7 +453,7 @@ Template Name: Home
         <div class="d-flex justify-content-center align-items-center">
             <div class="position-absolute mb-5">
                 <div class="mt-07">
-                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-md-row justify-content-center align-items-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() .
                             '/assets/images/'; ?>says-left.svg" alt="Imagen de las hojas izquierdas" title="Hojas">
                         <p class="home-banner-text text-black mx-1 font-2 my-0">Tú dices</p>
@@ -465,7 +465,7 @@ Template Name: Home
                     </div>
                     
                     <div class="text-center">
-                        <div class="d-flex align-items-center justify-content-center">
+                        <div class="d-flex  align-items-center justify-content-center">
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo tener más ventas?</p>
                             <img
                                 class="mx-2 img-fluid"
@@ -475,7 +475,7 @@ Template Name: Home
                                 title="Hojas derecha">
                             <p class="m-0 text-red text-about w-17 d-flex justify-content-start">Generamos estrategias.</p>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center">
+                        <div class="d-flex  align-items-center justify-content-center">
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo tener más seguidores?</p>
                             <img
                                 class="mx-2 img-fluid"
@@ -485,7 +485,7 @@ Template Name: Home
                                 title="Hojas derecha">
                             <p class="m-0 text-red text-about w-17 d-flex justify-content-start">Gestionamos tu contenido.</p>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center">
+                        <div class="d-flex  align-items-center justify-content-center">
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo mejorar la imagen de mi empresa?</p>
                             <img
                                 class="mx-2 img-fluid"
