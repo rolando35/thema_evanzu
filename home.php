@@ -324,7 +324,7 @@ Template Name: Home
                  </div>
              </div>    
 
-            <!--div class="slider container px-5">
+           <!-- <div class="slider container px-5">
                 <div class="slide-track">
                         <div class="slide">
                             <a  href="bbva"> 
@@ -358,7 +358,7 @@ Template Name: Home
                         </div>
 
                 </div>
-            </div-->
+            </div> -->
 <!-- partial -->
                              
            
