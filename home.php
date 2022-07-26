@@ -188,7 +188,7 @@ Template Name: Home
                             <path d="M382.063 115.841C382.641 116.648 383.216 117.464 383.789 118.29" stroke="white" stroke-miterlimit="10" />
                         </svg>
                         <div id="circle-background">
-                            <img
+                            <img class="img-fluid"
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage_agencia_evanzu.png"
                                 alt="Presentación de la agencia de marketing y publicidad Evanzu"
                                 title="Agencia Marketing y publicidad Evanzu"
@@ -428,7 +428,7 @@ Template Name: Home
 <section>
     <div class="container mt-5">
         <div class="d-flex justify-content-center align-items-center">
-            <!-- <div class="position-absolute mb-5">
+            <div class="position-absolute mb-5">
                 <div class="mt-07">
                     <div class="d-flex justify-content-center align-items-center">
                         <img src="<?php echo get_template_directory_uri() .
@@ -485,11 +485,11 @@ Template Name: Home
                     </div>
 
                 </div>
-            </div> -->
-            <!-- <div>
+            </div>
+            <div>
                 <img class="d-none d-md-block" src="<?php echo get_template_directory_uri() .
                     '/assets/images/'; ?>about-home.svg" alt="imagen de Background customer">
-            </div> -->
+            </div>
         </div>
 
         <div class="text-center">
