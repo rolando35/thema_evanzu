@@ -8,8 +8,9 @@
         <div class="center-responsive-footer col-sm-3 col-12">
                <a  href="<?php echo home_url(); ?>">
                     <img
-                        src="<?php echo $path_header; ?>footer-logo.svg"
-                        alt="logo"
+                      class="w-100"
+                      src="<?php echo $path_header; ?>footer-logo.svg"
+                      alt="logo"
                       />
                 </a>       
 

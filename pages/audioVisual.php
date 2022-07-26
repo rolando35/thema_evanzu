@@ -99,6 +99,10 @@ ul{
   z-index: 1;
 }
 
+.image-100-auto {
+    width: auto;
+  }
+
 @media only screen and (max-width: 1200px) {
   .text-paragraph {
 		font-size: 2.2rem !important;
@@ -137,6 +141,10 @@ ul{
 	.carousel-item > img {
 		height: 25rem !important;
 	}
+
+  .image-100-auto {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 780px) {
   .mb-07 {
@@ -511,6 +519,7 @@ h5 {
         </div>
         <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
             <img
+              class="image-100-auto"
               src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Desarrollo de proyectos audiovisuales.png" 
               title="Proyectos audiovisuales"
               alt="Spots publicitarios para medios masivos ">
@@ -545,6 +554,7 @@ h5 {
                     </p>
                 </div>
                 <img
+                  class="image-100-auto"
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Servicio de Filmación aérea con drone.png"
                   title="Servicio de Filmación aérea"
                   alt="Laptop con imagen de una fotografía tomada con un drone">
@@ -556,6 +566,7 @@ h5 {
         </div>
         <div class='w-90 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -16rem'>
             <img
+              class="image-100-auto"
               src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Servicio de Desarrollo de storyline y storyboard.png"
               title="Servicio de Desarrollo de guiones"
               alt="Laptop con imagenes de sopt publicitario y storyboard de agentes BBVA">
