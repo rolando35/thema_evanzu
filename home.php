@@ -431,13 +431,13 @@ Template Name: Home
             <div class="position-absolute mb-5">
                 <div class="mt-07">
                     <div class="d-flex justify-content-center align-items-center">
-                        <img src="<?php echo get_template_directory_uri() .
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() .
                             '/assets/images/'; ?>says-left.svg" alt="Imagen de las hojas izquierdas" title="Hojas">
                         <p class="home-banner-text text-black mx-1 font-2 my-0">Tú dices</p>
-                        <img class="mx-3" src="<?php echo get_template_directory_uri() .
+                        <img class="mx-3 img-fluid" src="<?php echo get_template_directory_uri() .
                             '/assets/images/'; ?>says-middle.svg" alt="Imagen de hojas medio" title="Hojas centro">
                         <p class="home-banner-text text-red mx-1 font-2 my-0">Nosotros</p>
-                        <img src="<?php echo get_template_directory_uri() .
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() .
                             '/assets/images/'; ?>says-right.svg" alt="Imagen de las hojas Derecha" title="Hojas derecha">
                     </div>
                     
@@ -445,7 +445,7 @@ Template Name: Home
                         <div class="d-flex align-items-center justify-content-center">
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo tener más ventas?</p>
                             <img
-                                class="mx-2"
+                                class="mx-2 img-fluid"
                                 src="<?php echo get_template_directory_uri() .
                                     '/assets/images/'; ?>line-mid-text.svg"
                                 alt="Imagen de las hojas Derecha"
@@ -455,7 +455,7 @@ Template Name: Home
                         <div class="d-flex align-items-center justify-content-center">
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo tener más seguidores?</p>
                             <img
-                                class="mx-2"
+                                class="mx-2 img-fluid"
                                 src="<?php echo get_template_directory_uri() .
                                     '/assets/images/'; ?>line-mid-text.svg"
                                 alt="Imagen de las hojas Derecha"
@@ -465,7 +465,7 @@ Template Name: Home
                         <div class="d-flex align-items-center justify-content-center">
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo mejorar la imagen de mi empresa?</p>
                             <img
-                                class="mx-2"
+                                class="mx-2 img-fluid"
                                 src="<?php echo get_template_directory_uri() .
                                     '/assets/images/'; ?>line-mid-text.svg"
                                 alt="Imagen de las hojas Derecha"
@@ -475,7 +475,7 @@ Template Name: Home
                         <div class="d-flex align-items-center justify-content-center">
                             <p class="m-0 text-black text-about w-19 d-flex justify-content-end">¿Cómo ser más conocido?</p>
                             <img
-                                class="mx-2"
+                                class="mx-2 img-fluid"
                                 src="<?php echo get_template_directory_uri() .
                                     '/assets/images/'; ?>line-mid-text.svg"
                                 alt="Imagen de las hojas Derecha"
