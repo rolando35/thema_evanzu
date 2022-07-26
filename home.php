@@ -206,7 +206,7 @@ Template Name: Home
                             <path d="M382.063 115.841C382.641 116.648 383.216 117.464 383.789 118.29" stroke="white" stroke-miterlimit="10" />
                         </svg>
                         <div id="circle-background">
-                            <img
+                            <img class="img-fluid"
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage_agencia_evanzu.png"
                                 alt="Presentación de la agencia de marketing y publicidad Evanzu"
                                 title="Agencia Marketing y publicidad Evanzu"
@@ -565,12 +565,12 @@ Template Name: Home
 
             <div class="container">
                 <div class="top-content pb-5">
-                    <!-- First row -->
+                  
                     <div class="d-flex justify-content-center my-4 flex-md-row wrap-row">
                         
                         <div class="d-flex gap-row">
                             <div>
-                                <a  href="https://www.bbva.pe/">
+                                <a  href="https://www.bbva.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>BBVA.svg"
                                     class="img-fluid mx-auto d-block"
@@ -579,7 +579,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a  href="https://www.betfair.com/pe">
+                                <a  href="https://www.betfair.com/pe" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>betfair.svg"
                                     class="img-fluid mx-auto d-block"
@@ -588,7 +588,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a  href="https://www.petroperu.com.pe"> 
+                                <a  href="https://www.petroperu.com.pe" target="_blank"> 
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>petroperu.svg" 
                                     class="img-fluid mx-auto d-block"
@@ -600,7 +600,7 @@ Template Name: Home
                         <div class="d-flex gap-row">
 
                             <div>
-                                <a  href="https://www.cofide.com.pe/">
+                                <a  href="https://www.cofide.com.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>cofide.svg" 
                                     class="img-fluid mx-auto d-block"
@@ -609,7 +609,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a  href="https://www.bancomercio.com/elbanco">
+                                <a  href="https://www.bancomercio.com/elbanco" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>banco_comercio.svg"
                                     class="img-fluid mx-auto d-block"
@@ -618,7 +618,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a  href="https://indriver.com/es/city">
+                                <a  href="https://indriver.com/es/city" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>Group 394.png"
                                     class="img-fluid mx-auto d-block"
@@ -628,13 +628,13 @@ Template Name: Home
                         </div>
                     </div>
 
-                    <!-- Secon row -->
+                 
                     <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
                         
                         <div class="d-flex gap-row">
 
                             <div class="">
-                                <a  href="https://indriver.com/es/city">
+                                <a  href="https://www.entel.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>entel.svg"
                                     class="img-fluid mx-auto d-block"
@@ -643,7 +643,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a href="https://www.gob.pe/mtc">
+                                <a href="https://www.gob.pe/mtc" target="_blank">
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>ministeriotransportes.svg"
                                         class="img-fluid mx-auto d-block"
@@ -652,7 +652,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a href="https://www.pichincha.pe/">
+                                <a href="https://www.pichincha.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>banco_pichincha.svg" 
                                     class="img-fluid mx-auto d-block"
@@ -664,7 +664,7 @@ Template Name: Home
                         <div class="d-flex gap-row">
 
                             <div>
-                                <a  href="https://www.cajahuancayo.com.pe/">
+                                <a  href="https://www.cajahuancayo.com.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>cajahuancayo.svg"
                                     class="img-fluid mx-auto d-block"
@@ -673,7 +673,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                            <a href="https://www.hiper.com.pe/">
+                            <a href="https://www.hiper.com.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>hiper.svg"
                                     class="img-fluid mx-auto d-block"
@@ -682,7 +682,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                            <a href="https://www.bmatic.com.pe/">
+                            <a href="https://www.bmatic.com.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>bmatic.png"
                                     class="img-fluid mx-auto d-block"
@@ -691,13 +691,13 @@ Template Name: Home
                             </div>
                         </div>
                     </div>
-                        <!-- Third row -->
+                      
                     <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
                             
                         <div class="d-flex gap-row">
 
                             <div>
-                                <a  href="https://mibim.pe/">
+                                <a  href="https://mibim.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>Bim.svg"
                                     class="img-fluid mx-auto d-block"
@@ -706,7 +706,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a  href="https://mibim.pe/">
+                                <a  href="https://www.defensoria.gob.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>defensoria.svg"
                                     class="img-fluid mx-auto d-block"
@@ -715,7 +715,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a  href="https://www.paraiso-peru.com/"> 
+                                <a  href="https://www.paraiso-peru.com/" target="_blank"> 
                                 <img src="<?php echo get_template_directory_uri() .
                                     '/assets/images/home/'; ?>paraiso.svg" class="img-fluid mx-auto d-block" alt="Paraiso">
                                 </a>
@@ -725,7 +725,7 @@ Template Name: Home
                         <div class="d-flex gap-row">
 
                             <div>
-                                <a href="https://www.cruzdelsur.com.pe/">
+                                <a href="https://www.cruzdelsur.com.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>cruzdelsur.svg"
                                     class="img-fluid mx-auto d-block"
@@ -734,7 +734,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a href="https://www.cruzdelsur.com.pe/">
+                                <a href="https://www.sath.gob.pe/" target="_blank">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>administracion.svg"
                                     class="img-fluid mx-auto d-block"
@@ -743,7 +743,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a  href="https://www.munlima.gob.pe/">
+                                <a  href="https://www.munlima.gob.pe/" target="_blank">
                                 <img src="<?php echo get_template_directory_uri() .
                                     '/assets/images/home/'; ?>muni_lima.svg" class="img-fluid mx-auto d-block" alt="Municipalidad de Lima">
                                 </a>
@@ -752,28 +752,28 @@ Template Name: Home
                             
                     </div>
 
-                        <!-- Fourth row -->
+                    
 
                         <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
                             
-                            <div class="d-flex gap-row">
+                            <div class="d-flex gap-row" >
 
                                 <div>
-                                    <a  href="https://www.munlima.gob.pe/">
+                                    <a  href="https://axessnet.com/conectividad-satelital-internet-satelital-backhaul-celular-telefonia-satelital/" target="_blank">
                                     <img src="<?php echo get_template_directory_uri() .
                                         '/assets/images/home/'; ?>axess.svg" class="img-fluid mx-auto d-block" alt="Imagen de axess network">
                                     </a>
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/">
+                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/" target="_blank">
                                     <img src="<?php echo get_template_directory_uri() .
                                         '/assets/images/home/'; ?>mivivienda.svg" class="img-fluid mx-auto d-block" alt="Mi vivienda">
                                     </a>
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.paraiso-peru.com/"> 
+                                    <a  href="https://www.magnesol.pe/" target="_blank"> 
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>magne.svg"
                                         class="img-fluid mx-auto d-block"
@@ -785,7 +785,7 @@ Template Name: Home
                             <div class="d-flex gap-row">
 
                                 <div>
-                                    <a href="https://www.cruzdelsur.com.pe/">
+                                    <a href="https://www.bat.com/" target="_blank">
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>british.svg"
                                         class="img-fluid mx-auto d-block"
@@ -794,7 +794,7 @@ Template Name: Home
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.munlima.gob.pe/">
+                                    <a  href="https://www.gob.pe/servir" target="_blank">
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>servir.svg"
                                         class="img-fluid mx-auto d-block"
@@ -803,7 +803,7 @@ Template Name: Home
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.munlima.gob.pe/">
+                                    <a  href="https://www.adecco.com.pe/" target="_blank">
                                     <img src="<?php echo get_template_directory_uri() .
                                         '/assets/images/home/'; ?>adeco.svg" class="img-fluid mx-auto d-block" alt="Imagen de Adecco">
                                     </a>
@@ -812,21 +812,21 @@ Template Name: Home
                             </div>
                         </div>
                         
-                        <!-- Fifth row -->
+                       
 
                         <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
                             
                             <div class="d-flex gap-row">
 
                                 <div>
-                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/">
+                                    <a  href="https://www.facebook.com/arribaeltelonperu/" target="_blank">
                                     <img src="<?php echo get_template_directory_uri() .
                                         '/assets/images/home/'; ?>teleton.svg" class="img-fluid mx-auto d-block" alt="Imagen de la teleton.">
                                     </a>
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/">
+                                    <a  href="https://www.casinoatlanticcity.com/" target="_blank">
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>aceo.svg"
                                         class="img-fluid mx-auto d-block"
@@ -835,9 +835,9 @@ Template Name: Home
                                 </div>
 
                                 <div>
-                                    <a href="https://www.cruzdelsur.com.pe/">
+                                    <a href="https://www.holascharff.com/" target="_blank">
                                     <img
-                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>market_nexus.svg"
+                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>scharff.svg"
                                         class="img-fluid mx-auto d-block"
                                         alt="Imagen de Market nexus.">
                                     </a>
@@ -852,14 +852,14 @@ Template Name: Home
     </div>
     <div class="bg-pink  text-white ">
         <div class="text-center">
-         <img class="my-5" src="<?php echo get_template_directory_uri(); ?>/assets/images/icono-upper-stop.svg">
+         <img class="my-5" class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/icono-upper-stop.svg">
         </div>
         <div class="text-center big-title">
             <h2>
                 Crece con nosotros
             </h2>
         </div>
-        <div class="row mx-5 px-5">
+        <!-- <div class="row mx-5 px-5">
             <div class="col-sm-6 p-0 p-lg-5 mt-5">
                 <div class="d-flex justify-content-center align-items-center"> 
                         <div id="description-team" class="text-white w-70">
@@ -1044,7 +1044,7 @@ Template Name: Home
                 </div>
             </div>
            
-        </div>
+        </div> -->
          <div  class="py-4 my-4 bg-darkpink">  </div>
         <div class="mt-5c" style="z-index: 1;">
             <?php get_template_part('components/modal/form-postula', 'full'); ?>
@@ -1053,12 +1053,12 @@ Template Name: Home
     </div>
    
 </section>
-<section>       
+<!-- <section>       
 <div class="mt-5 text-center">
  
   <h2  class="big-title text-red">¿Cómo lo hacemos?</h2>
-      <!-- <p>Estamos comprometidos a ofrecer resultados 
-    <br>excepcionales y medibles</p>  -->
+      <p>Estamos comprometidos a ofrecer resultados 
+    <br>excepcionales y medibles</p> 
 </div>
 
 
@@ -1092,11 +1092,6 @@ Template Name: Home
 
 
 			</div>
-
-
-
-
-
 
 <div class="row">
 <div class="col-sm-6  p-5 bg-gray text-center d-flex justify-content-center align-items-center">    
@@ -1143,16 +1138,16 @@ Template Name: Home
 
     <div>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-home.svg" alt="Imagen de la base del banner">
-    </div>
+    </div> 
 </div>
 
-<div id="lef-ultimate-box" class="col-sm-6">
+        <div id="lef-ultimate-box" class="col-sm-6">
     
        </div>
         
-    </div>
+</div>
  
-</section>
+</section> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 <script>
 

@@ -95,7 +95,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		<div class="float-rectangle-banner text-center d-none d-xl-block">
 			<div id="rectangle" class="text-center my-0 mx-auto"></div>
 		</div>
-		<div class="carousel-inner">
+		<div class="carousel-inner carousel-inner-negative">
 			<div class="carousel-item active d-flex align-items-center">
 				<img
 					src="<?php echo get_template_directory_uri()?>/assets/images/btl/Servicio-de-Activación-BTL.jpg;"
@@ -109,7 +109,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<div class="carousel-caption" style="bottom: auto; left: 10%;">
 					<div class="row">
 						<div class="col-12 col-md-8 col-lg-6 flex-column align-items-left p-0">
-							<div class="running-text-btl">
+							<div class="running-text-btl mb-3">
 								Somos una agencia de
 							</div>
 							<h1 class="text-left hurme-simple-btl">
