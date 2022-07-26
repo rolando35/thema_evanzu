@@ -22,7 +22,7 @@
     margin-top: 0;
   }
 
-  @media only screen and (max-width: 550px) {
+  /* @media only screen and (max-width: 550px) {
     .h-variant {
       height: 3rem !important;
     }
@@ -35,11 +35,9 @@
   }
   .mt-neg {
     margin-top: -2.2rem;
-  }
+  } */
   
-  ul > li button.active{
-    background-color: green;
-  }
+ 
 </style>
  
 <!-- oncontextmenu="return false;" -->
@@ -102,10 +100,12 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
               ?>
           </div>
           <div class="mt-neg mr-3 pb-2 float-right d-block  d-md-none">
+            <a href="<?php echo home_url(); ?>">
             <img class="img-fluid"
               src="<?php echo $path_header; ?>naked_logo.svg"
               alt="Logo Evanzu"
               />
+            </a>
           <div>
         </div>
 
