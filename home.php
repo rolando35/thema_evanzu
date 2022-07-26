@@ -829,7 +829,7 @@ Template Name: Home
     </div>
     <div class="bg-pink  text-white ">
         <div class="text-center">
-         <img class="my-5" src="<?php echo get_template_directory_uri(); ?>/assets/images/icono-upper-stop.svg">
+         <img class="my-5" class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/icono-upper-stop.svg">
         </div>
         <div class="text-center big-title">
             <h2>
