@@ -426,7 +426,7 @@ Template Name: Home
 <section>
     <div class="container mt-5">
         <div class="d-flex justify-content-center align-items-center">
-            <div class="position-absolute mb-5">
+            <!-- <div class="position-absolute mb-5">
                 <div class="mt-07">
                     <div class="d-flex justify-content-center align-items-center">
                         <img src="<?php echo get_template_directory_uri() .
@@ -483,11 +483,11 @@ Template Name: Home
                     </div>
 
                 </div>
-            </div>
-            <div>
+            </div> -->
+            <!-- <div>
                 <img class="d-none d-md-block" src="<?php echo get_template_directory_uri() .
                     '/assets/images/'; ?>about-home.svg" alt="imagen de Background customer">
-            </div>
+            </div> -->
         </div>
 
         <div class="text-center">
@@ -540,7 +540,7 @@ Template Name: Home
 
             <div class="container">
                 <div class="top-content pb-5">
-                    <!-- First row -->
+                  
                     <div class="d-flex justify-content-center my-4 flex-md-row wrap-row">
                         
                         <div class="d-flex gap-row">
@@ -603,7 +603,7 @@ Template Name: Home
                         </div>
                     </div>
 
-                    <!-- Secon row -->
+                 
                     <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
                         
                         <div class="d-flex gap-row">
@@ -666,7 +666,7 @@ Template Name: Home
                             </div>
                         </div>
                     </div>
-                        <!-- Third row -->
+                      
                     <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
                             
                         <div class="d-flex gap-row">
@@ -727,7 +727,7 @@ Template Name: Home
                             
                     </div>
 
-                        <!-- Fourth row -->
+                    
 
                         <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
                             
@@ -787,7 +787,7 @@ Template Name: Home
                             </div>
                         </div>
                         
-                        <!-- Fifth row -->
+                       
 
                         <div class="d-flex justify-content-center my-4 flex-md-row wrap-row"> 
                             
@@ -834,7 +834,7 @@ Template Name: Home
                 Crece con nosotros
             </h2>
         </div>
-        <div class="row mx-5 px-5">
+        <!-- <div class="row mx-5 px-5">
             <div class="col-sm-6 p-0 p-lg-5 mt-5">
                 <div class="d-flex justify-content-center align-items-center"> 
                         <div id="description-team" class="text-white w-70">
@@ -1019,7 +1019,7 @@ Template Name: Home
                 </div>
             </div>
            
-        </div>
+        </div> -->
          <div  class="py-4 my-4 bg-darkpink">  </div>
         <div class="mt-5c" style="z-index: 1;">
             <?php get_template_part('components/modal/form-postula', 'full'); ?>
@@ -1028,12 +1028,12 @@ Template Name: Home
     </div>
    
 </section>
-<section>       
+<!-- <section>       
 <div class="mt-5 text-center">
  
   <h2  class="big-title text-red">¿Cómo lo hacemos?</h2>
-      <!-- <p>Estamos comprometidos a ofrecer resultados 
-    <br>excepcionales y medibles</p>  -->
+      <p>Estamos comprometidos a ofrecer resultados 
+    <br>excepcionales y medibles</p> 
 </div>
 
 
@@ -1067,11 +1067,6 @@ Template Name: Home
 
 
 			</div>
-
-
-
-
-
 
 <div class="row">
 <div class="col-sm-6  p-5 bg-gray text-center d-flex justify-content-center align-items-center">    
@@ -1118,16 +1113,16 @@ Template Name: Home
 
     <div>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-home.svg" alt="Imagen de la base del banner">
-    </div>
+    </div> 
 </div>
 
-<div id="lef-ultimate-box" class="col-sm-6">
+        <div id="lef-ultimate-box" class="col-sm-6">
     
        </div>
         
-    </div>
+</div>
  
-</section>
+</section> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 <script>
 
