@@ -53,6 +53,15 @@ Template Name: Home
         line-height: 0.5;
     }
 
+    .clients {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .img-client {
+        width: auto;
+    }
+
     @media only screen and (max-width: 440px) {
         .image-sup {
         margin-top: -5rem;
@@ -73,6 +82,15 @@ Template Name: Home
             bottom: 1rem !important;
             width: 40% !important;
             right: 3rem !important;
+        }
+
+        .clients {
+            margin: auto !important;
+            flex-wrap: wrap !important;
+        }
+
+        .img-client {
+            width: 210px !important;
         }
     }
 
@@ -255,30 +273,35 @@ Template Name: Home
         <!-- partial:index.partial.html -->
             
              <div class="container px-5">
-                 <div class="d-flex justify-content-center">
+                 <div class="d-flex justify-content-center clients">
                     <div class="mx-2">
                         <a  href="bbva" class="hover-underline-animation"> 
                             <img
                                 src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BIG-BBVA.png"
-                                class="img-fluid mx-auto d-block"
+                                class="img-fluid mx-auto d-block img-client"
                                 alt="Cliente Evanzu BBVA">
                         </a>
                     </div>
                      <div class="mx-2">
                             <a  href="petro-peru" class="hover-underline-animation"> 
                                 <img src="<?php echo get_template_directory_uri() .
-                                    '/assets/images/clients/'; ?>BIG-PETROPERU.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu PETRO PERU">
+                                    '/assets/images/clients/'; ?>BIG-PETROPERU.png"
+                                    class="img-fluid mx-auto d-block img-client"
+                                    alt="Cliente Evanzu PETRO PERU">
                             </a>
                      </div>
                      <div class="mx-2">
                          <a  href="betfair"  class="hover-underline-animation">
-                                <img src="<?php echo get_template_directory_uri() .
-                                    '/assets/images/clients/'; ?>BIG-BETFAIR.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu Betfair">
+                                <img
+                                    src="<?php echo get_template_directory_uri() .
+                                    '/assets/images/clients/'; ?>BIG-BETFAIR.png"
+                                    class="img-fluid mx-auto d-block img-client"
+                                    alt="Cliente Evanzu Betfair">
                             </a>
                      </div>
                  </div>
 
-                  <div class="d-flex justify-content-center my-2">
+                  <div class="d-flex justify-content-center my-2 flex-wrap flex-md-nowrap">
                     
                      <div class="mx-2">
                             <a  href="artecola" class="hover-underline-animation">

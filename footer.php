@@ -15,7 +15,7 @@
 
           <div id="mt-n4-footer-software" class="ml-md-5 pl-md-5 ml-sm-0 pl-sm-0 ml-0-xs pl-0-xs d-flex flex-column">
             <?php get_template_part('components/footer-list-link', 'full', [
-                  'title' => 'Desarrollo & <br> Software',
+                  'title' => '<a class="text-light" href="desarrollo-software">Desarrollo & <br> Software</a>',
                   'list' => [
                     'Tiendas virtuales',
                     'Páginas web',
@@ -40,7 +40,7 @@
         <?php 
         
          get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Marketing Digital',
+            'title' => '<a class="text-light" href="marketing-digital">Marketing Digital</a>',
             'list' => [
               'Publicidad digital',
               'Gestión de redes sociales',
@@ -58,7 +58,7 @@
         ]); ?>
         <div class="my-5"></div>
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Producción <br> Audiovisual',
+            'title' => '<a class="text-light" href="produccion-audiovisual">Producción <br> Audiovisual</a>',
             'list' => [
               'Spots & Videos',
               'Animación 2D',
@@ -78,7 +78,7 @@
         <div class="col-sm-3 col-12 center-responsive-footer">
 
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'Branding & Diseño',
+            'title' => '<a class="text-light" href="branding-diseno">Branding & Diseño</a>',
             'list' => [
               'Logo & branding',
               'Diseño publicitario',
@@ -96,7 +96,7 @@
         ]); ?>
          <div class="my-5"></div>
         <?php get_template_part('components/footer-list-link', 'full', [
-            'title' => 'BTL & comunicación',
+            'title' => '<a class="text-light" href="btl-comunicacion">BTL & comunicación</a>',
             'list' => [
               'BTL y Activaciones',
               'Eventos',
