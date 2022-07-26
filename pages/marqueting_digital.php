@@ -304,7 +304,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <div class="py-2">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-md-11 col-lg-6 d-flex align-items-center">
+                  <div class="col-md-11 col-lg-6 d-flex align-items-center justify-content-center">
                       <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/cellphone-publicidad-digital.svg"
                   alt="Campaña por Google Adwords y publicidad en redes sociales."
