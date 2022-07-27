@@ -1138,6 +1138,9 @@ a.link-circle {
   height: auto;
 }
 
+.img-fluid-svg {
+  width: unset;
+}
 /*--------------------  BLOG -------------------*/
 
 /****RESPONSIVE****/
@@ -1213,6 +1216,24 @@ a.link-circle {
   }
   .red-small {
     font-size: 12px !important;
+  }
+
+  .img-fluid-svg {
+    width: 100%;
+  }
+
+  .w-19,
+  .w-17 {
+    width: unset;
+  }
+
+  .text-about {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .font-2 {
+    font-size: 1.6rem;
   }
 }
 
