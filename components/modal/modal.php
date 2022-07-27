@@ -28,9 +28,6 @@
     margin-top: 2rem;
   }
 
-  .bg-white-transparent {
-    background: #ffffff;
-  }
 
   .h-30 {
     height: 22rem;
@@ -75,16 +72,13 @@
   }
 
   @media only screen and (min-width: 992px) {
-    .bg-white-transparent {
-      background: transparent !important;
-    }
 
     .social-net {
       height: 2rem !important;
     }
 
     .text-footer{
-      font-size: auto !important;
+      font-size: 28px !important;
     }
 
     .img-banner-modal {
@@ -196,7 +190,7 @@
                   </div>
                   <input type="text"
                     class="hurme-simple-4 mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                    id="mensaje" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="mensaje">
+                    id="mensaje" aria-describedby="emailHelp" placeholder="Déjanos tu mensaje" name="mensaje">
                   <button
                     id="send"
                     type = "submit"
@@ -278,16 +272,26 @@
                 <!----------------Social---------------->
                 <div class="w-100 d-flex justify-content-center">
                   <div class="d-flex justify-content-around w-75 bg-red">
-                    <img class="social-net"
-                      src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">
-                    <img class="social-net"
-                      src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg">
-                    <img class="social-net"
-                      src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg">
-                    <img class="social-net"
-                      src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
-                    <img class="social-net"
-                      src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
+                    <a href="https://www.facebook.com/evanzuperu/" target="_blank">
+                      <img class="social-net"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">
+                    </a>
+                    <a href="https://www.youtube.com/c/EvanzuAgenciadeMarketingyPublicidad" target="_blank">
+                      <img class="social-net"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg">
+                    </a>
+                    <a href="https://www.instagram.com/evanzuperu/" target="_blank">
+                      <img class="social-net"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg">
+                    </a>
+                    <a href="https://www.linkedin.com/company/evanzu/" target="_blank">
+                      <img class="social-net"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
+                    </a>
+                    <a href="https://www.tiktok.com/@evanzuperu" target="_blank">
+                      <img class="social-net"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
+                    </a>
                   </div>
                 </div>
               </div>
@@ -296,9 +300,9 @@
 
             <div class="col-12 col-lg-6  bg-custom-white ">
             <img class="position-absolute d-none d-lg-block w-100 min-height" style="" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-modal.svg">
-            <div class="position-absolute d-block text-center w-100 bg-white-transparent">
+            <div class="position-absolute d-block text-center w-100">
                 <img class="img-banner-modal" style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/asset-modal.png">
-                <div class="d-flex justify-content-center w-100 bg-white-transparent h-19">
+                <div class="d-flex justify-content-center w-100 h-19">
                   <h3 class="text-right text-footer" style="color:#ED1164; ">
                     Con los pies <br>
                     en los zapatos del cliente, <br>

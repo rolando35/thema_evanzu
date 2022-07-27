@@ -35,7 +35,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 <section class="top-clients pb-3">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-md-6 text-center text-md-left">
+			<div class="col-12 text-center">
 				<img
 					src="<?php echo $path_img?>title.svg"
 					class="img-fluid px-1 py-3"
@@ -44,11 +44,11 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 					Gestor de colas online
 				</h1>
 			</div>
-			<div class="col-md-6">
+			<!-- <div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
 					BMatic ofrece una solución fácil e intuitiva para la gestión de colas en las empresas y así evitar la acumulación de personas.
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
@@ -62,7 +62,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
             </h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Diseñamos un simbolo para posicionar la marca, con unos colores vibrantes que resaltan la marca.
+			Diseñamos un simbolo para posicionar la marca, con unos colores vibrantes que resalten a la marca.
 			</p>
 		</div>
 		<!---------------title--------------->
@@ -94,7 +94,7 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
             </h2>
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
-				Diseñamos la experiencia de usuario de la web y app con un diseño atráctivo que permite captar leads. Además, desarrollamos su página web teniendo en cuenta características óptimas para el posicionamiento SEO.
+				Diseñamos la experiencia de usuario optimo con un diseño atráctivo que permita captar leads, realizamos la programación de su web para estar optimo y amigable con Google.
 			</p>
 		</div>
 		<!---------------title--------------->

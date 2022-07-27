@@ -47,7 +47,7 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 			</div>
 			<div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
-					Es una empresa especializada en el servicio de exploración, desarrollo y explotación de yacimientos mineros. Pertenece al grupo Breca.
+				Aesa, una empresa especializada en el servicio de exploración, desarrollo, explotación de yacimiento mineross y gestión de operaciones mineras, pertenece al grupo Breca.
 				</div>
 			</div>
 		</div>
@@ -147,9 +147,9 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 					class="w-100 h-100"
 				/>
 			</div>
-			<div class="col-md-6 p-1 m-0 p-md-2">
+			<!-- <div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Disenos-troquelados-AESA.png"
+					src="<?php //echo $path_img?>Disenos-troquelados-AESA.png"
 					title="Diseños troquelado AESA"
 					alt="Diseño y producción de letreros troquelados para el suelo en el evento de AESA"
 					class="w-100 h-100"
@@ -157,12 +157,12 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 			</div>
 			<div class="col-md-6 p-1 m-0 p-md-2">
 				<img
-					src="<?php echo $path_img?>Membrete-AESA-.png"
+					src="<?php //echo $path_img?>Membrete-AESA-.png"
 					title="Diseño de membrete"
 					alt="Diseño de membrete A4 para evento AESA"
 					class="w-100 h-100"
 				/>
-			</div>
+			</div> -->
 		</div>
 		<!---------------images-------------->
 

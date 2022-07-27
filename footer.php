@@ -181,7 +181,13 @@
         <div class="my-3">
           <h2 id="footer-social-text" class="text-light hurme-semi-bold-4">Redes sociales</h2>
           <div class="d-flex justify-content-between w-50">
-            <a  target="_blank" href="https://www.youtube.com/c/EvanzuAgenciadeMarketingyPublicidad">  <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg"> </a>       
+            <a href="https://www.facebook.com/evanzuperu/" target="_blank">
+              <img class="mx-1"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">
+            </a>
+            <a  target="_blank" href="https://www.youtube.com/c/EvanzuAgenciadeMarketingyPublicidad">
+              <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.svg">
+            </a>       
             <a  target="_blank" href="https://www.instagram.com/evanzuperu/">  <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg"></a> 
             <a  target="_blank" href="https://www.linkedin.com/company/evanzu/"> <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg"></a> 
             <!-- <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg"> -->

@@ -83,16 +83,24 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
   }
 
   .card-n1 {
-    margin-top: -4rem;
+    margin-top: -6rem;
   }
 
   .semi-title {
     font-size: 24px;
     line-height: 24px;
   }
+  
+  .mlt-n1 {
+    margin-left: -1rem;
+    margin-top: 1rem;
+  }
 
 @media only screen and (max-width: 992px) {
-
+  .mlt-n1 {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
 }
 </style>
 
@@ -185,7 +193,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         $lista = [
             [
                 'svg' => 'digital.svg',
-                'title' => 'Logo
+                'title' => 'Logo &
                   <br />
                   Branding',
                 'href' => '#logo_branding',
@@ -441,7 +449,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <div class="py-2">
               <div class="container">
                  <div class="row justify-content-center">
-                  <div class="col-md-11 col-lg-6 d-flex justify-content-lg-end">
+                  <div class="col-md-11 col-lg-6 d-flex justify-content-center justify-content-lg-end">
                     <img
                       src="<?php echo $directory_branding_imgs; ?>bim.png"
                       alt=""
@@ -612,22 +620,30 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 ); ?>
               </div>
 
-               <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part(
-                    'components/branding/service-left-double',
-                    'full',
-                    [
-                        'image-one' => $directory_branding_imgs . 'bannerP.svg',
-                        'image-two' => $directory_branding_imgs . 'gif.svg',
-                        'title-one' => 'Banners <br>digitales',
-                        'title-two' => 'gif',
-                        'line-one' =>
-                            $directory_branding_imgs . 'line-rosado-large.svg',
-                        'line-two' =>
-                            $directory_branding_imgs . 'line-rosado.svg',
-                    ]
-                ); ?>
+               <div class="d-flex flex-column flex-md-row mb-5 mb-lg-0">
 
+              <div class="d-flex flex-column my-1 mt-lg-0 mb-lg-5 text-center">	
+              	<div class="d-md-flex">	
+               		<div><img  src="<?php echo $directory_branding_imgs . 'bannerP.svg'; ?>"	/><div class="text-center pt-1">
+                   Banners para <br> publicidad digital</div> </div>	 	
+               		<div class="mlt-n1">
+                     <img  src="<?php echo $directory_branding_imgs . 'gif.svg'; ?>"/>
+                     <div class="text-center pt-1">
+                      GIF
+                    </div>
+                  </div>
+              	</div>	
+              	<div class="d-none d-lg-flex justify-content-end container-line-left-service">
+              		<div class="z-index-1">
+              		<div class="float-right">
+                    <img src="<?php echo $directory_branding_imgs . 'line-rosado-large.svg' ?>" class="img-fluid" />
+                  </div>		 
+              		<div class="service-doble-line">
+                    <img src="<?php echo $directory_branding_imgs . 'line-rosado.svg'; ?>" class="img-fluid" />
+                  </div>	
+              		</div>
+              	</div>
+              </div>
                   
                 <div class="d-none d-lg-block container-center-service">
                   <div class="element-center-service"></div>
@@ -657,10 +673,27 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   class="container-center-service element-final-center"
                 ></div>
               </div>
+              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -9rem; height: 10rem;'>
+                <img style="margin-top: -9rem;" class="d-none d-lg-block"  src="<?php echo $directory_branding_imgs .
+                    'work-table_with_circle.png'; ?>">
+              </div>
             </div>
           </div>
         </div>
         <!-----------------------Service----------------------------->
+
+        <!-----------------------Circle Right----------------------------->
+        <div class='w-100 text-right' style="margin-bottom: -7rem">
+                <?php
+                $parameters = ['color' => '#681484', 'position' => 'right'];
+                get_template_part(
+                    'components/border-circle',
+                    'full',
+                    $parameters
+                );
+                ?>
+              </div>
+              <!-----------------------Circle Right----------------------------->
 
         <!-----------------------Contanct----------------------------->
         <?php get_template_part('components/form-quote-request2', 'full', [
@@ -746,7 +779,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'image' => $directory_branding_imgs . 'ofrecemos1.png',
                 'text' => '
                   <div class="long-content">
-                    <span class="hurme-bold-4 mb-3">Merchandising</span>
+                    <span class="hurme-bold-4 mb-3">Merchandising <br> <br></span>
                     <p>
                     Logra que las personas descubran, reconozcan y difundan tu marca con artículos como: Gorras, polos, lapiceros, tazas, Soleras, llaveros, pines, tomados y mucho más.
 
@@ -764,9 +797,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 <div class="d-flex flex-column-reverse align-items-center flex-lg-row">
                   <div class="align-self-center text-center text-lg-right p-2 pr-lg-3 pb-lg-0 text-service">
                     <div class="hight-content">
-                      <span class="hurme-bold-4 mb-5">Impresos</span>
-                      Partimos de las necesidades de comunicación para la  <span class="hurme-bold-4">maquetación de contenido que cautive</span> al público objetivo, informe efectivamente y refuerce la identidad corporativa.
-                      <p class="text-red font-weight-bold hurme-bold-4">Incluye:</p> 
+                      <span class="hurme-bold-4 mb-5">Impresos</span> <br> <br>
+                      Partimos de las necesidades de comunicación para la  <span class="hurme-bold-4">maquetación de contenido que cautive</span> al público objetivo, informe efectivamente y refuerce la identidad corporativa. <br> <br>
+                      <p class="text-red font-weight-bold hurme-bold-4 m-0">Incluye:</p> 
                       <i>
                       Hojas membretadas, tarjetas de presentación personales y corporativas, brochures corporativos, banners publicitarios, sobres y bolsas, volantes, dipticos y tripticos, y otras publicaciones como: libros, revistas, periódicos, catálogos, carátulas, cuentos y otros.
                       </i>
@@ -790,7 +823,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
            'image' => $directory_branding_imgs . 'ofrecemos3.png',
            'text' => ' 
                 <div class="hight-content1">
-                <span class="hurme-bold-4 mb-5">Señalética corporativa </span>
+                <span class="hurme-bold-4 mb-5">Señalética corporativa <br><br></span>
 
                   <p>
                   Ideamos señaléticas para espacios interiores como oficinas, puntos de venta y atención al cliente. Trabajamos señalamiento de contingencia sanitaria, material POP, entre otros. Nos aseguramos de que sean  <span class="hurme-bold-4">originales, fáciles de percibir y de interpretar.</span>
@@ -969,7 +1002,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         			<!-------------Note------------>
         			<div class="d-flex justify-content-center flex-wrap">
         				<div class="m-sm-1 m-md-2 position-relative">
-        					<img style="height: 17rem;" src="<?php echo $path_img; ?>Group-607.png" alt="Genera expectativa" />
+        					<img style="height: 17rem;" src="<?php echo $path_img; ?>briefing.png" alt="Genera expectativa" />
         					<div class="note-btl top-note-btl text-white card-n1">
         						<strong>
                       <span class="text-red mt-2">Briefing de requerimientos</span>
@@ -978,7 +1011,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         					</div>
         				</div>
         				<div class="m-sm-1 m-md-2 position-relative">
-        					<img style="height: 17rem;" src="<?php echo $path_img; ?>Group-609.png" alt="Informa a tus clientes" />
+        					<img style="height: 17rem;" src="<?php echo $path_img; ?>concepto.png" alt="Informa a tus clientes" />
         					<div class="note-btl top-note-btl text-gray card-n1">
         						<strong>
                       <span class="text-light-gray mt-2">Conceptualización y desarrollo creativo</span>
@@ -987,7 +1020,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         					</div>							
         				</div>
         				<div class="m-sm-1 m-md-2 position-relative">
-        					<img style="height: 17rem;" src="<?php echo $path_img; ?>Group-610.png" alt="Conecta y logra" />
+        					<img style="height: 17rem;" src="<?php echo $path_img; ?>diseño.png" alt="Conecta y logra" />
         					<div class="note-btl top-note-btl text-white card-n1">
         						<strong>
                     <span class="text-red mt-2">Diseño de artes gráficas</span>
