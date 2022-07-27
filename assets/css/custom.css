@@ -1156,6 +1156,14 @@ a.link-circle {
   }
 }
 
+.h-400 {
+  height: 400px;
+}
+
+.w-responsive-penultimate-section {
+  width: unset;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #lef-ultimate-box {
@@ -1234,6 +1242,20 @@ a.link-circle {
 
   .font-2 {
     font-size: 1.6rem;
+  }
+  .font-3 {
+    font-size: 2.2rem;
+  }
+  .home-text-yellow {
+    font-size: 1.2rem;
+  }
+
+  .font-25 {
+    font-size: 0.9rem;
+  }
+
+  .w-responsive-penultimate-section {
+    width: 105%;
   }
 }
 
@@ -1648,4 +1670,9 @@ body {
   color: #808080;
   text-align: unset;
   background-color: #fff;
+}
+
+.div-spacer {
+  width: 3rem;
+  height: 3rem;
 }

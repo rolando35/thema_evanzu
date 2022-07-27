@@ -206,6 +206,7 @@ Template Name: Home
                         </svg>
                         <div id="circle-background">
                             <img
+                                class="img-fluid"
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage_agencia_evanzu.png"
                                 alt="Presentación de la agencia de marketing y publicidad Evanzu"
                                 title="Agencia Marketing y publicidad Evanzu"
@@ -851,7 +852,7 @@ Template Name: Home
     </div>
     <div class="bg-pink  text-white ">
         <div class="text-center">
-         <img class="my-5" src="<?php echo get_template_directory_uri(); ?>/assets/images/icono-upper-stop.svg">
+         <img class="my-5 img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/icono-upper-stop.svg">
         </div>
         <div class="text-center big-title">
             <h2>
@@ -1097,37 +1098,37 @@ Template Name: Home
 
 
 
-<div class="row">
+<div class="row h-400 w-responsive-penultimate-section">
 <div class="col-sm-6  p-5 bg-gray text-center d-flex justify-content-center align-items-center">    
     <div class="text-center position-absolute">
         <div class="d-flex justify-content-center">
             <div class="d-flex">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/left-title.svg" alt="Imagen de adorno izquierda">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/left-title.svg" alt="Imagen de adorno izquierda">
                 <p class="home-banner-text text-white mx-1 font-3">Estamos</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/right-title.svg" alt="Imagen de adorno derecha">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/right-title.svg" alt="Imagen de adorno derecha">
             </div>
         </div>
         <p class="text-yellow home-text-yellow hurme-bold-4 m-0">COMPROMETIDOS</p>
         <div class="d-flex justify-content-center">
             <div class="d-flex mb-2 font-23">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/left-ofrecer.svg" alt="Imagen de adorno izquierda">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/left-ofrecer.svg" alt="Imagen de adorno izquierda">
                 <p class="atletico-medium text-white my-0 mx-3">A OFRECER</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/right-ofrecer.svg" alt="Imagen de adorno derecha">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/right-ofrecer.svg" alt="Imagen de adorno derecha">
             </div>
         </div>
         <div class=" d-flex justify-content-center align-items-center">
             <p class="text-white position-absolute hurme-bold-4 m-0 font-25">RESULTADOS EXCEPCIONALES</p>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/base-banner.svg" alt="Imagen de la base del banner">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/base-banner.svg" alt="Imagen de la base del banner">
         </div>
         <div class="d-flex justify-content-center">
             <div class="d-flex mt-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/olas.svg" alt="Imagen de olas izquierda">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/olas.svg" alt="Imagen de olas izquierda">
                 <p class="home-banner-text text-white mx-3 my-0">y medibles</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/olas.svg" alt="Imagen de olas derecha">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/olas.svg" alt="Imagen de olas derecha">
             </div>
         </div>
         <div class="d-flex flex-column align-items-center">
-            <img class="my-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/abobe-line.svg" alt="Imagen de olas derecha">
+            <img class="img-fluid" class="my-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/abobe-line.svg" alt="Imagen de olas derecha">
             <i class="text-white font-20" >Es momento de empezar</i>
             <button 
                 style="max-width: 20rem;" 
@@ -1141,11 +1142,11 @@ Template Name: Home
     </div>
 
     <div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-home.svg" alt="Imagen de la base del banner">
-    </div>
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-home.svg" alt="Imagen de la base del banner">
+    </div> 
 </div>
 
-<div id="lef-ultimate-box" class="col-sm-6">
+<div id="lef-ultimate-box" class="col-sm-6 d-none d-md-block">
     
        </div>
         
