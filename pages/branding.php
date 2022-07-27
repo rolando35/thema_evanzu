@@ -205,7 +205,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 'title' => 'Diseño
                 <br />
                  Publicitario',
-                'href' => '#diseño_publicitario',
+                'href' => '#disenio_publicitario',
                 'path' => $directory_branding_imgs,
             ],
             [
@@ -425,7 +425,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_img . 'girl-icon.svg',
         'title' => 'Desarrollamos tu marca',
-        'idwebsite' => 'homeWebsite',
+        'idwebsite' => 'logo_brandingWebsite',
         'idemail' => 'branding7email',
         'idform' => 'branding7',
         'idparagraph' => 'pbranding7',
@@ -436,7 +436,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         </div>
       </div>
       <!------------REDES SOCIALES ------------>
-      <div id="diseño_publicitario" class="tab-pane fade">
+      <div id="disenio_publicitario" class="tab-pane fade">
         <br />
         <!----------------------Main---------------------->
         <section class="p-0">
@@ -699,12 +699,12 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <?php get_template_part('components/form-quote-request2', 'full', [
             'image' => $path_img . 'girl-icon.svg',
             'title' => 'Potencia tu marca',
-            'idwebsite' => 'redes_socialesWebsite',
+            'idwebsite' => 'disenio_publicitarioWebsite',
             'idemail' => 'branding0email',
             'idform' => 'branding0',
             'idparagraph' => 'pbranding0',
             'titleClass' =>
-                'title-contact-fontlg title-contact-w36 text-center',
+            'title-contact-fontlg title-contact-w36 text-center',
             'imgClass' => 'image-contact-margin',
         ]); ?>                
         <!-----------------------Contanct----------------------------->
@@ -871,12 +871,12 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           <?php get_template_part('components/form-quote-request2', 'full', [
               'image' => $path_img . 'girl-icon.svg',
               'title' => 'Te escuchamos',
-              'idwebsite' => 'menu2Website',
+              'idwebsite' => 'merchandising_impresosWebsite',
               'idemail' => 'branding5email',
               'idform' => 'branding5',
               'idparagraph' => 'pbranding5',
               'titleClass' =>
-                  'title-contact-fontlg title-contact-w36 text-center',
+              'title-contact-fontlg title-contact-w36 text-center',
               'imgClass' => 'image-contact-margin',
           ]); ?>
           <!-----------------------Contact----------------------------->
@@ -1041,7 +1041,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_img . 'girl-icon.svg',
         'title' => 'Queremos conocer tu proyecto',
-        'idwebsite' => 'menu3Website',
+        'idwebsite' => 'ilustracion_digitalWebsite',
         'idemail' => 'branding1email',
         'idform' => 'branding1',
         'idparagraph' => 'pbranding1',
@@ -1221,7 +1221,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_img . 'girl-icon.svg',
         'title' => '¿Cómo te ayudamos?',
-        'idwebsite' => 'menu4Website',
+        'idwebsite' => 'ux_uiWebsite',
         'idemail' => 'branding2email',
         'idform' => 'branding2',
         'idparagraph' => 'pbranding2',

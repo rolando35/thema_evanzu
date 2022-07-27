@@ -518,7 +518,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
                 'title' => 'Define tu presupuesto',
-                'idwebsite' => 'homeWebsite',
+                'idwebsite' => 'publicidad_digitalWebsite',
                 'idemail' => 'marketing1email',
                 'idform' => 'marketing1',
                 'idparagraph' => 'pmarketing1',
@@ -1142,7 +1142,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   [
                       'image' => $directory_imgs . 'form-quote-request.svg',
                       'title' => 'Crece exponencialmente',
-                      'idwebsite' => 'menu3Website',
+                      'idwebsite' => 'growth_hackingWebsite',
                       'idemail' => 'marketing4email',
                       'idform' => 'marketing4',
                       'idparagraph' => 'pmarketing4',
@@ -1365,7 +1365,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
             <?php get_template_part('components/form-quote-request2', 'full', [
                 'image' => $directory_imgs . 'form-quote-request.svg',
                 'title' => 'Tenemos más por contarte',
-                'idwebsite' => 'menu4Website',
+                'idwebsite' => 'marketing_contenidosWebsite',
                 'idemail' => 'marketing5email',
                 'idform' => 'marketing5',
                 'idparagraph' => 'pmarketing5',

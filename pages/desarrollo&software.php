@@ -416,7 +416,7 @@ $path_software =
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => '¡Empecemos ahora!',
-				'idwebsite' => 'homeWebsite',
+				'idwebsite' => 'tiendas_virtualesWebsite',
         'idemail' => 'softWare1email',
         'idform' => 'softWare1',
         'idparagraph' => 'psoftWare1',
@@ -580,7 +580,7 @@ $path_software =
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Estamos listos. ¡Contáctanos!',
-				'idwebsite' => 'eventsWebsite',
+				'idwebsite' => 'paginas_webWebsite',
         'idemail' => 'softWare2email',
         'idform' => 'softWare2',
         'idparagraph' => 'psoftWare2',
@@ -770,7 +770,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Define tu presupuesto',
-				'idwebsite' => 'relationsWebsite',
+				'idwebsite' => 'app_movilesWebsite',
         'idemail' => 'softWare3email',
         'idform' => 'softWare3',
         'idparagraph' => 'psoftWare3',
@@ -944,7 +944,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => '¿Un proyecto en mente?',
-				'idwebsite' => 'salesWebsite',
+				'idwebsite' => 'software_medidaWebsite',
         'idemail' => 'softWare4email',
         'idform' => 'softWare4',
         'idparagraph' => 'psoftWare4',
@@ -1081,7 +1081,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $path_software . 'form-quote-request.svg',
         'title' => 'Tenemos más por contarte',
-				'idwebsite' => 'hostessWebsite',
+				'idwebsite' => 'ux_uiWebsite',
         'idemail' => 'softWare5email',
         'idform' => 'softWare5',
         'idparagraph' => 'psoftWare5',

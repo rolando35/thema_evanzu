@@ -502,7 +502,7 @@ h5 {
 				<?php get_template_part('components/form-quote-request2', 'full', [
         'image' => $directory_imgs . 'form-quote-request.svg',
         'title' => '¡Empecemos ahora!',
-        'idwebsite' => 'homeWebsite',
+        'idwebsite' => 'spots_videosWebsite',
         'idemail' => 'form1email',
         'idform' => 'chalk1',
         'idparagraph' => 'p1',
@@ -718,7 +718,7 @@ h5 {
                             'image' =>
                                 $directory_imgs . 'form-quote-request.svg',
                             'title' => '¿Estás listo?',
-                            'idwebsite' => 'menu1Website',
+                            'idwebsite' => 'animacion_2dWebsite',
                             'idemail' => 'form2email',
                             'idform' => 'chalk2',
                             'idparagraph' => 'p2',
@@ -890,7 +890,7 @@ h5 {
                             'image' =>
                                 $directory_imgs . 'form-quote-request.svg',
                             'title' => 'Tenemos más por contarte, escríbenos',
-                            'idwebsite' => 'menu2Website',
+                            'idwebsite' => 'fotografia_profesionalWebsite',
                             'idemail' => 'form3email',
                             'idform' => 'chalk3',
                             'idparagraph' => 'p3',
