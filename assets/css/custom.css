@@ -1649,3 +1649,8 @@ body {
   text-align: unset;
   background-color: #fff;
 }
+
+.div-spacer {
+  width: 3rem;
+  height: 3rem;
+}
