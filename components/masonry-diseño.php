@@ -98,7 +98,7 @@
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ILUSTRACIÓN DIGITAL</h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Evanzu</p>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>BBVA Continental</p>
           </div>
           <!-- Texts hover -->
             <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(

@@ -786,14 +786,14 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 	          </div>
 	        </div>
 					<div class="container d-flex flex-wrap justify-content-around align-items-center">
-						<ul class="col-12 col-md-6 col-lg-4 hurme-bold-4 ">
+						<ul class="col-12 col-md-6 col-lg-4 hurme-bold-4 " style="line-height: 2;">
 							<li>Seguimiento de clientes/proveedores</li>
 							<li>Gestión de stock</li>
 							<li>Geolocalización</li>
 							<li>Brindar información</li>
 						</ul>
 						
-						<ul class="col-12 col-md-6 col-lg-4 hurme-bold-4">
+						<ul class="col-12 col-md-6 col-lg-4 hurme-bold-4" style="line-height: 2;">
 							<li>Ventas y promociones</li>
 							<li>Servicio de delivery</li>
 							<li>Almacenamiento y tratamiento de información y otros</li>

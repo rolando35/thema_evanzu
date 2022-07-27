@@ -213,7 +213,7 @@ function dcms_enviar_contenido()
 	$direccion = $_POST['direccion'];	
 	$mensaje = $_POST['mensaje'];	
     sleep(1);
-	echo "<span style='color:white; font-size:2rem;'> Hola: ".$name." en breve nos comunicaremos, gracias. <span> ";
+	echo "<span style='color:white; font-size:1.5rem;'> Hola: ".$name." en breve nos comunicaremos, gracias. </span> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
@@ -246,8 +246,8 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
-if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado <span> ";
-else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+if( $correo ) echo "<span class='text-red' style='font-size:2rem;'>  correo enviado <span> ";
+// else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 }
 
 function dcms_enviar_postulacion()
@@ -258,7 +258,7 @@ function dcms_enviar_postulacion()
 	$file = $_POST['file'];	
 	$message = $_POST['message'];
   sleep(1);
-	echo "<span style='color:white; font-size:2rem;'> Hola: ".$fullname." en breve nos comunicaremos, gracias. <span> ";
+	echo "<span style='color:white; font-size:1.5rem;'> Hola: ".$fullname." en breve nos comunicaremos, gracias. </span> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
@@ -289,8 +289,8 @@ function dcms_enviar_postulacion()
 	// More headers
 	$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
 	$correo = mail($to,$subject,$message,$headers);
-	if( $correo ) echo "<span style='color:white; font-size:2rem;'>  correo enviado <span> ";
-	else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+	if( $correo ) echo "<span style='color: transparent; font-size:2rem;'>  correo enviado <span> ";
+	// else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 }
 
 function dcms_enviar_cotization()
@@ -298,7 +298,7 @@ function dcms_enviar_cotization()
 	$website = $_POST['website'];
 	$email = $_POST['email'];	
   sleep(1);
-	echo "<span style='color:white; font-size:1.5rem; margin-top:12rem'> En breve nos comunicaremos contigo. ¡Gracias! <span> ";
+	echo "<span style='color:white; font-size:1.5rem; margin-top:12rem'> En breve nos comunicaremos contigo. ¡Gracias! </span> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
@@ -326,8 +326,8 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
-if( $correo ) echo "<span style='color:white; font-size:1.5rem;'>  correo enviado <span> ";
-else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+if( $correo ) echo "<span style='color: transparent; font-size:1.5rem;'>  correo enviado <span> ";
+// else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 }
 
 //////////// add action class menu/////

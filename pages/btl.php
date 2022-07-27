@@ -354,9 +354,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 						'title'=> 'Define tu presupuesto',
 						'idContact'=> 'homeContact',
 						'idwebsite' => 'homeWebsite',
-                		'idemail' => 'emailHome',
-                		'idform' => 'formHome',
-                		'idparagraph' => 'pHome',
+        		'idemail' => 'emailHome',
+        		'idform' => 'formHome',
+        		'idparagraph' => 'pHome',
 						'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
 						'imgClass' => 'image-contact-margin'
 					));  	 
@@ -674,9 +674,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 						'idContact'=> 'eventsContact',
 						'title'=> '¡Empecemos ahora!',
 						'idwebsite' => 'eventsWebsite',
-                		'idemail' => 'emailEvent',
-                		'idform' => 'formEvent',
-                		'idparagraph' => 'pEvent',
+        		'idemail' => 'emailEvent',
+        		'idform' => 'formEvent',
+        		'idparagraph' => 'pEvent',
 						'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
 						'imgClass' => 'image-contact-margin'
 					));  	 
@@ -905,12 +905,12 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
-						'idContact'=> 'relationsContact',
+						'idContact'=> 'relaciones_publicasContact',
 						'title'=> 'Te escuchamos',
-						'idwebsite' => 'relationsWebsite',
-                		'idemail' => 'emailRelations',
-                		'idform' => 'formRelations',
-                		'idparagraph' => 'pRelations',
+						'idwebsite' => 'relaciones_publicasWebsite',
+        		'idemail' => 'emailRelations',
+        		'idform' => 'formRelations',
+        		'idparagraph' => 'pRelations',
 						'titleClass' =>'title-contact-fontlg title-contact-w36 text-center',
 						'imgClass' => 'image-contact-margin'
 					));  	 
@@ -1098,9 +1098,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					get_template_part('components/btl/contact','full', 
 					array (
 						'path_img' => $path_img,
-						'idContact'=> 'salesContact',
+						'idContact'=> 'fuerza_ventasContact',
 						'title'=> '¡Estamos listos! Contáctanos',
-						'idwebsite' => 'salesWebsite',
+						'idwebsite' => 'fuerza_ventasWebsite',
                 		'idemail' => 'emailSales',
                 		'idform' => 'formSales',
                 		'idparagraph' => 'pSales',

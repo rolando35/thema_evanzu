@@ -87,6 +87,14 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     margin-bottom: -9px;
 }
 
+.margin-neg {
+  margin-bottom: -9rem;
+}
+
+.margin-circle{
+  margin-bottom: -6rem;
+}
+
 
 @media only screen and (max-width: 1200px) {
   .text-paragraph {
@@ -114,6 +122,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
   font-size: 1.7rem;
   line-height: 4rem;
 	}
+  .margin-circle{
+  margin-bottom: 0 !important;
+}
 }
 
   @media only screen and (max-width: 669px) {
@@ -126,6 +137,11 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 	.carousel-item > img {
 		height: 25rem !important;
 	}
+}
+  @media only screen and (max-width: 980px) {
+  .margin-neg {
+    margin-bottom: 0 !important;
+  }
 }
 </style>
 
@@ -709,7 +725,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             'full',
             [
                 'image' => $directory_imgs . 'form-quote-request.svg',
-                'title' => '¡Estás listo!',
+                'title' => '¿Estás listo?',
                 'idwebsite' => 'redes_socialesWebsite',
                 'idemail' => 'marketing2email',
                 'idform' => 'marketing2',
@@ -774,7 +790,6 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                           ¿Qué lograrás?
                         </div>
                         <div class="text-light-gray p-1 pb-2">
-                             ¿Qué lograrás?
                             Aumentar el tráfico de tu página web, eso significa 
                            <span class="hurme-bold-4">más visitas y más ventas.</span> <br> <br>
                             <ul class="hurme-bold-4 text-lg-right list-unstyled text-black">
@@ -926,9 +941,27 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             
         </div>
         <!-----------------------Service----------------------------->
-         <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img  title="SEO para e-commerce" alt="Evanzu especialistas en posicionamiento SEO" src="<?php echo $directory_imgs; ?>Publicidad digital.png">
-              </div>
+         <div
+          class="position-relative d-flex justify-content-center margin-neg">
+           <img
+            title="SEO para e-commerce"
+            class="d-none d-lg-block"
+            style="margin-top: 5rem;"
+            alt="Evanzu especialistas en posicionamiento SEO"
+            src="<?php echo $directory_imgs; ?>publicidad.png">
+          </div>
+           <!-----------------------Circle Right----------------------------->
+           <div class='w-100 text-right margin-circle'>
+                <?php
+                $parameters = ['color' => '#FBC000', 'position' => 'right'];
+                get_template_part(
+                    'components/border-circle',
+                    'full',
+                    $parameters
+                );
+                ?>
+                </div>
+                <!-----------------------Circle Right----------------------------->
         <!-----------------------Contanct----------------------------->
               <?php get_template_part(
                   'components/form-quote-request2',
@@ -1178,7 +1211,6 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
                           ¿Qué lograrás?
                         </div>
                         <div class="text-light-gray p-1 pb-2">
-                             ¿Qué lograrás?
                                Incrementar el <span class="hurme-bold-4"> tráfico y <br>
                               los resultados </span> de tu negocio.
                         </div>
