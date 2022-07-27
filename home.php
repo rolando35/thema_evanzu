@@ -634,7 +634,7 @@ Template Name: Home
                         <div class="d-flex gap-row">
 
                             <div class="">
-                                <a  href="https://indriver.com/es/city">
+                                <a  href="https://www.entel.pe/">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>entel.svg"
                                     class="img-fluid mx-auto d-block"
@@ -706,7 +706,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a  href="https://mibim.pe/">
+                                <a  href="https://www.defensoria.gob.pe/">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>defensoria.svg"
                                     class="img-fluid mx-auto d-block"
@@ -734,7 +734,7 @@ Template Name: Home
                             </div>
 
                             <div>
-                                <a href="https://www.cruzdelsur.com.pe/">
+                                <a href="https://www.sath.gob.pe/">
                                 <img
                                     src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>administracion.svg"
                                     class="img-fluid mx-auto d-block"
@@ -759,7 +759,7 @@ Template Name: Home
                             <div class="d-flex gap-row">
 
                                 <div>
-                                    <a  href="https://www.munlima.gob.pe/">
+                                    <a  href="https://axessnet.com/conectividad-satelital-internet-satelital-backhaul-celular-telefonia-satelital/">
                                     <img src="<?php echo get_template_directory_uri() .
                                         '/assets/images/home/'; ?>axess.svg" class="img-fluid mx-auto d-block" alt="Imagen de axess network">
                                     </a>
@@ -773,7 +773,7 @@ Template Name: Home
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.paraiso-peru.com/"> 
+                                    <a  href="https://www.magnesol.pe/"> 
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>magne.svg"
                                         class="img-fluid mx-auto d-block"
@@ -785,7 +785,7 @@ Template Name: Home
                             <div class="d-flex gap-row">
 
                                 <div>
-                                    <a href="https://www.cruzdelsur.com.pe/">
+                                    <a href="https://www.bat.com/">
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>british.svg"
                                         class="img-fluid mx-auto d-block"
@@ -794,7 +794,7 @@ Template Name: Home
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.munlima.gob.pe/">
+                                    <a  href="https://www.gob.pe/servir">
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>servir.svg"
                                         class="img-fluid mx-auto d-block"
@@ -803,7 +803,7 @@ Template Name: Home
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.munlima.gob.pe/">
+                                    <a  href="https://www.adecco.com.pe/">
                                     <img src="<?php echo get_template_directory_uri() .
                                         '/assets/images/home/'; ?>adeco.svg" class="img-fluid mx-auto d-block" alt="Imagen de Adecco">
                                     </a>
@@ -819,14 +819,14 @@ Template Name: Home
                             <div class="d-flex gap-row">
 
                                 <div>
-                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/">
+                                    <a  href="https://www.facebook.com/arribaeltelonperu/">
                                     <img src="<?php echo get_template_directory_uri() .
-                                        '/assets/images/home/'; ?>teleton.svg" class="img-fluid mx-auto d-block" alt="Imagen de la teleton.">
+                                        '/assets/images/home/'; ?>teleton.svg" class="img-fluid mx-auto d-block" alt="Imagen de arribaeltelonperu.">
                                     </a>
                                 </div>
 
                                 <div>
-                                    <a  href="https://www.mivivienda.com.pe/PortalWEB/">
+                                    <a  href="https://www.casinoatlanticcity.com/">
                                     <img
                                         src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>aceo.svg"
                                         class="img-fluid mx-auto d-block"
@@ -835,9 +835,9 @@ Template Name: Home
                                 </div>
 
                                 <div>
-                                    <a href="https://www.cruzdelsur.com.pe/">
+                                    <a href="https://www.holascharff.com/">
                                     <img
-                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>market_nexus.svg"
+                                        src="<?php echo get_template_directory_uri() .'/assets/images/home/'; ?>scharff.svg"
                                         class="img-fluid mx-auto d-block"
                                         alt="Imagen de Market nexus.">
                                     </a>
