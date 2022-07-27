@@ -207,6 +207,7 @@ Template Name: Home
                         </svg>
                         <div id="circle-background">
                             <img
+                                class="img-fluid"
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage_agencia_evanzu.png"
                                 alt="Presentación de la agencia de marketing y publicidad Evanzu"
                                 title="Agencia Marketing y publicidad Evanzu"
