@@ -1101,9 +1101,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 						'idContact'=> 'fuerza_ventasContact',
 						'title'=> '¡Estamos listos! Contáctanos',
 						'idwebsite' => 'fuerza_ventasWebsite',
-                		'idemail' => 'emailSales',
-                		'idform' => 'formSales',
-                		'idparagraph' => 'pSales',
+        		'idemail' => 'emailSales',
+        		'idform' => 'formSales',
+        		'idparagraph' => 'pSales',
 						'titleClass' =>'title-contact-fontmd title-contact-w36 text-center',
 						'imgClass' => 'image-contact-margin'
 					));  	 
