@@ -198,7 +198,7 @@ label[for="file"] {
                 
                 <input type="text"
                   class="message form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
-                  id="message" aria-describedby="emailHelp" placeholder="Dejenos tu mensaje" name="message">
+                  id="message" aria-describedby="emailHelp" placeholder="Déjanos tu mensaje" name="message">
                 <button type="submit" class="submit bg-white py-2 px-5 border-0 my-4  font-weight-bold font-send"
                   style="color: #ED1164; border-radius: 2.2rem;">Enviar mensaje</button>
               </form>
