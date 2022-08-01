@@ -95,17 +95,6 @@ Template Name: Home
     }
 
 
-    .btn-open-modal{
-        line-height: 14px;
-        font-size: 20px;
-    }
-
-    .btn-open-i {
-        font-size: 12px;
-        font-weight: 300;
-        margin-left: 10px;
-    }
-
     .size-25 {
         font-size: 25px;
     }
@@ -155,7 +144,7 @@ Template Name: Home
                 </svg> 
 
                 <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
-                    <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
+                    <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i> <br>
                     <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
                 </div>
             </div>

@@ -120,7 +120,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
                     </svg>
                     <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
-                        <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
+                        <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i> <br>
                         <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
                     </div>
                 </div>
