@@ -141,7 +141,7 @@
       <div class="video-responsive hover-div-invert">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
-      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">ACTIVACIÓN - Feria Nexo Inmobiliario</p>
+      <p class="small text-red fs-12 font-weight-bold hurme-simple m-0 text-uppercase">ACTIVACIÓN - Feria Nexo Inmobiliario</p>
       <p class="text-light font-weight-bold hurme-simple text-line-width" >BBVA</p>
     </div>
     <!-- Texts hover -->

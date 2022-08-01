@@ -126,7 +126,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 								actuales con campañas interactivas.
 							</div>
 							<div class="mt-3 text-left">
-								<button class="btn-btl" onclick="ButtonRedirectForm();" id="btn-main">
+								<button
+								class="btn-btl"
+								id="btn-main"
+                data-toggle="modal" 
+                data-target="#myModalRight" 
+                data-dismiss="modal" 
+                data-backdrop="false">
 								Quieres resultados.
 								<span class="hurme-regular-4"
 									>Escríbenos</span

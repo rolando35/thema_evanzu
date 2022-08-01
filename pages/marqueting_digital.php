@@ -206,7 +206,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   </div>
                     <div class="mt-3 text-left text-white">
                       Quieres resultados. 
-                      <button onclick="ButtonRedirectForm();" class="btn-btl">
+                      <button
+                      class="btn-btl"
+                      id="btn-main"
+                      data-toggle="modal" 
+                      data-target="#myModalRight" 
+                      data-dismiss="modal" 
+                      data-backdrop="false">
                         <span >¡Desafíanos con tu proyecto!</span>
                       </button>
                     </div>
@@ -230,7 +236,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   </div>
                     <div class="mt-3 text-left text-white">
                       Quieres resultados. 
-                      <button onclick="ButtonRedirectForm();" class="btn-btl">
+                      <button
+                      class="btn-btl"
+                      id="btn-main"
+                      data-toggle="modal" 
+                      data-target="#myModalRight" 
+                      data-dismiss="modal" 
+                      data-backdrop="false">
                         <span >¡Desafíanos con tu proyecto!</span>
                       </button>
                     </div>

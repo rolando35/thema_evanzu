@@ -249,7 +249,13 @@ $path_software =
               Es momento de ponerte en modo digital. <br> Ofrecemos la combinación perfecta de diseño, usabilidad y técnología.
 						</div>
               <div class="mt-3 text-left">
-                <button class="btn-btl" onclick="ButtonRedirectForm();" id="btn-main">
+                <button
+									class="btn-btl"
+									id="btn-main"
+                  data-toggle="modal" 
+                  data-target="#myModalRight" 
+                  data-dismiss="modal" 
+                  data-backdrop="false">
                   <span>¡Desafíanos con tu proyecto!</span>
                 </button>
               </div>

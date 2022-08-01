@@ -188,7 +188,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             <span class="text-subtitle-btl text-red"
               >Sabes que tu marca lo necesita.
             </span>
-            <button class="btn-btl" onclick="ButtonRedirectForm();" id="btn-main">
+            <button 
+            class="btn-btl"
+            id="btn-main"
+            data-toggle="modal" 
+            data-target="#myModalRight" 
+            data-dismiss="modal" 
+            data-backdrop="false">
               <span style="font-weight: 400">Escríbenos</span>
             </button>
           </div>
@@ -1049,7 +1055,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         					<img style="height: 17rem;" src="<?php echo $path_img; ?>briefing.png" alt="Genera expectativa" />
         					<div class="note-btl top-note-btl text-white card-n1">
         						<strong>
-                      <span class="text-red mt-2">Briefing de requerimientos</span>
+                      <span class="text-red mt-2 hurme-bold-4">Briefing de requerimientos</span>
                       Recabamos los datos de tu empresa, del proyecto y los objetivos. 
                     </strong>
         					</div>
@@ -1058,7 +1064,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         					<img style="height: 17rem;" src="<?php echo $path_img; ?>concepto.png" alt="Informa a tus clientes" />
         					<div class="note-btl top-note-btl text-gray card-n1">
         						<strong>
-                      <span class="text-light-gray mt-2">Conceptualización y desarrollo creativo</span>
+                      <span class="text-light-gray mt-2 hurme-bold-4">Conceptualización y desarrollo creativo</span>
                       Creamos ideas originales y efectivas para adaptarlas a tu marca y sus necesidades.
                     </strong>
         					</div>							
@@ -1067,7 +1073,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         					<img style="height: 17rem;" src="<?php echo $path_img; ?>diseño.png" alt="Conecta y logra" />
         					<div class="note-btl top-note-btl text-white card-n1">
         						<strong>
-                    <span class="text-red mt-2">Diseño de artes gráficas</span>
+                    <span class="text-red mt-2 hurme-bold-4">Diseño de artes gráficas</span>
                       Plasmamos nuestra experiencia y amor por el diseño en cada arte.
                     </strong>
         					</div>							
