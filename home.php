@@ -1132,10 +1132,14 @@ Template Name: Home
             <i class="text-white font-20" >Es momento de empezar</i>
             <button 
                 style="max-width: 20rem;" 
-                onclick="ButtonRedirectForm();" 
                 id="btn-main" 
-                type="button" 
-                class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-50 hurme-bold-4 font-23 mt-2">
+                class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-50 hurme-bold-4 font-23 mt-2"
+                type="button"
+                data-toggle="modal" 
+                data-target="#myModalRight" 
+                data-dismiss="modal" 
+                data-backdrop="false"
+                >
                 ¡Escríbenos!
             </button>
         </div>

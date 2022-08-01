@@ -204,41 +204,49 @@ $path_img = get_template_directory_uri() . '/assets/images/BMatic/';
 <!-------------------- Clients -------------------->
 <section class="pb-4 pt-5">
 	<div class="container">
-		<div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
-			<a class="p-1" href="bbva"> 
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png" 
-				class="img-fluid"
+	<div
+			class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+			<a class="p-1" href="bbva">
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BBVA-small.png"
+					class="img-fluid"
+				/>
+			</a>
+
+			<a class="p-1" href="petro-peru">
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>PetroPeru-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="artecola">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>Artecola-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="betfair">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>Betfair-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
-			<a class="p-1" href="bmatic">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png" 
-				class="img-fluid"
+			<!-- <a class="p-1" href="bmatic">
+				<img
+					src="<?php // echo get_template_directory_uri() .'/assets/images/clients/'; ?>BMatic-small.png"
+					class="img-fluid"
 				/>
-			</a>
+			</a> -->
 
 			<a class="p-1" href="aesa">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>AESA-small.png"
+					class="img-fluid"
 				/>
-			</a>						
+			</a>
 		</div>
 	</div>
 </section>

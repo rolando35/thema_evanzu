@@ -96,10 +96,26 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     margin-top: 1rem;
   }
 
+  .mb-n10 {
+    margin-bottom: -10rem;
+  }
+
+  .mt-6m {
+    margin-top: 0;
+  }
+
 @media only screen and (max-width: 992px) {
   .mlt-n1 {
     margin-left: 0 !important;
     margin-top: 0 !important;
+  }
+
+  .mt-6m{
+    margin-top: 6rem !important;
+  }
+
+  .mb-n10 {
+    margin-bottom: 0 !important;
   }
 }
 </style>
@@ -328,19 +344,34 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           <div class="container">
             <div class="d-flex flex-column align-items-center mb-n1-5">
               <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part(
-                    'components/branding/service-left',
-                    'full',
-                    [
-                        'image' => $directory_branding_imgs . 'manual_icon.svg',
-                        'text' => '
-                          Plasmamos tu <span class="hurme-bold-4"> ADN corporativo</span> en un documento guía para las diversas 
+
+              <div class="d-flex flex-column my-1 mt-lg-0 mb-lg-5">
+              	<div class="d-flex flex-column align-items-center flex-lg-row ">
+              		<div class="align-self-lg-end">
+              			<img class="image-service" src="<?php echo $directory_branding_imgs . 'manual_icon.svg'; ?>"
+              			/>
+              		</div>
+              		<div
+              			class="align-self-center text-center text-lg-left p-2 pl-lg-3 pb-lg-0 text-service mb-n10"
+              		>
+              			<div class="hurme-bold-4 text-gray-black">
+                      Manual de marca <br> <br>
+              			</div>
+              			<div class="service-braning-text-left">
+                      Plasmamos tu <span class="hurme-bold-4"> ADN corporativo</span> en un documento guía para las diversas 
                           formas de comunicación en función de tu negocio: Restaurantes, ONG’s, 
-                          Moda, Estudios Contables y Servicios.',
-                        'title' => 'Manual de marca',
-                        'line' => $directory_branding_imgs . 'line-red.svg',
-                    ]
-                ); ?>
+                          Moda, Estudios Contables y Servicios.
+              			</div>
+                      
+              		</div>
+              	</div>
+              	<div class="d-none d-lg-flex justify-content-end container-line-left-service"
+              	>
+              		<div class="line-left-service">
+              			<img src="<?php echo $directory_branding_imgs . 'line-red.svg'; ?>" class="img-fluid" />
+              		</div>
+              	</div>
+              </div>
                 <div class="d-none d-lg-block container-center-service">
                   <div class="element-center-service"></div>
                 </div>
@@ -352,27 +383,40 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                         'text' => 'Te ofrecemos la mejor solución para identificar tu marca, tener identidad y presencia en el mercado.
                     Diseñamos <span class="hurme-bold-4">logotipos originales y con personalidad propia</span>.
                 ',
-                        'title' => 'Logos',
+                        'title' => '<span class="hurme-bold-4">Logos<br> <br></span>',
                         'line' =>
                             $directory_branding_imgs . 'line-purple-higth.svg',
                     ]
                 ); ?>
               </div>
 
-              <div class="d-flex flex-column flex-md-row">
-                <?php get_template_part(
-                    'components/branding/service-left',
-                    'full',
-                    [
-                        'image' => $directory_branding_imgs . 'notes_icon.svg',
-                        'text' => '
-                        Creamos <span class="hurme-bold-4">nombres y slogans</span> para empresas <span class="hurme-bold-4">que resuenan, enganchan y son fáciles de recordar.</span>
+              <div class="d-flex flex-column flex-md-row mt-6m">
+                <div class="d-flex flex-column my-1 mt-lg-0 mb-lg-5">
+                	<div class="d-flex flex-column align-items-center flex-lg-row ">
+                		<div class="align-self-lg-end">
+                			<img class="image-service" src="<?php echo $directory_branding_imgs . 'notes_icon.svg'; ?>"
+                			/>
+                		</div>
+                		<div
+                			class="align-self-center text-center text-lg-left p-2 pl-lg-3 pb-lg-0 text-service mb-n10"
+                		>
+                			<div class="hurme-bold-4 text-gray-black">
+                      Naming y slogans <br> <br>
+                			</div>
+                			<div class="service-braning-text-left">
+                      Creamos <span class="hurme-bold-4">nombres y slogans</span> para empresas <span class="hurme-bold-4">que resuenan, enganchan y son fáciles de recordar.</span>
                         Serán la principal publicidad de tu marca y haremos que sea efectiva.
-                        ',
-                        'title' => ' Naming y slogans',
-                        'line' => $directory_branding_imgs . 'line-red.svg',
-                    ]
-                ); ?>
+                			</div>
+                        
+                		</div>
+                	</div>
+                	<div class="d-none d-lg-flex justify-content-end container-line-left-service"
+                	>
+                		<div class="line-left-service">
+                			<img src="<?php echo $directory_branding_imgs . 'line-red.svg'; ?>" class="img-fluid" />
+                		</div>
+                	</div>
+                </div>
                 <div class="d-none d-lg-block container-center-service">
                   <div class="element-center-service"></div>
                 </div>
@@ -387,7 +431,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                     cautivante y posteable. Diseñamos y producimos empaques, bolsas, cajas, envases y otros..
                   ',
                         'tall' => 'height: 100px;',
-                        'title' => 'Packaging',
+                        'title' => '<span class="hurme-bold-4">Packaging<br> <br></span>',
                         'line' =>
                             $directory_branding_imgs . 'line-purple-higth.svg',
                     ]
@@ -479,7 +523,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                             <div  class="row mt-3">
                               <div class="col-md-11 col-lg-6 py-2">
                                 <div class="right-conten-description">
-                                    <div class="subtitle-marketing text-light-purple p-1">
+                                    <div class="subtitle-marketing text-light-purple p-1 text-left">
                                      Partiendo de un concepto, diseñamos para:
                                     </div>
                                      <div class="text-left">
@@ -521,7 +565,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
         <!-----------------------Service----------------------------->
         <div class="section-service">
-          <h2 class="big-title text-red text-center">El servicio incluye:</h2>
+          <h2 class="big-title text-red text-center">Materiales de publicidad</h2>
 
           <div class="text-center">
             <svg
@@ -533,7 +577,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
             >
               <path
                 d="M77.7269 3.12186H1.56093C0.699727 3.12186 0 2.42214 0 1.56093C0 0.699732 0.699727 0 1.56093 0H77.7302C78.5914 0 79.2912 0.699732 79.2912 1.56093C79.2878 2.42214 78.5881 3.12186 77.7269 3.12186Z"
-                fill="#ED1164"
+                fill="#FBC000"
               />
             </svg>
           </div>

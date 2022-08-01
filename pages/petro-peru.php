@@ -225,13 +225,12 @@ $path_img = get_template_directory_uri() . '/assets/images/petro-peru/';
 				/>
 			</a>
 
-			<a class="p-1" href="#">
+			<!-- <a class="p-1" href="#">
 				<img
-					src="<?php echo get_template_directory_uri() .
-         '/assets/images/clients/'; ?>PetroPeru-small.png"
+					src="<?php //echo get_template_directory_uri() .'/assets/images/clients/'; ?>PetroPeru-small.png"
 					class="img-fluid"
 				/>
-			</a>
+			</a> -->
 
 			<a class="p-1" href="artecola">
 				<img

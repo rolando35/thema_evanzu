@@ -34,8 +34,8 @@ $path_img = get_template_directory_uri() . '/assets/images/betfair/';
     <!--------------------- Button Modal ---------------------> 
 <section class="top-clients pb-3">
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6 text-center text-md-left">
+		<div class="text-center">
+			<!-- <div class="col-md-6 text-center text-md-left"> -->
 				<img
 					src="<?php echo $path_img?>title.svg"
 					class="img-fluid px-1 py-3"
@@ -43,12 +43,12 @@ $path_img = get_template_directory_uri() . '/assets/images/betfair/';
 				<h1 class="px-1 py-2 text-light-gray title-client text-uppercase">
 					Juegos de azar online
 				</h1>
-			</div>
-			<div class="col-md-6">
+			<!-- </div> -->
+			<!-- <div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
 					Una empresa de juegos de azar en línea que opera el mayor intercambio de apuestas en línea del mundo.<br>Realizamos toda la gestión y diseño de su presentación para la Conmebol en Lima - Perú.
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
@@ -102,41 +102,49 @@ $path_img = get_template_directory_uri() . '/assets/images/betfair/';
 <!-------------------- Clients -------------------->
 <section class="pb-4 pt-5">
 	<div class="container">
-		<div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
-			<a class="p-1" href="bbva"> 
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png" 
-				class="img-fluid"
+	<div
+			class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+			<a class="p-1" href="bbva">
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BBVA-small.png"
+					class="img-fluid"
+				/>
+			</a>
+
+			<a class="p-1" href="petro-peru">
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>PetroPeru-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="artecola">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>Artecola-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
-			<a class="p-1" href="betfair">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" 
-				class="img-fluid"
+			<!-- <a class="p-1" href="betfair">
+				<img
+					src="<?php // echo get_template_directory_uri() .'/assets/images/clients/'; ?>Betfair-small.png"
+					class="img-fluid"
 				/>
-			</a>
+			</a> -->
 
 			<a class="p-1" href="bmatic">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BMatic-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="aesa">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>AESA-small.png"
+					class="img-fluid"
 				/>
-			</a>						
+			</a>
 		</div>
 	</div>
 </section>
