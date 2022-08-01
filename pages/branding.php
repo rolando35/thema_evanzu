@@ -530,15 +530,15 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                               <div class="col-md-11 col-lg-6 py-2">
                                 <div class="right-conten-description">
                                     <div class="subtitle-marketing text-light-purple p-1 text-left">
-                                     Partiendo de un concepto, diseñamos para:
+                                      Partiendo de un concepto, diseñamos para:
                                     </div>
-                                     <div class="text-left">
+                                      <div class="text-left">
                                         <ul>
-                                           <li>Impresos</li>
-                                           <li>Digitales</li>
-                                           <li>Puntos de Venta /Outdoor</li>
+                                          <li>Impresos</li>
+                                          <li>Digitales</li>
+                                          <li>Puntos de Venta /Outdoor</li>
                                         </ul>
-                                     </div>
+                                      </div>
 
                                 </div>
                               </div>
