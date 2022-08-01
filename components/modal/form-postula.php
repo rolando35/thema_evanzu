@@ -19,6 +19,13 @@
     width: 100%;
   }
 
+  .wrap-file-pdf{
+    margin-right: 8rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
   .form-control::placeholder {
     color: white;
     opacity: 0.6;
@@ -65,6 +72,12 @@ label[for="file"] {
 .button-right {
   position: absolute;
   right: -6.5rem;
+}
+
+.file-icon-button {
+  background: rgba(251, 152, 0, 0.42);
+  border-radius: 2.2rem;
+  margin-top: -5px;
 }
 
 .button-close {
@@ -138,8 +151,8 @@ label[for="file"] {
         <div class=" w-100 h-100">
           <div class="px-5 d-block d-lg-flex w-100">
             <div class="col-12 col-lg-7 px-0 px-lg-5 " style="z-index: 2">
-              <h2 class="text-light font-title">Queremos conocer tu perfil</h2>
-              <h5 class="text-light font-weight-light fs-lg-12"><i>Déjanos tus datos y te contactarémos</i></h5>
+              <h2 class="text-light font-title hurme-bold-4">Queremos conocer tu perfil</h2>
+              <h5 class="text-light font-weight-light fs-lg-12"><i>Déjanos tus datos y te contactaremos</i></h5>
               <form id="postulation" action="" class="text-left mr-0 pr-0 mr-lg-5 pr-lg-5" method="post">
                 <input type="text"
                   class="fullname form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
@@ -161,13 +174,15 @@ label[for="file"] {
                 <div class="mt-3_5">
                     
                     <div class=" position-absolute d-flex w-100 justify-content-between mt-2" style="padding: 0 4.5rem 0 0.5rem">
-                      <h8  class="text-light font-weight-light" style="opacity: 0.6; z-index: 1;">Adjuntar CV</h8>
-                      <div class="py-0 px-3 d-flex" style="background: rgba(251, 152, 0, 0.42); border-radius: 2.2rem; margin-right: 8rem;">
+                      <div class="wrap-file-pdf">
+                        <div class="py-0 px-3 d-flex file-icon-button">
                           <p class=" text-light  font-weight-light my-0"
-                          style="opacity: 0.6; z-index: 1;">
-                              Archivo.pdf
+                          style="opacity: 0.6; z-index: 1; padding: 5px 0; ">
+                              Adjuntar CV
                           </p>
                           <img class="my-0 ml-2" src="<?php echo get_template_directory_uri(); ?>/assets/images/clip.svg">
+                        </div>
+                        <span id="file-upload"></span>
                       </div>
                     </div>
                     <label 
@@ -193,7 +208,9 @@ label[for="file"] {
                     accept=".pdf"
                     name="file"
                     class="file"
+                    onchange="onloadFile(event.target.files)"
                     >
+                    
                 </div>
                 
                 <input type="text"
@@ -243,6 +260,15 @@ label[for="file"] {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 <script>
+
+  function onloadFile (files) {
+    if (files && files[0]) {
+      const nameFile = files[0];
+      const space = document.getElementById('file-upload');
+      space.textContent = files[0].name;
+    }
+  }
+
 
     (function ($) {
 

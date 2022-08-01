@@ -7,12 +7,12 @@
 		<div
 			class="align-self-center text-center text-lg-left p-2 pl-lg-3 pb-lg-0 text-service"
 		>
-		     <div class="hurme-semi-bold-4 text-gray-black">
-			     <?php echo $args["title"]; ?>
-			 </div>
-		 <div class="service-braning-text-left">
-			 <?php echo $args["text"]; ?>
-		 </div>
+			<div class="hurme-semi-bold-4 text-gray-black">
+				<?php echo $args["title"]; ?>
+			</div>
+			<div class="service-braning-text-left">
+				<?php echo $args["text"]; ?>
+			</div>
         
 		</div>
 	</div>

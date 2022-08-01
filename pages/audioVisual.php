@@ -59,6 +59,10 @@ ul{
   background-color: #78909c !important;
 }
 
+.font-button {
+  font-size: 20px;
+}
+
 .navbar:not(.top-nav-collapse) {
   background: transparent !important;
 }
@@ -130,6 +134,9 @@ ul{
   font-size: 1.7rem;
   line-height: 4rem;
 	}
+  .font-button {
+    font-size: 16px !important;
+  }
 }
 @media only screen and (max-width: 669px) {
 	.flex-colum {
@@ -239,31 +246,29 @@ h5 {
 </style>
 
     <!--------------------- Button Modal --------------------->
-        <div   class="position-fixed button-form-in-pages"> 
-                        <div
-                        type="button"
-                        class="position-absolute ndx" 
-                        class="btn btn-primary" 
-                        data-toggle="modal" 
-                        data-target="#myModalRight" 
-                        data-dismiss="modal" 
-                        data-backdrop="false"
-                       
-                        >
-                    <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
-                    </svg>
-                    <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
-                        <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>  <br>
-                        <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
-                    </div>
-                </div>
-                <div class="mt-5c" style="z-index: 1;">
-                    <?php get_template_part(
-                        'components/modal/modal',
-                        'full'
-                    ); ?>
-                </div>
+        <div class="position-fixed button-form-in-pages"> 
+          <div
+            type="button"
+            class="position-absolute ndx" 
+            class="btn btn-primary" 
+            data-toggle="modal" 
+            data-target="#myModalRight" 
+            data-dismiss="modal" 
+            data-backdrop="false">
+              <svg width="72" height="509" viewBox="0 0 72 509" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
+              </svg>
+              <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
+                  <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i><br>
+                  <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
+              </div>
+          </div>
+          <div class="mt-5c" style="z-index: 1;">
+              <?php get_template_part(
+                  'components/modal/modal',
+                  'full'
+              ); ?>
+          </div>
         </div>    
     <!--------------------- Button Modal ---------------------> 
 <section>
@@ -300,8 +305,14 @@ h5 {
         </div>
         <p style='font-weight: 300;' class="text-white">con videos ideados para comunicar y emocionar.</p>
         <div class="d-inline-block w-100">
-          <button style="max-width: 20rem;" onclick="ButtonRedirectForm();" id="btn-main" type="button" class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90">
-            <strong>Desafíanos</strong> con tu proyecto
+          <button
+            style="max-width: 20rem;"
+            onclick="ButtonRedirectForm();"
+            id="btn-main"
+            type="button"
+            class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90 font-button"
+            >
+            <strong class="hurme-bold-4 ">Desafíanos</strong> con tu proyecto
           </button>
         </div>
         

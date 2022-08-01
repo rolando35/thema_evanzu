@@ -45,9 +45,9 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 					src="<?php echo $path_img?>title.svg"
 					class="img-fluid px-1 py-3"
 				/>
-				<!-- <h1 class="px-1 py-2 text-light-gray title-client text-uppercase">
-					financiera
-				</h1> -->
+				<h1 class="px-1 py-2 text-light-gray title-client text-uppercase">
+					Entidad Financiera del Perú
+				</h1>
 			</div>
 			<!-- <div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
@@ -223,17 +223,15 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 <section class="pb-4 pt-5">
 	<div class="container">
 		<div
-			class="d-flex flex-wrap justify-content-center justify-content-xl-between"
-		>
-			<a class="p-1" href="bbva">
+			class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+			<!-- <a class="p-1" href="bbva">
 				<img
-					src="<?php echo get_template_directory_uri() .
-         '/assets/images/clients/'; ?>BBVA-small.png"
+					src="<?php // echo get_template_directory_uri() .'/assets/images/clients/'; ?>BBVA-small.png"
 					class="img-fluid"
 				/>
-			</a>
+			</a> -->
 
-			<a class="p-1" href="#">
+			<a class="p-1" href="petro-peru">
 				<img
 					src="<?php echo get_template_directory_uri() .
          '/assets/images/clients/'; ?>PetroPeru-small.png"

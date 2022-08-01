@@ -35,8 +35,8 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 
 <section class="top-clients pb-3">
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6 text-center text-md-left">
+		<div class="text-center">
+			<!-- <div class="col-md-6 text-center "> -->
 				<img
 					src="<?php echo $path_img?>title.svg"
 					class="img-fluid px-1 py-3"
@@ -44,12 +44,12 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 				<h1 class="px-1 py-2 text-light-gray title-client text-uppercase">
 					Minería e Infraestructura
 				</h1>
-			</div>
-			<div class="col-md-6">
+			<!-- </div> -->
+			<!-- <div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
 				Aesa, una empresa especializada en el servicio de exploración, desarrollo, explotación de yacimiento mineross y gestión de operaciones mineras, pertenece al grupo Breca.
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
@@ -255,43 +255,49 @@ $path_img = get_template_directory_uri() . '/assets/images/aesa/';
 <!-------------------- Clients -------------------->
 <section class="pb-4 pt-5">
 	<div class="container">
-		<div
-			class="d-flex flex-wrap justify-content-center justify-content-xl-between"
-		>
+	<div
+			class="d-flex flex-wrap justify-content-center justify-content-xl-between">
 			<a class="p-1" href="bbva">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png"
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BBVA-small.png"
+					class="img-fluid"
+				/>
+			</a>
+
+			<a class="p-1" href="petro-peru">
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>PetroPeru-small.png"
 					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="artecola">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png"
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>Artecola-small.png"
 					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="betfair">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png"
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>Betfair-small.png"
 					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="bmatic">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png"
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BMatic-small.png"
 					class="img-fluid"
 				/>
 			</a>
 
-			<a class="p-1" href="aesa">
+			<!-- <a class="p-1" href="aesa">
 				<img
-					src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png"
+					src="<?php // echo get_template_directory_uri() .'/assets/images/clients/'; ?>AESA-small.png"
 					class="img-fluid"
 				/>
-			</a>
+			</a> -->
 		</div>
 	</div>
 </section>
