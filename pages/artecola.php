@@ -23,7 +23,7 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
                     <path d="M71.6475 1.52588e-05V508.657C58.136 508.657 46.469 499.238 43.6095 486.032L6.39286 314.071C-2.13095 274.694 -2.13095 233.952 6.39286 194.574L43.6095 22.6138C46.4581 9.41877 58.136 1.52588e-05 71.6475 1.52588e-05Z" fill="#ED1164"/>
                     </svg>
                     <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
-                        <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i>
+                        <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i> <br>
                         <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
                     </div>
                 </div>
@@ -250,42 +250,51 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 <!-------------------- Clients -------------------->
 <section class="pb-4 pt-5">
 	<div class="container">
-		<div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
-			<a class="p-1" href="bbva"> 
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BBVA.png" 
-				class="img-fluid"
+	<div
+			class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+			<a class="p-1" href="bbva">
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BBVA-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
-			<a class="p-1" href="artecola">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Artecola.png" 
-				class="img-fluid"
+			<a class="p-1" href="petro-peru">
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>PetroPeru-small.png"
+					class="img-fluid"
 				/>
 			</a>
+
+			<!-- <a class="p-1" href="artecola">
+				<img
+					src="<?php // echo get_template_directory_uri() .'/assets/images/clients/'; ?>Artecola-small.png"
+					class="img-fluid"
+				/>
+			</a> -->
 
 			<a class="p-1" href="betfair">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>Betfair.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>Betfair-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="bmatic">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>BMatic.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BMatic-small.png"
+					class="img-fluid"
 				/>
 			</a>
 
 			<a class="p-1" href="aesa">
-				<img 
-				src="<?php echo get_template_directory_uri() . '/assets/images/clients/'?>AESA.png" 
-				class="img-fluid"
+				<img
+					src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>AESA-small.png"
+					class="img-fluid"
 				/>
-			</a>						
+			</a>
 		</div>
+	</div>
 	</div>
 </section>
 <!-------------------- Clients -------------------->
