@@ -95,7 +95,7 @@
 						</button>
 					</div>
 				</form>
-				<div id="<?php echo $args['idparagraph']; ?>" class="success_msg" style="display:none; font-size: 1rem">Message Sent Successfully</div>
+				<div id="<?php echo $args['idparagraph']; ?>" class="success_msg" style="display:none; margin-top:2%;font-size: 1rem;text-align:center;">Message Sent Successfully</div>
 				<div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
 			</div>
 		</div>
@@ -132,6 +132,8 @@
         submitHandler: function (e) {
           var website = $("#<?php echo $args['idwebsite']; ?>").val();
           var email =  $("#<?php echo $args['idemail']; ?>").val()
+		  var service = "#<?php echo $args['idwebsite']; ?>"
+		  var subService = "#<?php echo $args['idform']; ?>"
           
           $.ajax({
             url: '<?php echo admin_url('admin-ajax.php'); ?>',
@@ -139,7 +141,9 @@
             data: {
               action: "cotization",
               website,
-              email
+              email,
+			  service,
+			  subService
             },
             beforeSend: function () {
               $("#<?php echo $args['idparagraph']; ?>").show()

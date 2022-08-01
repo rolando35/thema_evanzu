@@ -296,9 +296,12 @@ function dcms_enviar_postulacion()
 function dcms_enviar_cotization()
 {
 	$website = $_POST['website'];
-	$email = $_POST['email'];	
+	$email = $_POST['email'];
+	$service = $_POST['service'];
+	$subservice = $_POST['subService'];
+	
   sleep(1);
-	echo "<span style='color:white; font-size:1.5rem; margin-top:12rem'> En breve nos comunicaremos contigo. ¡Gracias! </span> ";
+	echo "<div style='color:white; font-size:1.5rem;'> En breve nos comunicaremos contigo. ¡Gracias! </div> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
@@ -312,8 +315,15 @@ function dcms_enviar_cotization()
 		<p>Contenido del Email</p>
 		<table>
 		<tr>
-		<th>Sitio Web: ".$website."</th>
-		<th>Correo: ".$email."</th>
+		 <th>Sitio Web: ".$service."</th>
+		 <th> > </th>
+		 <th>Correo: ".$subservice."</th>
+		</tr>
+		<tr>
+		  <th>Sitio Web: ".$website."</th>
+		</tr>
+		<tr>
+		  <th>Correo: ".$email."</th>
 		</tr>
 		</table>
 		</body>
@@ -326,8 +336,8 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
-if( $correo ) echo "<span style='color: transparent; font-size:1.5rem;'>  correo enviado <span> ";
-// else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+if( $correo )echo"enviado";
+ else echo "<span style='color:red; font-size:2rem;'> Error correo no enviado <span> ";
 }
 
 //////////// add action class menu/////
