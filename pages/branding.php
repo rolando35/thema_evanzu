@@ -678,7 +678,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                    Banners para <br> publicidad digital</div> </div>	 	
                		<div class="mlt-n1">
                      <img  src="<?php echo $directory_branding_imgs . 'gif.svg'; ?>"/>
-                     <div class="text-center pt-1">
+                     <div class="text-center pt-3">
                       GIF
                     </div>
                   </div>

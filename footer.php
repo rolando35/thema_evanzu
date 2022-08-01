@@ -190,7 +190,8 @@
             </a>       
             <a  target="_blank" href="https://www.instagram.com/evanzuperu/">  <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg"></a> 
             <a  target="_blank" href="https://www.linkedin.com/company/evanzu/"> <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg"></a> 
-            <!-- <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg"> -->
+            <a  target="_blank" href="https://twitter.com/EvanzuPeru"> <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg"></a>
+            
             <a  target="_blank" href="https://www.tiktok.com/@evanzuperu">   <img  class="mx-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/tiktok.png"></a>
             
           </div>
