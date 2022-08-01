@@ -307,10 +307,13 @@ h5 {
         <div class="d-inline-block w-100">
           <button
             style="max-width: 20rem;"
-            onclick="ButtonRedirectForm();"
-            id="btn-main"
             type="button"
             class="btn bg-red rounded-pill text-white my-1 p-2 btn-sm w-90 font-button"
+            id="btn-main"
+            data-toggle="modal" 
+            data-target="#myModalRight" 
+            data-dismiss="modal" 
+            data-backdrop="false"
             >
             <strong class="hurme-bold-4 ">Desafíanos</strong> con tu proyecto
           </button>

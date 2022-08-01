@@ -288,9 +288,13 @@
                       <img class="social-net"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg">
                     </a>
-                    <a href="https://www.tiktok.com/@evanzuperu" target="_blank">
+                    <a href="https://twitter.com/EvanzuPeru" target="_blank">
                       <img class="social-net"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/tweet.svg">
+                    </a>
+                    <a href="https://www.tiktok.com/@evanzuperu" target="_blank">
+                      <img class="social-net"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/tiktok.svg">
                     </a>
                   </div>
                 </div>

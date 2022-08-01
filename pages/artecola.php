@@ -34,8 +34,8 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
     <!--------------------- Button Modal ---------------------> 
 <section class="top-clients pb-3">
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6 text-center text-md-left">
+		<div class="text-center">
+			<!-- <div class="col-md-6 text-center text-md-left"> -->
 				<img
 					src="<?php echo $path_img?>title.svg"
 					class="img-fluid px-1 py-3"
@@ -43,13 +43,13 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 				<h1 class="px-1 py-2 text-light-gray title-client text-uppercase">
 					Comercio de adhesivos
 				</h1>
-			</div>
-			<div class="col-md-6">
+			<!-- </div> -->
+			<!-- <div class="col-md-6">
 				<div class="p-2 text-light-gray text-main-client">
 					Mas de 70 años de historia en el Perú, con un amplio portafolio de
 					productos de 9 plantas productivos en 6 paises de américa latina.
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
@@ -62,8 +62,7 @@ $path_img = get_template_directory_uri() . '/assets/images/artecola/';
 
 			<p class="text-light-gray text-center p-1 m-0 text-secondary-client">
 				Realizamos el diseño web con la actualización de la nueva marca.<br /><span class="hurme-bold-4"
-					>Post - Rebranding</span
-				>
+					>Post - Rebranding</span>
 			</p>
 		</div>
 		<!---------------title--------------->

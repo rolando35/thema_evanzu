@@ -1,5 +1,4 @@
 const nav = document.getElementById("nav-iconos");
-
 if (nav) {
   nav.addEventListener("click", function (e) {
     if (e.target.tagName === "A") {
@@ -66,11 +65,15 @@ function ButtonRedirectForm() {
           : window.location.hash.substring(1);
       if (hash != "") {
         $(".circle-nav").removeClass("bg-red");
+        $(".line-nav").removeClass("bg-red");
+        $(".title-circle-nav").removeClass("title-circle-nav-active");
         var selector = hash
           ? "a[" + settings.selectorAttribute + '="' + hash + '"]'
           : settings.initialTab;
         $(selector, context).tab("show");
         $(".active .circle-nav").addClass("bg-red");
+        $(".active .line-nav").addClass("bg-red");
+        $(".active .title-circle-nav").addClass("title-circle-nav-active");
         setTimeout(backToTop, 1);
       }
     };
