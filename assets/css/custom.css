@@ -1160,7 +1160,6 @@ a.link-circle {
   height: 400px;
 }
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #lef-ultimate-box {
@@ -1606,6 +1605,13 @@ a.link-circle {
   .navbar-expand-lg .navbar-collapse {
     width: 135%;
   }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
