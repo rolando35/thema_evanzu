@@ -20,6 +20,10 @@ Template Name: Home
     .mt-5c{
         margin-top: 3.5rem;
     }
+
+    .top-toggle {
+        top: auto;
+    }
     .image-sup {
     margin-top: -8.5rem;
     cursor: pointer;
@@ -66,6 +70,11 @@ Template Name: Home
         padding: 0;
     }
 
+    .image-small{
+        width: 100%;
+        max-width: 100%;
+    }
+
     @media only screen and (max-width: 440px) {
         .image-sup {
         margin-top: -5rem;
@@ -73,12 +82,25 @@ Template Name: Home
         margin-left: 9rem;
         width: 8rem;
         }
+        .text-left-contain-first {
+            font-weight: 900 !important;
+            font-size: 45px !important;
+            line-height: 61px !important;
+         }
+         .top-toggle{
+             top: 3rem !important;
+         }
 
         .center-padding-lt {
             padding: 2rem 0 0 5rem !important;
         }
     }
     @media only screen and (max-width: 550px) {
+
+        .image-small{
+            width: 100% !important;
+            max-width: 60% !important;
+        }
         .mt-07 {
             margin-top: 7rem !important;
         }
@@ -712,16 +734,31 @@ Template Name: Home
                 Crece con nosotros
             </h2>
         </div>
-        <div class="row mx-5 px-5">
+        <div class="row mx-0 mx-lg-5 px-5">
             <div class="col-sm-6 p-0 p-lg-5 mt-5">
                 <div class="d-flex justify-content-center align-items-center"> 
                         <div id="description-team" class="text-white w-70">
                          Somos nativos digitales, sabemos cómo trabajar en un entorno digital. Nos divertimos creando estrategias de acuerdo a tus metas. </span>
                         </div>
+                    </div>
                 </div>
-            </div>
-           <div class="col-sm-6"> 
-                <div class="my-5">
+                <div class="col-sm-6">
+                    <div class="my-5 d-block d-md-none">
+                    <div id="description-team" class="text-white w-70">
+                        Únete a nuestro <strong class="hurme-bold-4 ">Equipo</strong> <br>
+                    </div>
+                    <button
+                    style="max-width: 20rem; font-size: 20px;"
+                    type="button"
+                    class="btn bg-yellow rounded-pill text-white my-1 p-2 btn-sm w-90 font-button"
+                    data-toggle="modal" 
+                    data-target="#myModalBottom" 
+                    data-dismiss="modal" 
+                    data-backdrop="false">
+                        Postula
+                    </button>
+                </div>
+                <div class="my-5 d-none d-md-block">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-pink.svg"
     					class="img-fluid px-1 py-3"
@@ -763,39 +800,36 @@ Template Name: Home
 
 
     	<div class="d-flex justify-content-center flex-wrap mb-5">
-						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note1.png" alt="Genera expectativa" />
-							<div class="note-btl top-note-sm hurme-regular-4 text-white">
-								Cuéntanos tus necesidades y lo que <span class="hurme-bold-4 text-red">quieres lograr.</span>
-							</div>
-						</div>
-						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note2.png" alt="Informa a tus clientes" />
-							<div class="note-btl top-note-sm hurme-regular-4 text-gray">
-								<span class="hurme-bold-4">Analizaremos tu caso</span> y la información del mercado.
-							</div>							
-						</div>
-						<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note3.png" alt="Conecta y logra" />
-							<div class="note-btl top-note-md hurme-regular-4 text-white">
-								Te presentaremos una propuesta con las <span class="hurme-bold-4 text-red">soluciones más creativas</span> para conseguir tu objetivo.
-							</div>							
-                        </div>
-                        
-                        	<div class="m-sm-1 m-md-2 position-relative">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note4.png" alt="Informa a tus clientes" />
-							<div class="note-btl top-note-sm hurme-regular-4 text-gray">
-								<span class="hurme-bold-4">Ejecutaremos el plan</span> con responsabilidad y profesionalismo.
-							</div>							
-						</div>
-
-
-
+            <div class="m-sm-1 m-md-2 position-relative">
+    			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note1.png" alt="Genera expectativa" />
+    			<div class="note-btl top-note-sm hurme-regular-4 text-white">
+    				Cuéntanos tus necesidades y lo que <span class="hurme-bold-4 text-red">quieres lograr.</span>
+    			</div>
+    		</div>
+    		<div class="m-sm-1 m-md-2 position-relative">
+    			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note2.png" alt="Informa a tus clientes" />
+    			<div class="note-btl top-note-sm hurme-regular-4 text-gray">
+    				<span class="hurme-bold-4">Analizaremos tu caso</span> y la información del mercado.
+    			</div>							
+    		</div>
+    		<div class="m-sm-1 m-md-2 position-relative">
+    			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note3.png" alt="Conecta y logra" />
+    			<div class="note-btl top-note-md hurme-regular-4 text-white">
+    				Te presentaremos una propuesta con las <span class="hurme-bold-4 text-red">soluciones más creativas</span> para conseguir tu objetivo.
+    			</div>							
+            </div>
+            
+            	<div class="m-sm-1 m-md-2 position-relative">
+    			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/note4.png" alt="Informa a tus clientes" />
+    			<div class="note-btl top-note-sm hurme-regular-4 text-gray">
+    				<span class="hurme-bold-4">Ejecutaremos el plan</span> con responsabilidad y profesionalismo.
+    			</div>							
+    		</div>
 			</div>
 
-<div class="row h-400 w-responsive-penultimate-section">
-<div class="col-sm-6  p-5 bg-gray text-center d-flex justify-content-center align-items-center">    
-    <div class="text-center position-absolute">
+<div class="h-400 bg-gray d-block d-md-flex">
+<div class="col-sm-6 p-5 text-center d-flex justify-content-center align-items-center">    
+    <div class="text-center position-absolute top-toggle">
         <div class="d-flex justify-content-center">
             <div class="d-flex">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/left-title.svg" alt="Imagen de adorno izquierda">
@@ -813,7 +847,7 @@ Template Name: Home
         </div>
         <div class=" d-flex justify-content-center align-items-center">
             <p class="text-white position-absolute hurme-bold-4 m-0 font-25">RESULTADOS EXCEPCIONALES</p>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/base-banner.svg" alt="Imagen de la base del banner">
+            <img class="img-fluid image-small" src="<?php echo get_template_directory_uri(); ?>/assets/images/base-banner.svg" alt="Imagen de la base del banner">
         </div>
         <div class="d-flex justify-content-center">
             <div class="d-flex mt-4">
@@ -833,10 +867,7 @@ Template Name: Home
                 data-toggle="modal" 
                 data-target="#myModalRight" 
                 data-dismiss="modal" 
-                data-backdrop="false"
-                >
-                ¡Escríbenos!
-            </button>
+                data-backdrop="false">¡Escríbenos!</button>
         </div>
     </div>
 
