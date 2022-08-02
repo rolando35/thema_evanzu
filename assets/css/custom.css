@@ -1160,7 +1160,6 @@ a.link-circle {
   height: 400px;
 }
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #lef-ultimate-box {
@@ -1633,6 +1632,13 @@ a.link-circle {
   }
 }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
 .btn-open-modal {
   line-height: 1px;
   font-size: 20px;
@@ -1696,6 +1702,13 @@ html {
   margin: 0;
 }
 
+.horisontal-line {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+  border-top: 1px solid #ced4da;
+}
+
 body {
   margin: unset;
   font-family: hurme-simple;
@@ -1715,7 +1728,8 @@ body {
 select {
   word-wrap: normal;
   background: transparent;
-  color: white;
+  border: transparent solid 2px;
+  color: #ced4da;
 }
 
 select option {
