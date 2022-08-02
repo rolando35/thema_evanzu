@@ -1690,3 +1690,15 @@ body {
   width: 3rem;
   height: 3rem;
 }
+
+select {
+  word-wrap: normal;
+  background: transparent;
+  color: white;
+}
+
+select option {
+  margin: 40px;
+  background: white;
+  color: red;
+}
