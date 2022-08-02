@@ -188,6 +188,26 @@
                       class="hurme-simple-4 direccion form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
                       id="direccion" aria-describedby="emailHelp" placeholder="Dirección" name="direccion">
                   </div>
+                   
+                    <div class="row align-items-center justify-content-center">
+                      <div class="col-md-6 align-self-center mt-4">
+                        <select>
+                          <option selected>Servicio </option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                     <div class="col-md-6 align-self-center mt-4 ">  
+                        <select>
+                          <option selected>subservicio</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                     </div>
+                    </div>
+
                   <input type="text"
                     class="hurme-simple-4 mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
                     id="mensaje" aria-describedby="emailHelp" placeholder="Déjanos tu mensaje" name="mensaje">
