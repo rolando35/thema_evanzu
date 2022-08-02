@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="justify-content-center mt-1">
-          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs p-4'>
               <h6 class="small font-weight-normal text-red hurme-bold-4 text-uppercase text-lg-left text-center">Animación 2D</h6>
@@ -193,7 +193,7 @@
   <!-- Fourteen -->
 
   <!-- Fifteen -->
-  <div class="d-md-flex justify-content-center flex-md-row">
+  <div class="d-md-flex justify-content-center flex-md-row mb-3">
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>

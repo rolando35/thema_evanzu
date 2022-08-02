@@ -3,7 +3,7 @@
   <div class="mb-1">
     <div class="d-md-flex justify-content-center flex-md-row">
       <div>
-            <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+            <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs ml-4'>
                 <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN DEL MINISTERIO DE TRANSPORTE</h6>
@@ -14,7 +14,7 @@
                   'btl'
               )['galleri-image-one-btl']; ?>">
             </div>
-            <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+            <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs ml-4'>
                 <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">NAVIDAD EN EL CIRCUITO MAGICO DEL AGUA</h6>
@@ -26,7 +26,7 @@
               )['galleri-image-four-btl']; ?>">
             </div>
             <div class="d-md-flex justify-content-center flex-md-row">
-                    <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+                    <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
                       <!-- Texts hover -->
                       <div class='position-absolute masonry-hover-lirycs ml-4'>
                         <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">CAMPAÑA DE NAVIDAD</h6>
@@ -37,7 +37,7 @@
                           'btl'
                       )['galleri-image-two-btl']; ?>">
                     </div>
-                      <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+                      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
                       <!-- Texts hover -->
                       <div class='position-absolute masonry-hover-lirycs ml-4'>
                         <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN</h6>
@@ -52,7 +52,7 @@
       </div>
 
       <div class="">
-        <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+        <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">JORNADA DE LA SEGURIDAD CON LA FAMILIA</h6>
@@ -64,7 +64,7 @@
           )['galleri-image-five-btl']; ?>">
         </div>
         <div class="d-md-flex justify-content-center flex-md-row">
-          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs ml-4'>
                 <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN COPA LIBERTADORES</h6>
@@ -78,22 +78,22 @@
           <div  class="d-block">
 
           
-              <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image"> 
+              <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry"> 
                 <!-- Texts hover -->
                 <div class='position-absolute masonry-hover-lirycs ml-4'>
                   <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN</h6>
                   <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Magnesol</p>
                 </div>
                 <!-- Texts hover -->
-                <img class="responsive-masonry-image hover-masonry-image mb-3" src="<?php echo get_option(
+                <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
                     'btl'
                 )['galleri-image-seven-btl']; ?>">
               </div>
-                <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+                <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
                 <!-- Texts hover -->
                 <div class='position-absolute masonry-hover-lirycs ml-2'>
                   <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIONES CON RULETA</h6>
-                  <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Tableros Hispanos</p>
+                  <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.4rem; line-height: 3rem;'>Tableros Hispanos</p>
                 </div>
                 <!-- Texts hover -->
                   <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -102,7 +102,7 @@
                 </div>
           </div>  
         </div>
-          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs ml-4'>
               <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">AGENTES SOBRE RUEDAS</h6>
@@ -116,15 +116,16 @@
         </div>
     </div>
     
-    <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+    <div class="d-flex justify-content-center align-items-end hover-image">
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-5'>
-        <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">EVENTOS DE FIN DE AÑO</h6>
-        <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Agente BBVA</p>
+        <div style="">
+          <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">EVENTOS DE FIN DE AÑO</h6>
+          <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Agente BBVA</p>
+        </div>
       </div>
       <!-- Texts hover -->
-      <img class="responsive-masonry-image hover-masonry-image" style="width: 95%;
-	margin: auto;" src="<?php echo get_option(
+      <img class="img-fluid responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
           'btl'
       )['galleri-image-ten-btl']; ?>">
     </div>

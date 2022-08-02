@@ -1,7 +1,7 @@
 <div class="container">
   <div class="d-md-flex justify-content-center flex-md-row mb-2">
     <div class="">
-      <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO DE E-COMMERCE</h6>
@@ -20,7 +20,7 @@
       <div
         class="d-md-flex justify-content-center flex-md-row"
       >
-        <div class="m1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+        <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
@@ -33,7 +33,7 @@
         )['galleri-image-six-dev']; ?>">
         </div>
         <div class="">
-          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
@@ -45,7 +45,7 @@
               'desarrollo'
           )['galleri-image-seven-dev']; ?>">
           </div>
-          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
@@ -62,7 +62,7 @@
     </div>
 
     <div class="">
-      <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+      <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
@@ -79,7 +79,7 @@
       </div>
 
       <div class="d-md-flex justify-content-center flex-md-row">
-           <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
@@ -93,7 +93,7 @@
             </div>
     
         <div class="">
-          <div class="mt-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
@@ -121,7 +121,7 @@
       </div>
 
       <div class="d-md-flex justify-content-center  flex-md-row">
-        <div class='d-flex justify-content-center justify-content-lg-start align-items-end hover-image'>
+        <div class='d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry'>
                 
 
           <!-- Texts hover -->
@@ -134,12 +134,12 @@
               'desarrollo'
           )['galleri-image-nine-a-hover']; ?>">
         </div>
-         <div class="ml-1 d-sm-none d-md-block d-none px-1 pb-1">
-                
 
+
+        <div class='d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry'>
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN DEL MINISTERIO DE TRANSPORTE</h6>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN </h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>TDT</p>
           </div>
           <!-- Texts hover -->
@@ -153,7 +153,7 @@
 
   <div class="d-md-flex justify-content-center flex-md-row mb-3">
     <div>
-          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">Desarrollo Web</h6>
@@ -164,7 +164,7 @@
               'desarrollo'
           )['galleri-image-teen-dev']; ?>">
           </div>
-          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>

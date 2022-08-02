@@ -1,7 +1,7 @@
 <div class="container">
-  <div class="mb-1">
+  <div >
     <div class="d-md-flex justify-content-center flex-md-row">
-      <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
         <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">CAMPAÑA DE EMAILING</h6>
@@ -12,7 +12,7 @@
     </div>
 
       <div class="">
-        <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+        <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 
@@ -29,7 +29,7 @@
         >
       </div>
         <div class="d-md-flex justify-content-center flex-md-row">
-          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
             <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
@@ -40,7 +40,7 @@
               'galeria-image-three'
           ]; ?>">
         </div>
-          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
             <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="d-md-flex justify-content-center flex-md-row">
-      <div class="bg-warning d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
         <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
@@ -68,7 +68,7 @@
     </div>
       <div>
           <div class="d-md-flex justify-content-center flex-md-row">
-            <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+            <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
               <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
@@ -79,7 +79,7 @@
                 'galeria-image-six'
             ]; ?>">
           </div>
-            <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+            <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
               <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
@@ -91,7 +91,7 @@
             ]; ?>">
           </div>
           </div>     
-        <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+        <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
@@ -103,7 +103,7 @@
         ]; ?>">
       </div>
       </div>
-      <div class="m-2 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
         <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">EMAIL MARKETING</h6>
@@ -115,7 +115,7 @@
     </div>
   </div>
 
-  <div class="d-flex justify-content-center m-2 mw-50 d-flex justify-content-center justify-content-lg-start align-items-end hover-image"> 
+  <div class="d-flex justify-content-center mw-50 d-flex align-items-center hover-image"> 
     <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
         <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
