@@ -213,7 +213,7 @@ function dcms_enviar_contenido()
 	$direccion = $_POST['direccion'];	
 	$mensaje = $_POST['mensaje'];	
     sleep(1);
-	echo "<span style='color:white; font-size:1.5rem;'> Hola: ".$name.", en breve nos contactaremos contigo, ¡gracias! </span> ";
+	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$name.", en breve nos contactaremos contigo, ¡gracias! </span> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
@@ -258,7 +258,7 @@ function dcms_enviar_postulacion()
 	$file = $_POST['file'];	
 	$message = $_POST['message'];
   sleep(1);
-	echo "<span style='color:white; font-size:1.5rem;'> Hola: ".$fullname." en breve nos comunicaremos contigo, ¡gracias!. </span> ";
+	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$fullname." en breve nos contactaremos contigo, ¡gracias!. </span> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
@@ -301,7 +301,7 @@ function dcms_enviar_cotization()
 	$subservice = $_POST['subService'];
 	
   sleep(1);
-	echo "<div style='color:white; font-size:1.5rem;'> En breve nos comunicaremos contigo. ¡Gracias! </div> ";
+	echo "<div style='color:white; font-size:1.5rem;'> En breve nos contactaremos contigo. ¡Gracias! </div> ";
 	
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";

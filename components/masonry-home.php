@@ -101,7 +101,7 @@
             <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs p-4'>
-                <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center">Sport Publicitario</h6>
+                <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center">Spot Publicitario</h6>
                 <p class=" text-light font-weight-bold hurme-bold-4 red-small text-uppercase text-center text-lg-left">Cruz del sur</p>
               </div>
               <!-- Texts hover -->
@@ -113,7 +113,7 @@
             <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
                 <!-- Texts hover -->
                 <div class='position-absolute masonry-hover-lirycs p-4'>
-                  <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center">Sport Publicitario</h6>
+                  <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center">Spot Publicitario</h6>
                   <p class=" text-light font-weight-bold hurme-bold-4 red-small text-uppercase text-center text-lg-left">Caja Huancayo</p>
                   <a
                     class="text-yellow font-weight-normal d-flex fs-12"
@@ -182,7 +182,7 @@
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
         <h6 class="small text-red fs-12 font-weight-bold hurme-bold-4 text-center text-lg-left text-uppercase">Diseño UX</h6>
-        <p class="text-light font-weight-bold hurme-bold-4 text-uppercase red-smalltext-center text-lg-left">BMatic</p>
+        <p class="text-light font-weight-bold hurme-bold-4 text-uppercase red-small text-center text-lg-left">BMatic</p>
       </div>
       <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('home_main')['galleria-image-sixteen']; ?>">

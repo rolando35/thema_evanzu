@@ -1,8 +1,8 @@
 <div class="container">
-  <div class="d-md-flex justify-content-center flex-md-row">
+  <div class="d-md-flex justify-content-center flex-md-row mb-2">
     <div class="">
       <!--  -->
-    <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
+    <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
@@ -13,8 +13,10 @@
               'branding'
           )['galleri-image-five']; ?>">
       </div>
-      <div class="d-md-flex justify-content-center flex-md-row">
-        <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry" >
+      <div
+        class="d-md-flex justify-content-center flex-md-row  mb-2"
+      >
+        <div class="m1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
            <!-- Texts hover -->
            <div class='position-absolute masonry-hover-lirycs ml-4'>
               <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO DE BRANDING</h6>
@@ -26,7 +28,7 @@
             )['galleri-image-six']; ?>">
         </div>
         <div class="">
-          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
+          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">MERCHANDISING</h6>
@@ -38,7 +40,7 @@
               )['galleri-image-seven']; ?>">
              
           </div>
-          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
+          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">LETRERO ROMPETRÁFICO</h6>
@@ -53,7 +55,7 @@
       </div>
     </div>
     <div class="">
-      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image position-relative" style="margin-bottom: 20px;">
+      <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image position-relative">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO DE FOLLETERÍA</h6>
@@ -66,7 +68,7 @@
       </div>
       <div class="d-md-flex justify-content-center flex-md-row">
         
-        <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
+        <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
@@ -81,7 +83,7 @@
           )['galleri-image-two']; ?>">
         </div>
         <div class="">
-          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image" style="margin-bottom: 20px;">
+          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO DE BRANDING</h6>
@@ -92,7 +94,7 @@
                 'branding'
             )['galleri-image-three']; ?>">
         </div>
-          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ILUSTRACIÓN DIGITAL</h6>
@@ -105,7 +107,7 @@
         </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
+      <div style="background-image:url()" class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">PIEZAS DE COMUNICACIÓN</h6>
@@ -119,7 +121,7 @@
     </div>
   </div>
   <div class="d-md-flex justify-content-center flex-md-row b mb-3">
-    <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+    <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO GRÁFICO</h6>
@@ -130,7 +132,7 @@
           'branding'
       )['galleri-image-teen']; ?>">
       </div>
-    <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image space-between-masonry">
+    <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
@@ -141,7 +143,7 @@
           'branding'
       )['galleri-image-eleven']; ?>">
       </div>
-    <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image ">
+    <div class="m-1 d-flex justify-content-center justify-content-lg-start align-items-end hover-image ">
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">PACKAGING</h6>
