@@ -180,6 +180,20 @@
                         id="celular" aria-describedby="emailHelp" placeholder="Celular" name="celular">
                     </div>
                   </div>
+                     <div class="row align-items-center justify-content-center">
+                      <div class="col-md-6 col-6 align-self-center mt-4">
+                          <select name="servicio" id="servicio" onchange="cargarsubservicios();">
+                            <option value="">Servicio &nbsp;&nbsp;&nbsp;</option>
+                          </select>
+                          <hr class="horisontal-line">
+                      </div>
+                     <div class="col-md-6 col-6 align-self-center mt-4 ">  
+                            <select name="subservicio" id="subservicio">
+                              <option value="">Subservicio &nbsp;&nbsp;&nbsp;</option>
+                            </select>
+                            <hr class="horisontal-line">
+                     </div>
+                    </div>
                   <div class="d-flex">
                     <input type="text"
                       class="hurme-simple-4 empresa form-control rounded-0 mt-3_5 text-light w-50 input-form bg-transparent border-top-0 border-left-0 border-right-0"
@@ -188,25 +202,6 @@
                       class="hurme-simple-4 direccion form-control rounded-0 mt-3_5 text-light w-50 ml-5 input-form bg-transparent border-top-0 border-left-0 border-right-0"
                       id="direccion" aria-describedby="emailHelp" placeholder="Dirección" name="direccion">
                   </div>
-                   
-                    <div class="row align-items-center justify-content-center">
-                      <div class="col-md-6 align-self-center mt-4">
-                        <select>
-                          <option selected>Servicio </option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                      </div>
-                     <div class="col-md-6 align-self-center mt-4 ">  
-                        <select>
-                          <option selected>subservicio</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                     </div>
-                    </div>
 
                   <input type="text"
                     class="hurme-simple-4 mensaje form-control rounded-0 mt-3_5 text-light input-form bg-transparent border-top-0 border-left-0 border-right-0"
@@ -359,7 +354,93 @@
   </div>
 </div>
 </div>
+ <script>
+    function cargarservicios() {
+      var array = [
+        "Marketing Digital",
+        "Branding & Diseño",
+        "Producción Audiovisual",
+        "BTL & Activaciones",
+        "Desarrollo & Software",
+      ];
+      array.sort();
+      addOptions("servicio", array);
+    }
 
+    //Función para agregar opciones a un <select>.
+    function addOptions(domElement, array) {
+      var selector = document.getElementsByName(domElement)[0];
+      for (servicio in array) {
+        var opcion = document.createElement("option");
+        opcion.text = array[servicio];
+        // Añadimos un value a los option para hacer mas facil escoger los subservicios
+        opcion.value = array[servicio];
+        selector?.add(opcion);
+      }
+    }
+
+    function cargarsubservicios() {
+      // Objeto de servicios con subservicios
+      var listaServicio = {
+        "Marketing Digital": [
+          "Publicidad digital",
+          "Gestión de redes sociales",
+          "Posicionamiento SEO",
+          "Growth hacking",
+          "Marketing de contenidos ",
+        ],
+        "Branding & Diseño": [
+          "Logo & branding",
+          "Diseño publicitario",
+          "Merchandising & impresos",
+          "Ilustración digital",
+          "Diseño UX & UI",
+        ],
+        "Producción Audiovisual": [
+          "Spots & Videos",
+          "Animación 2D",
+          "Fotografía Profesional",
+        ],
+        "BTL & Activaciones": [
+          "Eventos",
+          "Relaciones Públicas",
+          "Fuerza de ventas",
+          "Anfitrionaje ",
+        ],
+        "Desarrollo & Software": [
+          "Tiendas virtuales",
+          "Páginas web",
+          "App móviles",
+          "Software a medida",
+          "Diseño UX & UI",
+        ],
+      };
+
+      var servicios = document.getElementById("servicio");
+      var subservicios = document.getElementById("subservicio");
+      var servicioseleccionada = servicios.value;
+
+      // Se limpian los subservicios
+      subservicios.innerHTML =
+        '<option value="">Seleccione un Subservicio...</option>';
+
+      if (servicioseleccionada !== "") {
+        // Se seleccionan los subservicios y se ordenan
+        servicioseleccionada = listaServicio[servicioseleccionada];
+        servicioseleccionada.sort();
+
+        // Insertamos los subservicios
+        servicioseleccionada.forEach(function (subservicio) {
+          let opcion = document.createElement("option");
+          opcion.value = subservicio;
+          opcion.text = subservicio;
+          subservicios?.add(opcion);
+        });
+      }
+    }
+
+    cargarservicios();
+  </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 <script>
 
