@@ -117,7 +117,7 @@
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">CAMPAÑA UCPP</p>
-      <p class="text-light font-weight-bold hurme-simple text-line-width" >PETROPERÚ</p>
+      <p class="text-light font-weight-bold hurme-simple text-line-width" >Petroperú</p>
     </div>
     <!-- Texts hover -->
     <iframe class="responsive-masonry-image " width="560" height="315" src="https://www.youtube.com/embed/qpRUmnliIcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -131,7 +131,7 @@
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">CAMPAÑA TALARA</p>
-      <p class="text-light font-weight-bold hurme-simple text-line-width" >PETROPERÚ</p>
+      <p class="text-light font-weight-bold hurme-simple text-line-width" >Petroperú</p>
     </div>
     <!-- Texts hover -->
     <iframe class="responsive-masonry-image " width="560" height="315" src="https://www.youtube.com/embed/tj-kIF0h2RQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

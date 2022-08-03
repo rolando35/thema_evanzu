@@ -1291,11 +1291,10 @@ a.link-circle {
 .lirycs-hover {
   display: block !important;
   z-index: 1;
-  background: black;
+  background: rgba(0,0,0, 0.8);
   width: 100%;
   padding-left: 1.5rem;
   padding-top: 1rem;
-  opacity: 0.8;
 }
 .lirycs-hover:hover {
   display: none;

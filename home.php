@@ -17,6 +17,22 @@ Template Name: Home
         position: absolute;
         margin: 0;
     }
+    
+    .img-animate {
+        transition: transform  ease;
+        animation: pulse 1s;
+        animation-delay: 2s;
+    }
+    @keyfames pulse{
+        from{
+            transform: scale(0.9);
+        }
+        
+        to {
+            transform: scale(1.2);
+        }
+    }
+
     .mt-5c{
         margin-top: 3.5rem;
     }
@@ -255,8 +271,9 @@ Template Name: Home
               <!-------------------- Clients -------------------->
         <section class="bg-smooth-gray p-4 mb-3">  
             
-        <div class="text-center mb-4">
-                Grandes campañas para grandes clientes, <span class="text-red"><b>hazme click.</b></span> 
+        <div class="text-center mb-4 text-red" style="font-size: 24px;">
+                Grandes campañas para grandes clientes <br>
+                <span class="text-gray" style="font-size: 20px;">Haz clic en cada marca para ver nuestros resultados.</span>
          </div>
 
         <!-- partial:index.partial.html -->
@@ -264,10 +281,10 @@ Template Name: Home
              <div class="container px-5">
                  <div class="d-flex justify-content-center clients">
                     <div class="mx-2">
-                        <a  href="bbva" class="hover-underline-animation"> 
+                        <a  href="bbva"> 
                             <img
                                 src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BIG-BBVA.png"
-                                class="img-fluid mx-auto d-block img-client"
+                                class="img-fluid mx-auto d-block img-client img-animate"
                                 alt="Cliente Evanzu BBVA">
                         </a>
                     </div>
@@ -318,8 +335,9 @@ Template Name: Home
             <!-------------------- Clients -------------------->
          
         <div> 
-             <div class="text-center mb-4">
-               Lo que creamos para otros clientes
+             <div class="text-center mb-4" style="font-size: 20px;">
+                 <span class="mb-2">Somos la agencia de marketing y publicidad de startups,<br> micro y pequeñas empresas, marcas líderes <br> y organizaciones gubernamentales.</span> <br> <br>
+               Lo que creamos para otros clientes:
              </div>
               	<!------------------Portafolio-------------------->
 				<?php get_template_part('components/masonry-home'); ?>

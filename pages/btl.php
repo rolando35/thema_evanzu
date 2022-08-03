@@ -58,6 +58,16 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		background: red;
 		height: 900px;
 	}
+	
+	@media only screen and (max-width: 669px) {
+  .big-title {
+    font-family: hurme-simple-black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem !important;
+    line-height: 87px;
+  }
+}
 
 </style>
 

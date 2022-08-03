@@ -9,6 +9,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <meta name="description" content="<?php echo isset($args['description']) ? $args['description']: "Somos una agencia de marketing digital, branding & diseño, producción audiovisual, BTL & comunicación, desarrollo y software."; ?>"/>
    <meta name="keywords" content="<?php echo isset($args['keywords']) ? $args['keywords'] : " " ?>" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
    <meta name="author" content="evanzu.com"/>
    <?php echo isset($args['richsnippets']) ? $args['richsnippets'] : " " ?>
 </head>

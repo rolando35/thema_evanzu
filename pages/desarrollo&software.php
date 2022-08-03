@@ -121,6 +121,15 @@ $path_software =
 	.carousel-item > img {
 		height: 25rem !important;
 	}
+
+	
+  .big-title {
+    font-family: hurme-simple-black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem !important;
+    line-height: 87px;
+  }
 }
 
 .carousel-caption{
