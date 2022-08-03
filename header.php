@@ -1,4 +1,6 @@
-<?php ?> 
+<?php
+$path_menu_responsive = get_template_directory_uri() . '/assets/images/menu-responsive';
+ ?> 
 <!DOCTYPE html>
 <html lang="es">
  
@@ -37,7 +39,9 @@
     margin-top: -2.2rem;
   } */
   
- 
+ .navbar-dark .navbar-toggler-icon {
+    background-image: url('<?php echo $path_menu_responsive?>/sandwitch.svg') !important;
+  }
 </style>
  
 <!-- oncontextmenu="return false;" -->
@@ -47,6 +51,7 @@
 wp_head();
 // $result = $transparentNone ? 'hola' : 'navbar';
 $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
+
 ?> 
   <!-- Navigation -->
   <nav class="<?php echo $result ?> navbar-expand-lg  nav-colors fixed-top navbar-dark">
@@ -61,12 +66,17 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
 
       </div>
      <?php the_custom_logo() ?> 
-     <button class="navbar-toggler ml-3 mt-3" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+     <button id="" class="navbar-toggler mr-3 mt-3 float-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <div class="navbar-toggler-icon ">
-          
+            <span id="close">
+              <img  class="img-fluid"
+                src="<?php echo $path_menu_responsive; ?>/close.svg"
+                alt="Logo Evanzu"
+                />
+            </span>
        </div>
       </button>
-       <button class="navbar-toggler m-2 mt-2 float-right d-block d-md-none">
+       <button class="navbar-toggler m-2 mt-1  d-block d-md-none">
         <div>
             <a href="<?php echo home_url(); ?>">
               <img class="img-fluid"
@@ -102,6 +112,56 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
        
         
          ?> 
+          <div id="responsive-menu-social" class="bg-white text-center text-red py-4 section-social-links"> 
+            <div class="mb-2 mt-3 font font-weight-bold hurme-bold-4 title-menu-respoosive">
+                   Siguenos:
+            </div>
+           
+             <div class="my-1">
+                 <a class="mx-2" href="https://www.facebook.com/evanzuperu/" target="_blank">
+                  <img
+                      src="<?php echo $path_menu_responsive; ?>/facebook.svg"
+                      alt="facebook"
+                    />
+                  </a>
+
+                <a class="mx-2" target="_blank" href="https://www.youtube.com/c/EvanzuAgenciadeMarketingyPublicidad">
+                  <img
+                      src="<?php echo $path_menu_responsive; ?>/youtube.svg"
+                      alt="youtube"
+                    />
+                  </a>
+
+                  <a target="_blank" href="https://www.instagram.com/evanzuperu/">
+                      <img
+                          src="<?php echo $path_menu_responsive; ?>/instagram.svg"
+                          alt="Instagram"
+                        />
+                  </a>
+
+                   <a class="mx-2" target="_blank" href="https://www.linkedin.com/company/evanzu/">
+                      <img
+                          src="<?php echo $path_menu_responsive; ?>/linkeding.svg"
+                          alt="linkeding"
+                        />
+                  </a>
+                  <a class="mx-2" target="_blank" href="https://twitter.com/EvanzuPeru">
+                      <img
+                          src="<?php echo $path_menu_responsive; ?>/twitter.svg"
+                          alt="twitter"
+                        />
+                  </a>
+
+                  <a class="mx-2" target="_blank" href="https://www.tiktok.com/@evanzuperu">
+                      <img
+                          src="<?php echo $path_menu_responsive; ?>/tiktok.svg"
+                          alt="facebook"
+                        />
+                  </a>
+             </div>
+          </div>
+
+
         </div> 
          <div class="mt-neg mr-n5 float-right d-none d-md-block">
              <div class="div-spacer">
@@ -112,14 +172,7 @@ $path_header = get_template_directory_uri() . '/assets/images/nav-images/';
                 echo '<svg class="none-select" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M14.78 28.56C22.3905 28.56 28.56 22.3905 28.56 14.78C28.56 7.16952 22.3905 1 14.78 1C7.16952 1 1 7.16952 1 14.78C1 22.3905 7.16952 28.56 14.78 28.56Z" stroke="white" stroke-width="0.8142" stroke-miterlimit="10"/> <path d="M17.9699 13.51C17.9699 14.74 17.4699 15.85 16.6699 16.66C15.8599 17.47 14.7499 17.96 13.5199 17.96C11.0599 17.96 9.06995 15.97 9.06995 13.51C9.06995 11.05 11.0599 9.06 13.5199 9.06C15.9799 9.06 17.9699 11.05 17.9699 13.51Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M16.66 16.66L20.51 20.51" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </svg>'
               ?> -->
           </div>
-          <!-- <div class="mt-neg mr-3 pb-2 float-right d-block  d-md-none">
-            <a href="<?php echo home_url(); ?>">
-            <img class="img-fluid"
-              src="<?php echo $path_header; ?>naked_logo.svg"
-              alt="Logo Evanzu"
-              />
-            </a>
-          <div> -->
+         
         </div>
 
     </div>
@@ -134,3 +187,20 @@ $("ul > li button").click(function () {
     });
 });
 </script> -->
+
+
+<script>
+ 
+ 
+
+ (function ($) { 
+    $("#responsive-menu-social").hide(); 
+     $("#close").hide();  
+    $(".navbar-toggler-icon").click(function(){
+       $("#responsive-menu-social").toggle();
+       $("#close").toggle();
+    }); 
+
+    
+    })(jQuery);
+</script>
