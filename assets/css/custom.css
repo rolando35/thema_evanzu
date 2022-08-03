@@ -1253,7 +1253,7 @@ a.link-circle {
   }
 
   .navbar-collapse {
-    height: 400px !important;
+    height: 450px;
   }
 }
 
@@ -1297,7 +1297,7 @@ a.link-circle {
 .lirycs-hover {
   display: block !important;
   z-index: 1;
-  background: rgba(0,0,0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   width: 100%;
   padding-left: 1.5rem;
   padding-top: 1rem;
@@ -1718,7 +1718,7 @@ html {
 }
 
 .section-social-links {
-  height: 180px;
+  height: 230px;
 }
 
 body {
