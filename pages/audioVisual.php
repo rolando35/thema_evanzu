@@ -160,6 +160,16 @@ ul{
   }
 }
 
+@media only screen and (max-width: 669px) {
+  .big-title {
+    font-family: hurme-simple-black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem !important;
+    line-height: 87px;
+  }
+}
+
 /* h1 {
   letter-spacing: 8px;
 } */
@@ -634,6 +644,7 @@ h5 {
                   <div class="col-sm-12 col-lg-6 ">
                   <img
                     src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Servicio de Animación 2D.png"
+                    class="img-fluid"
                     title="Animación 2D"
                     alt="Servicio de Animación 2D"
                   >
@@ -750,7 +761,7 @@ h5 {
                     </div>
                       <div class='w-100 d-flex position-relative justify-content-around flex-wrap align-items-center' style='margin-top: -18rem'>
                           <div class="col-sm-12 col-lg-6 ">
-                              <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
+                              <p class='text-red hurme-bold-4 mt-3' style='font-weight: 900; font-size: 26px;'>Ofrecemos animación 2D para:</p>
                                 <ul style="line-height: 1.5;">
                                     <li>Video-tutoriales.</li>
                                     <li>Presentación de productos o servicios.</li>
@@ -762,6 +773,7 @@ h5 {
                             <img
                               src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/ofrecemos.png"
                               title="Poryectos de Animación 2D"
+                              class="img-fluid"
                               alt="Computadoras con diferentes animaciones en 2D">
                           </div>
                       </div>
@@ -808,6 +820,7 @@ h5 {
                   <div class="col-sm-12 col-lg-6">
                   <img
                     src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Servicio de Fotografía Profesional de alta calidad.png"
+                    class="img-fluid"
                     alt="Cámara fotografíca y accesorios con iconos de fotografía"
                     title="Servicio de Fotografía Profesional"
                   >
@@ -920,7 +933,7 @@ h5 {
                         <div class='w-90 bg-fa' style='height: 12.1rem'></div>
                     </div>
                       <div class='w-90 d-flex justify-content-around flex-wrap align-items-center position-relative' style='margin-top: -20rem'>
-                          <div class="mt-md-5">
+                          <div class="mt-5">
                               <p class='text-red hurme-bold-4' style='font-weight: 900; font-size: 26px;'>Desarrollamos estos proyectos:</p>
                                <ul>
                                  <li>Fotografía Publicitaria en Estudio o Locación.</li>
@@ -932,7 +945,7 @@ h5 {
                                </ul>
                           </div>
                           <img
-                            class="mt-5"
+                            class="mt-5 img-fluid"
                             src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Desarrollo de proyectos de fotografía profesionales.png"
                             alt="Desarrollo de proyectos de fotografía profesionales para deferentes marcas"
                             title="Desarrollo de proyectos fotografícos"

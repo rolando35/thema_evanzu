@@ -211,7 +211,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<h2 class="big-title text-red my-2 text-center">BTL y Activaciones</h2>
+						<h2 class="big-title text-red my-2 text-center pt-5">BTL y Activaciones</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -536,7 +536,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<h2 class="big-title text-red my-2 text-center">Eventos</h2>
+						<h2 class="big-title text-red my-2 text-center pt-5">Eventos</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -771,7 +771,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<h2 class="big-title text-red my-2 text-center">Relaciones Públicas</h2>
+						<h2 class="big-title text-red my-2 text-center pt-5">Relaciones Públicas</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -942,7 +942,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<h2 class="big-title text-red my-2 text-center">Fuerza de ventas</h2>
+						<h2 class="big-title text-red my-2 text-center pt-5">Fuerza de ventas</h2>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -1134,7 +1134,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<h2 class="big-title text-red my-2 text-center">Anfitrionaje</h2>
+						<h2 class="big-title text-red my-2 text-center pt-5">Anfitrionaje</h2>
 						<!-------------------Card---------------------->
 						<div class="pt-2 pb-5">
 							<div class="container">

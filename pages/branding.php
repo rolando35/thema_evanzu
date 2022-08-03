@@ -277,7 +277,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div id="logo_branding" class="tab-pane active">
         <br />
         <div class="bg-light-gray">
-          <h2 class="big-title text-red my-5 text-center">Logo & Branding</h2>
+          <h2 class="big-title text-red my-5 pt-5 text-center">Logo & Branding</h2>
           <div class="container">
              <div class="py-2">
               <div class="container">
@@ -500,7 +500,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <h2 class="big-title text-red my-2 text-center">
+            <h2 class="big-title text-red my-2 text-center pt-5">
               Diseño Publicitario
             </h2>
             <!-------------------Card---------------------->
@@ -774,7 +774,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <h2 class="big-title text-red my-2 text-center">
+            <h2 class="big-title text-red my-2 text-center pt-5">
             Merchandising & Impresos
             </h2>
             <!-------------------Card---------------------->
@@ -948,7 +948,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <h2 class="big-title text-red my-2 text-center">
+            <h2 class="big-title text-red my-2 text-center pt-5">
               Ilustración digital
             </h2>
             <!-------------------Card---------------------->
@@ -1115,7 +1115,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <h2 class="big-title text-red my-2 text-center">
+            <h2 class="big-title text-red my-2 text-center pt-5">
               Diseño UX & UI
             </h2>
             <!-------------------Card---------------------->

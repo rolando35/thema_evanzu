@@ -55,6 +55,14 @@ $path_software =
   margin-bottom: -2.8rem;
 }
 
+.develop-title-software{
+  font-family: running-text;
+  font-size: 2.7rem; 
+  line-height: 1; 
+  color: #FFFFFF;
+  margin-bottom: -2.8rem;
+}
+
 .text-paragraph {
     font-family: Hurme Geometric Sans 4;
     color: #FFFFFF;
@@ -95,6 +103,10 @@ $path_software =
   font-size: 1.7rem;
   line-height: 4rem;
 	}
+	.develop-title-software{
+		font-size: 1.7rem;
+  	line-height: 1;
+}
 }
 @media only screen and (max-width: 870px) {
   .text-paragraph {
@@ -108,6 +120,10 @@ $path_software =
   font-size: 1.7rem;
   line-height: 4rem;
 	}
+	.develop-title-software{
+		font-size: 1.7rem;
+  	line-height: 1;
+}
 }
 @media only screen and (max-width: 669px) {
 	.flex-colum {
@@ -245,7 +261,7 @@ $path_software =
 				/>
 				<div class="carousel-caption">
 					<div class="col-8 flex-colum text-left p-0">
-            <h1 class="develop-title" data-wow-delay="0.3s">Creadores de aplicaciones</h1>
+            <h1 class="develop-title-software" data-wow-delay="0.3s">Creadores de aplicaciones</h1>
             <h2 class="text-paragraph hurme-bold-4" data-wow-delay="0.3s">MÓVILES &</h2>
             <div class="d-flex align-center">
               <h2 class="text-paragraph2 mr-2 hurme-bold-4" data-wow-delay="0.3s">SOFTWARE</h2>
@@ -454,7 +470,7 @@ $path_software =
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Páginas Web</div>
+						<div class="big-title text-red my-2 text-center pt-5">Páginas Web</div>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -665,7 +681,7 @@ $path_software =
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">App móviles</div>
+						<div class="big-title text-red my-2 text-center pt-5">App móviles</div>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -828,7 +844,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Software a medida</div>
+						<div class="big-title text-red my-2 text-center pt-5">Software a medida</div>
 						<!-------------------Card---------------------->
 						<div class="py-2">
 							<div class="container">
@@ -979,7 +995,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 				<!----------------------Main---------------------->
 				<section class="p-0">
 					<div class="bg-light-gray py-0">
-						<div class="big-title text-red my-2 text-center">Diseño UX & UI</div>
+						<div class="big-title text-red my-2 text-center pt-5">Diseño UX & UI</div>
 						<!-------------------Card---------------------->
 						<div class="pt-2 pb-5">
 							<div class="container">
@@ -1074,7 +1090,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
               <img
-								class=""
+								class="img-fluid"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Servicio de diseño de experiencia evanzu.png"
 								title="Wireframes para el diseño de experiencia"
 								alt="Pantallas de un diseño de interface">

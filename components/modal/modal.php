@@ -287,7 +287,7 @@
                 </div>
                 <!----------------Social---------------->
                 <div class="w-100 d-flex justify-content-center">
-                  <div class="d-flex justify-content-around w-75 bg-red">
+                  <div class="d-flex justify-content-around w-75 bg-red" style="margin-top: -2rem;">
                     <a href="https://www.facebook.com/evanzuperu/" target="_blank">
                       <img class="social-net"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">

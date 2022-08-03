@@ -42,7 +42,7 @@
 						<div
 							class="input-group input-group-contact d-flex flex-column flex-lg-row justify-content-center"
 						>
-							<div class="w-14 mr-2">
+							<div class="w-14 mr-0 mr-lg-2">
 								<input
 									type="text"
 									id="<?php echo $args['idwebsite']; ?>"
@@ -51,7 +51,7 @@
 									name="<?php echo $args['idwebsite']; ?>"
 								/>
 							</div>
-							<div class="w-14 ml-2">
+							<div class="w-14 ml-0 ml-lg-2">
 								<input
 									type="text"
 									id="<?php echo $args['idemail']; ?>"

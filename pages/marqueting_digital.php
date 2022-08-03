@@ -152,6 +152,13 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     font-size: 3rem !important;
     line-height: 87px;
   }
+  .big-sm-title  {
+    font-family: hurme-simple-black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem !important;
+    line-height: 87px;
+  }
 }
 </style>
 
@@ -336,7 +343,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div id="publicidad_digital" class="tab-pane active">
         <br />
         <div class="bg-light-gray">
-          <div class="big-title  text-red mt-5 pt-2 text-center">
+          <div class="big-title  text-red mt-5 pt-5 text-center">
             Publicidad Digital
           </div>
             <div class="py-2">
@@ -555,7 +562,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <div class="big-title text-red my-2 text-center">
+            <div class="big-title text-red my-2 text-center pt-5">
               Gestión de Redes Sociales
             </div>
             <!-------------------Card---------------------->
@@ -764,7 +771,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <div class="big-title text-red my-2 text-center">
+            <div class="big-sm-title text-red my-2 text-center pt-5">
               Posicionamiento SEO
             </div>
             <!-------------------Card---------------------->
@@ -776,7 +783,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                       src="<?php echo $directory_imgs; ?>web-visibiliti.png"
                       title="Posicionamiento SEO"
                       alt="Aumenta la visibilidad de tu web en el mundo digital"
-                      class="ml-5 img-fluid"
+                      class=" ml-0 ml-lg-5 img-fluid"
                     />
                   </div>
                   <div class="col-md-10 col-lg-6">
@@ -1008,7 +1015,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
         <!----------------------Main---------------------->
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <div class="big-title text-red my-2 text-center">
+            <div class="big-title text-red my-2 text-center pt-5">
             Growth hacking
             </div>
             <!-------------------Card---------------------->
@@ -1180,7 +1187,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div id="marketing_contenidos" class=" tab-pane fade">
         <section class="p-0">
           <div class="bg-light-gray py-0">
-            <div class="big-title text-red my-2 text-center">
+            <div class="big-title text-red my-2 text-center pt-5">
                Marketing de contenidos
             </div>
             <!-------------------Card---------------------->
@@ -1192,7 +1199,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                       src="<?php echo $directory_imgs; ?>imac-contenido.png"
                       alt="Evanzu, creamos contenido valioso para tu marca"
                       title="Contenido relevante y valioso"
-                      class="ml-5 img-fluid"
+                      class="ml-0 ml-lg-5 img-fluid"
                     />
                   </div>
                   <div class="col-md-10 col-lg-6">
@@ -1366,7 +1373,7 @@ Haremos que todo lo que comuniques logre que un usuario <span class="hurme-bold-
             
         </div>
          <div class="position-relative d-flex justify-content-center" style='margin-bottom: -10rem;'>
-                 <img title="Marketing de contenidos" alt="Incremento de tráfico y resultados de tu negocio" src="<?php echo $directory_imgs; ?>Marketing_contenido_base_tree.svg">
+                 <img class="img-fluid" title="Marketing de contenidos" alt="Incremento de tráfico y resultados de tu negocio" src="<?php echo $directory_imgs; ?>Marketing_contenido_base_tree.svg">
           </div>
 
           <!-----------------------Circle Right----------------------------->
