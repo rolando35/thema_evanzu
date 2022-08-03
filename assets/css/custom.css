@@ -647,6 +647,7 @@ a.link-circle {
 
 .nav-link.active {
   border-left: #fbc000 2px solid;
+  font-family: "hurme-bold";
 }
 
 .none-select {
@@ -1207,13 +1208,14 @@ a.link-circle {
     margin-top: -10%;
   }
   .margin-menu {
-    margin: 0 1% 0 27%;
+    margin: 0 2% 0 23%;
+    margin-top: 15%;
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    margin: 0.4rem 0;
+    margin: 0.9rem 0;
     padding-left: 0.5rem;
-    text-align: center;
+    font-size: 21px;
   }
   .mt-neg {
     margin-top: -2.2rem;
@@ -1248,6 +1250,10 @@ a.link-circle {
 
   .font-25 {
     font-size: 0.9rem;
+  }
+
+  .navbar-collapse {
+    height: 400px !important;
   }
 }
 
@@ -1330,16 +1336,15 @@ a.link-circle {
 @media only screen and (min-width: 600px) {
 }
 
-
 .space-between-masonry {
   margin: 20px 0;
 }
 
-.margin-y-masonry{
+.margin-y-masonry {
   margin: 20px 0;
 }
 
-.margin-bottom-right-masonry{
+.margin-bottom-right-masonry {
   margin: 0 0 20px 0;
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1349,10 +1354,10 @@ a.link-circle {
 		margin-top: -4.4rem;
 		margin-bottom: -3.2rem;
 	} */
-  .margin-bottom-right-masonry{
+  .margin-bottom-right-masonry {
     margin: 0 20px 20px 0 !important;
   }
-  .margin-y-masonry{
+  .margin-y-masonry {
     margin: 0 0 20px 0 !important;
   }
   .space-between-masonry {
@@ -1706,6 +1711,14 @@ html {
   text-align: left;
   margin-left: 0;
   border-top: 1px solid #ced4da;
+}
+
+.title-menu-respoosive {
+  font-size: 23px;
+}
+
+.section-social-links {
+  height: 180px;
 }
 
 body {
