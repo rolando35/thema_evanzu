@@ -1255,6 +1255,11 @@ a.link-circle {
   .navbar-collapse {
     height: 450px;
   }
+
+  .form-button {
+    display: none !important;
+    padding-top: 5rem;
+  }
 }
 
 /* underLine effect */

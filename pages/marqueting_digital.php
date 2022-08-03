@@ -157,9 +157,21 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
     <!--------------------- Button Modal --------------------->
         <div   class="position-fixed button-form-in-pages"> 
+
+                      <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
+                            data-target="#myModalRight" 
+                            data-dismiss="modal" 
+                            data-backdrop="false">
+                       <img class=""
+                          src="<?php echo get_template_directory_uri() .'/assets/images/menu-responsive'?>/openform.svg"
+                          alt="Instagram"
+                        />
+                   </div>
+
+
                         <div
                         type="button"
-                        class="position-absolute ndx" 
+                        class="position-absolute ndx form-button " 
                         class="btn btn-primary" 
                         data-toggle="modal" 
                         data-target="#myModalRight" 
