@@ -18,19 +18,23 @@ Template Name: Home
         margin: 0;
     }
     
-    .img-animate {
-        transition: transform  ease;
-        animation: pulse 1s;
+    .pulse {
+        animation: pulse  5s 4s infinite ease;
+    }
+    .pulse-alternative {
+        animation: pulse  5s 2s infinite ease;
         animation-delay: 2s;
     }
-    @keyfames pulse{
-        from{
-            transform: scale(0.9);
-        }
-        
-        to {
-            transform: scale(1.2);
-        }
+    @keyframes pulse {
+      20%, 100% {
+        transform: scale(1);
+      }
+      0% {
+        transform: scale(1);
+      }
+      10% {
+        transform: scale(1.05);
+      }
     }
 
     .mt-5c{
@@ -284,24 +288,24 @@ Template Name: Home
                         <a  href="bbva"> 
                             <img
                                 src="<?php echo get_template_directory_uri() .'/assets/images/clients/'; ?>BIG-BBVA.png"
-                                class="img-fluid mx-auto d-block img-client img-animate"
+                                class="img-fluid mx-auto d-block img-client pulse"
                                 alt="Cliente Evanzu BBVA">
                         </a>
                     </div>
                      <div class="mx-2">
-                            <a  href="petro-peru" class="hover-underline-animation"> 
+                            <a  href="petro-peru"> 
                                 <img src="<?php echo get_template_directory_uri() .
                                     '/assets/images/clients/'; ?>BIG-PETROPERU.png"
-                                    class="img-fluid mx-auto d-block img-client"
+                                    class="img-fluid mx-auto d-block img-client pulse-alternative"
                                     alt="Cliente Evanzu PETRO PERU">
                             </a>
                      </div>
                      <div class="mx-2">
-                         <a  href="betfair"  class="hover-underline-animation">
+                         <a  href="betfair">
                                 <img
                                     src="<?php echo get_template_directory_uri() .
                                     '/assets/images/clients/'; ?>BIG-BETFAIR.png"
-                                    class="img-fluid mx-auto d-block img-client"
+                                    class="img-fluid mx-auto d-block img-client pulse"
                                     alt="Cliente Evanzu Betfair">
                             </a>
                      </div>
@@ -310,21 +314,21 @@ Template Name: Home
                   <div class="d-flex justify-content-center my-2 flex-wrap flex-md-nowrap">
                     
                      <div class="mx-2">
-                            <a  href="artecola" class="hover-underline-animation">
+                            <a  href="artecola">
                                 <img src="<?php echo get_template_directory_uri() .
-                                    '/assets/images/clients/'; ?>Artecola.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Artecola">
+                                    '/assets/images/clients/'; ?>Artecola.png"  class="img-fluid mx-auto d-block pulse-alternative" alt="Cliente Evanzu Artecola">
                             </a>
                      </div>
                      <div class="mx-2">
-                          <a href="aesa" class="hover-underline-animation">
+                          <a href="aesa">
                             <img src="<?php echo get_template_directory_uri() .
-                                '/assets/images/clients/'; ?>AESA.png" class="img-fluid mx-auto d-block" alt="Cliente Evanzu AESA">
+                                '/assets/images/clients/'; ?>AESA.png" class="img-fluid mx-auto d-block pulse" alt="Cliente Evanzu AESA">
                          </a>
                      </div>
                        <div class="mx-2">
-                           <a href="bmatic" class="hover-underline-animation">
+                           <a href="bmatic">
                                 <img src="<?php echo get_template_directory_uri() .
-                                    '/assets/images/clients/'; ?>BMatic.png"  class="img-fluid mx-auto d-block" alt="Cliente Evanzu Bamtic">
+                                    '/assets/images/clients/'; ?>BMatic.png"  class="img-fluid mx-auto d-block pulse-alternative" alt="Cliente Evanzu Bamtic">
                             </a>
                      </div>
                  </div>

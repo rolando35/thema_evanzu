@@ -47,8 +47,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UX/UI Design</h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Asiri</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">Sistema Web</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>BBVA</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -95,7 +95,7 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UI Design</h6>
+          <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">Diseño UX</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.2rem; line-height: 3rem;'>Caja Huancayo</p>
           </div>
           <!-- Texts hover -->
@@ -107,7 +107,7 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UI Design</h6>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">Diseño UX</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.2rem; line-height: 3rem;'>Caja Huancayo</p>
           </div>
           <!-- Texts hover -->
@@ -124,8 +124,8 @@
 
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">UX/UI Design</h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Asiri</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">Sistema Web</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>BBVA</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -137,8 +137,8 @@
         <div class='d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry'>
           <!-- Texts hover -->
           <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ACTIVACIÓN </h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>TDT</p>
+            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase">Desarrollo de Sistema</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Bim</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
