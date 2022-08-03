@@ -178,12 +178,22 @@ Template Name: Home
 </div>
     <!--------------------- Button Modal --------------------->
         <div 
-        class="position-absolute ndx w-100 h-100" 
-        style="padding-top: 5rem;"
-        > 
+        class="position-absolute ndx w-100 h-100 " 
+       
+        >           <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
+                            data-target="#myModalRight" 
+                            data-dismiss="modal" 
+                            data-backdrop="false">
+                       <img class=""
+                          src="<?php echo get_template_directory_uri() .'/assets/images/menu-responsive'?>/openform.svg"
+                          alt="Instagram"
+                        />
+                   </div>
+                     
+
             <div
                 type="button"
-                class="position-fixed ndx" 
+                class="position-fixed ndx form-button" 
                 class="btn btn-primary" 
                 data-toggle="modal" 
                 data-target="#myModalRight" 
