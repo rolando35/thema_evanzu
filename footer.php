@@ -180,7 +180,7 @@
 
         <div class="my-3">
           <h2 id="footer-social-text" class="text-light hurme-semi-bold-4">Redes sociales</h2>
-          <div class="d-flex justify-content-between w-50">
+          <div class="d-flex justify-content-center w-100">
             <a href="https://www.facebook.com/evanzuperu/" target="_blank">
               <img class="mx-1"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">

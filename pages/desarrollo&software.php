@@ -60,7 +60,7 @@ $path_software =
   font-size: 2.7rem; 
   line-height: 1; 
   color: #FFFFFF;
-  margin-bottom: -2.8rem;
+  margin-bottom: -1.5rem;
 }
 
 .text-paragraph {
@@ -137,6 +137,9 @@ $path_software =
 	.carousel-item > img {
 		height: 25rem !important;
 	}
+	.btn-btl {
+    font-size: 1rem !important;
+  }
 
 	
   .big-title {
@@ -146,13 +149,21 @@ $path_software =
     font-size: 3rem !important;
     line-height: 87px;
   }
+
+	.filter-img{
+    filter: brightness(0.5) !important;
+  }
 }
 
 .carousel-caption{
-		top: 5rem;
+		top: 11rem;
 		bottom: auto;
 		left: 10%;
 	} 
+
+	.filter-img{
+    filter: none;
+  }
 
 .line-h{
     width: 4.9rem;
@@ -219,7 +230,7 @@ $path_software =
 </style>
 
     <!--------------------- Button Modal --------------------->
-        <div   class="position-fixed button-form-in-pages"> 
+        <div   class="position-fixed button-form-in-pages pr-2 pr-sm-0"> 
 
                 <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
                             data-target="#myModalRight" 
@@ -230,9 +241,6 @@ $path_software =
                           alt="Instagram"
                         />
                    </div>
-
-
-
 
                         <div
                         type="button"
@@ -271,7 +279,7 @@ $path_software =
 					src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Portada Desarrollo.jpg"
 					title="Desarrollo de Software y App móviles"
 					alt="Computadora con una web"
-          class="w-100 h-100"
+          class="w-100 h-100 filter-img"
 				/>
 				<div class="carousel-caption">
 					<div class="col-8 flex-colum text-left p-0">
@@ -281,11 +289,13 @@ $path_software =
               <h2 class="text-paragraph2 mr-2 hurme-bold-4" data-wow-delay="0.3s">SOFTWARE</h2>
               <img
 								alt="title icon"
+								class="d-none d-sm-block"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/title-icon.svg"
 								/>
             </div>
 						<div class="text-subtitle-btl">
-              Es momento de ponerte en modo digital. <br> Ofrecemos la combinación perfecta de diseño, usabilidad y técnología.
+							<span class="d-none d-sm-block"> Es momento de ponerte en modo digital. </span>
+               <br> Ofrecemos la combinación perfecta de diseño, usabilidad y técnología.
 						</div>
               <div class="mt-3 text-left">
                 <button
@@ -792,7 +802,7 @@ Explotamos al máximo las funcionalidades que nos ofrecen las plataformas móvil
 					</div>
           <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
               <img
-								class=""
+								class="img-fluid"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/desarrollo-de-software/Ilustración app móviles.png"
 								title="Servicio de desarrollo de app móviles"
 								alt="Ilustración del proceso de desarrollo"

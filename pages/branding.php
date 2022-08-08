@@ -104,6 +104,14 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     margin-top: 0;
   }
 
+  .margin-5 {
+    margin-top: 0;
+  }
+
+  .filter-img{
+    filter: none;
+  }
+
 @media only screen and (max-width: 992px) {
   .mlt-n1 {
     margin-left: 0 !important;
@@ -126,11 +134,17 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     font-size: 3rem !important;
     line-height: 87px;
   }
+  .margin-5 {
+    margin-top: -5rem !important;
+  }
+  .filter-img{
+    filter: brightness(0.5) !important;
+  }
 }
 </style>
 
     <!--------------------- Button Modal --------------------->
-        <div   class="position-fixed button-form-in-pages"> 
+        <div   class="position-fixed button-form-in-pages pr-2 pr-sm-0"> 
 
                                <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
                             data-target="#myModalRight" 
@@ -183,7 +197,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
       <div class="carousel-item active">
         <img
           src="<?php echo $directory_branding_imgs . 'banner_brading.png'; ?>"
-          class="w-100"
+          class="w-100 filter-img"
           style="min-height: 25rem"
         />
 
@@ -207,7 +221,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
           </div>
 
           <div class="mt-3 text-left">
-            <span class="text-subtitle-btl text-red"
+            <span class="text-subtitle-btl text-red d-none d-sm-block"
               >Sabes que tu marca lo necesita.
             </span>
             <button 
@@ -420,7 +434,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 
               <div class="d-flex flex-column flex-md-row mt-6m">
                 <div class="d-flex flex-column my-1 mt-lg-0 mb-lg-5">
-                	<div class="d-flex flex-column align-items-center flex-lg-row ">
+                	<div class="d-flex flex-column align-items-center flex-lg-row margin-5 ">
                 		<div class="align-self-lg-end">
                 			<img class="image-service" src="<?php echo $directory_branding_imgs . 'notes_icon.svg'; ?>"
                 			/>
@@ -473,8 +487,8 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                 ></div>
               </div>
             </div>
-              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
-                <img   src="<?php echo $directory_branding_imgs .
+              <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem; height: 16rem'>
+                <img class="d-none d-sm-block"  src="<?php echo $directory_branding_imgs .
                     'publicidad grafico_Mesa.png'; ?>">
               </div>
           </div>

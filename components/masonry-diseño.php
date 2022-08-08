@@ -4,9 +4,9 @@
       <!--  -->
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>BBVA Continental</p>
+            <p class="text-light font-weight-bold hurme-bold-4 font-25-text" style='line-height: 3rem;'>BBVA Continental</p>
           </div>
           <!-- Texts hover -->
           <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option(
@@ -16,7 +16,7 @@
       <div class="d-md-flex justify-content-center flex-md-row">
         <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry" >
            <!-- Texts hover -->
-           <div class='position-absolute masonry-hover-lirycs ml-4'>
+           <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
               <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO DE BRANDING</h6>
               <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Pakakuna</p>
             </div>
@@ -28,7 +28,7 @@
         <div class="">
           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">MERCHANDISING</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Betfair</p>
           </div>
@@ -40,7 +40,7 @@
           </div>
           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">LETRERO ROMPETRÁFICO</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Pakakuna</p>
           </div>
@@ -53,9 +53,9 @@
       </div>
     </div>
     <div class="">
-      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image position-relative" style="margin-bottom: 20px;">
+      <div class="d-none d-sm-flex justify-content-center justify-content-lg-start align-items-end hover-image position-relative" style="margin-bottom: 20px;">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO DE FOLLETERÍA</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Market Nexus</p>
           </div>
@@ -68,9 +68,9 @@
         
         <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
-            <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
+            <h6 class="small text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
+            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 1;'>
               BBVA <br>
               Continental
             </p>
@@ -83,7 +83,7 @@
         <div class="">
           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image" style="margin-bottom: 20px;">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DESARROLLO DE BRANDING</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.4rem; line-height: 3rem;'>Adventure Life</p>
           </div>
@@ -92,9 +92,9 @@
                 'branding'
             )['galleri-image-three']; ?>">
         </div>
-          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+          <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">ILUSTRACIÓN DIGITAL</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.4rem; line-height: 3rem;'>BBVA Continental</p>
           </div>
@@ -105,9 +105,9 @@
         </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
+      <div class="d-none d-sm-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">PIEZAS DE COMUNICACIÓN</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Agentes BBVA Continental</p>
           </div>
@@ -121,7 +121,7 @@
   <div class="d-md-flex justify-content-center flex-md-row b mb-3">
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO GRÁFICO</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>TAMBO</p>
           </div>
@@ -132,7 +132,7 @@
       </div>
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image space-between-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">DISEÑO PUBLICITARIO</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Artecola</p>
           </div>
@@ -143,7 +143,7 @@
       </div>
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image ">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12 font-weight-bold hurme-bold-4">PACKAGING</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 1.7rem; line-height: 3rem;'>Hander</p>
           </div>

@@ -95,12 +95,19 @@ Template Name: Home
         max-width: 100%;
     }
 
+    .points {
+        height: auto;
+    }
+
     @media only screen and (max-width: 440px) {
         .image-sup {
         margin-top: -5rem;
         cursor: pointer;
         margin-left: 9rem;
         width: 8rem;
+        }
+        .points{
+            height: 6rem !important;
         }
         .text-left-contain-first {
             font-weight: 900 !important;
@@ -177,19 +184,15 @@ Template Name: Home
   </nav>
 </div>
     <!--------------------- Button Modal --------------------->
-        <div 
-        class="position-absolute ndx w-100 h-100 " 
-       
-        >           <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
-                            data-target="#myModalRight" 
-                            data-dismiss="modal" 
-                            data-backdrop="false">
-                       <img class=""
-                          src="<?php echo get_template_directory_uri() .'/assets/images/menu-responsive'?>/openform.svg"
-                          alt="Instagram"
-                        />
-                   </div>
-                     
+        <div class="position-absolute ndx w-100 h-100 " >
+            <div class="d-block d-md-none position-fixed" data-toggle="modal" 
+                data-target="#myModalRight" 
+                data-dismiss="modal" 
+                data-backdrop="false">
+                <img class=""
+                src="<?php echo get_template_directory_uri() .'/assets/images/menu-responsive'?>/openform.svg"
+                alt="Instagram"/>
+        </div>
 
             <div
                 type="button"
@@ -306,7 +309,7 @@ Template Name: Home
                             <a  href="petro-peru"> 
                                 <img src="<?php echo get_template_directory_uri() .
                                     '/assets/images/clients/'; ?>BIG-PETROPERU.png"
-                                    class="img-fluid mx-auto d-block img-client pulse-alternative"
+                                    class="img-fluid mx-auto d-block img-client pulse-alternative my-2 my-sm-0"
                                     alt="Cliente Evanzu PETRO PERU">
                             </a>
                      </div>
@@ -332,7 +335,7 @@ Template Name: Home
                      <div class="mx-2">
                           <a href="aesa">
                             <img src="<?php echo get_template_directory_uri() .
-                                '/assets/images/clients/'; ?>AESA.png" class="img-fluid mx-auto d-block pulse" alt="Cliente Evanzu AESA">
+                                '/assets/images/clients/'; ?>AESA.png" class="img-fluid mx-auto d-block pulse my-2 my-sm-0" alt="Cliente Evanzu AESA">
                          </a>
                      </div>
                        <div class="mx-2">
@@ -453,7 +456,9 @@ Template Name: Home
         </div>
 
         <div class="text-center">
-            <img class="img-fluid mt-5" src="<?php echo get_template_directory_uri() .'/assets/images/'; ?>points-clientes.svg" alt="Imagen de puntos" title="Puntos">
+            <div class="d-flex justify-content-center points">
+                <img class="img-fluid mt-5 d-none d-sm-block" src="<?php echo get_template_directory_uri() .'/assets/images/'; ?>points-clientes.svg" alt="Imagen de puntos" title="Puntos">
+            </div>
             <div class="big-title text-red mt-4">
                 NUESTROS CLIENTES
             </div>

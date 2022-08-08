@@ -8,7 +8,7 @@ $path_img = get_template_directory_uri() . '/assets/images/bbva/';
 ?>
 
     <!--------------------- Button Modal --------------------->
-        <div   class="position-fixed button-form-in-pages"> 
+        <div   class="position-fixed button-form-in-pages pr-2 pr-sm-0"> 
 
                   <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
                             data-target="#myModalRight" 

@@ -15,6 +15,10 @@
     margin: 0 0 0 auto
   }
 
+  .width_auto{
+    width: auto;
+  }
+
   .mt-5c {
     margin-top: 5rem;
   }
@@ -25,12 +29,12 @@
   }
 
   .mt-3_5 {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
 
   .h-30 {
-    height: 22rem;
+    height: 19rem;
   }
 
   .height-small {
@@ -61,7 +65,11 @@
 
   @media only screen and ( max-width: 550px ) {
     .mt-5c {
-      margin-top: 2.9rem !important;
+      margin-top: 4.9rem !important;
+    }
+
+    .width_auto{
+      width: 100% !important;
     }
 
     .button-send-msg {
@@ -161,6 +169,13 @@
 
             <div class="col-12 col-lg-6">
               <h2 class="text-light mt-4 contact-text hurme-bold-4">CONTÁCTANOS</h2>
+
+              <div class="d-flex h-100 align-items-center justify-content-end d-lg-none">
+                <div class="position-relative close button-close" type="button" data-dismiss="modal" aria-label="Close" style="margin-top: -2rem;">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-close.svg">
+                </div>
+              </div>
+
               <div>
                 <form id="basic-form" action="" method="post">
                   <input
@@ -210,15 +225,15 @@
                   <button
                     id="send"
                     type = "submit"
-                    class="hurme-simple-4 submit submitbtn button-send-msg bg-white py-2 px-5 border-0 my-4 font-weight-bold">Enviar mensaje</button>
+                    class="hurme-simple-4 submit submitbtn button-send-msg bg-white py-2 px-5 border-0 my-4 font-weight-bold width_auto">Enviar mensaje</button>
                 </form>
                   <div id="succes" class="success_msg" style="display:none">Message Sent Successfully</div>
                   <div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
              </div>
          
               <div class="h-30">
-                <h4 class="text-yellow hurme-bold-4">Nuestras Sedes</h4>
-                <div class="d-flex pb-1 mb-lg-5" style="justify-content: space-evenly;">
+                <h4 class="text-yellow hurme-bold-4 d-none d-sm-block ">Nuestras Sedes</h4>
+                <div class="pb-1 mb-lg-5 d-none d-sm-flex" style="justify-content: space-evenly;">
 
                   <div class="pb-5 mr-1 mr-lg-5" style="width: 15.6rem">
                     <?php get_template_part(
@@ -287,7 +302,7 @@
                 </div>
                 <!----------------Social---------------->
                 <div class="w-100 d-flex justify-content-center">
-                  <div class="d-flex justify-content-around w-75 bg-red" style="margin-top: -2rem;">
+                  <div class="d-flex justify-content-around w-75 bg-red">
                     <a href="https://www.facebook.com/evanzuperu/" target="_blank">
                       <img class="social-net"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.svg">
@@ -318,7 +333,7 @@
               <!----------------Social---------------->
             </div>
 
-            <div class="col-12 col-lg-6  bg-custom-white ">
+            <div class="col-12 col-lg-6  bg-custom-white d-none d-lg-block">
             <img class="position-absolute d-none d-lg-block w-100 min-height" style="" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-modal.svg">
             <div class="position-absolute d-block text-center w-100">
                 <img class="img-banner-modal" style="margin-top: -2rem;" src="<?php echo get_template_directory_uri(); ?>/assets/images/asset-modal.png">

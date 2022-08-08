@@ -95,6 +95,9 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
   margin-bottom: -6rem;
 }
 
+.filter-img{
+    filter: none;
+  }
 
 @media only screen and (max-width: 1200px) {
   .text-paragraph {
@@ -137,6 +140,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 	.carousel-item > img {
 		height: 25rem !important;
 	}
+
+  .filter-img{
+    filter: brightness(0.5) !important;
+  }
 }
   @media only screen and (max-width: 980px) {
   .margin-neg {
@@ -163,7 +170,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 </style>
 
     <!--------------------- Button Modal --------------------->
-        <div   class="position-fixed button-form-in-pages"> 
+        <div   class="position-fixed button-form-in-pages pr-2 pr-sm-0"> 
 
                       <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
                             data-target="#myModalRight" 
@@ -218,7 +225,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="w-100" src="<?php echo get_option('evanzu')[
+        <img class="w-100 filter-img" src="<?php echo get_option('evanzu')[
             'carrusell-image-one'
         ]; ?>">
           	  <div class="carousel-caption-branding">
@@ -227,14 +234,15 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                   <div class="d-flex align-center mt-n4">
                     <p class="text-paragraph2 mr-2" data-wow-delay="0.3s">DIGITAL</p>
                     <img
+                      
                       src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing-digital/title-icon.svg"
                       />
                   </div>
                   <div class="text-subtitle-btl">
-                      Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
+                      Te ayudamos a conectar con tus clientes <span class="d-none d-sm-block">a través de <br>canales digitales, plataformas sociales y mucho más.</span>
                   </div>
                     <div class="mt-3 text-left text-white">
-                      Quieres resultados. 
+                      <span class="d-none d-sm-block">Quieres resultados. </span>
                       <button
                       class="btn-btl"
                       id="btn-main"
@@ -248,7 +256,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 					     </div>	
         </div>
       <div class="carousel-item">
-        <img class="w-100" alt="Campaña digital para el lanzamiento de la marca BMatic" 
+        <img class="w-100 filter-img" alt="Campaña digital para el lanzamiento de la marca BMatic" 
              title="Evanzu servicio Marketing Digital" 
              src="<?php echo get_option('evanzu')['carrusell-image-two']; ?>">
            <div class="carousel-caption-branding">
@@ -261,10 +269,10 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
                       />
                   </div>
                   <div class="text-subtitle-btl">
-                      Te ayudamos a conectar con tus clientes a través de <br>canales digitales, plataformas sociales y mucho más.
+                      Te ayudamos a conectar con tus clientes <span class="d-none d-sm-block">a través de <br>canales digitales, plataformas sociales y mucho más.</span>
                   </div>
                     <div class="mt-3 text-left text-white">
-                      Quieres resultados. 
+                    <span class="d-none d-sm-block">Quieres resultados. </span>
                       <button
                       class="btn-btl"
                       id="btn-main"
@@ -293,7 +301,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 </section>
 <section>
   <div class="bg-white">
-    <div class="">
+    <div class="mt-2">
       <ul
         class="nav nav-pills nav-tabs-sticky justify-content-center"
         id="nav-iconos"

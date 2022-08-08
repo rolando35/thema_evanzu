@@ -58,8 +58,15 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 		background: red;
 		height: 900px;
 	}
+
+	.filter-img{
+    filter: none;
+  }
 	
 	@media only screen and (max-width: 669px) {
+	.btn-btl {
+  font-size: 1rem !important;
+  }
   .big-title {
     font-family: hurme-simple-black;
     font-style: normal;
@@ -67,12 +74,16 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
     font-size: 3rem !important;
     line-height: 87px;
   }
+
+	.filter-img{
+    filter: brightness(0.5) !important;
+  }
 }
 
 </style>
 
     <!--------------------- Button Modal --------------------->
-        <div   class="position-fixed button-form-in-pages">
+        <div   class="position-fixed button-form-in-pages pr-2 pr-sm-0">
 			        <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
                             data-target="#myModalRight" 
                             data-dismiss="modal" 
@@ -121,7 +132,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 				<img
 					src="<?php echo get_template_directory_uri()?>/assets/images/btl/Servicio-de-Activación-BTL.jpg;"
 					alt="Los Angeles"
-					class="w-100"
+					class="w-100 filter-img"
 					title="Activaciones BTL"
 					alt="Anfitrionas con uniforme para activaciones BTL para tu marca"
 					style="min-height: 25rem;"
@@ -142,7 +153,7 @@ $path_img = get_template_directory_uri() . '/assets/images/btl/';
 							<div class="text-subtitle-btl">
 								Sacamos nuestra creatividad y estrategia a las calles.
 							</div>
-							<div class="text-subtitle-btl">
+							<div class="text-subtitle-btl d-none d-sm-block">
 								Salimos a encontrar a tus próximos clientes y enamorar a los
 								actuales con campañas interactivas.
 							</div>

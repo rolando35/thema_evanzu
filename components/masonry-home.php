@@ -13,7 +13,7 @@
       </div>
       <div>
       <div class="">
-        <div class=" justify-content-center mb-1">
+        <div class=" justify-content-center mb-1 d-none d-sm-block">
             <!------------------------- Hover-image ------------------------->
             <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
               <!-- Texts hover -->
@@ -25,7 +25,7 @@
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-two"]; ?>">
             </div>
         </div>
-        <div class="justify-content-center mt-1">
+        <div class="justify-content-center mt-1 d-none d-sm-block">
           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs p-4'>
@@ -55,7 +55,7 @@
           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
             <!-- Texts hover -->
             <div class='position-absolute masonry-hover-lirycs p-2'>
-              <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center fs-12">Gestión de relaciones públicas</h6>
+              <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center fs-12 max-text-red">Gestión de relaciones públicas</h6>
               <p class=" text-light font-weight-bold hurme-bold-4 red-small text-center text-lg-left" >Cofide</p>
             </div>
             <!-- Texts hover -->
@@ -65,7 +65,7 @@
           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
            
             <div class='position-absolute masonry-hover-lirycs p-2'>
-              <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center fs-12">Gestión de relaciones públicas</h6>
+              <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center fs-12 max-text-red">Gestión de relaciones públicas</h6>
               <p class=" text-light font-weight-bold hurme-bold-4 red-small text-center text-lg-left" >Cofide</p>
             </div>
            
@@ -98,7 +98,7 @@
               <!-- Texts hover -->
               <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option("home_main")["galleria-image-teen"]; ?>">
             </div>
-            <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
+            <div class="d-none d-lg-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
               <!-- Texts hover -->
               <div class='position-absolute masonry-hover-lirycs p-4'>
                 <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center">Spot Publicitario</h6>
@@ -110,7 +110,7 @@
           </div>     
         <div class="d-md-flex justify-content-center flex-md-row">
           <div class="mr-1">
-            <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
+            <div class="d-none d-lg-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
                 <!-- Texts hover -->
                 <div class='position-absolute masonry-hover-lirycs p-4'>
                   <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center">Spot Publicitario</h6>
@@ -158,7 +158,7 @@
 <!-- Fourteen -->
   <div class="d-md-flex justify-content-center flex-md-row">
 
-    <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
+    <div class="d-none d-lg-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
       <!-- Texts hover -->
       <div class='position-absolute masonry-hover-lirycs ml-4'>
         <h6 class="small text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase text-center text-lg-left">Marketing digital</h6>
@@ -170,7 +170,7 @@
 
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
       <!-- Texts hover -->
-      <div class='position-absolute masonry-hover-lirycs ml-4'>
+      <div class='position-absolute masonry-hover-lirycs ml-0 ml-lg-4'>
         <h6 class="small text-red fs-12 font-weight-bold hurme-bold-4 text-center text-lg-left">DISEÑO GRÁFICO</h6>
         <p class="text-light font-weight-bold hurme-bold-4 red-small text-center text-lg-left">Artecola</p>
       </div>
@@ -180,7 +180,7 @@
 
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
       <!-- Texts hover -->
-      <div class='position-absolute masonry-hover-lirycs ml-4'>
+      <div class='position-absolute masonry-hover-lirycs ml-0 ml-lg-4'>
         <h6 class="small text-red fs-12 font-weight-bold hurme-bold-4 text-center text-lg-left text-uppercase">Diseño UX</h6>
         <p class="text-light font-weight-bold hurme-bold-4 red-small text-center text-lg-left">BMatic</p>
       </div>
@@ -196,7 +196,7 @@
   <div class="d-md-flex justify-content-center flex-md-row mb-3">
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
       <!-- Texts hover -->
-      <div class='position-absolute masonry-hover-lirycs ml-4'>
+      <div class='position-absolute masonry-hover-lirycs ml-0 ml-lg-4'>
         <h6 class="small text-red fs-12 font-weight-bold hurme-bold-4 text-center text-lg-left">DISEÑO UX</h6>
         <p class="text-light font-weight-bold hurme-bold-4 red-small text-center text-lg-left">Caja <br> Huancayo</p>
       </div>
@@ -206,7 +206,7 @@
 
     <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image space-between-masonry">
       <!-- Texts hover -->
-      <div class='position-absolute masonry-hover-lirycs ml-4'>
+      <div class='position-absolute masonry-hover-lirycs ml-0 ml-lg-4'>
         <h6 class="small text-red fs-12 font-weight-bold hurme-bold-4 text-uppercase text-center text-lg-left">Activación btl</h6>
         <p class="text-light font-weight-bold hurme-bold-4 red-small text-center text-lg-left">Bim</p>
       </div>
@@ -215,7 +215,7 @@
     </div>
 
 
-    <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image">
+    <div class="d-none d-lg-flex justify-content-center justify-content-lg-start align-items-end hover-image">
         <!-- Texts hover -->
         <div class='position-absolute masonry-hover-lirycs p-4'>
           <h6 class="small font-weight-normal text-red text-uppercase hurme-bold-4 text-lg-left text-center">ACTIVACIÓN BTL</h6>

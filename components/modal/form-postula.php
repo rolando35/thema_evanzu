@@ -223,7 +223,7 @@ label[for="file"] {
               <div class="error_mssg" style="display:none">Message Not Sent, There is some error.</div>
               <!----------------Social---------------->
             </div>
-            <div class="d-flex h-100 align-items-center justify-content-end" style="margin-right: -2rem;">
+            <div class="d-flex h-100 align-items-center justify-content-end" style="margin-right: -3rem;">
                 <div class="position-relative close button-close" type="button" data-dismiss="modal" aria-label="Close">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-close.svg">
                 </div>

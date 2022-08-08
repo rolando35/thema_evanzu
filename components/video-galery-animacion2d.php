@@ -12,7 +12,7 @@
   <!-------------- Two Iframes -------------->
   <div class="row py-4">
     <div class="col-12 col-md-6">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">CAMPAÑA ESCOLAR</p>
@@ -38,7 +38,7 @@
   
   <div class="row">
     <div class="col-12 col-md-4">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">ILUSTRACIÓN - DÍA DE LA AMISTAD</p>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="col-12 col-md-4">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">A UN PASO DE TI</p>
@@ -75,7 +75,7 @@
   <!-------------- Two Iframes -------------->
   <div class="row py-4">
     <div class="col-12 col-md-6">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">REFIÉRENOS Y GANA</p>
@@ -101,7 +101,7 @@
   <!-------------- three Iframes -------------->
   <div class="row">
     <div class="col-12 col-md-4">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">TU BILLETERA MÓVIL</p>
@@ -112,7 +112,7 @@
       </div>
     </div>
     <div class="col-12 col-md-4">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">CASH EN EFECTIVO</p>
@@ -146,9 +146,9 @@
   <iframe class="responsive-masonry-image" width="560" height="315" src="https://www.youtube.com/embed/M7h_bj6YVwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <!-------------- Two Iframes -------------->
-  <div class="row py-4">
+  <div class="row pt-0 pb-4 pb-sm-4">
     <div class="col-12 col-md-6">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">PROCESO DE EXPLOTACIÓN Y EXTRACCIÓN DEL PETRÓLEO</p>

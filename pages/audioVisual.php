@@ -107,6 +107,12 @@ ul{
     width: auto;
   }
 
+
+  .margin-bottom-gallery {
+    margin-bottom: 0;
+  }
+
+
 @media only screen and (max-width: 1200px) {
   .text-paragraph {
 		font-size: 2.2rem !important;
@@ -139,6 +145,9 @@ ul{
   }
 }
 @media only screen and (max-width: 669px) {
+  .margin-bottom-gallery {
+      margin-bottom: 22px !important;
+    }
 	.flex-colum {
 		max-width: none;
 	}
@@ -256,7 +265,7 @@ h5 {
 </style>
 
     <!--------------------- Button Modal --------------------->
-        <div class="position-fixed button-form-in-pages"> 
+        <div class="position-fixed button-form-in-pages pr-2 pr-sm-0"> 
 
 
                   <div  class="d-block d-md-none position-fixed" data-toggle="modal" 
@@ -471,7 +480,7 @@ h5 {
               			class="align-self-center text-center text-lg-left p-2 pr-lg-3 pb-lg-0 text-service"
               		>
                   <span class="hurme-bold-4">Produción</span>
-                    <ul class="w-310">
+                    <ul class="w-310 text-left">
                         <li>Producción y gestión de rodaje.</li>
                         <li>Maquillaje y Make up.</li>
                         <li>Capatura de tomas en audio directo.</li>
@@ -499,7 +508,7 @@ h5 {
 							<?php get_template_part('components/btl/service-left', 'full', [
            'image' => $directory_imgs . 'icono (1).svg',
            'text' => '<span class="hurme-bold-4">Post Producción</span>
-                                <ul class="w-310">
+                                <ul class="w-310 text-left">
                                     <li>Edición de Video Digital.</li>
                                     <li>Realización de efectos visuales.</li>
                                     <li>Locución y edición de audio digital.</li>
@@ -516,7 +525,7 @@ h5 {
 				</div>
         <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem; height: 10rem;'>
             <img
-              class="d-none d-lg-block"
+              class="d-none d-lg-block img-fluid"
               style="margin-top: -7rem; margin-right: -28rem;"
               title="Herramientas de Audio Visuales"
               alt="Ilustración de Herramientas para el servicio de Audio Visuales"
@@ -725,9 +734,9 @@ h5 {
 							</div>
 						</div>
 					</div>
-          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem; height: 15rem;'>
               <img
-                class=""
+                class="img-fluid d-none d-sm-block"
                 title="Herramientas de Audio Visuales"
                 alt="Ilustración de Herramientas para el servicio de Audio Visuales"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Ilustración Servicio de Audio Visuales.png"
@@ -901,9 +910,9 @@ h5 {
 							</div>
 						</div>
 					</div>
-          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem;'>
+          <div class="position-relative d-flex justify-content-center mt-5" style='margin-bottom: -7rem; height: 15rem;'>
               <img
-                class=""
+                class="img-fluid d-none d-sm-block"
                 title="Herramientas de Audio Visuales"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/audioVisual/Ilustración Servicio de Audio Visuales.png">
           </div>

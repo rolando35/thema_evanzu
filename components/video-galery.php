@@ -19,7 +19,7 @@
   </div>
   <div class="row py-4">
     <div class="col-12 col-md-6">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
         <!-- Texts hover -->
         <div class='position-absolute lirycs-hover fixed-bottom'>
           <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">SPOT PUBLICITARIO - DÍA DE LA MADRE</p>
@@ -45,7 +45,7 @@
   </div>
   <div class="row">
     <div class="col-12 col-md-4">
-    <div class="video-responsive hover-div-invert">
+    <div class="video-responsive hover-div-invert margin-bottom-gallery">
         <!-- Texts hover -->
         <div class='position-absolute lirycs-hover fixed-bottom'>
           <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">PROMOCIONAL DE EMPRESA - SERVICIOS</p>
@@ -56,7 +56,7 @@
       </div>
     </div>
     <div class="col-12 col-md-4">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
         <!-- Texts hover -->
         <div class='position-absolute lirycs-hover fixed-bottom'>
           <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">VIDEO TESTIMONIAL - AGENTE BBVA</p>
@@ -91,7 +91,7 @@
   
   <div class="row my-4">
     <div class="col-12 col-md-4">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">PUBLIREPORTAJE - SALUDO NAVIDEÑO</p>
@@ -102,7 +102,7 @@
       </div>
     </div>
     <div class="col-12 col-md-4">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">ACTIVACIÓN - LA RUTA DEL VERANO</p>
@@ -127,7 +127,7 @@
 
   <div class="row">
     <div class="col-12 col-md-6">
-      <div class="video-responsive hover-div-invert">
+      <div class="video-responsive hover-div-invert margin-bottom-gallery">
     <!-- Texts hover -->
     <div class='position-absolute lirycs-hover fixed-bottom'>
       <p class="small text-red fs-12 font-weight-bold hurme-simple m-0">CAMPAÑA TALARA</p>

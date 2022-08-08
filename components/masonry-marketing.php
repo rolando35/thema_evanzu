@@ -3,18 +3,18 @@
     <div class="d-md-flex justify-content-center flex-md-row">
       <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
         <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">CAMPAÑA DE EMAILING</h6>
-            <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>BBVA Continental</p>
+            <p class="text-light font-weight-bold hurme-bold-4 font-25-text" style='line-height: 3rem;'>BBVA Continental</p>
           </div>
           <!-- Texts hover -->
       <img class="responsive-masonry-image hover-masonry-image" src="<?php echo get_option('marketing')['galeria-image-one']; ?>">
     </div>
 
       <div class="">
-        <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
+        <div class="d-none d-sm-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 
               class="small text-near text-red fs-12  font-weight-bold hurme-bold-4"
             >GESTIÓN DE REDES SOCIALES</h6>
@@ -31,7 +31,7 @@
         <div class="d-md-flex justify-content-center flex-md-row">
           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
             <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>SERVIR</p>
           </div>
@@ -42,7 +42,7 @@
         </div>
           <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
             <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>Yakufarma</p>
           </div>
@@ -59,7 +59,7 @@
     <div class="d-md-flex justify-content-center flex-md-row">
       <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
         <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>BMatic</p>
           </div>
@@ -70,7 +70,7 @@
           <div class="d-md-flex justify-content-center flex-md-row">
             <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
               <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>Artecola</p>
           </div>
@@ -81,7 +81,7 @@
           </div>
             <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
               <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>SERVIR</p>
           </div>
@@ -91,9 +91,9 @@
             ]; ?>">
           </div>
           </div>     
-        <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
+        <div class="d-none d-sm-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-bottom-right-masonry">
           <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>Petroperú</p>
           </div>
@@ -105,7 +105,7 @@
       </div>
       <div class="d-flex justify-content-center justify-content-lg-start align-items-end hover-image margin-y-masonry">
         <!-- Texts hover -->
-          <div class='position-absolute masonry-hover-lirycs ml-4'>
+          <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
             <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">EMAIL MARKETING</h6>
             <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>COVENDE</p>
           </div>
@@ -115,9 +115,9 @@
     </div>
   </div>
 
-  <div class="d-flex justify-content-center mw-50 d-flex align-items-center hover-image"> 
+  <div class="d-none d-sm-flex justify-content-center mw-50 align-items-center hover-image"> 
     <!-- Texts hover -->
-      <div class='position-absolute masonry-hover-lirycs ml-4'>
+      <div class='position-absolute masonry-hover-lirycs ml-0 ml-sm-4 text-center text-sm-left'>
         <h6 class="small text-near text-red fs-12  font-weight-bold hurme-bold-4">GESTIÓN DE REDES SOCIALES</h6>
         <p class="text-light font-weight-bold hurme-bold-4" style='font-size: 25px; line-height: 3rem;'>BBVA Continental</p>
       </div>
