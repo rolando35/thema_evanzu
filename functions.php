@@ -334,7 +334,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
-if( $correo );
+if( $correo )echo"enviado";
  else echo "<span style='color:red; font-size:2rem;'> Error correo no enviado <span> ";
 }
 
