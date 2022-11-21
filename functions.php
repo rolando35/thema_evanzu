@@ -213,7 +213,7 @@ function dcms_enviar_contenido()
     sleep(1);
 	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$name.", en breve nos contactaremos contigo, ¡gracias! </span> ";
 	
-	$to = "rolando@evanzu.com";
+	$to = "rolando@evanzu.com,ruth@evanzu.com";
     $subject = "Evanzu contacto";
 
    $message = "
@@ -258,7 +258,7 @@ function dcms_enviar_postulacion()
   sleep(1);
 	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$fullname." en breve nos contactaremos contigo, ¡gracias!. </span> ";
 	
-	$to = "rolando@evanzu.com";
+	$to = "rolando@evanzu.com,ruth@evanzu.com";
     $subject = "Evanzu contacto";
 
    $message = "
@@ -301,7 +301,7 @@ function dcms_enviar_cotization()
   sleep(1);
 	echo "<div style='color:white; font-size:1.5rem;'> En breve nos contactaremos contigo. ¡Gracias! </div> ";
 	
-	$to = "rolando@evanzu.com";
+	$to = "rolando@evanzu.com,ruth@evanzu.com";
     $subject = "Evanzu contacto";
 
    $message = "
