@@ -297,8 +297,7 @@ function dcms_enviar_cotization()
 	$email = $_POST['email'];
 	$service = $_POST['service'];
 	$subservice = $_POST['subService'];
-	
-  sleep(1);
+
 	echo "<div style='color:white; font-size:1.5rem;'> En breve nos contactaremos contigo. ¡Gracias! </div> ";
 	
 	$to = "rolando@evanzu.com,ruth@evanzu.com";
@@ -334,7 +333,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
-if( $correo )echo"enviado";
+if( $correo );
  else echo "<span style='color:red; font-size:2rem;'> Error correo no enviado <span> ";
 }
 
