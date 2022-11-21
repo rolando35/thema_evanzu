@@ -250,7 +250,7 @@ if( $correo ) echo "<span class='text-red' style='font-size:2rem;'>  correo envi
 
 function dcms_enviar_postulacion()
 {
-	$fullname = $_POST['fullname'];2static
+	$fullname = $_POST['fullname'];
 	$profile = $_POST['profile'];	
 	$phone = $_POST['phone'];	
 	$file = $_POST['file'];	
