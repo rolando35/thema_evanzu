@@ -250,7 +250,7 @@ if( $correo ) echo "<span class='text-red' style='font-size:2rem;'>  correo envi
 
 function dcms_enviar_postulacion()
 {
-	$fullname = $_POST['fullname'];
+	$fullname = $_POST['fullname'];2static
 	$profile = $_POST['profile'];	
 	$phone = $_POST['phone'];	
 	$file = $_POST['file'];	
@@ -334,7 +334,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
-if( $correo )echo"enviado";
+if( $correo );
  else echo "<span style='color:red; font-size:2rem;'> Error correo no enviado <span> ";
 }
 
