@@ -920,5 +920,20 @@ Template Name: Home
     </div>
  
 </section>
+<?php
+    $tel = "991188119";
+	$ms = urlencode("Hola en que podemos ayudarte");
+	$url = "https://wa.me/${tel}?text=${ms}";
+	$img = get_stylesheet_directory_uri().'/assets/images/icon_wasap.png';
+	echo "<div id='float-whatsapp' style='position:fixed;position: fixed;
+    bottom: 20px;
+    left: 20px;'>";
+	echo " <a href=${url} target='_blank'>";
+	echo " <img src='${img}' width=70 height=70 />";
+	echo " </a>";
+	echo "</div>";
+?>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>  
 <?php get_footer(); ?>

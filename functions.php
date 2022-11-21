@@ -507,4 +507,6 @@ function display_image_column_value( $columns, $column, $id ) {
 
 $image_id = get_term_meta ( $term_id, 'image_id', true );
 echo wp_get_attachment_image ( $image_id, 'full' );
+
 ?>
+
