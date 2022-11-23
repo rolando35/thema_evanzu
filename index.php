@@ -53,6 +53,10 @@
             wp_reset_postdata();
             ?>
         </div>
+        <div>
+        
+          <?php comments_template( '', true ); ?>
+        </div>
       
     </div>
     <div class="col-md-4">
