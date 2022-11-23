@@ -24,7 +24,7 @@
             <p class="card-text"><?php the_content(); ?></p>
             <!-- <a href="<?php the_permalink(); ?>" class="btn btn-primary">Leer más &rarr;</a> -->
           </div>
-          <div class="card-footer text-muted">
+          <div class="card-footer text-white">
             <?php echo get_the_date(); ?> - <?php the_author(); ?>
             
           </div>
@@ -53,10 +53,7 @@
             wp_reset_postdata();
             ?>
         </div>
-        <div>
-        
-          <?php comments_template( '', true ); ?>
-        </div>
+       
       
     </div>
     <div class="col-md-4">
@@ -90,7 +87,10 @@
 			</div>
     </div>
   </div>
-
+       <div>
+        
+          <?php comments_template( '', true ); ?>
+        </div>
   </div> 
                
          <?php endwhile; else : ?>

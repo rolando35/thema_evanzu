@@ -400,7 +400,7 @@
   font-size: 62.3886px;
   line-height: 87px;
 }
-.big-sm-title  {
+.big-sm-title {
   font-family: hurme-simple-black;
   font-style: normal;
   font-weight: 900;
@@ -452,7 +452,7 @@
   line-height: 0.8;
 }
 
-.font-25-text{
+.font-25-text {
   font-size: 25px;
 }
 
@@ -1179,7 +1179,7 @@ a.link-circle {
   height: 400px;
 }
 
-.max-text-red{
+.max-text-red {
   width: auto;
 }
 
@@ -1197,11 +1197,11 @@ a.link-circle {
     height: auto;
   }
 
-  .max-text-red{
+  .max-text-red {
     width: 10rem !important;
   }
 
-  .font-25-text{
+  .font-25-text {
     font-size: 19px !important;
   }
 
@@ -1783,4 +1783,45 @@ select option {
   margin: 40px;
   background: white;
   color: red;
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: #f03c80;
+  border-top: none;
+}
+
+.comment-form-url,
+.comment-form-cookies-consent {
+  display: none;
+}
+
+#comment,
+#author,
+#email {
+  border: 5px solid white;
+  border-bottom: 1px solid #f798bc;
+}
+
+.comment-form-email,
+.comment-form-author {
+  display: inline;
+}
+
+#respond {
+  color: #ed1164;
+}
+
+#submit {
+  border-radius: 23px;
+  background: #ed1164;
+  color: white;
+  padding: 0.8%;
+  margin-top: 1.5%;
+  border: solid 1px;
+}
+
+.avatar {
+  width: 5%;
+  height: 5%;
 }
