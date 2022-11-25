@@ -40,13 +40,13 @@
             foreach ( $last_posts as $post ) :
             setup_postdata( $post );?>
             <!-- <p> <?php the_content();?> </p> -->
-              <div class="card mx-3">
-                <div class=""> 
+              <div class="mx-3">
+                <div> 
                   <a href="<?php the_permalink(); ?>">   
                     <?php the_post_thumbnail();?>
                   </a> 
                 </div>
-                <div class="card-body">
+                <div>
                   <h5 class="card-title text-red font-weight-bold"> <?php the_title();?> </h5>               
                 </div>
               </div>
