@@ -88,6 +88,7 @@
     </div>
   </div>
        <div>
+          <span class="text-red">Comentarios</span>
         
           <?php comments_template( '', true ); ?>
         </div>
