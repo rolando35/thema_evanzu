@@ -39,7 +39,7 @@
           <?php 
             foreach ( $last_posts as $post ) :
             setup_postdata( $post );?>
-            <!-- <p> <?php the_content();?> </p> -->
+          
               <div class="mx-3">
                 <div> 
                   <a href="<?php the_permalink(); ?>">   
