@@ -1829,9 +1829,13 @@ select option {
 }
 
 .commentlist {
+  width: 80%;
+  list-style-type: none;
+}
+
+.comment-body {
   background-color: #fdeaf1;
   padding: 2% 3%;
-  width: 80%;
   border-radius: 8px;
   list-style-type: none;
 }
