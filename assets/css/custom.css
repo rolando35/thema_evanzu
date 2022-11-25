@@ -1154,6 +1154,13 @@ a.link-circle {
 .img-fluid-svg {
   width: unset;
 }
+
+.title-comentarios {
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #ed1164;
+  margin-bottom: 2%;
+}
 /*--------------------  BLOG -------------------*/
 
 /****RESPONSIVE****/
@@ -1819,4 +1826,22 @@ select option {
   border-radius: 50%;
   width: 5% !important;
   height: 5% !important;
+}
+
+.commentlist {
+  background-color: #fdeaf1;
+  padding: 2% 3%;
+  width: 80%;
+  border-radius: 8px;
+  list-style-type: none;
+}
+
+.fn a,
+.commentmetadata a,
+.reply a {
+  color: #e91e63;
+}
+
+.list-relational-post .attachment-post-thumbnail {
+  border-radius: unset;
 }

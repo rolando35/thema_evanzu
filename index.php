@@ -29,7 +29,10 @@
             
           </div>
       </div>
-        <div class="text-red ml-5 mx-3">
+        <!-- <div class="text-red ml-5 mx-3">
+          Post Recientes
+        </div> -->
+         <div class="title-comentarios">
           Post Recientes
         </div>
         <div class="d-flex flex-md-row">
@@ -44,8 +47,7 @@
                   </a> 
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title text-red font-weight-bold"> <?php the_title();?> </h5>    
-                         
+                  <h5 class="card-title text-red font-weight-bold"> <?php the_title();?> </h5>               
                 </div>
               </div>
 
@@ -62,13 +64,36 @@
            <h4 class="text-red">Categorías</h4> 
             <?php the_category(); ?>
         </div>
+          <div class="my-1"> <h4 class="text-red">Post Relacionados</h4> </div>
+          <div class="">
+          <?php 
+            foreach ( $last_posts as $post ) :
+            setup_postdata( $post );?>
+                <div class="d-flex my-4"> 
+                  <div class="w-25 p-1">
+                      <a class="list-relational-post" href="<?php the_permalink(); ?>">   
+                        <?php the_post_thumbnail();?>
+                      </a> 
+                  </div> 
+                  <div class="p-1"> 
+                     <span class="card-title text-red font-weight-bold"> <?php the_title();?> </span>   
+                     <h6>
+                       <?php echo get_the_date(); ?> 
+                     </h6> 
+                  </div> 
+                </div>
+            <?php endforeach;
+            wp_reset_postdata();
+            ?>
+        </div>
+
          <div class="my-5">
            <?php
            	$r = new WP_Query( apply_filters( 'widget_posts_args', array('posts_per_page'=>5, 'no_found_rows'=>true, 'post_status'=>'publish', 'ignore_sticky_posts'=>true ) ) );
                 if ($r->have_posts()) :
                 ?>
               
-                  <h4 class="text-red">Post Relacionados</h4> 
+                  <h4 class="text-red">Entradas recientes</h4> 
                 
                   <?php while ( $r->have_posts() ) : $r->the_post(); ?>
                      <a class="text-gray" href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?> - </a>
@@ -84,12 +109,16 @@
 
        <div class="mx-5">
 				<?php wp_tag_cloud( array('number' => 7) );  ?>
-			</div>
+      </div>
+       <div class="my-3">
+          <h4 class="text-red">Visita nuesro Facebook</h4> 
+         <div class="fb-page" data-href="https://www.facebook.com/evanzuperu" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/evanzuperu" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/evanzuperu">Evanzu</a></blockquote></div>
+       </div>
+
     </div>
   </div>
        <div>
-          <span class="text-red">Comentarios</span>
-        
+          <div class="title-comentarios">Comentarios</div>
           <?php comments_template( '', true ); ?>
         </div>
   </div> 

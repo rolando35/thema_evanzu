@@ -214,3 +214,6 @@ $("ul > li button").click(function () {
      type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
      </script>
 <!--End of Zopim Live Chat Script-->
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0&appId=2445204955725559&autoLogAppEvents=1" nonce="DuWlPR3T"></script>
