@@ -1816,6 +1816,7 @@ select option {
 }
 
 .avatar {
+  border-radius: 50%;
   width: 5% !important;
   height: 5% !important;
 }
