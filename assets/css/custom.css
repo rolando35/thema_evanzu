@@ -1828,9 +1828,13 @@ select option {
   height: 5% !important;
 }
 
+.children,
+.commentlist {
+  list-style-type: none;
+}
+
 .commentlist {
   width: 80%;
-  list-style-type: none;
 }
 
 .comment-body {
@@ -1838,6 +1842,7 @@ select option {
   padding: 2% 3%;
   border-radius: 8px;
   list-style-type: none;
+  margin: 2.5% 0%;
 }
 
 .fn a,
