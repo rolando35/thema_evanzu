@@ -259,11 +259,8 @@ function dcms_enviar_contenido()
 	$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
 	$send_form = mail($to,$subject,$message,$headers);
 	if( $send_form  ){
-		echo "<span class='text-red' style='font-size:2rem; color:white;'>  correo enviado <span> ";
+		echo "<span class='text-red' style='font-size:2rem;'>  correo enviado <span> ";
 		 global $wpdb;
-			 $tabla = $wpdb->prefix . 'ev_formulario_cotizacion';
-			 echo 'Impriendo el dato de la tabla carjo :'.$tabla;
-		
 				$wpdb->insert( 
 					'ev_formulario_cotizacion', 
 					array( 
