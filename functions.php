@@ -220,7 +220,7 @@ function dcms_enviar_contenido()
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
 
-  echo $message = "
+   $message = "
     <html>
     	<head>
 		<title>Email de contactanos EVANZU</title>
