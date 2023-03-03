@@ -208,7 +208,7 @@ Template Name: Home
 
                 <div class="texto-vertical text-light d-flex flex-column align-items-center mb-3">
                     <i class="btn-open-i" >Ahora que estás inclinando la cabeza para leer, escríbenos.</i> <br>
-                    <span class="hurme-bold-4  btn-open-modal">ESCRÍBENOS</span>
+                    <span class="hurme-bold-4  btn-open-modal">COTIZA AQUÍ</span>
                 </div>
             </div>
                 <div class="mt-5c" style="z-index: 1;">

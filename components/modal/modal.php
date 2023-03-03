@@ -494,10 +494,12 @@
         submitHandler: function (e) {
           var name = $("#nombre").val();
           var mail =  $("#correo").val()
-          var phone =  $("#telefono").val()
+          var phone =  $("#celular").val()
+          var subservice =  $("#subservicio").val()
+          var service =  $("#servicio").val()
           var business =  $("#empresa").val()
           var direction =  $("#direccion").val()
-          var message = $("#nensaje").val();
+          var message = $("#mensaje").val();
           
           $.ajax({
             url: '<?php echo admin_url('admin-ajax.php') ?>',
@@ -507,6 +509,8 @@
               nombre: name,
               correo:mail,
               telefono:phone,
+              servicio:service,
+              subservicio:subservice,
               empresa: business,
               direccion: direction,
               mensaje: message

@@ -204,19 +204,23 @@ add_action('wp_ajax_cotization','dcms_enviar_cotization');
 
 function dcms_enviar_contenido()
 {
-	$name = $_POST['nombre'];	
-	$correo = $_POST['correo'];	
-	$telefono = $_POST['telefono'];	
-	$empresa = $_POST['empresa'];	
-	$direccion = $_POST['direccion'];	
-	$mensaje = $_POST['mensaje'];	
-    sleep(1);
+	$name = sanitize_text_field($_POST['nombre']);	
+	$correo = sanitize_email ($_POST['correo']);	
+	$telefono = sanitize_text_field($_POST['telefono']);	
+	$empresa = sanitize_text_field($_POST['empresa']);
+	$servicio = $_POST['servicio'];	
+	$subservicio = $_POST['subservicio'];	
+	$direccion =sanitize_text_field($_POST['direccion']);	
+	$mensaje = sanitize_textarea_field($_POST['mensaje']);	
+
+	// var_dump($_POST);
+   # sleep(1);
 	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$name.", en breve nos contactaremos contigo, ¡gracias! </span> ";
 	
-	$to = "rolando@evanzu.com,ruth@evanzu.com";
+	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
 
-   $message = "
+  echo $message = "
     <html>
     	<head>
 		<title>Email de contactanos EVANZU</title>
@@ -225,27 +229,68 @@ function dcms_enviar_contenido()
 		<p>Contenido del Email</p>
 		<table>
 		<tr>
-		<th>nombre: ".$name."</th>
-		<th>correo: ".$correo."</th>
-		<th>telefono:".$telefono."</th>
-		<th>empresa:".$empresa."</th>
-		<th>direccion:".$direccion."</th>
-		<th>mensaje:".$mensaje."</th>
+		<th>Nombre: ".$name."</th>
+		<th>Correo: ".$correo."</th>
+		</tr>
+		<tr>
+		<th>Telefono: ".$telefono."</th>
+		<th>Empresa: ".$empresa."</th>
+		</tr>
+		<tr>
+		<th>Servicio: ".$servicio."</th>
+		<th>Sub servicio: ".$subservicio."</th>
+		</tr>
+		<tr>
+		<th>Direccion: ".$direccion."</th>
+		</tr>
+		<tr>
+		<th COLSPAN='2'>Mensaje: ".$mensaje."</th>
 		</tr>
 		</table>
 		</body>
 		</html>
 ";
 
-// Always set content-type when sending HTML email
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+	// Always set content-type when sending HTML email
+	$headers = "MIME-Version: 1.0" . "\r\n";
+	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-// More headers
-$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
-$correo = mail($to,$subject,$message,$headers);
-if( $correo ) echo "<span class='text-red' style='font-size:2rem;'>  correo enviado <span> ";
-// else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+	// More headers
+	$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
+	$send_form = mail($to,$subject,$message,$headers);
+	if( $send_form  ){
+		echo "<span class='text-red' style='font-size:2rem; color:white;'>  correo enviado <span> ";
+		 global $wpdb;
+			 $tabla = $wpdb->prefix . 'ev_formulario_cotizacion';
+			 echo 'Impriendo el dato de la tabla carjo :'.$tabla;
+		
+				$wpdb->insert( 
+					'ev_formulario_cotizacion', 
+					array( 
+						'nombre' => $name, 
+						'email' => $correo, 
+						'mensaje' => $mensaje,
+						'empresa' => $empresa,
+					    'servicio' => $servicio,
+						'subservicio' => $subservicio,
+						'direccion' => $direccion,
+						'telefono' => $telefono
+					), 
+					array( 
+						'%s', 
+						'%s', 
+						'%s',
+						'%s', 
+						'%s', 
+						'%s',
+						'%s', 
+						'%s' 
+					) 
+			);
+               
+
+		mail($correo,$subject,'Hola nos contactado con ustedes',$headers); 
+	}else{echo "<span style='color:blue; font-size:12rem;'> error<span> ";} 
 }
 
 function dcms_enviar_postulacion()
@@ -331,9 +376,11 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
+$headers .= 'From: <Evanzu>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
-if( $correo );
+if( $correo ){
+	mail($email,$subject,'Hola nos contactado con ustedes',$headers); 
+} 
  else echo "<span style='color:red; font-size:2rem;'> Error correo no enviado <span> ";
 }
 
@@ -508,5 +555,55 @@ function display_image_column_value( $columns, $column, $id ) {
 $image_id = get_term_meta ( $term_id, 'image_id', true );
 echo wp_get_attachment_image ( $image_id, 'full' );
 
+add_action( 'admin_menu', 'formulario_contacto_menu' );
+
+function formulario_contacto_menu() {
+    add_menu_page( 'Formulario de cotizacion', 'Formulario de cotización', 'manage_options', 'formulario-contacto', 'formulario_contacto_pagina' );
+}
+ 
+function formulario_contacto_pagina() {
+    global $wpdb;
+	
+	  $registros = $wpdb->get_results( "SELECT * FROM ev_formulario_cotizacion" );
+	//    echo "Registro #1. Nombre: " . $registros[0]->nombre . ", Email: " . $registros[0]->email . "<br/>";
+    echo '<h1 class="wp-heading-inline">Contenido Formulario</h1>
+                     <div style="margin: 10px 20px;">';
+   	echo  $result = '';
+		foreach ($registros as $item) {
+			$result .= '<tr>
+				<td class="title column-title has-row-actions column-primary page-title">'.$item->id.'</td>
+				<td>'.$item->nombre.'</td>
+				<td>'.$item->email.'</td>
+				<td>'.$item->empresa.'</td>
+				<td>'.$item->telefono.'</td>
+				<td>'.$item->mensaje.'</td>
+				<td>'.$item->servicio.'</td>
+				<td>'.$item->subservicio.'</td>
+				<td>'.$item->direccion.'</td>
+				<td>'.$item->fecha.'</td>
+			</tr>';
+		}
+
+		echo $template = '<table  class="wp-list-table widefat fixed striped table-view-list pages">
+					<thead>
+		             <tr class="iedit author-self level-0  type-page status-publish hentry">
+			            <th scope="col" class="manage-column">ID</th>
+			            <th scope="col" class="manage-column">Nombre</th>
+						<th scope="col" class="manage-column">Correo</th>
+						<th scope="col" class="manage-column">Empresa</th>
+						<th scope="col" class="manage-column">Telefono</th>
+						<th scope="col" class="manage-column">Mensaje</th>
+						<th scope="col" class="manage-column">Servicio</th>
+						<th scope="col" class="manage-column">Sub Servicio</th>
+						<th scope="col" class="manage-column">Dirección</th>
+						<th scope="col" class="manage-column">Fecha</th>
+					  </tr>
+					</thead>
+					<tbody>
+					 '.$result.'
+					 </tbody>
+			        </table> </div>';
+  
+}
 ?>
 
