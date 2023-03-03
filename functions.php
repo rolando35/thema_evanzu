@@ -226,7 +226,7 @@ function dcms_enviar_contenido()
 		<title>Email de contactanos EVANZU</title>
 		</head>
 		<body>
-		<p>Contenido del Email</p>
+		<p>Contenido de formulario cotización</p>
 		<table>
 		<tr>
 		<th>Nombre: ".$name."</th>
