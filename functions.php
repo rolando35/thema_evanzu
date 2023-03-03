@@ -217,9 +217,8 @@ function dcms_enviar_contenido()
    # sleep(1);
 	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$name.", en breve nos contactaremos contigo, ¡gracias! </span> ";
 	
-	$to = "rolando@evanzu.com";
-    $subject = "Evanzu contacto";
-
+   $to = "rolando@evanzu.com,ruth@evanzu.com";
+   $subject = "Evanzu contacto";
    $message = "
     <html>
     	<head>
@@ -256,7 +255,7 @@ function dcms_enviar_contenido()
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 	// More headers
-	$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
+	$headers .= 'From: <evanzu.com>' . "\r\n";   
 	$send_form = mail($to,$subject,$message,$headers);
 	if( $send_form  ){
 		echo "<span class='text-red' style='font-size:2rem;'>  correo enviado <span> ";
