@@ -285,8 +285,8 @@ function dcms_enviar_contenido()
 					) 
 			);
                
-
-		mail($correo,$subject,'Hola nos contactado con ustedes',$headers); 
+        $response_client = "<span style='font-size:1.5rem;'> Hola ".$name." en breve nos contactaremos contigo, ¡gracias!. </span> ";
+		mail($correo,$subject,$response_client,$headers); 
 	}else{echo "<span style='color:blue; font-size:12rem;'> error<span> ";} 
 }
 
