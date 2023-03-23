@@ -316,7 +316,7 @@ function dcms_enviar_postulacion()
 	// $to = "rolando@evanzu.com,ruth@evanzu.com";
 	$to = "ruth@evanzu.com";
     $subject = "Evanzu contacto";
-	$boundary = md5(date('r', time()));
+	//$boundary = md5(date('r', time()));
 	
    $message = "
     <html>
@@ -349,16 +349,21 @@ function dcms_enviar_postulacion()
 		</html>
 ";
 
-$message .= chunk_split(base64_encode($file_content));
-$message .= "\r\n--PHP-mixed-$boundary--";
+// $message .= chunk_split(base64_encode($file_content));
+// $message .= "\r\n--PHP-mixed-$boundary--";
 
 	// Always set content-type when sending HTML email
 	$headers = "MIME-Version: 1.0" . "\r\n";
-	//$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= "\r\nContent-Type: multipart/mixed; boundary=\"PHP-mixed-$boundary\"\r\n";
+	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    //$headers .= "\r\nContent-Type: multipart/mixed; boundary=\"PHP-mixed-$boundary\"\r\n";
 	// More headers
+
 	$headers .= 'From: <evanzu.com>' . "\r\n";   
-	$correo = mail($to,$subject,$message,$headers);
+
+	$attachments = array(ABSPATH . $file_content);
+
+	// $correo = mail($to,$subject,$message,$headers);
+	$correo = wp_mail($to,$subject,$message,$headers,$attachments);
 	if( $correo ) echo "<span style='color: transparent; font-size:2rem;'>  correo enviado <span> ";
 	 else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 }
