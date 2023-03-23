@@ -312,7 +312,7 @@ function dcms_enviar_postulacion()
 	 $file_temp = $_FILES['file']['tmp_name'];
 	 $file_content = file_get_contents($file_temp);
      $file_mime_type = mime_content_type($file_temp);
-
+echo  $file_temp;
 	// $to = "rolando@evanzu.com,ruth@evanzu.com";
 	$to = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
