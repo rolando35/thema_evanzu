@@ -365,7 +365,7 @@ function dcms_enviar_postulacion()
 	// $correo = mail($to,$subject,$message,$headers);
 	$correo = wp_mail($to,$subject,$message,$headers,$attachments);
 	if( $correo ) echo "<span style='color: transparent; font-size:2rem;'>  correo enviado <span> ";
-	 else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+	 else echo "<span style='color:blue; font-size:2rem;'> error nda rerer<span> ";
 }
 
 function dcms_enviar_cotization()
