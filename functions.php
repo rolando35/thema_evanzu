@@ -313,7 +313,8 @@ function dcms_enviar_postulacion()
 	 $file_content = file_get_contents($file_temp);
      $file_mime_type = mime_content_type($file_temp);
 
-	$to = "rolando@evanzu.com,ruth@evanzu.com";
+	// $to = "rolando@evanzu.com,ruth@evanzu.com";
+	$to = "ruth@evanzu.com";
     $subject = "Evanzu contacto";
 	$boundary = md5(date('r', time()));
 	
@@ -359,7 +360,7 @@ $message .= "\r\n--PHP-mixed-$boundary--";
 	$headers .= 'From: <evanzu.com>' . "\r\n";   
 	$correo = mail($to,$subject,$message,$headers);
 	if( $correo ) echo "<span style='color: transparent; font-size:2rem;'>  correo enviado <span> ";
-	// else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
+	 else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
 }
 
 function dcms_enviar_cotization()
