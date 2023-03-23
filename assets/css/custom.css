@@ -83,6 +83,11 @@
   font-size: 16px;
   line-height: 1.5;
 }
+
+.w-35 {
+  width: 35%;
+}
+
 .w-60 {
   width: 60%;
 }
@@ -1708,6 +1713,28 @@ a.link-circle {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+.form-controls-service {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #fd73a7;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-controls-service::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
 /* ::placeholder {
   color: red;
   opacity: 1; 
@@ -1722,6 +1749,31 @@ a.link-circle {
     column-count: 5;
   }
 } */
+
+input[type="radio"] {
+  accent-color: #fd73a7;
+}
+
+input[type="text"]:focus {
+  border: 3px solid red !important;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+  border-top: 0.125rem solid #cceedd;
+  border-bottom: 0.125rem solid #cceedd;
+  border-left: 0.125rem solid #cceedd;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+  border-top: 0.125rem solid #cceedd;
+  border-right: 0.125rem solid #cceedd;
+  border-bottom: 0.125rem solid #cceedd;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+  border-top: 0;
+  border-bottom: 0.125rem solid #cceedd;
+}
 
 /*****Text responsive boostrap*******/
 html {
@@ -1815,8 +1867,8 @@ select option {
 
 #submit {
   border-radius: 23px !important;
-  background: #ed1164 !important;
-  color: white !important;
+  background: white !important;
+  color: #ed1164 !important;
   padding: 0.8% !important;
   margin-top: 1.5% !important;
   border: solid 1px !important;
@@ -1853,4 +1905,14 @@ select option {
 
 .list-relational-post .attachment-post-thumbnail {
   border-radius: unset;
+}
+
+#circle-icon {
+  border-radius: 50%;
+  background-color: #fd73a7;
+  padding: 8px 6px;
+}
+
+.form-service {
+  border-radius: 13px;
 }

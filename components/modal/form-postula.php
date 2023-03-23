@@ -322,17 +322,24 @@ label[for="file"] {
           var file =  $("#file").val()
           var message =  $("#message").val()
           
+        dataobj = new FormData(document.getElementById("postulation"))
+        dataobj.append('action','postulate')
+        
           $.ajax({
             url: '<?php  echo admin_url('admin-ajax.php') ?>',
             type: "post",
-            data: {
-              action: "postulate",
-              fullname,
-              profile,
-              phone,
-              file,
-              message
-            },
+            // data: {
+            //   action: "postulate",
+            //   fullname,
+            //   profile,
+            //   phone,
+            //   file,
+            //   message
+            // },
+            data: dataobj,
+            enctype: 'multipart/form-data',
+            processData: false, 
+            contentType: false,
             beforeSend: function () {
               $("#success").show()
               $("#success").html("<span style='color:white;font-size:2rem;'>Cargando ...</span>")

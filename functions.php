@@ -220,19 +220,28 @@ function dcms_enviar_contenido()
    $to = "rolando@evanzu.com,ruth@evanzu.com";
    $subject = "Evanzu contacto";
    $message = "
-    <html>
+	<html>
     	<head>
 		<title>Email de contactanos EVANZU</title>
+			<style>
+		    table{
+				text-align: left;
+				}
+
+			td, th {
+				vertical-align: middle;
+				}
+		</style> 
 		</head>
 		<body>
 		<p>Contenido de formulario cotización</p>
 		<table>
 		<tr>
-		<th>Nombre: ".$name."</th>
-		<th>Correo: ".$correo."</th>
+		<th><strong>Nombre:</strong> ".$name."</th>
+		<th><strong>Correo:</strong> ".$correo."</th>
 		</tr>
 		<tr>
-		<th>Telefono: ".$telefono."</th>
+		<th><strong>Telefono:</strong> ".$telefono."</th>
 		<th>Empresa: ".$empresa."</th>
 		</tr>
 		<tr>
@@ -296,37 +305,58 @@ function dcms_enviar_postulacion()
 	$phone = $_POST['phone'];	
 	$file = $_POST['file'];	
 	$message = $_POST['message'];
-  sleep(1);
-	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$fullname." en breve nos contactaremos contigo, ¡gracias!. </span> ";
-	
+  
+	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$fullname." en breve nos contactaremos contigo, ¡gracias! </span> ";
+	echo "<br>";
+	 $file_name = $_FILES['file']['name'];
+	 $file_temp = $_FILES['file']['tmp_name'];
+	 $file_content = file_get_contents($file_temp);
+     $file_mime_type = mime_content_type($file_temp);
+
 	$to = "rolando@evanzu.com,ruth@evanzu.com";
     $subject = "Evanzu contacto";
-
+	$boundary = md5(date('r', time()));
+	
    $message = "
     <html>
-    	<head>
-		<title>Email de contactanos EVANZU</title>
+		<head>
+		<title>Formulario de solucitud de empleo</title>
+		<style>
+		    table{
+				text-align: left;
+				}
+
+			td, th {
+				vertical-align: middle;
+				}
+		</style> 
 		</head>
 		<body>
-		<p>Contenido del Email</p>
+		<p>Contenido de formulario de solicitud de empleo </p>
 		<table>
 		<tr>
-		<th>Nombre Completo: ".$fullname."</th>
-		<th>Perfil: ".$profile."</th>
-		<th>telefono:".$phone."</th>
-		<th>CV:".$file."</th>
-		<th>mensaje:".$message."</th>
+		<th><strong>Nombre Completo:</strong> ".$fullname."</th>
+		<th><strong>Perfil:</strong>".$profile."</th>
 		</tr>
+		<tr>
+		<th><strong>telefono:</strong>".$phone."</th>
+		<th><strong>CV:</strong>".$_FILES['file']['name']."</th>
+		</tr>
+		<th COLSPAN='2'><strong>mensaje:</strong>".$message."</th>	
 		</table>
 		</body>
 		</html>
 ";
+
+$message .= chunk_split(base64_encode($file_content));
+$message .= "\r\n--PHP-mixed-$boundary--";
+
 	// Always set content-type when sending HTML email
 	$headers = "MIME-Version: 1.0" . "\r\n";
-	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
+	//$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers .= "\r\nContent-Type: multipart/mixed; boundary=\"PHP-mixed-$boundary\"\r\n";
 	// More headers
-	$headers .= 'From: <rolando@evanzu.com>' . "\r\n";   
+	$headers .= 'From: <evanzu.com>' . "\r\n";   
 	$correo = mail($to,$subject,$message,$headers);
 	if( $correo ) echo "<span style='color: transparent; font-size:2rem;'>  correo enviado <span> ";
 	// else echo "<span style='color:blue; font-size:2rem;'> error<span> ";
@@ -372,7 +402,7 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <Evanzu>' . "\r\n";   
+$headers .= 'From: <Evanzu.com>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
 if( $correo ){
 	mail($email,$subject,'Hola nos contactado con ustedes',$headers); 

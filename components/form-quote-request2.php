@@ -1,10 +1,116 @@
 <style>
 	p.error{ color: red; font-size: 0.8em; }
 </style>
-<div class="bg-red box-container-contact">
-	<?php $directory_points =
+
+
+<div class="bg-smooth-gray box-container-contact">
+	<?php $directory_points =  get_template_directory_uri().'/assets/images/form-quote-request/point-group.svg'; ?> 
+
+	  <form action="" id="<?php echo $args['idform' ]; ?>" class="bg-red form-service align-content-center container">
+			<div class="">
+					  <div class="d-flex flex-column flex-lg-row justify-content-center">
+					     <div class="my-4 text-center text-white hurme-simple-black <?php echo $args['titleClass']; ?>">
+                              <?php echo $args['title']; ?>	
+						 </div>
+							
+							
+						</div>
+				 
+				   <div class=" d-flex flex-column flex-lg-row justify-content-center"	>								
+							<div class="w-35 mr-0 mr-lg-2">
+								<input
+									type="text"
+									id="mail"
+									placeholder="E-mail"
+									class="form-controls-service w-100"
+									name="mail"
+								/>
+							</div>
+							<div class="w-35 ml-0 ml-lg-2">
+								<input
+									type="text"
+									id="cellphone"
+									placeholder="Celular"
+									class="form-controls-service w-100"
+									name="cellphone"
+								/>
+							</div>
+					</div>
+					<div class="d-flex flex-column flex-lg-row justify-content-center my-3"	>								
+							<div class="w-35 mr-0 mr-lg-2 input-group input-group-lg">
+								<input
+									type="text"
+									id="name"
+									placeholder="Nombre"
+									class="form-controls-service w-100"
+									name="name"
+								/>
+							</div>
+							<div class="w-35 ml-0 ml-lg-2 input-group input-group-lg">
+								<input
+									type="text"
+									id="subservice"
+									placeholder="Sub-servicio"
+									class="form-controls-service w-100"
+									name="subservice"
+								/>
+							</div>
+					</div>
+
+					<div class="text-white w-75 mx-auto pl-3">
+                       Presupuesto:
+					</div>
+					
+					<div class="d-flex flex-column flex-lg-row justify-content-center my-3"	>	
+                            <div class="form-check  mx-3">
+								<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+								<label class="form-check-label text-white" for="radio1">
+									 500 USD - 1,500 USD
+								</label>
+								</div>
+						<div class="form-check mx-3">
+							<input type="radio" class="form-check-input" id="radio2" name="optradio" value="option1">
+							<label class="form-check-label text-white" for="radio2">
+								1,500 USD - 2,500 USD
+							</label>
+						</div>
+
+						<div class="form-check  mx-3">
+							<input type="radio" class="form-check-input" id="radio3" name="optradio" value="option1">
+							<label class="form-check-label text-white" for="radio3">
+								2,500 USD a más
+							</label>
+						</div>
+					</div>
+
+
+					<div class="d-flex flex-column flex-lg-row justify-content-center my-5">
+						<button
+							type="submit"
+							class="submit btn rounded-pill text-white my-1 p-2 btn-sm button-contact"
+							id="submit"
+						>
+							<span class="hurme-bold-4">Solicita tu cotización</span>
+                            <span id="circle-icon">
+								<svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.72217 6.76643H17.1765M17.1765 6.76643L12.025 1.61499M17.1765 6.76643L12.025 11.9179" stroke="white" stroke-width="2.57572" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+							</span>
+							
+						</button>
+				    </div>	
+				</div>  
+			     
+		</form>
+				<div id="<?php echo $args['idparagraph']; ?>" class="success_msg" style="display:none; margin-top:2%;font-size: 1rem;text-align:center;">Message Sent Successfully</div>
+				<div class="error_msg" style="display:none">Message Not Sent, There is some error.</div>
+  </div>
+
+ <!-- <div class="bg-red box-container-contact">
+	<?php /* $directory_points =
      get_template_directory_uri() .
-     '/assets/images/form-quote-request/point-group.svg'; ?>
+     '/assets/images/form-quote-request/point-group.svg'; */?>
 
 	<div class="container">
 		<div class="row justify-content-center">
@@ -100,7 +206,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 <script>
