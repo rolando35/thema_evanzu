@@ -53,7 +53,7 @@ input[type="text"]:focus {
 @media only screen and (max-width: 600px) {
 
 	.form-service {
-      margin: 0 10%;
+      margin: 0 10%x;
     }
 }
 
