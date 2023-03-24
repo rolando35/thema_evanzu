@@ -67,7 +67,12 @@ input[type="text"]:focus {
 
 	.w-75 {
     width: 100%!important;
-    }
+	}
+	
+	#send-box-button{
+		margin: auto;
+		width: 70%;
+	}
 }
 
 </style>
@@ -154,7 +159,7 @@ input[type="text"]:focus {
 					</div>
 
 
-					<div class="d-flex flex-column flex-lg-row justify-content-center my-5">
+					<div id="send-box-button" class="d-flex flex-column flex-lg-row justify-content-center my-5">
 						<button
 							type="submit"
 							class="submit btn rounded-pill text-white my-1 p-2 btn-sm button-contact"
@@ -163,8 +168,8 @@ input[type="text"]:focus {
 							<span class="hurme-bold-4">Solicita tu cotización</span>
                             <span id="circle-icon">
 								<svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.72217 6.76643H17.1765M17.1765 6.76643L12.025 1.61499M17.1765 6.76643L12.025 11.9179" stroke="white" stroke-width="2.57572" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+								<path d="M1.72217 6.76643H17.1765M17.1765 6.76643L12.025 1.61499M17.1765 6.76643L12.025 11.9179" stroke="white" stroke-width="2.57572" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
 
 							</span>
 							
