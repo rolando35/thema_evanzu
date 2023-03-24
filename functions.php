@@ -309,63 +309,72 @@ function dcms_enviar_postulacion()
 	echo "<span style='color:white; font-size:1.5rem;'> Hola ".$fullname." en breve nos contactaremos contigo, ¡gracias! </span> ";
 	echo "<br>";
 	 $file_name = $_FILES['file']['name'];
-	 $file_temp = $_FILES['file']['tmp_name'];
-	 $file_content = file_get_contents($file_temp);
-     $file_mime_type = mime_content_type($file_temp);
-echo  $file_temp;
+	 $file_temp_name = $_FILES['file']['tmp_name'];
+	 $file_content = file_get_contents($file_temp_name);
+     $file_mime_type = mime_content_type($file_temp_name);
+     echo  $file_temp_name;
 	// $to = "rolando@evanzu.com,ruth@evanzu.com";
-	$to = "rolando@evanzu.com";
+	$from = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
-	//$boundary = md5(date('r', time()));
-	
-   $message = "
-    <html>
-		<head>
-		<title>Formulario de solucitud de empleo</title>
-		<style>
-		    table{
-				text-align: left;
-				}
+	$boundary = md5(date('r', time()));
+	$message = 'Este es el cuerpo del correo electrónico';
+//    $message = "
+//     <html>
+// 		<head>
+// 		<title>Formulario de solucitud de empleo</title>
+// 		<style>
+// 		    table{
+// 				text-align: left;
+// 				}
 
-			td, th {
-				vertical-align: middle;
-				}
-		</style> 
-		</head>
-		<body>
-		<p>Contenido de formulario de solicitud de empleo </p>
-		<table>
-		<tr>
-		<th><strong>Nombre Completo:</strong> ".$fullname."</th>
-		<th><strong>Perfil:</strong>".$profile."</th>
-		</tr>
-		<tr>
-		<th><strong>telefono:</strong>".$phone."</th>
-		<th><strong>CV:</strong>".$_FILES['file']['name']."</th>
-		</tr>
-		<th COLSPAN='2'><strong>mensaje:</strong>".$message."</th>	
-		</table>
-		</body>
-		</html>
-";
+// 			td, th {
+// 				vertical-align: middle;
+// 				}
+// 		</style> 
+// 		</head>
+// 		<body>
+// 		<p>Contenido de formulario de solicitud de empleo </p>
+// 		<table>
+// 		<tr>
+// 		<th><strong>Nombre Completo:</strong> ".$fullname."</th>
+// 		<th><strong>Perfil:</strong>".$profile."</th>
+// 		</tr>
+// 		<tr>
+// 		<th><strong>telefono:</strong>".$phone."</th>
+// 		<th><strong>CV:</strong>".$_FILES['file']['name']."</th>
+// 		</tr>
+// 		<th COLSPAN='2'><strong>mensaje:</strong>".$message."</th>	
+// 		</table>
+// 		</body>
+// 		</html>
+// ";
 
 // $message .= chunk_split(base64_encode($file_content));
 // $message .= "\r\n--PHP-mixed-$boundary--";
 
+
+
 	// Always set content-type when sending HTML email
-	$headers = "MIME-Version: 1.0" . "\r\n";
-	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+	// $headers = "MIME-Version: 1.0" . "\r\n";
+	// $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     //$headers .= "\r\nContent-Type: multipart/mixed; boundary=\"PHP-mixed-$boundary\"\r\n";
 	// More headers
+	//$headers .= 'From: <evanzu.com>' . "\r\n";   
+	//$attachments = array(ABSPATH . $file_content);
 
-	$headers .= 'From: <evanzu.com>' . "\r\n";   
+$headers = "From: $from\r\nReply-To: $from";
+  $headers .= "\r\nContent-Type: multipart/mixed; boundary=\"PHP-mixed-$boundary\"\r\n";
+  $message = "--PHP-mixed-$boundary\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: 7bit\r\n\r\n$message\r\n\r\n";
+  $message .= "--PHP-mixed-$boundary\r\nContent-Type: $file_mime_type; name=\"$file_name\"\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: attachment\r\n\r\n";
+  $message .= chunk_split(base64_encode($file_content));
+  $message .= "\r\n--PHP-mixed-$boundary--";
 
-	$attachments = array(ABSPATH . $file_content);
 
-	// $correo = mail($to,$subject,$message,$headers);
-	$correo = wp_mail('rolando@evanzu.com','testing','this is subscription',$attachments);
+	 $correo = mail($from,$subject,$message,$headers);
+	//$correo = wp_mail('rolando@evanzu.com','testing','this is subscription',$attachments);
 	if( $correo ) echo "<span style='color: transparent; font-size:2rem;'>  correo enviado <span> ";
-	 else echo "<span style='color:blue; font-size:2rem;'> error nda rerer<span> ";
+	else echo "<span style='color:blue; font-size:2rem;'> error nda rerer<span> ";
+
 }
 
 function dcms_enviar_cotization()
