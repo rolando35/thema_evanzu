@@ -58,7 +58,7 @@ input[type="text"]:focus {
 	
 	.w-35 {
 	  width: 100%;
-	  margin: 3% 0%;
+	  margin: 1% 0%;
     }
 }
 
