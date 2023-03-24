@@ -64,6 +64,10 @@ input[type="text"]:focus {
 	.form-check {
      margin:2% 0%;
 	}
+
+	.w-75 {
+    width: 100%!important;
+    }
 }
 
 </style>
