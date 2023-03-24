@@ -74,10 +74,8 @@ input[type="text"]:focus {
 		width: 70%;
 	}
 
-	#submit {
-   
-    padding: 0.8%  0 !important;
-    
+	#submit { 
+     padding: 3%  0 !important; 
 	}
 	
 	.my-5{	
