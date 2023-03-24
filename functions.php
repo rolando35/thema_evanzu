@@ -312,12 +312,11 @@ function dcms_enviar_postulacion()
 	 $file_temp_name = $_FILES['file']['tmp_name'];
 	 $file_content = file_get_contents($file_temp_name);
      $file_mime_type = mime_content_type($file_temp_name);
-     echo  $file_temp_name;
-	// $to = "rolando@evanzu.com,ruth@evanzu.com";
-	$from = "rolando@evanzu.com";
+	 $from = "rolando@evanzu.com,ruth@evanzu.com";
+	//$from = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
 	$boundary = md5(date('r', time()));
-	//$message = 'Este es el cuerpo del correo electrónico';
+
    $message = "
     <html>
 		<head>
@@ -373,7 +372,7 @@ function dcms_enviar_postulacion()
 	 $correo = mail($from,$subject,$message,$headers);
 	//$correo = wp_mail('rolando@evanzu.com','testing','this is subscription',$attachments);
 	if( $correo ) echo "<span style='color: transparent; font-size:2rem;'>  correo enviado <span> ";
-	else echo "<span style='color:blue; font-size:2rem;'> error nda rerer<span> ";
+	else echo "<span style='color:red; font-size:2rem;'> Error no se pudo enviar el correo, intente mas tarde<span> ";
 
 }
 
@@ -387,7 +386,7 @@ function dcms_enviar_cotization()
 	echo "<div style='color:white; font-size:1.5rem;'> En breve nos contactaremos contigo. ¡Gracias! </div> ";
 	
 	$to = "rolando@evanzu.com,ruth@evanzu.com";
-    $subject = "Evanzu contacto";
+    $subject = "Solicitud de trabajo evanzu";
 
    $message = "
     <html>
