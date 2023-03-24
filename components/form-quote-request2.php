@@ -50,6 +50,13 @@ input[type="text"]:focus {
   padding: 8px 6px;
 }
 
+@media only screen and (max-width: 600px) {
+
+	.form-service {
+      margin: 0 10%;
+    }
+}
+
 </style>
 
 

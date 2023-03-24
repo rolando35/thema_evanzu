@@ -383,14 +383,24 @@ function dcms_enviar_cotization()
 	$service = $_POST['service'];
 	$subservice = $_POST['subService'];
 
-	echo "<div style='color:white; font-size:1.5rem;'> En breve nos contactaremos contigo. ¡Gracias! </div> ";
+	echo "<div style='color:#ed1164; font-size:1.5rem;'> En breve nos contactaremos contigo. ¡Gracias! </div> ";
 	
-	$to = "rolando@evanzu.com,ruth@evanzu.com";
+	//$to = "rolando@evanzu.com,ruth@evanzu.com";
+	$to="rolando@evanzu.com";
     $subject = "Solicitud de trabajo evanzu";
 
    $message = "
     <html>
-    	<head>
+		<head>
+		<style>
+		    table{
+				text-align: left;
+				}
+
+			td, th {
+				vertical-align: middle;
+				}
+		</style> 
 		<title>Email de contactanos EVANZU</title>
 		</head>
 		<body>
@@ -419,7 +429,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <Evanzu.com>' . "\r\n";   
 $correo = mail($to,$subject,$message,$headers);
 if( $correo ){
-	mail($email,$subject,'Hola nos contactado con ustedes',$headers); 
+	//mail($email,$subject,'Hola nos contactado con ustedes',$headers); 
 } 
  else echo "<span style='color:red; font-size:2rem;'> Error correo no enviado <span> ";
 }
