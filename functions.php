@@ -363,7 +363,7 @@ echo  $file_temp;
 	$attachments = array(ABSPATH . $file_content);
 
 	// $correo = mail($to,$subject,$message,$headers);
-	$correo = wp_mail($to,$subject,$message,$headers,$attachments);
+	$correo = wp_mail('rolando@evanzu.com','testing','this is subscription',$attachments);
 	if( $correo ) echo "<span style='color: transparent; font-size:2rem;'>  correo enviado <span> ";
 	 else echo "<span style='color:blue; font-size:2rem;'> error nda rerer<span> ";
 }
