@@ -362,9 +362,9 @@ function dcms_enviar_postulacion()
 	//$headers .= 'From: <evanzu.com>' . "\r\n";   
 	//$attachments = array(ABSPATH . $file_content);
 
-$headers = "From: $from\r\nReply-To: $from";
+  $headers = "From: $from\r\nReply-To: $from";
   $headers .= "\r\nContent-Type: multipart/mixed; boundary=\"PHP-mixed-$boundary\"\r\n";
-  $message = "--PHP-mixed-$boundary\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: 7bit\r\n\r\n$message\r\n\r\n";
+  $message = "--PHP-mixed-$boundary\r\nContent-Type:text/html; charset=\"utf-8\"\r\nContent-Transfer-Encoding: 7bit\r\n\r\n$message\r\n\r\n";
   $message .= "--PHP-mixed-$boundary\r\nContent-Type: $file_mime_type; name=\"$file_name\"\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: attachment\r\n\r\n";
   $message .= chunk_split(base64_encode($file_content));
   $message .= "\r\n--PHP-mixed-$boundary--";
