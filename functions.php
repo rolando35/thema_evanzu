@@ -317,37 +317,37 @@ function dcms_enviar_postulacion()
 	$from = "rolando@evanzu.com";
     $subject = "Evanzu contacto";
 	$boundary = md5(date('r', time()));
-	$message = 'Este es el cuerpo del correo electrónico';
-//    $message = "
-//     <html>
-// 		<head>
-// 		<title>Formulario de solucitud de empleo</title>
-// 		<style>
-// 		    table{
-// 				text-align: left;
-// 				}
+	//$message = 'Este es el cuerpo del correo electrónico';
+   $message = "
+    <html>
+		<head>
+		<title>Formulario de solucitud de empleo</title>
+		<style>
+		    table{
+				text-align: left;
+				}
 
-// 			td, th {
-// 				vertical-align: middle;
-// 				}
-// 		</style> 
-// 		</head>
-// 		<body>
-// 		<p>Contenido de formulario de solicitud de empleo </p>
-// 		<table>
-// 		<tr>
-// 		<th><strong>Nombre Completo:</strong> ".$fullname."</th>
-// 		<th><strong>Perfil:</strong>".$profile."</th>
-// 		</tr>
-// 		<tr>
-// 		<th><strong>telefono:</strong>".$phone."</th>
-// 		<th><strong>CV:</strong>".$_FILES['file']['name']."</th>
-// 		</tr>
-// 		<th COLSPAN='2'><strong>mensaje:</strong>".$message."</th>	
-// 		</table>
-// 		</body>
-// 		</html>
-// ";
+			td, th {
+				vertical-align: middle;
+				}
+		</style> 
+		</head>
+		<body>
+		<p>Contenido de formulario de solicitud de empleo </p>
+		<table>
+		<tr>
+		<th><strong>Nombre Completo:</strong> ".$fullname."</th>
+		<th><strong>Perfil:</strong>".$profile."</th>
+		</tr>
+		<tr>
+		<th><strong>telefono:</strong>".$phone."</th>
+		<th><strong>CV:</strong>".$_FILES['file']['name']."</th>
+		</tr>
+		<th COLSPAN='2'><strong>mensaje:</strong>".$message."</th>	
+		</table>
+		</body>
+		</html>
+";
 
 // $message .= chunk_split(base64_encode($file_content));
 // $message .= "\r\n--PHP-mixed-$boundary--";
