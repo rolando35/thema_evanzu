@@ -78,7 +78,12 @@ input[type="text"]:focus {
    
     padding: 0.8%  0 !important;
     
-    }
+	}
+	
+	.my-5{	
+    margin-bottom: 0rem!important;
+    margin-top: 0rem!important;
+	}
 }
 
 </style>
