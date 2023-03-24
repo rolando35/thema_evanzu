@@ -314,7 +314,7 @@ function dcms_enviar_postulacion()
      $file_mime_type = mime_content_type($file_temp_name);
 	 $from = "rolando@evanzu.com,ruth@evanzu.com";
 	//$from = "rolando@evanzu.com";
-    $subject = "Evanzu contacto";
+    $subject = "Postulación Evanzu";
 	$boundary = md5(date('r', time()));
 
    $message = "
