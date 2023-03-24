@@ -15,6 +15,24 @@
 		border-radius: 0.25rem;
 		transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 		}
+	.form-controls-service::placeholder {
+		color: white;
+		opacity: 0.6;
+		}
+    
+input[type="radio"] {
+  accent-color: #fd73a7;
+}
+
+input[type="text"]:focus {
+  border: 3px solid red !important;
+}
+
+.form-service {
+  border-radius: 13px;
+}
+
+
 </style>
 
 
