@@ -73,6 +73,12 @@ input[type="text"]:focus {
 		margin: auto;
 		width: 70%;
 	}
+
+	#submit {
+   
+    padding: 0.8%  0 !important;
+    
+    }
 }
 
 </style>
