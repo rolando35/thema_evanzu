@@ -1,5 +1,8 @@
 <style>
 	p.error{ color: red; font-size: 0.8em; }
+	.w-35 {
+      width: 35%;
+    }
 	.form-controls-service {
 		display: block;
 		width: 100%;
