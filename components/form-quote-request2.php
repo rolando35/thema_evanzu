@@ -35,6 +35,20 @@ input[type="text"]:focus {
   border-radius: 13px;
 }
 
+#submit {
+    border-radius: 23px !important;
+    background: white !important;
+    color: #ed1164 !important;
+    padding: 0.8% !important;
+    margin-top: 1.5% !important;
+    border: solid 1px !important;
+}
+
+#circle-icon {
+  border-radius: 50%;
+  background-color: #fd73a7;
+  padding: 8px 6px;
+}
 
 </style>
 
