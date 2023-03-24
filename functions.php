@@ -382,7 +382,7 @@ function dcms_enviar_cotization()
 	$email = $_POST['email'];
 	$service = $_POST['service'];
 	$subservice = $_POST['subService'];
-
+	var_dump($_POST);
 	echo "<div style='color:#ed1164; font-size:1.5rem;'> En breve nos contactaremos contigo. ¡Gracias! </div> ";
 	
 	//$to = "rolando@evanzu.com,ruth@evanzu.com";

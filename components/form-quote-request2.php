@@ -89,8 +89,10 @@ input[type="text"]:focus {
 
 <div class="bg-smooth-gray box-container-contact">
 	<?php $directory_points =  get_template_directory_uri().'/assets/images/form-quote-request/point-group.svg'; ?> 
-
-	  <form action="" id="<?php echo $args['idform' ]; ?>" class="bg-red form-service align-content-center container">
+       <!--?php echo $args['idform' ]; ?-->
+	  <form action="" 
+	  id="basic-form"
+	  class="bg-red form-service align-content-center container">
 			<div class="">
 					  <div class="d-flex flex-column flex-lg-row justify-content-center">
 					     <div class="my-4 text-center text-white hurme-simple-black <?php echo $args['titleClass']; ?>">
@@ -137,6 +139,7 @@ input[type="text"]:focus {
 									placeholder="Sub-servicio"
 									class="form-controls-service w-100"
 									name="subservice"
+									value="<?php echo $args['idform']; ?>"
 								/>
 							</div>
 					</div>
@@ -147,20 +150,20 @@ input[type="text"]:focus {
 					
 					<div class="d-flex flex-column flex-lg-row justify-content-center my-3"	>	
                             <div class="form-check  mx-3">
-								<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+								<input type="radio" class="form-check-input"  name="optradio" value="500 USD - 1,500 USD">
 								<label class="form-check-label text-white" for="radio1">
 									 500 USD - 1,500 USD
 								</label>
 								</div>
 						<div class="form-check mx-3">
-							<input type="radio" class="form-check-input" id="radio2" name="optradio" value="option1">
+							<input type="radio" class="form-check-input"  name="optradio" value="1,500 USD - 2,500 USD">
 							<label class="form-check-label text-white" for="radio2">
 								1,500 USD - 2,500 USD
 							</label>
 						</div>
 
 						<div class="form-check  mx-3">
-							<input type="radio" class="form-check-input" id="radio3" name="optradio" value="option1">
+							<input type="radio" class="form-check-input"  name="optradio" value="2,500 USD a más">
 							<label class="form-check-label text-white" for="radio3">
 								2,500 USD a más
 							</label>
@@ -297,41 +300,75 @@ input[type="text"]:focus {
 
     (function ($) {
         
-        $("#<?php echo $args['idform']; ?>").validate({
+        // $("#<?php echo $args['idform']; ?>").validate({
+        // rules: {
+		// 			<?php echo $args['idwebsite']; ?>: {
+        //     required: true,
+        //     minlength: 10
+        //   },
+        //   <?php echo $args['idemail']; ?>: {
+        //     required: true,
+        //     email: true
+        //   }
+        // },
+        // messages : {
+        //   <?php echo $args['idwebsite']; ?>: {
+        //     required: "Este campo es obligatorio*.",
+        //     minlength: "Como mínimo tiene que tener 10 caracteres"
+        //   },
+		// 			<?php echo $args['idemail']; ?>: {
+        //       required: "Este campo es obligatorio*.",
+        //       email: "El correo tiene que tener un formato: abc@domain.tld"
+        //   }
+        // },
+
+        $("#basic-form").validate({
         rules: {
-					<?php echo $args['idwebsite']; ?>: {
+           mail: {
             required: true,
-            minlength: 10
-          },
-          <?php echo $args['idemail']; ?>: {
+			email: true,     
+           },
+           cellphone: {
+             required: true,
+           },
+           optradio: {
             required: true,
-            email: true
-          }
+           }
         },
         messages : {
-          <?php echo $args['idwebsite']; ?>: {
+          mail: {
             required: "Este campo es obligatorio*.",
-            minlength: "Como mínimo tiene que tener 10 caracteres"
+			 email: "El correo tiene que tener un formato: abc@domain.tld"
           },
-					<?php echo $args['idemail']; ?>: {
+           cellphone: {
               required: "Este campo es obligatorio*.",
-              email: "El correo tiene que tener un formato: abc@domain.tld"
-          }
+              number: "Por favor ingrese solo valores numéricos"
+           }
+           },
+           optradio: {
+             required: "Este campo es obligatorio*.",  
         },
 
         submitHandler: function (e) {
-          var website = $("#<?php echo $args['idwebsite']; ?>").val();
-          var email =  $("#<?php echo $args['idemail']; ?>").val()
-		  var service = "#<?php echo $args['idwebsite']; ?>"
-		  var subService = "#<?php echo $args['idform']; ?>"
+        //   var website = $("#<?php echo $args['idwebsite']; ?>").val();
+        //   var email =  $("#<?php echo $args['idemail']; ?>").val()
+		//   var service = "#<?php echo $args['idwebsite']; ?>"
+		//   var subService = "#<?php echo $args['idform']; ?>"
           
+		  var mail =  $("#mail").val()
+          var cellphone =  $("#cellphone").val()
+		  var radioValue = $("input[name='gender']:checked").val();
+          var service = "<?php echo $args['idwebsite']; ?>"
+		  var subService = "<?php echo $args['idform']; ?>"
+
+
           $.ajax({
             url: '<?php echo admin_url('admin-ajax.php'); ?>',
             type: "post",
             data: {
               action: "cotization",
-              website,
-              email,
+              cellphone,
+			  radioValue,
 			  service,
 			  subService
             },
