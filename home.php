@@ -234,7 +234,7 @@ Template Name: Home
 
       <!-- Modal body -->
       <div class="modal-body">
-        <img class=""
+        <img class="img-fluid"
                 src="<?php echo get_template_directory_uri() .'/assets/images'?>/COMUNICADO.png"
                 alt="Instagram"/>
          </div>
