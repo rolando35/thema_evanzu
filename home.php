@@ -225,7 +225,25 @@ Template Name: Home
     </video>
 </section>
 <!--////Second////-->
-<section>
+
+
+<!-- The Modal -->
+<div class="modal fade" id="avisos">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <img class=""
+                src="<?php echo get_template_directory_uri() .'/assets/images'?>/COMUNICADO.png"
+                alt="Instagram"/>
+         </div>
+
+    </div>
+  </div>
+</div>
+
+
     <div class="bg-red">
         <div class="container">
             <div class="row">
@@ -935,5 +953,15 @@ Template Name: Home
 ?>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>  
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>  -->
+
 <?php get_footer(); ?>
+<script>
+
+  (function ($) {
+       $(window).on('load', function()
+        {         
+            $('#avisos').modal('show');
+        });
+   })(jQuery);
+</script> 
